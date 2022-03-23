@@ -2,6 +2,7 @@
 node_modules
 dist
 .env
+cache
 
 # Private notes
 _notes/private/

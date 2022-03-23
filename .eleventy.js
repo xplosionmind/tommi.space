@@ -179,7 +179,9 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      layouts: '_layouts'
+      includes: 'includes',
+      layouts: 'layouts',
+      data: 'data'
     }
   }; // there should never be anything after the “return” function
 };
