@@ -3,6 +3,7 @@ node_modules
 dist
 .env
 cache
+package-lock.json
 
 # Private notes
 _notes/private/
