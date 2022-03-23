@@ -6,7 +6,7 @@ toc: false
 description: Why it is important to work with simple and specific scripts rather than dealing with complex extensive software
 aliases: Some scripts will do, Scripting, Low-level scripting
 permalink: /script/
-redirect_from: ['/a-script-will-do', /'scripting', '/some-scripts-will-do', '/some-scripts-would-do', '/low-level-scripting']
+redirect_from: ['/a-script-will-do/', '/scripting/']
 image: https://i.ytimg.com/vi/PPQ8m8xQAs8/hqdefault.jpg
 ---
 There is little need to look for fancy apps and customizable complex interfaces in order to achieve a comprehensive environment which constitutes a [[Nolan|Life dashboard]]. It should be sufficient, instead, to create nifty, simple, minimal, low-level, iper-specific and iper-personal scripts that allow to preserve some crucial characteristics:
