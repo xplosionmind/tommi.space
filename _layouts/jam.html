@@ -1,0 +1,71 @@
+---
+layout: wrapper
+---
+<main class='h-entry'>
+	<section class='row center'>
+		<a class='u-uid u-url' href='{{ page.url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{{ title }}</h1></a>
+		{% if subtitle %}
+			<h2>{{ subtitle }}</h2>
+		{% endif %}
+		<p class='metadata'>
+			{% if lang == 'it' %}
+				{% if location %}
+					{% for place in places %}
+						{% if place.name contains location %}
+							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render date-it.html, date: date %}</time>{% endif %}
+			{% else %}
+				{% if location %}
+					{% for place in places %}
+						{% if place.name contains location %}
+							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%e %B %Y' }}</time>{% endif %}
+			{% endif %}
+			<br>
+			{% if lang == 'it' %}
+				{% if updated %}
+					ultima modifica: 
+					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render date-it.html, date: updated %}</time>
+				{% endif %}
+			{% else %}
+				{% if updated %}
+					latest edit: 
+					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ updated | date: '%e %B %Y at %k:%m' }}</time>
+				{% endif %}
+			{% endif %}
+			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+		</p>
+	</section>
+
+	{% render page-tags.html, tags: tags, site: site, size: 'smaller' %}
+	{% render goto.html, lang: lang, path: page.inputPath %}
+
+	{% if toc %}
+		<aside id='toc'>
+			<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+			{{ content | toc }}
+		</aside>
+	{% endif %}
+
+	<div class='row'>
+		<div class='one column'>
+			<article class='e-content note{% if serif %} serif{% endif %}'>
+				{{ content }}
+			</article>
+		</div>
+	</div>
+
+	<div class='row'>
+		<div class='one column'>
+			{% render share.html, lang: lang, title: title, url: page.url %}
+			{% render backlinks.html, raw_url: page.url, all_pages: collections.all, lang: lang %}
+			{% render comments.html, lang: lang %}
+		</div>
+	</div>
+</main>
