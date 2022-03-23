@@ -10,7 +10,8 @@
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
-    "debug": "DEBUG=Eleventy* npm start"
+    "debug": "DEBUG=Eleventy* npm start",
+    "clean": "del-cli dist"
   },
   "repository": {
     "type": "git",
@@ -117,6 +118,7 @@
     "debug": "^4.3.2",
     "decamelize": "^1.2.0",
     "del": "^2.2.2",
+    "del-cli": "^4.0.1",
     "depd": "^1.1.2",
     "dependency-graph": "^0.11.0",
     "destroy": "^1.0.4",
