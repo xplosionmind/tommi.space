@@ -27,6 +27,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. page redirection language
 1. Blog posts pagination
 1. improved Wikilinks
+1. Backlinks
 1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 
 <br>

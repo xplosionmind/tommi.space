@@ -42,20 +42,11 @@ layout: wrapper
 </main>
 
 <div class='row'>
-	<div class='half column'>
+	<div class='one column'>
+		{% comment %}{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}{% endcomment %}
 		{% render 'share.html', lang: lang, title: title, url: page.url %}
-	</div>
-	<div class='half column'>
-		{% render 'listen-on.html', lang: lang %}
-	</div>
-</div>
-
-<div class='row'>
-	<div class='half column'>
-		{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}
-	</div>
-	<div class='half column'>
 		{% render 'comments.html', lang: lang %}
+		{% render 'listen-on.html', lang: lang %}
 	</div>
 </div>
 

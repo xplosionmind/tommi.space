@@ -64,7 +64,7 @@ layout: wrapper
 	<div class='row'>
 		<div class='one column'>
 			{% render 'share.html', lang: lang, title: title, url: page.url %}
-			{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}
+			{% comment %}{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}{% endcomment %}
 			{% render 'comments.html', lang: lang %}
 		</div>
 	</div>

@@ -1,5 +1,5 @@
 ---
-startingdate: 2021-03-06T23:08:56+01:00
+date: 2021-03-06T23:08:56+01:00
 updated: 2021-03-26T11:00:30+01:00
 tags: zen philosophy
 title: L’Arte del Procrastinare

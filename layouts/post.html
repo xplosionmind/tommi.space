@@ -50,11 +50,11 @@ layout: wrapper
 		</div>
 	</div>
 
-	<div class='row'>
+	{% comment %}<div class='row'>
 		<div class='one column'>
 		{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}
 		</div>
-	</div>
+	</div>{% endcomment %}
 
 	<div class='row'>
 		<div class='half column'>
