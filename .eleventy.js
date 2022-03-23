@@ -1,6 +1,7 @@
 const fs = require('fs');
 const miniHtml = require('html-minifier');
-const _ = require('lodash')
+const _ = require('lodash');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 
 // HTML Headers ID generation
 /* #TODO: what walue to pass as `html`?
@@ -57,15 +58,6 @@ module.exports = function(eleventyConfig) {
     //********//
    // Liquid //
   //********//
-  eleventyConfig.setLiquidOptions({
-    strictVariables: false,
-    strictFilters: false,
-    jekyllInclude: true,
-    //trimOutputLeft: true,
-    //trimOutputRight: true,
-    //trimTagLeft: true,
-    //trimTagRight: true,
-  });
   eleventyConfig.addLiquidFilter('reverse', (collection) => {
     const arr = [...collection];
     return arr.reverse();
@@ -124,7 +116,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
     ul: true,
   });
-  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'));
+  eleventyConfig.addPlugin(pluginRss);
+  // RSS filters
+  eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
+  eleventyConfig.addLiquidFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
+  eleventyConfig.addLiquidFilter('absoluteUrl', pluginRss.absoluteUrl);
+  eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
   eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
     sitemap: {
       hostname: 'https://tommi.space'

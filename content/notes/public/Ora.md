@@ -15,7 +15,7 @@ Sto:
 
 ## Organizzando <cite>Scambi Festival</cite>
 
-{% render scambi.html, lang: lang %}
+{% render 'scambi.html', lang: lang %}
 
 <br>
 <br>

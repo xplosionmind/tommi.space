@@ -26,11 +26,11 @@ From this page, it is possible to start navigating in The Jam. There are two dif
 
 Every single element in The Jam is connected to at least another one: at the end of every note, in the <strong><a href='#backlinks' target='_blank' title='This note’s backlinks'>backlinks</a></strong>, are listed all of the pages which link to the current one.
 
-{% render tags.html, site: site -%}
+{% render 'tags.html', site: site -%}
 
 <div class='row'>
 	<div class='half column'>
-		{% render lang-filter.html, lang: lang -%}
+		{% render 'lang-filter.html', lang: lang -%}
 	</div>
 	<div class='half column flex'>
 		<a class='red button' style='color:white;' href='/whole-jam' title='The Whole Jam'>The whole Jam</a>

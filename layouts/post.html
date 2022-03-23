@@ -16,7 +16,7 @@ layout: wrapper
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render date-it.html, date: date %}</time>{% endif %}
+				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: date %}</time>{% endif %}
 			{% else %}
 				{% if location %}
 					{% for place in places %}
@@ -31,8 +31,8 @@ layout: wrapper
 		</p>
 	</section>
 
-	{% render page-tags.html, tags: tags, site: site, size: 'smaller' %}
-	{% render goto.html, lang: lang, path: page.inputPath %}
+	{% render 'page-tags.html', tags: tags, site: site, size: 'smaller' %}
+	{% render 'goto.html', lang: lang, path: page.inputPath %}
 
 	{% if toc %}
 		<aside id='toc'>
@@ -52,16 +52,16 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='one column'>
-		{% render backlinks.html, raw_url: page.url, all_pages: collections.all, lang: lang %}
+		{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}
 		</div>
 	</div>
 
 	<div class='row'>
 		<div class='half column'>
-			{% render share.html, lang: lang, title: title, url: page.url %}
+			{% render 'share.html', lang: lang, title: title, url: page.url %}
 		</div>
 		<div class='half column'>
-			{% render comments.html, lang: lang %}
+			{% render 'comments.html', lang: lang %}
 		</div>
 	</div>
 </main>

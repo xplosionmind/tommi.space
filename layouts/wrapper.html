@@ -9,27 +9,27 @@
 		{% endfor %}
 	{% endif %}
 
-	{% render head.html, latex: latex, date: date, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout %}
+	{% render 'head.html', latex: latex, date: date, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout %}
 
 	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
 		<a id='scrollbutton' class='tool' href='#' aria-label='scroll to top' title='scroll to top'>
 			<svg class='button' viewBox='0 0 24 24' style='background:var(--deep)' aria-hidden='true'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--text)'/></svg>
 		</a>
 
-		{% render nav.html, lang: lang, alternate: alternate %}
+		{% render 'nav.html', lang: lang, alternate: alternate %}
 
 		{% if tags contains 'draft' or tags contains 'wip' %}
-			{% render draft.html, lang: lang %}
+			{% render 'draft.html', lang: lang %}
 		{% endif %}
 
 		{% if tags contains 'help' %}
-			{% render help.html, lang: lang, lang: lang %}
+			{% render 'help.html', lang: lang, lang: lang %}
 		{% endif %}
 
 		{{ content }}
 
 		<div class='row'>
-			{% render footer.html, lang: lang %}
+			{% render 'footer.html', lang: lang %}
 		</div>
 	
 		<script type='text/javascript'>

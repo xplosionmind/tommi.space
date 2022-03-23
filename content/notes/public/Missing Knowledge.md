@@ -1,13 +1,13 @@
 ---
 date: 2020-12-09T01:00:00+01:00
-updated: 2022-03-14T14:54:43+01:00
+updated: 2022-03-23T21:00:57+01:00
 tags:
   - knowledge
   - todo
 aliases: Learn, To learn
 description: |
   Directions to lead my curiosity towards, a.k.a. what I have to learn
-redirect_from: [/learn, /to-learn, /tolearn, /missingknowledge, /learning, /learning-path]
+redirect_from: [/learn/, /to-learn/]
 ---
 {{ description }}
 
@@ -55,6 +55,7 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 ## Geek
 
 1. Data analysis and graphs with LibreOffice
+1. [JSON-LD](https://json-ld.org/ 'JSON-LD')
 1. Learn and use [jq](https://github.com/stedolan/jq 'jq on GitHub')
 1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html 'Getting Started - Syncthing')
 1. [[LaTeX]]

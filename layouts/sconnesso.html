@@ -13,7 +13,7 @@ layout: wrapper
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render date-it.html, date: date %}</time>
+				<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: date %}</time>
 			{% else %}
 				{% if location %}
 					{% for place in places %}
@@ -28,7 +28,7 @@ layout: wrapper
 		</p>
 	</section>
 
-	{% render page-tags.html, tags: tags, site: site, size: 'smaller' %}
+	{% render 'page-tags.html', tags: tags, site: site, size: 'smaller' %}
 
 	<div class='row'>
 		<article class='e-content'>
@@ -43,19 +43,19 @@ layout: wrapper
 
 <div class='row'>
 	<div class='half column'>
-		{% render share.html, lang: lang, title: title, url: page.url %}
+		{% render 'share.html', lang: lang, title: title, url: page.url %}
 	</div>
 	<div class='half column'>
-		{% render listen-on.html, lang: lang %}
+		{% render 'listen-on.html', lang: lang %}
 	</div>
 </div>
 
 <div class='row'>
 	<div class='half column'>
-		{% render backlinks.html, raw_url: page.url, all_pages: collections.all, lang: lang %}
+		{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}
 	</div>
 	<div class='half column'>
-		{% render comments.html, lang: lang %}
+		{% render 'comments.html', lang: lang %}
 	</div>
 </div>
 

@@ -11,16 +11,16 @@ ref: home
 	<br>Buon divertimento.</p>
 </section>
 
-{% render about.html, lang: lang %}
+{% render 'about.html', lang: lang %}
 
-{% render scambi.html, lang: lang %}
+{% render 'scambi.html', lang: lang %}
 
 <div class='row'>
-	{% render quitsocialmedia.html, lang: lang %}
-	{% render sconnesso.html %}
+	{% render 'quitsocialmedia.html', lang: lang %}
+	{% render 'sconnesso.html' %}
 </div>
 
-{% render latest-post.html, lang: lang, collections: collections %}
+{% render 'latest-post.html', lang: lang, collections: collections %}
 	<section class='box row' style='overflow:hidden' title='{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}'>
 		<div class='two-thirds column vertical flex'>
 			<a href='{{ post.url }}'><h2>{{ post.data.title }}</h2></a>

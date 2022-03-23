@@ -9,8 +9,8 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 <rss version='2.0' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'>
 	<channel>
 		<title>{{ title }}</title>
-		<description>{{ description | xml_escape | strip_newlines }}</description>
-		<itunes:subtitle>{{ description | xml_escape | strip_newlines }}</itunes:subtitle>
+		<description>{{ description | escape | strip_newlines }}</description>
+		<itunes:subtitle>{{ description | escape | strip_newlines }}</itunes:subtitle>
 		<link>{{ altUrl }}</link>
 		<itunes:author>{{ author.name }}</itunes:author>
 		<itunes:email>{{ author.email }}</itunes:email>
@@ -39,7 +39,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 		{% for episode in collections.sconnesso %}
 			{% increment counter %}
 			<item>
-				<title>{{ episode.data.title | xml_escape }}</title>
+				<title>{{ episode.data.title | escape }}</title>
 				<itunes:author>{{ author.name }}</itunes:author>
 				<itunes:season>{{ episode.data.season }}</itunes:season>
 				<itunes:episode>{{ episode.data.episode }}</itunes:episode>
@@ -57,14 +57,14 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 				<itunes:keywords>
 					{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}
 				</itunes:keywords>
-				<itunes:duration>{{ episode.length | xml_escape }}</itunes:duration>
+				<itunes:duration>{{ episode.length | escape }}</itunes:duration>
 				<guid isPermaLink='true'>{{ episode.url | url }}</guid>
-				<enclosure url='{{ sourceUrl }}{{ episode.data.audio }}' length='{{ episode.data.length | xml_escape }}' type='audio/wav' />
+				<enclosure url='{{ sourceUrl }}{{ episode.data.audio }}' length='{{ episode.data.length | escape }}' type='audio/wav' />
 				<itunes:summary>
-					{{ episode.content | xml_escape | strip_newlines }}
+					{{ episode.content | escape | strip_newlines }}
 				</itunes:summary>
 				<description>
-					{{ episode.content | xml_escape | strip_newlines }}
+					{{ episode.content | escape | strip_newlines }}
 				</description>
 			</item>
 		{% endfor %}

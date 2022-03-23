@@ -27,11 +27,11 @@ Da questa pagina è possibile partire per navigare all'interno della Marmellata.
 
 <p>Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, fra i <em lang='en'><a href='#backlinks' title='I backlink di questa nota'>backlink</a></em> sono elencate tutte le pagine in cui la nota corrente è stata menzionata.</p>
 
-{% render tags.html, site: site -%}
+{% render 'tags.html', site: site %}
 
 <div class='row'>
 	<div class='half column'>
-		{% render lang-filter.html, lang: lang -%}
+		{% render 'lang-filter.html', lang: lang %}
 	</div>
 	<div class='half column flex'>
 		<a class='red button' style='color:white;' href='/whole-jam' target='_blank' title='The Whole Jam'>Tutte le note</a>

@@ -25,9 +25,9 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 				<strong>{{ cosa.title }}</strong>
 			{% endif %}
 			{% if cosa.start %}
-				, {% render date-it.html, date: cosa.start %} ore {{ cosa.start | date: '%H:%M' }} – {% render date-it.html, date: cosa.end %} ore {{ cosa.end | date: '%H:%M' }}
+				, {% render 'date-it.html', date: cosa.start %} ore {{ cosa.start | date: '%H:%M' }} – {% render 'date-it.html', date: cosa.end %} ore {{ cosa.end | date: '%H:%M' }}
 			{% else %}
-				, {% render date-it.html, date: cosa.end %}
+				, {% render 'date-it.html', date: cosa.end %}
 			{% endif %}
 			{% if cosa.coordinates %}
 				, <a href='https://openstreetmap.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>

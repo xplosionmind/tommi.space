@@ -10,16 +10,16 @@ layout: wrapper
 	<br>Have fun!</p>
 </section>
 
-{% render about.html, lang: lang %}
+{% render 'about.html', lang: lang %}
 
-{% render scambi.html, lang: lang %}
+{% render 'scambi.html', lang: lang %}
 
 <div class='row'>
-	{% render quitsocialmedia.html, lang: lang %}
-	{% render sconnesso.html %}
+	{% render 'quitsocialmedia.html', lang: lang %}
+	{% render 'sconnesso.html' %}
 </div>
 
-{% render latest-post.html, lang: lang, collections: collections %}
+{% render 'latest-post.html', lang: lang, collections: collections %}
 
 <div class='row'>
 	<div class='half column'>

@@ -11,10 +11,10 @@ layout: large
 </style>
 <div class='row'>
 	<div class='one-third column'>
-		{% render lang-filter.html, lang: lang %}
+		{% render 'lang-filter.html', lang: lang %}
 	</div>
 	<div class='two-thirds column'>
-		{% render tags.html, site: site %}
+		{% render 'tags.html', site: site %}
 	</div>
 </div>
 <div class='grid'>
@@ -25,7 +25,7 @@ layout: large
 				{% if note.data.description %}
 					<p>{{ note.data.description | strip_html | truncatewords: 30 }}</p>
 				{% endif %}
-				{% render entry-tags.html, tags: note.data.tags, site: site, size: 'tiny' %}
+				{% render 'entry-tags.html', tags: note.data.tags, site: site, size: 'tiny' %}
 			</div>
 		</a>
 	{% endfor %}
