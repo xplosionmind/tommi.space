@@ -30,3 +30,6 @@ to-publish/
 private
 */private
 */*/private
+
+# Local Netlify folder
+.netlify
