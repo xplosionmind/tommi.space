@@ -1,0 +1,6 @@
+<aside id='goto' class='little red box'><div>
+	<a class='button' href='#share' title='{% if lang == 'it' %}Condividi questa pagina'>Condividi{% else %}Share this page'>Share{% endif %}</a>
+	<a class='button' href='#comments' title='{% if lang == 'it' %}Commenti a questa pagina'>Commenti{% else %}Comments for this post'>Comments{% endif %}</a>
+	<a class='button' href='#backlinks' title='{% if lang == 'it' %}Pagine che portano a questa pagina{% else %}Other pages linking to this one{% endif %}'>Backlinks</a>
+	<a class='button' href='https://www.github.com/xplosionmind/tommi.space/tree/main{{ path | replace: './', '/' }}' title='{% if lang == 'it' %}Modifica{% else %}Edit{% endif %} {{ title }} on GitHub'>{% if lang == 'it' %}Modifica{% else %}edit{% endif %}</a>
+</div></aside>

@@ -1,0 +1,20 @@
+---
+layout: wrapper
+---
+<main class='h-entry'>
+	<section class='row center'>
+		<a class='u-uid u-url' href='{{ page.url }}'><h1 class='p-name'>{{ title }}</h1></a>
+		{% if subtitle %}
+			<h2>{{ subtitle }}</h2>
+		{% endif %}
+			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+	</section>
+
+	<div class='row'>
+		<div class='one column'>
+			<article class='e-content note{% if serif %} serif{% endif %}'>
+				{{ content }}
+			</article>
+		</div>
+	</div>
+</main>

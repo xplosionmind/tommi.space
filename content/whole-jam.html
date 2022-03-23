@@ -1,0 +1,32 @@
+---
+title: The whole Jam
+description: Every single ingredient of <cite>The Jam</cite>
+redirect_from: [/tutta-la-marmellata/,/tutta-marmellata/,/the-whole-jam/,/wholejam/,/whole-jar/,/wholejar/,/the-whole-jar/]
+layout: large
+---
+<style>
+	.grid div {
+		overflow: hidden;
+	}
+</style>
+<div class='row'>
+	<div class='one-third column'>
+		{% render lang-filter.html, lang: lang %}
+	</div>
+	<div class='two-thirds column'>
+		{% render tags.html, site: site %}
+	</div>
+</div>
+<div class='grid'>
+	{% for note in collections.jam %}
+		<a href='{{ note.url }}' lang='{{ note.data.lang }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
+			<div class='vertical flex box'>
+				<h3>{{ note.data.title }}</h3>
+				{% if note.data.description %}
+					<p>{{ note.data.description | strip_html | truncatewords: 30 }}</p>
+				{% endif %}
+				{% render entry-tags.html, tags: note.data.tags, site: site, size: 'tiny' %}
+			</div>
+		</a>
+	{% endfor %}
+</div>
