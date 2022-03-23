@@ -17,20 +17,33 @@ permalink: /
 		</div>
 	</div>
 	<div class='dark-blue flex box'>
-		<b>Quick links</b>&ensp;&rarr;
-		<a href='mailto:surfing@tommi.space' rel='me' target='_blank' title='Write me an email'>&ensp;email&ensp;</a>
-		&bull;
-		<a href='https://mastodon.uno/@tommi' rel='me' target='_blank' title='My Mastodon profile'>&ensp;Fediverse&ensp;</a>
-		&bull;
-		<a href='https://matrix.to/#/@xplosionmind:matrix.org' rel='me' target='_blank' title='Get in touch via Matrix'>&ensp;Matrix&ensp;</a>
-		&bull;
-		<a href='https://t.me/xplosionmind' target='_blank' rel='me' title='Get in touch on Telegram'>&ensp;Telegram&ensp;</a>
-		&bull;
-		<a href='https://gitmi.dev/tommi' target='_blank' rel='me' title='GitMI: my self-hosted Gitea instance'>&ensp;git&ensp;</a>
-		&bull;
-		<a href='https://europa.eu/!md89Vg' target='_blank'  title='My Curriculum Vitae'>&ensp;CV&ensp;</a>
-		&bull;
-		<a href='/feeds' target='_blank' title='This website’s feeds'>&ensp;RSS&ensp;</a>
+		<div class='flex row'>
+			<b>Quick links</b>&ensp;&rarr;
+			<a href='mailto:surfing@tommi.space' rel='me' target='_blank' title='Write me an email'>&ensp;email&ensp;</a>
+			&bull;
+			<a href='https://mastodon.uno/@tommi' rel='me' target='_blank' title='My Mastodon profile'>&ensp;Fediverse&ensp;</a>
+			&bull;
+			<a href='https://matrix.to/#/@xplosionmind:matrix.org' rel='me' target='_blank' title='Get in touch via Matrix'>&ensp;Matrix&ensp;</a>
+			&bull;
+			<a href='https://t.me/xplosionmind' target='_blank' rel='me' title='Get in touch on Telegram'>&ensp;Telegram&ensp;</a>
+			&bull;
+			<a href='https://gitmi.dev/tommi' target='_blank' rel='me' title='GitMI: my self-hosted Gitea instance'>&ensp;git&ensp;</a>
+			&bull;
+			<a href='https://europa.eu/!md89Vg' target='_blank'  title='My Curriculum Vitae'>&ensp;CV&ensp;</a>
+			&bull;
+			<a href='/feeds' target='_blank' title='This website’s feeds'>&ensp;RSS&ensp;</a>
+		</div>
+		<div class='row' id='webrings'>
+			<div class='one-third column'>
+				{% render 'weirdwidewebring.html', lang: lang %}
+			</div>
+			<div class='one-third column'>
+				{% render 'hotlinewebring.html', lang: lang %}
+			</div>
+			<div class='one-third column'>
+				{% render 'indiewebring.html', lang: lang %}
+			</div>
+		</div>
 	</div>
 </body>
 </html>
