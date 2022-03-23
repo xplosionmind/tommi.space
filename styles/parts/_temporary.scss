@@ -11,7 +11,7 @@
 	a {
 		color: #514A9C;
 	}
-	h2 img {
+	h3 img {
 		display: inline;
 		max-height: 5rem;
 	}
@@ -32,8 +32,22 @@
 		background: #BF0946;
 		color: #FFF;
 	}
-	h2 a {
+	h3 a {
 		color: #333;
+		background: none;
+	}
+}
+
+#indiewebring {
+	background: #FFB100;
+	color: #444;
+	border: 5px solid #FF5C00;
+	a {
+		background: #F00;
+		color: #FFF;
+	}
+	h3 a {
+		color: #444;
 		background: none;
 	}
 }
@@ -45,7 +59,7 @@
 		background: var(--dark-blue);
 		color: #FFF;
 	}
-	h2 a {
+	h3 a {
 		color: var(--text);
 		background: none;
 	}
