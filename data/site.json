@@ -1,0 +1,81 @@
+{
+    "title": "Tommi’s mind",
+    "url": "https://tommi.space",
+    "domain": "tommi.space",
+    "author":{
+        "name": "Tommi",
+        "email": "surfing@tommi.space"
+    },
+    "primary": "#FCC920",
+    "description": "The virtual representation of the mess inside Tommi’s mind",
+    "favicon": "https://tommi.space/favicon.ico",
+    "image": "/tommi.space.wip.png",
+    "tags":[
+        {
+            "title": "geek",
+            "color": "#D9F8EF",
+            "background": "linear-gradient(160deg, #5E60CE, #6F00B1)",
+            "description": "The title says it all. Geek stuff. Notes, resources indexing, useful shortcuts and any sort of knowledge to always have at hand."
+        },
+        {
+            "title": "zen",
+            "color": "#FFF3E6",
+            "background": "linear-gradient(160deg, #1A508B, #0D335D)",
+            "description": "About improving life, relationships, productivity, etc.<br>Everything which should make me happier."
+        },
+        {
+            "title": "cinema",
+            "color": "#FAEFEA",
+            "background": "linear-gradient(160deg, #F28F3B, #C8553D)",
+            "description": "Stuff about cinema"
+        },
+        {
+            "title": "draft",
+            "color": "#F2E9E4",
+            "background": "linear-gradient(160deg, #4A4E69, #22223B)",
+            "description": "To finish writing down"
+        },
+        {
+            "title": "wip",
+            "color": "#FFF",
+            "background": "linear-gradient(160deg, #222222, #030303)",
+            "description": "Work in progress content"
+        },
+        {
+            "title": "Inchiostro Digitale",
+            "color": "#9CC455",
+            "background": "linear-gradient(160deg, #604BA5, #3B2071)",
+            "description": "Qualche anno fa sono stato redattore e poi caporedattore dell’Ufficio Stampa del Liceo Cassini di Sanremo. Avevamo avviato una collaborazione con il giornale locale [Riviera Time](https://rivieratime.news), creando sul loro sito il blog [Inchiostro Digitale](https://www.rivieratime.news/blog/inchiostro-digitale/). Questi sono gli articoli che ho scritto. (Se volete divertirvi leggete l’inizio dell’ultimo. Io non ci credo che l’hanno pubblicato sul serio)."
+        },
+        {
+            "title": "radioimmaginaria",
+            "color": "white",
+            "background": "linear-gradient(160deg, #EE4249, #BC2F30)",
+            "description": "È grazie a (o per colpa di) [Radioimmaginaria](/cose#radioimmaginaria) se ho cominciato a sentire quel piccolo ma inarrestabile fremito dal profondo del cuore che mi spinge a scrivere, parlare e condividere quello che mi passa per la testa. Questi sono gli articoli che ho scritto per il blog di radio, i miei primi in assoluto. (leggere con cognizione di causa: avevo sedici o diciassette anni)."
+        },
+        {
+            "title": "reading",
+            "color": "#F3E9DC",
+            "background": "linear-gradient(160deg, #895737, #53291E)",
+            "description": "Stopping the scrolling and diving into a paper deep reading"
+        },
+        {
+            "title": "scout",
+            "color": "#F5F0C9",
+            "background": "linear-gradient(160deg, #3C6930, #284420)",
+            "description": "Servire e vivere la comunità. Racconti dal mondo scout"
+        },
+        {
+            "title": "idea",
+            "color": "#1F6284",
+            "background": "linear-gradient(160deg, #FFE570, #E0B700)",
+            "description": "Ephemeral lightnings in the mind."
+        },
+        {
+            "title": "knowledge",
+            "color": "#F0FCD9",
+            "background": "linear-gradient(160deg, #C70039, #581845)",
+            "description": "Learning skills, resources, and insights. Everything concerning knowledge and its scarcity."
+        }
+    ]
+}
