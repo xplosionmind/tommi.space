@@ -3,6 +3,7 @@ date: 2020-04-22
 title: Una vita spericolata
 permalink: /filinge/una-vita-spericolata/
 step: 10
+video: https://youtu.be/oa0bYZWOM1Q
 ---
 [Consegna](https://filinge.blogspot.com/2020/04/step-10-nel-cinema.html):
 
@@ -28,4 +29,4 @@ In conclusione, credo che con i sorrisi e con episodi grotteschi e totalmente as
 
 Di seguito una delle scene più emblematiche del film.
 
-<div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/oa0bYZWOM1Q' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/oa0bYZWOM1Q

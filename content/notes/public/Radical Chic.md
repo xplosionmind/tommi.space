@@ -10,4 +10,4 @@ toc: false
 ---
 Essere <q>radical chic</q> significa essere chic a livello radicale, oppure ritenere chic essere radicale?
 
-<div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/3xBlxf2wVlk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/3xBlxf2wVlk

@@ -31,7 +31,7 @@ updated: 2022-03-14T15:01:59+01:00
 <br>
 <br>
 
-<div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/a9eNQZbjpJk' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/a9eNQZbjpJk
 
 <br>
 <br>

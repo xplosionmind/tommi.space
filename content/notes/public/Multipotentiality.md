@@ -29,4 +29,4 @@ To be further explored.
 
 <div class='embed-container'><iframe src='https://embed.ted.com/talks/lang/en/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling' frameborder='0' scrolling='no' allowfullscreen></iframe></div>
 
-<div class='embed-container' lang='it'><iframe src='https://www.youtube-nocookie.com/embed/1FcJMTzmhlA' title='“Multipotenzialità„ su YouTube' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/1FcJMTzmhlA

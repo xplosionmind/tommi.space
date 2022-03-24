@@ -11,7 +11,8 @@ toc: false
 ---
 <blockquote><p lang='it'>Penso che l’idea di centralizzazione, in una democrazia, sia sbagliata.</p></blockquote>
 <p class='cite'><a href='https://blog.quintarelli.it' target='_blank' title='Stefano Quintarelli'>Stefano Quintarelli</a></p>
-<div class='embed-container'><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Tosuc-2aIcU?start=7260" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+https://youtu.be/Tosuc-2aIcU?t=7260
 
 <br>
 <br>

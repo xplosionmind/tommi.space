@@ -16,7 +16,7 @@ I just know I deeply love [Jonathan Larson](/people#jonathan-larson 'Jonathan La
 
 ## La vie bohème
 
-<div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/i5tuzq-uIVc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/i5tuzq-uIVc
 
 > To days of inspiration  
 > Playing hookie, **making [something out of nothing](https://www.youtube-nocookie.com/embed/V_YlZ1JdcVk '“Something From Nothing„ — Foo Fighters')**  

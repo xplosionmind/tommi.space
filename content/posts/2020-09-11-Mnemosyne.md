@@ -59,9 +59,8 @@ Oggi è l’undici settembre ed è totalmente casuale che io scriva di memoria p
 <br>
 
 *Se volete gasarvi e tremare, farvi scuotere fino in fondo da quello che fa impazzire di curiosità me, basta ascoltare il mitico Massimo Cacciari:*
-<div class='embed-container'>
-<iframe width='1200' height='675' src='https://www.youtube-nocookie.com/embed/y1THsvvv-NM?start=354' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-</div>
+
+https://youtu.be/y1THsvvv-NM?t=354
 
 <br>
 <br>

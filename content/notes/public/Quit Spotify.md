@@ -84,8 +84,8 @@ Reasons to quit Spotify:
 
 <div class='embed-container'><iframe src='https://github.com/xplosionmind/tommi.space/issues/28#issuecomment-845355211'></iframe></div>
 
-
 <br>
+
 ## Quitting
 
 As of the time of writing, the best alternative is using [Deezer](https://deezer.com 'Deezer') with [Freezer](https://freezer.life 'Freezer') on mobile and from the web client on desktop.

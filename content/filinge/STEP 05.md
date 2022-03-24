@@ -3,6 +3,7 @@ date: 2020-04-04
 title: Necessità e valore nella pubblicità
 permalink: /filinge/pubblicita/
 step: 5
+video: https://youtu.be/GS9bftGGYB8
 ---
 [Consegna](https://filinge.blogspot.com/2020/03/steo-05.html):
 
@@ -20,4 +21,4 @@ Per valorizzare una promozione, per pubblicizzare un proprio prodotto, bisogna f
 
 Non guardo spesso la televisione e non sfoglio molte riviste, per questo temo che lo spot pubblicitario da me scelto non sia l’esempio migliore, ma il seguente è quello che più si avvicina a ciò che intendo dire.
 
-<div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/GS9bftGGYB8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/GS9bftGGYB8

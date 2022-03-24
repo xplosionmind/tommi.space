@@ -112,6 +112,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(require('eleventy-plugin-find'));
   eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
   eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-external-links'));
+  eleventyConfig.addPlugin(require('eleventy-plugin-embed-instagram'));
+  eleventyConfig.addPlugin(require('eleventy-plugin-youtube-embed'), {
+    //embedClass: 'embed-container',
+    lite: {
+      'lite.css.enabled': false
+    }
+  });
   eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
   eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
     baseUrl: 'assets/svg/'

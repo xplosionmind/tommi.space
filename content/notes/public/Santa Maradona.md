@@ -6,7 +6,7 @@ toc: false
 description: |
   Collezione di disordinate idee da <cite><a href='https://it.wikipedia.org/wiki/Santa_Maradona' target='_blank' title='“Santa Maradona„ su Wikipedia'>Santa Maradona</a></cite>, il mio film preferito.
 image: https://images.tommi.space/uploads/j/b/u/jbuqxznr00//2021/07/03/20210703101124-dc978467.jpg
-video: https://www.youtube-nocookie.com/embed/SElehi4oD3w
+video: https://youtu.be/SElehi4oD3w
 lang: it
 ---
 {{ description }}
@@ -21,4 +21,4 @@ lang: it
 <br>
 <br>
 
-<div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/SElehi4oD3w' title='TRAILER di Santa Maradona - YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/SElehi4oD3w

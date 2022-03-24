@@ -69,7 +69,7 @@ Ora, però, che faccio?
 
 Mi dedico queste parole:
 
-<div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/o4FS5Qi6HF0' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+https://youtu.be/o4FS5Qi6HF0
 
 <br>
 

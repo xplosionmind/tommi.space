@@ -12,9 +12,7 @@ Dopo aver concluso la costruzione di [[Aida]], mi sentivo orgoglioso del lavoro 
 
 Ho avviato così la costruzione di <cite>Gianna</cite>, che prende il nome dal[l’omonima canzone][Gianna] di [Rino Gaetano], che ascoltavo in *loop* durante la sua costruzione.
 
-<div class='embed-container'>
-	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/laIH5AQqeH0" title="Gianna su YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+https://youtu.be/laIH5AQqeH0
 
 <br>
 <br>

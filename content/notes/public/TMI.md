@@ -21,8 +21,6 @@ TMI is the pure essence of Tomminess, both because of its meaning, which is the 
 
 I will forever be grateful to Simone for making me discover such a wonderful acronym which I will use more and more in the future.
 
-<div class='embed-container'>
-<iframe width='560' height='315' src='https://www.youtube-nocookie.com/embed/slCRsjMXGIc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-</div>
+https://youtu.be/slCRsjMXGIc
 
 [tmi]: https://en.wiktionary.org/wiki/too_much_information '“too much information” on Wikitionary'
