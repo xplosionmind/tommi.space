@@ -97,12 +97,13 @@ module.exports = function(eleventyConfig) {
     //******//
    // Scss //
   //******//
-  eleventyConfig.addWatchTarget('./styles');
-  eleventyConfig.addPassthroughCopy({ './styles': '/' });
-  eleventyConfig.addPassthroughCopy({'./assets/fonts': '/'});
-  eleventyConfig.addPassthroughCopy({'./assets/graphics': '/'});
-  eleventyConfig.addPassthroughCopy({'./assets/images': '/'});
-  eleventyConfig.addPassthroughCopy({'./assets/svg': '/'});
+  eleventyConfig.addWatchTarget('styles');
+  eleventyConfig.addPassthroughCopy({'styles': '/'});
+  eleventyConfig.addPassthroughCopy({'assets/fonts': '/'});
+  eleventyConfig.addPassthroughCopy({'assets/graphics': '/'});
+  eleventyConfig.addPassthroughCopy({'assets/images': '/'});
+  eleventyConfig.addPassthroughCopy({'assets/svg': '/'});
+  eleventyConfig.addPassthroughCopy('js');
 
     //*********//
    // Plugins //
@@ -111,6 +112,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(require('eleventy-plugin-find'));
   eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
   eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-external-links'));
+  eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
   eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
     baseUrl: 'assets/svg/'
   });
