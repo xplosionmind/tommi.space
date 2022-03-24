@@ -1,7 +1,7 @@
 added,title,url,tags,description
 2022-03-21T16:43:17+01:00,lies.exposed,https://lies.exposed,knowledge,A chronological tracking of lies perpetrated against humanity.
 2022-03-21T16:34:26+01:00,Bilge,https://bilge.world/,knowledge people oddities,A narcoleptic yokel on software and culture.
-2022-03-03T14:39:02+01:00,shell.how,https://www.shell.how/,geek,Explain shell commands using <a href=https:’//fig.io/' target='_blank' title='Fig'>Fig</a>
+2022-03-03T14:39:02+01:00,shell.how,https://www.shell.how/,geek,Explain shell commands using [Fig](https://fig.io/ 'Fig')
 2022-03-03T14:37:50+01:00,Easings,https://easings.net/,geek web,a collection of easing functions for transition to choose from
 2022-01-27T10:30:00+01:00,Boom.ink,https://boom.ink/,design org,"A design studio based in Padova, Italy"
 2022-01-27T10:26:56+01:00,Anner Visser,https://annervisser.nl/,personal geek odd,a personal website into an Ubuntu terminal
@@ -19,7 +19,7 @@ added,title,url,tags,description
 2021-11-04T12:15:14+01:00,Formation,https://slay.sh,geek,A shell script to set up a macOS machine for design and development.
 2021-10-25T16:59:43+02:00,The Framework Project,https://www.theframeworkproject.com,people geek tech,"Interviews about tech to great people, displayed in a nifty website"
 2021-10-25T16:13:02+02:00,Feelings wheel,https://feelingswheel.com,zen,"every shade of feeling, in a wheel."
-2021-10-25T15:11:13+02:00,emotional.codes,https://emotional.codes,tool zen,"a collection of tools by <a href='https://wesleyac.com' target='_blank' title='Wesley Aptekar-Cassels’ presonal website'>Wesley Aptekar-Cassels</a>, useful for processing emotions and having interpersonal interactions."
+2021-10-25T15:11:13+02:00,emotional.codes,https://emotional.codes,tool zen,"a collection of tools by [Wesley Aptekar-Cassels](https://wesleyac.com 'Wesley Aptekar-Cassels’ presonal website'), useful for processing emotions and having interpersonal interactions."
 2021-10-09T10:43:54+02:00,Firefox Profilemaker,https://ffprofile.com,geek tool,Create the Firefox profilw which suits you the best
 2021-10-05T16:00:52+02:00,FilePizza,https://file.pizza,geek tool,Peer-to-peer in-browser file sharing
 2021-09-25T11:02:00+02:00,Mailtape,https://www.mailta.pe,music,weekly newsletter promoting emerging artists
@@ -28,9 +28,9 @@ added,title,url,tags,description
 2021-08-12T09:24:48+02:00,Panther,http://panther.audio,music tool,to discover new music through an infinite suggestion graph
 2021-08-12T08:59:30+02:00,Josh Comeau,https://www.joshwcomeau.com,people design,"a wonderfully coded personal website, full of nifty little touches"
 2021-08-12T08:10:19+02:00,CSS triangle generator,http://apps.eky.hk/css-triangle-generator/zh-hant,web design tool,to create triangles in CSS
-2021-07-29T13:09:25+02:00,Whitebophir,https://wbo.ophir.dev,board collaborative tool,wonderful collaborative online whiteboard. I self-host it on <a href='https://board.tommi.space' target='_blank' title='Tommi’s Board'>board.tommi.space</a>
+2021-07-29T13:09:25+02:00,Whitebophir,https://wbo.ophir.dev,board collaborative tool,a very basic collaborative online whiteboard.
 2021-07-29T12:34:07+02:00,My Mind,https://my-mind.github.io,mind mapping,online mind mapping service
-2021-07-03T18:59:34+02:00,Biblioteca Possibile,https://www.riccardocrosa.it/biblioteca-possibile,bot creativity,a Twitter and Mastodon bot which generates fake <a href='https://www.adelphi.it/' target='_blank' title='Adelphi Edizioni'>Adelphi</a> books every 10 minutes
+2021-07-03T18:59:34+02:00,Biblioteca Possibile,https://www.riccardocrosa.it/biblioteca-possibile,bot creativity,a Twitter and Mastodon bot which generates fake <a href='https://www.adelphi.it/' target='_blank' hreflang='it' title='Adelphi Edizioni'>Adelphi</a> books every 10 minutes
 2021-07-03T13:27:00+02:00,radio.garden,http://radio.garden,music streaming,listen to live radio stations around the globe
 2020-10-27,Kinopio,https://kinopio.club,,
 2020-10-27,Darius Kazemi’s Projects,https://tinysubversions.com/projects,,

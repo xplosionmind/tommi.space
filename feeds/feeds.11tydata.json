@@ -1,7 +1,6 @@
 {
   "layout": null,
   "eleventyExcludeFromCollections": true,
-  "feedUrl": "{{ permalink | url }}",
   "explicit": "false",
   "lang": "it"
 }

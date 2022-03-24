@@ -1,6 +1,7 @@
 ---
 date: 2021-11-17T10:23:35+01:00
 updated: 2022-03-14T14:52:05+01:00
+image: https://www.ilriformista.it/wp-content/uploads/2022/03/pasolini-calcio-solo-900x600.jpeg
 tags:
   - uni
   - people

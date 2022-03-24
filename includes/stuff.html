@@ -1,4 +1,4 @@
-{% comment %}#TODO to refactor completely
+{% raw %}#TODO to refactor completely
 <section id='stuff' class='row'>{% for thing in stuff %}
 	{% if page.lang == 'it' %}
 		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
@@ -23,4 +23,4 @@
 			</div>
 		</div>
 	{% endif %}
-	{% endfor %}</section>{% endcomment %}
+	{% endfor %}</section></pre>{% endraw %}

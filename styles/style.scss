@@ -527,6 +527,11 @@ img {
 	max-width: 100%;
 	display: block;
 	border-radius: $radius-l;
+	h2 &,
+	h3 & {
+		margin: auto;
+		max-height: 9rem;
+	}
 	& + h2,
 	& + h3 {
 		margin-top: $regular-more;
