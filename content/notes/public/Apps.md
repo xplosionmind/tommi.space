@@ -22,7 +22,7 @@ Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 
     {% if app.os contains 'MacOS' and app.uninstalled == '' and app.remember == '' -%}
       <li>
         <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
       </li>
     {% endif -%}
   {% endfor -%}
@@ -38,7 +38,7 @@ Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 
     {% if app.os contains 'terminal' and app.uninstalled == '' and app.remember == '' -%}
       <li>
         <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif --%}
+        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif --%}
       </li>
     {% endif -%}
   {% endfor -%}
@@ -56,7 +56,7 @@ Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12 'iPhone
     {% if app.os contains 'iOS' and app.uninstalled == '' and app.remember == '' -%}
       <li>
         <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
       </li>
     {% endif -%}
   {% endfor -%}
@@ -76,7 +76,7 @@ Apps installed on my <a href='https://www.oneplus.com/6t' title='OnePlus 6T'>One
     {% if app.os contains 'Android' and app.uninstalled == '' and app.remember == '' -%}
       <li>
         <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
       </li>
     {% endif -%}
   {% endfor -%}
@@ -94,7 +94,7 @@ Apps which I have installed on my beloved <a href='/linuxplosion' title='Linuxpl
     {% if app.os contains 'MacOS' and app.uninstalled == '' and app.remember == '' -%}
       <li>
         <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
       </li>
     {% endif -%}
   {% endfor -%}
@@ -131,7 +131,7 @@ Apps which are not installed but it is worth remembering or testing in the futur
     {% if app.remember != '' -%}
       <li>
         <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
       </li>
     {% endif -%}
   {% endfor -%}

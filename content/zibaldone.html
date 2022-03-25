@@ -28,7 +28,11 @@ description: Cose che vengono fuori dala testa di Tommi, in forma di articoli
 				<h2>{{ entry.data.title }}</h2>
 				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: entry.date %}<time></p>
 				<cite class='excerpt'>
-					{{ entry.data.description }}
+					{% if entry.data.description %}
+						{{ entry.data.description | markdownify | strip_html }}
+					{% else %}
+						{{ entry.templateContent | strip_html | truncatewords: 30 }}
+					{% endif %}
 				</cite>
 				{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>

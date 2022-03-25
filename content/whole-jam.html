@@ -23,7 +23,9 @@ layout: large
 			<div class='vertical flex box'>
 				<h3>{{ note.data.title }}</h3>
 				{% if note.data.description %}
-					<p>{{ note.data.description | strip_html | truncatewords: 30 }}</p>
+					<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
+				{% comment %}#upstream #bug{% else %}
+					<p>{{ note.templateContent | strip_html | truncatewords: 30 }}</p>{% endcomment %}
 				{% endif %}
 				{% render 'entry-tags.html', tags: note.data.tags, site: site, size: 'tiny' %}
 			</div>

@@ -8,7 +8,7 @@ permalink: italiano.xml
 <feed xmlns='http://www.w3.org/2005/Atom'>
   <title>{{ title }}</title>
   <subtitle>{{ subtitle }}</subtitle>
-  <link href='{{ feedUrl }}' rel='self'/>
+  <link href='https://tommi.space{{ page.url }}' rel='self'/>
   <link href='{{ altUrl }}' />
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ altUrl }}</id>

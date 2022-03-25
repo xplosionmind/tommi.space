@@ -1,5 +1,4 @@
 ---
-date: 2020-02-03
 lang: it
 description: Tutti i giri che ho fatto come spettatore e non come organizzatore, contrariamente al solito
 redirect_from: ['/spettatore/', '/pubblico/', '/cose-spettatore/']
@@ -7,31 +6,45 @@ toc: false
 todo:
   - 'cross-reference data with email and calendar'
 ---
-{% comment %}#todo
+<p>{{ description }}</p>
 <ul>
-	{% for giro in tutto %}
-		<li>
-			{% if giro.start %}
-				Da {{ giro.start | date: '%d %B %Y' }} a {{ giro.end | date: '%d %B %Y' }}, 
+	{% assign giri = giri | sort: 'end' | reverse %}
+	{% for cosa in giri %}
+		<li id='{{ cosa.title | slugify }}-{{ cosa.end | date: '%Y' }}'>
+			{% if cosa.url %}
+				<a href='{{ cosa.url }}' title='{{ cosa.title }}'>{{ cosa.title }}</a>
 			{% else %}
-				{{ giro.end | date: '%d %B %Y' }}, 
+				<strong>{{ cosa.title }}</strong>
 			{% endif %}
-			{% if giro.url %}
-				<a href='{{ giro.url }}' target='_blank' title='{{ giro.title }}'>{{ giro.title }}</a>, 
+			{% if cosa.start %}
+				, {% render 'date-it.html', date: cosa.start %} ore {{ cosa.start | date: '%H:%M' }} – {% render 'date-it.html', date: cosa.end %} ore {{ cosa.end | date: '%H:%M' }}
 			{% else %}
-				{{ giro.title }}, 
+				, {% render 'date-it.html', date: cosa.end %}
 			{% endif %}
-			{% if giro.lat %}
-				<a href='https://openstreetmap.org?mlat={{ giro.lat }}&mlon={{ giro.lon }}&zoom=18' target='_blank' title='{{ giro.location }} su OpenStreetMap'>{{ giro.location }}</a>
+			{% if cosa.coordinates %}
+				, <a href='https://openstreetmap.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
+			{% elsif cosa.location == 'online' %}
 			{% else %}
-				{{ giro.location }}
+				, {{ cosa.location }}
 			{% endif %}
-			{% if giro.notes %}
-				 — {{ giro.notes }}
+			{% if cosa.notes %}
+				<br>☞ {{ cosa.notes }}
 			{% endif %}
-			{% if giro.data %}
-				<br>risorse: {{ giro.data }}
+			{% if cosa.tags != nil or cosa.aliases != nil %}
+				<span class='mono dim'> ∙ {% for alias in cosa.aliases %} {{ alias }}{% endfor %}{% for tag in cosa.tags %} <span rel='tag'>{{ tag }}</span>{% endfor %}</span>
+			{% endif %}
+			{% if cosa.data %}
+				<ul>{% for datum in cosa.data %}
+					<li><a href='{{ datum.url }}' title='{{ datum.what }}'>{{ datum.what }}</a></li>
+				{% endfor %}</ul>
 			{% endif %}
 		</li>
 	{% endfor %}
-</ul>{% endcomment %}
+</ul>
+
+<br>
+<br>
+
+<h2>Tutto</h2>
+
+Tengo traccia di tutto ciò a cui ho attivamente partecipato, invece, è in <a href='/tutto' title='Tutto - tommi.space'>Tutto</a>.

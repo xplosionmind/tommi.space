@@ -19,6 +19,6 @@ In the case you find something you are interested in among the things below, do 
 <br>
 <br>
 
-<ul>{% for n in collections.jam %}{% if n.tags contains 'help' %}<li><a href='{{ n.url }}' title='{{ n.title }}'>{{ n.title }}</a> - {{ n.data.description }}</li>{% endif %}{% endfor %}</ul>
+<ul>{% for n in collections.jam %}{% if n.tags contains 'help' %}<li><a href='{{ n.url }}' title='{{ n.title }}'>{{ n.title }}</a> - {{ n.data.description | markdownify | strip_html }}</li>{% endif %}{% endfor %}</ul>
 
 [contact]: https://tommi.space/contact 'Contact me'
