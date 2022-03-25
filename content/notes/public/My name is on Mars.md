@@ -7,14 +7,14 @@ tags: archive
 ---
 <style>
 	@media only screen and (min-width: 950px) {
-		.mars.embed-container {
+		.mars.embed {
 			margin: 0 10%
 		}
 	}
 </style>
 <div class='box' id='mars'>
 	<h2 class='title'>{% if lang == 'it' %}Il mio nome atterrerà su Marte!{% else %}My name is landing on Mars!{% endif %}</h2>
-	<div class='mars embed-container' style='--video--width: 980;--video--height: 410;'>
+	<div class='mars embed' style='--video--width: 980;--video--height: 410;'>
 		<iframe width='980' height='410' src='https://mars.nasa.gov/layout/embed/send-your-name/mars2020/certificate/?cn=249520420534' frameborder='0'></iframe>
 	</div>
 	<p>

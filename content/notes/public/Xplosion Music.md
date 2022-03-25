@@ -19,35 +19,36 @@ main: true
 [Xplosion Music Extended]: https://open.spotify.com/playlist/2LLtQtDGNCIEe9tBMuVNg0 'Xplosion Music Extended on Spotify'
 
 <div class='row'>
-	<div class='half column'>
-		<div class='embed-container' style='height:600px'>
-			<iframe src='https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
+	<div class='half column' style='margin-bottom:1vh'>
+		<div class='embed' style='height:600px;width:97%'>
+			<iframe src='https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media' style='width:100%;border-radius:1rem;margin:auto'></iframe>
 		</div>
 	</div>
 	<div class='half column'>
-		<div class='embed-container' style='height:600px'>
-			<iframe src='https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
+		<div class='embed' style='height:600px'>
+			<iframe src='https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media' style='width:100%;border-radius:1rem'></iframe>
 		</div>
 	</div>
 </div>
 
+<br>
+<br>
+
 ## Elsewhere
 
-- [*Xplosion Music* on Apple Music](https://music.apple.com/it/playlist/xplosion-music/pl.u-aZb0NorCPK4eLqJ 'Xplosion Music')
-- [*Xplosion Music* on Deezer](https://deezer.page.link/APHqYniHa51ZR4GG6 'Xplosion Music')
-- [*Xplosion Music* YouTube](https://www.youtube.com/playlist?list=PL4Ag6Ba3_trc0x1jJoXlJ2y2dNYH_jPR_ 'Xplosion Music')
-{% comment %}
-- [*Xplosion Music* on Radio4000](https://radio4000.com/xplosionmind 'Xplosion Music on Radio4000')
-- [*Xplosion Music* on Openwhyd](https://openwhyd.org/u/5f26be00b484e4fd9104af08/playlist/0 'Xplosion Music on Openwhyd')
-{% endcomment %}
+- [<cite>Xplosion Music</cite> on Apple Music](https://music.apple.com/it/playlist/xplosion-music/pl.u-aZb0NorCPK4eLqJ 'Xplosion Music')
+- [<cite>Xplosion Music</cite> on Deezer](https://deezer.page.link/APHqYniHa51ZR4GG6 'Xplosion Music')
+- [<cite>Xplosion Music</cite> YouTube](https://www.youtube.com/playlist?list=PL4Ag6Ba3_trc0x1jJoXlJ2y2dNYH_jPR_ 'Xplosion Music')
+<!--- [*Xplosion Music* on Radio4000](https://radio4000.com/xplosionmind 'Xplosion Music on Radio4000')
+- [*Xplosion Music* on Openwhyd](https://openwhyd.org/u/5f26be00b484e4fd9104af08/playlist/0 'Xplosion Music on Openwhyd')-->
 
 <br>
 <br>
 
 ## Others
 
-- *[Classical Xplosion]*, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
-- *[metamusic]*, music that talks about music.
+- <cite>[Classical Xplosion]</cite>, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
+- <cite>[metamusic]</cite>, music that talks about music.
 
 <br>
 <br>

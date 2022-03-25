@@ -5,6 +5,7 @@ lang: en
 description: A sleepy cozy tired snoring lovely short movie 🥱 about love and pillows and grandmas and pajamas and… 😴
 image: /everyone.jpg
 todo: convert Flickr to Piwigo img URLs
+layout: ~
 ---
 <!DOCTYPE html>
 <html lang='en'>
@@ -12,7 +13,7 @@ todo: convert Flickr to Piwigo img URLs
 <link rel='stylesheet' type='text/css' href='/everyone.css'>
 <body>
 
-<a href='/home' target='_blank' class='button tool'>home</a>
+<a href='/home' class='button tool'>home</a>
 <div class='row'>
 	<div class='one column'>
 		<h1>Everyone</h1>
@@ -25,14 +26,14 @@ todo: convert Flickr to Piwigo img URLs
 </div>
 
 <div class='row'>
-	<div class='embed-container'>
+	<div class='embed'>
 		<iframe src='https://player.vimeo.com/video/357217491' width='1200' height='675' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>	
 	</div>
 </div>
 
 <div class='box row'>
 	<div class='half column vertical flex'>
-		<img src='{{ site.post-images }}/2019-08-30-squali-consapevoli.jpg' alt='a snaphot of of the final frames of the movie' title='romantic finale'>
+		<img src='/2019-08-30-squali-consapevoli.jpg' alt='a snaphot of of the final frames of the movie' title='romantic finale'>
 	</div>
 	<div class='half column vertical flex'>
 		<h2>Some thoughts from the director</h2>
@@ -42,7 +43,7 @@ todo: convert Flickr to Piwigo img URLs
 </div>
 
 <div class='row' id='themakingof'>
-	<div class='embed-container'>
+	<div class='embed'>
 		<iframe src='https://player.vimeo.com/video/357913891' width='1200' height='675' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>
 	</div>
 </div>
@@ -86,7 +87,7 @@ todo: convert Flickr to Piwigo img URLs
 
 <div class='box row'>
 	<div class='one-third column vertical flex'>
-		<h2 class='thing-title'>Press Kit</h2>
+		<h2>Press Kit</h2>
 		<p>If you need more infos about the movie production and an overview of the mentions and awards, click on the button below</p>
 		<a href='https://cloud.tommi.space/s/qSpX5ixJd8bMA6R' target='_blank' class='written button' title='A shared folder containing information and details about Everyone for the press'>download</a>
 	</div>
@@ -94,7 +95,6 @@ todo: convert Flickr to Piwigo img URLs
 		<img src='/everyone-on-set.jpg' alt='a shot of the crew on set' title='on set'>
 	</div>
 </div>
-
 
 <div id='imdb' class='box row'>
 	<div class='half column vertical flex'>

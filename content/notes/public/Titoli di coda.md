@@ -10,11 +10,7 @@ toc: false
 todo:
   - from the watchlog/movies CSV take only the entries tagged ‘endcredits’
 ---
-<div class='embed-contaiiner'>
-	<iframe width='560' height='315' src='https://www.youtube-nocookie.com/embed/q-z5G-q74ko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-</div>
-
-<br>
+https://www.youtube.com/watch?v=q-z5G-q74ko
 
 Sfortunatamente, non è più tempo di riunire i titoli di coda masterizzandoli in una cassetta, perciò mi limiterò a raccogliere i titoli di coda che mostrerei alla mia Dolores ideale in un banalissimo elenco.
 

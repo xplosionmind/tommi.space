@@ -27,6 +27,6 @@ To be further explored.
 - [Multipotentiality on Wikipedia](https://en.wikipedia.org/wiki/Multipotentiality 'Multipotentiality on Wikipedia')
 - [Puttylike](https://puttylike.com/)
 
-<div class='embed-container'><iframe src='https://embed.ted.com/talks/lang/en/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling' frameborder='0' scrolling='no' allowfullscreen></iframe></div>
+<div class='embed'><iframe src='https://embed.ted.com/talks/lang/en/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling' frameborder='0' scrolling='no' allowfullscreen></iframe></div>
 
 https://youtu.be/1FcJMTzmhlA

@@ -6,6 +6,9 @@ lite-youtube {
 	background-position: center center;
 	background-size: cover;
 	cursor: url(/cursor-hover.svg) 16 16, pointer;
+	article & {
+		border-radius: 1rem;
+	}
 	//max-width: 720px;
 	max-width: 100%;
 	&::before {

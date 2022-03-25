@@ -51,7 +51,7 @@ p {
 	text-align: center;
 }
 
-.embed-container {
+.embed {
 	--video--width: 1920;
 	--video--height: 1080;
 
@@ -62,9 +62,9 @@ p {
 	background: transparent;
 }
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
+.embed iframe,
+.embed object,
+.embed embed {
 	position: absolute;
 	top: 0;
 	left: 0;

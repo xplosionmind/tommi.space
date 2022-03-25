@@ -82,7 +82,7 @@ Reasons to quit Spotify:
 - [awesome-music-listening](https://github.com/ybayle/awesome-music-listening 'awesome-music-listening on GitHub'), a repository collecting a ton of online services to listen to music
 - I switched commenting service, but I received a very insightful comment about this topic, so I am embedding it below:
 
-<div class='embed-container'><iframe src='https://github.com/xplosionmind/tommi.space/issues/28#issuecomment-845355211'></iframe></div>
+<div class='embed'><iframe src='https://github.com/xplosionmind/tommi.space/issues/28#issuecomment-845355211'></iframe></div>
 
 <br>
 
