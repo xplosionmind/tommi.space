@@ -41,7 +41,7 @@ body {
 	overflow-wrap: break-word;
 	hyphens: auto;
 	font: $regular var(--font-sans) !important;
-	cursor: url('https://tommi.space/cursor-dark.svg') 16 16, crosshair;
+	cursor: url('https://tommi.space/cursor.svg') 16 16, crosshair;
 	scroll-behavior: smooth;
 }
 
@@ -51,7 +51,7 @@ body {
 	body {
 		transition: $trans;
 
-		cursor: url('https://tommi.space/cursor-light.svg') 16 16, crosshair;
+		cursor: url('https://tommi.space/cursor.svg') 16 16, crosshair;
 
 		--background: #FFF;
 		--text: var(--black-ish);
@@ -71,14 +71,14 @@ body {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 	}
-
-	#urlshackicon {
-		filter: invert(90%) sepia(8%) saturate(5793%) hue-rotate(181deg) brightness(100%) contrast(106%);
-	}
 }
 
 * {
 	letter-spacing: unset !important;
+}
+
+:any-link {
+	cursor: url('https://tommi.space/cursor-hover.svg') 16 16, pointer !important;
 }
 
 .albThumbs li {
@@ -171,8 +171,7 @@ body {
 }
 
 #urlshackicon {
-	padding: 0 6px;
-	filter: invert(16%) sepia(25%) saturate(3007%) hue-rotate(189deg) brightness(95%) contrast(98%);
+	padding: 2px 5px 0 0;
 }
 
 /* Image preview */
@@ -522,6 +521,19 @@ p.imageComment {
 	}
 	* {
 		border: none !important;
+	}
+	.footer {
+		border-radius: 0 0 $radius-l $radius-l;
+		button {
+			border-radius: $rsdius-s;
+			margin-right: .6rem;
+			img {
+				display: none;
+			}
+		}
+	}
+	.txtbutton {
+		padding: 0 !important;
 	}
 }
 
