@@ -14,6 +14,7 @@ ref: jam
 toc: false
 layout: page
 image: /jam.png
+type: CollectionPage
 ---
 Sul web viene comunemente chiamato <cite lang='en'><a href='https://dev.to/jbranchaud/the-digital-garden-l10' hreflang='en' title='The Digital Garden su DEV.to'>Digital Garden</a></cite>, oppure può essere definito come <em>sistema <a lang='de' href='/zettelkasten' hreflang='en' title='Zettelkasten — tommi.space'>Zettelkasten</a></em>. La mia, invece, è molto neno altisonante, ma più frullata e gustosa: si tratta di una <cite>Marmellata</cite>.
 

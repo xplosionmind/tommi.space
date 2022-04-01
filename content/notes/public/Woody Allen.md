@@ -1,9 +1,10 @@
 ---
 date: 2021-12-30T19:40:00+01:00
-updated: 2021-12-30T19:40:00+01:00
+updated: 2022-04-01T12:18:41+02:00
 tags:
   - people
   - cinema
+type: Person
 toc: false
 lang: it
 description: Chi è Woody Allen per me

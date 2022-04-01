@@ -10,6 +10,7 @@
     "description": "The virtual representation of the mess inside Tommi’s mind",
     "favicon": "https://tommi.space/favicon.ico",
     "image": "/tommi.space.wip.png",
+    "source": "https://codeberg.org/tommi/tommi.space",
     "tags":[
         {
             "title": "geek",

@@ -9,7 +9,8 @@ image: https://www.lascimmiapensa.com/wp-content/uploads/2020/03/597c9296ed82967
 main: true
 toc: false
 ---
-<p lang='it'>Il mio concetto di cinema può essere a sommi capi rappsesentato da ciò che è per me [[Woody Allen]].</p>
+Il mio concetto di cinema può essere a sommi capi rappsesentato da ciò che è per me [[Woody Allen]]. {lang=it}
+
 
 <br>
 <br>
@@ -19,15 +20,20 @@ toc: false
 A temporary list of my favorite movies, even though [[Moviewyrm|I am working on a better solution]].
 
 {% assign favorites = watchlog | where: 'favorite', '1' | sort: 'name' %}
-
-<ul class='two'>{% for fav in favorites %}<li><cite><a href='https://imdb.com/title/{{ fav.imdb }}' target='_blank' title='“{{ fav.title }}„ on IMDb'>{{ fav.title }}</a></cite></li>{% endfor %}</ul>
+<ul class='two'>
+    {%- for fav in favorites -%}
+        <li>
+            <cite><a href='https://imdb.com/title/{{ fav.imdb }}' title='“{{ fav.title }}„ on IMDb'>{{ fav.title }}</a></cite>
+        </li>
+    {%- endfor -%}
+</ul>
 
 <br>
 
 ### <cite lang='it'>Santa Maradona</cite>
 
-<p lang='it'>Santa Maradona è il mio film preferito.<br>
-Tutto il mio amore per questo film è concentrato in *[[Santa Maradona]]*</p>
+Santa Maradona è il mio film preferito.  
+Tutto il mio amore per questo film è concentrato in <cite>[[Santa Maradona]]</cite> {lang=it}
 
 <br>
 <br>

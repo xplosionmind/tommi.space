@@ -3,7 +3,7 @@ layout: wrapper
 ---
 <main class='h-entry one column'>
 	<section class='center row'>
-		<a class='u-uid u-url' href='{{ page.url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name'>{{ title }}</h1></a>
 		<p class='metadata'>
 			{% if lang == 'it' %}
 				{% if location %}

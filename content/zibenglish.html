@@ -4,6 +4,7 @@ redirect_from: [/blog/, /en/zibaldone/, /zibaldone/en/]
 lang: en
 ref: Zibaldone
 description: Things getting out of Tommi’s head, in the form of articles
+type: CollectionPage
 ---
 <section class='center row'>
 	<h1>Zibaldone</h1>
@@ -31,8 +32,8 @@ description: Things getting out of Tommi’s head, in the form of articles
 				<cite class='excerpt'>
 					{% if entry.data.description %}
 						{{ entry.data.description | markdownify | strip_html }}
-					{% else %}
-						{{ entry.templateContent | strip_html | truncatewords: 30 }}
+					{% comment %}#upstream #bug{% else %}
+						{{ entry.templateContent | strip_html | truncatewords: 30 }}{% endcomment %}
 					{% endif %}
 				</cite>
 				{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}

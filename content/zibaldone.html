@@ -3,6 +3,7 @@ title: Zibaldone
 lang: it
 ref: Zibaldone
 description: Cose che vengono fuori dala testa di Tommi, in forma di articoli
+type: CollectionPage
 ---
 <section class='center row'>
 	<h1>Zibaldone</h1>
@@ -30,8 +31,8 @@ description: Cose che vengono fuori dala testa di Tommi, in forma di articoli
 				<cite class='excerpt'>
 					{% if entry.data.description %}
 						{{ entry.data.description | markdownify | strip_html }}
-					{% else %}
-						{{ entry.templateContent | strip_html | truncatewords: 30 }}
+					{% comment %}#upstream #bug{% else %}
+						{{ entry.templateContent | strip_html | truncatewords: 30 }}{% endcomment %}
 					{% endif %}
 				</cite>
 				{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}

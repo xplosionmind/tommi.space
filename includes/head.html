@@ -1,4 +1,4 @@
-{% assign absoluteUrl = url | prepend: 'https://tommi.space' %}
+{% assign absoluteUrl = url | prepend: site.url %}
 <head>
 	<!-- Basic -->
 	<meta charset='utf-8'>
@@ -78,21 +78,74 @@
 
 	<script type='application/ld+json'>
 		{
-			"name":"{{ site.title }}",
-			"description":"{{ site.description }}",
-			"author": {
-				"@type":"Person",
-				"name":"{{ site.author.name }}",
+			"@context": "https://schema.org",
+			"@type": "{%- if type -%}{{ type }}{%- else -%}WebPage{%- endif -%}",
+			"name": "{{ title }}",
+			"about": "{%- if description -%}{{ description }}{%- else -%}{{ site.description }}{%- endif -%}",
+			"headline": "{%- if description -%}{{ description }}{%- else -%}{{ site.description }}{%- endif -%}",
+			"mainEntity": {
+				"@type": "Person",
+				"name": "{{ site.author.name }}",
 				"jobTitle": "Enthusiast",
+				"sameAs":[
+					{%- for account in accounts -%}
+						{%- if account.deleted == '' and account.url != '' -%}
+							"{{ account.url }}"{%- if forloop.last == false -%}, {%- endif-%}
+						{%- endif -%}
+					{%- endfor -%}
+				]
 			},
-			"@type":"WebSite",
-			"url":"{{ site.url }}",
-			"image":"{{ site.image | prepend: 'https://tommi.space' }}",
-			"headline":"{{ site.description }}",
-			"sameAs":[
-				"https://github.com/xplosionmind"
-			],
-			"@context":"https://schema.org"
+			"author": {
+				"@type": "Person",
+				"name": "{{ tommi.name }}",
+				"gender": "{{ tommi.gender }}",
+				"nationality": "{{ tommi.nationality }}",
+				"image": "{{ tommi.image }}",
+				"jobTitle": "{{ tommi.jobTitle }}",
+				"sameAs":[
+					{%- for account in accounts -%}
+						{%- if account.deleted == '' and account.url != '' -%}
+							"{{ account.url }}"{%- if forloop.last == false -%}, {%- endif-%}
+						{%- endif -%}
+					{%- endfor -%}
+				]
+			},
+			"url": "{{ url | prepend: site.url }}",
+			"image": "{{ site.image | prepend: site.url }}",
+			"sameAs": "{{ source }}",
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"itemListElement":[
+					{
+						"@type": "ListItem",
+						"item":{
+							"@id": "{{ site.url }}",
+							"name": "tommi.space landing"
+						}
+					},
+					{
+						"@type": "ListItem",
+						"item":{
+							"@id": "{{ site.url }}{%- if lang == 'it' -%}/tuffo{%- else -%}/home{%- endif -%}",
+							"name": "tommi.space homepage"
+						}
+					}{%- if isNote -%},
+					{
+						"@type": "ListItem",
+						"item":{
+							"@id": "{{ site.url }}{%- if lang == 'it' -%}/marmellata{%- else -%}/jam{%- endif -%}",
+							"name": "{%- if lang == 'it' -%}La Marmellata{%- else -%}The Jam{%- endif -%}"
+						}
+					}{%- endif -%}{%- if isPost -%},
+					{
+						"@type": "ListItem",
+						"item":{
+							"@id": "{{ site.url }}{%- if lang == 'it' -%}/zibaldone{%- else -%}/zibenglish{%- endif -%}",
+							"name": "Zibaldone"
+						}
+					}{%- endif -%}
+				]
+			}
 		}
 	</script>
 

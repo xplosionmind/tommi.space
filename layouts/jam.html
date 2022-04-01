@@ -1,9 +1,10 @@
 ---
 layout: wrapper
+type: CollectionPage
 ---
 <main class='h-entry'>
 	<section class='row center'>
-		<a class='u-uid u-url' href='{{ page.url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
@@ -44,7 +45,7 @@ layout: wrapper
 	</section>
 
 	{% render 'page-tags.html', tags: tags, site: site, size: 'smaller' %}
-	{% render 'goto.html', lang: lang, path: page.inputPath %}
+	{% render 'goto.html', lang: lang, path: page.inputPath, source: source %}
 
 	{% if toc %}
 		<aside id='toc'>
