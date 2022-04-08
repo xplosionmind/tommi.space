@@ -1,6 +1,6 @@
 ---
 date: 2021-01-09T01:00:00+01:00
-updated: 2022-03-14T12:32:59+01:00
+updated: 2022-04-04T20:02:22+02:00
 tags:
   - draft
   - geek/web
@@ -13,9 +13,25 @@ redirect_from:
   - /log/
   - /changelog/
 description: Since I put a lot of care and attention to details in this website (probably even too much) I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
-image: https://tommi.space/website-log.png
+image: /website-log.png
 main: true
 ---
+<div class='yellow box'>
+	<p>Note that these notes have to be considered more a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
+	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing in documenting what I decide and how I carry out what I do for educational purposes is not my priority</p>
+</div>
+
+<p class='date'><time datetime='2022-03-23T16:21:06+01:00'>Wednesday, March 23<sup>rd</sup> 2022</time></p>
+
+## Migrating from GitHub to Codeberg
+
+I love community-driven stuff, and I praise Codeberg values. Furthermore, there is all of that stuff that is not good about GitHub, so I moved.
+
+## New repository
+
+I never gave too much attention to 
+
+
 <p class='date'><time datetime='2021-01-09'>9<sup>th</sup> January 2021</time></p>
 
 ## Sidenotes

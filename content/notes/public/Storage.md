@@ -1,12 +1,16 @@
 ---
 date: 2020-12-24T01:00:00+01:00
-updated: 2021-12-17T10:55:48+01:00
+updated: 2022-04-08T20:09:31+02:00
 tags: geek
 aliases: Backup
 redirect_from: [/backup/, /backups/]
 description: Notes concerning storage management, viable solutions and systems tsting
 ---
-To better understand my positions about this topic and their reasons, it would be useful to read my experience with [[Data loss|data loss]].
+In the XXI century, storage is a big deal. Preserving personal data and memories is hard, but it is hell considering privacy and ethics of possible solutions. Naturally, I am very interested in this, while being no developer, nor engineer, nor having enough time to dedicate to this issues, therefore I will be noting some thoughts here.
+
+<div class='yellow box'>
+	To better understand my positions about this topic and their reasons, it would be useful to read my experience with [[Data loss|data loss]].
+</div>
 
 <br>
 <br>
@@ -14,7 +18,7 @@ To better understand my positions about this topic and their reasons, it would b
 ## Needs
 
 1. **Durability**: I want to be able to effortlessly access all of my data now as 30 years from now.
-1. **Reliability**: my storage system has to be <u>absolutely <strong>fail-proof</strong></u> (of course, no system is. I need to achieve the best reliability I can afford). [[Data loss|I cannot lose any of my data again]].
+1. **Reliability**: my storage system has to be <u>absolutely **fail-proof**</u> (of course, no system is. I need to achieve the best reliability I can afford). [[Data loss|I cannot lose any of my data again]].
 1. **Scalability**: the amount of pictures collected and stored by everyone in the world is [growing at a tremendously fast pace](https://piwigo.com/blog/2020/12/04/flickr-google-photos-the-end-of-free-photo-hosting/ 'Flickr, Google Photos… The end of free photo hosting?'), my pictures are no exception. I would prefer not to end up stuck in a resources consuming framework which is great with 2TB of pictures, but makes 10TB of pictures unmanageable.
 1. **Affordability**: I should not spend too much on this. In the end, shooting pictures is not my job (yet).
 1. **Accessibility**: if possible, I would like to be able to access all of my pictures from anywhere anytime.
@@ -35,11 +39,23 @@ To better understand my positions about this topic and their reasons, it would b
 <br>
 <br>
 
-## Solution
+## Solutions
 
-The solution I found out to be working greatly up to now is the one described in [[Importing workflow]], which consists in setting a window of [[Cron Jobs|a few hours per week]] while [[Linuxplosion]] is available to synchronize pictures and run tasks via SSH. In this way, storage is safely and redundantly backed up at home.
+### SSH
 
-[[Cubbit]] is the most promising long-term solution it lacks a crucial feature: it is <u>not optimized for pictures</u> (yet): albums and photo galleries are limited to folders and sub-folders, there is not even any support for tags.
+~~The solution I found out to be working greatly up to now is the one described in [[Importing workflow]], which consists in setting a window of [[Cron Jobs|a few hours per week]] while [[Linuxplosion]] is available to synchronize pictures and run tasks via SSH. In this way, storage is safely and redundantly backed up at home~~. This solution requires too much maintenance time and effort, it is fragile and unreliable on the go.
+
+<br>
+
+### Cubbit
+
+[[Cubbit]] is the most promising long-term solution, but it still lacks some crucial features. Furthermore, it is <u>not optimized for pictures</u> (yet): albums and photo galleries are limited to folders and sub-folders, there is not even any support for tags.
+
+<br>
+
+### Photoprism
+
+[Photoprism](https://photoprism.app 'Photoprism') is arguably the best Google Photos alternative. Nevertheless, it requires a relatively powerful software to run. It is the best possible solution in terms of usability, but not in terms of costs and eco-friendliness. [Some installation resources](https://inputs.tommi.space/tag/list/photoprism 'Entries tagged “photoprism” in inputs.tommi.space')
 
 <br>
 <br>

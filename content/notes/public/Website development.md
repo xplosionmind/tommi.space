@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-04-01T13:20:53+02:00
+updated: 2022-04-08T12:03:05+02:00
 tags:
   - meta
   - geek/web
@@ -39,11 +39,14 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 1. improved Wikilinks
 1. Backlinks
 1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
+1. Print `todo` points of every page at the bottom of it
+1. ~~[Use Storj as CDN](https://docs.storj.io/dcs/how-tos/host-a-static-website/ '“Host a static website” on Storj')~~ files are served via HTTP, and in order to have HTTPS a proxy CDN has to be used.
 
 <br>
 
 ### v2
 
+1. [Universal Markdown link shortcodes](https://github.com/11ty/eleventy/discussions/2315 'Setting universal Markdown link shortcodes · Discussion #2315 · 11ty/eleventy · GitHub')
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, [looping through](https://talk.jekyllrb.com/t/loop-through-all-pages-of-the-website/6880 'Loop through ALL pages in a website - Jekyll Talk') the last few pages updated recently (based on `page.updated`)
 1. Improve search
 2. Add a section in each note where `if more`, in the front matter `more: https://en.wikipedia.org/wiki/Love` (encyclopedia page of the same topic)
@@ -56,7 +59,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 
 ### v3
 
-1. Configure and implement [ActivityPub]
+1. Configure and implement [ActivityPub](https://activitypub.rocks 'ActivityPub')
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
 	- [Nautilus](https://github.com/aaronpk/Nautilus 'Nautilus on GitHub')

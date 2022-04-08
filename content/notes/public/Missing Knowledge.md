@@ -1,6 +1,6 @@
 ---
 date: 2020-12-09T01:00:00+01:00
-updated: 2022-03-23T21:00:57+01:00
+updated: 2022-04-08T00:14:21+02:00
 tags:
   - knowledge
   - todo
@@ -76,6 +76,7 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 	- format
 	- readability
 	- can they be stored in pure plain text? (see [signal-export](https://github.com/carderne/signal-export 'signal-export repository on GitHub'))
+	- see [iMessage-Export](https://github.com/aaronpk/iMessage-Export ' iMessage-Export on GitHub')
 5. Makefile
 	1. [How to write a self-documenting Makefile](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/ 'How to write a self-documenting Makefile on victoria.dev')
 6. [using fzf](https://www.youtube.com/watch?v=qgG5Jhi_Els)

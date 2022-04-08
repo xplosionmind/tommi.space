@@ -1,6 +1,6 @@
 ---
 date: 2021-01-12T01:00:00+01:00
-updated: 2021-12-23T18:48:49+01:00
+updated: 2022-04-04T19:43:02+02:00
 tags: music
 main: true
 description: Insights about music when made, played, or listened
@@ -9,7 +9,6 @@ image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2020/12/24/202012
 <div class='blue box'>
 	The soundtrack of my existence is in <cite>[[Xplosion Music]]</cite>.
 </div>
-
 
 <br>
 <br>
@@ -26,11 +25,18 @@ Probably, as [Gilad Edelman](https://www.wired.com/author/gilad-edelman/ 'Gilad 
 While suggestions Spotify or its similars advance are [based on calculus and emotion-less considerations](/the-power-of-decentralization#algorithms-as-black-boxes '“Algorithms as Black Boxes„ section in my essay “The Power of Decentralization„'), getting into a physical place provides a matchless feeling that makes up for any annoyance. If you do not know what you intend to listen, it is not a machine providing you (feeding you with) a suggestion.
 
 <br>
+<br>
+
+## Playing
+
 <figure><picture>
-	<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2020/12/24/20201224164521-98446d01-me.jpg' alt='An image of me playing the guitar'>
+	<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2020/12/24/20201224164521-98446d01-sm.jpg' alt='An image of me playing the guitar'>
 	<figcaption>During my 18<sup>th</sup> birthday at [[Il Cubo]] I was pretending to know how to play a guitar in a very embarrassing situation</figcaption>
 </picture></figure>
 
+Concerning playing the guitar and singing, in front of a bonfire as well as on stage with a microphone I am subject to [the Dunning–Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect 'Dunning–Kruger effect on Wikipedia'), <q cite='https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect'>the cognitive bias whereby people with low ability at a task overestimate their ability</q>
+
+<br>
 <br>
 
 ## Learning

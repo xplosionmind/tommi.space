@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10T02:00:00+02:00
-updated: 2022-03-14T14:51:51+01:00
+updated: 2022-04-06T18:11:19+02:00
 permalink: /qsm/
 aliases: QSM, quitsocialmedia.club notes
 description: |

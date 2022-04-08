@@ -1,21 +1,24 @@
 ---
 date: 2020-10-27T01:00:00+01:00
-updated: 2022-01-25T08:48:49+01:00
-tags:
-  - zen
-  - draft
+updated: 2022-04-04T19:36:35+02:00
+tags: zen
 aliases: Slots
-redirect_from: ['/time/', '/time-management/', '/moduli/']
+redirect_from: [/time/, /time-management/, /moduli/]
 description:
   I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it is a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots.
 toc: false
-todo:
-  - Check duplication with “Slots”
 ---
-Slots are simply **time slots**: half or full hours which I totally dedicate to something. If a new, different thing pops up in my mind, I write it down to remember it, but I get to it only when it’s the time to commit to the related slot.
+Slots are simply **time slots**: half or full hours which to be entirely dedicated to something I want or need to do. If some unrelated or distracting idea pops up in my mind, I write it down to remember it, but I get to it only when it is the possible to dedicate a whole slot to it.
 
-The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [[Self tracking]] apps such as [Loop Habit Tracker](https://loophabits.org) (which is the one I use).
+> Bricker advises writing down the trigger, whether or not you subsequently give in to the distraction. He recommends noting the time of day, what you were doing, and how you felt when you noticed the internal trigger that led to the distracting behavior <q>as soon as you are aware of the behavior</q>, because it’s easier at that point to remember how you felt. I’ve included a Distraction Tracker at the back of this
 
+<p class='cite'>Nir Eyal, <cite><a href='https://www.nirandfar.com/indistractable/' target='_blank' title='Indistractable'>Indistractable</a></cite>, Chapter 6</p>
+
+The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [[Self tracking]] [apps](#Tools).
+
+The Slot Philosophy is a powerful tool to contrast <b class='missing'>+++</b> (that thing where you always start something and you drop it to start some sub-thing to do).
+
+<br>
 <br>
 
 ## My Slots
@@ -42,3 +45,9 @@ The Slot Philosophy is awesome because slots can be rearranged everyday, and the
 - momento stacco
 - momento sport
 - momento Oltre
+
+
+## Tools
+
+- [Timelines](https://timelines.app/ 'Timelines App'), an iOS only app for time tracking. It is incredibly similar to my concept of [[Nolan|Timeline]], but it has a pro subscription which is not worth it.
+- [Monofocus](https://monofocus.app/ 'Monofocus'), setting WIP short-term tasks and get periodical reminders to focus specifically on one single task only

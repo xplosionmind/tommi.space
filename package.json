@@ -34,6 +34,7 @@
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
     "@sardine/eleventy-plugin-tinyhtml": "^0.2.0",
     "@sardine/eleventy-plugin-tinysvg": "^1.2.0",
+    "clean-css": "^5.3.0",
     "csv-parse": "^5.0.4",
     "eleventy-plugin-seo": "^0.5.2",
     "eleventy-plugin-svg-contents": "^0.7.0",
@@ -57,8 +58,10 @@
     "markdown-it-wikilinks": "^1.2.0",
     "node-fetch": "^3.2.3",
     "npm-run-all": "^4.1.5",
+    "relateurl": "^0.2.7",
     "run-all": "^1.0.1",
-    "sass": "^1.49.9"
+    "sass": "^1.49.9",
+    "uglify-js": "^3.15.3"
   },
   "dependencies": {
     "@11ty/eleventy-upgrade-help": "^1.0.1",
@@ -342,7 +345,6 @@
     "token-stream": "^1.0.0",
     "ua-parser-js": "^1.0.2",
     "uc.micro": "^1.0.6",
-    "uglify-js": "^3.15.3",
     "unc-path-regex": "^0.1.2",
     "universalify": "^2.0.0",
     "unpipe": "^1.0.0",

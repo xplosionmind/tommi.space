@@ -1,10 +1,11 @@
 ---
 date: 2020-05-11T02:00:00+02:00
-updated: 2022-03-14T14:57:45+01:00
+updated: 2022-04-07T09:12:14+02:00
 tags: reading/book
 lang: it
 permalink: /jack-frusciante/
 redirect_from: [/brizzi-frusciante/,/jack-frusciante-è-uscito-dal-gruppo/,/jack-frusciante-e-uscito-dal-gruppo/]
+description: Note da un libro che ho letto perché va letto. Impareggiabile e necessario.
 ---
 [Enrico Brizzi](https://it.wikipedia.org/wiki/Enrico_Brizzi 'Enrico Brizzi su Wikipedia') aveva la mia età quando scrisse <cite>[Jack Frusciante è uscito dal gruppo](https://it.wikipedia.org/wiki/Jack_Frusciante_è_uscito_dal_gruppo '“Jack Frusciante è uscito dal gruppo„ su Wikipedia')Jack Frusciante è uscito dal gruppo</cite>. Volevo capire quanto quello che aveva nella testa corrisponda a quello che ho io ora, perciò ho stilato una lista di tutte le reference, le citazioni, le persone e i personaggi citati nel libro, così come [le parole](#vocabolario 'Vocabolario di Jack Frusciante è uscito dal gruppo') che Brizzi ha scelto.
 
