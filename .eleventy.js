@@ -169,12 +169,18 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
 
+    //***************//
+   // Minify output //
+  //***************//
   eleventyConfig.addTransform('miniHtml', function(content, outputPath) {
     if( this.outputPath && this.outputPath.endsWith('.html') ) {
       let minified = miniHtml.minify(content, {
         useShortDoctype: true,
         removeComments: true,
-        collapseWhitespace: true
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+        minifyURLs: true
       });
       return minified;
     }
