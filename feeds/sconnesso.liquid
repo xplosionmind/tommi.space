@@ -60,7 +60,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 				</itunes:keywords>
 				<itunes:duration>{{ episode.length | escape }}</itunes:duration>
 				<guid isPermaLink='true'>{{ site.url | url }}</guid>
-				<enclosure url='{{ sourceUrl }}{{ episode.data.audio }}' length='{{ episode.data.length | escape }}' type='audio/wav' />
+				<enclosure url='{{ site.url }}/{{ episode.data.audio }}' length='{{ episode.data.length | escape }}' type='audio/wav' />
 				<itunes:summary>
 					{{ episode.content | escape | strip_newlines }}
 				</itunes:summary>
