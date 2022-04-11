@@ -1,0 +1,7 @@
+# Netlify redirects settings, to fetch assets from Storj
+/* http://assets.tommi.space/audio/:splat 200!
+/* http://assets.tommi.space/fonts/:splat 200!
+/* http://assets.tommi.space/graphics/:splat 200!
+/* http://assets.tommi.space/images/:splat 200!
+/* http://assets.tommi.space/svg/:splat 200!
+/* http://assets.tommi.space/video/:splat 200!
