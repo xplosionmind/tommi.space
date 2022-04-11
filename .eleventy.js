@@ -99,10 +99,7 @@ module.exports = function(eleventyConfig) {
   //******//
   eleventyConfig.addWatchTarget('styles');
   eleventyConfig.addPassthroughCopy({'styles': '/'});
-  eleventyConfig.addPassthroughCopy({'assets/fonts': '/'});
-  eleventyConfig.addPassthroughCopy({'assets/graphics': '/'});
-  eleventyConfig.addPassthroughCopy({'assets/images': '/'});
-  eleventyConfig.addPassthroughCopy({'assets/svg': '/'});
+  eleventyConfig.addPassthroughCopy({'svg': '/'});
   eleventyConfig.addPassthroughCopy('js');
 
     //*********//
