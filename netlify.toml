@@ -1,20 +1,4 @@
 [[redirects]]
 	from	= "/*"
-	to		= "http://assets.tommi.space/audio/:splat"
-	status	= 200
-[[redirects]]
-	from	= "/*"
-	to		= "http://assets.tommi.space/fonts/:splat"
-	status	= 200
-[[redirects]]
-	from	= "/*"
-	to		= "http://assets.tommi.space/graphics/:splat"
-	status	= 200
-[[redirects]]
-	from	= "/*"
-	to		= "http://assets.tommi.space/images/:splat"
-	status	= 200
-[[redirects]]
-	from	= "/*"
-	to		= "http://assets.tommi.space/video/:splat"
+	to		= "http://assets.tommi.space/:splat"
 	status	= 200
