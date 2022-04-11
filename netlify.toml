@@ -2,3 +2,10 @@
 	from	= "/*"
 	to		= "http://assets.tommi.space/:splat"
 	status	= 200
+	[redirects.headers]
+		cache-control = '''
+		public,
+		max-age=10000,
+		max-stale=10000,
+		min-fresh=600,
+		immutable'''

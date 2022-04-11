@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-04-08T12:03:05+02:00
+updated: 2022-04-11T16:28:09+02:00
 tags:
   - meta
   - geek/web
@@ -32,6 +32,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 ### v1
 
 1. [Optimize CLS](https://web.dev/optimize-cls/)
+1. [Improve caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control 'Cache-Control - HTTP on MDN'), specially for [redirects](https://docs.netlify.com/routing/headers/ 'Custom headers - Netlify Docs')
 1. Webmentions implementation
 1. [The Jam](/jam 'The Jam'): implement graph
 1. page redirection language
