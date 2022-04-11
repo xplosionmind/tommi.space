@@ -1,5 +1,5 @@
 [[redirects]]
-	from	= "/assets/*"
+	from	= "/*"
 	to		= "http://assets.tommi.space/:splat"
 	status	= 200
 	force	= true
