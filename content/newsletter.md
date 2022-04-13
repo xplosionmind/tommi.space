@@ -16,16 +16,12 @@ description: 'Parole Sconnesse è la mia pseudo-newsletter in cui, ogni tot, con
 Se fossi così impavido da volerti iscrivere, basta compilare il modulo qui di seguito, oppure, se preferisci, [iscriviti via RSS](https://buttondown.email/tommi/rss 'Il feed RSS di Parole Sconnesse').  
 Rock’n’roll!
 
-<form
-  action='https://buttondown.email/api/emails/embed-subscribe/tommi'
-  method='post'
-  target='popupwindow'
-  onsubmit="window.open('https://buttondown.email/tommi', 'popupwindow')"
-  class='flex'
->
-  <input type='email' placeholder='scrivi qui la tua email' name='email' id='bd-email'>
-  <input type='hidden' value='1' name='embed'>
-  <input type='hidden' name='tag' value='tommi.space'>
+<form method='post' action='https://newsletter.tommi.space/subscription/form' target='popupwindow' class='flex listmonk-form'>
+  <input type='hidden' name='nonce'>
+  <input type='email' name='email' required placeholder='scrivi qui la tua email' style='margin: .5em'>
+  <input type='text' style='display: none' name='name' placeholder='Nome (facoltativo)'>
+  <input id='8ccad' style='display: none' type='checkbox' name='l' checked value='8ccad8ec-d1d3-425e-a8db-14fa3b2518e8'>
+  <label for='8ccad' style='display: none'>Parole Sconnesse</label>
   <input class='blue written button' type='submit' value='Iscriviti'>
 </form>
 
