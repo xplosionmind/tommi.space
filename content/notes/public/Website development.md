@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-04-12T07:05:14+02:00
+updated: 2022-04-13T19:53:10+02:00
 tags:
   - meta
   - geek/web
@@ -8,7 +8,6 @@ aliases: tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development/
 redirect_from: [/development-roadmap/,/roadmap/,/wip/,/issues/,/improvements/,/dev/,/website-development/,/tommi.space/]
 main: true
-image: /2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
 ---
 ## Content
@@ -24,8 +23,9 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 Improvements concerning [the *data* module of tommi.space](https://codeberg.org/tommi/tommi.space/src/branch/main/data '“data„ directory in the tommi.space repository, on Codeberg'), hence any sort of data about Tommi.
 
-- Better [JSON-LD](https://json-ld.org 'JSON-LD') implementation
+- Better [JSON-LD](https://json-ld.org 'JSON-LD') implementation, also using [eleventy-plugin-schema](https://github.com/quasibit/eleventy-plugin-schema 'Eleventy plugin to generate JSON-LD structured data')
 - Use JavaScript to include sub-entries (e.g. Including in `tommi.js` data about Scambi Festival from `scambi.js`)
+- [[Automations]]
 
 <br>
 
@@ -41,7 +41,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 1. Backlinks
 1. Implement [XFN](https://gmpg.org/xfn/join 'Join XHTML Friends Network')
 1. Print `todo` points of every page at the bottom of it
-1. ~~[Use Storj as CDN](https://docs.storj.io/dcs/how-tos/host-a-static-website/ '“Host a static website” on Storj')~~ files are served via HTTP, and in order to have HTTPS a proxy CDN has to be used.
+1. Implement [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed 'JSON Feed on Wikipedia')
 
 <br>
 
