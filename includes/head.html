@@ -158,6 +158,7 @@
 		</style>
 		<meta name='theme-color' content='{{ primary }}'>
 	{% else %}
-		<meta name='theme-color' content='{{ site.primary }}'>
+		<meta name='theme-color' content='{{ site.primary }}' media='(prefers-color-scheme: light)'>
+		<meta name='theme-color' content='#000000' media='(prefers-color-scheme: dark)'>
 	{% endif %}
 </head>
