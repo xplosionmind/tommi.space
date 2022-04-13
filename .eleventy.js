@@ -9,28 +9,28 @@ const { parseHHTML } = require('node-html-parser')
 const rootHHTML = parseHHTML(html)
 
 for (const h of rootHHTML.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
-  const slug = h.getAttribute('id') || slugify(h.textContent)
-  h.setAttribute('id', slug)
-  h.innerHTML = `<a href="#${slug}>${h.innerHTML}</a>`
+	const slug = h.getAttribute('id') || slugify(h.textContent)
+	h.setAttribute('id', slug)
+	h.innerHTML = `<a href="#${slug}>${h.innerHTML}</a>`
 }*/
 
 // Markdown //
 function wikilinkSlugifier(pageName) {
-  pageName = pageName.trim()
-  pageName = pageName.split('/').map(require('sanitize-filename')).join('/')
-  pageName = pageName.replace(/\s+/, '-')
-  return pageName
+	pageName = pageName.trim()
+	pageName = pageName.split('/').map(require('sanitize-filename')).join('/')
+	pageName = pageName.replace(/\s+/, '-')
+	return pageName
 }
 const markdownIt = require('markdown-it')
 const md = markdownIt({
-  html: true,
-  fence: false
+	html: true,
+	fence: false
 })
 .use(require('markdown-it-wikilinks')({
-  uriSuffix: '',
-  makeAllLinksAbsolute: true,
-  class: 'wikilink',
-  postProcessPageName: wikilinkSlugifier
+	uriSuffix: '',
+	makeAllLinksAbsolute: true,
+	class: 'wikilink',
+	postProcessPageName: wikilinkSlugifier
 })).disable('code')
 .use(require('markdown-it-attrs'))
 .use(require('markdown-it-anchor'))
@@ -47,166 +47,192 @@ const md = markdownIt({
 
 module.exports = function(eleventyConfig) {
 
-    //******************//
-   // Global variables //
-  //******************//
-  eleventyConfig.addGlobalData('image', '/tommi.space.wip.png');
+		//******************//
+	 // Global variables //
+	//******************//
+	eleventyConfig.addGlobalData('image', '/tommi.space.wip.png');
 
-  eleventyConfig.setFrontMatterParsingOptions({
-    permalink: '/{{ page.fileSlug }}/',
-  });
+	eleventyConfig.setFrontMatterParsingOptions({
+		permalink: '/{{ page.fileSlug }}/',
+	});
 
-    //********//
-   // Liquid //
-  //********//
-  eleventyConfig.addLiquidFilter('reverse', (collection) => {
-    const arr = [...collection];
-    return arr.reverse();
-  });
-  eleventyConfig.addFilter('markdownify', (str) => {
-    return md.renderInline(str);
-  });
+		//********//
+	 // Liquid //
+	//********//
+	eleventyConfig.addLiquidFilter('reverse', (collection) => {
+		const arr = [...collection];
+		return arr.reverse();
+	});
+	eleventyConfig.addFilter('markdownify', (str) => {
+		return md.renderInline(str);
+	});
 
-    //*************//
-   // Collections //
-  //*************//
-  eleventyConfig.addCollection('posts', function(collection) {
-    return collection.getFilteredByGlob('content/posts/*').sort((a, b) => {
-      return b.date - a.date; // sort by date - descending
-    });
-  });
-  eleventyConfig.addCollection('jam', function(collection) {
-    return collection.getFilteredByGlob('content/notes/public/*').sort((a, b) => {
-      return b.date - a.date;
-    });
-  });
-  eleventyConfig.addCollection('poetry', function(collection) {
-    return collection.getFilteredByGlob('content/poetry/*').sort((a, b) => {
-      return b.date - a.date;
-    });
-  });
-  eleventyConfig.addCollection('sconnesso', function(collection) {
-    return collection.getFilteredByGlob('content/sconnesso/*').sort((a, b) => {
-      return b.date - a.date;
-    });
-  });
+		//*************//
+	 // Collections //
+	//*************//
+	eleventyConfig.addCollection('posts', function(collection) {
+		return collection.getFilteredByGlob('content/posts/*').sort((a, b) => {
+			return b.date - a.date; // sort by date - descending
+		});
+	});
+	eleventyConfig.addCollection('jam', function(collection) {
+		return collection.getFilteredByGlob('content/notes/public/*').sort((a, b) => {
+			return b.date - a.date;
+		});
+	});
+	eleventyConfig.addCollection('poetry', function(collection) {
+		return collection.getFilteredByGlob('content/poetry/*').sort((a, b) => {
+			return b.date - a.date;
+		});
+	});
+	eleventyConfig.addCollection('sconnesso', function(collection) {
+		return collection.getFilteredByGlob('content/sconnesso/*').sort((a, b) => {
+			return b.date - a.date;
+		});
+	});
+	// Multilingual sitemap collection. See https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap
+	eleventyConfig.addCollection('sitemap', function(collectionApi) {
+		return collectionApi
+			.getAll()
+			.map((item, index, all) => {
+				return {
+					url: item.url,
+					date: item.date,
+					data: {
+						...item.data,
+						sitemap: {
+							...item.data.sitemap,
+							links:
+								all
+									.filter(other => other.data.ref === item.data.ref)
+									.map(translation => {
+										return {
+											url: translation.url,
+											lang: translation.data.lang,
+										};
+									}),
+						},
+					},
+				}
+			});
+	});
 
-  // Post excerpt
-  eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '<!--excerpt-->'});
+	// Post excerpt
+	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '<!--excerpt-->'});
 
-    //******//
-   // Scss //
-  //******//
-  eleventyConfig.addWatchTarget('styles');
-  eleventyConfig.addPassthroughCopy({'styles': '/'});
-  eleventyConfig.addPassthroughCopy({'svg': '/'});
-  eleventyConfig.addPassthroughCopy('js');
+		//******//
+	 // Scss //
+	//******//
+	eleventyConfig.addWatchTarget('styles');
+	eleventyConfig.addPassthroughCopy({'styles': '/'});
+	eleventyConfig.addPassthroughCopy({'svg': '/'});
+	eleventyConfig.addPassthroughCopy('js');
 
-    //*********//
-   // Plugins //
-  //*********//
-  eleventyConfig.setLibrary('md', md);
-  eleventyConfig.addPlugin(require('eleventy-plugin-find'));
-  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-  eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-external-links'));
-  eleventyConfig.addPlugin(require('eleventy-plugin-embed-everything'), {
-    youtube: {
-      options: {
-        embedClass: 'embed',
-        lite: {
-          css: {
-            enabled: false
-          }
-        }
-      }
-    },
-    spotify: {
-      options: {
-        embedClass: 'embed'
-      }
-    },
-    instagram: {
-      options: {
-        embedClass: 'embed'
-      }
-    }
-  });
-  eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
-  eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
-    baseUrl: 'assets/svg/'
-  });
-  eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
-    ul: true,
-  });
-  eleventyConfig.addPlugin(pluginRss);
-  // RSS filters
-  eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
-  eleventyConfig.addLiquidFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
-  eleventyConfig.addLiquidFilter('absoluteUrl', pluginRss.absoluteUrl);
-  eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
-  eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
-    sitemap: {
-      hostname: 'https://tommi.space'
-    },
-  });
-  eleventyConfig.addPlugin(require('eleventy-plugin-seo'), {
-    title: 'Tommi Space',
-    description: 'A virtual representation of the mess inside Tommi’s mind',
-    url: 'https://tommi.space',
-    author: 'Tommi',
-    twitter: 'xplosionmind',
-    image: '/tommi.space.wip.png',
-    options: {
-      titleStyle: 'minimalistic',
-      titleDivider: '|',
-      imageWithBaseUrl: true,
-      twitterCardType: 'summary_large_image',
-      showPageNumbers: false
-    }
-  });
-  eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
+		//*********//
+	 // Plugins //
+	//*********//
+	eleventyConfig.setLibrary('md', md);
+	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
+	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-schema'));
+	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
+	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-external-links'));
+	eleventyConfig.addPlugin(require('eleventy-plugin-embed-everything'), {
+		youtube: {
+			options: {
+				embedClass: 'embed',
+				lite: {
+					css: {
+						enabled: false
+					}
+				}
+			}
+		},
+		spotify: {
+			options: {
+				embedClass: 'embed'
+			}
+		},
+		instagram: {
+			options: {
+				embedClass: 'embed'
+			}
+		}
+	});
+	eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
+	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
+		baseUrl: 'assets/svg/'
+	});
+	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
+		ul: true,
+	});
+	eleventyConfig.addPlugin(pluginRss);
+	// RSS filters
+	eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
+	eleventyConfig.addLiquidFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
+	eleventyConfig.addLiquidFilter('absoluteUrl', pluginRss.absoluteUrl);
+	eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
+	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
+		sitemap: {
+			hostname: 'https://tommi.space'
+		},
+	});
+	eleventyConfig.addPlugin(require('eleventy-plugin-seo'), {
+		title: 'Tommi Space',
+		description: 'A virtual representation of the mess inside Tommi’s mind',
+		url: 'https://tommi.space',
+		author: 'Tommi',
+		twitter: 'xplosionmind',
+		image: '/tommi.space.wip.png',
+		options: {
+			titleStyle: 'minimalistic',
+			titleDivider: '|',
+			imageWithBaseUrl: true,
+			twitterCardType: 'summary_large_image',
+			showPageNumbers: false
+		}
+	});
+	eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
 
-    //***************//
-   // Minify output //
-  //***************//
-  eleventyConfig.addTransform('miniHtml', function(content, outputPath) {
-    if( this.outputPath && this.outputPath.endsWith('.html') ) {
-      let minified = miniHtml.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-        minifyCSS: true,
-        minifyJS: true,
-        minifyURLs: true
-      });
-      return minified;
-    }
+		//***************//
+	 // Minify output //
+	//***************//
+	eleventyConfig.addTransform('miniHtml', function(content, outputPath) {
+		if( this.outputPath && this.outputPath.endsWith('.html') ) {
+			let minified = miniHtml.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+				minifyCSS: true,
+				minifyJS: true,
+				minifyURLs: true
+			});
+			return minified;
+		}
 
-    return content;
-  });
+		return content;
+	});
 
-    //*****//
-   // 404 //
-  //*****//
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function(err, bs) {
+		//*****//
+	 // 404 //
+	//*****//
+	eleventyConfig.setBrowserSyncConfig({
+		callbacks: {
+			ready: function(err, bs) {
+				bs.addMiddleware('*', (req, res) => {
+					const content_404 = fs.readFileSync('_site/404.html');
+					res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
+					res.write(content_404);
+					res.end();
+				});
+			}
+		}
+	});
 
-        bs.addMiddleware('*', (req, res) => {
-          const content_404 = fs.readFileSync('_site/404.html');
-          res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
-          res.write(content_404);
-          res.end();
-        });
-      }
-    }
-  });
-
-  return {
-    dir: {
-      includes: 'includes',
-      layouts: 'layouts',
-      data: 'data'
-    }
-  }; // there should never be anything after the “return” function
+	return {
+		dir: {
+			includes: 'includes',
+			layouts: 'layouts',
+			data: 'data'
+		}
+	}; // there should never be anything after the “return” function
 };
