@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-04-11T16:28:09+02:00
+updated: 2022-04-12T07:05:14+02:00
 tags:
   - meta
   - geek/web
@@ -39,6 +39,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 1. Blog posts pagination
 1. improved Wikilinks
 1. Backlinks
+1. Implement [XFN](https://gmpg.org/xfn/join 'Join XHTML Friends Network')
 1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 1. Print `todo` points of every page at the bottom of it
 1. ~~[Use Storj as CDN](https://docs.storj.io/dcs/how-tos/host-a-static-website/ '“Host a static website” on Storj')~~ files are served via HTTP, and in order to have HTTPS a proxy CDN has to be used.
