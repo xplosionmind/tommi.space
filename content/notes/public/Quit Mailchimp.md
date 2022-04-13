@@ -1,6 +1,6 @@
 ---
 date: 2021-01-09
-updated: 2022-03-14T14:51:45+01:00
+updated: 2022-04-13T18:37:54+02:00
 tags: geek
 aliases: Quitting Mailchimp, Switch to Mailtrain, Switch to Buttondown
 description: Thoughts and decisions about quitting Mailchimp
@@ -9,6 +9,7 @@ redirect_from:
   - /mailchimp/
   - /mailtrain/
   - /buttondown/
+  - /listmonk/
 ---
 ## Why
 
@@ -17,25 +18,14 @@ redirect_from:
 <br>
 <br>
 
-## Alternatives
+## listmonk
 
-### Self hosted
-
-- [Mailtrain](https://mailtrain.org 'Mailtrain')
-- [listmonk](https://listmonk.app 'listmonk')
-
-<br>
-
-### Ad interim
-
-Viable *ad interim* solutions if somebody has the same hard time as me in setting up Mailtrain.
-
-- [Buttondown](https://buttondown.email 'Buttondown') (if you subscribe now, you will subscribe through it)
+I am now using [listmonk](https://listmonk.app 'listmonk official website') to manage everything concerning my newsletter. It is self-hosted with [YunoHost](https://yunohost.org 'YunoHost official website') on [[Server|Xplosion Server]].
 
 <br>
 <br>
 
 ## Useful links
 
-- [responsive template](https://github.com/leemunroe/responsive-html-email-template)
+- [responsive template](https://github.com/leemunroe/responsive-html-email-template 'responsive-html-email-template on GitHub')
 - [awesome-emails](https://github.com/jonathandion/awesome-emails 'awesome-emails on GitHub')
