@@ -51,16 +51,3 @@ layout: wrapper
 		</section>
 	</div>
 </div>
-<div class='row'>
-	<section id='changelog' class='one column'>
-		<h2 class='center'>Latest Changes</h2>
-		{% assign latestchanges = collections.all | sort: 'updated' %}
-		<ul>
-			{% for entry in latestchanges reversed  %}
-				<li lang='{{ entry.data.lang }}'>
-					<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}' lang='en'>{{ entry.data.updated | date: '%d %B %Y' }}</time> <a href='{{ entry.url }}' target='_blank' title='{{ entry.data.title }}'>{{ entry.data.title }}</a> - {% git_commit_msg, entry %}
-				</li>
-			{% endfor %}
-		</ul>
-	</section>
-</div>
