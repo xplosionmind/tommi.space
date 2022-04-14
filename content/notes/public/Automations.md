@@ -1,6 +1,6 @@
 ---
 date: 2022-04-08T12:07:30+02:00
-updated: 2022-04-13T11:19:45+02:00
+updated: 2022-04-13T23:36:03+02:00
 location: home
 tags: geek/server
 description: Automations I take advantage of
@@ -22,6 +22,14 @@ Below a list of automations that I am using or I intend to setup.
 	- [ ] [scholar.social](https://scholar.social/@tommi '@tommi on scholar.social')
 	- [ ] [Bookwyrm](https://bookwyrm.social/user/tommi 'Tommi on bookwyrm.social')
 	- [ ] [mastodon.uno]
+- [ ] Share to [Stream] new songs added to [[Xplosion Music]]
+- [ ] Synchronize [[Xplosion Music]] and main playlists across different streaming services:
+	- [ ] Spotify
+	- [ ] Deezer
+	- [ ] Apple Music
+	- [ ] YouTube Music
+	- [ ] YouTube
+	- [ ] ListenBrainz
 
 [Stream]: https://stream.tommi.space 'Tommi’s Stream of consciousness'
 [Internet Awesomeness]: https://tommi.space/internet-awesomeness.xml 'Internet Awesomeness RSS feed'
