@@ -3,17 +3,6 @@ const miniHtml = require('html-minifier');
 const _ = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 
-// HTML Headers ID generation
-/* #TODO: what walue to pass as `html`?
-const { parseHHTML } = require('node-html-parser')
-const rootHHTML = parseHHTML(html)
-
-for (const h of rootHHTML.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
-	const slug = h.getAttribute('id') || slugify(h.textContent)
-	h.setAttribute('id', slug)
-	h.innerHTML = `<a href="#${slug}>${h.innerHTML}</a>`
-}*/
-
 // Markdown //
 function wikilinkSlugifier(pageName) {
 	pageName = pageName.trim()
@@ -21,7 +10,7 @@ function wikilinkSlugifier(pageName) {
 	pageName = pageName.replace(/\s+/, '-')
 	return pageName
 }
-const markdownIt = require('markdown-it')
+const markdownIt = require('markdown-it');
 const md = markdownIt({
 	html: true,
 	fence: false
@@ -46,30 +35,16 @@ const md = markdownIt({
 .use(require('markdown-it-mathjax3'));
 
 module.exports = function(eleventyConfig) {
-
-		//******************//
-	 // Global variables //
-	//******************//
-	eleventyConfig.addGlobalData('image', '/tommi.space.wip.png');
-
+	// General //
+	eleventyConfig.setLibrary('md', md);
 	eleventyConfig.setFrontMatterParsingOptions({
 		permalink: '/{{ page.fileSlug }}/',
 	});
+	eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
+	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '<!--excerpt-->'});
+	eleventyConfig.setQuietMode(true);
 
-		//********//
-	 // Liquid //
-	//********//
-	eleventyConfig.addLiquidFilter('reverse', (collection) => {
-		const arr = [...collection];
-		return arr.reverse();
-	});
-	eleventyConfig.addFilter('markdownify', (str) => {
-		return md.renderInline(str);
-	});
-
-		//*************//
-	 // Collections //
-	//*************//
+	// Collections //
 	eleventyConfig.addCollection('posts', function(collection) {
 		return collection.getFilteredByGlob('content/posts/*').sort((a, b) => {
 			return b.date - a.date; // sort by date - descending
@@ -117,21 +92,15 @@ module.exports = function(eleventyConfig) {
 			});
 	});
 
-	// Post excerpt
-	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '<!--excerpt-->'});
 
-		//******//
-	 // Scss //
-	//******//
+	// Scss //
 	eleventyConfig.addWatchTarget('styles');
 	eleventyConfig.addPassthroughCopy({'styles': '/'});
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy('js');
 
-		//*********//
-	 // Plugins //
-	//*********//
-	eleventyConfig.setLibrary('md', md);
+	// Plugins //
+	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-schema'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
@@ -166,11 +135,6 @@ module.exports = function(eleventyConfig) {
 		ul: true,
 	});
 	eleventyConfig.addPlugin(pluginRss);
-	// RSS filters
-	eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
-	eleventyConfig.addLiquidFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
-	eleventyConfig.addLiquidFilter('absoluteUrl', pluginRss.absoluteUrl);
-	eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
 		sitemap: {
 			hostname: 'https://tommi.space'
@@ -181,7 +145,6 @@ module.exports = function(eleventyConfig) {
 		description: 'A virtual representation of the mess inside Tommi’s mind',
 		url: 'https://tommi.space',
 		author: 'Tommi',
-		twitter: 'xplosionmind',
 		image: '/tommi.space.wip.png',
 		options: {
 			titleStyle: 'minimalistic',
@@ -191,11 +154,22 @@ module.exports = function(eleventyConfig) {
 			showPageNumbers: false
 		}
 	});
-	eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
 
-		//***************//
+	// Filters //
+	eleventyConfig.addFilter('reverse', (collection) => {
+		const arr = [...collection];
+		return arr.reverse();
+	});
+	eleventyConfig.addFilter('markdownify', (str) => {
+		return md.renderInline(str);
+	});
+	// RSS Filters //
+	eleventyConfig.addFilter('dateToRfc3339', pluginRss.dateToRfc3339);
+	eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
+	eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl);
+	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
+
 	 // Minify output //
-	//***************//
 	eleventyConfig.addTransform('miniHtml', function(content, outputPath) {
 		if( this.outputPath && this.outputPath.endsWith('.html') ) {
 			let minified = miniHtml.minify(content, {
@@ -208,18 +182,15 @@ module.exports = function(eleventyConfig) {
 			});
 			return minified;
 		}
-
 		return content;
 	});
 
-		//*****//
-	 // 404 //
-	//*****//
+	// 404 //
 	eleventyConfig.setBrowserSyncConfig({
 		callbacks: {
 			ready: function(err, bs) {
 				bs.addMiddleware('*', (req, res) => {
-					const content_404 = fs.readFileSync('_site/404.html');
+					const content_404 = fs.readFileSync('www/404.html');
 					res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
 					res.write(content_404);
 					res.end();
@@ -232,7 +203,8 @@ module.exports = function(eleventyConfig) {
 		dir: {
 			includes: 'includes',
 			layouts: 'layouts',
-			data: 'data'
+			data: 'data',
+			output: 'www'
 		}
 	}; // there should never be anything after the “return” function
 };

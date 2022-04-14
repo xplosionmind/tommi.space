@@ -4,7 +4,9 @@
     "domain": "tommi.space",
     "author":{
         "name": "Tommi",
-        "email": "surfing@tommi.space"
+        "email": "surfing@tommi.space",
+        "avatar": "https://tommi.space/profile.jpg",
+        "url": "https://tommi.space/about"
     },
     "primary": "#FCC920",
     "description": "The virtual representation of the mess inside Tommi’s mind",

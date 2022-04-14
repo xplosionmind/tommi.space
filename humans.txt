@@ -1,7 +1,7 @@
 /* TEAM */
 Author: Tommi
 Contact: surfing@tommi.space
-Mastodon: @tommi@mastodon.uno
+Fediverse: @tommi@mastodon.uno
 Location: Italy
 
 /* SITE */
