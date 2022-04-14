@@ -14,6 +14,22 @@ module.exports = {
       }
       // console.log(`${data.page.filePathStem} => ${title}${hadTitle ? " (had title)" : ""}`);
       return title;
+    },
+    /*date(data) {
+      let hadDate = false;
+      const date = data.date || '2020-03-20';
+      if (data.date) {
+        hadDate = true;
+      }
+      return date;
+    },*/
+    updated(data) {
+      let hadUpdated = false;
+      const updated = data.updated || data.date;
+      if (data.updated) {
+        hadUpdated = true;
+      }
+      return updated;
     }
   }
 };

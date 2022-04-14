@@ -2,6 +2,7 @@ const fs = require('fs');
 const miniHtml = require('html-minifier');
 const _ = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const simpleGit = require('simple-git');
 
 // Markdown //
 function wikilinkSlugifier(pageName) {
@@ -168,6 +169,28 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
 	eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl);
 	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
+
+	// Changelog configuration //
+	/* see https://github.com/11ty/eleventy/discussions/2324 */
+	const git = simpleGit();
+	eleventyConfig.addFilter(
+		'git_commit_msg',
+		async function (file = this.page.inputPath) {
+		const { latest } = await git.log({ file, maxCount: 1 });
+		return latest.message;
+		}
+	);
+	eleventyConfig.addShortcode(
+		'git_commit_msg',
+		async function (file = this.page.inputPath) {
+    		const { latest } = await git.log({ file, maxCount: 1 });
+    		// Make sure the file was found in git history (ie, not a newly created file which hasn't been committed yet.
+    		if (!latest) {
+    			return `<!-- git commit history not found for "${file}" -->`;
+    		}
+    		return `<span data-file='${file}' data-hash='${latest.hash}' data-date='${latest.date}'>${latest.message}</span>`;
+		}
+	);
 
 	 // Minify output //
 	eleventyConfig.addTransform('miniHtml', function(content, outputPath) {
