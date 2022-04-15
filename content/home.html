@@ -58,7 +58,7 @@ layout: wrapper
 		<ul>
 			{% for entry in latestchanges reversed  %}
 				<li lang='{{ entry.data.lang }}'>
-					<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}' lang='en'>{{ entry.data.updated | date: '%d %B %Y' }}</time> <a href='{{ entry.url }}' target='_blank' title='{{ entry.data.title }}'>{{ entry.data.title }}</a> - {% git_commit_msg, entry %}
+					<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}' lang='en'>{{ entry.data.updated | date: '%d %B %Y' }}</time> <a href='{{ entry.url }}' target='_blank' title='{{ entry.data.title }}'>{{ entry.data.title }}</a> - {% git_commit_msg, entry.inputPath %}
 				</li>
 			{% endfor %}
 		</ul>

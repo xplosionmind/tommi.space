@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-04-08T12:08:11+02:00
+updated: 2022-04-14T23:13:19+02:00
 tags:
   - geek
   - todo
@@ -22,6 +22,7 @@ description: Computer related tasks tracking
 	- Club Tenco
 	- UniVe
 3. Update [[Storage|Backup]] and [[Backup checklist]]
+1. Configure [Nextcloud Solid Pod](https://github.com/pdsinterop/solid-nextcloud/issues/52 'solid-nextcloud use guide')
 4. Cross-environment **[[Tags]] integration**
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[Giri](/giri 'Giri')*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?

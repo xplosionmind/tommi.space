@@ -322,6 +322,7 @@
     "set-blocking": "^2.0.0",
     "setprototypeof": "^1.2.0",
     "sigmund": "^1.0.1",
+    "simple-git": "^3.6.0",
     "slash": "^4.0.0",
     "slugify": "^1.6.5",
     "socket.io": "^4.4.1",
