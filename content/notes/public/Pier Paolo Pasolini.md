@@ -6,6 +6,13 @@ tags:
   - uni
   - people
 ---
+> l’idea cioè che qualcuno, per scrivere qualcosa, debba possedere <q>autorevolezza</q>. Io non capisco sinceramente come possa venire in mente una cosa simile. Ho sempre pensato, come qualsiasi persona normale, che dietro a chi
+scrive ci debba essere necessità di scrivere, libertà, autenticità, rischio. Pensare che ci debba essere qualcosa di sociale e di ufficiale che «fissi» l’autorevolezza di qualcuno, è un pensiero, appunto aberrante, dovuto evidentemente alla deformazione di chi non sappia più concepire verità al di fuori dell’autorità.
+Io non ho alle mie spalle nessuna autorevolezza: se non quella che mi proviene paradossalmente dal non averla e dal non averla voluta; dall’essermi messo in condizione di non aver niente da perdere, e quindi di non essere fedele a nessun patto che non sia quello con un lettore che io considero degno di ogni più scandalosa ricerca
+
+<p class='cite'><cite>Chiesa e Potere</cite>, Corriere della Sera del <time datetime='1974-10-06'>6 ottobre 1974</time></p>
+
+
 - Novità che giace unicamente nella provocazione? p.VII
 - provocatorietà > oggettività p. IX
 - **nulla di nuovo**, ma solo ora quei processi arrivavano in Italia p. X

@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2022-02-24T10:51:30+01:00
+updated: 2022-04-15T06:41:54+02:00
 tags: geek/server
 aliases: Server configuration, VPS configuration
 redirect_from: [/server-configuration/,/nextcloud/]
@@ -473,14 +473,9 @@ chmod -R 755 /var/www/nextcloud/apps/app-name
 
 ### Maintenance mode
 
-enable maintenance mode
+Toggle maintenance mode
 ```shellsession
-sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --on
-```
-
-disable maintenance mode
-```shellsession
-sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --off
+sudo -u nextcloud php7.3 --define apc.enable_cli=1 /var/www/occ maintenance:mode --on # or --off
 ```
 
 <br>

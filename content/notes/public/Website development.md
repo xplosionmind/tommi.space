@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-04-13T19:53:10+02:00
+updated: 2022-04-15T06:40:49+02:00
 tags:
   - meta
   - geek/web
@@ -8,6 +8,7 @@ aliases: tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development/
 redirect_from: [/development-roadmap/,/roadmap/,/wip/,/issues/,/improvements/,/dev/,/website-development/,/tommi.space/]
 main: true
+image: /2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
 ---
 ## Content
@@ -23,31 +24,28 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 Improvements concerning [the *data* module of tommi.space](https://codeberg.org/tommi/tommi.space/src/branch/main/data '“data„ directory in the tommi.space repository, on Codeberg'), hence any sort of data about Tommi.
 
-- Better [JSON-LD](https://json-ld.org 'JSON-LD') implementation, also using [eleventy-plugin-schema](https://github.com/quasibit/eleventy-plugin-schema 'Eleventy plugin to generate JSON-LD structured data')
+- Better [JSON-LD](https://json-ld.org 'JSON-LD') implementation
 - Use JavaScript to include sub-entries (e.g. Including in `tommi.js` data about Scambi Festival from `scambi.js`)
-- [[Automations]]
 
 <br>
 
 ### v1
 
 1. [Optimize CLS](https://web.dev/optimize-cls/)
-1. [Improve caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control 'Cache-Control - HTTP on MDN'), specially for [redirects](https://docs.netlify.com/routing/headers/ 'Custom headers - Netlify Docs')
 1. Webmentions implementation
 1. [The Jam](/jam 'The Jam'): implement graph
 1. page redirection language
 1. Blog posts pagination
 1. improved Wikilinks
 1. Backlinks
-1. Implement [XFN](https://gmpg.org/xfn/join 'Join XHTML Friends Network')
+1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 1. Print `todo` points of every page at the bottom of it
-1. Implement [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed 'JSON Feed on Wikipedia')
 
 <br>
 
 ### v2
 
-1. [Universal Markdown link shortcodes](https://github.com/11ty/eleventy/discussions/2315 'Setting universal Markdown link shortcodes · Discussion #2315 · 11ty/eleventy · GitHub')
+1. https://github.com/cathugger/mkp224o
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, [looping through](https://talk.jekyllrb.com/t/loop-through-all-pages-of-the-website/6880 'Loop through ALL pages in a website - Jekyll Talk') the last few pages updated recently (based on `page.updated`)
 1. Improve search
 2. Add a section in each note where `if more`, in the front matter `more: https://en.wikipedia.org/wiki/Love` (encyclopedia page of the same topic)
@@ -60,7 +58,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 
 ### v3
 
-1. Configure and implement [ActivityPub](https://activitypub.rocks 'ActivityPub')
+1. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
 	- [Nautilus](https://github.com/aaronpk/Nautilus 'Nautilus on GitHub')
