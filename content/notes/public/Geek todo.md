@@ -1,13 +1,15 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-04-08T12:08:11+02:00
+updated: 2022-04-18T08:41:19+02:00
 tags:
   - geek
   - todo
 description: Computer related tasks tracking
 ---
+1. [**Server backup**](https://github.com/yunohost-Apps/borg_ynh 'Borg YunoHost pagckage on GitHub')
 1. [[Images]] and [[Storage]]
 1. [[Automations]]
+1. Install [Castopod](https://castopod.org 'Castopod') on [[public/Server|Xplosion Server]]
 1. Defining a [threat model](https://protonmail.com/blog/what-is-a-threat-model/ 'Privacy Decrypted #1: What is a threat model?')
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. [[GiTMI]]

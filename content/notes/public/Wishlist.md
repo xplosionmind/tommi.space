@@ -1,6 +1,6 @@
 ---
 date: 2020-07-17
-updated: 2022-03-14T12:32:14+01:00
+updated: 2022-04-17T22:29:51+02:00
 toc: false
 description: Stuff I need and things I just would love to have
 redirect_from: [/desideri/,/regali/]
@@ -12,29 +12,29 @@ main: true
 </div>
 
 1. [[Storage]]
-1. Backlight to scan negatives
-1. Thermometer for high temperatures designed for photographic development
-9. A tent for at least three people
-1. Sound card (Focusrite Scarlett 2i2)
-1. Studio microphone
-1. Elgato Cam Link
-6. [Compact point-and-shoot camera](https://www.wired.com/gallery/best-compact-cameras/ 'Best compact camerad on WIRED')
-7. Watertight bag or backpack
-8. City bike
-11. Books (check the [Books wishlist](/books#wishlist 'Books wishlist'))
-12. Ledlenser torch
-12. Ski mask
-13. Snowboard boots
-15. Radio Amateur Rig
-16. Full Frame mirrorless camera
-20. Green Screen
-21. Polaroid camera
-22. Portable turntable
-14. [Boosted Board](https://boostedusa.com/collections/electric-skateboards 'Electric skateboards on Boosted Board official website')
-25. Snowboard
-18. Wetsuit
-17. Surf board
-19. ¾ guitar
+2. Microfono archetto
+10. Sound card (Focusrite Scarlett 2i2)
+11. Studio microphone
+3. Backlight to scan negatives
+4. Thermometer for high temperatures designed for photographic development
+17. Ledlenser torch
+13. [Compact point-and-shoot camera](https://www.wired.com/gallery/best-compact-cameras/ 'Best compact camerad on WIRED')
+14. Watertight bag or backpack
+15. City bike
+16. Books (check the [Books wishlist](/books#wishlist 'Books wishlist'))
+12. Elgato Cam Link
+18. Ski mask
+19. Snowboard boots
+20. Radio Amateur Rig
+21. Full Frame mirrorless camera
+22. Green Screen
+23. Polaroid camera
+24. Portable turntable
+25. [Boosted Board](https://boostedusa.com/collections/electric-skateboards 'Electric skateboards on Boosted Board official website')
+26. Snowboard
+27. Wetsuit
+28. Surf board
+29. ¾ guitar
 
 <br>
 <br>
