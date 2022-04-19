@@ -103,6 +103,11 @@ module.exports = function(eleventyConfig) {
 	// Plugins //
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
+		eleventyConfig.addPlugin(require('eleventy-plugin-json-feed'), {
+		content_text: true,
+		filter_posts_tag: true,
+		summary_metadata_field_name: 'description'
+	});
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-schema'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-external-links'));

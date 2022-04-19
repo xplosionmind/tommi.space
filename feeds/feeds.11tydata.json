@@ -2,5 +2,14 @@
   "layout": null,
   "eleventyExcludeFromCollections": true,
   "explicit": "false",
-  "lang": "it"
+  "lang": "it",
+  "metadata": {
+    "icon": "https://tommi.space/tommi.space.wip.png",
+    "favicon": "https://tommi.space/favicon.ico",
+    "author": {
+      "name": "Tommi",
+      "url": "https://tommi.space/about",
+      "avatar": "https://tommi.space/profile.jpg"
+    }
+  }
 }
