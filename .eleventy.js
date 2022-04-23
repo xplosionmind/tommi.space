@@ -2,7 +2,6 @@ const fs = require('fs');
 const miniHtml = require('html-minifier');
 const _ = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const simpleGit = require('simple-git');
 
 // Markdown //
 function wikilinkSlugifier(pageName) {
