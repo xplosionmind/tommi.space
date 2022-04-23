@@ -1,6 +1,6 @@
 ---
 date: 2021-01-09T01:00:00+01:00
-updated: 2022-04-04T20:02:22+02:00
+updated: 2022-04-21T06:43:01+02:00
 tags:
   - draft
   - geek/web
@@ -18,18 +18,67 @@ main: true
 ---
 <div class='yellow box'>
 	<p>Note that these notes have to be considered more a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
-	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing in documenting what I decide and how I carry out what I do for educational purposes is not my priority</p>
+	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing effort in documenting my decisions is not my priority, as well as to explain passages for educational purposes</p>
 </div>
+
+<p class='date'><time datetime='2022-04-21T06:14:30+02:00'>Thursday, April 21<sup>st</sup> 2022</time></p>
+
+
+## Hosting
+
+Since the beginning, [Netlify](https://netlify.com 'Netlify') has been where tommi.space is hosted. It has to be noted, though, that Netlify is no champion of openness, free software, or sustainable infrastructure, hence not a service whose values I completely share. Nevertheless, it is awesome, and it has everything I need, and more. It hurts to say it, but I love it and I am sticking with it, since it really makes much of the work easier.
+
+All of the relatively big files on the website (such as images and podcast audios) are hosted on [Storj](https://storj.io 'Storj'), and through a couple of tricks they are seamlessly served through Netlify. Storj too has its red flags, since it is based on the blockchain and I am still quite skeptical concerning all of this stuff. But, again, it wonderfully does the work, at least until [Cubbit](https://cubbit.io 'Cubbit') won’t get around static hosting, as Stefano, its CEO, anticipated to me someday it will.
+
+<br>
+<br>
+
+## Analytics
+
+The sole aspect I am interested in is knowing how many people visit my website, specifically which pages.
+
+Being Google Analytics definitely out of consideration, finding a simple, free, light (and hosted) analytics service is not simple.
+
+- [counter.dev](https://counter.dev 'Counter') is the most clever, the lightest, and among the most beautiful analytics software I have ever seen. Unfortunately, it has some big problems that make its numbers not remotely corresponding to reality, and its developers do not plan to fix them anytime soon.
+- [Matomo](https://matomo.org 'Matomo') is the go-to Google Analytics alternative, but, as such, it has many features that I do not need and that make it quite heavy.
+- [Plausible](https://plausible.io 'Plausible Analytics') is the analytics service I have been using in the last two years, even though it does not feel 100% right, even if it nicely does the work I require. Probably, it is because it costs me a little more than 30€ a year, and I would like to avoid such expense.
+
+Of course, I prefer to self-host analytics, but as of right now Matomo is the only analytics platform packaged for YunoHost (the OS I am using on [[Server|Xplosion Server]]). As soon as any light analytics software will get packaged for YunoHost, I will switch to it.
+
+<br>
+<br>
 
 <p class='date'><time datetime='2022-03-23T16:21:06+01:00'>Wednesday, March 23<sup>rd</sup> 2022</time></p>
 
 ## Migrating from GitHub to Codeberg
 
-I love community-driven stuff, and I praise Codeberg values. Furthermore, there is all of that stuff that is not good about GitHub, so I moved.
+I love community-driven stuff, and I praise [Codeberg values](https://docs.codeberg.org/getting-started/what-is-codeberg/#our-mission '“Our mission” in Codeberg documentation'). Furthermore, there is all of that stuff that is not good about GitHub, so I moved.
+
+<br>
+<br>
 
 ## New repository
 
-I never gave too much attention to 
+I never gave too much attention to the size of the repository of tommi.space, until it clearly huge, with a size of ~1GB. I took advantage of the switch to Eleventy to start a new repository from scratch. The obsolete Jekyll-based website is on GitHub at [old.tommi.space](https://github.com/xplosionmind/old.tommi.space 'old.tommi.space on GitHub')
+
+<br>
+<br>
+
+## Switching to Eleventy
+
+My switching from [Jekyll] to [Eleventy] is one of those things that was not strictly necessary, yet I kept thinking about it every time I coded something, even minimal, on Jekyll. So I switched. It has been very stressful and intense, but I am now thoroughly proud of the fundamental structure of my website, even if [[Website development|it still lacks some features]] it had with Jekyll.
+
+There are plenty of step-by-step guides to switch from Jekyll to Eleventy. Even though tutorials have been of little use for me, since tommi.space is heavily customized and tailored, I saved (and I am still continuing to save) [insightful articles about Eleventy](https://inputs.tommi.space/tag/list/11ty 'Pages saved in Tommi’s inputs tagged “11ty”').
+
+Equally, there are a ton of blog posts comparing the two static site generators, but, again, I am just interested in noting my personal reasons.
+- Eleventy now has [around three full time development funding](https://www.11ty.dev/blog/eleventy-oss/ 'Full Time Open Source Development for Eleventy, sponsored by Netlify') working on it. [Jekyll is arguably dying](https://talk.jekyllrb.com/t/is-the-jekyll-project-dead/6820 '“Is the Jekyll project dead?” thread on Jekyll forum'). The only consequence I am interested in is **support**: even after posting the most absurd or tricky question on the [Eleventy discussions](https://github.com/11ty/eleventy/discussions 'GitHub Discussions on Eleventy repository'), I get an answer in less than 40 hours. On the Jekyll forum, I often relied only on the help of [Michael Currin](https://talk.jekyllrb.com/u/michaelcurrin/ 'Michael Currin’s profile on Jekyll’s forum'), who to my eyes quickly became some sort of divinity (as [Peter DeHaan](https://github.com/pdehaan 'Peter deHaan GitHub profile') is for help with Eleventy), but I could never get 100% of what I was looking for.
+- I have no intention to start coding as my main activity. Still, it is undeniable that the more coding skills, the better it is on this crazy planet in the 21<sup>st</sup> century. After such premise, it goes without saying that a <abbr title='Static Site Generator'>SSG</abbr> built with JavaScript (such as Eleventy) is to be preferred over one that uses Ruby (such as Jekyll).
+- A relevant consequence of the point above is that while with Jekyll I was completely dependent on (and blocked by) plugins and their developers, I now have a little (yet growing) possibility to <u>code some simple features myself</u>, since I am slooooowly learning its basics.
+- I do not care much about **build time**, but when on Jekyll it surpassed the 120 seconds, it started to become incredibly itchy and time-consuming to do anything. Eleventy crashed that time down to less than 30 seconds. Considering the average of build times, it still is quite a lot, but I have no time to spend in build speed optimization. It is fine like this.
+- It is not a logical not objective argument, but while building Jekyll I continuously got **many warnings** and frequent errors too, even without changing anything—mainly, I believe the main reason were outdated dependencies. I could not stand it anymore.
+
+<br>
+<br>
 
 
 <p class='date'><time datetime='2021-01-09'>9<sup>th</sup> January 2021</time></p>
@@ -48,7 +97,7 @@ I decided not to, for now, for three main reasons:
 ### Further reading
 
 - [A lovely overview](https://www.gwern.net/Sidenotes 'Sidenotes in Web Design') of sidenotes implementation techniques and a thorough explanation of their philosophy
-- [Koos Loijesteijn's sidenotes source code](https://github.com/kslstn/sidenotes 'kslstn's “Sidenotes” on GitHub')
+- [Koos Loijesteijn's sidenotes](https://github.com/kslstn/sidenotes 'Koos’ sidenotes on GitHub')
 - [Tufte CSS](https://edwardtufte.github.io/tufte-css/ 'Tufte CSS')
 
 <p class='date'><time datetime='2021-03-14'>14 March 2021</time></p>
@@ -57,9 +106,6 @@ I decided not to, for now, for three main reasons:
 
 ![[Minimalizing]]
 
-## Analytics
-
-+++
 
 <br>
 <br>
@@ -101,3 +147,5 @@ I will be noting below my doubts and, if solved, my conclusions.
 - Do <q>quotes</q> from quote tags depend by the language? Which ones should I use?
 
 [^test]: Lovely arrow test ->
+[Jekyll]: https://jekyllrb.com 'Jekyll official website'
+[Eleventy]: https://11ty.dev 'Eleventy official website'
