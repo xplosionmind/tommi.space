@@ -100,6 +100,8 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('js');
 
 	// Plugins //
+	eleventyConfig.addPlugin(require('eleventy-plugin-broken-links'));
+	eleventyConfig.addPlugin(require('eleventy-critical-css'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-schema'));
@@ -127,6 +129,7 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
+	eleventyConfig.addPlugin(require('@orchidjs/eleventy-plugin-ids'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
 	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
 		baseUrl: 'assets/svg/'
@@ -139,20 +142,6 @@ module.exports = function(eleventyConfig) {
 		sitemap: {
 			hostname: 'https://tommi.space'
 		},
-	});
-	eleventyConfig.addPlugin(require('eleventy-plugin-seo'), {
-		title: 'Tommi Space',
-		description: 'A virtual representation of the mess inside Tommi’s mind',
-		url: 'https://tommi.space',
-		author: 'Tommi',
-		image: '/tommi.space.wip.png',
-		options: {
-			titleStyle: 'minimalistic',
-			titleDivider: '|',
-			imageWithBaseUrl: true,
-			twitterCardType: 'summary_large_image',
-			showPageNumbers: false
-		}
 	});
 
 	// Filters //
