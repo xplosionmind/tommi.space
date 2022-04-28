@@ -127,7 +127,6 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
-	eleventyConfig.addPlugin(require('@orchidjs/eleventy-plugin-ids'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
 	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
 		baseUrl: 'assets/svg/'
