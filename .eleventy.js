@@ -100,8 +100,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('js');
 
 	// Plugins //
-	eleventyConfig.addPlugin(require('eleventy-plugin-broken-links'));
-	eleventyConfig.addPlugin(require('eleventy-critical-css'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-schema'));
