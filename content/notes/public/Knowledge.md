@@ -1,14 +1,23 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2021-12-24T17:05:42+01:00
-tags: knowledge
+updated: 2022-05-01T19:23:09+02:00
+tags: topic, knowledge
 aliases: Resources, Learning Resources
 description: |
   An eternally incomplete yet continuously growing collection of the sources of my knowledge
-redirect_from: [/risorse,/learning-resources,/resources,/conoscenza,/sapere]
+redirect_from: [/learning-resources/,/resources/]
 main: true
 ---
 Almost every single portion of this website is a more or less organized collection of what I know and how I connect my knowledge. Nevertheless, it is useful to keep track in this page of some insightful resources that I would lose otherwise.
+
+<br>
+<br>
+
+## Meta
+
+Managing knowledge, as well as picturing it, is a very complex, subjective and oversimplified matter. Productivity and effectiveness are the anthems with which the matter of personal and non-personal knowledge management end up being addressed with toxic capitalistic ineffective solutions. Some thoughts about this below.
+
+![[Knowledge management]]
 
 <br>
 <br>

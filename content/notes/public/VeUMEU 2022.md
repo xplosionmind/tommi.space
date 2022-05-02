@@ -4,6 +4,10 @@ updated: 2022-04-22T10:45:09+02:00
 location: San Servolo
 tags: wip
 ---
+## Questions
+
+- why is Hungary still in the EU if Fidesz is Euro-skeptic and it holds the majority?
+
 ## Social Climate Fund
 
 Aiming at evenly distributing the cost to sustain in order to carry out the <q>green transition</q>. Ensuring that all of the EU goes towards carbon neutrality at the same pace.
@@ -26,12 +30,5 @@ Aiming at evenly distributing the cost to sustain in order to carry out the <q>g
 Comprehensive legal framework for the use of AI in the Union.
 
 **Artificial Intelligence**: technologies able to reach a pre-defined result through human-like autonomy and capacity.
-
-AI should be classified and its benefits should be exploited while preserving the values of the EU. An ecosystem of trust has to be built while still harnessing the power of AI.
-
-1. Classification of AI
-2. Assess risks
-3. Set clear requirements and obligations high-risk AI providers should respect
-4. Establish an enforcement and monitoring framework
 
 
