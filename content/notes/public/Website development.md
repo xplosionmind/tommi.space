@@ -31,6 +31,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 
 ### v1
 
+1. Fix EB Garamond loading in italic only
 1. [Optimize CLS](https://web.dev/optimize-cls/)
 1. Webmentions implementation
 1. [The Jam](/jam 'The Jam'): implement graph
