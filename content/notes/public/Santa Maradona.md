@@ -1,6 +1,6 @@
 ---
 date: 2020-12-28T01:00:00+01:00
-updated: 2022-03-14T14:50:50+01:00
+updated: 2022-05-06T12:15:28+02:00
 tags: cinema/film
 toc: false
 description: |
@@ -17,6 +17,13 @@ lang: it
 ## It was before I met you
 
 ![[Rent#It was before I met you]]
+
+<br>
+<br>
+
+## Bravo non vuol dire un cazzo
+
+https://open.spotify.com/track/5tVnb1FNyFtMQd9u5GMaYk
 
 <br>
 <br>
