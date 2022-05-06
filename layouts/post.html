@@ -32,6 +32,7 @@ layout: wrapper
 	</section>
 
 	{% render 'page-tags.html', tags: tags, site: site, size: 'smaller' %}
+	{% capture source %}{{ site.source }}/src/branch/main{{ page.inputPath | replace: './', '/' }}{% endcapture %}
 	{% render 'goto.html', lang: lang, path: page.inputPath, source: source %}
 
 	{% if toc %}
@@ -58,7 +59,8 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='half column'>
-			{% render 'share.html', lang: lang, title: title, url: page.url %}
+  			{% assign encoded_absolute_url = page.url | prepend: site.url | url_encode %}
+			{% render 'share.html', lang: lang, title: title, encoded_absolute_url: encoded_absolute_url %}
 		</div>
 		<div class='half column'>
 			{% render 'comments.html', lang: lang %}

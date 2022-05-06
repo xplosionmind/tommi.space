@@ -9,8 +9,6 @@
 		{% endfor %}
 	{% endif %}
 
-	{% capture source %}{{ site.source }}/src/branch/main{{ path | replace: './', '/' }}{% endcapture %}
-
 	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
 
 	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
