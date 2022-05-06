@@ -118,7 +118,8 @@ module.exports = function(eleventyConfig) {
 		},
 		spotify: {
 			options: {
-				embedClass: 'embed'
+				embedClass: 'embed',
+				width: '100%'
 			}
 		},
 		instagram: {

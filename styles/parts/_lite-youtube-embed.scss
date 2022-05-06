@@ -41,7 +41,7 @@ lite-youtube {
 		border: 0;
 	}
 	/* play button */
-	& > .lty-playbtn {
+	& .lty-playbtn {
 		display: block;
 		width: 68px;
 		height: 48px;
@@ -63,7 +63,7 @@ lite-youtube {
 		filter: none;
 	}
 	/* Post-click styles */
-	.lyt-activated {
+	&.lyt-activated {
 		cursor: url(/cursor.svg) 16 16, crosshair;
 		&::before,
 		& > .lty-playbtn {

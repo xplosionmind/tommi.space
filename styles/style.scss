@@ -899,10 +899,13 @@ button,
 }
 
 .embed {
-	margin: auto !important;
-	box-shadow: var(--shadow) !important;
-	article & {
-		border-radius: $radius-l !important;
+	lite-youtube,
+	iframe {
+		margin: auto !important;
+		box-shadow: var(--shadow) !important;
+		article & {
+			border-radius: $radius-l !important;
+		}
 	}
 }
 
