@@ -794,6 +794,17 @@ h3 {
 	}
 }
 
+#latest-post {
+	position: relative;
+	h2.button {
+		position: absolute;
+		top: 1rem;
+		right: -1rem;
+		z-index: 2;
+		transform: rotate(10deg);
+	}
+}
+
 .excerpt {
 	display: block;
 	margin: $small 10%;
@@ -1055,6 +1066,11 @@ button,
 	#toc,
 	#goto {
 		margin: 5vh 3vw 0;
+	}
+	#latest-post h2.button {
+		top: 10rem;
+		right: -6.5rem;
+		transform: rotate(82deg);
 	}
 }
 

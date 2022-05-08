@@ -1,6 +1,6 @@
 {% for post in collections.posts limit:1 %}
-	<section class='box row' title='{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}' style='position: relative;'>
-		<h2 class='yellow button' style='position: absolute; top: 1rem; right: -1rem; z-index: 2; transform: rotate(10deg);'>{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}</h2>
+	<section id='latest-post' class='box row' title='{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}'>
+		<h2 class='red button'>{% if lang == 'it' %}Ultimo post{% else %}Latest post{% endif %}</h2>
 		<div class='half column vertical flex'>
 			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' style='margin-bottom: 2rem'><h2>{{ post.data.title }}</h2></a>
 			<cite class='excerpt'>
