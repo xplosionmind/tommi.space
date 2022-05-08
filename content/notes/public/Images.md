@@ -1,6 +1,6 @@
 ---
 date: 2021-05-24
-updated: 2022-03-14T14:57:37+01:00
+updated: 2022-05-06T17:40:25+02:00
 tags:
   - geek
   - todo
@@ -27,6 +27,16 @@ aliases: Pictures, Images management
 <br>
 
 See also [[Importing workflow]]
+
+<br>
+<br>
+
+## Tagging and managing
+
+- tags
+	- 2022.05.06 self
+	- 2022.05.06 scout
+- albums 2022.05.06
 
 <br>
 <br>
