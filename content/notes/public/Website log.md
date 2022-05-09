@@ -146,6 +146,6 @@ I will be noting below my doubts and, if solved, my conclusions.
 		- keeping the content document more clean
 - Do <q>quotes</q> from quote tags depend by the language? Which ones should I use?
 
-[^test]: Lovely arrow test ->
 [Jekyll]: https://jekyllrb.com 'Jekyll official website'
 [Eleventy]: https://11ty.dev 'Eleventy official website'
+[^test]: Lovely arrow test ->
