@@ -1,8 +1,10 @@
 ---
 date: 2022-05-13T06:30:00+02:00
-startedwriting: 2022-04-27T08:45:10+02:00
+started_writing: 2022-04-27T08:45:10+02:00
 updated: 2022-05-12T12:36:41+02:00
 location: home
+permalink: /dma/
+redirect_from: /the-overlooked-challenges-of-big-tech-regulation/
 image: https://files.spazioweb.it/29/83/2983a4c2-d300-416e-86d4-2d1cb7e0f5eb.jpeg
 description: |
   How does the EU regulate “Big Tech”? More importantly, what are the critical issues to be tackled? 🤔<br>In the latest article for [Venice Diplomatic Society](https://www.venicediplomaticsociety.com 'Venice Diplomatic Society official website')’s [International Hour](https://www.venicediplomaticsociety.com/blog 'International hour - VDS'), Tommaso Marmo gives us an overview of the most overlooked aspects of IT Industry regulations, and how the new Digital Markets Act (DMA) changes the current framework 💻 
