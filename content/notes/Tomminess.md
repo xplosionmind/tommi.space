@@ -6,7 +6,7 @@ tags: self
 aliases: Tommi =, Tommi Uguale
 redirect_from: [/tommi-uguale/]
 description: "Who is Tommi, what are the values that make him and the ones he stands for"
-image: 
+image: /tomminess.jpg
 ---
 Who Tommi is cannot exhaustively be defined merely by [his <cite>About page</cite>](/about 'About Tommi'), [his resume](https://cv.tommi.space 'Tommi’s CV'), [what he is doing](/now 'Now - tommi.space'), nor <a href='/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what he did</a>.
 
@@ -41,7 +41,9 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - being **touchy**,
 - having a tremendously difficult time distinguishing ironic jokes and serious statements made with sarcasm,
 - believing in **love**, yet being unable to find it,
-- please, if you know me, <u>comment below</u> what you think is missing, and, if accurate, it will be added.
+- being stupid, but only when there is no need to be so, and…
+- …being incapable of laughing at jokes when it is time to be serious,
+- please, if you know Tommi, <u>comment below</u> by writing what you think is missing, and, if accurate, it will be added.
 
 <br>
 <br>
