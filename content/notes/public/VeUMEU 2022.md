@@ -1,8 +1,7 @@
 ---
 date: 2022-04-22T10:45:09+02:00
-updated: 2022-05-06T15:47:40+02:00
-location: San Servolo
-tags: wip
+updated: 2022-05-16T10:15:51+02:00
+location: VIU
 ---
 ## Questions
 
@@ -37,3 +36,15 @@ Comprehensive legal framework for the use of AI in the Union.
 **Artificial Intelligence**: technologies able to reach a pre-defined result through human-like autonomy and capacity.
 
 
+<br>
+
+---
+
+<br>
+
+## Press conference
+
+- Have you ever been to Budapest? It is one of the most beautiful countries in the Union. You breathe Europe by walking down its streets.
+- Our government is democratic. So help us god, we will fight this
+- our probbem is not the European Union. We do not advocate for no EU, we stand against *this* EU.
+- The reason I did not join the press conference is not me not being confident enough about my amendments, but rather showing to the public that my commitment is not limited to appearances and bold statements, but rather in representing my party in the best way I can
