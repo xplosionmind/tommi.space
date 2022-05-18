@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-04-26T12:27:42+02:00
+updated: 2022-05-18T12:25:59+02:00
 tags:
   - meta
   - geek/web
@@ -98,6 +98,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 - Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com 'Netlify')
 - Consider sticking the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com 'Humane Tech') and [Victoria Drake](https://victoria.dev)
 - Read through [Best Practices and Coding Guidelines](https://darekkay.com/best-practices/ 'Best Practices and Coding Guidelines - Darek Kay'), by [Darek Kay](https://darekkay.com 'Darek Kay personal website')
+- Understand `iframe` embedding error
 
 <br>
 
