@@ -1,7 +1,9 @@
 ---
 date: 2020-12-28T01:00:00+01:00
 updated: 2022-05-06T15:26:52+02:00
-tags: cinema/film, tomminess
+tags:
+  - cinema/film
+  - tomminess
 toc: false
 description: |
   Collezione di disordinate idee da <cite><a href='https://it.wikipedia.org/wiki/Santa_Maradona' target='_blank' title='“Santa Maradona„ su Wikipedia'>Santa Maradona</a></cite>, il mio film preferito.

@@ -27,6 +27,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - being [[TMI]]:
 	- **oversharing** information about oneself
 	- restlessly relentlessly **talking** about something
+- <em lang='it'>rompere le palle</em>
 - being **egocentric**
 - being **angry at Capitalism**:
 	- [[Internet Freedom|Fighting Big Tech]]
@@ -73,7 +74,7 @@ Occasionally, friends of mine I have not been in touch with for quite some time 
 
 Things, thoughts, writings, videos, songs that represent a part of <cite>Tomminess</cite>:
 
-<ul class='two'>
+<ul>
 	{% for p in collections.all -%}
 		{% for tag in p.data.tags -%}
 			{% if tag == 'tomminess' -%}

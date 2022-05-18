@@ -1,7 +1,9 @@
 ---
 date: 2020-02-01
 updated: 2021-11-17T15:19:41+01:00
-tags: meta, tomminess
+tags:
+  - meta
+  - tomminess
 aliases: The Jar, Jar, Marmelade
 layout: page
 permalink: /jam/
