@@ -25,24 +25,25 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 ## <cite>Tomminess</cite> means:
 
 - being [[TMI]]:
-	- **oversharing** information about oneself,
-	- restlessly relentlessly **talking** about something,
-- being **egocentric**,
+	- **oversharing** information about oneself
+	- restlessly relentlessly **talking** about something
+- being **egocentric**
 - being **angry at Capitalism**:
-	- [[Internet Freedom|Fighting Big Tech]],
-	- hating people and ventures who are mainly profit-driven rather than humanity-driven,
+	- [[Internet Freedom|Fighting Big Tech]]
+	- hating people and ventures who are mainly profit-driven rather than humanity-driven
 - always looking for an alternative and **original way**, either…
-	- …to **be noticed**,
-	- …to be **[[Radical Chic]]**,
+	- …to **be noticed**
+	- …to be **[[Radical Chic]]**
 - getting overblown by **anxiety** when…
-	- …some interpersonal relationship is trembling,
-	- …people seem to be uninterested in what he has to say,
-- alternating extreme **misanthropy** with insane **social overwhelmingness**,
-- being **touchy**,
-- having a tremendously difficult time distinguishing ironic jokes and serious statements made with sarcasm,
-- believing in **love**, yet being unable to find it,
-- being stupid, but only when there is no need to be so, and…
-- …being incapable of laughing at jokes when it is time to be serious,
+	- …some interpersonal relationship is trembling
+	- …people seem to be uninterested in what he has to say
+- alternating extreme **misanthropy** with insane **social overwhelmingness**
+- being **touchy**
+- having a tremendously difficult time distinguishing jokes and serious statements made with sarcasm
+- believing in **love**, yet being unable to find it
+- in pursuing <cite><a href='/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
+- being **stupid**, but only when there is no need to be so, and…
+- …being incapable of laughing at jokes when it is time to be serious
 - please, if you know Tommi, <u>comment below</u> by writing what you think is missing, and, if accurate, it will be added.
 
 <br>
