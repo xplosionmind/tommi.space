@@ -54,7 +54,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 Occasionally, friends of mine I have not been in touch with for quite some time pop up with a message telling me that I remind them so much of some public figure. Below a list:
 
 {% for p in tommi-uguale -%}
-	{% if p.name != '' -%}## {{ p.name }}{% endif -%}
+	{% if p.name != '' -%}### {{ p.name }}{% endif -%}
 	<figure>
 		<a href='{{ p.url }}'>
 			{% if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
