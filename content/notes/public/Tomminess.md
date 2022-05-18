@@ -45,7 +45,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - in pursuing <cite><a href='/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
-- please, if you know Tommi, <u>comment below</u> by writing what you think is missing, and, if accurate, it will be added.
+- please, if you know Tommi, [comment below](#comments) by writing what you think is missing, and, if accurate, it will be added.
 
 <br>
 <br>
