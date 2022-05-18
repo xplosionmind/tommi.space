@@ -61,6 +61,23 @@ Occasionally, friends of mine I have not been in touch with for quite some time 
 		</a>
 		{% if p.description != '' -%}<figcaption>{{ p.description | markdownify }}</figcaption>{% endif -%}
 	</figure>
-	<br />
-	<br />
+	<br>
+	<br>
 {% endfor -%}
+
+<br>
+<br>
+
+## Tomminess manifestations
+
+Things, thoughts, writings, videos, songs that represent a part of <cite>Tomminess</cite>:
+
+<ul class='two'>
+	{% for p in collections.all -%}
+		{% for tag in p.data.tags -%}
+			{% if tag == 'tomminess' -%}
+				<li lang='{{ p.data.lang }}'><cite><a href='{{ p.url }}' hreflang='{{ p.data.lang }}' title='{{ p.data.title }}'>{{ p.data.title }}</a></cite>{%- if p.data.description -%}, {{ p.data.description | markdownify }}{%- endif -%}</li>
+			{% endif -%}
+		{% endfor -%}
+	{% endfor -%}
+</ul>
