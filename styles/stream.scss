@@ -21,8 +21,8 @@ $quicktrans: .1s ease-in-out;
 /* STYLING FOR https://stream.tommi.space */
 
 body {
-	background: url(https://tommi.space/cantiere.svg), #000;
-	cursor: url(https://tommi.space/cursor.svg) 16 16, crosshair;
+	/*background: url(https://tommi.space/cantiere.svg), #000;
+	cursor: url(https://tommi.space/cursor.svg) 16 16, crosshair;*/ /* added directly to the file */
 	&.app-body,
 	&.admin {
 		background: #000;
