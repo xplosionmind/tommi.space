@@ -1,6 +1,6 @@
 ---
 date: 2020-11-13T01:00:00+01:00
-updated: 2022-03-14T12:31:04+01:00
+updated: 2022-05-19T19:26:01+02:00
 tags:
   - zen
   - knowledge
@@ -32,6 +32,8 @@ The problem of Zettlekasten is that there is a worrying risk (at least, for me) 
 Either one can find an equilibrium among the two—but it requires very strong self-awareness and intelligence—,or she is better of dropping this knowledge management system.
 
 The most suited—yet exaggerated—example to express my feeling is what happened to [[Aby Warburg]]. Enthusiastic and psyched about his plan to create <cite>[Atlas Mnemosyne](https://warburg.library.cornell.edu/about '“About the Mnemosyne Atlas„ - Warburg Library')</cite>, he got overwhelmed with a tremendous amount of inputs, and [he ended up schizophrenic](https://en.wikipedia.org/wiki/Aby_Warburg#Return_to_Hamburg 'Final moments of Aby Warburg’s life on Wikipedia').
+
+[Zettelkasten overreach](https://t.me/c/1158323687/5078) #wip 
 
 <br>
 <br>

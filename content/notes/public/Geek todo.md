@@ -1,12 +1,12 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-04-18T08:41:19+02:00
+updated: 2022-05-19T19:14:53+02:00
 tags:
   - geek
   - todo
 description: Computer related tasks tracking
 ---
-1. [**Server backup**](https://github.com/yunohost-Apps/borg_ynh 'Borg YunoHost pagckage on GitHub')
+1. [**Server backup**](https://github.com/yunohost-Apps/borg_ynh 'Borg YunoHost pagckage on GitHub') - Borg
 1. [[Images]] and [[Storage]]
 1. [[Automations]]
 1. Install [Castopod](https://castopod.org 'Castopod') on [[public/Server|Xplosion Server]]

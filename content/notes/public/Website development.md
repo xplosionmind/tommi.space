@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-05-18T18:31:06+02:00
+updated: 2022-05-19T17:14:09+02:00
 tags:
   - meta
   - geek/web
@@ -42,6 +42,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 1. Print `todo` points of every page at the bottom of it
 1. <q>Stop animation</q> button
+1. Fix landing page `rel=me` confirmation for Mastodon
 
 <br>
 

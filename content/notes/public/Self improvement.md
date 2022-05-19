@@ -1,6 +1,6 @@
 ---
 date: 2020-12-08T01:00:00+01:00
-updated: 2022-03-14T14:50:31+01:00
+updated: 2022-05-19T18:47:38+02:00
 tags: zen
 title: Self improvement
 aliases: Zen, Lifestyle
@@ -28,3 +28,4 @@ The ones below are the most relevant practices I try to adopt, in order to be mo
 - Every day, at the end of the day, check what has been accomplished and what went wrong through an <i lang='it'>[[Esame di coscienza]]</i>
 - [[Mindfulness]] is becoming very popular and more and more people start doing it. I struggle a lot in doing it properly, but I know it is useful and I have not given up on it. The art of training the mind to focus and commit to the present by gifting it with few minutes a day of complete nothingness.
 - [[Being a self editor]]: understanding what is important for the self in the whole life picture, as an editor does with its movie.
+- I hate [[Productivity]]

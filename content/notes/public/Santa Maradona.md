@@ -1,6 +1,6 @@
 ---
 date: 2020-12-28T01:00:00+01:00
-updated: 2022-05-06T15:26:52+02:00
+updated: 2022-05-19T19:08:23+02:00
 tags:
   - cinema/film
   - tomminess
@@ -34,3 +34,4 @@ https://youtu.be/SElehi4oD3w
 ## Bravo non vuol dire un cazzo
 
 https://open.spotify.com/track/5tVnb1FNyFtMQd9u5GMaYk
+
