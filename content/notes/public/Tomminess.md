@@ -1,6 +1,6 @@
 ---
 date: 2022-05-18T14:34:20+02:00
-updated: 2022-05-18T15:12:48+02:00
+updated: 2022-05-18T15:58:38+02:00
 location: Zattere
 tags: self
 aliases: Tommi =, Tommi Uguale
@@ -45,6 +45,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - in pursuing <cite><a href='/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
+- being completely incapable of controlling [[Caffeinated|the effects of **caffeine**]]
 - please, if you know Tommi, [comment below](#comments) by writing what you think is missing, and, if accurate, it will be added.
 
 <br>
@@ -59,7 +60,7 @@ Occasionally, friends of mine I have not been in touch with for quite some time 
 	<figure>
 		<a href='{{ p.url }}'>
 			{% if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
-			{% if p.image != '' -%}<picture><img src='{{ p.image }}' title='Tommi come {{ p.name }}'></picture>{% endif -%}
+			{% if p.image != '' -%}<img src='{{ p.image }}' title='Tommi come {{ p.name }}'>{% endif -%}
 		</a>
 		{% if p.description != '' -%}<figcaption>{{ p.description | markdownify }}</figcaption>{% endif -%}
 	</figure>
