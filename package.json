@@ -29,7 +29,6 @@
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "@sardine/eleventy-plugin-external-links": "^1.4.0",
     "@sardine/eleventy-plugin-tinyhtml": "^0.2.0",
     "@sardine/eleventy-plugin-tinysvg": "^1.2.0",
     "clean-css": "^5.3.0",
@@ -61,6 +60,7 @@
     "uglify-js": "^3.15.3"
   },
   "dependencies": {
+    "@aloskutov/eleventy-plugin-external-links": "^1.4.0",
     "@quasibit/eleventy-plugin-schema": "^1.9.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
     "a-sync-waterfall": "^1.0.1",
