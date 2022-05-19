@@ -1,0 +1,142 @@
+@use 'parts/root';
+@use 'parts/inter';
+
+/* STYLING FOR https://stream.tommi.space */
+
+body {
+	background: url(https://tommi.space/cantiere.svg), #000;
+	cursor: url(https://tommi.space/cursor.svg) 16 16, crosshair;
+	&.app-body,
+	&.admin {
+		background: #000;
+	}
+
+	--background: var(--black-ish);
+	--text: var(--white);
+	--deep: var(--dark-blue);
+	--link: var(--primary);
+	--primary: var(--yellow);
+	--secondary: var(--blue);
+	--slight: var(--light-blue);
+	--internal-link: var(--blue);
+	--grey: var(--dark-grey);
+	--other-grey: var(--light-grey);
+	--transp-text: #FFF4;
+	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC22; 
+	--opposite-shadow: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
+	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
+	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
+	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
+	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
+	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
+
+	transition: $trans;
+
+}
+
+@media screen and (prefers-color-scheme: light) {
+	body {
+		--background: #FFF;
+		--text: var(--black-ish);
+		--deep: #FFF;
+		--link: var(--primary);
+		--primary: var(--red);
+		--secondary: var(--blue);
+		--slight: var(--dark-blue);
+		--grey: var(--light-grey);
+		--other-grey: var(--dark-grey);
+		--transp-text: #11305B33;
+		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
+		--opposite-shadow: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
+		--little-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
+		--tool-shadow: 3px 3px 8px #11305B55, -3px -3px 8px #FFF3CC66;
+		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
+		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
+
+		transition: $trans;
+	}
+}
+
+a,
+.column-header__back-button,
+.status__content a,
+.status__content a.unhandled-link {
+	color: var(--primary);
+}
+
+.status__content .status__content__spoiler-link {
+	background: var(--transp-text);
+	color: var(--text);
+}
+
+.status__prepend,
+.icon-button,
+.status__display-name,
+.status__relative-time {
+	color: var(--slight);
+}
+
+.status {
+	cursor: url(/cursor-hover.svg) 16 16, pointer;
+}
+
+.column {
+	box-shadow: var(--shadow);
+	& > .scrollable {
+		background: var(--background);
+		color: var(--text);
+	}
+}
+
+.drawer__inner {
+	background: var(--background);
+}
+
+.column-header {
+	background: var(--deep);
+	color: var(--color);
+	border-radius: $radius-m;
+}
+
+.drawer--header {
+	background: var(--primary);
+	box-shadow: var(--shadow);
+	border-radius: $radius-m;
+	& > * {
+		color: var(--black-ish);
+	}
+}
+
+.box-widget {
+	background: var(--background);
+	color: var(--text);
+}
+
+.simple_form {
+	.block-button,
+	.button,
+	button {
+		background: var(--primary);
+		color: var(--black-ish);
+		box-shadow: var(--button-shadow);
+		&:hover,
+		&:active {
+			background: var(--primary);
+			color: var(--black-ish);
+			box-shadow: none;
+		}
+	}
+}
+
+.button,
+button {
+	background: var(--primary);
+	color: var(--black-ish);
+	box-shadow: var(--button-shadow);
+	&:hover,
+	&:active {
+		background: var(--primary);
+		color: var(--black-ish);
+		box-shadow: none;
+	}
+}
