@@ -1,6 +1,6 @@
 ---
 date: 2021-06-12T23:47:13+02:00
-updated: 2022-03-14T14:49:54+01:00
+updated: 2022-05-22T01:02:48+02:00
 tags: topic
 toc: false
 aliases: TMI, Too Much Information
@@ -17,7 +17,7 @@ Wikitionary entry for [too much information][tmi]:
 
 During a wonderful chill evening at Zattere with my friends, I met Simone, the flatmate of my friend and fellow PISEr Chiara. He introduced me to a three letters acronym which I decided to make **my** acronym since the very moment I heard it for the first time: <mark><abbr title='Too Much Information'><strong>TMI</strong></abbr></mark>, which stands for *Too Much Information*.
 
-TMI is the pure essence of Tomminess, both because of its meaning, which is the constant mood of my life, and because its letters closely resemble my name. Furthermore, it is short and it makes it [a perfect domain name](https://shop.gandi.net/en/domain/suggest?search=tmi 'Search tmi.\* domains on Gandi') to keep in consideration for the future.
+TMI is the pure essence of [[Tomminess]], both because of its meaning, which is the constant mood of my life, and because its letters closely resemble my name. Furthermore, it is short and it makes it [a perfect domain name](https://shop.gandi.net/en/domain/suggest?search=tmi 'Search tmi.\* domains on Gandi') to keep in consideration for the future.
 
 I will forever be grateful to Simone for making me discover such a wonderful acronym which I will use more and more in the future.
 

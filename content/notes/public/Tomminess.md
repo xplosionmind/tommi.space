@@ -1,11 +1,11 @@
 ---
 date: 2022-05-18T14:34:20+02:00
-updated: 2022-05-18T15:58:38+02:00
+updated: 2022-05-22T01:01:49+02:00
 location: Zattere
 tags: self
 aliases: Tommi =, Tommi Uguale
 redirect_from: [/tommi-uguale/]
-description: "Who is Tommi, what are the values that make him and the ones he stands for"
+description: Who is Tommi, what are the values that make him and the ones he stands for
 image: /tomminess.jpg
 ---
 Who Tommi is cannot exhaustively be defined merely by [his <cite>About page</cite>](/about 'About Tommi'), [his resume](https://cv.tommi.space 'Tommi’s CV'), [what he is doing](/now 'Now - tommi.space'), nor <a href='/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what he did</a>.
@@ -46,6 +46,8 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
 - being completely incapable of controlling [[Caffeinated|the effects of **caffeine**]]
+- to love **meeting people** and establishing unique **connections** with them, having friends all over the world
+- getting super pumped and enthusiastic when people/friends he met in different occasions or in different context meet between each other thanks to his mediation.
 - please, if you know Tommi, [comment below](#comments) by writing what you think is missing, and, if accurate, it will be added.
 
 <br>
