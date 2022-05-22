@@ -10,6 +10,7 @@ description: Un’esclusiva irripetibile incursione nell’appartamento più mag
 image: https://tommi.space/2022-05-22-casa-campo.jpg
 permalink: /sconnesso/casa-campo/
 redirect_from: [/casa-campo/]
+explicit: true
 ---
 - Al minuto 1:30 grande [reference al sommo Antonio Ruoppolo](https://youtu.be/9Sg28iNF6uk 'Ruoppolo Teleacras - Il morto non è morto !')
 - Al minuto 4:20 un saluto alla proprietaria di casa

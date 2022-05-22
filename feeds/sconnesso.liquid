@@ -38,15 +38,14 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 		<itunes:block>false</itunes:block>
 
 		{% for episode in collections.sconnesso %}
-			{% increment counter %}
 			<item>
 				<title>{{ episode.data.title | escape }}</title>
 				<itunes:author>{{ site.author.name }}</itunes:author>
 				<itunes:season>{{ episode.data.season }}</itunes:season>
 				<itunes:episode>{{ episode.data.episode }}</itunes:episode>
-				<itunes:order>{{ counter }}</itunes:order>
+				<itunes:order>{% increment counter %}</itunes:order>
 				<itunes:episodeType>full</itunes:episodeType>
-				<itunes:explicit>{{ episode.data.explicit }}</itunes:explicit>
+				<itunes:explicit>{%- if episode.data.explicit -%}yes{%- else -%}no{%- endif -%}</itunes:explicit>
 				<itunes:image href='{{ episode.data.image }}' />
 				<image>
 					<url>{{ episode.data.image }}</url>
