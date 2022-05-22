@@ -5,6 +5,7 @@ location: home
 tags:
   - geek/idea
   - help
+permalink: /who-said-this/
 description: Idea for a search engine optimized for quotes
 toc: false
 ---
