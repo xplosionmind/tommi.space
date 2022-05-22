@@ -10,7 +10,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 	<channel>
 		<title>{{ title }}</title>
 		<description>{{ description | escape | strip_newlines }}</description>
-		<itunes:subtitle>{{ description | escape | strip_newlines }}</itunes:subtitle>
+		<itunes:subtitle>{{ description | truncate: 254 | escape | strip_newlines }}</itunes:subtitle>
 		<link>{{ altUrl }}</link>
 		<atom:link href='{{ page.url | prepend: site.url }}' rel='self' type='application/rss+xml'/>
 		<itunes:author>{{ site.author.name }}</itunes:author>
@@ -35,7 +35,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 		<itunes:type>episodic</itunes:type>
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:complete>true</itunes:complete>
-		<itunes:block>false</itunes:block>
+		<itunes:block>no</itunes:block>
 
 		{% for episode in collections.sconnesso %}
 			<item>
@@ -43,7 +43,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 				<itunes:author>{{ site.author.name }}</itunes:author>
 				<itunes:season>{{ episode.data.season }}</itunes:season>
 				<itunes:episode>{{ episode.data.episode }}</itunes:episode>
-				<itunes:order>{% increment counter %}</itunes:order>
+				{%- comment %}<itunes:order>{% increment counter %}</itunes:order>{% endcomment -%}
 				<itunes:episodeType>full</itunes:episodeType>
 				<itunes:explicit>{%- if episode.data.explicit -%}yes{%- else -%}no{%- endif -%}</itunes:explicit>
 				<itunes:image href='{{ episode.data.image }}' />
@@ -53,7 +53,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 					<link>{{ altUrl }}</link>
 				</image>
 				<link>{{ episode.url | prepend: 'https://tommi.space' }}</link>
-				<pubDate>{{ episode.date | dateToRfc3339 }}</pubDate>
+				<pubDate>{{ episode.date | date: '%a, %-d %b %Y %H:%M:%S %z' }}</pubDate>
 				<itunes:keywords>
 					{%- if episode.tags %}{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}{% endif -%}
 				</itunes:keywords>
