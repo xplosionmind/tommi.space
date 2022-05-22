@@ -14,13 +14,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 		<link>{{ altUrl }}</link>
 		<atom:link href='{{ page.url | prepend: site.url }}' rel='self' type='application/rss+xml'/>
 		<itunes:author>{{ site.author.name }}</itunes:author>
-		<itunes:email>{{ site.author.email }}</itunes:email>
 		<itunes:image href='{{ image }}'/>
-		<image>
-			<url>{{ image }}</url>
-			<title>Sconnesso</title>
-			<link>{{ altUrl }}</link>
-		</image>
 		<language>it</language>
 		<managingEditor>{{ site.author.email }} ({{ site.author.name }})</managingEditor>
 		<webMaster>{{ site.author.email }} ({{ site.author.name }})</webMaster>
@@ -45,11 +39,6 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 				<itunes:episodeType>full</itunes:episodeType>
 				<itunes:explicit>{%- if episode.data.explicit -%}yes{%- else -%}no{%- endif -%}</itunes:explicit>
 				<itunes:image href='{{ episode.data.image }}' />
-				<image>
-					<url>{{ episode.data.image }}</url>
-					<title>{{ episode.data.title }}</title>
-					<link>{{ altUrl }}</link>
-				</image>
 				<link>{{ episode.url | prepend: site.url }}</link>
 				<guid isPermaLink='true'>{{ episode.url | prepend: site.url }}</guid>
 				<pubDate>{{ episode.date | date: '%a, %-d %b %Y %H:%M:%S %z' }}</pubDate>
