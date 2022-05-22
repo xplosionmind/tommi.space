@@ -10,7 +10,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 	<channel>
 		<title>{{ title }}</title>
 		<description>{{ description | escape | strip_newlines }}</description>
-		<itunes:subtitle>{{ description | truncate: 254 | escape | strip_newlines }}</itunes:subtitle>
+		{%- comment %}<itunes:subtitle>{{ description | truncate: 254 | escape | strip_newlines }}</itunes:subtitle>{% endcomment -%}
 		<link>{{ altUrl }}</link>
 		<atom:link href='{{ page.url | prepend: site.url }}' rel='self' type='application/rss+xml'/>
 		<itunes:author>{{ site.author.name }}</itunes:author>
@@ -33,9 +33,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 			<itunes:category text='Personal Journals'/>
 		</itunes:category>
 		<itunes:type>episodic</itunes:type>
-		<itunes:explicit>no</itunes:explicit>
-		<itunes:complete>true</itunes:complete>
-		<itunes:block>no</itunes:block>
+		<itunes:explicit>false</itunes:explicit>
 
 		{% for episode in collections.sconnesso %}
 			<item>
@@ -52,19 +50,20 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 					<title>{{ episode.data.title }}</title>
 					<link>{{ altUrl }}</link>
 				</image>
-				<link>{{ episode.url | prepend: 'https://tommi.space' }}</link>
+				<link>{{ episode.url | prepend: site.url }}</link>
+				<guid isPermaLink='true'>{{ episode.url | prepend: site.url }}</guid>
 				<pubDate>{{ episode.date | date: '%a, %-d %b %Y %H:%M:%S %z' }}</pubDate>
 				<itunes:keywords>
 					{%- if episode.tags %}{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}{% endif -%}
 				</itunes:keywords>
 				<itunes:duration>{{ episode.data.length }}</itunes:duration>
-				<guid isPermaLink='true'>{{ site.url | url }}</guid>
-				<enclosure url='{{ site.url }}/sconnesso/{{ episode.data.audio }}.{{ episode.data.format }}' length='{{ episode.data.length }}' type='audio/{{ episode.data.format }}' />
-				<itunes:summary>
-					{{ episode.templateContent | markdownify | escape | strip_newlines }}
-				</itunes:summary>
+				<enclosure
+					url='{{ site.url }}/sconnesso/{{ episode.data.audio }}.{{ episode.data.format }}'
+					length='{{ episode.data.length }}'
+					type='audio/{%- if episode.data.format == 'mpeg' -%}mpeg{%- else -%}{{ episode.data.format }}{%- endif -%}'
+				/>
 				<description>
-					{{ episode.templateContent | markdownify | escape | strip_newlines }}
+					<![CDATA[{{ episode.templateContent | markdownify | strip_newlines }}]]>
 				</description>
 			</item>
 		{% endfor %}
