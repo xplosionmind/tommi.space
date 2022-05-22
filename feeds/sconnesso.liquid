@@ -52,7 +52,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 					<title>{{ episode.data.title }}</title>
 					<link>{{ altUrl }}</link>
 				</image>
-				<link>{{ episode.url | url }}</link>
+				<link>{{ episode.url | prepend: 'https://tommi.space' }}</link>
 				<pubDate>{{ episode.date | dateToRfc3339 }}</pubDate>
 				<itunes:keywords>
 					{%- if episode.tags %}{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}{% endif -%}
