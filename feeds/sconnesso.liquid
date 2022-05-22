@@ -57,14 +57,14 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 				<itunes:keywords>
 					{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}
 				</itunes:keywords>
-				<itunes:duration>{{ episode.length | escape }}</itunes:duration>
+				<itunes:duration>{{ episode.length }}</itunes:duration>
 				<guid isPermaLink='true'>{{ site.url | url }}</guid>
-				<enclosure url='{{ site.url }}/sconnesso/{{ episode.data.audio }}' length='{{ episode.data.length | escape }}' type='audio/wav' />
+				<enclosure url='{{ site.url }}/sconnesso/{{ episode.data.audio }}.{{ episode.data.format }}' length='{{ episode.data.length }}' type='audio/{{ episode.data.format }}' />
 				<itunes:summary>
-					{{ episode.content | escape | strip_newlines }}
+					{{ episode.data.content | markdownify | escape | strip_newlines }}
 				</itunes:summary>
 				<description>
-					{{ episode.content | escape | strip_newlines }}
+					{{ episode.data.content | markdownify | escape | strip_newlines }}
 				</description>
 			</item>
 		{% endfor %}

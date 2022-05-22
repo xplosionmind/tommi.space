@@ -3,7 +3,8 @@ date: 2021-02-11
 title: Abbandonare i Social Media
 season: 1
 episode: 2
-audio: S01E02.mp3
+audio: S01E02
+format: mp3
 length: 2138
 permalink: /sconnesso/quitsocialmedia/
 redirect_from: [/sconnesso/qsm/, /sconnesso/abbandonare-i-social-media/, /sconnesso/abbandonare-i-social/, /sconnesso/abbandonare-social/]
