@@ -33,7 +33,7 @@ layout: wrapper
 	<div class='row'>
 		<article class='e-content'>
 			<audio controls preload='auto'>
-				<source src='/{{ audio }}'>
+				<source src='/sconnesso/{{ audio }}'>
 			</audio>
 			{{ content }}
 		</article>
@@ -43,7 +43,6 @@ layout: wrapper
 
 <div class='row'>
 	<div class='one column'>
-		{% comment %}{% render 'backlinks.html', raw_url: page.url, all_pages: collections.all, lang: lang %}{% endcomment %}
   		{% assign encoded_absolute_url = page.url | prepend: site.url | url_encode %}
 		{% render 'share.html', lang: lang, title: title, encoded_absolute_url: encoded_absolute_url %}
 		{% render 'comments.html', lang: lang %}

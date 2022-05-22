@@ -14,23 +14,42 @@ description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi 
 		</div>
 	</section>
 
-	<section class='row'>
-		<div class='box'>
-			<div class='half column'>
-				<img src='{{ image }}' />
-			</div>
-			<div class='half column'>
-				<h3>Stagione 1</h3>
-				<ul>
-					{% for episode in collections.sconnesso %}
+	<section class='box row'>
+		<div class='half column'>
+			<img src='{{ image }}' />
+		</div>
+		<div class='half column'>
+			<h3>Stagione 2</h3>
+			<ul>
+				{% for episode in collections.sconnesso %}
+					{% if episode.data.season == 2 %}
 						<li>
 							<a href='{{ episode.url }}'>{{ episode.data.title }}</a>, <time dateTime='{{ episode.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ episode.date | date: '%d %B %Y' }}</time>
 						</li>
-					{% endfor %}
-				</ul>
-			</div>
+					{% endif %}
+				{% endfor %}
+			</ul>
 		</div>
 	</section>
+
+	<section class='box row'>
+		<div class='half column'>
+			<img src='{{ image }}' />
+		</div>
+		<div class='half column'>
+			<h3>Stagione 1</h3>
+			<ul>
+				{% for episode in collections.sconnesso %}
+					{% if episode.data.season == 1 %}
+						<li>
+							<a href='{{ episode.url }}'>{{ episode.data.title }}</a>, <time dateTime='{{ episode.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ episode.date | date: '%d %B %Y' }}</time>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+
 	<section class='row'>
 		<div class='one column'>
 			{% render 'listen-on.html', lang: lang %}
