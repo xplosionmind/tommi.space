@@ -5,6 +5,7 @@ location: Casa Campo
 season: 2
 episode: 1
 length: 599
+audio: S02E01.wav
 description: Un’esclusiva irripetibile incursione nell’appartamento più magico di venezia
 image: https://tommi.space/2022-05-22-casa-campo.jpg
 permalink: /sconnesso/casa-campo/
