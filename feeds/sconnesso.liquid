@@ -13,8 +13,8 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 		<itunes:subtitle>{{ description | escape | strip_newlines }}</itunes:subtitle>
 		<link>{{ altUrl }}</link>
 		<atom:link href='{{ page.url | prepend: site.url }}' rel='self' type='application/rss+xml'/>
-		<itunes:author>{{ author.name }}</itunes:author>
-		<itunes:email>{{ email }}</itunes:email>
+		<itunes:author>{{ site.author.name }}</itunes:author>
+		<itunes:email>{{ site.author.email }}</itunes:email>
 		<itunes:image href='{{ image }}'/>
 		<image>
 			<url>{{ image }}</url>
