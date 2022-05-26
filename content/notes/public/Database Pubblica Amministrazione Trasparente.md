@@ -1,6 +1,6 @@
 ---
 date: 2022-05-26T09:37:23+02:00
-updated: 2022-05-26T10:00:51+02:00
+updated: 2022-05-26T10:11:37+02:00
 location: home
   - geek/idea
   - draft
@@ -20,16 +20,16 @@ Alle <time datetime='2022-05-26T08:31:37+02:00'>8:31</time> ho inviato questo au
 
 <audio
 	controls
-	src='/db-pa-trasparente/problema.ogg' type='audio/ogg' title='Il problema'>
-	<a href='/db-pa-trasparente/problema.ogg' target='_blank'>Il problema</a>
+	src='/db-pa-trasparente/problema.mp3' type='audio/mpeg' title='Il problema'>
+	<a href='/db-pa-trasparente/problema.mp3' target='_blank'>Il problema</a>
 </audio>
 
 Chicca Dedali, la nostra mitica supporter, mi ha risposto:
 
 <audio
 	controls
-	src='/db-pa-trasparente/chicca.ogg' type='audio/ogg' title='La risposta di Chicca al mio audio arrabbiato'>
-	<a href='/db-pa-trasparente/chicca.ogg' target='_blank'>La risposta di Chicca</a>
+	src='/db-pa-trasparente/chicca.mp3' type='audio/mpeg' title='La risposta di Chicca al mio audio arrabbiato'>
+	<a href='/db-pa-trasparente/chicca.mp3' target='_blank'>La risposta di Chicca</a>
 </audio>
 
 Così, ho avuto la mia idea, che ho inviato sul gruppo con i miei genitori:
