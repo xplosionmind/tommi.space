@@ -1,6 +1,6 @@
 ---
 date: 2022-05-26T09:37:23+02:00
-updated: 2022-05-26T10:11:37+02:00
+updated: 2022-05-26T10:18:18+02:00
 location: home
   - geek/idea
   - draft
@@ -36,14 +36,14 @@ Così, ho avuto la mia idea, che ho inviato sul gruppo con i miei genitori:
 
 <audio
 	controls
-	src='/db-pa-trasparente/idea.m4a' type='audio/m4a' title='Concept database'>
-	<a href='/db-pa-trasparente/idea.m4a' target='_blank'>Idea database</a>
+	src='/db-pa-trasparente/idea.mp3' type='audio/mpeg' title='Concept database'>
+	<a href='/db-pa-trasparente/idea.mp3' target='_blank'>Idea database</a>
 </audio>
 
 Addendum, implementazione:
 
 <audio
 	controls
-	src='/db-pa-trasparente/implementazione.m4a' type='audio/m4a' title='Implementazione da parte di un ente terzo'>
-	<a href='/db-pa-trasparente/implementazione.m4a' target='_blank'>Idea database</a>
+	src='/db-pa-trasparente/implementazione.mp3' type='audio/mpeg' title='Implementazione da parte di un ente terzo'>
+	<a href='/db-pa-trasparente/implementazione.mp3' target='_blank'>Idea database</a>
 </audio>
