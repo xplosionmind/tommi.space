@@ -2,10 +2,12 @@
 date: 2022-05-26T09:37:23+02:00
 updated: 2022-05-26T10:00:51+02:00
 location: home
-tags:
   - geek/idea
   - draft
   - help
+permalink: /db-pa/
+redirect_from: [/database-pubblica-amministrazione-trasparente/,/idea-db-pa/]
+tags:
 toc: false
 lang: it
 description: Idea di un’infrastruttura digitale che renda più semplice ed equo cercare e analizzare le spese e le entrate degli enti pubblici italiani, in particolare i comuni
