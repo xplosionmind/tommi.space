@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2022-03-14T15:01:26+01:00
+updated: 2022-05-25T13:04:54+02:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
@@ -75,6 +75,13 @@ say -v Alex -f file.txt -o "output.m4a"
 [recursively count files in a directory](https://stackoverflow.com/a/9157162 'Recursively counting files in a Linux directory')
 ```shellsession
 find . -type f | wc -l
+```
+
+[Recursively copying files from subdirectories to root directory](https://superuser.com/questions/1372906/how-to-get-files-out-of-all-subfolders-and-move-them-up-to-the-first-folder 'How to get files out of all subfolders and move them up to the first folder - Super User')
+```shellsession
+find ./input/ -type file -exec cp {} ./output/ \;
+# or a more modern alternative
+fd . ./input/ -t f -x cp {} ./output/ \;
 ```
 
 [Take a screenshot](https://www.take-a-screenshot.org/ 'ᐅ How to take a screenshot'):
@@ -188,7 +195,7 @@ See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#c
 
 ## Exiftool
 
-![[Exiftool#Cheat Sheet]]
+![[ExifTool#Cheat Sheet]]
 
 <br>
 <br>

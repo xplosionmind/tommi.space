@@ -1,6 +1,6 @@
 ---
 date: 2020-12-23
-updated: 2022-04-16T09:56:15+02:00
+updated: 2022-05-25T13:04:54+02:00
 tags: geek
 description: How to import and manage pictures and videos in the most seamless way possible
 aliases: Photo importing workflow, Media importing workflow
@@ -16,7 +16,7 @@ Let’s be honest: importing and managing personal media without relying on big 
 
 1. import everything in an isolated folder
 1. run [DupeGuru](https://dupeguru.voltaicideas.net 'DupeGuru official website') (VIDEOS MANAGEMENT?)
-1. run [[Exiftool]]
+1. run [[ExifTool]]
 
 <br>
 <br>

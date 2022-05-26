@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-05-19T17:14:09+02:00
+updated: 2022-05-26T09:48:36+02:00
 tags:
   - meta
   - geek/web
@@ -43,6 +43,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 1. Print `todo` points of every page at the bottom of it
 1. <q>Stop animation</q> button
 1. Fix landing page `rel=me` confirmation for Mastodon
+1. OGP images for categories (e.g. `idea` tags, `geek` tags, etc.)
 
 <br>
 

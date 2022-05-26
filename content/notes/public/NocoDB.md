@@ -1,9 +1,9 @@
 ---
 date: 2022-02-05T10:01:54+01:00
-updated: 2022-03-14T14:53:39+01:00
+updated: 2022-05-26T09:35:47+02:00
 location: home
 tags:
-  - geek/app
+  - geek/apps
   - knowledge/geek
   - wip
 toc: false
