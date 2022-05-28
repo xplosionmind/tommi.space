@@ -1,6 +1,6 @@
 ---
 date: 2022-05-26T09:37:23+02:00
-updated: 2022-05-26T10:18:18+02:00
+updated: 2022-05-26T10:23:18+02:00
 location: home
   - geek/idea
   - draft

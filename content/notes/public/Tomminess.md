@@ -7,10 +7,11 @@ aliases: Tommi =, Tommi Uguale
 redirect_from: [/tommi-uguale/]
 description: Who is Tommi, what are the values that make him and the ones he stands for
 image: /tomminess.jpg
+main: true
 ---
 Who Tommi is cannot exhaustively be defined merely by [his <cite>About page</cite>](/about 'About Tommi'), [his resume](https://cv.tommi.space 'Tommi’s CV'), [what he is doing](/now 'Now - tommi.space'), nor <a href='/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what he did</a>.
 
-In so many occasions my friends come to me and say something like: <q lang='it'>questa cosa è un sacco da Tommi</q>, <q lang='it'>ti ho immediatamente pensato perché mi ha ricordato te</q>, or simply tell me something about me that makes me think <q>oh, this is *so* me</q>. I am collecting all of those attributes here.
+In so many occasions my friends come to me and say something like: <q lang='it'>questa cosa è un sacco *da Tommi*</q>, <q lang='it'>ti ho immediatamente pensato perché mi ha ricordato te</q>, or simply tell me something about me that makes me think <q>oh, this is *so* me</q>. I am collecting all of those attributes here.
 
 Tommi is and at the same time pursues pure [[Tomminess]].
 Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is composed by the values he stands for, joint with his peculiar annoying egocentric character.
@@ -40,8 +41,10 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 	- …people seem to be uninterested in what he has to say
 - alternating extreme **misanthropy** with insane **social overwhelmingness**
 - being **touchy**
+- **hating chitchatting**
 - having a tremendously difficult time distinguishing jokes and serious statements made with sarcasm
 - believing in **love**, yet being unable to find it
+- following and advocating for **the art of <cite>[[Introductionism]]</cite>**
 - in pursuing <cite><a href='/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
