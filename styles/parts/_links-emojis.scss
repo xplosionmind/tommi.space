@@ -41,7 +41,7 @@ li {
 				content: '📷 ';
 			}
 		}
-		&[href*='mastodon.uno' i] {
+		&[href*='mastodon' i] {
 			&::before {
 				content: '🐘 ';
 			}

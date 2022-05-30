@@ -36,13 +36,13 @@
             "title": "draft",
             "color": "#F2E9E4",
             "background": "linear-gradient(160deg, #4A4E69, #22223B)",
-            "description": "To finish writing down"
+            "description": "To finish writing down."
         },
         {
             "title": "wip",
             "color": "#FFF",
             "background": "linear-gradient(160deg, #222222, #030303)",
-            "description": "Work in progress content"
+            "description": "Work in progress content."
         },
         {
             "title": "Inchiostro Digitale",
@@ -60,7 +60,7 @@
             "title": "reading",
             "color": "#F3E9DC",
             "background": "linear-gradient(160deg, #895737, #53291E)",
-            "description": "Stopping the scrolling and diving into a paper deep reading"
+            "description": "Stopping the scrolling and diving into reading"
         },
         {
             "title": "scout",
@@ -72,7 +72,7 @@
             "title": "idea",
             "color": "#1F6284",
             "background": "linear-gradient(160deg, #FFE570, #E0B700)",
-            "description": "Ephemeral lightnings in the mind."
+            "description": "Ephemeral lightnings in my mind."
         },
         {
             "title": "knowledge",

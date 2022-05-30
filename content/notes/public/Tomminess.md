@@ -5,7 +5,7 @@ location: Zattere
 tags: self
 aliases: Tommi =, Tommi Uguale
 redirect_from: [/tommi-uguale/]
-description: Who is Tommi, what are the values that make him and the ones he stands for
+description: Who Tommi is, what are the values that make him and the ones he stands for
 image: /tomminess.jpg
 main: true
 ---

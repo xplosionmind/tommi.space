@@ -17,9 +17,6 @@ description: Computer related tasks tracking
 1. [Setup Matrix server](https://github.com/matrix-org/synapse#id5 'Install Synapse')
 9. [[Scripts]]
 1. Consistent resume creation ([HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub'))
-1. Migration from [mastodon.uno](https://mastodon.uno/@tommi 'Tommi on Mastodon.uno') to [stream.tommi.space](https://stream.tommi.space 'Tommi’s Stream')
-	- Setting automatic boosts during the transition period
-	- Misskey iOS app?
 2. Create Mastodon Bots:
 	- Club Tenco
 	- UniVe
