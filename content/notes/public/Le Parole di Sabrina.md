@@ -1,5 +1,5 @@
 ---
-date: 2022-06-01T8:55:40+0200
+date: 2022-06-01T8:55:40+02:00
 tic: false
 description: Parole che Sabrina ama usare o che continuamente critica
 permalink: /parole-sabrina/
