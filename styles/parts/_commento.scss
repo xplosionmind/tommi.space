@@ -50,7 +50,11 @@ $quicktrans: .1s ease-in-out;
 .commento-root {
 	overflow-x:hidden;
 	padding:0;
-	width:100%; /*
+	width:100%;
+	.commento-anonymous-checkbox-container input[type="checkbox"] + label {
+		background: var(--background);
+	}
+	/*
 	* {
 		line-height:1.5;
 	}
