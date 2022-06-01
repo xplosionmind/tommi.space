@@ -47,3 +47,10 @@ Addendum, implementazione:
 	src='/db-pa-trasparente/implementazione.mp3' type='audio/mpeg' title='Implementazione da parte di un ente terzo'>
 	<a href='/db-pa-trasparente/implementazione.mp3' target='_blank'>Idea database</a>
 </audio>
+
+<br>
+<br>
+
+## Da dove partire
+
+- [Developers Italia](https://developers.italia.it)
