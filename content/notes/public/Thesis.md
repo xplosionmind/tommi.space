@@ -1,6 +1,6 @@
 ---
 date: 2022-05-19T19:14:54+02:00
-updated: 2022-05-19T19:21:58+02:00
+updated: 2022-06-02T17:49:38+02:00
 title: Thesis notes
 tags:
   - uni
@@ -30,3 +30,4 @@ Broadly, related to:
 - La considerazione dello switching cost.
 - Minoranze potrebbero tendere ad essere isolate
 - see [[Logic and Philosophy of Science II#The notion of Rationality in Economics]]: social media do not necessarily influence preferences, but completeness.
+- from [[Political Philosophy I]]: ask to Azzolini for insights concerning Weber’s position in light of <q>surveillance based on mathematical calculus which is extending in more and more spheres of society</q>

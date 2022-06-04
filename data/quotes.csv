@@ -1,5 +1,5 @@
 date,quote,author,work,note,url,lat,lon,lang,id
-2021-11-20T20:10:33+01:00,Con Tommi ho una relazione molto più solida che con Roberta e lei lo sa,Matto,,,,45.436,12.3252,it,
+2021-11-20T20:10:33+01:00,Con Tommi ho una relazione molto più solida che con Roberta e lei lo sa,Matto,,,,45436,12.3252,it,
 2021-10-30T15:37:48+02:00,…nelle dinamiche di una vita l’unica cosa che conta meno di un esame fatto male è un esame fatto bene,Carlo Lascialfari,,in un messaggio dopo il mio fallimentare primo appello di <a href='https://www.unive.it/data/insegnamento/220624' target='_blank' title='Economics of Labor and Welfare'>Economics of Labor and Welfare</a>,,45.4309459543279,10.9906132053686,it,esame-male
 2021-10-28T09:55:57+02:00,Non faccio mai conoscere fra loro le persone a cui tengo,Michele Apicella,Ecce Bombo,,,,,it,
 2021-10-26T00:32:44+02:00,Dante: <q>Vorrei solo capire cosa è successo</q><br>Nina: <q>è successo che stanotte abbiamo fatto l’amore</q><br>Dante: <q>L’amore non esiste</q><br>Nina: <q>è per questo che lo facciamo</q>,,Andata + Ritorno,,,43.836494,7.876738,it,
@@ -19,7 +19,7 @@ attenti, siate vigili, siate sentinelle di voi stessi! L’avvenire è nelle vos
 2018-09-11,I read in self-defense,Allen,,,,,,en,
 2019-09-12,Ma si è così poco preparati,Kafka,Il processo,nelle parole di Joseph K.,,,,it,
 2018-09-13,Chi striscia non inciampa,Michele Ferrari,,,,,,it,striscia-inciampa
-2019-05-03,"Passano le mode, lo stile invece mai",J-Ax,<b class='missing'>+++</b>,,,,,it,
+2019-05-03,"Passano le mode, lo stile invece mai",J-Ax,Timberland Pro,,,,,it,
 2019-05-04,Mi sento <code>CTRL</code> <code>ALT</code> <code>canc</code>: devo sbloccare i miei progetti,Anonimo,,,,,,it,
 2019-05-05,Dio scrive dritto sulle nostre righe storte,Marina Martina Madrina,,,,,,it,
 2019-05-06,Maledetto sia Copernico!,Pirandello,Il fu Mattia Pascal,,,,,it,
@@ -42,7 +42,7 @@ attenti, siate vigili, siate sentinelle di voi stessi! L’avvenire è nelle vos
 2019-11-09,a volte gli occhi hanno più fame della pancia,Giulietta,,,,,,it,
 2019-11-10,che buono il sapore del cloro la mattina,Marco Rosa Gobbo,,,,,,it,
 2019-11-11,Le parole sono azioni.,Wittgenstein,Pensieri diversi,,,,,it,
-2019-11-21,Fotografi e giornalisti sono quelli che corrono verso il luogo di un disastro mentre tutti gli altri fuggono,Mario Calabresi,,su Instagram <b class='missing'>+++</b>,,,,it,
+2019-11-21,Fotografi e giornalisti sono quelli che corrono verso il luogo di un disastro mentre tutti gli altri fuggono,Mario Calabresi,post su Instagram,https://www.instagram.com/p/B5HrTmboAVj,,,,it,
 2019-11-27,Fishing kills me exactly as it keeps me alive.,Hemingway,The old man and the sea,,,,,en,
 2019-11-30,you took the sourest lemon that life has to offer and turned it into something resembling lemonade,,This is Us,S01E01,,,,en,
 2019-12-03,"La libertà non è soltanto spezzare le proprie catene, ma anche vivere in modo da rispettare e accrescere la libertà degli altri",Nelson Mandela,,,,,,it,
@@ -96,7 +96,5 @@ attenti, siate vigili, siate sentinelle di voi stessi! L’avvenire è nelle vos
 2021-11-12T09:27:02+01:00,"Se uno scappa, deve avere una buona ragione per essere seguito",Giorgio Gaber,La paura,,,45.6640135991579,12.2523574223577,it,
 2021-11-15T13:24:10+01:00,Psychological problems become political problems,Herbert Marcuse,,,,45.4319915768041,12.3174722842208,en,
 2021-11-21T13:18:46+01:00,Non esiste razionalità senza senso comune e concretezza.,Pier Paolo Pasolini,"Gli intellettuali nel ’68: manicheismo e ortodossia della «Rivoluzione dell’indomani» - Dramma, Marzo 1974",da <cite>Scritti corsari</cite>,,45.49892785249,9.2393249622493,it,
-2021-12-26T23:15:56+01:00,"Non si è mai logorroici quando si parla di cose in cui si crede veramente",Micol,,"a La Diligenza",,43.8237251660889,7.840598331712194,it,
-
-2022-06-04T14:04:28+02:00,"Matto: <q>Certo che potrebbero fare un reboot di <cite>How I Met Your Mother</cite> su di te, con tutte le tipe con cui sei uscito…</q>  
-Tommi: <q>Però io ho un sacco di amiche, Ted ha un sacco di ex</q>","Matto","","durante le pulizie di casa post esame di <cite>Political Philosophy 1</cite>",45.43219763658324,12.3237534203894,it,
+2021-12-26T23:15:56+01:00,Non si è mai logorroici quando si parla di cose in cui si crede veramente,Micol,,a <cite>La Diligenza</cite>,,43.8237251660889,7.840598331712194,it,
+2022-06-04T14:04:28+02:00,"**Matto**: <q>Certo che potrebbero fare un reboot di <cite>How I Met Your Mother</cite> su di te, con tutte le tipe con cui sei uscito…</q><br>**Tommi**: <q>Però io ho un sacco di amiche, Ted ha un sacco di ex</q>","Matto","","durante le pulizie di casa post esame di <cite>Political Philosophy 1</cite>",45.43219763658324,12.3237534203894,it,
