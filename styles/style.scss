@@ -36,6 +36,7 @@ html {
 
 /* DARK THEME */
 body {
+	color-scheme: dark;
 	background: var(--black-ish);
 	color: var(--text);
 	overflow-wrap: break-word;
@@ -68,6 +69,7 @@ body {
 /* LIGHT THEME */
 @media screen and (prefers-color-scheme: light) {
 	body {
+		color-scheme: light;
 		--background: #FFF;
 		background: var(--background);
 		--text: var(--black-ish);
