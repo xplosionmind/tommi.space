@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-05-26T09:48:36+02:00
+updated: 2022-06-11T10:32:27+02:00
 tags:
   - meta
   - geek/web
@@ -26,13 +26,14 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 
 - Better [JSON-LD](https://json-ld.org 'JSON-LD') implementation
 - Use JavaScript to include sub-entries (e.g. Including in `tommi.js` data about Scambi Festival from `scambi.js`)
+- [Baserow integration](https://community.baserow.io/t/eleventy-and-baserow/812 '“Eleventy and Baserow„ on Baserow Comminity')
 
 <br>
 
 ### v1
 
 1. Fix EB Garamond loading in italic only
-1. [Optimize CLS](https://web.dev/optimize-cls/)
+1. [Optimize CLS](https://web.dev/optimize-cls/), through [Eleventy Image Plugin](https://www.11ty.dev/docs/plugins/image/ 'Image — Eleventy') by [Mapping the width and height attributes of media container elements to their aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/Media/images/aspect_ratio_mapping 'Mapping the width and height attributes of media container elements to their aspect-ratio - Web media technologies \| MDN')
 1. Webmentions implementation
 1. [The Jam](/jam 'The Jam'): implement graph
 1. page redirection language
