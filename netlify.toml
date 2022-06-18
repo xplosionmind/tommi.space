@@ -2,3 +2,7 @@
 	from	= "/*"
 	to		= "http://assets.tommi.space/:splat"
 	status	= 200
+[[headers]]
+	for		= "/*"
+	[headers.values]
+		cache-control =	"max-age=3600"
