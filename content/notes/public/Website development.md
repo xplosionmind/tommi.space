@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-06-18T14:17:28+02:00
+updated: 2022-06-18T21:35:39+02:00
 tags:
   - meta
   - geek/web
@@ -11,45 +11,20 @@ main: true
 image: /2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
 ---
-## Content
-
-![[Writing ideas#Website]]
-
-<br>
-<br>
-
-## Roadmap
-
 <div class='red box'>
 	Transferring all of the points below to <a href='https://github.com/xplosionmind/tommi.space' title='tommi.space issues on GitHub'>GitHub issues</a> in order to improve tracking and reviewing
 </div>
 
-### v1
-
-1. page redirection language
-1. improved Wikilinks
-1. Backlinks
 1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 1. Print `todo` points of every page at the bottom of it
-1. <q>Stop animation</q> button
 1. OGP images for categories (e.g. `idea` tags, `geek` tags, etc.)
-
-<br>
-
-### v2
-
 1. https://github.com/cathugger/mkp224o
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, [looping through](https://talk.jekyllrb.com/t/loop-through-all-pages-of-the-website/6880 'Loop through ALL pages in a website - Jekyll Talk') the last few pages updated recently (based on `page.updated`)
-1. Improve search
-2. Add a section in each note where `if more`, in the front matter `more: https://en.wikipedia.org/wiki/Love` (encyclopedia page of the same topic)
+2. Add a section in each note where `if more`, in the front matter `more: https://en.wikipedia.org/wiki/Love` (e.g. encyclopedia page of the same topic)
+2. Add a section in each note where `if related`, in the front matter `related: https://example.com` (e.g. related blog posts)
 3. Self-hosted analytics
 1. automatic CV compiling implementation
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
-
-<br>
-
-### v3
-
 1. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
@@ -64,11 +39,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 		- [Urlint](https://urlint.co/integration/github.html 'Urlint')
 8. [The Jam](/jam 'The Jam'): Preview a note when hovering on link
 3. [Watchlog](https://github.com/xplosionmind/data/blob/main/watchlog.csv 'watchlog.csv on GitHub') implementation
-
-<br>
-
-### v4
-
 - [[Nolan]] implementation
 - [[Anytype]] implementation
 - [Generative Art](https://generativeartistry.com 'Generative artistry')
@@ -81,7 +51,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - [Reading progress bar](https://css-tricks.com/fun-viewport-units/#getting-weird 'Fun viewport units - CSS Tricks')
 - Study [awesome-web-animation website](https://awesome-web-animation.netlify.app/ 'Awesome Web Animation'), possibly considering [Isso](https://posativ.org/isso/ 'Isso')
 - Flash animation of exploding head emojis while a button is `active` and/or `hover`
-- `.onion` address
 - Use typographic animations
 	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon 'Zycon')
 	- [Anicons](https://typogram.github.io/Anicons/ 'Anicons')
@@ -90,11 +59,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - Consider sticking the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com 'Humane Tech') and [Victoria Drake](https://victoria.dev)
 - Read through [Best Practices and Coding Guidelines](https://darekkay.com/best-practices/ 'Best Practices and Coding Guidelines - Darek Kay'), by [Darek Kay](https://darekkay.com 'Darek Kay personal website')
 - Understand `iframe` embedding error
-
-<br>
-
-### Creative ideas
-
 - Font weight animations, as in [set.studio](https://set.studio/ 'We are Set Studio, a UK-based creative agency')
 
 <br>
