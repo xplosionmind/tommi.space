@@ -335,6 +335,7 @@
     "text-table": "^0.2.0",
     "tfunk": "^4.0.0",
     "time-require": "^0.1.2",
+    "title-case": "^3.0.3",
     "to-array": "^0.1.4",
     "to-fast-properties": "^4.0.0",
     "to-regex-range": "^5.0.1",

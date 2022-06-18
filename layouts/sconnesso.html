@@ -45,6 +45,7 @@ layout: wrapper
 	<div class='one column'>
   		{% assign encoded_absolute_url = page.url | prepend: site.url | url_encode %}
 		{% render 'share.html', lang: lang, title: title, encoded_absolute_url: encoded_absolute_url %}
+		{% render 'backlinks.html', lang: lang, backlinks: backlinks %}
 		{% render 'comments.html', lang: lang %}
 		{% render 'listen-on.html', lang: lang %}
 	</div>
