@@ -111,6 +111,7 @@ body {
 
 * {
 	transition: $trans, transform $quicktrans, box-shadow $quicktrans, text-shadow $quicktrans, border $quicktrans;
+	scrollbar-color: var(--red) transparent;
 }
 
 #menutoggle,
@@ -155,6 +156,14 @@ span.citation {
 ::selection {
 	color: var(--black-ish);
 	background: var(--yellow);
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--red);
 }
 
 .dim {
