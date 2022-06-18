@@ -47,7 +47,7 @@
 	<meta property='og:locale' content='{{ lang }}'>
 	{% if alternate %}
 		<meta property='og:locale:alternate' content='{{ alternate.data.lang }}'>
-		<link rel='alternate' hreflang='{{ alternate.data.lang }}' href='{{ alternate.url | url }}'>
+		<link rel='alternate' href='{{ alternate.url | url }}'>
 	{% endif %}
 
 	<!-- IndieAuth + IndieWeb -->
