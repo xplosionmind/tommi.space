@@ -1,6 +1,6 @@
 ---
 date: 2022-01-29T11:56:14+01:00
-updated: 2022-03-14T14:57:05+01:00
+updated: 2022-06-18T14:06:04+02:00
 location: Zattere
 tags:
   - knowledge
@@ -9,7 +9,7 @@ tags:
 aliases: Multipotenzialità, Multipotentialite
 description: Exploring the idea of moving across different interests and fields without never sticking to one only — essentially, me.
 toc: false
-image: https://tommi.space/tommi-exploding.png
+image: https://tommi.space/tommi-exploding.webp
 ---
 I wrote to Martina on <time datetime='2022-01-29T12:13:37+01:00'>29 January 2022</time>:
 
