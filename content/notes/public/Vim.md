@@ -1,6 +1,6 @@
 ---
 date: 2021-03-22T12:19:14+01:00
-updated: 2022-03-14T12:34:49+01:00
+updated: 2022-06-18T14:17:32+02:00
 tags:
   - geek/knowledge
   - geek/apps
@@ -68,9 +68,9 @@ Use `:retab` to convert the buffer to your setup for indentation. For instance, 
 - [vim-galore](https://github.com/mhinz/vim-galore 'vim-galore on GitHub'), a repository collecting all sorts of resources about Vim
 - [Vim casts](https://vimcasts.org/ 'Vim casts'), the best video tutorials you can find
 - [Vim help](https://vimhelp.org 'Vim help files'), a website made of Vim man pages
-- [Vim cookbook](http://www.oualline.com/vim-cook.html 'Vim Cookbook')
-- [Vim FAQ](http://vimdoc.sourceforge.net/htmldoc/vimfaq.html 'Vim documentation: vim\_faq')
-- [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ 'Practical Vim, Second Edition') a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](http://drewneil.com/).
+- [Vim cookbook](https://www.oualline.com/vim-cook.html 'Vim Cookbook')
+- [Vim FAQ](https://vimdoc.sourceforge.net/htmldoc/vimfaq.html 'Vim documentation: vim\_faq')
+- [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ 'Practical Vim, Second Edition') a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](https://drewneil.com/).
 - [Vim subreddit](https://www.reddit.com/r/vim/ 'r/vim')
 - [Vim intermediate guide](https://thevaluable.dev/vim-intermediate/ 'A Vim Guide for Intermediate Users')
 - [Vim as an IDE](https://blog.jez.io/vim-as-an-ide/ 'Vim as an IDE'), a <mark>workshop</mark> by [Jake Zimmerman](https://jez.io 'Jake Zimmerman')

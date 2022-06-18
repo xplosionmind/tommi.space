@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04T02:00:00+02:00
-updated: 2022-03-14T15:01:01+01:00
+updated: 2022-06-18T14:17:15+02:00
 tags: geek
 permalink: /bugs/
 redirect_from: [/feature-requests/, /bugs-and-feature-requests/]
@@ -168,7 +168,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ## Joplin
 
-[Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.
+[Joplin](https://joplinapp.org) is a wonderful and complete note-taking app.
 
 <div class='red box'><strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a>. The reasons why I did this are in <a href='/switch-to-zettelkasten' title='Switch to Zettelkasten'>this blog post</a>.</div>
 

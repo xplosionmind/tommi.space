@@ -29,7 +29,7 @@ Knil,https://apps.apple.com/app/knil-universal-link-testing/id1195310358,,univer
 pass,https://www.passwordstore.org/,,password manager,terminal,1,,1,,
 Timelines,https://timelines.app/,,"an iOS only app for time tracking. It is incredibly similar to my concept of [Timeline](/timeline 'Timeline Development notes'), but it has a pro subscription which is not worth it",iOS,,,1,,
 twtxt,https://twtxt.readthedocs.io,,"a decentralised, minimalist microblogging service for hackers",terminal,1,,1,,
-Timeline,http://thetimelineproj.sourceforge.net/,,"a timeline manager, for Linux and Windows only",Linux,1,,1,,
+Timeline,https://thetimelineproj.sourceforge.net/,,"a timeline manager, for Linux and Windows only",Linux,1,,1,,
 OPAC App,https://opac.app/,,an Android app to access libraries catalogs around the world (not in use since the ones I frequent are not supported),Android,1,,1,,
 World Scribe,https://github.com/MarquisLP/World-Scribe, on GitHub,an Android app for fictional world-building,Android,1,,1,,
 Hook,https://hookproductivity.com/,,to link stuff in MacOS,MacOS,,,1,,
@@ -126,7 +126,7 @@ ProtonVPN,https://protonvpn.com/,,"a security-focused VPN developed by CERN scie
 qBittorrent,https://qbittorrent.org/,,the best and lightest torrent client you can find out there,MacOS,1,,,,
 Rectangle,https://rectangleapp.com/,,a window management app which allows to resize windows quickly with a simple keystroke.,MacOS,1,,,,
 Signal,/signal,,"the best encryption system in the world, easy and fast communication, plus, it’s owned by a non-profit. Thus, a healthier WhatsApp",MacOS,1,,,,
-Skype,https://skype.com,,"you know it. Proprietary software, [ouch](http://stallman.org/skype.html Reasons not to use Skype, from Richard Stallman’s blog')",MacOS,,,,,
+Skype,https://skype.com,,"you know it. Proprietary software, [ouch](https://stallman.org/skype.html Reasons not to use Skype, from Richard Stallman’s blog')",MacOS,,,,,
 smcFanControl,https://github.com/hholtmann/smcFanControl, on GitHub,to control the fans of the Mac to make it run cooler,MacOS,1,,,,
 Sozi,https://sozi.baierouge.fr,,a presentation tool which uses SVG images to create zooming and panning animations. It’s astounding how cool it is.,MacOS,1,,,,
 Spotify,https://www.spotify.com,,to listen to music by paying and using proprietary software. Any legal affordable solution? I can’t find one. I’m stuck with this.,MacOS,,,,,using [Psst](https://github.com/jpochyla/psst 'Psst on GitHub') instead

@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-06-18T12:19:59+02:00
+updated: 2022-06-18T14:17:28+02:00
 tags:
   - meta
   - geek/web
@@ -57,7 +57,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. automatic [[Sconnesso]] audios transcriptions
 1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Flickr to Piwigo]]).
 	- <https://github.com/maxvoltar/photo-stream>
-	- <http://benschwarz.github.io/gallery-css/>
+	- <https://benschwarz.github.io/gallery-css/>
 	- Tania Rascia’s guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ 'How to build a responsive gallery with flexbox')
 2. Improved building workflow
 	1. Integrate URL checking services in the workflow

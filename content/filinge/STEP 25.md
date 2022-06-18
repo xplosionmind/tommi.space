@@ -4,7 +4,7 @@ title: 'FINALE: Dialogo Filosofico'
 permalink: /filinge/dialogo/
 step: 25
 ---
-Passeggiando fianco a fianco in una Piazza San Pietro deserta, al tramonto, [Papa Francesco](http://www.treccani.it/enciclopedia/papa-francesco) e [Mark Zuckerberg](http://www.treccani.it/enciclopedia/mark-zuckerberg) dialogano sul significato dell’esistenza umana e sul valore della vita. 
+Passeggiando fianco a fianco in una Piazza San Pietro deserta, al tramonto, [Papa Francesco](https://www.treccani.it/enciclopedia/papa-francesco) e [Mark Zuckerberg](https://www.treccani.it/enciclopedia/mark-zuckerberg) dialogano sul significato dell’esistenza umana e sul valore della vita. 
 
 <br>
 <br>
@@ -43,7 +43,7 @@ Passeggiando fianco a fianco in una Piazza San Pietro deserta, al tramonto, [Pap
 
 [^3]: Informazione reale tratta da [*Former atheist Mark Zuckerberg finds religion*](https://www.beliefnet.com/faiths/articles/former-atheist-mark-zuckerberg-finds-religion.aspx)
 
-[^4]: [“Amore„ nel Vocabolario Treccani](http://www.treccani.it/vocabolario/amore)
+[^4]: [“Amore„ nel Vocabolario Treccani](https://www.treccani.it/vocabolario/amore)
 
 [^5]: Tributo e riferimento al film [*Into the Wild*](https://www.imdb.com/title/tt0758758/), in cui viene pronunciata la celeberrima frase:
 	> Happiness is only real when shared

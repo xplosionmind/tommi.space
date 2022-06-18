@@ -1,12 +1,12 @@
 ---
 date: 2020-06-26
-updated: 2022-03-14T15:03:34+01:00
+updated: 2022-06-18T14:17:09+02:00
 tags:
   - filinge
   - people
 lang: it
 description: Una personalità incredibile dal genio inimitabile
-image: 'http://www.warburg-haus.de/wp-content/uploads/aby-warburg-bio/010_1895_katchina-479x600.jpg'
+image: 'https://www.warburg-haus.de/wp-content/uploads/aby-warburg-bio/010_1895_katchina-479x600.jpg'
 toc: false
 ---
 Acquistava i libri in duplice copia: una veniva tenuta in biblioteca, dell’altra venivano scomposte le pagine e messe in relazione a quelle di altri volumi

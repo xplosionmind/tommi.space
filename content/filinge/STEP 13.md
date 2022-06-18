@@ -11,9 +11,9 @@ step: 13
 
 ---
 
-“Ingegneria” e “macchina” sono due termini che compaiono spesso insieme. Per individuare il concetto di valore in relazione all’ingegneria, ho dunque deciso di analizzare il valore in “macchina” e come questo si è evoluto nel corso del tempo. Per un approfondimento sul concetto di macchina, invito a leggere <a href="https://f274723.blogspot.com/" rel="noopener" target="_blank">il blog sull’argomento</a> del mio compagno di corso.
+“Ingegneria” e “macchina” sono due termini che compaiono spesso insieme. Per individuare il concetto di valore in relazione all’ingegneria, ho dunque deciso di analizzare il valore in “macchina” e come questo si è evoluto nel corso del tempo. Per un approfondimento sul concetto di macchina, invito a leggere [il blog sull’argomento](https://f274723.blogspot.com/) del mio compagno di corso.
 
-La prima macchina degna di questo nome fu probabilmente quella ideata da <a href="http://www.treccani.it/enciclopedia/james-watt" rel="noopener" target="_blank">James Watt</a> per rimuovere l’acqua provocata dagli allagamenti nelle miniere.
+La prima macchina degna di questo nome fu probabilmente quella ideata da [James Watt](https://www.treccani.it/enciclopedia/james-watt) per rimuovere l’acqua provocata dagli allagamenti nelle miniere.
 
 ![La macchina a vapore di Watt](https://www.flotechinc.com/wp-content/uploads/2012/01/TEXrota.jpg)
 

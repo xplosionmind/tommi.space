@@ -1,6 +1,6 @@
 ---
 date: 2021-03-26T23:03:15+01:00
-updated: 2022-02-24T10:51:30+01:00
+updated: 2022-06-18T14:17:30+02:00
 tags:
   - writing/idea
   - todo
@@ -22,8 +22,8 @@ image: https://upload.wikimedia.org/wikipedia/en/5/51/Virtual_Network_Computing_
 
 1. <https://youtu.be/r-lQ1VjY02s>
 1. <https://web.archive.org/web/20210131045332/www.karlrunge.com/x11vnc/>
-1. <https://web.archive.org/web/20201111224641/http://www.karlrunge.com/x11vnc/ssvnc.html>
+1. <https://web.archive.org/web/20201111224641/https://www.karlrunge.com/x11vnc/ssvnc.html>
 1. <https://web.archive.org/web/20210304200604/www.karlrunge.com/x11vnc/faq.html>
 1. <https://github.com/LibVNC/x11vnc>
-1. <http://macappstore.org/x11vnc/>
+1. <https://macappstore.org/x11vnc/>
 1. <https://unix.stackexchange.com/questions/356569/how-to-connect-to-x11vnc-server-on-linux-from-os-x-macos>

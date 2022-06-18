@@ -45,12 +45,12 @@ Una macchina sarà in grado di attribuire valore affettivo ad una persona o un o
 
 Forse, un giorno, un computer saprà rispondere.
 
-Sarà curioso sviluppare, durante questi mesi di corso, alcuni pensieri al riguardo e tentare di trovare alcune risposte. Intanto, per avere alcuni spunti iniziali ed individuare un punto di partenza, qui di seguito è riportata l’etimologia di valore, tratta da [etimo.it](http://etimo.it/?term=valore).
+Sarà curioso sviluppare, durante questi mesi di corso, alcuni pensieri al riguardo e tentare di trovare alcune risposte. Intanto, per avere alcuni spunti iniziali ed individuare un punto di partenza, qui di seguito è riportata l’etimologia di valore, tratta da [etimo.it](https://etimo.it/?term=valore).
 
 <br>
 <br>
 
-## [Etimologia](http://etimo.it/?term=valore '“valore” sul Dizionario Etimologico')
+## [Etimologia](https://etimo.it/?term=valore '“valore” sul Dizionario Etimologico')
 
 **valore**: _prov._ valors; _fr._ valeur; _sp._ e _port._ valor: == _b. lat._ VALÒREM da VALÈRE, _esser forte, gagliardo, avere merito e pregio_ (v. _Valere_), e suffisso -OREM indicante disposizione o stato.
 
@@ -71,7 +71,7 @@ Deriv. _Valorare_, ant. per _Avvaloràre_; _Valoróso_.
 
 [Consegna](https://filinge.blogspot.com/2020/03/step-01-bis.html):
 
-> A completamento dello STEP #1 si chiede di indicare la traduzione del termine "sotto inchiesta" in alcune lingue straniere conducendo anche per esse una prima indagine storico-etimologica, eventualmente scoprendo quando e dove il termine appare per la prima volta nella letteratura. Per fare ciò possono essere molto utili i dizionari storico-linguistici. Per l’italiano si ricorda che in internet esiste l’edizione on-line del "gigantesco" [*Grande Dizionario della Lingua Italiana*](http://www.gdli.it/) fondato da Salvatore Battaglia. 
+> A completamento dello STEP #1 si chiede di indicare la traduzione del termine "sotto inchiesta" in alcune lingue straniere conducendo anche per esse una prima indagine storico-etimologica, eventualmente scoprendo quando e dove il termine appare per la prima volta nella letteratura. Per fare ciò possono essere molto utili i dizionari storico-linguistici. Per l’italiano si ricorda che in internet esiste l’edizione on-line del "gigantesco" [*Grande Dizionario della Lingua Italiana*](https://www.gdli.it/) fondato da Salvatore Battaglia. 
 
 <br>
 

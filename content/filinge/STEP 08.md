@@ -6,13 +6,13 @@ step: 8
 ---
 [Consegna](https://filinge.blogspot.com/2020/04/step-08.html):
 
-> Indicare in un post come il concetto legato al termine assegnato faccia la sua presenza nei **dialoghi di Platone** (è necessario riportare una breve citazione e per questo si consiglia di consultare il sito [ousia.it](http://www.ousia.it/)). Si ricorda che non è necessario che il termine compaia in maniera esplicita ma che la sua 'essenza' sia chiaramente intuibile. 
+> Indicare in un post come il concetto legato al termine assegnato faccia la sua presenza nei **dialoghi di Platone** (è necessario riportare una breve citazione e per questo si consiglia di consultare il sito [ousia.it](https://web.archive.org/web/ousia.it)). Si ricorda che non è necessario che il termine compaia in maniera esplicita ma che la sua 'essenza' sia chiaramente intuibile. 
 
 ---
 
 Il tema del valore, argomento fondamentale di questo blog, è trasversale e di fondamentale importanza nell’intera filosofia di Platone. In particolare, affronterò ora come questa tematica si realzioni a una delle sue opere più importanti e conosciute.
 
-Nella <cite>[Repubblica](http://www.treccani.it/enciclopedia/repubblica_%28Dizionario-di-filosofia%29/ 'Repubblica sul dizionario filosofico Treccani')</cite>, il filosofo greco idealizza una società perfetta, delineando con grande studio e precisione le sue classi e la sua organizzazione. Qui di seguito una sintetizzatione schematica di questa, tratta da [Wikipedia](https://it.wikipedia.org/wiki/La_Repubblica_(dialogo)#Lo_sviluppo_della_polis '“La Repubblica” su Wikipedia'):
+Nella <cite>[Repubblica](https://www.treccani.it/enciclopedia/repubblica_%28Dizionario-di-filosofia%29/ 'Repubblica sul dizionario filosofico Treccani')</cite>, il filosofo greco idealizza una società perfetta, delineando con grande studio e precisione le sue classi e la sua organizzazione. Qui di seguito una sintetizzatione schematica di questa, tratta da [Wikipedia](https://it.wikipedia.org/wiki/La_Repubblica_(dialogo)#Lo_sviluppo_della_polis '“La Repubblica” su Wikipedia'):
 
 - Classe dei lavoratori (popolo)
 	- caratteristica: la temperanza (σωφροσύνη)
