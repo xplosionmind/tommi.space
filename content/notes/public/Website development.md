@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-06-11T10:32:27+02:00
+updated: 2022-06-17T11:17:17+02:00
 tags:
   - meta
   - geek/web
@@ -20,24 +20,13 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Roadmap
 
-### Data
-
-Improvements concerning [the *data* module of tommi.space](https://codeberg.org/tommi/tommi.space/src/branch/main/data '“data„ directory in the tommi.space repository, on Codeberg'), hence any sort of data about Tommi.
-
-- Better [JSON-LD](https://json-ld.org 'JSON-LD') implementation
-- Use JavaScript to include sub-entries (e.g. Including in `tommi.js` data about Scambi Festival from `scambi.js`)
-- [Baserow integration](https://community.baserow.io/t/eleventy-and-baserow/812 '“Eleventy and Baserow„ on Baserow Comminity')
-
-<br>
+<div class='red box'>
+	Transferring all of the points below to <a href='https://github.com/xplosionmind/tommi.space' title='tommi.space issues on GitHub'>GitHub issues</a> in order to improve tracking and reviewing
+</div>
 
 ### v1
 
-1. Fix EB Garamond loading in italic only
-1. [Optimize CLS](https://web.dev/optimize-cls/), through [Eleventy Image Plugin](https://www.11ty.dev/docs/plugins/image/ 'Image — Eleventy') by [Mapping the width and height attributes of media container elements to their aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/Media/images/aspect_ratio_mapping 'Mapping the width and height attributes of media container elements to their aspect-ratio - Web media technologies \| MDN')
-1. Webmentions implementation
-1. [The Jam](/jam 'The Jam'): implement graph
 1. page redirection language
-1. Blog posts pagination
 1. improved Wikilinks
 1. Backlinks
 1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
@@ -57,7 +46,6 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 3. Self-hosted analytics
 1. automatic CV compiling implementation
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
-14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag
 
 <br>
 
@@ -67,7 +55,7 @@ Improvements concerning [the *data* module of tommi.space](https://codeberg.org/
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
 	- [Nautilus](https://github.com/aaronpk/Nautilus 'Nautilus on GitHub')
-1. automatic [[Sconnesso]] audios transctiptions
+1. automatic [[Sconnesso]] audios transcriptions
 1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Flickr to Piwigo]]).
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>

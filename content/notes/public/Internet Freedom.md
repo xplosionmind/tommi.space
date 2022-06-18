@@ -1,6 +1,6 @@
 ---
 date: 2020-07-10
-updated: 2022-03-14T14:58:50+01:00
+updated: 2022-06-13T06:55:41+02:00
 tags: geek
 redirect_from: [/internet-freedom-notes/]
 description: Insights and steps towards a greater digital awareness and freedom
@@ -18,6 +18,19 @@ Essentially, I interpret internet freedom as the joint concern for two overlappi
 <div class='blue box'>
 	I wish I had both the time and the knowledge to write some in-depth articles about the topics mentioned above, but I am still studying and trying to better tackle the problems of the internet and their roots, in order to form a well-grounded opinion. For this reason, content of this page is pretty random and schematic.
 </div>
+
+<br>
+<br>
+
+## Random
+
+### Avoid Neo-Luddism
+
+> They [proletarians] direct their attacks not against the bourgeois conditions of production, but agains the instruments of production themselves
+
+<p class='cite'>Marx, <cite>Communist Manifesto</cite></p>
+
+Avoid [Neo-Luddism](https://en.wikipedia.org/wiki/Neo-Luddism 'Neo-Luddism on Wikipedia'): the problem is not technology itself, nor any digital device. Rather, it is a matter of how such devices are produced and how they work.
 
 <br>
 <br>

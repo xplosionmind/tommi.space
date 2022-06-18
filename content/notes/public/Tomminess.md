@@ -1,6 +1,6 @@
 ---
 date: 2022-05-18T14:34:20+02:00
-updated: 2022-05-22T01:01:49+02:00
+updated: 2022-06-13T10:36:55+02:00
 location: Zattere
 tags: self
 aliases: Tommi =, Tommi Uguale
@@ -51,6 +51,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - being completely incapable of controlling [[Caffeinated|the effects of **caffeine**]]
 - to love **meeting people** and establishing unique **connections** with them, having friends all over the world
 - getting super pumped and enthusiastic when people/friends he met in different occasions or in different context meet between each other thanks to his mediation.
+- both using and being <q>🤯</q> very (or too) often
 - please, if you know Tommi, [comment below](#comments) by writing what you think is missing, and, if accurate, it will be added.
 
 <br>

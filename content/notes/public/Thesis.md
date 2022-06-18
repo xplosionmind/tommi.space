@@ -31,3 +31,4 @@ Broadly, related to:
 - Minoranze potrebbero tendere ad essere isolate
 - see [[Logic and Philosophy of Science II#The notion of Rationality in Economics]]: social media do not necessarily influence preferences, but completeness.
 - from [[Political Philosophy I]]: ask to Azzolini for insights concerning Weber’s position in light of <q>surveillance based on mathematical calculus which is extending in more and more spheres of society</q>
+- Technocratic degeneration of society
