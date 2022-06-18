@@ -1,0 +1,41 @@
+---
+title: Tommi in italiano
+description: Tutti i contenuti in italiano da tommi.space
+altUrl: https://tommi.space/tuffo
+permalink: italiano.json
+---
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "{{ title }}",
+	"home_page_url": "{{ altUrl }}",
+	"feed_url": "{{ site.url }}{{ page.url }}",
+	"description": "{{ description }}",
+	"favicon": "{{ site.favicon }}",
+	"authors": [{
+		"name": "{{ site.author.name }}",
+		"url": "{{ site.author.url }}",
+		"avatar": "{{ site.author.avatar }}"
+	}],
+	"language": "en",
+	"items": [{% for entry in collections.all | reverse %}
+		{% if entry.data.lang == 'it' %}
+			{
+				{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+				"id": "{{ absolutePostUrl }}",
+				"url": "{{ absolutePostUrl }}",
+				"title": {{ entry.data.title | dump | safe }},
+				"content_html": {{ entry.templateContent | dump | safe }},
+				"content_text": {{ entry.templateContent | striptags(true) | dump | safe }},
+				{%- if entry.data.description %}"summary": {{ entry.data.description | dump | safe }},{% endif -%}
+				"image": {%- if entry.data.image %}"{{ entry.data.image }}"{% else %}"{{ image }}"{% endif -%},
+				"date_published": "{{ page.date | dateToRfc3339 }}",
+				{%- if page.data.updated %}"date_modified": "{{ page.data.updated | dateToRfc3339 }}",{% endif -%}
+				{%- if page.data.tags %}"tags": [{% for tag in entry.data.tags -%}
+				"{{ tag.title }}"{%- if loop.last %}{% else %},{% endif -%}
+				{% endfor -%}
+				],{% endif -%}
+				"language": "{{ entry.data.lang }}"
+			}{%- if loop.last %}{% else %},{% endif -%}
+		{% endif %}
+	{%- endfor -%}]
+}

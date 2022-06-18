@@ -1,7 +1,7 @@
 ---
 title: Jam Stream
 subtitle: The feed of all the notes that populate “The Jam„
-altUrl: https://tommi.space/whole-jam/
+altUrl: https://tommi.space/whole-jam
 permalink: /jam.xml
 lang: en
 ---
@@ -17,7 +17,7 @@ lang: en
     <name>{{ author.name }}</name>
     <email>{{ author.email }}</email>
   </author>
-  {%- for entry in collections.poetry | reverse %}
+  {%- for entry in collections.jam | reverse %}
   {% set absolutePostUrl %}{{ entry.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ entry.data.title }}</title>
