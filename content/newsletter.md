@@ -18,14 +18,11 @@ Rock’n’roll!
 
 <form method='post' action='https://newsletter.tommi.space/subscription/form' target='popupwindow' class='flex listmonk-form'>
   <input type='hidden' name='nonce'>
-  <input type='email' name='email' required placeholder='scrivi qui la tua email' style='margin: .5em'>
-  <input type='text' style='display: none' name='name' placeholder='Nome (facoltativo)'>
-  <input id='8ccad' style='display: none' type='checkbox' name='l' checked value='8ccad8ec-d1d3-425e-a8db-14fa3b2518e8'>
-  <label for='8ccad' style='display: none'>Parole Sconnesse</label>
-  <input class='blue written button' type='submit' value='Iscriviti'>
+  <input type='email' name='email' required placeholder='scrivi qui la tua email'>
+  <input type='text' style='display:none' name='name' placeholder='Nome (facoltativo)'>
+  <input id='8ccad' style='display:none' type='checkbox' name='l' checked value='8ccad8ec-d1d3-425e-a8db-14fa3b2518e8'>
+  <label for='8ccad' style='display:none'>Parole Sconnesse</label>
+  <input class='written button' type='submit' value='Iscriviti'>
 </form>
-
-<br>
-<br>
 
 Per i più nerd: come indicato nella [Privacy Policy](/it/privacy-policy 'Privacy Policy'), il mio servizio di newsletter utilizza [listmonk](https://listmonk.app 'listmonk official website') ed è interamente <em lang='en'>self-hosted</em> su [[Server|Xplosion Server]]. Ergo, io e solamente io sono in completo controllo dei dati degli iscritti, che <a href='https://gdpr-info.eu/art-17-gdpr/' title='Art. 17 GDPR' hreflang='en'>hanno diritto</a> a chiedermi di eliminarlo quando lo desiderano.

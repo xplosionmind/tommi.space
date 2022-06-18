@@ -229,11 +229,9 @@ input {
 		border: solid 2px var(--text);
 		outline: none;
 	}
-}
-
-input.button {
-	color: var(--text);
-	border: none;
+	& ~ .button {
+		margin-left: .5rem;
+	}
 }
 
 .invalid-wikilink {
@@ -883,6 +881,10 @@ button,
 	}
 	&:active {
 		box-shadow: var(--inner-shadow);
+	}
+	form & {
+		color: var(--text);
+		border: none;
 	}
 }
 
