@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16
-updated: 2022-03-14T14:53:54+01:00
+updated: 2022-06-18T13:12:08+02:00
 ref: now
 description: Stuff I am up to in these days
 comments: false
@@ -19,16 +19,10 @@ What I am doing right now:
 
 I am living in [Venice](https://www.comune.venezia.it/ 'Venice institutional website'), Italy, where I am attending [Philosophy, International Studies and Economics](https://unive.it/pise 'PISE course page on UniVe website') at [Ca’ Foscari University](https://unive.it 'Ca’ Foscari University website').
 
-Specifically, my upcoming exams:
-- [Political Philosophy I](https://www.unive.it/data/course/332324 'Political Philosophy I course page')
-- [Political Philosophy II](https://www.unive.it/data/course/332323 'Political Philosophy II course page'), focused on [[Politics#Socialism]]
-- [Economics of Labor and Welfare](https://www.unive.it/data/course/332328 'Economics of Labor and Welfare course page')
-
-{% comment %}
 <div class='blue box'>
-	I made <a href='https://pise-notes.club'  target='_blank' title='PISE Notes'>PISE Notes</a>, a website in which I collect notes on the course classes.
+	<h3>Erasmus</h3>
+	Since September 2022 to January 2023, I am studying in <a href='https://univ-grenoble-alpes.fr' title='Université Grenoble-Alpes'>Grenoble-Alpes University</a>
 </div>
-{% endcomment %}
 
 <br>
 <br>

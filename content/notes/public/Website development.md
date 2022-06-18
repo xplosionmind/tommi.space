@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-06-17T11:17:17+02:00
+updated: 2022-06-18T12:19:59+02:00
 tags:
   - meta
   - geek/web
@@ -32,7 +32,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 1. Print `todo` points of every page at the bottom of it
 1. <q>Stop animation</q> button
-1. Fix landing page `rel=me` confirmation for Mastodon
 1. OGP images for categories (e.g. `idea` tags, `geek` tags, etc.)
 
 <br>

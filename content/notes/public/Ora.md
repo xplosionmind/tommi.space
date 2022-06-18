@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16T02:00:00+02:00
-updated: 2022-03-14T14:53:15+01:00
+updated: 2022-06-18T13:13:02+02:00
 ref: now
 lang: it
 description: Le cose che sto facendo
@@ -24,16 +24,10 @@ Sto:
 
 Sto frequentando il corso di [*Philosophy, International Studies and Economics*](https://unive.it/pise 'la pagina del PISE sul sito di Ca’ Foscari') a all’[Università Ca’ Foscari](https://unive.it 'il sito web di Ca’ Foscari'), nella favolosa [Venezia](https://www.comune.venezia.it/ 'Sito web del comune di Venezia'), dove abito.
 
-Specificamente, i corsi che sto seguendo (*ergo* i miei prossimi esami 🤞🏼):
-- [Political Philosophy I](https://www.unive.it/data/insegnamento/332324 'Political Philosophy I course page')
-- [Political Philosophy II](https://www.unive.it/data/insegnamento/332323 'Political Philosophy II course page'), corso monotematico sul [[Politics#Socialism|Socialismo]]
-- [Economics of Labor and Welfare](https://www.unive.it/insegnamento/course/332328 'Economics of Labor and Welfare course page')
-
-{% comment %}
 <div class='blue box'>
-	Ho creato <cite><a href='https://pise-notes.club'  target='_blank' title='PISE notes'>PISE Notes</a></cite>, in cui raccolgo tutti i miei appunti
+	<h3>Erasmus</h3>
+	Da settembre 2022 a gennaio 2023, studierò all’<a href='https://univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' hreflang='fr'>Università di Grenoble-Alpes</a>
 </div>
-{% endcomment %}
 
 <br>
 <br>
