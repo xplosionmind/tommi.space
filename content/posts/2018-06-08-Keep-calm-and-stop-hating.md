@@ -1,7 +1,7 @@
 ---
 date: 2018-06-08
 tags: 'Inchiostro Digitale'
-image: /2018-06-08-keep-calm-and-stop-hating.jpg
+image: /florence-sunset-crowd.jpg
 ---
 ## Articolo Finale di Inchiostro Digitale
 <!--more-->

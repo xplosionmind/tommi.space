@@ -67,7 +67,7 @@
 		"start": "2022-02-22T21:00:00+01:00",
 		"end": "2022-02-22T23:03:34+01:00",
 		"title": "I giovani e la pandemia: un metodo <q>paneuretico</q> per uscirne tutti più… positivi",
-		"image": "https://tommi.space/2022-02-22-incontro-giovani-pandemia.jpg",
+		"image": "/2022-02-22-incontro-giovani-pandemia.jpg",
 		"video": "https://youtu.be/qSWyxBOdF5A?t=24",
 		"tags": ["ac","host"],
 		"location": "online",
@@ -123,7 +123,7 @@
 		"title": "Route in Val Codera",
 		"location": "Val Codera",
 		"tags": ["scout"],
-		"notes": "in cui divenni <a href='https://tommi.space/stambecco-cinetico' title='Stambecco Cinetico'><em>Stambecco Cinetico</em></a>",
+		"notes": "in cui divenni [[Stambecco Cinetico]]",
 		"data":[
 			{
 				"what": "Foto",
@@ -593,7 +593,7 @@
 				"url": "https://www.spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea"
 			},
 			{
-				"what": "best of CATCH-EyoU",
+				"what": "Best of CATCH-EyoU",
 				"url": "https://www.spreaker.com/user/ariaimmaginaria/catcheyou-from-brussels"
 			}
 		]
@@ -984,7 +984,7 @@
 		"url": "https://images.tommi.space/index?/category/orchestra-delle-scuole-europee-di-bruxelles-e-note-libere-al-cas",
 		"location": "Teatro del Casino di Sanremo",
 		"tags": ["music", "host"],
-		"notes": "ho presentato il concerto mentre i miei amici giravano per le riprese del mio cortometraggio <a href='https://tommi.space/it/everyone' target='_blank' title='Everyone'>Everyone</a>; nelle scene a teatro ci sono le riprese proprio di quel giorno"
+		"notes": "ho presentato il concerto mentre i miei amici giravano per le riprese del mio cortometraggio [Everyone](/it/everyone 'Everyone'); nelle scene a teatro ci sono le riprese proprio di quel giorno"
 	},
 	{
 		"end": "2019-08-30",
@@ -1029,9 +1029,21 @@
 	{
 		"end": "2018-05-25",
 		"title": "Mouse Trap Grand Prix",
-		"url": "https://images.tommi.space/index?/category/mouse-trap-car-grand-prix-2018",
+		"url": "https://mousetraprace.com",
+		"image": {
+			"url": "/mouse-trap.webp",
+			"alt": {
+				"it": "Io mentre vengo premiato dal principe di Monaco",
+				"en": "A photo of me being awarded by the Prince of Monaco"
+			}
+		},
+		"logo": "/monaco-mouse-trap-grand-prix.svg",
+		"color": "#000",
+		"background": "#FFF",
 		"location": "Monaco",
 		"tags": ["prize"],
+		"description": "I unexpectedly won the 2018 edition of the Monaco Mouse Trap Grand Prix, building and running the fastest car powered just by the force of a mouse trap",
+		"description-it": "Incredibilmente e inaspettatamente, **ho vinto** l’edizione del 2018 del <cite>Monaco Mouse Trap Grand Prix</cite>, costruendo la più veloce macchinina a percorrere 5 metri avanti e indietro con la sola propulsione di una trappola per topi.",
 		"data":[
 			{
 				"what": "Intervista Ufficio Stampa Liceo G.D. Cassini Sanremo",
@@ -1040,8 +1052,19 @@
 			{
 				"what": "articolo su Riviera24",
 				"url": "https://www.riviera24.it/2018/05/tommaso-marmo-del-liceo-cassini-di-sanremo-vince-il-primo-premio-al-monaco-mouse-trap-grand-prix-286175"
+			},
+			{
+				"what": "images",
+				"url": "https://images.tommi.space/index?/category/mouse-trap-car-grand-prix-2018"
 			}
-		]
+		],
+		"button-text": {
+			"it": "Sito uffuciale",
+			"en": "Official website"
+		},
+		"stuff": true,
+		"one-time": true,
+		"current": false
 	},
 	{
 		"end": "2017-08-08",
@@ -1088,7 +1111,7 @@
 		"url": "https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3",
 		"location": "online",
 		"tags": ["qsm"],
-		"notes": "ho partecipato discutendo di <cite><a href='https://tommi.space/ten-arguments' target='_blank' hreflang='en' title='Ten Arguments For Deleting Your Social media Accounts Right Now'>Ten Arguments For Deleting Your Social media Accounts Right Now</a></cite>. Sono intervenuto al minuto <time>44:45</time>",
+		"notes": "ho partecipato discutendo di <cite lang='en'><a href='https://tommi.space/ten-arguments' hreflang='en' title='Ten Arguments For Deleting Your Social media Accounts Right Now'>Ten Arguments For Deleting Your Social media Accounts Right Now</a></cite>. Sono intervenuto al minuto <time>44:45</time>",
 		"data":[
 			{
 				"what": "Podcast",
@@ -1237,7 +1260,7 @@
 		"aliases": ["CFT", "Tirocinanti Saltellanti"],
 		"location": "Mestre",
 		"tags": ["scout"],
-		"notes": "il primo di campo di formazione per capi scout, a seguito del quale ho scritto <a href='https://tommi.space/cft' target='_blank' title='“Tirocinanti Saltellanti” su tommi.space'>questo articolo</a>",
+		"notes": "il primo di campo di formazione per capi scout, a seguito del quale ho scritto [questo articolo]('https://tommi.space/cft '“Tirocinanti Saltellanti” su tommi.space')",
 		"coordinates": ["45,493003", "12,241339"]
 	},
 	{
@@ -1262,5 +1285,280 @@
 		"location": "Liceo G.D. Cassini Sanremo",
 		"tags": ["school"],
 		"notes": "ho partecipato agli allenamenti per la gara di matematica a squadre organizzata dal <a href='https://dima.unige.it' target='_blank' title='DiMa — UniGe'>Dipartimento di Matematica dell’Università di Genova</a>"
+	},
+	{
+		"title": "Club Tenco",
+		"image": {
+			"url": "/club-tenco.webp",
+			"alt": {
+				"it": "Una foto della ciurma di squinternati del Tenco mentre trasporta l’insegna “Tenco 2019”",
+				"en": "A photo of the crazy Club Tenco volunteers transporting the “Tenco 2019” sign"
+			},
+			"aspect-ratio": "4/3"
+		},
+		"logo": "/club-tenco.svg",
+		"color": "#FFF",
+		"background": "#000",
+		"button-text": {
+			"it": "Official website",
+			"en": "La storia del Club Tenco"
+		},
+		"url": "",
+		"description": "<cite>Club Tenco</cite> is the institution awarding the the most important prize for songwriters in Italy, and it is among the most renowned in the woeld. I have the honour to work there, speciifically during the Tenco Festival, taking place every October.",
+		"description-it": "Il <cite>Club Tenco</cite> è la più importante istituzione per la musica d’autore in Italia, celebre in tutto il mondo. Ho l’onore e la fortuna di lavorare con favoloso un gruppo di amici il Club Tenco, in particolare nel corso della rassegna di ottobre, all’Ariston di Sanremo.",
+		"current": true,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "Everyone",
+		"image": {
+			"url": "/everyone.webp",
+			"alt": {
+				"it": "Il poster di Everyone",
+				"en": "Everyone movie poster"
+			},
+			"aspect-ratio": "16/9"
+		},
+		"logo": "/everyone.svg",
+		"color": "#FFF",
+		"background": "#425462",
+		"button-text": {
+			"it": "Sveglia",
+			"en": "Wake up"
+		},
+		"url": "/everyone",
+		"description": "A short movie I made. My first one and my worst one yet.",
+		"description-it": "Un cortometraggio da me scritto e diretto. Il mio primo e, per ora, il peggiore.",
+		"current": false,
+		"personal": true,
+		"one-time": true,
+		"stuff": true
+	},
+	{
+		"title": "Giffoni Film Festival",
+		"image": {
+			"url": "https://live.staticflickr.com/65535/48365351091_93ff61829a_b.jpg",
+			"alt": {
+				"it": "La Masterclass Cult del 2019 con Stefano Accorsi",
+				"en": "Masterclass Cult fellows with the actor Stefano Accorsi"
+			}
+		},
+		"logo": "/giffoni-film-festival.svg",
+		"color": "#FFF",
+		"background": "#4A1382",
+		"button-text": {
+			"it": "Scopri",
+			"en": "Discover"
+		},
+		"url": "https://www.giffonifilmfestival.it",
+		"description": "We’re cinema lovers coming from all over the world. We are Giffoners. Watching films and asking tricky questions to celebrities is what we do.",
+		"description-it": "Siamo cinefili e sognatori provenienti da tutto il mondo. Siamo Giffoners. Guardare film e fare domande assurde a registi e attori famosi è quello che facciamo.",
+		"current": true,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "La Nuova Corrente",
+		"tags": ["nuovacorrente"],
+		"image": {
+			"url": "/la-nuova-corrente.jpg",
+			"alt": {
+				"it": "La nostra redazione mentre intervista il sindaco di Sanremo",
+				"en": "The behind the scenes of an interview by our team"
+			}
+		},
+		"logo": "/la-nuova-corrente.svg",
+		"color": "#2C2C2C",
+		"background": "#F4BE35",
+		"button-text": {
+			"it": "Scossa",
+			"en": "More"
+		},
+		"url": "https://lanuovacorrente.com",
+		"description": "<cite lang='it'>La Nuova Corrente</cite> is a school **journalism project** of <em lang='it'><a hreflang='it' href='https://www.liceogdcassini.edu.it/' title='Liceo G.D. Cassini'>Liceo G.D. Cassini</a></em> in Sanremo. We <a href='/tags#inchiostro-digitale' hreflang='it' target='_blank' title=''></a>, [shot videos](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg '“La Nuova Corrente„ YouTube Channel'), conducted interviews, and did a ton of other cool stuff.",
+		"description-it": "<cite>La Nuova Corrente</cite> è una testata giornalistica creata da alcuni professori e studenti del [Liceo Cassini di Sanremo](https://www.liceogdcassini.edu.it 'Liceo G.D. Cassini di Sanremo - sito istituzionale'), di cui sono stato per un anno direttore. Per <cite>La Nuova Corrente</cite> ho scritto [alcuni articoli](/tags#inchiostro-digitale) e scritto e condotto svariati [video e interviste](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg/videos 'Il canale YouTube de “La Nuova Corrente„') insieme ai miei compagni.",
+		"current": true,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "LIBERA",
+		"tags": ["libera"],
+		"image": {
+			"url": "https://live.staticflickr.com/65535/49854137792_8e7ff31b63_b.jpg",
+			"alt": {
+				"it": "Commemorazione in ricordo delle vittime di mafia del 21 marzo 2019, a Sanremo",
+				"en": "An event by LIBERA"
+			}
+		},
+		"logo": "/libera.png",
+		"color": "#0D1833",
+		"background": "#B5D5E2",
+		"button-text": {
+			"it": "Sito web ufficiale",
+			"en": "Official website"
+		},
+		"url": "https://libera.it",
+		"description": "<cite lang='it'>LIBERA</cite> is an association which **fights mafia** in a non-violent way, by promoting events and educating people to legality. Together with some friends and schoolmates, I founded the Sanremo local chapter",
+		"description-it": "<cite>LIBERA, associazioni, nomi e numeri contro le mafie</cite> è un associazione che **combatte la criminalità organizzata** promuovendo campagne di informazione ed educazione e organizzando eventi in memoria delle vittime innocenti uccise dalla mafia (come in questa foto). Nel febbraio 2019, con alcuni miei compagni di scuola ho fondato il **Presidio** del [Liceo G.D. Cassini](https://www.liceogdcassini.edu.it 'Liceo G.D. Cassini di Sanremo - sito istituzionale') di Sanremo, intitolato a [Rosario Livatino](https://it.wikipedia.org/wiki/Rosario_Livatino 'Rosario Livatino su Wikipedia')",
+		"current": true,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "Mozilla Italia",
+		"tags": ["mozilla"],
+		"image": {
+			"url": "/mozilla-italia.jpg",
+			"alt": {
+				"it": "Un’illustrazione di Firefox",
+				"en": "A Firefox themed illustration"
+			}
+		},
+		"logo": "/mozilla-italia.svg",
+		"color": "#FFF",
+		"background": "#007CFF",
+		"button-text": {
+			"it": "Sito web ufficiale",
+			"en": "Official website"
+		},
+		"url": "https://mozillaitalia.org",
+		"description": "<cite>Mozilla</cite> is the non-profit organization that develops [[Firefox]], the best browser in the world. It also promotes several great initiatives. I am a volounteer at Mozilla Italy. occasionally, I translate [MDN](https://developer.mozilla.org 'Mozilla Developers Network') articles and I contribute to resources localization.",
+		"description-it": "<cite>Mozilla</cite> è l’organizzazione non-profit che, fra le altre cose, sviluppa [[Firefox]], il browser più figo del mondo. Io sono volontario di Mozilla Italia, occasionalmente traducendo articoli di <a href='https://developer.mozilla.org' hreflang='en' lang='en' title='Mozilla Developer Network'>MDN</a> e contribuisco alla localizzazione delle risorse",
+		"current": true,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "OrchestranDo",
+		"tags": ["orchestrando"],
+		"image": {
+			"url": "https://live.staticflickr.com/65535/48564313271_12d08b064d_b.jpg",
+			"alt": {
+				"it": "Una foto di gruppo della nostra orchestra sul palco dell OrchestranDo Festival 2016",
+				"en": "A group photo of our orchestra on stage at a Festival"
+			}
+		},
+		"logo": "/orchestrando.svg",
+		"color": "#EFEFEF",
+		"background": "#000",
+		"button-text": {
+			"it": "Un articolo su di noi",
+			"en": "An article about us"
+		},
+		"url": "https://www.sanremonews.it/2016/06/01/leggi-notizia/argomenti/eventi-1/articolo/gli-allievi-del-progetto-orchestrando-yamaha-di-sanremo-e-arma-di-taggia-al-festival-nazionale.html",
+		"description": "I used to play trumpet and I was part of a small orchestra of young woodwinds players a few years ago. We took part to several music festivals around Italy.",
+		"description-it": "Ho suonato la tromba in una piccola giovane orchestra di fiati, con cui ho partecipato a diversi festival di musica in Italia.",
+		"current": false,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "Philosophy of Engineering",
+		"tags": ["filinge"],
+		"image": {
+			"url": "/bitcoin-mine.jpg",
+			"alt": {
+				"it": "Una foto di una “miniera” di Bitcoin in Russia",
+				"en": "A photo of a Bitcoin mine in Russia"
+			},
+			"aspect-ratio": "3/2"
+		},
+		"logo": "/philosophy-of-engineering.svg",
+		"color": "#000",
+		"background": "#20CE88",
+		"button-text": {
+			"it": "Film mentali",
+			"en": "My writings"
+		},
+		"url": "/filinge",
+		"description": "One of the first year exams for the <a href='https://didattica.polito.it/pls/portal30/sviluppo.offerta_formativa_2019.vis?p_coorte=2020&p_sdu=37&p_cds=10' hreflang='it' title='Offerta Formativa corso di laurea in Computer Engineering - PoliTo'>Computer Engineering</a> at [PoliTo](https://www.polito.it 'Politecnico di Torino') can be chosen by the student. I chose <cite><a href='http://filinge.blogspot.com' hreflang='it'>Philosophy and Engineering</a></cite> and below you can visit the blog I created as the scope of the course.",
+		"description-it": "Uno degli esami del primo anno per la laurea in <a href='https://didattica.polito.it/pls/portal30/sviluppo.offerta_formativa_2019.vis?p_coorte=2020&p_sdu=37&p_cds=10' lang='en' hreflang='it'>Computer Engineering</a> può essere scelto dagli studenti. Io ho scelto [Filosofia dell’Ingegneria](http://filinge.blogspot.com 'Filosofia dell’Ingegneria - blog'). Per il corso, ho dovuto scrivere un blog sul tema “valore”, si può leggere cliccando qui sotto.",
+		"current": false,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "Radioimmaginaria",
+		"tags": ["radioimmaginaria"],
+		"image": {
+			"url": "https://live.staticflickr.com/376/32479764946_d845b18e1a_b.jpg",
+			"alt": {
+				"it": "Una matta foto scattata prima di una diretta",
+				"en": "A crazy photo of me with a group of speakers before going live"
+			}
+		},
+		"logo": "/radioimmaginaria.svg",
+		"color": "#FFF",
+		"background": "#ED3134",
+		"button-text": {
+			"it": "Immagina",
+			"en": "Imagine"
+		},
+		"url": "https://radioimmaginaria.it",
+		"description": "Wherever you are, you just need an internet connection to listen to this crazy webradio (not only a radio) made just by teenagers all over the world.",
+		"description-it": "Ovunque tu sia, basta una connessione ad internet per essere catapultato nel mondo di questo pazzesco network di adolescenti fuori di testa che trasmettono dalle camerette di tutta Europa. Grazie a Radioimmaginaria ho fatto una valanga di figate pazzesche in tutta Europa che mi hanno cambiato la vita e ho fondato le redazioni di Sanremo e Riva Ligure.",
+		"current": false,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "Scouting",
+		"tags": ["scout"],
+		"image": {
+			"url": "/scouting.jpg",
+			"alt": {
+				"it": "Una foto di gruppo del mio Clan durante una route",
+				"en": "A group photo of my scout group diring a hike"
+			}
+		},
+		"logo": "/agesci.svg",
+		"color": "#3B177D",
+		"background": "#95B74D",
+		"button-text": {
+			"it": "Il movimento",
+			"en": "The movement"
+		},
+		"url": "https://agesci.it",
+		"description": "I am a scout since when I was 8 years old. I love scouting and I am proud to be a scout chief.",
+		"description-it": "Sono scout da quando ho 8 anni. Amo lo scoutismo e con orgoglio indosso l’uniforme <abbr title='Associazione Guide e Scout Cattolici Italiani'>AGESCI</abbr>. In questo momento sono aiuto capo reparto nel gruppo [Mira 1](https://agescimira1.mystrikingly.com/ 'Sito web del gruppo Mira 1').",
+		"current": true,
+		"personal": false,
+		"one-time": false,
+		"stuff": true
+	},
+	{
+		"title": "Xplosion Pictures",
+		"tags": ["xplosionpictures"],
+		"image": {
+			"url": "/florence-sunset-crowd.jpg",
+			"alt": {
+				"it": "Una foto di un tramonto fra la folla di Firenze",
+				"en": "Photo of a crowd in the sunset of Florence, Italy"
+			}
+		},
+		"logo": "/xplosion-pictures.svg",
+		"color": "#FFF",
+		"background": "#971316",
+		"button-text": {
+			"it": "Portfolio",
+			"en": "My portfolio"
+		},
+		"url": "https://images.tommi.space/index?/category/portfolio",
+		"description": "Videos and photos I shoot around the world or just when people ask me to.",
+		"description-it": "Quando mi dicono <q>Tommi vieni a fare le foto per questa cosa?</q> oppure quando metto mie foto o video in giro quello che scrivo è <cite>Xplosion Pictures</cite>, per sentirmi professionale.",
+		"current": true,
+		"personal": true,
+		"one-time": false,
+		"stuff": true
 	}
 ]

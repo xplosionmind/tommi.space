@@ -3,11 +3,33 @@ title: Stuff
 lang: en
 ref: stuff
 description: The most relevant portion of stuff I do and I did around the world during my two decades of existence.
-tags: wip
+sitemap:
+  changefreq: monthly
+	priority: 0.8
 ---
-<section class='center one column row'>
-	<h1>Stuff I do</h1>
-	<p>{{ description }} In case you are not satisfied, do not worry: I can offer you <a href='/tutto' hreflang='it' target='_blank' title='Tutto'>everything</a>.</p>
-</section>
+<div class='row'>
+	<section class='center one column'>
+		<h1>Stuff I do</h1>
+		<p>{{ description }} In case you are not satisfied, do not worry: I can offer you <a href='/tutto' hreflang='it' title='Tutto'>everything</a>.</p>
+	</section>
+</div>
 
-{% render 'stuff.html' %}
+<div class='row'>
+	<div class='one column'>
+		{% render 'scambi.html', lang: lang %}
+	</div>
+</div>
+
+{% assign stuff = tutto | where: 'stuff', true | sort: 'one-time' | sort: 'current' | reverse %}
+{% for thing in stuff %}
+	<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
+		<div class='half column vertical flex'>
+			<h2 class='title'><img src='{{ thing.logo }}' alt='{{ thing.title }}'></h2>
+			<p>{{ thing.description | markdownify }}</p>
+			<a href='{{ thing.link }}' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-text.en }}</a>
+		</div>
+		<div class='half column vertical flex'>
+			<img src='{{ thing.image.url }}' title='{{ thing.image.alt.en }}' alt='{{ thing.image.alt.en }}' {%- if thing.image.aspect-ratio -%}style='aspect-ratio:{{ thing.image.aspect-ratio }}'{%- endif -%}>
+		</div>
+	</div>
+{% endfor %}

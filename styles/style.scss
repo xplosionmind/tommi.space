@@ -541,6 +541,8 @@ img {
 	h3 & {
 		margin: auto;
 		max-height: 9rem;
+		border-radius: 0;
+		max-width: 90%;
 	}
 	& + h2,
 	& + h3 {
@@ -819,18 +821,6 @@ h3 {
 	margin: $small 10%;
 	font: italic .85em var(--font-sans);
 	line-height: 1.5em;
-}
-
-#stuff {
-	margin-top: 8vh;
-}
-
-.stuff-logo {
-	width: auto;
-	min-width: 50%;
-	max-width: 90%;
-	max-height: 10rem;
-	border-radius: 0;
 }
 
 .metadata {
