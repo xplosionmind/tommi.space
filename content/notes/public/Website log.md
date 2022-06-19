@@ -1,6 +1,6 @@
 ---
 date: 2021-01-09T01:00:00+01:00
-updated: 2022-04-21T06:43:01+02:00
+updated: 2022-06-19T23:11:59+02:00
 tags:
   - draft
   - geek/web
@@ -21,12 +21,23 @@ main: true
 	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing effort in documenting my decisions is not my priority, as well as to explain passages for educational purposes</p>
 </div>
 
+<p class='date'><time datetime='2022-06-19T23:04:30+02:00'>Sunday, June 19<sup>th</sup> 2022</time></p>
+
+## Issue tracking
+
+Up to now, anything concerning website ideas and development was listed quite randomly on [[Website development]]. My intention was to keep everything portable and within [[The Jam]]. Nevertheless, tracking both bugs, feature ideas and stuff to do with services dedicated to that is easier, simpler, and much more integrated with the development environment and workflow that git provides.
+
+I am now [using GitHub for issue tracking](https://github.com/xplosionmind/tommi.space/issues 'tommi.space issues on GitHub'), even though the repository is currently being [hosted on Codeberg][source].
+
+<br>
+<br>
+
 <p class='date'><time datetime='2022-04-21T06:14:30+02:00'>Thursday, April 21<sup>st</sup> 2022</time></p>
 
 
 ## Hosting
 
-Since the beginning, [Netlify](https://netlify.com 'Netlify') has been where tommi.space is hosted. It has to be noted, though, that Netlify is no champion of openness, free software, or sustainable infrastructure, hence not a service whose values I completely share. Nevertheless, it is awesome, and it has everything I need, and more. It hurts to say it, but I love it and I am sticking with it, since it really makes much of the work easier.
+Since the beginning, [Netlify](https://netlify.com 'Netlify') has been where tommi.space is hosted. It has to be noted, though, that Netlify is no champion of openness, free software, or sustainable infrastructure, hence not a service whose values I completely share. Nevertheless, it is awesome, since at the same time it both has more than what I need, and it is fairly simple. It hurts to say it, but I love it and I am sticking with it, since it really makes much of the work easier.
 
 All of the relatively big files on the website (such as images and podcast audios) are hosted on [Storj](https://storj.io 'Storj'), and through a couple of tricks they are seamlessly served through Netlify. Storj too has its red flags, since it is based on the blockchain and I am still quite skeptical concerning all of this stuff. But, again, it wonderfully does the work, at least until [Cubbit](https://cubbit.io 'Cubbit') won’t get around static hosting, as Stefano, its CEO, anticipated to me someday it will.
 
@@ -148,4 +159,5 @@ I will be noting below my doubts and, if solved, my conclusions.
 
 [Jekyll]: https://jekyllrb.com 'Jekyll official website'
 [Eleventy]: https://11ty.dev 'Eleventy official website'
+[source]: {{ site.source }} 'tommi.space source code on Codeberg'
 [^test]: Lovely arrow test ->
