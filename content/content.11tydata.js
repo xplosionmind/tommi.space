@@ -37,6 +37,11 @@ module.exports = {
 			}
 			return updated;
 		},
+		sitemap: {
+			img: data => {
+			return { url: data.image };
+			},
+		},
 
 		/************
 		* Backlinks *
