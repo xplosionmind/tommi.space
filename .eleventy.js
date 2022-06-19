@@ -147,6 +147,7 @@ module.exports = function(eleventyConfig) {
 		sitemap: {
 			hostname: 'https://tommi.space'
 		},
+		lastModifiedProperty: 'updated'
 	});
 
 	// Filters //

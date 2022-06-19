@@ -6,6 +6,9 @@ lang: it
 description: La Privacy Policy di tommi.space
 redirect_from: [/privacy/it/, /it/privacy/]
 layout: page
+sitemap:
+  changefreq: yearly
+	priority: 0.2
 ---
 I dati statistici riguardanti i visitatori di questo sito sono raccolti ed analizzati tramite [Plausible](https://plausible.io 'Plausible'), la cui Privacy Policy può essere consultata [qui](https://plausible.io/privacy 'Privacy Policy di Plausible').  
 Inoltre, le statistiche appena menzionate sono pubblicamente visibili, in [questa pagina](https://plausible.io/tommi.space 'Statistiche dei visitatori per tommi.space').

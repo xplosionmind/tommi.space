@@ -1,5 +1,8 @@
 {
-    "layout": "jam",
-    "toc": true,
-    "isNote": true
+	"layout": "jam",
+	"toc": true,
+	"isNote": true,
+	"sitemap": {
+		"changefreq": "yearly"
+	}
 }

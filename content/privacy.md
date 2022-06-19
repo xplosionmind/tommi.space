@@ -6,6 +6,9 @@ lang: en
 redirect_from: [/privacy-policy/, /privacypolicy/]
 layout: page
 description: Privacy Policy of tommi.space
+sitemap:
+  changefreq: yearly
+	priority: 0.3
 ---
 Visitors data concerning this website are handled by [Plausible](https://plausible.io 'Plausible'), whose Privacy Policy is [here](https://plausible.io/privacy 'Plausible Privacy Policy').  
 Furthermore, such data is [publicly available](https://plausible.io/tommi.space 'Visitors data for tommi.space')

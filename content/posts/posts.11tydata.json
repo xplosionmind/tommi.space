@@ -1,5 +1,8 @@
 {
-    "layout": "post",
-    "lang": "it",
-    "isPost": true
+	"layout": "post",
+	"lang": "it",
+	"isPost": true,
+	"sitemap": {
+		"changefreq": "never"
+	}
 }

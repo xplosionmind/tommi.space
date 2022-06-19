@@ -6,6 +6,9 @@ image: https://3u26hb1g25wn1xwo8g186fnd-wpengine.netdna-ssl.com/files/2019/10/Fx
 permalink: /usa-firefox/
 redirect_from: [/use-firefox/]
 lang: it
+sitemap:
+  changefreq: never
+	priority: 0.1
 ---
 Non stai usando il browser che dovresti!
 Sono molto deluso da te.

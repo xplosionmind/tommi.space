@@ -1,4 +1,7 @@
 {
-  "layout": "poem",
-  "class": "poetry"
+	"layout": "poem",
+	"class": "poetry",
+	"sitemap": {
+		"changefreq": "never"
+	}
 }

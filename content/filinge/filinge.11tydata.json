@@ -1,4 +1,8 @@
 {
-  "tags": "filinge",
-  "layout": "post"
+	"tags": "filinge",
+	"layout": "post",
+	"sitemap": {
+		"chengefreq": "never",
+		"priority": 0.3
+	}
 }
