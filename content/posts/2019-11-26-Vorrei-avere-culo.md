@@ -1,6 +1,5 @@
 ---
 title: Vorrei avere culo
-title: Vorrei avere culo
 date: 2019-11-26
 image: /2019-11-26-vorrei-avere-culo.jpg
 ---

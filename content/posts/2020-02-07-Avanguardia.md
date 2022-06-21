@@ -1,8 +1,7 @@
 ---
-title: Avanguardia
+title: L’avanguardia
 date: 2020-02-07
 image: /2020-02-07-avanguardia.jpg
-title: L’avanguardia
 permalink: /avanguardia/
 redirect_from: /l-avanguardia/
 ---
