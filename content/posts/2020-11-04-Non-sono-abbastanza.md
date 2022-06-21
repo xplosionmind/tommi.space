@@ -1,4 +1,5 @@
 ---
+title: Non sono abbastanza
 date: 2020-11-04
 image: /2020-11-04-non-sono-abbastanza.jpg
 tags: zen

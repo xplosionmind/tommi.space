@@ -1,4 +1,5 @@
 ---
+title: The overlooked challenges of Big Tech regulation
 date: 2022-05-13T06:30:00+02:00
 started_writing: 2022-04-27T08:45:10+02:00
 updated: 2022-05-12T12:36:41+02:00

@@ -1,6 +1,10 @@
 ---
+title: Making this website
 date: 2020-04-18
-tags: geek, draft
+tags:
+  - unfinished
+  - draft
+  - geek
 image: /2020-04-18-making-this-website.jpg
 lang: en
 permalink: /the-making-of/

@@ -1,8 +1,8 @@
 ---
+title: L’Arte del Procrastinare
 date: 2021-03-06T23:08:56+01:00
 updated: 2021-03-26T11:00:30+01:00
 tags: zen philosophy
-title: L’Arte del Procrastinare
 subtitle: Nonché la mia filosofia di vita
 permalink: /procrastinazione/
 redirect_from: ['/structured-procrastination/', '/structuredprocrastination/', '/procrastinare/', '/procrastinazione-strutturata/', '/arte-del-procrastinare/', '/procrastinare-arte/', '/arte-procrastinare/', '/LArte-del-procrastinare/']
@@ -15,12 +15,12 @@ image: /2020-03-30-desk.jpg
 ---
 **Premessa**: il seguente articolo è la mia traduzione di <cite><a href='http://structuredprocrastination.com'  target='_blank' title='Structured Procrastination'>Structured Procrastination</a></cite>, ad opera del mitico [John Perry](https://it.wikipedia.org/wiki/John_Perry 'John Perry su Wikipedia'), professore emerito di Filosofia all’Università di Stanford. I diritti per la traduzione sono stati gentilmente concessi dall’autore che, con mia somma sorpresa, ha risposto ad una mia email colma di ammirazione, acconsentendo alla pubblicazione in italiano sul mio sito, purché ricordassi che da questo testo è poi nato un libro, [<cite>The Art of Procrastination</cite>](https://openlibrary.org/books/OL27141326M/The_art_of_procrastination 'The Art of Procrastination in the Open Library'), tradotto anche in italiano e intitolato [<cite>La nobile arte del cazzeggio</cite>](https://openlibrary.org/books/OL32080362M/La_nobile_arte_del_cazzeggio 'La nobile arte del cazzeggio nella Open Library'), titolo di dubbio gusto sul quale soprassederò. 
 
-<figure><picture>
+<figure>
 	<a href='https://images.tommi.space/index?/category/desk'  target='_blank' title='Collezione di fotografie della mia scrivania, scattate ogni 27 giorni'>
 		<img class='u-photo' src='{{ image }}' title='La mia scrivania il 30 Marzo 2020' alt='La mia scrivania il 30 Marzo 2020'>
 	</a>
 	<figcaption>Il livello di casino sulla mia scrivania è spesso indice del livello di procrastinazione in cui mi trovo. Per tenerne traccia, da circa un anno, ogni ventisette giorni, no matter what, scatto una foto della mia scrivania, così come è. Cliccando sull’immagine, potete accedere allo storico delle mie scrivanie (come potrete vedere, riesco a procrastinare anche nello scattare le foto). Questa foto, scattata il 30 Marzo 2020, è la prima della serie.</figcaption>
-</picture></figure>
+</figure>
 
 <div class='yellow box'>
 	<b>Nota</b>: la traduzione letterale del titolo originale sarebbe <i>Procrastinazione Strutturata</i>, che è un nome terribile. Per questo, oltre ad aver intitolato questo articolo in un modo meno fedele ma, almeno, più carino, quando nel testo compariranno le parole <i>structured procrastination</i> eviterò di tradurle.

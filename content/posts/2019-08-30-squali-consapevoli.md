@@ -1,4 +1,5 @@
 ---
+title: Squali Consapevoli
 date: 2019-08-30
 image: /2019-08-30-squali-consapevoli.jpg
 ---
@@ -8,10 +9,10 @@ per realizzare i nostri sogni?
 
 Ho cercato per mesi e trovato solo in alcuni attimi parole finora sbagliate per riuscire a raccontare il mio piccolo, non definitivo, quasi raggiunto, sogno a cui lavoro da un’eternità, praticamente.
 
-<figure><picture>
+<figure>
   <img class='u-photo' src='{{ image }}' alt='una fuga romantica in pigiama'>
   <figcaption>la classica fuga romantica, in pigiama però (da un frame di <cite><a href='/everyone' target='_blank'><cite>Everyone</cite></a></cite>)</figcaption>
-</picture></figure>
+</figure>
 
 Scrivo fiumi di parole senza senso, frutto del delirio causato dal più intenso entusiasmo e dalla più devastante agitazione trovano ora un perché ed una forma, nella notte insonne che precede per ogni creatore il debutto della sua opera.
 

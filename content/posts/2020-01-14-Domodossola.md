@@ -1,4 +1,5 @@
 ---
+title: Domodossola
 date: 2020-01-14
 image: /2020-01-14-domodossola.jpg
 ---
@@ -34,7 +35,7 @@ E come treni, come <a href='https://youtu.be/5bW7m--WiWE' target='_blank'>SQUALI
 
 <br>
 
-<figure><picture><img class='u-photo' src='{{ image }}' alt='alberi capillari in Corso Racconigi a Torino'><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></picture></figure>
+<figure><img class='u-photo' src='{{ image }}' alt='alberi capillari in Corso Racconigi a Torino'><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
 
 <br>
 

@@ -1,4 +1,5 @@
 ---
+title: Inciampare
 date: 2019-06-29
 image: /2019-06-29-inciampare.jpg
 ---
@@ -8,9 +9,9 @@ Un’ombra, è sempre più leggera, più veloce, più allegra, più dolce, meno 
 
 <q>**Chi striscia non inciampa**</q>
 
-<figure><picture>
+<figure>
   <img class='u-photo' src='{{ image }}' alt='una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)'>
-</picture></figure>
+</figure>
 
 ho imparato da chi inciampando ha saputo creare un mondo unico e magico.
 

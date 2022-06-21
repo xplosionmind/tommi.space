@@ -1,4 +1,5 @@
 ---
+title: Vivi la vita
 date: 2016-08-02
 tags: radioimmaginaria
 image: /2017-01-19-come-cambiare-il-mondo.jpg

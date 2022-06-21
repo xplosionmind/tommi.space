@@ -29,10 +29,10 @@ While suggestions Spotify or its similars advance are [based on calculus and emo
 
 ## Playing
 
-<figure><picture>
+<figure>
 	<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2020/12/24/20201224164521-98446d01-sm.jpg' alt='An image of me playing the guitar'>
 	<figcaption>During my 18<sup>th</sup> birthday at [[Il Cubo]] I was pretending to know how to play a guitar in a very embarrassing situation</figcaption>
-</picture></figure>
+</figure>
 
 Concerning playing the guitar and singing, in front of a bonfire as well as on stage with a microphone I am subject to [the Dunning–Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect 'Dunning–Kruger effect on Wikipedia'), <q cite='https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect'>the cognitive bias whereby people with low ability at a task overestimate their ability</q>
 

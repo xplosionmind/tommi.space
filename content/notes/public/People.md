@@ -36,7 +36,7 @@ main: true
 		{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture -%}
 		{% if idoltag contains 'people' -%}
 			<h2 class='center title' id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
-			<a href='{{ idol.url | url }}'><figure><picture><img src='{{ idol.data.image }}' title='{{ idol.data.title }}' alt='An image portraying {{ idol.data.title }}'></picture></figure></a>
+			<a href='{{ idol.url | url }}'><figure><img src='{{ idol.data.image }}' title='{{ idol.data.title }}' alt='An image portraying {{ idol.data.title }}'></figure></a>
 			<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
 			<br>
 			<br>
