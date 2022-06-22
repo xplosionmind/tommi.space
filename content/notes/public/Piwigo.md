@@ -1,10 +1,10 @@
 ---
 date: 2021-12-17T10:55:25+01:00
-updated: 2022-03-14T14:52:18+01:00
+updated: 2022-06-22T17:01:57+02:00
 tags: geek
 image: https://piwigo.org/plugins/piwigo-piwigodotorg/piwigo.org.svg
 description: |
-  Some notes about <a href='https://piwigo.org' target='_blank' title='Piwigo official website'>Piwigo</a>, a great solution for hosting and storing images. I use it on <a href='https://images.tommi.space' target='_blank' title='Tommi’s images'>images.tommi.space</a>.
+  Some notes about [Piwigo](https://piwigo.org 'Piwigo'), a great solution for hosting and storing images. I use it on [images.tommi.space](https://images.tommi.space 'Tommi’s visions').
 ---
 {{ description }}
 
@@ -49,10 +49,3 @@ Some things I have to write here that I would forget otherwise
 - Change **number of photos per page**:
 	1. Go to user settings
 	2. Change the value for <q>number of photos per page</q>
-
-<br>
-<br>
-
-## Todo
-
-- Configure collections
