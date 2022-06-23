@@ -38,7 +38,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 				{%- comment %}<itunes:order>{% increment counter %}</itunes:order>{% endcomment -%}
 				<itunes:episodeType>full</itunes:episodeType>
 				<itunes:explicit>{%- if episode.data.explicit -%}yes{%- else -%}no{%- endif -%}</itunes:explicit>
-				<itunes:image href='{{ episode.data.image }}' />
+				{% if episode.data.image %}<itunes:image href='{{ episode.data.image }}' />{% endif %}
 				<link>{{ episode.url | prepend: site.url }}</link>
 				<guid isPermaLink='true'>{{ episode.url | prepend: site.url }}</guid>
 				<pubDate>{{ episode.date | date: '%a, %-d %b %Y %H:%M:%S %z' }}</pubDate>

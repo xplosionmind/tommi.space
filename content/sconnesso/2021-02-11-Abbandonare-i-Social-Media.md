@@ -8,7 +8,6 @@ format: mp3
 length: 2138
 permalink: /sconnesso/quitsocialmedia/
 redirect_from: [/sconnesso/qsm/, /sconnesso/abbandonare-i-social-media/, /sconnesso/abbandonare-i-social/, /sconnesso/abbandonare-social/]
-image: https://quitsocialmedia.club/qsm.png
 ---
 [quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media') è il sito web attorno a cui ruota questo episodio, in particolare, viene letta la pagina “[Perché](https://quitsocialmedia.club/perché 'Perché - quitsocialmedia.club')”.
 
