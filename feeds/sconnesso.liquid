@@ -3,25 +3,23 @@ title: Sconnesso
 image: https://tommi.space/sconnesso.webp
 permalink: /sconnesso.xml
 altUrl: https://sconnesso.link
-description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso.'
 ---
 <?xml version='1.0' encoding='utf-8'?>
 <rss version='2.0' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:atom='http://www.w3.org/2005/Atom' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'>
 	<channel>
 		<title>{{ title }}</title>
-		<description>{{ description | escape | strip_newlines }}</description>
-		{%- comment %}<itunes:subtitle>{{ description | truncate: 254 | escape | strip_newlines }}</itunes:subtitle>{% endcomment -%}
+		<description>{{ sconnesso.description | markdownify | escape | strip_newlines }}</description>
 		<link>{{ altUrl }}</link>
 		<atom:link href='{{ page.url | prepend: site.url }}' rel='self' type='application/rss+xml'/>
 		<itunes:author>{{ site.author.name }}</itunes:author>
 		<itunes:image href='{{ image }}'/>
 		<language>it</language>
-		<managingEditor>{{ site.author.email }} ({{ site.author.name }})</managingEditor>
-		<webMaster>{{ site.author.email }} ({{ site.author.name }})</webMaster>
+		<managingEditor>{{ sconnesso.email }} ({{ site.author.name }})</managingEditor>
+		<webMaster>{{ sconnesso.email }} ({{ site.author.name }})</webMaster>
 		<copyright>copyright © ({{ site.author.name }})</copyright>
 		<itunes:owner>
 			<itunes:name>{{ site.author.name }}</itunes:name>
-			<itunes:email>{{ site.author.email }}</itunes:email>
+			<itunes:email>{{ sconnesso.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:category text='Society &amp; Culture'>
 			<itunes:category text='Personal Journals'/>

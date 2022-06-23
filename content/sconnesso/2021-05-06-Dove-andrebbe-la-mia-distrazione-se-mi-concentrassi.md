@@ -8,8 +8,9 @@ format: mp3
 length: 456
 permalink: /distrazione/
 redirect_from: ['/sconnesso/distrazione/','/dove-andrebbe-la-mia-distrazione-se-mi-concentrassi/']
+description: Una riflessione sul valore delle idee frutto di distrazioni.
 ---
-Una riflessione sul valore delle idee frutto di distrazioni.
+{{ description }}
 
 Sono cronicamente, disperatamente, irrimediabilmente distratto. Distraendomi, limito la concentrazione su quello che sto facendo rispondendo a stimoli che possiamo per semplicità ridurre a “idee”. In questo modo, anche considernando valida solamente una porzione minima di queste idee, arricchisco il mio pensiero. Ne risulta, tuttavia, un modo di vivere frammentato e, guess what, Sconnesso.
 
