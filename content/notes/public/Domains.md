@@ -11,7 +11,7 @@ description: Cool domains ideas, notes and tracking
 [tommasomarmo.com]: https://tommasomarmo.com 'The virtual representation of Tommi’s mind'
 [tmi.pics]: https://tmi.pics 'TMI Pics'
 [quitsocialmedia.club]: https://quitsocialmedia.club 'Quit Social Media'
-[sconnesso.link]: https://tommi.space/sconnesso 'Sconnesso'
+[sconnesso.link]: https://sconnesso.link 'Sconnesso'
 [gitmi.dev]: https://gitmi.dev 'GiTMI'
 ## Purposes
 
