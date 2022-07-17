@@ -81,7 +81,8 @@ header {
 	* {
 		margin: 0 !important;
 	}
-	ul {
+	ul,
+	menu {
 		padding: 0;
 		li {
 			float: left;
@@ -134,7 +135,7 @@ header {
 	bottom: calc(3vh + .5rem);
 	right: calc(6vw + 3.5rem);
 	box-shadow: var(--button-shadow);
-	background: var(--deep);
+	background: var(--background);
 	z-index: 6;
 	span {
 		top: 1.4rem;
@@ -174,7 +175,7 @@ header {
 	.nav-mobile {
 		display: block;
 	}
-	.nav-list {
+	menu {
 		position: fixed;
 		width: 13rem;
 		bottom: calc(3vh + 4.5rem);
@@ -185,6 +186,7 @@ header {
 		border: 5px solid var(--background);
 		overflow: hidden;
 	}
+	#nav menu li,
 	#nav ul li {
 		float: none;
 		border-radius: 0 !important;
@@ -208,7 +210,7 @@ header {
 }
 
 #menutoggle:checked {
-	& ~ .nav-list {
+	& ~ menu {
 		right: calc(4vw + .3rem);
 	}
 	& ~ .nav-mobile {

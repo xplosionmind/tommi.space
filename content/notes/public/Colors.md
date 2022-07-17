@@ -1,6 +1,6 @@
 ---
 date: 2020-05-22T02:00:00+02:00
-updated: 2022-03-14T15:00:14+01:00
+updated: 2022-07-17T19:03:22+02:00
 tags:
   - design
   - geek/web
@@ -107,7 +107,7 @@ Color scheme for [Philosophy & Engineering](Filosofia.md 'Philosophy section of 
 Ah, red, what a color. It is so wonderful I have to keep note of all the nice shades of it I lay my eye upon. Also, I have a great passion for <u>red tending towards magenta</u>.
 
 <ul class='two'>
-<li><code style='background:#FF0000;color:#FFF'>FF0000</code>, FULL, <b>strong</b>, total red</li>
+<li><code style='background:#FF0000;color:#FFF'>FF0000</code>, FULL, <strong>strong</strong>, total red</li>
 <li><code style='background:#EC0868;color:#FFF'>#EC0868</code> <cite><a href='https://en.wikipedia.org/wiki/Razzmatazz_(song)' target='_blank' title='Razzmatazz on Wikipedia'>Razzmatazz</a></cite></li>
 <li><code style='background:#9A031E;color:#FFF'>#9A031E</code>, ruby red</li>
 <li><code style='background:#D00;color:#FFF'>#D00</code>, dosso corsa</li>

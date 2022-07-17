@@ -13,7 +13,7 @@ redirect_from: [/scaricare-un-film/,/film-download/,/download-film/,/download-se
 Questo articolo contiene le istruzioni step-by-step per scaricare contenuti multimediali online. Se avessi bisogno di aiuto [scrivimi](mailto:surfing@tommi.space 'Scrivimi un’email')
 
 <div class='yellow box'>
-	<b>Nota</b>: queste istruzioni vanno eseguite da computer, da telefono è molto più complicato e noioso, per cui conviene scaricare il film da computer e poi trasferirlo su telefono con il cloud o via cavo.
+	<strong>Nota</strong>: queste istruzioni vanno eseguite da computer, da telefono è molto più complicato e noioso, per cui conviene scaricare il film da computer e poi trasferirlo su telefono con il cloud o via cavo.
 </div>
 
 <br>
@@ -47,7 +47,7 @@ Esistono innumerevoli client torrent differenti, che funzionano praricamente all
 Una volta installato qBittorrent, consiglio di aprirlo e, almeno la prima volta, tenerlo aperto durante la procedura. Successivamente, il computer riconoscerà i magnet link e i file torrent e li aprirà direttament con qBittorrent.
 
 <div class='yellow box'>
-	<b>NOTA</b>: utilizzando un client torrent, o in generale scaricando un file con il protocollo p2p, viene mostrato a tutti l’elenco degli indirizzi IP di chi sta condividendo il file. In pratica, chiunque può “vederti” e sapere in quale nazione sei, più altre informazioni molto generali sulla tua connessione e sul tuo dispositivo (quale client torrent usi, che sistema operativo, da dove hai scaricato il torrent, ecc…). In linea di massima, questo non è un rischio, ma per ovviare a questo problema, si può utilizzare un VPN. Io utilizzo ProtonVPN.
+	<strong>NOTA</strong>: utilizzando un client torrent, o in generale scaricando un file con il protocollo p2p, viene mostrato a tutti l’elenco degli indirizzi IP di chi sta condividendo il file. In pratica, chiunque può “vederti” e sapere in quale nazione sei, più altre informazioni molto generali sulla tua connessione e sul tuo dispositivo (quale client torrent usi, che sistema operativo, da dove hai scaricato il torrent, ecc…). In linea di massima, questo non è un rischio, ma per ovviare a questo problema, si può utilizzare un VPN. Io utilizzo ProtonVPN.
 </div>
 
 <br>
@@ -82,7 +82,7 @@ Una volta che si è selezionato il film, cliccando comparirà una pagina, in cui
 ![A torrent file page on The Pirate Bay](/magnet-link.jpg)
 
 <div class='red box'>
-	<b>ATTENZIONE</b>: in moltissimi casi, la scritta “download torrent” è una pubblicità; cliccarci può portare a risultati sipacevoli. Individuare con criterio il pulsante giusto. Di solito, la scritta che funziona è quella più sobria e meno grande, come quella nell’immagine sopra.
+	<strong>ATTENZIONE</strong>: in moltissimi casi, la scritta “download torrent” è una pubblicità; cliccarci può portare a risultati sipacevoli. Individuare con criterio il pulsante giusto. Di solito, la scritta che funziona è quella più sobria e meno grande, come quella nell’immagine sopra.
 </div>
 
 <br>
@@ -110,7 +110,7 @@ I risultati possono essere ordinati per numero di download. Di solito, più down
 ![An Open Subtitles window](/opensubtitles-download.jpg)
 
 <div class='yellow box'>
-	<b>NOTA</b>: i sottotitoli potrebbero essere basati su file di film diversi da quello da voi scaricato, dalla durata lievemente differente. In questo caso ci sono due alternative: o si traslano i sottotitoli già scaricati, oppure si scarica un altro file, finchè non si trova quello giusto.
+	<strong>NOTA</strong>: i sottotitoli potrebbero essere basati su file di film diversi da quello da voi scaricato, dalla durata lievemente differente. In questo caso ci sono due alternative: o si traslano i sottotitoli già scaricati, oppure si scarica un altro file, finchè non si trova quello giusto.
 </div>
 
 <br>

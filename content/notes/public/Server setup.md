@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2022-04-15T06:41:54+02:00
+updated: 2022-07-17T19:03:59+02:00
 tags: geek/server
 aliases: Server configuration, VPS configuration
 redirect_from: [/server-configuration/,/nextcloud/]
@@ -505,7 +505,7 @@ sudo ufw allow in 10000:20000/udp
 Jitsi requires the Java Runtime Environment. Install OpenJDK JRE 8.
 
 <div class='red box'>
-	<b>NOTE</b>: as of right now, Jitsi Meet needs JRE 8, and <u><strong>not a newer version</strong></u>!
+	<strong>NOTE</strong>: as of right now, Jitsi Meet needs JRE 8, and <u><strong>not a newer version</strong></u>!
 </div>
 
 ```shellsession

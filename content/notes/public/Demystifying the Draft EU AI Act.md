@@ -1,6 +1,6 @@
 ---
 date: 2021-11-08T15:01:16+01:00
-updated: 2022-03-14T14:59:18+01:00
+updated: 2022-07-17T19:05:21+02:00
 tags: uni
 permalink: /veale-lecture/
 ---
@@ -26,7 +26,7 @@ A prohibition on marketing, putting into service or use of:
 Commission examples
 
 - <q>[a]n inaudible sound [played] in truck drivers’ cabins to push them to drive longer than healthy and safe [where] AI is used to find the frequency maximising this effect on drivers’</q>.
-- <q>[a] doll with integrated voice assistant [which] <b class='missing'>+++</b></q>
+- <q>[a] doll with integrated voice assistant [which] <strong class='missing'>+++</strong></q>
 
 <br>
 
@@ -39,13 +39,13 @@ A prohibition on marketing, putting into service or use of:
 - by public authorities or on their behalf
 - for the evaluation or classification of trustworthiness
 - based on natural persons’ social behavior or known or predicted personal or personality characteristics
-- leading to detrimental or unfavorable treatment of certain <b class='missing'>+++</b>
+- leading to detrimental or unfavorable treatment of certain <strong class='missing'>+++</strong>
 
 <br>
 
 ### Remote “real-time” law enforcement biometrics
 
-<b class='missing'>+++</b>
+<strong class='missing'>+++</strong>
 
 
 <br>
@@ -53,7 +53,7 @@ A prohibition on marketing, putting into service or use of:
 
 Clearview AI would not be likely to be sanctioned, instead the result of their data is shared with law enforcement agencies.
 
-<b class='missing'>+++</b> other firm
+<strong class='missing'>+++</strong> other firm
 
 Google Takeout etc. does not exactly fulfill and comply with GDPR, they just give you part of the data. Individuals’ data is useless by themselves because it makes sense only if and when placed in a framework formed by all of other customers/users’ data.
 
@@ -71,4 +71,4 @@ The New Legislative Framework is a 40 year old approach to regulating complex pr
 AI Act fails to deal with general purpose models-as-a-service
 
 
-<cite>The panoptic sourge</cite> - <b class='missing'>+++</b> professor in North Carolina
+<cite>The panoptic sourge</cite> - <strong class='missing'>+++</strong> professor in North Carolina

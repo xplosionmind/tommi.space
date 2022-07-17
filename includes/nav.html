@@ -3,7 +3,7 @@
 	<nav id='nav'>
 		<input aria-hidden='true' type='checkbox' id='menutoggle'>
 		<label class='nav-mobile' for='menutoggle'><span></span></label>
-		<ul class='nav-list'>
+		<menu>
 			<li>{% if lang == 'it' %}<a href='/about-it' title='Chi sono'>Io{% else %}<a href='/about' title='About me'>About{% endif %}</a></li>
 			<li>{% if lang == 'it' %}<a href='/ora' title='Ciò che sto facendo'>Ora{% else %}<a href='/now' title='What I am doing'>Now{% endif %}</a></li>
 			<li>{% if lang == 'it' %}<a href='/zibaldone' title='Blog'>Zibaldone{% else %}<a href='/zibenglish' title='Zibaldone'>Blog{% endif %}</a></li>
@@ -19,6 +19,6 @@
 					</ul>
 				</li>
 			{% endif %}
-		</ul>
+			</menu>
 	</nav>
 </header>

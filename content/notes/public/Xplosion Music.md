@@ -1,6 +1,6 @@
 ---
 date: 2020-07-17T02:00:00+02:00
-updated: 2022-03-14T12:31:56+01:00
+updated: 2022-07-17T19:05:21+02:00
 tags:
   - draft
   - music
@@ -170,4 +170,4 @@ I was in my car, driving home. This song popped out from the stereo, it pumped m
 <br>
 <br>
 
-<b class='missing'>+++</b> — *to be continued…*
+<strong class='missing'>+++</strong> — *to be continued…*

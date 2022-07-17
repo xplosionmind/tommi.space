@@ -1,6 +1,6 @@
 ---
 date: 2022-03-21T22:45:05+01:00
-updated: 2022-03-22T08:18:52+01:00
+updated: 2022-07-17T19:05:21+02:00
 location: home
 tags:
   - future
@@ -11,4 +11,4 @@ As I watch [Steve Job’s speech](https://youtu.be/UF8uR6Z6KLc) at Harvard in 20
 
 Nevertheless, it is not what torments my mind right now as much as it is the importance of underlining that <u>it is ok to feel weak</u>, it is ok not to be successful and determined, it is ok not to be restless and solely focused of achieving a life purpose.
 
-<b class='missing'>+++</b> Modern Sociology Final Assignment of 2022.03.21
+<strong class='missing'>+++</strong> Modern Sociology Final Assignment of 2022.03.21

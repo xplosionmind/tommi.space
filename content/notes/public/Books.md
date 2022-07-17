@@ -1,6 +1,6 @@
 ---
 date: 2020-09-09
-updated: 2021-04-10T11:44:52+02:00
+updated: 2022-07-17T19:03:11+02:00
 description: Books I own and books I would love to read and/or have
 tags: reading
 redirect_from: [/library/,/libreria/,/libri/,/bookshelf/]
@@ -26,7 +26,7 @@ todo:
 					<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}'>
 			{% else -%}
 				<a href='javascript:void(0)' title='{{ book.title }}'>
-				<div><b>{{ book.author }}</b> - <cite>{{ book.title }}</cite></div>
+				<div><strong>{{ book.author }}</strong> - <cite>{{ book.title }}</cite></div>
 			{% endif -%}
 				</a>
 		{% endunless -%}

@@ -1,6 +1,6 @@
 ---
 date: 2020-02-01
-updated: 2021-11-17T15:19:41+01:00
+updated: 2022-07-17T19:04:21+02:00
 tags:
   - meta
   - tomminess
@@ -16,7 +16,7 @@ todo:
   - update “main” pages
 image: /jam.png
 ---
-Online, you may stumble upon it as a <cite>[Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10 'The Digital Garden on DEV.to')</cite>, or it may be defined as a <em><a lang='de' hreflang='en' href='/zettelkasten' title='Zettelkasten - tommi.space'>Zettelkasten</a> system</em>. Mine, instead, is definitely less ambitious; yet, it is whipped, fragmented, juicy and sweet. It is <b>a jam</b>.
+Online, you may stumble upon it as a <cite>[Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10 'The Digital Garden on DEV.to')</cite>, or it may be defined as a <em><a lang='de' hreflang='en' href='/zettelkasten' title='Zettelkasten - tommi.space'>Zettelkasten</a> system</em>. Mine, instead, is definitely less ambitious; yet, it is whipped, fragmented, juicy and sweet. It is <strong>a jam</strong>.
 
 I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <cite>[Zibaldone](/zibenglish)</cite>.
 

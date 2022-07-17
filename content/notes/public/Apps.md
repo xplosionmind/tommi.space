@@ -7,6 +7,7 @@ redirect_from: [/uses,/installed,/installed-apps,/applications,/applicazioni,/pr
 image: https://www.tomshw.it/images/images/2021/03/foto-generiche-147818.jpg
 todo:
   - print whether the app is open source or not
+updated: 2022-07-17T19:03:02+02:00
 ---
 Here is {{ description }}.
 
@@ -143,7 +144,7 @@ Apps which are not installed but it is worth remembering or testing in the futur
 ## Missing digital tools
 
 <div class='blue box'>
-  Although I literally <b>love</b> some of the apps I installed on my devices, there are some <a href='/missing-digital-tools' title='Missing Digital Tools - tommi.space'>Missing digital tools</a> that I keep note of, in case someone with more programming expertise than me may be able to develop.
+  Although I literally <strong>love</strong> some of the apps I installed on my devices, there are some <a href='/missing-digital-tools' title='Missing Digital Tools - tommi.space'>Missing digital tools</a> that I keep note of, in case someone with more programming expertise than me may be able to develop.
 </div>
 
 ![[Missing digital tools]]

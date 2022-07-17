@@ -1,6 +1,6 @@
 ---
 date: 2020-11-07T01:00:00+01:00
-updated: 2022-03-14T14:51:36+01:00
+updated: 2022-07-17T19:04:08+02:00
 tags: geek
 aliases: Quitting Spotify
 description: Thoughts and decisions about quitting Spotify
@@ -12,7 +12,7 @@ redirect_from:
 image: https://tommi.space/jar/quit-spotify.jpg
 ---
 <div class='yellow box'>
-	<b>Update</b>: I figured I heve to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang='it'>e basta</i>, without having to waste time on a better way to do it.<br>
+	<strong>Update</strong>: I figured I heve to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang='it'>e basta</i>, without having to waste time on a better way to do it.<br>
 	For now, I am sticking with Spotify. If you know other simple, neat, inexpensive, and effective solutions, please get in touch!
 </div>
 

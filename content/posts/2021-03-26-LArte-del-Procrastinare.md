@@ -23,7 +23,7 @@ image: /2020-03-30-desk.jpg
 </figure>
 
 <div class='yellow box'>
-	<b>Nota</b>: la traduzione letterale del titolo originale sarebbe <i>Procrastinazione Strutturata</i>, che è un nome terribile. Per questo, oltre ad aver intitolato questo articolo in un modo meno fedele ma, almeno, più carino, quando nel testo compariranno le parole <i>structured procrastination</i> eviterò di tradurle.
+	<strong>Nota</strong>: la traduzione letterale del titolo originale sarebbe <i>Procrastinazione Strutturata</i>, che è un nome terribile. Per questo, oltre ad aver intitolato questo articolo in un modo meno fedele ma, almeno, più carino, quando nel testo compariranno le parole <i>structured procrastination</i> eviterò di tradurle.
 </div>
 
 Buona lettura.

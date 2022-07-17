@@ -1,6 +1,6 @@
 ---
 date: 2020-12-23
-updated: 2022-03-14T14:52:34+01:00
+updated: 2022-07-17T19:03:52+02:00
 tags: geek
 aliases: Delete Google, DeGoogle
 redirect_from:
@@ -18,7 +18,7 @@ Google is one of the most famous companies in the world, and its tech services a
 While I keep working on a more detailed and exhaustive article on the topic, below are some great writings about alternatives to Google’s services and about the reason why quitting Google is not nonsense. Note: quitting Google does not mean being against Google no matter what!
 
 <div class='yellow box'>
-	<b>update</b>: it has been more than one year since I started thinkering about dropping Google and working out new and better alternatives. Now, I am done and exhausted. Hence I definitely will not write something comprehensive about this in the near future, I should have taken step-by-step notes while studying the topic, before getting tired and wanting to move on.
+	<strong>update</strong>: it has been more than one year since I started thinkering about dropping Google and working out new and better alternatives. Now, I am done and exhausted. Hence I definitely will not write something comprehensive about this in the near future, I should have taken step-by-step notes while studying the topic, before getting tired and wanting to move on.
 </div>
 
 - [**Delete Google**](https://deletegoogle.com 'deletegoogle.com')

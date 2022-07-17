@@ -1,6 +1,6 @@
 ---
 date: 2020-10-27T01:00:00+01:00
-updated: 2022-04-04T19:36:35+02:00
+updated: 2022-07-17T19:05:21+02:00
 tags: zen
 aliases: Slots
 redirect_from: [/time/, /time-management/, /moduli/]
@@ -16,7 +16,7 @@ Slots are simply **time slots**: half or full hours which to be entirely dedicat
 
 The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [[Self tracking]] [apps](#Tools).
 
-The Slot Philosophy is a powerful tool to contrast <b class='missing'>+++</b> (that thing where you always start something and you drop it to start some sub-thing to do).
+The Slot Philosophy is a powerful tool to contrast <strong class='missing'>+++</strong> (that thing where you always start something and you drop it to start some sub-thing to do).
 
 <br>
 <br>

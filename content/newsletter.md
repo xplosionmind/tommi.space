@@ -9,7 +9,7 @@ sitemap:
 	priority: 0.6
 ---
 <div lang='en' class='yellow box'>
-	<b>For English speakers</b>: as of right now, the newsletter is sent in Italian only. Please stay tuned <a href='/feeds' title='tommi.space feeds'>via RSS</a> since I may be starting a newsletter in English, too!
+	<strong>For English speakers</strong>: as of right now, the newsletter is sent in Italian only. Please stay tuned <a href='/feeds' title='tommi.space feeds'>via RSS</a> since I may be starting a newsletter in English, too!
 </div>
 
 <br>
