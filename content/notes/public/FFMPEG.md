@@ -1,6 +1,6 @@
 ---
 date: 2021-04-27T08:21:53+02:00
-updated: 2022-02-24T10:51:30+01:00
+updated: 2022-07-17T18:35:19+02:00
 tags: geek/apps
 description: Swiss army knife for video and audio editing from command line
 ---
@@ -29,6 +29,11 @@ both scaling and resizing a video
 ffmpeg -i ~/desktop/in.mov -vf 'scale=720:-1,crop=720:720:0:300' ~/desktop/out.mp4
 ```
 
+improve encoding of a video using H.265
+```shellsession
+ffmpeg -i ~/desktop/in4k.mp4 -c:v libx265 -vf scale=1080:-1 ~/desktop/out1080x265.mov
+```
+
 Creating an animated GIF from images
 ```shellsession
 ffmpeg -framerate 4 -pattern_type glob -i '*.png' quotes.gif
@@ -39,7 +44,7 @@ ffmpeg -framerate 4 -pattern_type glob -i '*.png' quotes.gif
 ### Flags
 
 ```shellsession
--y		# overwrite output flags
+-y	# overwrite output flags
 ```
 
 <br>
@@ -47,7 +52,7 @@ ffmpeg -framerate 4 -pattern_type glob -i '*.png' quotes.gif
 ### Cheat sheets
 
 - [Devhints cheatsheet](https://devhints.io/ffmpeg 'FFMPEG - Devhints')
-- [GitHub Gist](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730 'FFmpeg cheat sheet - GitHub Gist')
+- [FFmpeg cheat sheet - GitHub Gist](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730 'FFmpeg cheat sheet - GitHub Gist')
 
 <br>
 
