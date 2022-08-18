@@ -24,6 +24,12 @@ Of course, it will never happen, and I would be super happy if only the [Fediver
 
 Mainly, the point is this: let’s use RSS to connect and exploit the power of a [decentralized](https://redecentralize.org/ 'Redecentralize'), [self-owned](https://ownyourdata.foundation/ 'Own Your Data'), possibly even [self-hosted](https://github.com/awesome-selfhosted/awesome-selfhosted 'Awesome Self Hosted') internet.
 
+<p class='date'><time datetime='2022-07-25T7:56:00+0200'>August 17<sup>th</sup>, 2022</time></p>
+
+### Update
+
+There is **a problem** I initially did not consider, though: [[Subscribing to news feed ≠ following on social media]].
+
 <br>
 <br>
 
