@@ -1,6 +1,6 @@
 ---
 date: 2020-08-05
-updated: 2022-03-14T14:59:48+01:00
+updated: 2022-09-03T10:46:11+02:00
 tags: geek/free
 permalink: /delete/
 redirect_from: [/delete-account/,/GDPR-claim/,/claim-GDPR/,/just-delete-it/,/just-deleteit/,/quit/,/GDPR-delete/,/elimina-account/]
@@ -35,7 +35,7 @@ There are two possible templates: one if you don’t care to recover your data a
 ### Portability and Erasure
 
 ```
-Good afternoon, I'd like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) by receiving a copy of all my data in your possession. After that, I request the complete and permanent deletion of my account and the complete erasure from your database of all the data linked to it.  After the erasure has taken place, I request also the deletion of the record of these emails.
+Good afternoon, I would like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) by receiving a copy of all my data in your possession. After that, I request the complete and permanent deletion of my account and the complete erasure from your database of all the data linked to it.  After the erasure has taken place, I request also the deletion of the record of these emails.
 
 Thank you very much.
 Best regards.
@@ -46,7 +46,7 @@ Best regards.
 ### Erasure only
 
 ```
-Good evening, I'd like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) requesting the complete erasure my account and email address and the permanent deletion from your database of all the data related to it. After the erasure has taken place, I request also the deletion of the record of these email communication.
+Good evening, I would like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) requesting the complete erasure my account and email address and the permanent deletion from your database of all the data related to it. After the erasure has taken place, I request also the deletion of the record of these email communication.
 
 Thank you very much.
 Best regards.
