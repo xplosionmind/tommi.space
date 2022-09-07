@@ -6,21 +6,21 @@
 }
 
 #scambi {
-	background: #F5EAD7;
-	color: #69088D;
+	background: linear-gradient(98deg, #FFEDC4 0%, #E9AFFF 98.65%), #FBFBFB;
+	color: #480B5E;
 	a {
-		color: #514A9C;
+		color: #233FB9;
 	}
 	h3 img {
 		display: inline;
 		max-height: 5rem;
 	}
 	.button {
-		color: #F5EAD7;
-		background: #69088D;
+		color: #FBFBFB;
+		background: linear-gradient(#0000, #2A15323E 75%), #69088D;
 	}
 	u {
-		text-decoration-color: #514A9C !important;
+		text-decoration-color: #ADCFFF !important;
 	}
 }
 
