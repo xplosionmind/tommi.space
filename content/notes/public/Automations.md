@@ -1,9 +1,10 @@
 ---
 date: 2022-04-08T12:07:30+02:00
-updated: 2022-04-13T23:36:03+02:00
+updated: 2022-09-14T16:46:33+02:00
 location: home
 tags: geek/server
 description: Automations I take advantage of
+toc: false
 ---
 Since exploiting [[Cron Jobs]] to perform automations requires some amount of technical knowledge, skills and experience, I take advantage of [n8n](https://n8n.io 'n8n official website') to perform my automations, now. I installed it on [[Server|Xplosion Server]] at [auto.tommi.space](https://auto.tommi.space 'Tommi’s n8n instance')
 
