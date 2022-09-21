@@ -151,7 +151,7 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Production-only //
-	if (process.env.NODE_ENV === 'production') {
+	if (process.env.ELEVENTY_ENV == 'production') {
 		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
 	}
 
