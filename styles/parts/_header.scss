@@ -127,7 +127,7 @@ header {
 	}
 }
 
-.nav-mobile {
+#nav-toggle-button {
 	display: none;
 	height: $height;
 	width: $height;
@@ -169,10 +169,10 @@ header {
 		top: 2vh;
 		text-align: center;
 	}
-	.nav {
+	header {
 		margin: 3vh;
 	}
-	.nav-mobile {
+	#nav-toggle-button {
 		display: block;
 	}
 	menu {
@@ -191,15 +191,15 @@ header {
 		float: none;
 		border-radius: 0 !important;
 		&:nth-child(odd) {
-			background: var(--yellow);
-			a {
-				color: var(--black-ish) !important;
-			}
-		}
-		&:nth-child(even) {
 			background: var(--black-ish);
 			a {
 				color: var(--white) !important;
+			}
+		}
+		&:nth-child(even) {
+			background: var(--yellow);
+			a {
+				color: var(--black-ish) !important;
 			}
 		}
 		a,
@@ -213,7 +213,7 @@ header {
 	& ~ menu {
 		right: calc(4vw + .3rem);
 	}
-	& ~ .nav-mobile {
+	& ~ #nav-toggle-button {
 		box-shadow: var(--inner-little-shadow);
 		span {
 			background: transparent;
