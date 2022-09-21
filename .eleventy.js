@@ -150,6 +150,11 @@ module.exports = function(eleventyConfig) {
 		lastModifiedProperty: 'updated'
 	});
 
+	// Production-only //
+	if (process.env.NODE_ENV === 'production') {
+		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
+	}
+
 	// Filters //
 	eleventyConfig.addFilter('reverse', (collection) => {
 		const arr = [...collection];
