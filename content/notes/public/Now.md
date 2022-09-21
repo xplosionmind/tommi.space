@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16
-updated: 2022-06-18T13:12:08+02:00
+updated: 2022-09-21T12:11:10+02:00
 ref: now
 description: Stuff I am up to in these days
 comments: false
@@ -11,35 +11,17 @@ todo:
 	The one you are reading is more than a simple web page, it is a part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'  target='_blank'>a movement</a> started by the legendary <a href='https://sive.rs' title='Derek Sivers’ personal website'  target='_blank'>Derek Sivers</a> in 2015, and <a href='https://sive.rs/now3'  target='_blank'>it grew a lot</a> since then. To know more about the concept and find out <a href='https://nownownow.com' title='NowNowNow'  target='_blank'>how many people</a> are embracing it, visit <a href='https://nownownow.com/about' title='About NowNowNow'  target='_blank'>nownownow.com</a>, which is a <a href='https://en.wikipedia.org/wiki/Webring'  target='_blank' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
 </div>
 
-<br>
-
 What I am doing right now:
 
 ## Studying
 
-I am living in [Venice](https://www.comune.venezia.it/ 'Venice institutional website'), Italy, where I am attending [Philosophy, International Studies and Economics](https://unive.it/pise 'PISE course page on UniVe website') at [Ca’ Foscari University](https://unive.it 'Ca’ Foscari University website').
+{% comment %}I am living in [Venice](https://www.comune.venezia.it/ 'Venice institutional website'), Italy, where {% endcomment %}I am a student of [Philosophy, International Studies and Economics](https://unive.it/pise 'PISE course page on UniVe website') at [Ca’ Foscari University](https://unive.it 'Ca’ Foscari University website').
 
-<div class='blue box'>
-	<h3>Erasmus</h3>
-	Since September 2022 to January 2023, I am studying in <a href='https://univ-grenoble-alpes.fr' title='Université Grenoble-Alpes'>Grenoble-Alpes University</a>
-</div>
-
-<br>
-<br>
-
-## Serving as Scout Chief
-
-I am currently serving as a scout chief in the <q>Reparto Corona Boreale</q> for the scout group [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Facebook page of Mira 1') in Oriago di Mira (VE).
-
-<br>
-<br>
+Currently, I am in Erasmus in [Grenoble](https://grenoble.fr), France, where I am attending classes both from <a href='https://www.univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' lang='fr' hreflang='fr'>Université Grenoble-Alpes</a> and [Sciences Po](https://www.sciencespo-grenoble.fr 'Sciences Po Grenoble').
 
 ## Working on <cite>Scambi Festival</cite>
 
 {% render 'scambi.html', lang: lang %}
-
-<br>
-<br>
 
 ## Projects, ideas, and collaborations
 

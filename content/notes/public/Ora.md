@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16T02:00:00+02:00
-updated: 2022-06-18T13:13:02+02:00
+updated: 2022-09-21T12:12:53+02:00
 ref: now
 lang: it
 description: Le cose che sto facendo
@@ -22,22 +22,13 @@ Sto:
 
 ## Studiando
 
-Sto frequentando il corso di [*Philosophy, International Studies and Economics*](https://unive.it/pise 'la pagina del PISE sul sito di Ca’ Foscari') a all’[Università Ca’ Foscari](https://unive.it 'il sito web di Ca’ Foscari'), nella favolosa [Venezia](https://www.comune.venezia.it/ 'Sito web del comune di Venezia'), dove abito.
+Studio [*Philosophy, International Studies and Economics*](https://unive.it/pise 'la pagina del PISE sul sito di Ca’ Foscari') presso l’[Università Ca’ Foscari](https://unive.it 'il sito web di Ca’ Foscari'), nella favolosa [Venezia](https://www.comune.venezia.it 'Sito web del comune di Venezia').
 
-<div class='blue box'>
-	<h3>Erasmus</h3>
-	Da settembre 2022 a gennaio 2023, studierò all’<a href='https://univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' hreflang='fr'>Università di Grenoble-Alpes</a>
-</div>
-
-<br>
-<br>
+Al momento sono in Erasmus a <a href='https://grenoble.fr' title='Ville de Grenoble' lang='fr' hreflang='fr'>Grenoble</a>, luogo che sto adorando. Qui frequento sia l’<a href='https://www.univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' lang='fr' hreflang='fr'>Université Grenoble-Alpes</a> che [Sciences Po](https://www.sciencespo-grenoble.fr 'Sciences Po Grenoble').
 
 ## Servizio scout
 
 Sto servendo come aiuto-capo nel reparto del gruppo AGESCI [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Pagina Facebook del Mira 1') di Oriago di Mira (VE).
-
-<br>
-<br>
 
 ## Tutto il resto
 
