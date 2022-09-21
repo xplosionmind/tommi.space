@@ -1,17 +1,16 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-06-22T17:02:34+02:00
+updated: 2022-09-15T10:48:27+02:00
 tags:
   - geek
   - todo
 description: Computer related tasks tracking
 ---
 1. [**Server backup**](https://github.com/yunohost-Apps/borg_ynh 'Borg YunoHost pagckage on GitHub') - Borg
+1. Delete stream.tommi.space and keep only one Fediverse account?
 1. [[Images]] and [[Storage]]
 1. [[Automations]]
-1. Defining a [threat model](https://protonmail.com/blog/what-is-a-threat-model/ 'Privacy Decrypted #1: What is a threat model?')
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
-1. [[GiTMI]]
 1. [Setup Matrix server](https://github.com/matrix-org/synapse#id5 'Install Synapse')
 9. [[Scripts]]
 1. Consistent resume creation ([HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub'))

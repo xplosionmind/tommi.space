@@ -1,33 +1,40 @@
 ---
 date: 2020-12-31T01:00:00+01:00
-updated: 2022-03-14T14:54:20+01:00
+updated: 2022-09-20T09:35:48+02:00
 tags:
   - geek
   - zen
 aliases: Plain text, KISS
-permalink: /plain-text/
-redirect_from: /ode-to-plain-text/
+permalink: /txt/
+redirect_from: [/ode-to-plain-text/,/plain-text/,/plaintext/]
 toc: false
+description: Why I prefer using plain text and some insights about it
 ---
 I am not a developer, but I am a geek.
 
-As a geek who admires developers and their work, I can't but share the underlying philosophy pursued by them: [the KISS principle](https://en.wikipedia.org/wiki/KISS_principle 'KISS principle on Wikipedia'). Keep It Simple and Stupid.
+As a geek who admires developers and their work, I can't but share a valuable philosophy most of them pursue: [the KISS principle](https://en.wikipedia.org/wiki/KISS_principle 'KISS principle on Wikipedia'). Keep It Simple and Stupid.
 
 For this reason, I always look for and pursue the simplest possible way to do things.
 
-Most of the time, the answer is the same:\
-**plain text**.
+Most of the time, this results in using **plain text**.
 
-What plain text is and how does it work [I leave it to Wikipedia](https://en.wikipedia.org/wiki/Plain_text 'Plain text on Wikipedia'), allow me to focus on how wonderful it is.
+I leave the explanation of what plain text is and how does it work to people who know this best.
+
+> plain text is any text that isn’t formatted. It does not take any special formatting, such as varying fonts, font sizes, bold font, or italics. It also only contains standard characters, which are those found in the default set of characters that an application can display. It can also refer to a document that only contains these unformatted characters.
+
+<p class='cite'><a href='https://twitter.com/vannvicente' target='_blank' title='Vann Vicente Twitter account'>Vann Vicente</a>, <cite><a href='https://www.howtogeek.com/465420/what-is-plain-text' target='_blank' title='What Is Plain Text?'>What Is Plain Text?</a></cite></p>
+
+Allow me instead to focus on how wonderful it is.
 
 There’s nothing much to point out, to be honest, it’s *plain clear* how cool plain text files are: why exploiting complicated, different, useless-feature packed software to achieve what can be done by using a simple text file?
 
-- Stop creating playlists on Spotify, just copy and paste links in a plain text file.
-- Stop archiving articles in Pocket or read-it-later apps: a text file with a list of links would do!
-- Stop writing stuff in rich text editors, necessarily creating compatibility issues when sharing, use the lovely [Markdown](https://en.wikipedia.org/wiki/Markdown 'Markdown on Wikipedia') instead
+## Email
 
-<br>
-<br>
+Plain text emails are to be preferred. Of course HTML formatting looks better and provides more features, but it is not worth the trade-off in terms of **simplicity** and **deliverability**.
+
+Most information about why and how to prefer and write plain text emails is collected on the very insightful [useplaintext.email](https://useplaintext.email/#why-plaintext 'Why is plaintext better than HTML?'):
+
+> \[…\] HTML emails are a security nightmare, are mostly used for advertising to you and tracking you, are less accessible for many users, and don't offer anything especially great for it.
 
 ## Odes by others
 

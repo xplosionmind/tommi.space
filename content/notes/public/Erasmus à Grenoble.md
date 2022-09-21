@@ -1,6 +1,6 @@
 ---
 date: 2022-04-26T10:02:11+02:00
-updated: 2022-09-14T17:35:40+02:00
+updated: 2022-09-20T10:56:16+02:00
 location: home
 lang: fr
 description: |
@@ -24,7 +24,7 @@ Les courses que je vais suivre
 
 - **4 ECTS** Philosophie contemporaine L2
 - **4 ECTS** Anthropologie Philosophique L3
-- **6 ECTS** Géographie sociale L1
+- **4 ECTS** Les publics des bibliothèques L2
 - **4 ECTS** Expression Française
 - **3 ECTS** Course de langue pour étrangers
 
