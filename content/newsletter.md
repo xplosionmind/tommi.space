@@ -23,8 +23,10 @@ Rock’n’roll!
   <input type='hidden' name='nonce'>
   <input type='email' name='email' required placeholder='scrivi qui la tua email'>
   <input type='text' style='display:none' name='name' placeholder='Nome (facoltativo)'>
-  <input id='8ccad' style='display:none' type='checkbox' name='l' checked value='8ccad8ec-d1d3-425e-a8db-14fa3b2518e8'>
-  <label for='8ccad' style='display:none'>Parole Sconnesse</label>
+  <label style='display:none'>
+		Parole Sconnesse
+  	<input style='display:none' type='checkbox' name='l' checked value='8ccad8ec-d1d3-425e-a8db-14fa3b2518e8'>
+	</label>
   <input class='written button' type='submit' value='Iscriviti'>
 </form>
 
