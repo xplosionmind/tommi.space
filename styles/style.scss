@@ -54,9 +54,10 @@ body {
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
 	--transp-text: #FFF4;
-	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC22; 
+	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC15; 
 	--opposite-shadow: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
-	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
+	--little-shadow: 4px 4px 15px #0009, -3px -3px 12px #FFF3CC18; 
+	--tiny-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
 	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
 	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
@@ -83,7 +84,8 @@ body {
 		--transp-text: #11305B33;
 		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
 		--opposite-shadow: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
-		--little-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
+		--shadow: 4px 4px 15px #11305B22, -3px -3px 10px #FFF3CC22;
+		--tiny-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
 		--tool-shadow: 3px 3px 8px #11305B55, -3px -3px 8px #FFF3CC66;
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
@@ -205,12 +207,6 @@ a {
 	&.box:active {
 		box-shadow: var(--inner-shadow);
 	}
-	img {
-		& + h2,
-		& + h3 {
-			margin-top: $regular-more;
-		}
-	}
 }
 
 a,
@@ -291,6 +287,8 @@ input {
 	.box {
 		margin: 0;
 		padding: 3%;
+		overflow: hidden; // some titles might overflow
+		box-shadow: var(--little-shadow);
 		/*height: 13rem;*/
 	}
 }
@@ -307,7 +305,7 @@ input {
 		background: linear-gradient(-30deg, #39281E, #4E3C2B);
 		margin-top: 15%;
 		border-radius: $radius-s;
-		box-shadow: var(--little-shadow);
+		box-shadow: var(--tiny-shadow);
 		min-height: 75%;
 	}
 }
@@ -597,7 +595,7 @@ figcaption {
 .poetry {
 	background: var(--yellow);
 	--text: var(--black-ish) !important;
-	--little-shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22 !important;
+	--tiny-shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22 !important;
 	color: var(--black-ish);
 	text-align: center;
 	p.one {
@@ -661,10 +659,17 @@ b {
 	font-weight: 800;
 }
 
+.large {
+	margin: 0 3vw;
+	&.grid {
+		margin: $big 3vw;
+	}
+}
+
 article {
 	position: relative;
 	font-size: $regular-more;
-	padding: 8vh 5vw 15vh;
+	padding: 0 15vh;
 	h2, h3 {
 		margin: revert;
 	}
@@ -698,7 +703,7 @@ h1 {
 	color: var(--text);
 	text-align: center;
 	margin: 8vh 3vw 0;
-	text-shadow: var(--little-shadow);
+	text-shadow: var(--tiny-shadow);
 	&:hover {
 		transform: rotate(-3deg);
 	}
@@ -716,6 +721,10 @@ h3 {
 	.anchor::after {
 		content: '###';
 	}
+}
+
+h4 {
+	color: var(--slight);
 }
 
 .box {
@@ -750,6 +759,12 @@ h3 {
 	.written.button:not(.tiny) {
 		margin: $regular-more $small;
 	}
+	img {
+		& + h2,
+		& + h3 {
+			margin-top: $small;
+		}
+	}
 }
 
 .zibaldone {
@@ -779,7 +794,7 @@ h3 {
 
 #toc {
 	h3 {
-		text-shadow: var(--little-shadow);
+		text-shadow: var(--tiny-shadow);
 		color: var(--slight);
 		margin: 0;
 	}
@@ -1019,6 +1034,9 @@ button,
 		width: 100%;
 		margin: 0;
 	}
+	article {
+		padding: 0 3vw;
+	}
 	section h1 {
 		font-size: $height;
 	}
@@ -1074,9 +1092,6 @@ button,
 }
 
 @media only screen and (min-width: 950px) {
-	.post article {
-		padding: 8vh 12vw 15vh;
-	}
 	.box .column {
 		p,
 		li {
