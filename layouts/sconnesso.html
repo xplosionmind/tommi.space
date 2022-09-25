@@ -9,7 +9,7 @@ layout: wrapper
 				{% if location %}
 					{% for place in places %}
 						{% if place.name contains location %}
-							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+							<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
 						{% endif %}
 					{% endfor %}
 				{% endif %}
@@ -18,7 +18,7 @@ layout: wrapper
 				{% if location %}
 					{% for place in places %}
 						{% if place.name contains location %}
-							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+							<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 						{% endif %}
 					{% endfor %}
 				{% endif %}

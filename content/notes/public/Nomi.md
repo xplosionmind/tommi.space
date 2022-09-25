@@ -10,4 +10,4 @@ redirect_from: ['/names/', '/titoli/', '/titles/']
 lang: it
 toc: false
 ---
-- [diario delle posizioni](https://www.openstreetmap.org/user/xplosionmind/diary)
+- [diario delle posizioni](https://osm.org/user/xplosionmind/diary)

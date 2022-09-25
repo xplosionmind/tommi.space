@@ -8,4 +8,4 @@ image: https://tommi.space/brillo-parlante.jpg
 ---
 The very place where *[[Drunch]]* was invented.
 
-<div class='embed'><iframe frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://www.openstreetmap.org/export/embed.html?bbox=12.325765156929267%2C45.43747421696264%2C12.328018212501776%2C45.43892339359483&amp;layer=mapnik&amp;marker=45.438198809931095%2C12.32689168471552'></iframe><br/><small><a href='https://www.openstreetmap.org/?mlat=45.43820&amp;mlon=12.32689#map=19/45.43820/12.32689'>Enlarge this map</a></small></div>
+<div class='embed'><iframe width='100%' height='400' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://www.openstreetmap.org/export/embed.html?bbox=12.303400039672853%2C45.41056253235624%2C12.375497817993166%2C45.45880617595989&amp;marker=45.438198809931095%2C12.32689168471552'></iframe>

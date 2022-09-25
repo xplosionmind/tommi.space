@@ -28,7 +28,7 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 				, {% render 'date-it.html', date: cosa.end %}
 			{% endif %}
 			{% if cosa.coordinates %}
-				, <a href='https://openstreetmap.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
+				, <a href='https://osm.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
 			{% elsif cosa.location == 'online' %}
 			{% else %}
 				, {{ cosa.location }}

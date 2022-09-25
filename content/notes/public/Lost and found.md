@@ -13,5 +13,5 @@ redirect_from:
 {{ description }}:
 
 {% for thing in lost -%}
-- I {{ thing.happened }} {{ thing.what }} {% if thing.lat != '' -%}[here](https://openstreetmap.org?mlat={{ thing.lat }}&mlon={{ thing.lon }}&zoom=18 'Coordinates of the place where I {{ thing.happened }} {{ thing.what }}') {% endif -%}on {{ thing.date | date: '%d %B %Y' }}
+- I {{ thing.happened }} {{ thing.what }} {% if thing.lat != '' -%}[here](https://osm.org?mlat={{ thing.lat }}&mlon={{ thing.lon }}&zoom=18 'Coordinates of the place where I {{ thing.happened }} {{ thing.what }}') {% endif -%}on {{ thing.date | date: '%d %B %Y' }}
 {% endfor -%}
