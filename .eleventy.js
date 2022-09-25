@@ -2,6 +2,7 @@ const fs = require('fs');
 const miniHtml = require('html-minifier');
 const _ = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 // Markdown //
 function wikilinkSlugifier(pageName) {
@@ -135,6 +136,7 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
+	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
 	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
 		baseUrl: 'assets/svg/'
