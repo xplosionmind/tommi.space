@@ -1,0 +1,56 @@
+---
+date: 2020-07-20T02:00:00+02:00
+updated: 2022-09-25T21:21:54+02:00
+tags: places
+permalink: /luoghi/
+redirect_from: [/it/places/]
+description: Luoghi che amo sul pianeta Terra
+image: https://tommi.space/places.jpg
+main: true
+toc: false
+layout: wrapper
+lang: it
+---
+<div class='row'><div class='one column'><a class='u-uid u-url' href='{{ page.url }}' title='{{ title }}'><h1 class='p-name'>{{ title }}</h1></a></div></div>
+<div class='row'><div class='one column'><article>{% renderTemplate 'md' %}
+	Questa pagina non è semplicemente un elenco di luoghi dove sono stato, è invece un crescente registro in evoluzione di angoli del mondo che trasporto nel mio cuoricino.
+
+	<cite>[Around the World](https://youtube.com/watch?v=a9eNQZbjpJk 'Red Hot Chili Peppers - Around The World')</cite> è una grandiosa canzone dei Red Hot Chili Peppers che parla della bellezza dei luoghi che esistono nel mondo e riassume la mia concezione.
+{% endrenderTemplate %}</div></div></article>
+
+<iframe class='dark' width='100%' height='400px' frameborder='0' allowfullscreen src='https://umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'></iframe>
+
+<div class='large grid'>
+	{% for place in places %}
+		<div class='vertical flex box'>
+			{% if place.img != '' %}<img src='{{ place.img }}' alt='{{ place.name }}'>{% endif %}
+			<h3>{{ place.name }}</h3>
+			<h4>{{ place.city }}</h4>
+			{% if place.description %}
+				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
+			{% endif %}
+			<div class='flex row'>
+				{% if place.plot != '' %}<a class='tiny yellow button' href='{{ place.more }}' target='_blank' title='Aneddoti da {{ place.name }}'>La storia</a>{% endif %}
+				{% if place.url != '' %}<a class='tiny red button' href='{{ place.url }}' title='Sito web di {{ place.name }}'>Sito web</a>{% endif %}
+				<a class='tiny green button' href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}' title='Vedi {{ place.name }} sulla mappa'>Vedi sulla mappa</a>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+
+<div class='row'><div class='one column'><article>{% renderTemplate 'md' %}
+https://youtu.be/a9eNQZbjpJk
+
+<br>
+
+## Info
+
+Più info di come gestisco i luoghi è su [[OpenStreetMap]], menre su [[Travel]] raccolgo appunti vari sui giri vari.
+
+### Risorse
+
+Ci sono anche alcune simpatiche e belline risorse online non-mainstream per scoprire luoghi non-mainstream:
+
+- <cite>[The Treasure Map](https://the-treasure-map.herokuapp.com 'The Treasure Map')</cite>
+- <cite>[Atlas Obscura](https://www.atlasobscura.com 'Atlas Obscura')</cite>
+{% endrenderTemplate %}</article></div></div>

@@ -2,6 +2,7 @@
 tags: archive/dnd
 description: Lista di tutte le cose da vendere nella campagna di <cite>Rise of the Runelords</cite>
 toc: false
+lang: it
 ---
 - [x] Generatore elettrico arcano (donato a Chalatil)
 - [ ] Maschera di Saroon
