@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-09-15T10:48:27+02:00
+updated: 2022-09-21T14:41:51+02:00
 tags:
   - geek
   - todo
@@ -14,6 +14,7 @@ description: Computer related tasks tracking
 1. [Setup Matrix server](https://github.com/matrix-org/synapse#id5 'Install Synapse')
 9. [[Scripts]]
 1. Consistent resume creation ([HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub'))
+1. Configure [git email sending](https://git-send-email.io 'git-send-email.io')
 2. Create Mastodon Bots:
 	- Club Tenco
 	- UniVe
