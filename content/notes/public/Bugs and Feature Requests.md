@@ -1,18 +1,15 @@
 ---
 date: 2020-08-04T02:00:00+02:00
-updated: 2022-09-14T18:31:18+02:00
+updated: 2022-09-25T22:36:38+02:00
 tags: geek
 permalink: /bugs/
 redirect_from: [/feature-requests/, /bugs-and-feature-requests/]
 description: Bugs and Feature requests for the apps I use
 image: https://tommi.space/bugs.svg
 ---
-The [[Apps]] I use the most are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.
+Most the [[Apps]] I use the are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.
 
 <div class='yellow box'><h3>Note</h3>Below, I take note of improvements or bugs which were not reported by anyone else yet. If there is something I noticed but someone else opened an issue about it, I will at most comment on it, but it will not appear here. In the same way, when I address the ideas I formerly wrote on this page, I successively delete them from here.</div>
-
-<br>
-<br>
 
 ## iOS
 
@@ -27,13 +24,9 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - [[Digital Wellbeing implementations]]
 - when copy-pasting text from image, insert line breaks in a smart way, do not add them simply when the written line ends
 
-<br>
-
 ### Shortcuts
 
 - Apple Pay automation: trigger action passing the payed price to a shortcut
-
-<br>
 
 ### Messages
 
@@ -41,21 +34,13 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - Delete for me / delete for everybody option
 - mark as unread
 
-<br>
-
 ### Reminders
 
 - Not only based on location but on proximity of a person
 
-<br>
-<br>
-
 ## MacOS
 
 - Change default AirDrop destination folder (e.g. `Desktop` instead of `Downloads`)
-
-<br>
-<br>
 
 ## Signal
 
@@ -64,46 +49,19 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - setting to choose to automatically download media and add to Library
 - grouping messages according to what reactions are added to them so that it is easy to get back to them later (for example: when I react to a message with the eyes, I can go to a section where I can check all of the messages with eyes reaction, regardless of the chat)
 
-<br>
-<br>
-
 ## Element
 
 - grouping messages according to what reactions are added to them so that it is easy to get back to them later (for example: when I react to a message with the eyes, I can go to a section where I can check all of the messages with eyes reaction, regardless of the chat)
 
-<br>
-<br>
-
 ## Telegram
 
 - grouping messages according to what reactions are added to them so that it is easy to get back to them later (for example: when I react to a message with the eyes, I can go to a section where I can check all of the messages with eyes reaction, regardless of the chat)
-
-<br>
-<br>
 
 ## Loop habit tracker
 
 [Loop Habit Tracker](https://loophabits.org 'Loop Habit Tracker official website') is an open source app for [[Self tracking]]
 
 - Add the capability of inserting daily numbers instead of boolean values only. (e.g. to track how many candies I ate)
-
-<br>
-<br>
-
-## Nextcloud Notes
-
-- Front matter recognition
-- Monospaced fonts for raw Markdown only (only while editing)
-
-<br>
-<br>
-
-## DupeGuru
-
-- scanning also mirrored images and rotated ones
-
-<br>
-<br>
 
 ## Hypothes.is
 
@@ -112,9 +70,6 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - design improvement
 - WebMentions and IndieWeb integration
 
-<br>
-<br>
-
 ## Obsidian
 
 ### Feature requests
@@ -122,16 +77,11 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - Make Wikilinks work inside HTML tags
 - Plug-in to connect to spaced-repetition software
 
-<br>
-
 ### Bugs
 
 - Markdown links in the format `[example]` are not correctly displayed in embedded notes
 - in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset` in the CSS theme file)
 - cursor width not corresponding to a single character’s spacing
-
-<br>
-<br>
 
 ## 1Writer
 
@@ -144,15 +94,9 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - support anchor links in wikilinks
 - support pages embedding
 
-<br>
-<br>
-
 ## Cubbit
 
 ![[Cubbit#Feature requests]]
-
-<br>
-<br>
 
 ## Oxygen OS
 
@@ -162,9 +106,6 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 - match the lock screen and ambient display design (right now digital clocks have two different fonts and sizes)
 - add the capability to customize the alert slider
-
-<br>
-<br>
 
 ## Joplin
 
@@ -195,9 +136,6 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 - `cmd + E` works only to switch external editing on, not to turn it off
 
-<br>
-<br>
-
 ## Zettlr
 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
@@ -206,23 +144,14 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 - Implement split view: two different notes side by side
 
-<br>
-<br>
-
 ## WBO
 
 - importing, not only exporting SVGs
-
-<br>
-<br>
 
 ## Fediverse
 
 - Standard import/export/migration protocol
 - Select language before posting
-
-<br>
-<br>
 
 ## YunoHost
 

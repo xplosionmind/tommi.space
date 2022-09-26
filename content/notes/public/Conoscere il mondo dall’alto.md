@@ -1,8 +1,8 @@
 ---
 date: 2021-02-26T19:48:48.180706+01:00
-updated: 2022-03-14T15:00:36+01:00
+updated: 2022-09-25T22:24:35+02:00
 lang: it
-redirect_from: ['/dall-alto/', '/mondo-dall-alto/']
+redirect_from: /dall-alto/
 tags: idea
 ---
 Siamo abituati a conoscere il mondo dall’alto, ad avere una visione complessiva della morfologia di un territorio guardandone la cartina.

@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-09-21T14:41:51+02:00
+updated: 2022-09-26T10:44:52+02:00
 tags:
   - geek
   - todo
@@ -13,21 +13,19 @@ description: Computer related tasks tracking
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. [Setup Matrix server](https://github.com/matrix-org/synapse#id5 'Install Synapse')
 9. [[Scripts]]
+	- get location/coordinates from CLI (and use them in espanso for `:fm` command)
 1. Consistent resume creation ([HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub'))
-1. Configure [git email sending](https://git-send-email.io 'git-send-email.io')
-2. Create Mastodon Bots:
-	- Club Tenco
-	- UniVe
+2. Configure [git email sending](https://git-send-email.io 'git-send-email.io')
 3. Update [[Storage|Backup]] and [[Backup checklist]]
 4. Cross-environment **[[Tags]] integration**
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[Giri](/giri 'Giri')*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
-1. Configure and install [sensible.vim](https://github.com/tpope/vim-sensible 'sensible.vim on GitHub'), to associate keybindings to commands on Vim
-7. Use [Hype Machine](https://hypem.com 'Hype Machine')
-8. Create a CSS framework
-9. MacBook Pro color profile
-10. #geek/idea s
-11. TMI Pics custom CSS
+5. Configure and install [sensible.vim](https://github.com/tpope/vim-sensible 'sensible.vim on GitHub'), to associate keybindings to commands on Vim
+6. Use [Hype Machine](https://hypem.com 'Hype Machine')
+7. Create a CSS framework
+8. MacBook Pro color profile
+9. #geek/idea s
+10. TMI Pics custom CSS
 
 <br>
 <br>
