@@ -28,15 +28,14 @@ type: CollectionPage
 				{% endif %}
 				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%e %B %Y' }}</time>{% endif %}
 			{% endif %}
-			<br>
 			{% if lang == 'it' %}
 				{% if updated %}
-					ultima modifica: 
+					<br>ultima modifica: 
 					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: updated %}</time>
 				{% endif %}
 			{% else %}
 				{% if updated %}
-					latest edit: 
+					<br>latest edit:
 					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ updated | date: '%e %B %Y at %k:%m' }}</time>
 				{% endif %}
 			{% endif %}

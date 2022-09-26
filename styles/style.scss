@@ -669,7 +669,7 @@ b {
 article {
 	position: relative;
 	font-size: $regular-more;
-	padding: 0 15vh;
+	margin: $big 15vh;
 	h2, h3 {
 		margin: revert;
 	}
@@ -1035,7 +1035,7 @@ button,
 		margin: 0;
 	}
 	article {
-		padding: 0 3vw;
+		margin: $regular 3vw;
 	}
 	section h1 {
 		font-size: $height;
