@@ -28,7 +28,7 @@ This page does not merely a lists places I have been to, rather it is an ever gr
 		<div class='vertical flex box'>
 			{% if place.img != '' %}<img src='{{ place.img }}' alt='{{ place.name }}'>{% endif %}
 			<h3>{{ place.name }}</h3>
-			<h4>{{ place.city }}</h4>
+			{% if place.city != '' %}<h4>{{ place.city }}</h4>{% endif %}
 			{% if place.description %}
 				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
 			{% endif %}
