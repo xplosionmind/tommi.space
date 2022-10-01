@@ -1,6 +1,6 @@
 ---
 date: 2022-05-19T19:14:54+02:00
-updated: 2022-09-20T10:34:32+02:00
+updated: 2022-10-01T14:49:35+02:00
 title: Thesis notes
 tags:
   - uni
@@ -10,13 +10,14 @@ description: Notes concerning my thesis on Philosophy and Computer Sciences
 ---
 {{ description }}
 
-## Topic
+## Inputs
 
-Broadly, related to:
+Some random inputs:
 
 - <cite>[The power of decentralization](/the-power-of-decentralization 'The power of decentralization - tommi.space')</cite>
 - [[Internet Freedom]]
 - [Articles around the Web](https://inputs.tommi.space/tag/list/thesis 'Entries tagged `thesis` in Tommi’s inputs')
+- [Max Horkheimer](https://en.wikipedia.org/wiki/Max_Horkheimer)
 
 ## People
 
