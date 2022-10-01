@@ -278,6 +278,9 @@ input {
 	h3 {
 		text-align: center;
 	}
+	& > p {
+		display: none; // this should fix stupid md parsing inside HTML blocks
+	}
 	p {
 		font-size: .8em;
 		font-weight: 300;

@@ -12,8 +12,12 @@ type: CollectionPage
 			{% if lang == 'it' %}
 				{% if location %}
 					{% for place in places %}
-						{% if place.name contains location %}
-							<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+						{% if place.name contains location or place.aliases contains location %}
+							{% if place.osm != '' %}
+								<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+							{% else %}
+								<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+							{% endif %}
 						{% endif %}
 					{% endfor %}
 				{% endif %}
@@ -21,8 +25,12 @@ type: CollectionPage
 			{% else %}
 				{% if location %}
 					{% for place in places %}
-						{% if place.name contains location %}
-							<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+						{% if place.name contains location or place.aliases contains location %}
+							{% if place.osm != '' %}
+								<a href='{{ place.osm }}' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
+							{% else %}
+								<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+							{% endif %}
 						{% endif %}
 					{% endfor %}
 				{% endif %}
@@ -64,7 +72,7 @@ type: CollectionPage
 
 	<div class='row'>
 		<div class='one column'>
-  			{% assign encoded_absolute_url = page.url | prepend: site.url | url_encode %}
+				{% assign encoded_absolute_url = page.url | prepend: site.url | url_encode %}
 			{% render 'share.html', lang: lang, title: title, encoded_absolute_url: encoded_absolute_url %}
 			{% render 'backlinks.html', lang: lang, backlinks: backlinks %}
 			{% render 'comments.html', lang: lang %}

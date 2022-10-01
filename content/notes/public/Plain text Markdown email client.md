@@ -1,7 +1,7 @@
 ---
 date: 2022-09-21T15:17:21+02:00
-updated: 2022-09-21T15:27:16+02:00
-location: Bibliothèque Droit-Lettres
+updated: 2022-10-01T15:17:33+02:00
+location: BDL
 tags: geek/idea geek/apps
 description: An email client to send and receive plaintext emails with Markdown syntax. Syntax is rendered on-device.
 permalink: /txt-md-email-client/
