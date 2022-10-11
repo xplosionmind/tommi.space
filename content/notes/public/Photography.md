@@ -11,10 +11,10 @@ todo:
 ---
 ## Photographers
 
-- [Maxim Dondyuk](https://maximdondyuk.com/ 'Maxim Dondyuk')
-- [Antonio Masiello](https://antoniomasiello.portfoliobox.net/ 'Antonio Masiello')
-- [Gueorgui Pinkhassov](https://www.magnumphotos.com/photographer/gueorgui-pinkhassov/ 'Gueorgui Pinkhassov')
-- [Sebastião Salgado]({{ 'https://en.wikipedia.org/wiki/Sebastião_Salgado' | url_encode }} 'Sebastião Salgado on Wikipedia')
+- [Maxim Dondyuk](https://maximdondyuk.com 'Maxim Dondyuk')
+- [Antonio Masiello](https://antoniomasiello.portfoliobox.net 'Antonio Masiello')
+- [Gueorgui Pinkhassov](https://www.magnumphotos.com/photographer/gueorgui-pinkhassov 'Gueorgui Pinkhassov')
+- [Sebastião Salgado](https://en.wikipedia.org/wiki/Sebastião_Salgado 'Sebastião Salgado on Wikipedia')
 - [Steve McCurry](https://www.stevemccurry.com 'Steve McCurry')
 
 <br>
@@ -22,4 +22,4 @@ todo:
 
 ## Projects
 
-- [The Anonymous Project](https://www.anonymous-project.com/ 'The Anonymous Project'), collect everyday life pictures of people from all over the world, by [Lee Shulman](https://www.leeshulman.com/ 'Lee Shulman')
+- [The Anonymous Project](https://www.anonymous-project.com 'The Anonymous Project'), collect everyday life pictures of people from all over the world, by [Lee Shulman](https://www.leeshulman.com 'Lee Shulman')

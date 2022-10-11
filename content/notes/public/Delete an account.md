@@ -1,10 +1,10 @@
 ---
 date: 2020-08-05
-updated: 2022-09-25T12:07:22+02:00
+updated: 2022-10-11T00:29:29+02:00
 tags: geek/free
 permalink: /delete/
 redirect_from: [/delete-account/,/GDPR-claim/,/claim-GDPR/,/just-delete-it/,/just-deleteit/,/quit/,/GDPR-delete/,/elimina-account/]
-description: Deleting an account from an online service
+description: Walkthrough and refernece documentation for deleting an account or quitting an online service in the most effective way possible.
 ---
 The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though:
 1. often, <strong>there is no button</strong>
@@ -14,7 +14,7 @@ Below, I reported how I attempt to overcome this itchy obstacles.
 
 ## Base knowledge
 
-To get this itchy thing done in the quickest and most painless way possible, just [check JustDeleteMe](https://justdeleteme.xyz/ 'Just Delete Me'). To first retrieve your data, visit [JustGetMyData](https://justgetmydata.com 'Just Get My Data'). It might be possible that on those great websites the service you intend to quit is not present. This is how stuff get tricky
+To get this itchy thing done in the quickest and most painless way possible, just [check JustDeleteMe](https://justdeleteme.xyz/ 'Just Delete Me'). To first retrieve your data, visit [JustGetMyData](https://justgetmydata.com 'Just Get My Data'). It might be possible that on those great websites the service you intend to quit is not present. This is how stuff get tricky.
 
 Firstly, you gotta find the Privacy Policy page of the provider and look for an email address that looks like `privacy@<nameoftheprovider>.com`. Secondly, you have to write to this address the message which follows, claiming our [GDPR rights](https://gdpr-info.eu 'Information on GDPR').
 
