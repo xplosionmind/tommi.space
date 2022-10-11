@@ -14,7 +14,7 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 </div>
 
 <ul>
-	{% assign tutto = tutto | sort: 'end' | reverse %}
+	{% assign tutto = tutto | where: "stuff", nil | sort: 'end' | reverse %}
 	{% for cosa in tutto %}
 		<li id='{{ cosa.title | slugify }}-{{ cosa.end | date: '%Y' }}'>
 			{% if cosa.url %}
