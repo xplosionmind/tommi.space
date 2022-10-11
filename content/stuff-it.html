@@ -28,7 +28,7 @@ sitemap:
 		<div class='half column vertical flex'>
 			<h2 class='title'><img src='{{ thing.logo }}' alt='{{ thing.title }}'></h2>
 			<p>{{ thing.description-it | markdownify }}</p>
-			<a href='{{ thing.link }}' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-text.it }}</a>
+			<a href='{{ thing.url }}' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-text.it }}</a>
 		</div>
 		<div class='half column vertical flex'>
 			<img src='{{ thing.image.url }}' title='{{ thing.image.alt.it }}' alt='{{ thing.image.alt.it }}' {%- if thing.image.aspect-ratio -%}style='aspect-ratio:{{ thing.image.aspect-ratio }}'{%- endif -%}>
