@@ -563,6 +563,7 @@ figure {
 	}
 	& + figure.column {
 		margin: 0 0 0 $big;
+		width: calc(50% - 1.6rem);
 	}
 }
 
