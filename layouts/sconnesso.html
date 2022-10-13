@@ -22,7 +22,7 @@ layout: wrapper
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%e %B %Y' }}</time>
+				<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%-d %B %Y' }}</time>
 			{% endif %}
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 		</p>

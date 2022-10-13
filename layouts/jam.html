@@ -34,7 +34,7 @@ type: CollectionPage
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%e %B %Y' }}</time>{% endif %}
+				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%-d %B %Y' }}</time>{% endif %}
 			{% endif %}
 			{% if lang == 'it' %}
 				{% if updated %}
@@ -44,7 +44,7 @@ type: CollectionPage
 			{% else %}
 				{% if updated %}
 					<br>latest edit:
-					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ updated | date: '%e %B %Y at %k:%m' }}</time>
+					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ updated | date: '%-d %B %Y at %k:%m' }}</time>
 				{% endif %}
 			{% endif %}
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
