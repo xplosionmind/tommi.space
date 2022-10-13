@@ -29,14 +29,14 @@ module.exports = {
 			}
 			return date;
 		},*/
-		updated(data) {
+		/*updated(data) { // disabled since always having an updated date is useless
 			let hadUpdated = false;
 			const updated = data.updated || data.date;
 			if (data.updated) {
 				hadUpdated = true;
 			}
 			return updated;
-		},
+		},*/
 		sitemap: {
 			img: data => {
 			return { url: data.image };

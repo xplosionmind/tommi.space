@@ -56,3 +56,23 @@ sitemap:
 		</section>
 	</div>
 </div>
+
+<div class='row'>
+	<section id='changelog'>
+	<h2 class='center title'>Ultime modifiche</h2>
+		<div class='large grid'>
+			{% assign recently_updated = collections.all | sort: 'date' | sort: 'updated' | reverse %}
+			{% for entry in recently_updated limit:4 %}
+				<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+					<div class='box'>
+						<h4 class='center'>{{ entry.data.title }}</h4>
+						<p class='center' style='margin: .3rem 0;'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}<time></p>
+					</div>
+				</a>
+			{% endfor %}
+		</div>
+		<div class='flex'>
+			<a class='green button' href='{{ site.changelog }}' title='Modifiche al codice di tommi.space Codeberg'>Modifiche al codice</a>
+		</div>
+	</section>
+</div>

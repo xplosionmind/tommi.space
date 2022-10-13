@@ -13,6 +13,7 @@
     "favicon": "https://tommi.space/favicon.ico",
     "image": "/tommi.space.wip.png",
     "source": "https://codeberg.org/tommi/tommi.space",
+		"changelog": "https://codeberg.org/tommi/tommi.space/commits/branch/main",
     "tags":[
         {
             "title": "geek",
