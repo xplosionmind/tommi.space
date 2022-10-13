@@ -1,6 +1,7 @@
 ---
 title: Il tempo è denaro
 date: 2022-09-22T23:05:43+02:00
+updated: 2022-09-22T23:05:43+02:00
 tags: ['zen','society', 'draft']
 lang: it
 ---
