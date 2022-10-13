@@ -1,0 +1,87 @@
+---
+date: 2020-06-04T02:00:00+02:00
+updated: 2022-10-13T17:36:03+02:00
+tags:
+  - track
+  - wip
+lang: it
+toc: false
+main: true
+layout: wrapper
+image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/14/20210114191829-c28094bf-me.jpg
+description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
+aliases: Oggetti
+permalink: /oggetti/
+redirect_from: [/things/,/compagni-di-viaggio/]
+todo:
+  - finish refactoring, by moving each thing in its own page
+---
+<div class='row'><div class='one column'><a class='u-uid u-url' href='{{ page.url }}' title='{{ title }}'><h1 class='p-name'>{{ title }}</h1></a></div></div>
+<div class='row'><div class='one column'><article>{% renderTemplate 'md' %}
+Sembra esagerato, ma sono così affezionato loro che alcuni fra gli oggetti che uso quotidianamente sono diventati come dei compagni nel viaggio della mia vita.</p>
+
+Ciascuno di essi ha una storia e talvolta diverse generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
+	
+Chi mi conosce sa quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
+{% endrenderTemplate %}</div></div></article>
+
+<div class='row grid'>
+	{% for thing in collections.things %}
+	 <a href='{{ thing.url }}' title='{{ thing.data.title }}'>
+			<div class='box'>
+				{% if thing.data.image != '/tommi.space.wip.png' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
+				<h3>{{ thing.data.title }}</h3>
+				{% if thing.data.description %}
+					<p>{{ thing.data.description | markdownify | truncatewords: 30 }}</p>
+				{% endif %}
+			</div>
+		</a>
+	{% endfor %}
+</div>
+
+<div class='row'><div class='one column'>{% renderTemplate 'md' %}
+## TBoom Pen
+
+La TBoom Pen è la penna che è sempre nella mia tasca. Rigorosamente, modello [Parker Jotter](https://www.parkerpen.com/jotter-originals 'Parker Jotter sul sito ufficiale Parker') con punta a sfera.
+
+Fu un regalo della mamma nel 2014, e sopra mi fece incidere questa scritta:
+
+Da quel momento, la penna è sempre con me.
+
+***Sempre*** è un eufemismo. L’ho smarrita più e più volte, sempre ritrovandola, dopo ore o dopo giorni. A volte, settimane.
+
+Si sono succedute varie TBoom pen, sempre simili fra loro, ma alla fine le ho perse tutte e è sempre tornata da me lei, l’originale, la prima.
+
+Nell'agosto 2020 a Giffoni, si è rotta la sua clip.
+
+A Natale 2020 la mamma mi ha regalato la *Tommi Pen*, l'evoluzione della *TBoom Pen*.
+
+## Taccuini
+
+### Freddie
+
+Il mio primo taccuino in assoluto.  
+Freddie aveva copertina verde forseta l’illustrazione della faccia di una scimmia in copertina.  
+Lo utilizzai fino a febbraio 2018, quando, come uno scemo lo dimenticai all’Ariston, nella sala stampa del Festival di Sanremo, non ritrovandolo più.
+
+### John
+
+John è un taccuino dalla copertina rigida beige. Lo comprai da Tiger a Genova poco dopo aver realizzato che non avrei più trovato [Freddie](#Freddie 'torna a Freddie').  
+John giace ora fra gli scaffali di [[Gianna]], dove riposa in pace conservando le parole che per me sono preziosi gioielli.  
+Con John ebbe inizio la stirpe dei ***Jay***s, ovvero tutti i taccuini con iniziale “J”.
+
+### Jarvis
+
+Una volta terminato John, alla Feltrinelli di Genova comprai, nel marzo 2019, <cite>Jarvis</cite>.  
+Ricordare <cite>Jarvis</cite> è doloroso, perché è stato brutalmente smarrito nel corso di [Scambi 2021](https://scambi.org 'Scambi Festival'); per metabolizzare la sua scomparsa, gli ho dedicato [questa ode](/jarvis 'Ode a Jarvis').
+
+### Jacala I
+
+<cite>Jacala I</cite> è una sottile Moleskine dalla copertina nera, acquistato presso la libreria Toletta a Venezia, il <time datetime='2021-10-14T15:34:31+02:00'>14 Ottobre 2021</time>. Prende il nome dall’[omonimo coccodrillo](https://it.wikipedia.org/wiki/Personaggi_de_Il_libro_della_giungla#Jacala 'Jacala nella lista dei personaggi de Il libro della giungla, su Wikipedia'), personaggio de <cite><a href='https://it.wikipedia.org/wiki/Il_libro_della_giungla' target='_blank' title='“Il libro della giungla„ su Wikipedia'>Il libro della giungla</a></cite> di [Kipling](https://it.wikipedia.org/wiki/Rudyard_Kipling 'Rudyard Kipling su Wikipedia').
+{% endrenderTemplate %}</div></div>
+
+<div class='large row'>
+<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'></a>
+</figure>
+<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'></a></figure>
+</div>
