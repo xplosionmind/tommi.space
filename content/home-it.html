@@ -61,7 +61,7 @@ sitemap:
 	<section id='changelog'>
 	<h2 class='center title'>Ultime modifiche</h2>
 		<div class='large grid'>
-			{% assign recently_updated = collections.all | sort: 'date' | sort: 'updated' | reverse %}
+			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
 			{% for entry in recently_updated limit:4 %}
 				<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
 					<div class='box'>
