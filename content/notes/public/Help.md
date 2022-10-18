@@ -1,24 +1,23 @@
 ---
 date: 2021-05-25T17:52:55+02:00
-updated: 2022-03-14T14:58:17+01:00
+updated: 2022-10-15T00:17:37+02:00
 title: Help!
 description: Things I need help with
 toc: false
-tags: help
+tags:
+  - help
+  - wip
+todo:
+  - Refactor in HTML, as done with [[Around the world]] and [[Compagni di viaggio]]
 ---
-I would absolutely love to do the things below, but either:
+There are some things I would absolutely love to do, but either:
 - I am not capable;
-- or I do not have time;
-- or they are tasks that if done alone are tremendously boring, while with other people become much more enjoyable;
-- or I think they are good ideas, but I am not the right person to develop them.
+- I do not have time;
+- they are tasks that if done alone are tremendously boring, while with other people become much more enjoyable;
+- I think they are good ideas, but I am not the right person to develop them.
 
 Hence, the purpose of this page is to collect all of the things I need help for. Please note that my head, as [this website’s favicon](/favicon-180.png 'Wide favicon of tommi.space') masterfully displays, is a perpetual explosion, therefore content you find below may belong to the most different fields: <abbr title='Do It Yourself'>DIY</abbr> as well as poetry, computer stuff as well as Philosophy may be involved.
 
-In the case you find something you are interested in among the things below, do not hesitate to <a href='surfing@tommi.space?subject=I can help you with {{ title }}' target='_blank' title='Write me an email'>contact me</a> or <a href='#comment' title='leave a comment'>to drop a comment</a>.
-
-<br>
-<br>
+In the case you find something you are interested in among the things below, do not hesitate to <a href='{{ site.email }}?subject=I can help you with {{ title }}' target='_blank' title='Write me an email'>contact me</a> or <a href='#comment' title='leave a comment'>to drop a comment</a>.
 
 <ul>{% for n in collections.jam %}{% if n.tags contains 'help' %}<li><a href='{{ n.url }}' title='{{ n.title }}'>{{ n.title }}</a> - {{ n.data.description | markdownify | strip_html }}</li>{% endif %}{% endfor %}</ul>
-
-[contact]: https://tommi.space/contact 'Contact me'

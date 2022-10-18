@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2022-01-24T15:50:17+01:00
+updated: 2022-10-16T14:08:17+02:00
 tags: geek/server
 aliases: Xplosion Server
 redirect_from: [/xplosion-server/,/xplosionserver/]
@@ -15,9 +15,6 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 <div class='box'>
 	In [[Server setup]] I collected step-by-step walkthroughs of my server setup and configuration.
 </div>
-
-<br>
-<br>
 
 ## Installed
 

@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2022-05-25T13:04:54+02:00
+updated: 2022-10-14T10:43:30+02:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
@@ -8,8 +8,6 @@ description:
 redirect_from: [/cheatsheet/,/cheatsheets/,/cheat-sheet/,/terminal/,/cli/]
 image: https://tommi.space/terminal.png
 ---
-![[Hotkeys]]
-
 ## Terminal
 
 Useful [terminal](https://en.wikipedia.org/wiki/Terminal 'Terminal on Wikipedia') commands
