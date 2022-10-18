@@ -12,7 +12,7 @@ The Fediverse is a [[Decentralization|decentralized]] ensemble of social network
 I am extremely happy many of my friends are finally joining the Fediverse, therefore I am collecting here several info, so that they can easily retrieve it and feel at home in this new awesome platform.
 
 <div class='yellow box'>
-	<h3>Contribute to this page!<h3>
+	<h3>Contribute to this page!</h3>
 	<p>If you are already a proud and experienced fedinaut, feel free to open a pull request or to get in touch to suggest anything you feel is missing!</p>
 </div>
 
