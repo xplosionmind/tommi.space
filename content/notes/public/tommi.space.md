@@ -1,23 +1,23 @@
 ---
-date: 2021-01-09T01:00:00+01:00
-updated: 2022-06-19T23:11:59+02:00
+date: 2020-02-02T01:00:00+01:00
+updated: 2022-10-19T11:54:51+02:00
 tags:
-  - draft
-  - geek/web
   - meta
-aliases: Meta, Changelog
+  - geek/web
+	- wip
+aliases: tommi.space, Development Roadmap, Website todo, Meta, Changelog
 permalink: /meta/
-redirect_from:
-  - /website-log/
-  - /websitelog/
-  - /log/
-  - /changelog/
-description: Since I put a lot of care and attention to details in this website (probably even too much) I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
-image: /website-log.png
+redirect_from: [/development/,/tommi.space/,/dev/]
 main: true
+toc: false
+image: /2020-04-18-making-this-website.jpg
+description: I put a lot of care and attention to details in this website (probably too much), thus I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
+todo:
+  - finish updating
+	- “help wanted” issues search query
 ---
 <div class='yellow box'>
-	<p>Note that these notes have to be considered more a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
+	<p>These notes have to be considered more a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
 	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing effort in documenting my decisions is not my priority, as well as to explain passages for educational purposes</p>
 </div>
 
@@ -29,20 +29,13 @@ Up to now, anything concerning website ideas and development was listed quite ra
 
 I am now [using GitHub for issue tracking](https://github.com/xplosionmind/tommi.space/issues 'tommi.space issues on GitHub'), even though the repository is currently being [hosted on Codeberg][source].
 
-<br>
-<br>
-
 <p class='date'><time datetime='2022-04-21T06:14:30+02:00'>Thursday, April 21<sup>st</sup> 2022</time></p>
-
 
 ## Hosting
 
 Since the beginning, [Netlify](https://netlify.com 'Netlify') has been where tommi.space is hosted. It has to be noted, though, that Netlify is no champion of openness, free software, or sustainable infrastructure, hence not a service whose values I completely share. Nevertheless, it is awesome, since at the same time it both has more than what I need, and it is fairly simple. It hurts to say it, but I love it and I am sticking with it, since it really makes much of the work easier.
 
 All of the relatively big files on the website (such as images and podcast audios) are hosted on [Storj](https://storj.io 'Storj'), and through a couple of tricks they are seamlessly served through Netlify. Storj too has its red flags, since it is based on the blockchain and I am still quite skeptical concerning all of this stuff. But, again, it wonderfully does the work, at least until [Cubbit](https://cubbit.io 'Cubbit') won’t get around static hosting, as Stefano, its CEO, anticipated to me someday it will.
-
-<br>
-<br>
 
 ## Analytics
 
@@ -56,24 +49,15 @@ Being Google Analytics definitely out of consideration, finding a simple, free, 
 
 Of course, I prefer to self-host analytics, but as of right now Matomo is the only analytics platform packaged for YunoHost (the OS I am using on [[Server|Xplosion Server]]). As soon as any light analytics software will get packaged for YunoHost, I will switch to it.
 
-<br>
-<br>
-
 <p class='date'><time datetime='2022-03-23T16:21:06+01:00'>Wednesday, March 23<sup>rd</sup> 2022</time></p>
 
 ## Migrating from GitHub to Codeberg
 
 I love community-driven stuff, and I praise [Codeberg values](https://docs.codeberg.org/getting-started/what-is-codeberg/#our-mission '“Our mission” in Codeberg documentation'). Furthermore, there is all of that stuff that is not good about GitHub, so I moved.
 
-<br>
-<br>
-
 ## New repository
 
 I never gave too much attention to the size of the repository of tommi.space, until it clearly huge, with a size of ~1GB. I took advantage of the switch to Eleventy to start a new repository from scratch. The obsolete Jekyll-based website is on GitHub at [old.tommi.space](https://github.com/xplosionmind/old.tommi.space 'old.tommi.space on GitHub')
-
-<br>
-<br>
 
 ## Switching to Eleventy
 
@@ -87,10 +71,6 @@ Equally, there are a ton of blog posts comparing the two static site generators,
 - A relevant consequence of the point above is that while with Jekyll I was completely dependent on (and blocked by) plugins and their developers, I now have a little (yet growing) possibility to <u>code some simple features myself</u>, since I am slooooowly learning its basics.
 - I do not care much about **build time**, but when on Jekyll it surpassed the 120 seconds, it started to become incredibly itchy and time-consuming to do anything. Eleventy crashed that time down to less than 30 seconds. Considering the average of build times, it still is quite a lot, but I have no time to spend in build speed optimization. It is fine like this.
 - It is not a logical not objective argument, but while building Jekyll I continuously got **many warnings** and frequent errors too, even without changing anything—mainly, I believe the main reason were outdated dependencies. I could not stand it anymore.
-
-<br>
-<br>
-
 
 <p class='date'><time datetime='2021-01-09'>9<sup>th</sup> January 2021</time></p>
 
@@ -117,10 +97,6 @@ I decided not to, for now, for three main reasons:
 
 ![[Minimalizing]]
 
-
-<br>
-<br>
-
 <p class='date'><time datetime='2021-12-16T00:10:28+01:00'>Thursday 16 December 2021</time></p>
 
 ## Search
@@ -133,9 +109,6 @@ It is not the best solution in terms of speed and dependance, but it is still va
 
 Following [these instructions](https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/ 'Quickstart for Using Algolia on Netlify ') the setup is quite simple. What is annoying and long to effectively customize is [the front-end CSS](https://github.com/algolia/autocomplete/blob/next/packages/autocomplete-theme-classic/src/theme.scss 'SCSS source for Algolia’s Autocomplete front-end, on GitHub'), which I eventually decided would be simple to [write from scratch](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_search.scss 'My SCSS partial for Algolia front-end styling') by myself.
 
-<br>
-<br>
-
 <p class='date'><time datetime='2021-12-17T00:33:16+01:00'>17 December 2021</time></p>
 
 ## Typography and layout
@@ -144,9 +117,11 @@ Even though I love [[Typography]], I am never fully convinced about this website
 
 I will be noting below my doubts and, if solved, my conclusions.
 
-<br>
+## Questions
 
-### Questions
+<div class='yellow box'>
+	The most frequent questions I ask myself are the ones concerning technical aims I need help with, that are logged in the [issues labeled <mark class='blue'>help wanted</mark>]({{ site.issues }} 'tommi.space issues').
+</div>
 
 - Before headings, should break tags or CSS margin be used for separation between sections?
 	- `<br>` spacing pros
@@ -155,7 +130,26 @@ I will be noting below my doubts and, if solved, my conclusions.
 	- CSS spaging pros
 		- greater flexibility for changes
 		- keeping the content document more clean
-- Do <q>quotes</q> from quote tags depend by the language? Which ones should I use?
+
+<div class='red box'>
+	To check all of the bugs, feature requests, and ideas, go to <a href='https://github.com/xplosionmind/tommi.space' title='tommi.space issues on GitHub'>tommi.space’s GitHub issues</a>
+</div>
+
+### page-specific to-dos
+
+<ul>
+	{%- for p in collections.all -%}
+		{%- if p.data.todo -%}
+			<li><a href='{{ p.url }}' title='{{ p.data.title }}'>{{ p.data.title }}</a>:
+				<ul>
+					{%- for task in p.data.todo -%}
+						<li>{{ task | markdownify }}</li>
+					{%- endfor -%}
+				</ul>
+			</li>
+		{%- endif -%}
+	{%- endfor -%}
+</ul>
 
 [Jekyll]: https://jekyllrb.com 'Jekyll official website'
 [Eleventy]: https://11ty.dev 'Eleventy official website'
