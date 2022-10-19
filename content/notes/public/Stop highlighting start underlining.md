@@ -10,7 +10,6 @@ redirect_from:
   - /stop-highlighting/
   - /start-underlining/
   - /stop-highlighting-start-underlining/
-main: true
 ---
 Highlighting is strong, excessive, distracting, aggressive.  
 Underlining is soft, neat, light, instead.

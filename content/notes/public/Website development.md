@@ -8,6 +8,7 @@ aliases: tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development/
 redirect_from: [/development-roadmap/,/roadmap/,/wip/,/issues/,/improvements/,/dev/,/website-development/,/tommi.space/]
 main: true
+toc: false
 image: /2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
 ---

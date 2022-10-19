@@ -10,16 +10,15 @@ image: https://tommi.space/places.jpg
 main: true
 toc: false
 todo: loop through all the notes and posts from each location
-layout: wrapper
+layout: default
 rel: places
 ---
-<div class='row'><div class='one column'><a class='u-uid u-url' href='{{ page.url }}' title='{{ title }}'><h1 class='p-name'>{{ title }}</h1></a></div></div>
 <div class='row'><div class='one column'><article>{% renderTemplate 'md' %}
 This page does not merely a lists places I have been to, rather it is an ever growing and evolving record of corners of the world I carry in my heart.
 
 <cite>[Around the World](https://youtube.com/watch?v=a9eNQZbjpJk 'Red Hot Chili Peppers - Around The World')</cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places that exist on our planet. It perfectly 
 
-{% endrenderTemplate %}</div></div></article>
+{% endrenderTemplate %}</article></div></div>
 
 <iframe class='dark' width='100%' height='400px' frameborder='0' allowfullscreen src='https://umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'></iframe>
 

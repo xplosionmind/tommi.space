@@ -53,3 +53,4 @@ Tous les lieus ou je voudrais aller
 - [ ] <cite>La remise</cite>
 - [ ] <cite>Le 38, au lieu commun</cite>
 - [ ] <cite>Petit vélo dans la tête</cite> centre ville
+- [ ] Parc Karl Marx

@@ -204,8 +204,13 @@ a {
 	code {
 		color: var(--primary);
 	}
-	&.box:active {
-		box-shadow: var(--inner-shadow);
+	&.box {
+		&:hover {
+			box-shadow: none !important;
+		}
+		&:active {
+			box-shadow: var(--inner-shadow);
+		}
 	}
 }
 
@@ -373,7 +378,6 @@ code,
 kbd,
 samp {
 	font: 400 1em var(--font-mono);
-	background: #3185FC55;
 }
 
 pre {
@@ -390,7 +394,7 @@ pre {
 }
 
 code {
-	padding: 2px 6px;
+	padding: 1px 4px;
 	box-shadow: var(--inner-little-shadow);
 	border-radius: $radius-s;
 }
