@@ -606,8 +606,8 @@ figcaption {
 	--tiny-shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22 !important;
 	color: var(--black-ish);
 	text-align: center;
-	p.one {
-		margin-bottom: 10vh;
+	.one {
+		padding-bottom: 6vh;
 	}
 	a {
 		color: var(--dark-blue) !important;
