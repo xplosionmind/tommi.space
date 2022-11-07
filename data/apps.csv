@@ -88,7 +88,7 @@ GIMP,https://www.gimp.org/,,"photo manipulation and editing software. Better kno
 GitUp,https://gitup.co,,my favorite GUI interface for git. ,MacOS,1,,,,
 Get It,https://github.com/Kevin-De-Koninck/Get-It, on GitHub,"a GUI interface for `youtube-dl`. Basically, a tool to download videos from YouTube",MacOS,1,,,,
 Gifski,https://gif.ski,,to create GIFs,MacOS,1,,,,
-GPG Keychain,https://gpgtools.org/keychain/index.html,,to store and handle PGP Keys.,MacOS,1,,,,
+GPG Keychain,https://gpgtools.org/keychain/index.html,,to store and handle PGP Keys.,MacOS,1,,,,"not using it that much, since Proton Mail Bridge does most of the dirty work"
 HandBrake,https://handbrake.fr/,,"anything you need to do with video files, it gets it done (in a short or eternal amount of time)",MacOS,1,,,,
 Hidden Bar,https://github.com/dwarvesf/hidden, on GitHub,to hide itchy icons from the menu bar,MacOS,1,,,,
 Inkskape,https://inkscape.org/,,. Anything with graphics? Use this. I definitely love it.,MacOS,1,,,,

@@ -1,6 +1,6 @@
 ---
 date: 2022-10-15T11:31:43+02:00
-updated: 2022-10-18T13:12:58+02:00
+updated: 2022-10-28T15:12:00+02:00
 tags:
   - geek
 permalink: /fediverse/
@@ -44,7 +44,21 @@ Need some data and some numbers to have a more direct grasp of what the Fedivers
 - [Fediverse Chronicles](https://fediverse.party/en/chronicles 'Fediverse.Party Chronicles')
 - </cite>[A quick guide to The Free Network](https://scribe.rip/we-distribute/a-quick-guide-to-the-free-network-c069309f334)</cite>, an article by [Sean Tilley](https://medium.com/u/7e14794bd38b 'Sean Tilley on Medium') explaining the history and the relation between <q>The Fediverse</q> and <q>The Federation</q>
 
+### Random
+
+Some random links I need to select, sort and analyze
+
+- [About Fediverse - Fediverse.Party - explore federated networks](https://fediverse.party/en/fediverse) (not this link specifically, the ones in it)
+- [Distributed Social Networks and Public History | publichistory.media](https://publichistory.media/2016/02/21/distributed-social-networks-and-public-history)
+- [fediverse • Kumu](https://kumu.io/wakest/fediverse)
+- [What on Earth is the fediverse and why does it matter?](https://newatlas.com/what-is-the-fediverse/56385)
+- https://tooot.im/@aRubes/109201170168478214
+
 ## Accounts worth following
+
+[Fedi.Directory](https://fedi.directory) is a great way to start exploring accounts from all over the Fediverse, nicely categorized and described. It contains all of the accounts suggested by [@FediFollows@mastodon.online](https://mastodon.online/@FediFollows '@FediFollows’ profile').
+
+[fediverse.info’s explore/people](https://fediverse.info/explore/people 'fediverse.info | The bespoke fediverse guide.') section is very insightful, too!
 
 ### Tommi
 

@@ -1,6 +1,6 @@
 ---
 date: 2022-04-08T12:07:30+02:00
-updated: 2022-09-14T16:46:33+02:00
+updated: 2022-11-01T20:11:40+01:00
 location: home
 tags: geek/server
 description: Automations I take advantage of
@@ -24,6 +24,7 @@ Below a list of automations that I am using or I intend to setup.
 	- [ ] [Bookwyrm](https://bookwyrm.social/user/tommi 'Tommi on bookwyrm.social')
 	- [ ] [mastodon.uno]
 - [ ] Share to [Stream] new songs added to [[Xplosion Music]]
+- [ ] Automatically share my [poetry feed](https://tommi.space/poetry.xml 'Poetry feed from tommi.space') on [writing.exchange]
 - [ ] Synchronize [[Xplosion Music]] and main playlists across different streaming services:
 	- [ ] Spotify
 	- [ ] Deezer
@@ -32,7 +33,13 @@ Below a list of automations that I am using or I intend to setup.
 	- [ ] YouTube
 	- [ ] ListenBrainz
 
+## Tools
+
+- [n8n](https://auto.tommi.space)
+- [feediverse](https://github.com/edsu/feediverse): Send RSS/Atom feeds to Mastodon
+
 [Stream]: https://stream.tommi.space 'Tommi’s Stream of consciousness'
 [Internet Awesomeness]: https://tommi.space/internet-awesomeness.xml 'Internet Awesomeness RSS feed'
 [mastodon.uno]: https://mastodon.uno/@tommi '@tommi on mastodon.uno'
 [newsletter]: https://newsletter.tommi.space '“Parole Sconnesse”, Tommi’s newsletter'
+[writing.exchange]: https://writing.exchange/@tommi 'Tommi’s profile on writing.exchange'

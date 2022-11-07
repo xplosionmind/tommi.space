@@ -1,0 +1,12 @@
+---
+date: 2022-11-07T13:35:20+01:00
+updated: 2022-11-07T13:44:38+01:00
+location: BDL
+lang: it
+---
+
+Abbracciatз, intrecciatз, insensamente solз due vite connesse e sconnesse, evidentemente presenti, rumorosamente silenziose, monopolizzano la mia attenzione abbracciofila. Il tappeto verde che riempie lo spazio più bello di tutte le biblioteche di Grenoble ospita questa potente manifestazione di Presente che non posso non invidiare. Il mio cuore batte per loro, il mio calduccio e il mio maglione si collegano al loro calore così reale, così qui ed ora, così così.
+
+Avere simbiosi senza morbosità avere dolcezza senza glicemia, avere relazione senza prigione, avere intrecci senza nodi, carezze senza graffi, anima senza Freud, libertà senza Bentham.
+
+Le loro maglie quasi umane rappresentano un paesaggio stilizzato che si sposa con la luce che penetra da queste immense finestre che mi inondano di luce quasi quanto mi avvolge questa disinibita corrente di coccole. Una continuità discontinua lega loro fra loro e me con loro e siamo tuttз, siamo tutto.

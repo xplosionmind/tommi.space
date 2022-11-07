@@ -1,6 +1,6 @@
 ---
 date: 2020-01-03T01:00:00+01:00
-updated: 2022-03-17T12:14:56+01:00
+updated: 2022-11-04T15:30:29+01:00
 tags:
   - zen
   - topic
@@ -20,21 +20,13 @@ Literally, *metastudy* should mean “studying study”; actually, it signifies 
 
 As [[Metathinking]], Metastudy can become counterproductive. It must be found a balance between the time spent optimizing study methods and the time spent actually studying.
 
-<br>
-<br>
-
 ## Where
 
 Study in a public place or somewhere where there are other people; stay in a place where not studying feels much worse, where you naturally feel compelled to focus.
 
-<br>
-
 ## When
 
 There are morning people and night people. I am part of the former group. I can understand nothing if I attempt to study something after 7PM; on the other hand, I feel much more inspired and motivated if I set my morning alarm at 6AM and <u>commit to my study schedule from early morning</u>.
-
-<br>
-<br>
 
 ## How
 
@@ -42,9 +34,14 @@ How to study is the trickiest matter. I have not found the solution which is bes
 
 ![[Thoughts representation]]
 
-<br>
-<br>
+<p class='date'><time datetime='2022-11-03T13:04:25+01:00'>Thursday 3 November 2022</time></p>
+
+<p lang='it'>Mi sento una persona completamente diversa, quasi sconosciuta, quando studio. È talmente raro io lo faccia che si modificano tutti i mici parametri di tempo e vita. Entro in un nuovo paradigma in cui ogni input richiede un [[Productivity|tempo]] apparentemente infinito per essere processato. Non sono abituato né allenato a concentrarmi su un singolo concetto, magari persino molto specifico, per molto tempo. Ho perso, e forse mai ho avuto, la capacità di leggere e rileggere e rimuginare su una frase o un passaggio incomprensibile, e masticarne una parola alla volta.</p>
+
+<p class='date'><time datetime='2022-11-04T15:27:36+01:00'>Friday 4 November 2022</time></p>
+
+<p>E ne nasce una domanda: è il tempo passato studiando, entrando nelle cose, masticandole, “perdendoci” tempo e approfondendo oppure è il tempo cinetico, di piccoli slot iperproduttivi, concentrati e frullati, quello distorto?</p>
 
 ## Resources
 
-- [Study Less Study Smart](https://youtu.be/IlU-zDU6aQ0 "“Study Less Study Smart” by Marty Lobdell on YouTube") by Marty Lobdell
+- [Study Less Study Smart](https://youtu.be/IlU-zDU6aQ0 '“Study Less Study Smart” by Marty Lobdell on YouTube') by Marty Lobdell

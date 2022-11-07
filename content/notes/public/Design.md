@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12
-updated: 2021-11-30T11:11:38+01:00
+updated: 2022-11-01T20:10:49+01:00
 tags: design
 description: Little insights about the design world
 main: true
@@ -8,34 +8,27 @@ todo:
   - 'Integrate websites with [[Webrings]] and [[Blogroll]] and [[Internet Awesomeness]]'
   - refactor
 ---
+<div class='yellow box'>
+	This page is definitely outdated.
+</div>
+
 ## 101
 
 - [Good Design Understanding](https://dwarves.foundation/n/good-design-understanding/ 'Good Design Understanding by Dwarves Foundation'), by the [Dwarves Foundation](https://dwarves.foundation 'The Dwarves Foundation website')
-
-<br>
-<br>
 
 ## Typography
 
 ![[Typography]]
 
-<br>
-<br>
-
 ## Colors
 
 ![[Colors]]
-
-<br>
-<br>
 
 ## Web Design
 
 ### CSS
 
 [A repository](/css) collecting CSS snippets I use, in different programs.
-
-<br>
 
 ### Stunning websites
 
@@ -44,22 +37,13 @@ todo:
 - [Once Upon a Time Magazine](https://www.onceuponatimemag.com 'Once Upon a Time Magazine')
 - [Amsterdam Canals](https://canals-amsterdam.nl 'Amsterdam Canals')
 
-<br>
-<br>
-
 ## Brand identities
 
 - [Mailchimp](https://mailchimp.com/design 'Mailchimp design page')
 
-<br>
-<br>
-
 ## Other
 
 - [Awesome Design Tools](https://github.com/goabstract/Awesome-Design-Tools 'Awesome Design Tools on GitHub')
-
-<br>
-<br>
 
 ## Resources
 
