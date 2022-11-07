@@ -1,10 +1,13 @@
 ---
 date: 2018-12-27
+updated: 2022-11-07T14:28:02+01:00
 tags: archive/scout
-serif: true
 permalink: /ribelli/
-updated: 2022-09-25T22:18:04+02:00
+lang: it
+toc: false
+serif: true
 ---
+
 &emsp;&emsp;&emsp;*Sì! I ribelli siamo noi.*  
 Noi quando ce ne andiamo randagi e **liberi** lungo le strade e i sentieri di montagna mentre altri si **chiudono** come topi ballerini in capannoni pieni di rumori e di stupefacenti.
 
