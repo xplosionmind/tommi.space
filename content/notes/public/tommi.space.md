@@ -4,7 +4,7 @@ updated: 2022-10-19T11:54:51+02:00
 tags:
   - meta
   - geek/web
-	- wip
+  - wip
 aliases: tommi.space, Development Roadmap, Website todo, Meta, Changelog
 permalink: /meta/
 redirect_from: [/development/,/tommi.space/,/dev/]
@@ -14,7 +14,7 @@ image: /2020-04-18-making-this-website.jpg
 description: I put a lot of care and attention to details in this website (probably too much), thus I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
 todo:
   - finish updating
-	- “help wanted” issues search query
+  - “help wanted” issues search query
 ---
 <div class='yellow box'>
 	<p>These notes have to be considered more a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
