@@ -1,6 +1,6 @@
 ---
 date: 2022-05-18T14:34:20+02:00
-updated: 2022-06-13T10:36:55+02:00
+updated: 2022-11-07T17:59:42+01:00
 location: Zattere
 tags: self
 aliases: Tommi =, Tommi Uguale
@@ -19,9 +19,6 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 <div class='box'>
 	The present page is something similar to a manifesto of Tommi’s being, inspired by the section named <cite>My values</cite> in <a href='https://noeldemartin.com' title='Noel De Martin’s personal website'>Noel De Martin’s personal website</a>.
 </div>
-
-<br>
-<br>
 
 ## <cite>Tomminess</cite> means:
 
@@ -48,14 +45,11 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - in pursuing <cite><a href='/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
-- being completely incapable of controlling [[Caffeinated|the effects of **caffeine**]]
+- being completely incapable of controlling [[Caffeinated|the effects of caffeine]]
 - to love **meeting people** and establishing unique **connections** with them, having friends all over the world
 - getting super pumped and enthusiastic when people/friends he met in different occasions or in different context meet between each other thanks to his mediation.
 - both using and being <q>🤯</q> very (or too) often
 - please, if you know Tommi, [comment below](#comments) by writing what you think is missing, and, if accurate, it will be added.
-
-<br>
-<br>
 
 ## Tommi =
 
@@ -63,19 +57,14 @@ Occasionally, friends of mine I have not been in touch with for quite some time 
 
 {% for p in tommi-uguale -%}
 	{% if p.name != '' -%}### {{ p.name }}{% endif -%}
-	<figure>
-		<a href='{{ p.url }}'>
+	<a href='{{ p.url }}'>
+		<figure>
 			{% if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
 			{% if p.image != '' -%}<img src='{{ p.image }}' title='Tommi come {{ p.name }}'>{% endif -%}
-		</a>
-		{% if p.description != '' -%}<figcaption>{{ p.description | markdownify }}</figcaption>{% endif -%}
-	</figure>
-	<br>
-	<br>
+			{% if p.description != '' -%}<figcaption>{{ p.description | markdownify }}</figcaption>{% endif -%}
+		</figure>
+	</a>
 {% endfor -%}
-
-<br>
-<br>
 
 ## Tomminess manifestations
 
