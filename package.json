@@ -5,7 +5,7 @@
   "scripts": {
     "watch:sass": "sass --watch --style=compressed styles:www",
     "build:sass": "sass --style=compressed styles/:www",
-    "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve --watch",
+    "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
