@@ -5,6 +5,7 @@ started_writing: 2022-04-27T08:45:10+02:00
 updated: 2022-05-12T12:36:41+02:00
 location: home
 permalink: /dma/
+lang: en
 redirect_from: /the-overlooked-challenges-of-big-tech-regulation/
 image: https://tommi.space/dma.webp
 description: |
