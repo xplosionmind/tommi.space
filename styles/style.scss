@@ -357,8 +357,12 @@ li {
 }
 
 .post article > p:first-of-type::first-letter {
-	initial-letter: 4;
+	-webkit-initial-letter: 4;
 	font-weight: bolder;
+	float: left;
+  font-size: 8em;
+	margin: .6rem .6rem 0 0;
+	text-shadow: 2px 2px 0 var(--yellow);
 }
 
 main {
