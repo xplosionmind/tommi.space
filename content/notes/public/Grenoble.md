@@ -1,6 +1,6 @@
 ---
 date: 2022-09-14T17:09:25+02:00
-updated: 2022-11-10T15:35:57+01:00
+updated: 2022-11-13T13:08:36+01:00
 location: BDL
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 lang: fr

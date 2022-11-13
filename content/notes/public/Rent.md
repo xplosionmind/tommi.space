@@ -1,6 +1,6 @@
 ---
 date: 2022-01-02T23:12:57+01:00
-updated: 2022-11-13T12:50:57+01:00
+updated: 2022-11-13T13:08:36+01:00
 tags: cinema/film
 image: https://static.onecms.io/wp-content/uploads/sites/6/2019/01/rent-6-2000.jpg
 description: About the awesome wonderful genius Musical by the awesome wonderful genius <a href='/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>

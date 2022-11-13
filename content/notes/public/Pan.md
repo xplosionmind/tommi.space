@@ -1,6 +1,6 @@
 ---
 date: 2022-08-27T09:50:40+02:00
-updated: 2022-11-13T12:25:11+01:00
+updated: 2022-11-13T13:08:36+01:00
 tags: geek
 redirect_from: /pan.rent/
 image: https://x.scambi.org/illustrations/pan.webp
