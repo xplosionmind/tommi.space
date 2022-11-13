@@ -1,6 +1,6 @@
 ---
 date: 2022-09-14T17:09:25+02:00
-updated: 2022-10-13T14:30:42+02:00
+updated: 2022-11-10T15:35:57+01:00
 location: BDL
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 lang: fr
@@ -19,6 +19,10 @@ Notes et réflexions de la cité ou je fais [[Erasmus à Grenoble|mon premier Er
 Le problème fondamental de ma vie a Grenoble, par rapport a la vie Venisienne, est que tous takes more time <b class='missing'>+++</b> à faire. Aller au supermarché, laver les vêtements (do the laundry <b class='missing'>+++</b>), cuisiner et manger… la quotidianité <b class='ish'>ish</b> est rempli pas beaucoup de petits temps morts entre les tasks <b class='missing'>+++</b> qui à Venice je étais habitué à compléter dans quelque minute.
 
 Par consequence, forcément je suis obligé à supprimer mes nombreux instincts <b class='ish'>ish</b> à <a href='/procrastinazione' hreflang='fr' title='L’arte di procrastinare'>procrastiner</a> et je dois m’habituer à enjoy <b class='missing'>+++</b> les moment de relax et de pause en situations sociels <b class='ish'>ish</b> pendant lesquelles je ne suis pas habitué à me relaxer complètement. C’est un bon exercice, mais parfois il devient trop fatiguant.
+
+## Ressources
+
+- [Tourisme à Grenoble](https://grenoble-tourisme.com 'Grenoble Tourisme')
 
 ## Mes endroits
 

@@ -1,6 +1,6 @@
 ---
 date: 2022-05-18T14:34:20+02:00
-updated: 2022-11-07T17:59:42+01:00
+updated: 2022-11-13T11:31:45+01:00
 location: Zattere
 tags: self
 aliases: Tommi =, Tommi Uguale
@@ -22,7 +22,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 
 ## <cite>Tomminess</cite> means:
 
-- being [[TMI]]:
+- being **[[TMI]]**:
 	- **oversharing** information about oneself
 	- restlessly relentlessly **talking** about something
 - <em lang='it'>rompere le palle</em>
@@ -30,7 +30,8 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - being **angry at Capitalism**:
 	- [[Internet Freedom|Fighting Big Tech]]
 	- hating people and ventures who are mainly profit-driven rather than humanity-driven
-- always looking for an alternative and **original way**, either…
+- trying to lure people in the **[[Fediverse]]** by showing them how revolutionary it is
+- hating to feel and to appear mainstream, thus restlessly looking for an alternative and **original way**, either…
 	- …to **be noticed**
 	- …to be **[[Radical Chic]]**
 - getting overblown by **anxiety** when…
@@ -39,13 +40,14 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - alternating extreme **misanthropy** with insane **social overwhelmingness**
 - being **touchy**
 - **hating chitchatting**
-- having a tremendously difficult time distinguishing jokes and serious statements made with sarcasm
+- having a tremendously difficult time distinguishing jokes and serious statements made with sarcasm, in other words: **not understanding irony**
 - believing in **love**, yet being unable to find it
 - following and advocating for **the art of <cite>[[Introductionism]]</cite>**
 - in pursuing <cite><a href='/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
 - being completely incapable of controlling [[Caffeinated|the effects of caffeine]]
+- always noticing aspects of **<cite>[[Rent]]</cite>** everywhere
 - to love **meeting people** and establishing unique **connections** with them, having friends all over the world
 - getting super pumped and enthusiastic when people/friends he met in different occasions or in different context meet between each other thanks to his mediation.
 - both using and being <q>🤯</q> very (or too) often

@@ -1,9 +1,10 @@
 ---
 date: 2022-10-15T11:31:43+02:00
-updated: 2022-10-28T15:12:00+02:00
+updated: 2022-11-13T13:02:50+01:00
 tags:
   - geek
-permalink: /fediverse/
+  - fediverse
+image: https://blog.alexgleason.me/content/images/2019/11/fediverse.png
 description: Various Fediverse information, tips, and accounts worth following.
 location: home
 ---
@@ -49,10 +50,24 @@ Need some data and some numbers to have a more direct grasp of what the Fedivers
 Some random links I need to select, sort and analyze
 
 - [About Fediverse - Fediverse.Party - explore federated networks](https://fediverse.party/en/fediverse) (not this link specifically, the ones in it)
-- [Distributed Social Networks and Public History | publichistory.media](https://publichistory.media/2016/02/21/distributed-social-networks-and-public-history)
+- [Distributed Social Networks and Public History](https://publichistory.media/2016/02/21/distributed-social-networks-and-public-history), publichistory.media
 - [fediverse • Kumu](https://kumu.io/wakest/fediverse)
 - [What on Earth is the fediverse and why does it matter?](https://newatlas.com/what-is-the-fediverse/56385)
-- https://tooot.im/@aRubes/109201170168478214
+- [aRubes :Strawberry_Jump:: "FYI, @askfedi@a.gup.pe users, A List of some #F…" - Toootim](https://tooot.im/@aRubes/109201170168478214)
+- [Introduction to ActivityPub](https://socialhub.activitypub.rocks/t/introduction-to-activitypub)
+ - SocialHub
+- [Home invasion](https://www.hughrundle.net/home-invasion)
+- [Mastodon Help - Guide](https://mastodon.help)
+- [Mastodon: What is the social network hailed as a Twitter alternative?](https://reuters.com/technology/mastodon-what-is-social-network-hailed-twitter-alternative-2022-11-07)
+- [Journalists on Mastodon and Fediverse Google Sheet](https://docs.google.com/spreadsheets/d/13No4yxY-oFrN8PigC2jBWXreFCHWwVRTftwP6HcREtA)
+- [Fedifed](https://fedified.com), notable people on Twitter who are now on the Fediverse
+- [Mastodon WTF timeline](https://ansuz.sooke.bc.ca/entry/335) - Ansuz - mskala’s home page
+- [GuideToMastodon](https://github.com/joyeusenoelle/GuideToMastodon): An increasingly less-brief guide to Mastodon
+- [Why I’m excited about decentralized social networks](https://tinysubversions.com/notes/decentralized-social-networks), by [Darius Kazemi](https://friend.camp/@darius 'Darius on friend.camp')
+
+## <cite>Pan</cite>
+
+<cite>[Pan](https://pan.rent 'Pan')</cite> is the Fediverse community I am the admin of. I am noting everything about it on [[Pan|the dedicated page]].
 
 ## Accounts worth following
 
