@@ -60,7 +60,7 @@ lite-youtube {
 	&.lyt-activated {
 		cursor: url(/cursor.svg) 16 16, crosshair;
 		&::before,
-		&.lyt-activated > .lty-playbtn {
+		& > .lty-playbtn {
 			opacity: 0;
 			pointer-events: none;
 		}
@@ -75,4 +75,5 @@ lite-youtube {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+	visibility: hidden;
 }
