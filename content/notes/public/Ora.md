@@ -8,7 +8,7 @@ hide: true
 comments: false
 ---
 <div class='blue box'>
-	Quella che stai leggendo è molto più di una semplice pagina web, è parte di <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'  target='_blank'>un movimento</a>, nato dal mitico <a href='https://sive.rs' title='Derek Sivers’ personal website'  target='_blank'>Derek Sivers</a> nel 2015 e <a href='https://sive.rs/now3'  target='_blank'>cresciuto esponenzialmente</a> in poco tempo. Per sapere di più riguardo la filosofia e scoprire <a href='https://nownownow.com' title='NowNowNow'  target='_blank'>il numero immenso</a> di persone che hanno sposato il progetto, basta visitare <a href='https://nownownow.com/about' title='About NowNowNow'  target='_blank'>nownownow.com</a>, un <a href='https://it.wikipedia.org/wiki/Webring'  target='_blank' title='Webring su Wikipedia'><i>webring</i></a> in sui sono presenti tutti i siti che contengono una pagina <code>/now</code>.
+	Quella che stai leggendo è molto più di una semplice pagina web, è parte di <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>un movimento</a>, nato dal mitico <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> nel 2015 e <a href='https://sive.rs/now3'>cresciuto esponenzialmente</a> in poco tempo. Per sapere di più riguardo la filosofia e scoprire <a href='https://nownownow.com' title='NowNowNow'>il numero immenso</a> di persone che hanno sposato il progetto, basta visitare <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, un <a href='https://it.wikipedia.org/wiki/Webring' title='Webring su Wikipedia'><i>webring</i></a> in sui sono presenti tutti i siti che contengono una pagina <code>/now</code>.
 </div>
 
 Sto:
@@ -17,18 +17,17 @@ Sto:
 
 {% render 'scambi.html', lang: lang %}
 
-<br>
-<br>
-
 ## Studiando
 
 Studio [*Philosophy, International Studies and Economics*](https://unive.it/pise 'la pagina del PISE sul sito di Ca’ Foscari') presso l’[Università Ca’ Foscari](https://unive.it 'il sito web di Ca’ Foscari'), nella favolosa [Venezia](https://www.comune.venezia.it 'Sito web del comune di Venezia').
 
-Al momento sono in Erasmus a <a href='https://grenoble.fr' title='Ville de Grenoble' lang='fr' hreflang='fr'>Grenoble</a>, luogo che sto adorando. Qui frequento sia l’<a href='https://www.univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' lang='fr' hreflang='fr'>Université Grenoble-Alpes</a> che [Sciences Po](https://www.sciencespo-grenoble.fr 'Sciences Po Grenoble').
+### Erasmus
 
-## Servizio scout
+Al momento sono in [[Erasmus à Grenoble|Erasmus]] a [[Grenoble]], luogo che sto adorando. Qui frequento sia l’<a href='https://www.univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' lang='fr' hreflang='fr'>Université Grenoble-Alpes</a> che [Sciences Po](https://www.sciencespo-grenoble.fr 'Sciences Po Grenoble').
 
-Sto servendo come aiuto-capo nel reparto del gruppo AGESCI [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Pagina Facebook del Mira 1') di Oriago di Mira (VE).
+## Amministrando <cite>Pan</cite>
+
+<cite>[Pan](https://pan.rent 'Pan Social')</cite> è un nodo del [[Fediverse]] che ho fondato e che amministro, tramite APS Oltre, la stessa associazione che organizza Scambi Festival.
 
 ## Tutto il resto
 
