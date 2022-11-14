@@ -8,7 +8,7 @@ todo:
   - history of previous “now”s when updating
 ---
 <div class='blue box'>
-	The one you are reading is more than a simple web page, it is a part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'  target='_blank'>a movement</a> started by the legendary <a href='https://sive.rs' title='Derek Sivers’ personal website'  target='_blank'>Derek Sivers</a> in 2015, and <a href='https://sive.rs/now3'  target='_blank'>it grew a lot</a> since then. To know more about the concept and find out <a href='https://nownownow.com' title='NowNowNow'  target='_blank'>how many people</a> are embracing it, visit <a href='https://nownownow.com/about' title='About NowNowNow'  target='_blank'>nownownow.com</a>, which is a <a href='https://en.wikipedia.org/wiki/Webring'  target='_blank' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
+	The one you are reading is more than a simple web page, it is a part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>a movement</a> started by the legendary <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> in 2015, and <a href='https://sive.rs/now3'>it grew a lot</a> since then. To know more about the concept and find out <a href='https://nownownow.com' title='NowNowNow'>how many people</a> are embracing it, visit <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, which is a <a href='https://en.wikipedia.org/wiki/Webring' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
 </div>
 
 What I am doing right now:
