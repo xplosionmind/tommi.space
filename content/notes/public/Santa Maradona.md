@@ -13,25 +13,15 @@ lang: it
 ---
 {{ description }}
 
-<br>
-<br>
-
 https://youtu.be/SElehi4oD3w
 
-<br>
-<br>
-
-- [I libri costano troppo?](https://www.ciwati.it/2020/12/27/libri-costano-ovvero-della-circolazione/ '«I libri costano troppo?» ovvero della “circolazione”')
+- [I libri costano troppo?](https://ciwati.it/2020/12/27/libri-costano-ovvero-della-circolazione '«I libri costano troppo?» ovvero della “circolazione”')
 - Da Santa Maradona ho copiato l’idea dei [[Titoli di coda|titoli di coda]].
 
 ## It was before I met you
 
 ![[Rent#It was before I met you]]
 
-<br>
-<br>
-
 ## Bravo non vuol dire un cazzo
 
 https://open.spotify.com/track/5tVnb1FNyFtMQd9u5GMaYk
-
