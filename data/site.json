@@ -17,6 +17,27 @@
 		"issues": "https://github.com/xplosionmind/tommi.space/issues",
     "tags":[
         {
+            "title": "newsletter",
+            "color": "#FFF",
+            "background": "linear-gradient(128deg, var(--razzmatazz) 10%, #1F0B8A 55%, var(--blue) 90%)",
+            "description": "<cite>[Parole Sconnesse](/newsletter 'Parole Sconnesse')</cite>, la mia newsletter occasionale e disordinata.",
+						"url": "/newsletter#archive"
+        },
+        {
+            "title": "Pasticci",
+            "color": "#522E38",
+            "background": "linear-gradient(160deg, #FFC2D4, #FF7AA2)",
+            "description": "Non è come mangiare un gelato, la scrittura: se la addenti, non ti assale quell’immobilismo per cui il tuo cervello si contrae e non sei in grado di pensare ad altro per cinque virgola due secondi. La scrittura, invece, scalda e dilata, estende e quieta.<br>Ecco alcuni miei morsi di scrittura, vi prego di fare attenzione a non lasciarci un canino.",
+						"url": "/pasticci"
+        },
+        {
+            "title": "Filosofia dell’ingegneria",
+            "color": "#F0F0CE",
+            "background": "linear-gradient(160deg, #02C39A, #05668D)",
+            "description": "Nei primi mesi del 2020, ho seguito il corso di <a href='https://filinge.blogspot.com'>Filosofia dell’ingegneria</a> al Politecnico di Torino. A ogni studente è stato richiesto di scrivere un blog <a href='https://filinge.blogspot.com/search/label/ABC'>su un tema diverso per ciascuno</a>, il mio era <em><strong>valore</strong></em>.",
+						"url": "/filinge"
+        },
+        {
             "title": "geek",
             "color": "#D9F8EF",
             "background": "linear-gradient(160deg, #5E60CE, #6F00B1)",
