@@ -40,7 +40,7 @@ Non me ne voglia il peraltro direttore del Post Luca Sofri se incollo di seguito
 e allora:
 
 <blockquote lang='en'><p>You’re mainly a mystery with violins filling in space
-<br>\[…\] I sank and I slept in the twilight with only one care
+<br>[…] I sank and I slept in the twilight with only one care
 <br>To know that when the day broke and I woke
 <br>That you’d still be there
 <br>You’d still be there</p></blockquote>
