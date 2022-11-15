@@ -4,7 +4,7 @@ lang: en
 layout: default
 description: Every topic, every recurrency, anything you need to find can be found somewhere in this page.
 ---
-{% for tag in site.tags %}{% if tag.url != null %}
+{% for tag in site.tags %}{% if tag.url == null %}
 	<div class='row'>
 		<div id='{{ tag.title | slugify }}' class='tag box'>
 			<h2 class='{{ tag.title | slugify }} title'>{{ tag.title }}</h2>
