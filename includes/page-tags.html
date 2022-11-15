@@ -3,7 +3,7 @@
 		{% for rawtag in tags -%}
 			{% capture postag -%}{{ rawtag | replace: '/', ' ' }}{% endcapture %}
 			{% if postag contains tag.title -%}
-				<a href='/tags#{{ tag.title | replace: ' ', '-' | downcase }}' rel='tag' class='{{ tag.title | replace: ' ', '-' | downcase }} {{ size }} written button p-category'>{{ tag.title }}</a>
+				<a href='{%- if tag.url -%}{{ tag.url }}{%- else -%}/tags#{{ tag.title | slugify }}{%- endif -%}' rel='tag' class='{{ tag.title | slugify }} {{ size }} written button p-category'>{{ tag.title }}</a>
 			{% endif -%}
 		{% endfor -%}
 	{% endfor -%}

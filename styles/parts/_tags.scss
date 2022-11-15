@@ -1,6 +1,21 @@
-.geek {
+.newsletter {
+  color: #FFF !important;
+  background: linear-gradient(128deg, var(--razzmatazz) 10%, #1F0B8A 55%, var(--blue) 90%) !important;
+}
+
+.pasticci {
+  color: #522E38 !important;
+  background: linear-gradient(160deg, #FFC2D4, #FF7AA2) !important;
+}
+
+.filosofia-dell-ingegneria {
   color: #D9F8EF !important;
   background: linear-gradient(160deg, #5E60CE, #6F00B1) !important;
+}
+
+.geek {
+  color: #F0F0CE !important;
+  background: linear-gradient(160deg, #02C39A, #05668D) !important;
 }
 
 .cinema {
