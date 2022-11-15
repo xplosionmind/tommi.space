@@ -1,9 +1,9 @@
 ---
 date: 2020-06-26
-updated: 2022-06-18T14:17:09+02:00
+updated: 2022-11-14T20:57:13+01:00
 tags:
-  - filinge
   - people
+  - philosophy
 lang: it
 description: Una personalità incredibile dal genio inimitabile
 image: 'https://www.warburg-haus.de/wp-content/uploads/aby-warburg-bio/010_1895_katchina-479x600.jpg'

@@ -1,8 +1,8 @@
 ---
 title: Il tempo è denaro
 date: 2022-09-22T23:05:43+02:00
-updated: 2022-09-22T23:05:43+02:00
-tags: ['zen','society', 'draft']
+updated: 2022-11-14T20:55:20+01:00
+tags: ['zen', 'draft']
 lang: it
 ---
 Effettivamente, essendo questo luogo virtuale prevalentemente <em lang='en'>nerd-oriented</em> e <em lang='en'>ego-oriented</em> mi sono accorto che non appaia quanto vorrei (anzi, per nulla) la mia posizione social-democratica e fortemente anticapitalista che ho orgogliosamente sviluppato nell’ultimo anno[^1].

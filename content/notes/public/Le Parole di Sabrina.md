@@ -7,19 +7,14 @@ lang: it
 tags:
   - friends
 image: /sabrina-radical-chic.jpg   
+updated: 2022-11-14T20:59:00+01:00
 ---
 Dato che la mia favolosa amica [Sabrina](https://instagram.com/pipitonesabrina 'Sabrina su Instagram') continua a ignorare il mio insistente invito a creare un proprio sito web, per compassionevole amore ospiterò qui il suo corrispettivo di [[Parole]], ovvero tutti quei termini che lei adora oppure disprezza con tutta sé stessa.
-
-<br>
-<br>
 
 ## Odio
 
 - naturale
 - privilegiato
-
-<br>
-<br>
 
 ## Amore
 
@@ -29,9 +24,6 @@ Dato che la mia favolosa amica [Sabrina](https://instagram.com/pipitonesabrina '
 - [Morion](https://instagram.com/cso_morion 'Profilo Instagram del Laboratorio Occupato Morion, il centro sociale di Venezia')
 - *radical* (*chic*)
 - linea di demarcazione
-
-<br>
-<br>
 
 ## Sabrina
 

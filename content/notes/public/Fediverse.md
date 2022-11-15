@@ -1,6 +1,6 @@
 ---
 date: 2022-10-15T11:31:43+02:00
-updated: 2022-11-13T13:08:36+01:00
+updated: 2022-11-14T20:37:38+01:00
 tags:
   - geek
   - fediverse
@@ -53,7 +53,7 @@ Some random links I need to select, sort and analyze
 - [Distributed Social Networks and Public History](https://publichistory.media/2016/02/21/distributed-social-networks-and-public-history), publichistory.media
 - [fediverse • Kumu](https://kumu.io/wakest/fediverse)
 - [What on Earth is the fediverse and why does it matter?](https://newatlas.com/what-is-the-fediverse/56385)
-- [aRubes :Strawberry_Jump:: "FYI, @askfedi@a.gup.pe users, A List of some #F…" - Toootim](https://tooot.im/@aRubes/109201170168478214)
+- [aRubes on Tooot.im](https://tooot.im/@aRubes/109201170168478214)
 - [Introduction to ActivityPub](https://socialhub.activitypub.rocks/t/introduction-to-activitypub)
  - SocialHub
 - [Home invasion](https://www.hughrundle.net/home-invasion)

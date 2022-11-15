@@ -1,12 +1,13 @@
 ---
 date: 2020-08-05
-updated: 2022-10-11T00:29:29+02:00
+updated: 2022-11-14T19:27:50+01:00
 tags: geek/free
 permalink: /delete/
-redirect_from: [/delete-account/,/GDPR-claim/,/claim-GDPR/,/just-delete-it/,/just-deleteit/,/quit/,/GDPR-delete/,/elimina-account/]
+redirect_from: [/delete-account/,/just-delete-it/,/quit/]
 description: Walkthrough and refernece documentation for deleting an account or quitting an online service in the most effective way possible.
 ---
 The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though:
+
 1. often, <strong>there is no button</strong>
 2. if there is, it is hidden somewhere in the most remote corners of the settings.
 
@@ -21,6 +22,8 @@ Firstly, you gotta find the Privacy Policy page of the provider and look for an 
 There are two kind of emails:
 - if you do not care to recover your data and activity from the account
 - if you want to request portability (which means asking to get all the things they have about you), too.
+
+To facilitate this process, I have stumbled upon [Own Your Data](https://yourdigitalrights.org), it appears to be interesting but I did not have the chance to use it yet.
 
 ### Documentation
 
