@@ -1,14 +1,18 @@
 ---
 date: 2022-04-26T10:02:11+02:00
-updated: 2022-10-01T14:22:10+02:00
+updated: 2022-11-15T15:50:11+01:00
 location: home
 lang: fr
 description: |
   Un journal de ma vie, mes études et mes découvertes à Grenoble pendant le premier semestre de l'année 2022/2023
 permalink: /erasmus-grenoble/
 redirect_from: [/erasmus/,/erasmus2022/]
-aliases: Erasmus 2022-2023
-tags: wip
+aliases:
+  - Erasmus
+  - Erasmus 2022-2023
+tags:
+  - uni
+  - wip
 ---
 Cette page a été créée pour prendre des notes rapides sur mon premier Erasmus, que je fais pendant le premier semestre de l'année 2022-2023, à [[Grenoble]].
 

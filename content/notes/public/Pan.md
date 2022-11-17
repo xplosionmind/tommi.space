@@ -1,6 +1,6 @@
 ---
 date: 2022-08-27T09:50:40+02:00
-updated: 2022-11-13T13:08:36+01:00
+updated: 2022-11-16T01:38:10+01:00
 tags: geek
 redirect_from: /pan.rent/
 image: https://x.scambi.org/illustrations/pan.webp
@@ -51,3 +51,4 @@ While looking for affordable domains with `pan.*`, I stumbled upon `pan.rent`, a
 - What about using [Mastodon Glitch Edition](https://glitch-soc.github.io/docs 'Mastodon Glitch Edition documentation')?
 - Asking 1€/month (12€/year at subscription time) for each user?
 - Involving people who already know me or each other, or making a sort of open call, then making interviews to interested people?
+- Open call for graphics and design?
