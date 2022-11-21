@@ -1,6 +1,6 @@
 ---
 date: 2022-05-19T19:14:54+02:00
-updated: 2022-10-01T14:49:35+02:00
+updated: 2022-11-21T16:30:06+01:00
 title: Thesis notes
 tags:
   - uni
@@ -36,6 +36,7 @@ Some random inputs:
 
 - <cite>De-Engineering Humanity: Enquiring the bond between Computer Science and Sociology</cite>
 - <cite>Tech conditioning: the un-neutrality of digital tools</cite>
+- <cite>Protocols, not platforms</cite>
 
 ## Notes from meeting with professor
 

@@ -1,6 +1,6 @@
 ---
 date: 2022-10-15T11:31:43+02:00
-updated: 2022-11-14T20:37:38+01:00
+updated: 2022-11-20T01:22:38+01:00
 tags:
   - geek
   - fediverse
@@ -64,6 +64,8 @@ Some random links I need to select, sort and analyze
 - [Mastodon WTF timeline](https://ansuz.sooke.bc.ca/entry/335) - Ansuz - mskala’s home page
 - [GuideToMastodon](https://github.com/joyeusenoelle/GuideToMastodon): An increasingly less-brief guide to Mastodon
 - [Why I’m excited about decentralized social networks](https://tinysubversions.com/notes/decentralized-social-networks), by [Darius Kazemi](https://friend.camp/@darius 'Darius on friend.camp')
+- [Debirdify](https://debirdify.pruvisto.org)
+- [Mastodon’s Moment – The Markup](https://themarkup.org/newsletter/hello-world/mastodons-moment)
 
 ## <cite>Pan</cite>
 
