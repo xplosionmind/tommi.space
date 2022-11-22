@@ -98,7 +98,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addWatchTarget('styles');
 	eleventyConfig.addPassthroughCopy({'styles': '/'});
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
-	eleventyConfig.addPassthroughCopy('js');
+	eleventyConfig.addPassthroughCopy({'js': '/'});
 
 	// Plugins //
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
