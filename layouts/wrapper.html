@@ -31,21 +31,9 @@
 		<div class='row'>
 			{% render 'footer.html', lang: lang %}
 		</div>
+
+	<!-- Tiny useful JavaScript functions -->
+	<script src='/tools.js' type='text/javascript' fetchpriority='high'></script>
 	
-		<script type='text/javascript'>
-			scrollbutton = document.getElementById('scrollbutton');
-			window.onscroll = function() {scroll()};
-			function scroll() {
-				if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-					scrollbutton.href='#';
-					scrollbutton.title='scroll to top';
-					scrollbutton.setAttribute('aria-label', 'scroll to top');
-				} else {
-					scrollbutton.href='#0';
-					scrollbutton.title='scroll to bottom';
-					scrollbutton.setAttribute('aria-label', 'scroll to bottom');
-				};
-			}
-		</script>
 	</body>
 </html>
