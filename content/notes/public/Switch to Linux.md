@@ -1,7 +1,8 @@
 ---
 date: 2021-04-04T11:27:09+02:00
-updated: 2022-10-26T13:51:35+02:00
+updated: 2022-11-23T12:18:14+01:00
 tags: geek
+aliases: Linux
 description: Insights, guides, notes and ideas about my ongoing attempt at fully switching to Linux.
 permalink: /linux/
 redirect_from:
@@ -45,3 +46,4 @@ Some notes concerning stuff I do on MacOS that I need to find an alternative for
 - [ ] keyboard shortcuts to rearrange windows ([Rectangle](https://rectangleapp.com 'Rectangle official website'))
 - [ ] Automatically switch between light and dark themes, according to the brightness of the environment, using light sensor info ([DarkModeBuddy](https://darkmodebuddy.app 'DarkModeBuddy')
 - [ ] remember, store and synchronize WiFi passwords
+- [ ] Find alternatives for the [[Apps]] in use

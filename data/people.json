@@ -117,5 +117,16 @@
 		"real": true,
 		"sex": "m",
 		"met": false
+	},
+	{
+		"who": "Libereso Guglielmi",
+		"note": "Il giardiniere di Italo Calvino, che mi ha affascinato sin dal giorno in cui è venuto a illustrare le favole che ci siamo inventati durante la mia terza elementare",
+		"lang": "it",
+		"image": "https://ilcinemadelcarbone.it/media/film/un-pomeriggio-con-libereso.jpg",
+		"url": "https://it.wikipedia.org/wiki/Libereso_Guglielmi",
+		"added": "2022-11-22T14:39:11+01:00",
+		"real": true,
+		"sex": "m",
+		"met" true
 	}
 ]

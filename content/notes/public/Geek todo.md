@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-11-03T09:03:54+01:00
+updated: 2022-11-22T14:19:05+01:00
 tags:
   - geek
   - todo
@@ -18,6 +18,7 @@ description: Computer related tasks tracking
 	- [Shotcut](https://www.shotcut.org)
 	- [OpenShot Video Editor](https://www.openshot.org)
 1. [Setup Matrix server](https://github.com/matrix-org/synapse#id5 'Install Synapse')
+1. Configure the broken MacBook as a homeserver
 2. [[Scripts]]
 	- get location/coordinates from CLI (and use them in espanso for `:fm` command)
 3. Consistent resume creation ([HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub'))
