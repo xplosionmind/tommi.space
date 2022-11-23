@@ -81,8 +81,8 @@ Some random links I need to select, sort and analyze
 
 My accounts on the Fediverse:
 
-- [`@tommi@social.scambi.org`](https://social.scambi.org/@tommi 'Tommi on Pan'), my main account, on [*Pan*](https://social.scambi.org/about 'About Pan')
-- [`@tommi@stream.tommi.space`](https://stream.tommi.space), a flow of consciousness (unstable work-in-progress instance)
+- [`@tommi@pan.rent`](https://pan.rent/@tommi 'Tommi on Pan'), my main account, on <cite>[Pan](https://pan.rent/about 'About Pan')</cite>
+- [`@tommi@stream.tommi.space`](https://stream.tommi.space), a flow of consciousness (unstable, experimental, work-in-progress instance)
 - [`@tommi@tmi.pics`](https://tmi.pics/tommi 'Tommi on TMI Pics'), my account on [[Pixelfed]], an Instagram-like platform
 - [`@tommi@bookwyrm.social`](https://bookwyrm.social/user/tommi 'Tommi on BookWyrm'), my account on [Bookwyrm](https://bookwyrm.social), a platform to share readings and books
 - [`@tommi@lemmy.ml`](https://lemmy.ml/u/tommi 'Tommi on Lemmy.ml'), my account on [Lemmy](https://join-lemmy.org 'Join Lemmy'), a Reddit-like platform
