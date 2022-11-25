@@ -1,22 +1,25 @@
 ---
 date: 2021-04-27T08:21:53+02:00
-updated: 2022-11-13T15:09:31+01:00
+updated: 2022-11-25T20:18:17+01:00
 tags: geek/apps
 description: Swiss army knife for video and audio editing from command line
 ---
 ## Cheat sheet
 
 Change format and bitrate of an audio file
+
 ```shellsession
 ffmpeg -i ~/in.m4a -ab 128k out.mp3
 ```
 
 Add a background to a transparent PNG, add an audio file and put all of them in a video.
+
 ```shellsession
 ffmpeg -i background.png -stream_loop 50 -i animation.png -filter_complex overlay -i voiceover.m4a -c:v libx264 -c:a copy out.mp4
 ```
 
 Scale video or image by keeping the aspect ratio and choosing the width.
+
 ```shellsession
 ffmpeg -i ~/desktop/in.mov -vf scale=720:-1 ~/desktop/out.mp4
 
@@ -24,17 +27,20 @@ ffmpeg -i ~/desktop/in.mov -vf scale=720:-1 ~/desktop/out.mp4
 for img in ~/desktop/pics/*.jpg; do ffmpeg -i '$img' -vf scale=1600:-1 '$img'; done;
 ```
 
-both scaling and resizing a video
+both scaling and cropping a video
+
 ```shellsession
 ffmpeg -i ~/desktop/in.mov -vf 'scale=720:-1,crop=720:720:0:300' ~/desktop/out.mp4
 ```
 
 improve encoding of a video using H.265
+
 ```shellsession
 ffmpeg -i ~/desktop/in4k.mp4 -c:v libx265 -vf scale=1080:-1 ~/desktop/out1080x265.mov
 ```
 
 Creating an animated GIF from images
+
 ```shellsession
 ffmpeg -framerate 4 -pattern_type glob -i '*.png' quotes.gif
 ```
