@@ -17,7 +17,7 @@ permalink: italiano.json
 		"avatar": "{{ site.author.avatar }}"
 	}],
 	"language": "en",
-	"items": [{% for entry in collections.all | reverse %}
+	"items": [{% for entry in collections.all %}
 		{% if entry.data.lang == 'it' %}
 			{
 				{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}

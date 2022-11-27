@@ -17,7 +17,7 @@ lang: en
     <name>{{ author.name }}</name>
     <email>{{ author.email }}</email>
   </author>
-  {%- for entry in collections.jam | reverse %}
+  {%- for entry in collections.jam %}
   {% set absolutePostUrl %}{{ entry.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ entry.data.title }}</title>

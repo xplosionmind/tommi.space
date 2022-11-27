@@ -18,7 +18,7 @@ lang: en
 		"avatar": "{{ site.author.avatar }}"
 	}],
 	"language": "en",
-	"items": [{% for entry in internetawesomeness | reverse %}
+	"items": [{% for entry in internetawesomeness %}
 	{
 		"id": "{{ entry.url }}",
 		"url": "{{ entry.url }}",

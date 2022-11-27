@@ -18,7 +18,7 @@ lang: en
 		"avatar": "{{ site.author.avatar }}"
 	}],
 	"language": "en",
-	"items": [{% for entry in collections.jam | reverse %}
+	"items": [{% for entry in collections.jam %}
 	{
 		{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
 		"id": "{{ absolutePostUrl }}",
