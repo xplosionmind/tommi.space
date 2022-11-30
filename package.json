@@ -161,7 +161,6 @@
     "fresh": "^0.5.2",
     "fs-extra": "^10.0.1",
     "fs.realpath": "^1.0.0",
-    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "get-caller-file": "^2.0.5",
     "get-intrinsic": "^1.1.1",
