@@ -6,8 +6,8 @@ cache
 .cache
 www
 
-# Local Netlify folder
-.netlify
+# heavy assets
+assets
 
 # University notes
 content/notes/PISE
