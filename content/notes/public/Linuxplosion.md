@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39+01:00
-updated: 2022-10-13T15:17:34+02:00
+updated: 2022-11-28T10:44:18+01:00
 tags: geek
 aliases: Ubuntu Workstation
 description:
@@ -63,13 +63,13 @@ This Cheat sheet is not in the same location as [[Cheat sheets|the main one]], s
 
 ### mounting a disk
 
-```shellsession
+```bash
 udisksctl mount -b /dev/sda2
 ```
 
 ### remove user password
 
-```shellsession
+```bash
 sudo visudo
 ```
 
@@ -81,7 +81,7 @@ ernesto ALL=(ALL) NOPASSWD:ALL
 where `ernesto` should be the name of your user.
 
 to subsequently delete the password, run:
-```shellsession
+```bash
 sudo passwd -d `whoami`
 ```
 

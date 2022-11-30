@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T11:27:09+02:00
-updated: 2022-11-23T12:18:14+01:00
+updated: 2022-11-28T10:32:57+01:00
 tags: geek
 aliases: Linux
 description: Insights, guides, notes and ideas about my ongoing attempt at fully switching to Linux.

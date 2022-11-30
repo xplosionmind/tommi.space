@@ -1,19 +1,16 @@
 ---
 date: 2021-03-29T05:44:07+02:00
-updated: 2022-05-25T19:32:43+02:00
+updated: 2022-11-28T10:43:41+01:00
 tags: geek/apps
 description: Cheat sheet and useful information to use ExifTool
 ---
 [ExifTool](https://exiftool.org 'ExifTool') is the most common and used software to handle file metadata, specifically image information.
 
-<br>
-<br>
-
 ## Cheat Sheet
 
 ### Show metadata
 
-```shellsession
+```bash
 exiftool -s -G filename.jpg
 ```
 
@@ -21,31 +18,25 @@ where:
 - **`-s`** is used to show the names in ExifTool commands format. *e.g.: instead of <q>Create Date</q> you see `CreateDate`*
 - **`-G`** is used to show the metadata Group to which the metadata tag belongs.
 
-<br>
-
 ### Show dates
 
-```shellsession
+```bash
 exiftool -AllDates filename.jpg
 ```
-
-<br>
 
 ### Strip metadata
 
 Removing all metadata from all files in pwd
 
-```shellsession
+```bash
 exiftool -all= ./* #filename.jpg
 ```
-
-<br>
 
 ### Renaming according to original date
 
 Rename all files in pwd, according to the time and time they were shot
 
-```shellsession
+```bash
 exiftool '-FileName=CustomName%-c.%le' '-FileName<CreateDate' '-FileName<GPSDateTime' '-FileName<DateTimeOriginal' -d %Y.%m.%d-%H.%M.%S%%-lc.%%le -r ./*
 ```
 
@@ -58,26 +49,19 @@ where:
 
 During the file renaming process, the leftmost values are overwritten by the rightmost ones. Therefore, if a file both has `CreateDate` and `DateTimeOriginal`, the latter will overwrite the former. This is so in order to prioritize most reliable date values, as discussed in [this thread](https://exiftool.org/forum/index.php?topic=12325.0 'Dates data accuracy hierarchy - ExifTool Forum') in the ExifTool forum.
 
-<br>
-
 ### Directories
 
 Organize files in directories based on each image’s dimensions (resolution)
 
-```shellsession
+```bash
 exiftool '-Directory<imagesize' ./*
 ```
 
-<br>
-
 Move files to folders based on year and month
 
-```shellsession
+```bash
 exiftool '-Directory<CreateDate' '-Directory<GPSDateTime' '-Directory<DateTimeOriginal' ./%Y/%Y.%m -r ./*
 ```
-
-<br>
-<br>
 
 ## Resources
 

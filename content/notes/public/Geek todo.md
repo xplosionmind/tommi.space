@@ -7,6 +7,8 @@ tags:
 description: Computer related tasks tracking
 ---
 1. [Server backup](https://forum.yunohost.org/t/restic-backup-with-restic/10340)
+1. [[GiTMI]]
+1. server.tommi.space home portal custom setup
 2. Git in-depth learning via video
 1. @stream.tommi.space -> @tommi.space
 1. [Guide to securing and improving privacy on macOS](https://github.com/drduh/macOS-Security-and-Privacy-Guide)

@@ -1,13 +1,12 @@
 ---
 date: 2020-05-12T02:00:00+02:00
-updated: 2022-11-07T14:27:20+01:00
+updated: 2022-11-28T10:45:00+01:00
 tags: design
 image: https://tommi.space/typography.svg
 description: Notes about Typography
 todo:
   - update and refactor
 ---
-
 Typography is a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study.  
 A premise: I have a fetish for Typography. I really do. I often find myself tweaking font faces when instead I have much more important and urgent things to take care of, or I spend a long time watching super technical videos and documentaries on the history of design and visual representation of writing. I wonder how would it be if I chose it as my main interest, alto at a professional level. Nevertheless, I love it, and by checking the insights below, you might be struck by its power and beautiful effectiveness, too.
 
@@ -45,7 +44,7 @@ Update 3<sup>rd</sup> December 2020: I've been deluded: like [Playfair Display](
 
 In order to make pages load faster, there are ways to drastically reduce a font file size, by basically removing unused glyphs.
 
-```shellsession
+```bash
 pyftsubset Inter.ttf \
   --unicodes='U+0020-007F,U+00A0-00FF,U+2013-204A,U+2150-215F,U+2190-2199,U+21A9,U+21AF,U+2200,U+2203-2209,U+2211,U+221A,U+2325,U+232B,U+2318,U+237A,U+25E6' \
   --layout-features='' \

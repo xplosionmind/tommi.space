@@ -1,6 +1,6 @@
 ---
 date: 2021-12-06T11:39:18+01:00
-updated: 2022-03-14T15:03:23+01:00
+updated: 2022-11-28T10:40:49+01:00
 tags: geek
 description: Notes on writing and rendering long writings with citations via PanDoc
 permalink: /pandoc-workflow/
@@ -11,7 +11,7 @@ image: https://s3.amazonaws.com/libapps/accounts/109251/Screen_Shot_2017-01-06_a
 ---
 It is my intention to write my thesis in [[LaTeX]], by using [[Pandoc]] as my main conversion tool. I am noting here my process of defining my workflow.
 
-```shellsession
+```bash
 pandoc -s in.md --citeproc -o out.pdf
 ```
 

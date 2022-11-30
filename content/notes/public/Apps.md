@@ -7,12 +7,9 @@ redirect_from: [/uses,/installed,/installed-apps,/applications,/applicazioni,/pr
 image: https://www.tomshw.it/images/images/2021/03/foto-generiche-147818.jpg
 todo:
   - print whether the app is open source or not
-updated: 2022-07-17T19:03:02+02:00
+updated: 2022-11-28T10:34:26+01:00
 ---
 Here is {{ description }}.
-
-<br>
-<br>
 
 ## MacOS
 
@@ -29,9 +26,6 @@ Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 
   {% endfor -%}
 </ul>
 
-<br>
-<br>
-
 ### Terminal
 
 <ul>
@@ -44,9 +38,6 @@ Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 
     {% endif -%}
   {% endfor -%}
 </ul>
-
-<br>
-<br>
 
 ## iOS
 
@@ -63,12 +54,9 @@ Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12 'iPhone
   {% endfor -%}
 </ul>
 
-<br>
-<br>
-
 ## Android
 
-Apps installed on my <a href='https://www.oneplus.com/6t' title='OnePlus 6T'>OnePlus 6T</a> running <del><a href='https://www.oneplus.com/oxygenos' title='OxygenOS on OnePlus’ website'>OxygenOS</a></del> <a href='/lineageos' title='Switch to LineageOS - tommi.space'>LineageOS</a>.
+Apps installed on my <a href='https://oneplus.com/6t' title='OnePlus 6T'>OnePlus 6T</a> running <del><a href='https://oneplus.com/oxygenos' title='OxygenOS on OnePlus’ website'>OxygenOS</a></del> <a href='/lineageos' title='Switch to LineageOS - tommi.space'>LineageOS</a>.
 
 <div class='yellow box'><h3>Note</h3>My main phone is now an iPhone 12 mini. My OnePlus 6T comfortably sits in a drawer sadly I will not be opening for a while.</div>
 
@@ -82,9 +70,6 @@ Apps installed on my <a href='https://www.oneplus.com/6t' title='OnePlus 6T'>One
     {% endif -%}
   {% endfor -%}
 </ul>
-
-<br>
-<br>
 
 ## Linuxplosion
 
@@ -101,15 +86,15 @@ Apps which I have installed on my beloved <a href='/linuxplosion' title='Linuxpl
   {% endfor -%}
 </ul>
 
-<br>
-<br>
+### Worth noting
+
+Interesting tools and software to test
+
+- [Pacstall](https://pacstall.dev) - The AUR for Ubuntu
 
 ## Server
 
 The services I self-hosted which are running on my server can be found in the [[Server]] Jam ingredient.
-
-<br>
-<br>
 
 ## Awesome Software
 
@@ -119,9 +104,6 @@ Lists with a ton of apps which are too valuable to be forgotten
 - [awesome-command-line-apps](https://github.com/herrbischoff/awesome-command-line-apps)
 - [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line)
 - [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)
-
-<br>
-<br>
 
 ## Worth remembering
 
@@ -137,9 +119,6 @@ Apps which are not installed but it is worth remembering or testing in the futur
     {% endif -%}
   {% endfor -%}
 </ul>
-
-<br>
-<br>
 
 ## Missing digital tools
 

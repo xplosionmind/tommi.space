@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2022-10-14T10:43:30+02:00
+updated: 2022-11-28T10:51:45+01:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
@@ -13,7 +13,7 @@ image: https://tommi.space/terminal.png
 Useful [terminal](https://en.wikipedia.org/wiki/Terminal 'Terminal on Wikipedia') commands
 
 change screenshot format
-```shellsession
+```bash
 defaults write com.apple.screencapture type jpg
 killall SystemUIServer
 ```
@@ -29,71 +29,77 @@ rsync -avr --rsh='ssh' --delete-after --delete-excluded _site/ username@IP.Add.r
 note: `-avr` could be `-avz` instead
 
 Compress a file or a folder
-```shellsession
+```bash
 zip -r -X archive-name.zip folder-to-compress
 ```
 
 prevent sleep
-```shellsession
+```bash
 caffeinate -i -t 3600
 ```
 
 Change update interval
-```shellsession
+```bash
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 ```
 
 A quick for loop
-```shellsession
+```bash
 for f in *.txt; do pandoc '$f' -s -o '${f%.txt}.rtf'; done
 ```
 
-watch <cite><a href='https://en.wikipedia.org/wiki/Star_Wars_(film)' target='_blank' title='“Star Wars” on Wikipedia'>Star Wars - A New Hope</a></cite> in ASCII (not a joke)
-```shellsession
+watch <cite>[Star Wars - A New Hope](https://en.wikipedia.org/wiki/Star_Wars_(film) ''“Star Wars” on Wikipedia')</cite> in ASCII (not a joke)
+```bash
 nc towel.blinkenlights.nl 23
 ```
 
 Erase disk
-```shellsession
+```bash
 sudo diskutil eraseDisk /dev/disk2 
 ```
 
 Disk space usage
-```shellsession
+```bash
 du # dust
 ```
 
+```bash
+lsblk -a -T -h
+```
+
+[Storage analyser](https://forum.yunohost.org/t/storage-analyser-analyse-du-stockage 'Storage analyser - YunoHost Forum') - YunoHost Forum
+
 With `say`, convert a text file to an audio file with Apple’s TTS engine:
-```shellsession
-say -v Alex -f file.txt -o "output.m4a"
+```bash
+say -v Alex -f file.txt -o output.m4a
 ```
 
 - `-v` allows you to select the kind of voice for the output
 
 [recursively count files in a directory](https://stackoverflow.com/a/9157162 'Recursively counting files in a Linux directory')
-```shellsession
+```bash
 find . -type f | wc -l
 ```
 
 [Recursively copying files from subdirectories to root directory](https://superuser.com/questions/1372906/how-to-get-files-out-of-all-subfolders-and-move-them-up-to-the-first-folder 'How to get files out of all subfolders and move them up to the first folder - Super User')
-```shellsession
+```bash
 find ./input/ -type file -exec cp {} ./output/ \;
 # or a more modern alternative
 fd . ./input/ -t f -x cp {} ./output/ \;
 ```
 
-[Take a screenshot](https://www.take-a-screenshot.org/ 'ᐅ How to take a screenshot'):
-```shellsession
+[Take a screenshot](https://take-a-screenshot.org 'ᐅ How to take a screenshot'):
+```bash
 man screencapture
 ```
 
 [Subliminal](https://subliminal.readthedocs.io/en/latest/user/cli.html 'Subliminal documentation')
-```shellsession
+```bash
 subliminal --opensubtitles xplosionmind 'z#5Br1&9b7niM~QZ$2hJTkn2gQRReJWy4i8zwuF6Pc1wXA#fVIcykUjb' download -l en La.Casa.de.Papel.S05E10.1080p.WEB-DL.DUAL.5.1.mkv
 ```
 
 Downgrade package with [Homebrew](https://brew.sh 'Homebrew')
-```shellsession
+```bash
 # remove current version
 brew uninstall navi
 
@@ -116,8 +122,6 @@ brew install navi.rb && rm navi.rb
 brew pin navi
 ```
 
-<br>
-
 ### Resources
 
 - [The art of command line](https://github.com/jlevy/the-art-of-command-line 'the-art-of-command-line on GitHub'), a repository to master command-line usage
@@ -129,9 +133,6 @@ brew pin navi
 - [Linux command line](https://github.com/learnbyexample/Linux_command_line 'linux-command-line on GitHub')
 - A complete dive in the Terminal language, [[Bash]]
 
-<br>
-<br>
-
 ## GPG
 
 GnuPG Cheat Sheets:
@@ -141,76 +142,49 @@ GnuPG Cheat Sheets:
 - [GnuPG CheatSheet](https://devhints.io/gnupg 'GnuPG Cheat Sheet') on [devhints.io](https://devhints.io/ 'devhints')
 - [GPG Cheat Sheet](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/ 'GPG Cheat Sheet')
 
-<br>
-<br>
-
 ## `sd`
 
 [`sd`](https://github.com/chmln/sd 'sd source code') is a wonderful command-line tool to find and replace sub-strings in files. Its original version is `sed`, which comes by default in shell.
 
 Replace `foo` with `bar` in all files inside pwd:
-```shellsession
+```bash
 sd 'foo' 'bar' ./*
 ```
-
-<br>
-<br>
 
 ## HTML proofer
 
 [HTML proofer](https://github.com/gjtorikian/html-proofer 'HTML proofer GitHub repository') is a Ruby script to check HTML quality of a local folder. It can both be used as a library and as [a command line tool](https://github.com/gjtorikian/html-proofer#using-on-the-command-line 'Using HTML Proofer in the command line').
 
 basic check of a Jekyll website
-```shellsession
+```bash
 bundle exec htmlproofer --assume-extension --allow_hash_href --check_favicon --check_opengraph --check_html --check_img_http --http_status_ignore 429 --url_ignore '#!' --checks_to_ignore '#!' --report_eof_tags --report_invalid_tags --report_mismatched_tags --report_missing_names --report_script_embeds /Users/tommi/tommi.space/\_site # --report_missing_doctype
 ```
 
 See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#configuration 'HTML Proofer Configuration') for the complete parameters list.
 
-<br>
-<br>
-
 ## Linux
 
 ![[Linuxplosion#Cheat sheet]]
-
-<br>
-<br>
 
 ## Vim
 
 ![[Vim#Cheat Sheet]]
 
-<br>
-<br>
-
 ## Pandoc
 
 ![[Pandoc#Cheat sheet]]
-
-<br>
-<br>
 
 ## Exiftool
 
 ![[ExifTool#Cheat Sheet]]
 
-<br>
-<br>
-
 ## FFMPEG
 
 ![[FFMPEG#Cheat Sheet]]
 
-<br>
-<br>
-
 ## git
 
 ![[git#Cheat sheet]]
-
-<br>
-<br>
 
 ## Nextcloud manteinance
 

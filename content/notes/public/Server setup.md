@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2022-10-16T14:21:32+02:00
+updated: 2022-11-28T18:46:40+01:00
 tags: geek/server
 redirect_from: [/server-configuration/,/nextcloud/]
 description: A walktrough of the steps I executed to set up my server
@@ -26,13 +26,13 @@ Please refer to [[Docker]] to see how I re-deployed everything on my server thro
 
 update [Ubuntu](https://ubuntu.com/server 'Ubuntu server website') (`-y` parameter is used to accept by default any question)
 
-```shellsession
+```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
 
 remove debris
 
-```shellsession
+```bash
 sudo apt autoremove -y && sudo apt autoclean -y
 ```
 
@@ -42,13 +42,13 @@ It is always better not to work and setup stuff straight from root user, it’s 
 
 add user
 
-```shellsession
+```bash
 adduser tommi # “tommi”, in this case, is the username
 ```
 
 grant that user sudo permissions
 
-```shellsession
+```bash
 adduser -aG tommi sudo
 ```
 
@@ -56,45 +56,45 @@ adduser -aG tommi sudo
 
 Enable default configuration
 
-```shellsession
+```bash
 ufw allow OpenSSH
 ```
 
 enable firewall
 
-```shellsession
+```bash
 ufw enable
 ```
 
 check if everything is working
 
-```shellsession
+```bash
 ufw status
 ```
 
 first things firts:
 
-```shellsession
+```bash
 sudo ufw allow 'Apache'
 ```
 
 ### SSH keys
 
-create [ssh](https://www.ssh.com/ssh/ 'ssh.com') folder to store allowed keys
+create [SSH](https://en.wikipedia.org/wiki/SSH 'SSH on Wikipedia') folder to store allowed keys
 
-```shellsession
+```bash
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 ```
 
 **on local client**:
 
-```shellsession
+```bash
 ssh-copy-id tommi@100.100.010.1 -p 5002
 ```
 
 Alternatively:
 
-```shellsession
+```bash
 scp -P 5002 ~/.ssh/id_rsa.pub tommi@100.100.010.1:~/.ssh/authorized_keys
 ```
 
@@ -113,13 +113,13 @@ Substitute `100.100.010.1` with the server’s IP address, `tommi` with the want
 
 Enable the new SSH port from the firewall. In this case, the process I will be following configures port `5522`
 
-```shellsession
+```bash
 sudo ufw allow 5522/tcp
 ```
 
 Open the SSH configuration file `/etc/ssh/sshd_config`
 
-```shellsession
+```bash
 sudo vim /etc/ssh/sshd_config
 ```
 
@@ -127,19 +127,19 @@ In this file, replace `#Port 22` with `Port 5522`
 
 after this, disable connections from port 22
 
-```shellsession
+```bash
 sudo ufw deny 22
 ```
 
 restart ssh
 
-```shellsession
+```bash
 sudo systemctl restart ssh
 ```
 
 ### Disable root access
 
-```shellsession
+```bash
 PermitRootLoogin no # was: yes
 ```
 
@@ -147,7 +147,7 @@ PermitRootLoogin no # was: yes
 
 install [git](https://git-scm.com/ 'git official website')
 
-```shellsession
+```bash
 apt install git
 ```
 
@@ -155,31 +155,31 @@ apt install git
 
 install [zsh](https://www.zsh.org/ 'zsh.org')
 
-```shellsession
+```bash
 apt install zsh
 ```
 
 set zsh as default shell
 
-```shellsession
+```bash
 chsh -s /usr/bin/zsh root
 ```
 
 install zsh syntax highlighting
 
-```shellsession
+```bash
 apt install zsh-syntax-highlighting
 ```
 
 install [oh-my-zsh](https://ohmyz.sh/ 'ohmyz.sh')
 
-```shellsession
+```bash
 sh -c '$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)'
 ```
 
 enable zsh syntax highlighting
 
-```shellsession
+```bash
 echo 'source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 ```
 
@@ -200,20 +200,20 @@ Firstly, it’s necessary to create the folder where Nextcloud interface, thus p
 
 In this case, I configured a directory which is named exactly as the domain where the content it’s hosting will be found, for simplicity.
 
-```shellsession
+```bash
 sudo mkdir /var/www/cloud.tommi.space
 ```
 
 then, permissions can be changed, such that Nextcloud itself can handle this data, once installed. As you can see, these permissions must be set `-R` recursively.
 
-```shellsession
+```bash
 sudo chown -R $USER:$USER /var/www/cloud.tommi.space
 sudo chmod -R 755 /var/www/cloud.tommi.space
 ```
 
 make the (private) directory where all of Nextcloud data will be stored, and change its permissions, too
 
-```shellsession
+```bash
 mkdir /home/tommi/nextcloud-data
 sudo chown -R www-data:www-data /home/tommi/nextcloud-data/
 ```
@@ -224,7 +224,7 @@ This is the essential content of an Apache configuration fil for nextcloud. It s
 
 create the configuration file by running
 
-```shellsession
+```bash
 sudo vim /etc/apache2/sites-available/cloud.tommi.space.conf
 ```
 
@@ -244,7 +244,7 @@ then, add this content:
 
 ### Install MariaDB
 
-```shellsession
+```bash
 sudo apt install mariadb-server
 ```
 
@@ -277,19 +277,19 @@ mysql> FLUSH PRIVILEGES;
 
 Install [PHP](https://php.net) modules
 
-```shellsession
+```bash
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
 install Nextcloud dependencies
 
-```shellsession
+```bash
 sudo apt install php-curl php-dom php-gd php-json php-xml php-mbstring php-zip
 ```
 
 adjust `PHP.ini`
 
-```shellsession
+```bash
 sudo vim /etc/php/7.4/apache2/php.ini
 ```
 
@@ -306,13 +306,13 @@ date.timezone = Europe/Rome # or your timezone
 
 download Nextcloud and place it in the virtual host directory
 
-```shellsession
+```bash
 sudo cd /var/www/cloud.tommi.space/public_html && sudo wget https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip
 ```
 
 extract the downloaded package
 
-```shellsession
+```bash
 unzip nextcloud-18.0.4.zip
 ```
 
@@ -320,26 +320,26 @@ unzip nextcloud-18.0.4.zip
 
 [<span id='certbot'>Certbot</span>](https://certbot.eff.org 'Certbot by EFF') will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
 
-```shellsession
+```bash
 sudo apt install certbot python3-certbot-apache
 ```
 
 Enable port `443` instead of port `80`
 
-```shellsession
+```bash
 sudo ufw allow 'Apache Full'
 sudo ufw delete allow 'Apache'
 ```
 
 Generate TLS certificate
 
-```shellsession
+```bash
 sudo certbot --apache -d cloud.tommi.space -d www.cloud.tommi.space
 ```
 
 Enable HTTP/2, and rewrite module
 
-```shellsession
+```bash
 sudo apt install php7.4-fpm
 sudo a2enmod proxy_fcgi
 sudo a2enconf php7.4-fpm
@@ -363,13 +363,13 @@ In `cloud.tommi.space-le-ssl.conf` add
 
 to enable what has just been inserted, headers must be enabled
 
-```shellsession
+```bash
 sudo a2enmod headers
 ```
 
 then, enable `.htaccess`
 
-```shellsession
+```bash
 sudo vim /etc/apache2/sites-available/cloud.tommi.space/cloud.tommi.space-le-ssl.conf
 ```
 
@@ -385,7 +385,7 @@ paste in `<VirtualHost *:443>`
 
 restart Apache
 
-```shellsession
+```bash
 systemctl restart apache2
 ```
 
@@ -416,31 +416,31 @@ There are a lot of very useful [Nextcloud apps](https://apps.nextcloud.com/ 'Nex
 
 move to the Nextcloud apps folder
 
-```shellsession
+```bash
 cd /var/www/nextcloud/apps
 ```
 
 download the application package from [Nextcloud apps website](https://apps.nextcloud.com/ 'Nextcloud Apps')
 
-```shellsession
+```bash
 wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
 ```
 
 extract it (by substituting `package_name` with the name of the app package)
 
-```shellsession
+```bash
 tar -xvzf package_name.tar.gz
 ```
 
 remove compressed package
 
-```shellsession
+```bash
 rm -rf package_name.tar.gz
 ```
 
 change permissions for the app’s directory
 
-```shellsession
+```bash
 chown -R www-data:www-data /var/www/nextcloud/apps/app_name
 chmod -R 755 /var/www/nextcloud/apps/app-name
 ```
@@ -449,7 +449,7 @@ chmod -R 755 /var/www/nextcloud/apps/app-name
 
 Toggle maintenance mode
 
-```shellsession
+```bash
 sudo -u nextcloud php7.3 --define apc.enable_cli=1 /var/www/occ maintenance:mode --on # or --off
 ```
 
@@ -457,7 +457,7 @@ sudo -u nextcloud php7.3 --define apc.enable_cli=1 /var/www/occ maintenance:mode
 
 Using the `occ` command in a dockerized instance
 
-```shellsession
+```bash
 docker-compose exec --user www-data app php occ
 ```
 
@@ -469,7 +469,7 @@ More information on the [Nextcloud Docker Hub page](https://hub.docker.com/_/nex
 
 allow firewall for ports 100000 to 200000
 
-```shellsession
+```bash
 sudo ufw allow in 10000:20000/udp
 ```
 
@@ -479,39 +479,39 @@ Jitsi requires the Java Runtime Environment. Install OpenJDK JRE 8.
 	<strong>NOTE</strong>: as of right now, Jitsi Meet needs JRE 8, and <u><strong>not a newer version</strong></u>!
 </div>
 
-```shellsession
+```bash
 sudo apt install -y openjdk-8-jre-headless
 ```
 
 check if installation went the right way and if the right version is installed
 
-```shellsession
+```bash
 java -version
 ```
 
 setup Java Runtime
 
-```shellsession
+```bash
 sudo echo 'JAVA_HOME=$(readlink -f /usr/bin/java | sed 's:bin/java::')' | sudo tee -a /etc/profile
 sudo source /etc/profile
 ```
 
 download Jitsi Meet and add it to `apt` downloadable list
 
-```shellsession
+```bash
 wget -qO - https://download.jitsi.org/jitsi-key.gpg.key | sudo apt-key add -
 echo 'deb https://download.jitsi.org stable/'  | sudo tee -a /etc/apt/sources.list.d/jitsi-stable.list
 ```
 
 install Jitsi Meet
 
-```shellsession
+```bash
 sudo apt install -y jitsi-meet
 ```
 
 run and enable Certbot
 
-```shellsession
+```bash
 sudo sed -i 's/\.\/certbot-auto/certbot/g' /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 sudo ln -s /usr/bin/certbot /usr/sbin/certbot
 sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
@@ -523,7 +523,7 @@ sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 
 last tweaks should be done in here
 
-```shellsession
+```bash
 sudo vim /etc/apache2/conf-enabled/security.conf
 ```
 
@@ -541,7 +541,7 @@ I chose to deploy [RSS-Bridge](https://github.com/RSS-Bridge/rss-bridge 'RSS-Bri
 
 My version of [the default Docker build](https://github.com/RSS-Bridge/rss-bridge/wiki/Docker 'RSS-Bridge Docker setup'):
 
-```shellsession
+```bash
 sudo docker create \
 --name=rss-bridge \
 --volume /home/tommi/whitelist.txt:/app/whitelist.txt \

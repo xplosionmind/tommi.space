@@ -1,10 +1,11 @@
 ---
 date: 2022-01-02T23:12:57+01:00
-updated: 2022-11-13T13:08:36+01:00
+updated: 2022-11-26T10:31:59+01:00
 tags: cinema/film
 image: https://static.onecms.io/wp-content/uploads/sites/6/2019/01/rent-6-2000.jpg
 description: About the awesome wonderful genius Musical by the awesome wonderful genius <a href='/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>
 ---
+
 <cite>[Rent](https://en.wikipedia.org/wiki/Rent_(musical) '“Rent” on Wikipedia')</cite> is one of the things I love the most, and, of course, its [2005 representation in movie](https://en.wikipedia.org/wiki/Rent_(film) '“Rent”, the movie on Wikipedia') is one of my [[Cinema#Favorites|favorite films]].
 
 How can a musical be so inspiring and true I really cannot understand.  
@@ -24,7 +25,9 @@ I just know I deeply love [Jonathan Larson](/people#jonathan-larson 'Jonathan La
 
 ## La vie bohème
 
-https://youtu.be/i5tuzq-uIVc
+<https://youtu.be/i5tuzq-uIVc>
+
+<div class='embed'><iframe title='La Vie Bohème A and B' src='https://p.lu/videos/embed/2dfddc5f-1298-4875-95f0-67189e655a19?autoplay=1&amp;warningTitle=0' allowfullscreen='' sandbox='allow-same-origin allow-scripts allow-popups' frameborder='0'></iframe></div>
 
 > To days of inspiration  
 > Playing hooky, **making [something out of nothing](https://youtube-nocookie.com/embed/V_YlZ1JdcVk '“Something From Nothing„ — Foo Fighters')**  
@@ -42,7 +45,7 @@ https://youtu.be/i5tuzq-uIVc
 > To riding your bike,  
 > Midday past the three-piece suits  
 > To fruits to no absolutes  
-> To Absolute- to choice  
+> To Absoluteto choice  
 > To the Village Voice  
 > To any passing fad  
 > **To being an us**-for once-, **instead of a them**
@@ -63,7 +66,7 @@ What the Pope underscored in <a href='https://www.raiplay.it/video/2022/02/Sua-S
 
 Mimi and Roger (1:40:40) as Dolores and Andrea in <cite lang='it'>[[Santa Maradona]]</cite>
 
-> <q>Roger… nothing happened. Benny and me, it’s over. We had a thing once, but it was two years ago</q>  
+> <q>Roger…nothing happened. Benny and me, it’s over. We had a thing once, but it was two years ago</q>  
 > <q>It doesn’t matter</q>  
 > <q>It was before I met you…</q>  
 > <q>I don’t care</q>
