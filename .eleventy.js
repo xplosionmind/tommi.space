@@ -99,6 +99,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({'styles': '/'});
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy('js');
+	eleventyConfig.addPassthroughCopy({'assets': '/'});
 
 	// Plugins //
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
