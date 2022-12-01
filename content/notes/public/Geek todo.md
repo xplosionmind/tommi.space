@@ -1,12 +1,15 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-11-03T09:03:54+01:00
+updated: 2022-12-01T08:45:29+01:00
 tags:
   - geek
   - todo
 description: Computer related tasks tracking
 ---
 1. [Server backup](https://forum.yunohost.org/t/restic-backup-with-restic/10340)
+1. [Server fallback](https://yunohost.org/en/app_fallback)
+1. [Using YunoHost as a Tor Hidden Service](https://yunohost.org/en/torhiddenservice)
+1. Install [gemserv](https://github.com/YunoHost-Apps/gemserv_ynh)
 1. [[GiTMI]]
 1. server.tommi.space home portal custom setup
 2. Git in-depth learning via video
