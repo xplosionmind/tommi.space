@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10T02:00:00+02:00
-updated: 2022-11-14T18:07:07+01:00
+updated: 2022-12-02T01:11:38+01:00
 tags: cinema
 aliases: Movies
 description: After watching these movies and series, I was not the same anymore.
@@ -30,7 +30,7 @@ Movies I intend to watch are logged in [[Watchlist|my Watchlist]].
 
 ## Watchlog
 
-Movies I watched are logged in [[Watchlog]]. The current method I am using for logging what I watch is made by a system I devised to be as simple and as adaptable as possible, in case I will ever be able to use a unique dedicated software: I log movies into [this CSV data file](https://codeberg.org/tommi/tommi.space/src/branch/main/data/watchlog.csv 'watchlog.csv in tommi.space data directory'), and I log series (for which single episodes are harder to be tracked) on Stremio.
+Movies I watched are logged in [[Watchlog]]. The current method I am using for logging what I watch is made by a system I devised to be as simple and as adaptable as possible, in case I will ever be able to use a unique dedicated software: I log movies into [this CSV data file](https://gitmi.dev/tommi/tommi.space/src/branch/main/data/watchlog.csv 'watchlog.csv in tommi.space data directory'), and I log series (for which single episodes are harder to be tracked) on Stremio.
 
 ## Resources
 

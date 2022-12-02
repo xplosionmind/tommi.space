@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-10-19T11:54:51+02:00
+updated: 2022-12-02T01:28:01+01:00
 tags:
   - meta
   - geek/web
@@ -20,6 +20,14 @@ todo:
 	<p>These notes have to be considered more a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
 	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing effort in documenting my decisions is not my priority, as well as to explain passages for educational purposes</p>
 </div>
+
+<p class='date'><time datetime='2022-12-01T10:14:49+01:00'>Thursday, December 1<sup>st</sup> 2022</time></p>
+
+## Self-hosting
+
+By migrating [[Xplosion Server]] to a slightly more performant machine, I ended up messing up some configurations, and I also realized that my website publishing workflow was not really independent and stable. Therefore, I decided it was time to self host tommi.space.
+
+Details on ![[Self-hosting tommi.space]]
 
 <p class='date'><time datetime='2022-06-19T23:04:30+02:00'>Sunday, June 19<sup>th</sup> 2022</time></p>
 
@@ -153,5 +161,5 @@ I will be noting below my doubts and, if solved, my conclusions.
 
 [Jekyll]: https://jekyllrb.com 'Jekyll official website'
 [Eleventy]: https://11ty.dev 'Eleventy official website'
-[source]: {{ site.source }} 'tommi.space source code on Codeberg'
+[source]: {{ site.source }} 'tommi.space source code'
 [^test]: Lovely arrow test ->

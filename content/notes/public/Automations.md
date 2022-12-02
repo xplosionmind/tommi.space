@@ -1,6 +1,6 @@
 ---
 date: 2022-04-08T12:07:30+02:00
-updated: 2022-11-01T20:11:40+01:00
+updated: 2022-12-02T01:09:34+01:00
 location: home
 tags: geek/server
 description: Automations I take advantage of
@@ -16,7 +16,7 @@ Below a list of automations that I am using or I intend to setup.
 - [ ] Add [[Around the world|Places]] entries to [my uMap](https://umap.openstreetmap.fr/en/map/around-the-world_593427 '“Around the World”, Tommi’s favorite places on uMap')
 - [ ] Share [newsletter] as soon as it gets out
 - [ ] [newsletter] reads new writings from [Zibaldone’s RSS](https://tommi.space/zibaldone.xml 'Zibaldone RSS feed') and sends them via email
-- [ ] Share all new [data entries](https://codeberg.org/tommi/tommi.space/src/branch/main/data 'data folder in tommi.space repository on Codeberg') on [Stream]
+- [ ] Share all new [data entries](https://gitmi.dev/tommi/tommi.space/src/branch/main/data 'data folder in tommi.space repository') on [Stream]
 - [ ] Share [Wallabag starred entries](https://inputs.tommi.space/tommi/UnqUGNFzghX3pTU/starred.xml 'starred feed from inputs.tommi.space') on [Stream]
 - [ ] Share [Stream] (or only [mastodon.uno]?) posts to [Maledetto sia Copernico](https://t.me/maledettocopernico 'Maledetto sia Copernico Telegram Channel')
 - [ ] Repost to [Stream] all of my posts from topic-specific Fediverse accounts:
