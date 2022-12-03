@@ -1,0 +1,10 @@
+# Tommi’s mind
+
+This is just an experimental endpoint in the awesome Gemini universe. Unfortunately, for the moment the full experience of the mess inside Tommi’s mind can be experienced only from its regular (but still weird and whimsical) web endpoint.
+
+=> https://tommi.space tommi.space
+
+Still, I am playing a bit with some scripts and I am managing to publish some content on here.
+
+> gemini://tommi.space/zibaldone.gmi Zibaldone
+> gemini://tommi.space/jam.gmi The Jam

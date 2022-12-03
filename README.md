@@ -22,3 +22,7 @@ This website is self-hosted on [*Xplosion Server*](https://tommi.space/server 'X
 ## ℹ️  Info
 
 Go to the [website development page](https://tommi.space/development 'Website development - tommi.space') to know more and check [the development roadmap](https://tommi.space/development#roadmap 'tommi.space development roadmap').
+
+## ♊️ Gemini
+
+The wild troubles of my mind encompass the standard web: tommi.space is available also [through the Gemini protocol](gemini://tommi.space 'tommi.space Gemini version')
