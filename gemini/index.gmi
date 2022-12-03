@@ -6,5 +6,5 @@ This is just an experimental endpoint in the awesome Gemini universe. Unfortunat
 
 Still, I am playing a bit with some scripts and I am managing to publish some content on here.
 
-> gemini://tommi.space/zibaldone.gmi Zibaldone
-> gemini://tommi.space/jam.gmi The Jam
+=> gemini://tommi.space/zibaldone.gmi Zibaldone
+=> gemini://tommi.space/jam.gmi The Jam
