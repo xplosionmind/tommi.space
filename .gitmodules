@@ -1,0 +1,3 @@
+[submodule "scripts"]
+	path = scripts
+	url = https://gitmi.dev/tommi/scripts
