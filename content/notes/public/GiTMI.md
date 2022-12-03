@@ -1,6 +1,6 @@
 ---
 date: 2021-11-16T09:35:47+01:00
-updated: 2022-12-01T11:11:20+01:00
+updated: 2022-12-02T01:29:13+01:00
 tags: geek/server
 description: |
   Notes about moving out of [GitHub](https://github.com/xplosionmind 'my GitHub profile') and setting up a self-hosted [Gitea](https://gitea.com 'Gitea official website') instance.
@@ -45,17 +45,17 @@ A schematic log of what I am doing, setting up and maintaining [GiTMI][gitmi]
 
 A collection of inspiring and/or useful articles
 
-- [A forum thread concerning my migration](https://forum.fedeproxy.eu/t/migrating-from-github-to-self-hosted-gitea/ 'Migrating from GitHub to self-hosted Gitea'), on [fedeproxy]’s forum
+- [A forum thread concerning my migration](https://forum.fedeproxy.eu/t/migrating-from-github-to-self-hosted-gitea 'Migrating from GitHub to self-hosted Gitea'), on [fedeproxy]’s forum
 - [Migrating to Gitea][rusingh-migration], by [rusingh]
 
 ## config
 
 I collect all the customizations I apply to GiTMI [in this repository](https://gitmi.dev/tommi/gitmi 'GiTMI customizations repository on GiTMI').
 
-[fedeproxy]: https://fedeproxy.eu/ 'fedeproxy official website'
+[fedeproxy]: https://fedeproxy.eu 'fedeproxy official website'
 [gitmi]: https://gitmi.dev 'GiTMI homepage'
 [gitea]: https://gitea.com 'Gitea official website'
-[rusingh-migration]: https://rusingh.com/github-codeberg-gitea-migrations/ '“GitHub to Codeberg to… Gitea?„ on Ru Singh’s blog'
+[rusingh-migration]: https://rusingh.com/github-codeberg-gitea-migrations '“GitHub to Codeberg to… Gitea?„ on Ru Singh’s blog'
 [rusingh]: https://rusingh.com 'Ru Singh’s personal website'
-[mte90-contribute-to-opensource]: https://leanpub.com/contributetoopensource-therightway/ '“Contribute to opensource: the right way„ by Daniele Scasciafratte'
+[mte90-contribute-to-opensource]: https://leanpub.com/contributetoopensource-therightway '“Contribute to opensource: the right way„ by Daniele Scasciafratte'
 [GitTouch]: https://github.com/git-touch/git-touch 'git-touch on GitHub'
