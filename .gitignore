@@ -1,9 +1,5 @@
 # Eleventy stuff
-node_modules
-dist
 .env
-cache
-.cache
 www
 
 # heavy assets
@@ -11,10 +7,3 @@ assets
 
 # University notes
 content/notes/PISE
-
-# Private content
-*/copyrighted-content
-*/*/copyrighted-content
-private
-*/private
-*/*/private

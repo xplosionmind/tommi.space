@@ -1,9 +1,11 @@
-riordinare/
-content/notes/templates/
-content/notes/.obsidian
-content/notes/.trash
-content/notes/PISE
-content/notes/obsidian.css
-content/notes/.*
 README.md
-gemini/
+
+# Gemini files are handled by Titan: https://tommi.space/scripts/titan
+gemini
+
+# Obsidian
+/content/notes/.trash
+/content/notes/.obsidian
+
+# private content
+/content/notes/private
