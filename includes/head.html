@@ -26,8 +26,8 @@
 	<title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
 	<meta property='og:title' content='{% if title %}{{ title }} | {% endif %}{{ site.title }}'>
 	{% if description %}
-		<meta name='description' content='{{ description | strip_html | replace: "'", " " }}'>
-		<meta property='og:description' content='{{ description | strip_html | replace: "'", " " }}'>
+		<meta name='description' content='{{ description | markdownify | strip_html | replace: "'", " " }}'>
+		<meta property='og:description' content='{{ description | markdownify | strip_html | replace: "'", " " }}'>
 	{% else %}
 		<meta name='description' content='{{ site.description }}'>
 		<meta property='og:description' content='{{ site.description }}'>
