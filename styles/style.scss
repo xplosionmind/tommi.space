@@ -1,7 +1,7 @@
 @use 'parts/normalize';
-@use 'parts/inter';
-@use 'parts/ubuntu-mono';
-@use 'parts/eb-garamond';
+@use 'fonts/inter';
+@use 'fonts/ubuntu-mono';
+@use 'fonts/eb-garamond';
 @use 'parts/root';
 @use 'parts/header';
 @use 'parts/links-emojis';
@@ -10,23 +10,6 @@
 @use 'parts/temporary';
 @use 'parts/syntax-highlight';
 @use 'parts/lite-youtube-embed';
-
-$tiny: .2rem;
-$small: .5rem;
-$regular-less: .9rem;
-$regular: 1.1rem;
-$regular-more: 1.3rem;
-$regular-more-em: 1.3em;
-$big: 1.6rem;
-$bigger: 1.8rem;
-$twice: 2.2rem;
-$height: 3.1rem;
-$mastodon: 4rem;
-$radius-s: .4rem;
-$radius-m: .6rem;
-$radius-l: 1rem;
-$trans: .5s ease-out;
-$quicktrans: .1s ease-in-out;
 
 html {
 	scroll-behavior: smooth;
@@ -41,7 +24,7 @@ body {
 	color: var(--text);
 	overflow-wrap: break-word;
 	hyphens: auto;
-	font: $regular var(--font-sans);
+	font: root.$regular var(--font-sans);
 
 	--background: var(--black-ish);
 	--text: var(--white);
@@ -63,7 +46,7 @@ body {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: $trans;
+	transition: root.$trans;
 
 }
 
@@ -90,7 +73,7 @@ body {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 
-		transition: $trans;
+		transition: root.$trans;
 	}
 	.dark {
 		filter: var(--invert-dark);
@@ -107,12 +90,12 @@ body {
 
 .cantiere {
 	margin: 3vw;
-	border-radius: $radius-l;
+	border-radius: root.$radius-l;
 	box-shadow: 5px 5px 2.5vw #000C;
 }
 
 * {
-	transition: $trans, transform $quicktrans, box-shadow $quicktrans, text-shadow $quicktrans, border $quicktrans;
+	transition: root.$trans, transform root.$trans-quick, box-shadow root.$trans-quick, text-shadow root.$trans-quick, border root.$trans-quick;
 	scrollbar-color: var(--red) transparent;
 }
 
@@ -225,10 +208,10 @@ input {
 	border: none;
 	background: var(--background);
 	color: var(--text);
-	border-radius: $radius-m;
-	padding: $small $regular;
+	border-radius: root.$radius-m;
+	padding: root.$small root.$regular;
 	box-shadow: var(--inner-shadow);
-	font-size: $bigger;
+	font-size: root.$bigger;
 	max-width: 100%;
 	&::placeholder {
 		color: var(--other-grey);
@@ -253,7 +236,7 @@ input {
 	padding: 2rem 5%;
 	font-size: .8em;
 	background: var(--deep);
-	border-radius: $radius-l;
+	border-radius: root.$radius-l;
 	box-shadow: var(--inner-shadow);
 }
 
@@ -279,7 +262,7 @@ input {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: $regular-less;
+	grid-gap: root.$regular-less;
 	h3 {
 		text-align: center;
 	}
@@ -304,7 +287,7 @@ input {
 .library {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-	grid-gap: $tiny;
+	grid-gap: root.$tiny;
 	img,
 	a div {
 		font: .5em var(--font-serif);
@@ -312,7 +295,7 @@ input {
 		color: #E1DCC5;
 		background: linear-gradient(-30deg, #39281E, #4E3C2B);
 		margin-top: 15%;
-		border-radius: $radius-s;
+		border-radius: root.$radius-s;
 		box-shadow: var(--tiny-shadow);
 		min-height: 75%;
 	}
@@ -320,7 +303,7 @@ input {
 
 li {
 	line-height: 1.5em;
-	margin-bottom: $small;
+	margin-bottom: root.$small;
 	ul {
 		li {
 			margin-bottom: 0;
@@ -344,9 +327,9 @@ li {
 
 .task-list-item-checkbox {
 	position: relative;
-	right: $regular-less;
-	width: $regular;
-	height: $regular;
+	right: root.$regular-less;
+	width: root.$regular;
+	height: root.$regular;
 }
 
 .serif {
@@ -386,8 +369,8 @@ samp {
 }
 
 pre {
-	padding: $regular;
-	border-radius: $radius-m;
+	padding: root.$regular;
+	border-radius: root.$radius-m;
 	white-space: pre-wrap;
 	background: var(--dark-blue);
 	color: var(--white);
@@ -401,14 +384,14 @@ pre {
 code {
 	padding: 1px 4px;
 	box-shadow: var(--inner-little-shadow);
-	border-radius: $radius-s;
+	border-radius: root.$radius-s;
 }
 
 .missing,
 .bug,
 .wtf {
 	padding: 2px 5px;
-	border-radius: $radius-s;
+	border-radius: root.$radius-s;
 }
 
 .missing,
@@ -450,7 +433,7 @@ tr {
 }
 
 th {
-	padding: $small $regular-less;
+	padding: root.$small root.$regular-less;
 	position: sticky;
 	top: 0;
 	background: var(--background);
@@ -458,15 +441,15 @@ th {
 
 td {
 	font-size: .8em;
-	padding: $tiny $small;
+	padding: root.$tiny root.$small;
 }
 
 .table {
 	max-height: 90vh;
 	overflow: scroll;
-	margin: $height 3vw;
+	margin: root.$height 3vw;
 	border: 3px solid var(--text);
-	border-radius: $radius-l;
+	border-radius: root.$radius-l;
 	box-shadow: var(--shadow);
 	table {
 		width: 100%;
@@ -485,19 +468,19 @@ table {
 	h1 {
 		color: #FFF;
 		font-weight: 800;
-		margin: 0 $small $bigger;
+		margin: 0 root.$small root.$bigger;
 		text-shadow: 2px 2px 5px #11305B33;
 		background: var(--red);
 		border: 5px solid #FFF;
 		padding: 1vw 3vw;
 		box-shadow: var(--shadow);
-		border-radius: $radius-l;
+		border-radius: root.$radius-l;
 		animation: pulse 1s infinite;
 	}
 	.button {
 		color: #FFF;
 		background: var(--dark-blue);
-		margin: $tiny $regular-less;
+		margin: root.$tiny root.$regular-less;
 	}
 }
 
@@ -546,7 +529,7 @@ table {
 img {
 	max-width: 100%;
 	display: block;
-	border-radius: $radius-l;
+	border-radius: root.$radius-l;
 	h2 &,
 	h3 & {
 		margin: auto;
@@ -556,7 +539,7 @@ img {
 	}
 	& + h2,
 	& + h3 {
-		margin-top: $regular-more;
+		margin-top: root.$regular-more;
 	}
 }
 
@@ -568,17 +551,17 @@ figure {
 		margin: 0 auto;
 	}
 	& + figure {
-		margin-top: $bigger;
+		margin-top: root.$bigger;
 	}
 	& + figure.column {
-		margin: 0 0 0 $big;
+		margin: 0 0 0 root.$big;
 		width: calc(50% - 1.6rem);
 	}
 }
 
 figcaption {
-	font: $regular var(--font-serif);
-	margin: $regular-less 10% 0;
+	font: root.$regular var(--font-serif);
+	margin: root.$regular-less 10% 0;
 	color: var(--other-grey);
 	text-align: center;
 }
@@ -675,25 +658,25 @@ b {
 .large {
 	margin: 0 3vw;
 	&.grid {
-		margin: $big 3vw;
+		margin: root.$big 3vw;
 	}
 }
 
 article {
 	position: relative;
-	font-size: $regular-more;
-	margin: $big 15vh;
+	font-size: root.$regular-more;
+	margin: root.$big 15vh;
 	h2, h3 {
 		margin: revert;
 	}
 	> .box {
-		margin: $bigger 0;
+		margin: root.$bigger 0;
 	}
 }
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
-	transition: $quicktrans;
+	transition: root.$trans-quick;
 	line-height: 1;
 	hyphens: none;
 	margin: 0;
@@ -708,11 +691,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-	font-size: $twice;
+	font-size: root.$twice;
 }
 
 h1 {
-	font-size: $mastodon;
+	font-size: root.$mega;
 	color: var(--text);
 	text-align: center;
 	margin: 8vh 3vw 0;
@@ -723,14 +706,14 @@ h1 {
 }
 
 h2 {
-	font-size: $bigger;
+	font-size: root.$bigger;
 	.anchor::after {
 		content: '##';
 	}
 }
 
 h3 {
-	font-size: $big;
+	font-size: root.$big;
 	.anchor::after {
 		content: '###';
 	}
@@ -745,13 +728,13 @@ h4 {
 	background: var(--background);
 	max-width: 100%;
 	color: var(--text);
-	padding: $big;
-	margin: $regular-less 3%;
-	border-radius: $radius-l;
+	padding: root.$big;
+	margin: root.$regular-less 3%;
+	border-radius: root.$radius-l;
 	box-shadow: var(--shadow);
 	&.little {
-		border-radius: $radius-m;
-		padding: $small;
+		border-radius: root.$radius-m;
+		padding: root.$small;
 		background: var(--primary);
 		margin: 2vw;
 		a {
@@ -770,12 +753,12 @@ h4 {
 		margin: 0;
 	}
 	.written.button:not(.tiny) {
-		margin: $regular-more $small;
+		margin: root.$regular-more root.$small;
 	}
 	img {
 		& + h2,
 		& + h3 {
-			margin-top: $small;
+			margin-top: root.$small;
 		}
 	}
 }
@@ -789,7 +772,7 @@ h4 {
 }
 
 .tags {
-	padding: $small $tiny;
+	padding: root.$small root.$tiny;
 	h2 {
 		a {
 			color: var(--text);
@@ -804,7 +787,7 @@ h4 {
 }
 
 #lang-filter {
-	font-size: $bigger;
+	font-size: root.$bigger;
 }
 
 #toc {
@@ -848,7 +831,7 @@ h4 {
 
 .excerpt {
 	display: block;
-	margin: $small 10%;
+	margin: root.$small 10%;
 	font: italic .85em var(--font-sans);
 	line-height: 1.5em;
 }
@@ -860,14 +843,14 @@ h4 {
 
 .footnotes {
 	font-size: .8em;
-	margin-top: $height;
+	margin-top: root.$height;
 }
 
 footer {
 	background: var(--background);
-	padding: $big;
-	margin: $bigger 3%;
-	border-radius: $radius-l;
+	padding: root.$big;
+	margin: root.$bigger 3%;
+	border-radius: root.$radius-l;
 	box-shadow: var(--shadow);
 	p a {
 		color: var(--primary) !important;
@@ -887,26 +870,26 @@ audio,
 .controlBar {
 	width: 100%;
 	box-shadow: var(--shadow);
-	border-radius: $radius-m;
+	border-radius: root.$radius-m;
 }
 
 svg.button,
 img.button {
-	height: $height;
+	height: root.$height;
 	width: auto;
 	padding: .35rem;
-	margin: $tiny;
+	margin: root.$tiny;
 	background: var(--primary);
 }
 
 button,
 .button {
 	display: inline-block;
-	padding: $small $regular;
-	font-size: $bigger;
+	padding: root.$small root.$regular;
+	font-size: root.$bigger;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-radius: $radius-m;
+	border-radius: root.$radius-m;
 	box-shadow: var(--button-shadow);
 	text-align: center;
 	hyphens: none;
@@ -930,16 +913,16 @@ button,
 }
 
 .smaller {
-	padding: $tiny $regular-less;
-	margin: $tiny;
-	font-size: $big;
-	border-radius: $radius-s;
+	padding: root.$tiny root.$regular-less;
+	margin: root.$tiny;
+	font-size: root.$big;
+	border-radius: root.$radius-s;
 }
 
 .tiny {
-	padding: 1px $small;
-	margin: $tiny;
-	font-size: $regular-less;
+	padding: 1px root.$small;
+	margin: root.$tiny;
+	font-size: root.$regular-less;
 	border-radius: 4px;
 }
 
@@ -949,7 +932,7 @@ button,
 		margin: auto !important;
 		box-shadow: var(--shadow) !important;
 		article & {
-			border-radius: $radius-l !important;
+			border-radius: root.$radius-l !important;
 		}
 	}
 }
@@ -979,8 +962,8 @@ button,
 
 .tag {
 	h2 {
-		border-radius: $radius-m;
-		padding: $small;
+		border-radius: root.$radius-m;
+		padding: root.$small;
 	}
 	p {
 		text-align: center;
@@ -1056,13 +1039,13 @@ button,
 		margin: 0;
 	}
 	article {
-		margin: $regular 3vw;
+		margin: root.$regular 3vw;
 	}
 	section h1 {
-		font-size: $height;
+		font-size: root.$height;
 	}
 	.stuff-logo {
-		margin-top: $bigger
+		margin-top: root.$bigger
 	}
 	.line {
 		width: 20%;
@@ -1085,7 +1068,7 @@ button,
 		overflow-x: scroll;
 		-ms-overflow-style: none;
 		a {
-			margin-right: $small;
+			margin-right: root.$small;
 		}
 	}
 	#help {
@@ -1094,7 +1077,7 @@ button,
 	.box .column {
 		& + .column h2,
 		& + .column h3 {
-			margin-top: $regular-more;
+			margin-top: root.$regular-more;
 		}
 	}
 	footer {
@@ -1117,7 +1100,7 @@ button,
 	.box .column {
 		p,
 		li {
-			margin: $regular 10%;
+			margin: root.$regular 10%;
 		}
 	}
 	ul.two,

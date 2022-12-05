@@ -1,15 +1,6 @@
-@use 'parts/inter';
+@use 'fonts/inter';
 @use 'parts/root';
-@use 'parts/eb-garamond';
-
-$tiny: .2rem;
-$small: .5rem;
-$regular: 1.1rem;
-$bigger: 1.8rem;
-$radius-s: .4rem;
-$radius-m: .6rem;
-$radius-l: 1rem;
-$trans: .5s ease-out;
+@use 'fonts/eb-garamond';
 
 html, body, .app-container {
 	scroll-behavior: smooth;
@@ -18,7 +9,7 @@ html, body, .app-container {
 	color: var(--text) !important;
 	overflow-wrap: break-word;
 	hyphens: auto;
-	font: $regular var(--font-sans);
+	font: root.$regular var(--font-sans);
 
 	--background: var(--black-ish);
 	--text: var(--white);
@@ -39,7 +30,7 @@ html, body, .app-container {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: $trans;
+	transition: root.$trans;
 
 }
 
@@ -68,7 +59,7 @@ html, body, .app-container {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 
-		transition: $trans;
+		transition: root.$trans;
 	}
 }
 
@@ -91,7 +82,7 @@ h2 {
 	margin-top: 8vh;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: $bigger !important;
+	font-size: root.$bigger !important;
 }
 
 form {
@@ -99,14 +90,14 @@ form {
 }
 
 input[type="email"] {
-	line-height: $bigger;
+	line-height: root.$bigger;
 	border: none !important;
 	background: var(--background);
 	color: var(--text);
-	border-radius: $radius-s !important;
+	border-radius: root.$radius-s !important;
 	box-shadow: var(--inner-shadow);
-	padding: $small $regular;
-	font-size: $bigger;
+	padding: root.$small root.$regular;
+	font-size: root.$bigger;
 	&::placeholder {
 		color: var(--other-grey);
 	}
@@ -115,7 +106,7 @@ input[type="email"] {
 button, .share-network-facebook, .share-network-twitter, .share-network-email {
 	color: var(--black-ish) !important;
 	text-transform: uppercase;
-	border-radius: $radius-m !important;
+	border-radius: root.$radius-m !important;
 	box-shadow: var(--button-shadow);
 	margin-bottom: 9vh !important;
 	font-weight: 800;

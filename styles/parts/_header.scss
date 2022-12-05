@@ -1,25 +1,10 @@
-$tiny: .2rem;
-$small: .5rem;
-$regular-less: .9rem;
-$regular: 1.1rem;
-$regular-more: 1.3rem;
-$regular-more-em: 1.3em;
-$big: 1.6rem;
-$bigger: 1.8rem;
-$twice: 2.2rem;
-$height: 3.1rem;
-$mastodon: 4rem;
-$radius-s: .4rem;
-$radius-m: .6rem;
-$radius-l: 1rem;
-$trans: .5s ease-out;
-$quicktrans: .1s ease-in-out;
+@use 'parts/root';
 
 header {
-	height: $mastodon;
+	height: root.$mega;
 	text-transform: uppercase;
 	* {
-		border-radius: $radius-m;
+		border-radius: root.$radius-m;
 		list-style-type: none !important;
 		font-weight: 700 !important;
 		z-index: 9;
@@ -30,9 +15,9 @@ header {
 	position: fixed;
 	top: 1.5vw;
 	left: 5vw;
-	padding: 0 $regular-less;
-	line-height: $height; 
-	font-size: $bigger;
+	padding: 0 root.$regular-less;
+	line-height: root.$height; 
+	font-size: root.$bigger;
 	color: var(--black-ish);
 	background: var(--yellow);
 	box-shadow: var(--shadow);
@@ -75,7 +60,7 @@ header {
 	top: 1.5vw;
 	right: 6vw;
 	text-align: right;
-	padding: 0 $small;
+	padding: 0 root.$small;
 	box-shadow: var(--shadow);
 	background: var(--background);
 	* {
@@ -90,10 +75,10 @@ header {
 			label {
 				display: block;
 				color: var(--text) !important;
-				line-height: $height;
-				height: $height;
-				padding: 0 $small;
-				font-size: $regular-more;
+				line-height: root.$height;
+				height: root.$height;
+				padding: 0 root.$small;
+				font-size: root.$regular-more;
 				font-weight: 700;
 				&::after {
 					content: none;
@@ -129,8 +114,8 @@ header {
 
 #nav-toggle-button {
 	display: none;
-	height: $height;
-	width: $height;
+	height: root.$height;
+	width: root.$height;
 	position: fixed;
 	bottom: calc(3vh + .5rem);
 	right: calc(6vw + 3.5rem);
@@ -151,8 +136,8 @@ header {
 		display: block;
 		content: '';
 		box-shadow: var(--little-shadow);
-		border-radius: $radius-s !important;
- 		transition: $quicktrans;
+		border-radius: root.$radius-s !important;
+ 		transition: root.$trans-quick;
 	}
 	span::before {
 		top: .65rem;
@@ -204,7 +189,7 @@ header {
 		}
 		a,
 		label {
-			padding: 0 $regular-more;
+			padding: 0 root.$regular-more;
 		}
 	}
 }

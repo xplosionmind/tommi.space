@@ -1,5 +1,4 @@
 const fs = require('fs');
-const miniHtml = require('html-minifier');
 const _ = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
@@ -93,10 +92,6 @@ module.exports = function(eleventyConfig) {
 			});
 	});
 
-
-	// Scss //
-	eleventyConfig.addWatchTarget('styles');
-	eleventyConfig.addPassthroughCopy({'styles': '/'});
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy('js');
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
@@ -138,6 +133,16 @@ module.exports = function(eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
+	eleventyConfig.addPlugin(require('eleventy-sass'), {
+		compileOptions: {
+			permalink: function(contents, inputPath) {
+				return (data) => data.page.filePathStem.replace(/^\/styles\//, '/') + '.css';
+			}
+		},
+		sass: {
+			style: 'compressed'
+		}
+	});
 	eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
 	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
 		baseUrl: 'assets/svg/'
@@ -152,11 +157,6 @@ module.exports = function(eleventyConfig) {
 		},
 		lastModifiedProperty: 'updated'
 	});
-
-	// Production-only //
-	if (process.env.ELEVENTY_ENV == 'production') {
-		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
-	}
 
 	// Filters //
 	eleventyConfig.addFilter('reverse', (collection) => {
@@ -173,20 +173,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
 
 	 // Minify output //
-	eleventyConfig.addTransform('miniHtml', function(content, outputPath) {
-		if( this.outputPath && this.outputPath.endsWith('.html') ) {
-			let minified = miniHtml.minify(content, {
-				useShortDoctype: true,
-				removeComments: true,
-				collapseWhitespace: true,
-				minifyCSS: true,
-				minifyJS: true,
-				minifyURLs: true
-			});
-			return minified;
-		}
-		return content;
-	});
+
 
 	// 404 //
 	eleventyConfig.setBrowserSyncConfig({
@@ -201,6 +188,28 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
+
+	// Production-only //
+	if (process.env.ELEVENTY_ENV == 'production') {
+		eleventyConfig.addTransform(require('html-minifier'), function(content, outputPath) {
+			if( this.outputPath && this.outputPath.endsWith('.html') ) {
+				let minified = miniHtml.minify(content, {
+					useShortDoctype: true,
+					removeComments: true,
+					collapseWhitespace: true,
+					minifyCSS: true,
+					minifyJS: {
+						warnings: true,
+						expression: true,
+					},
+					minifyURLs: true
+				});
+				return minified;
+			}
+			return content;
+		});
+		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
+	}
 
 	return {
 		dir: {

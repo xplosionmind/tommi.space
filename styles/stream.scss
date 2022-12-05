@@ -1,22 +1,5 @@
 @use 'parts/root';
-@use 'parts/inter';
-
-$tiny: .2rem;
-$small: .5rem;
-$regular-less: .9rem;
-$regular: 1.1rem;
-$regular-more: 1.3rem;
-$regular-more-em: 1.3em;
-$big: 1.6rem;
-$bigger: 1.8rem;
-$twice: 2.2rem;
-$height: 3.1rem;
-$mastodon: 4rem;
-$radius-s: .4rem;
-$radius-m: .6rem;
-$radius-l: 1rem;
-$trans: .5s ease-out;
-$quicktrans: .1s ease-in-out;
+@use 'fonts/inter';
 
 /* STYLING FOR https://stream.tommi.space */
 
@@ -47,7 +30,7 @@ body {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: $trans;
+	transition: root.$trans;
 
 }
 
@@ -70,7 +53,7 @@ body {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 
-		transition: $trans;
+		transition: root.$trans;
 	}
 }
 
@@ -112,13 +95,13 @@ a,
 .column-header {
 	background: var(--deep);
 	color: var(--color);
-	border-radius: $radius-m;
+	border-radius: root.$radius-m;
 }
 
 .drawer--header {
 	background: var(--primary);
 	box-shadow: var(--shadow);
-	border-radius: $radius-m;
+	border-radius: root.$radius-m;
 	& > * {
 		color: var(--black-ish);
 	}
