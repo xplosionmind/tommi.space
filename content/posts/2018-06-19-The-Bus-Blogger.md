@@ -3,7 +3,6 @@ title: The Bus Blogger
 date: 2018-06-19
 tags: radioimmaginaria
 image: /2018-06-19-the-bus-blogger.jpg
-redirect_from: [/bus-blogging/]
 ---
 Chi non conosce o almeno una volta nella vita non vuole fare un giro sui mitici **bus <em lang='en'>double-deck</em>** (a due piani) di Londra? Allora tenetevi forte, perché questi mezzi caratteristici stanno diventando sempre più avanzati e soprattutto ecocompatibili!
 
