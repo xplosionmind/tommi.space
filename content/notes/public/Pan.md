@@ -1,6 +1,6 @@
 ---
 date: 2022-08-27T09:50:40+02:00
-updated: 2022-11-26T01:37:07+01:00
+updated: 2022-12-06T08:08:33+01:00
 tags: geek
 redirect_from: /pan.rent/
 image: https://x.scambi.org/illustrations/pan.webp
@@ -66,3 +66,15 @@ While looking for affordable domains with `pan.*`, I stumbled upon `pan.rent`, a
 - Asking 1€/month (12€/year at subscription time) for each user?
 - Involving people who already know me or each other, or making a sort of open call, then making interviews to interested people?
 - Open call for graphics and design?
+
+## Resources
+
+### About
+
+List of insightful information about other instances:
+
+- [chaos.social](https://github.com/chaossocial 'chaossocial GitHub profile')
+
+### Block lists
+
+- [ chaos.social blocked instances](https://github.com/chaossocial/about/blob/master/blocked_instances.md 'chaos.social blocked instances')
