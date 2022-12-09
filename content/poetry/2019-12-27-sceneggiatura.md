@@ -1,7 +1,6 @@
 ---
 title: sceneggiatura
 date: 2019-12-27
-lang: it
 ---
 Avevo cominciato a lavorare a una sceneggiatura…  
 mi dice Vlad seduto al mio fianco a un tavolino del cubo  

@@ -1,12 +1,19 @@
----
-layout: vuoto
----
-<h2>{{ title }}</h2>
-<article class='serif'>
-	{{ content }}
-</article>
-{% if lang == 'it' %}
-	<a class='tool' href='/pasticci' title='Tutte le poesie'>indietro</a>
-{% else %}
-	<a class='tool' href='/poetry' title='All of the poems'>back</a>
-{% endif %}
+<!DOCTYPE html>
+<html lang='{% if lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'>
+
+	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
+
+	<body>
+		<main class='{{ class }}'>
+			<h1>{{ title }}</h1>
+			<article class='serif'>
+				{{ content }}
+			</article>
+			{% if lang == 'it' %}
+				<a class='tool' href='/pasticci' title='Tutte le poesie'>indietro</a>
+			{% else %}
+				<a class='tool' href='/poetry' title='All of the poems'>back</a>
+			{% endif %}
+		</main>
+	</body>
+</html>

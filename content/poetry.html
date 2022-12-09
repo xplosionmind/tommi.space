@@ -4,14 +4,14 @@ redirect_from: [/poetry-selection/,/fake-poetry/,/fakepoetry/]
 lang: en
 ref: poetry
 layout: vuoto
-class: poetry
+class: poetry center
 description: A collection of wonderful failures of my foolish attempt at drawing images with my words you are invited to laugh at
 sitemap:
   changefreq: monthly
 	priority: 0.6
 ---
-<h1>{{ title }}</h1>
-<article class='center serif'>
+<h1 style='text-align:center'>{{ title }}</h1>
+<article class='serif'>
 	<p class='one'>{{ description }}</p>
 	<ul class='one'>{% for poem in collections.poetry %}
 		<li><a href='{{ poem.url }}' title='{{ poem.data.title }}'>{{ poem.data.title }}</a></li>

@@ -1,7 +1,6 @@
 ---
-title: "serrature mancate"
+title: serrature mancate
 date: 2019-10-12
-lang: it
 bella: true
 ---
 vorrei tanto conoscere  

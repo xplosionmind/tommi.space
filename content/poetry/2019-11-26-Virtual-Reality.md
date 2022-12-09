@@ -1,5 +1,5 @@
 ---
-title: "Virtual Reality"
+title: Virtual Reality
 date: 2019-11-26
 bella: true
 lang: it

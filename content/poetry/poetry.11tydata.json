@@ -1,6 +1,7 @@
 {
 	"layout": "poem",
 	"class": "poetry",
+	"lang": "it",
 	"sitemap": {
 		"changefreq": "never"
 	}
