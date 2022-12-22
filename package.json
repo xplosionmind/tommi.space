@@ -215,7 +215,7 @@
     "kind-of": "^6.0.3",
     "limiter": "^2.1.0",
     "linkify-it": "^3.0.3",
-    "liquidjs": "^9.36.0",
+    "liquidjs": "^10.0.0",
     "localtunnel": "^2.0.2",
     "locate-path": "^7.1.0",
     "lodash.isfinite": "^3.3.2",
