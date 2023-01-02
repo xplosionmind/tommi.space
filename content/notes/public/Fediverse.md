@@ -1,6 +1,6 @@
 ---
 date: 2022-10-15T11:31:43+02:00
-updated: 2022-11-25T21:27:47+01:00
+updated: 2022-12-21T11:39:55+01:00
 tags:
   - geek
   - fediverse
@@ -66,6 +66,8 @@ Some random links I need to select, sort and analyze
 - [Why I’m excited about decentralized social networks](https://tinysubversions.com/notes/decentralized-social-networks), by [Darius Kazemi](https://friend.camp/@darius 'Darius on friend.camp')
 - [Debirdify](https://debirdify.pruvisto.org)
 - [Mastodon’s Moment – The Markup](https://themarkup.org/newsletter/hello-world/mastodons-moment)
+- Using iOS and looking for the best app? Check out [this comparison spreadsheet](https://docs.google.com/spreadsheets/d/1De5KRwqMIdwEryfoeBLARgxF7QgKkeOQBCilKuIdAXE/htmlview# 'Mastodon apps feature comparison - Google Drive')
+- [Making ActivityPub Your Social Media Hub for Mastodon and Other Decentralized Services](https://www.macstories.net/stories/making-activitypub-your-social-media-hub-for-mastodon-and-other-decentralized-services) - MacStories
 
 ## <cite>Pan</cite>
 

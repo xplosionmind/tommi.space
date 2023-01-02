@@ -1,14 +1,12 @@
 ---
 date: 2021-03-29T05:44:07+02:00
-updated: 2022-11-28T10:43:41+01:00
+updated: 2022-12-29T16:02:19+01:00
 tags: geek/apps
 description: Cheat sheet and useful information to use ExifTool
 ---
 [ExifTool](https://exiftool.org 'ExifTool') is the most common and used software to handle file metadata, specifically image information.
 
-## Cheat Sheet
-
-### Show metadata
+## Show metadata
 
 ```bash
 exiftool -s -G filename.jpg
@@ -18,13 +16,13 @@ where:
 - **`-s`** is used to show the names in ExifTool commands format. *e.g.: instead of <q>Create Date</q> you see `CreateDate`*
 - **`-G`** is used to show the metadata Group to which the metadata tag belongs.
 
-### Show dates
+## Show dates
 
 ```bash
 exiftool -AllDates filename.jpg
 ```
 
-### Strip metadata
+## Strip metadata
 
 Removing all metadata from all files in pwd
 
@@ -32,7 +30,7 @@ Removing all metadata from all files in pwd
 exiftool -all= ./* #filename.jpg
 ```
 
-### Renaming according to original date
+## Renaming according to original date
 
 Rename all files in pwd, according to the time and time they were shot
 
@@ -49,7 +47,21 @@ where:
 
 During the file renaming process, the leftmost values are overwritten by the rightmost ones. Therefore, if a file both has `CreateDate` and `DateTimeOriginal`, the latter will overwrite the former. This is so in order to prioritize most reliable date values, as discussed in [this thread](https://exiftool.org/forum/index.php?topic=12325.0 'Dates data accuracy hierarchy - ExifTool Forum') in the ExifTool forum.
 
-### Directories
+## Shift dates
+
+See [ExifTool Date/Time Shift Module](https://exiftool.org/Shift.html 'ExifTool Date/Time Shift Module').
+
+```bash
+exiftool "-AllDates+=6:11:26 21:20:0" ./* # years:months:days hours:minutes:seconds
+```
+
+## Geotagging
+
+```bash
+exiftool -GPSLatitude=43.819027 -GPSLatitudeRef=43.819027 -GPSLongitude=7.774179  -GPSLongitudeRef=7.774179 -overwrite_original
+```
+
+## Directories
 
 Organize files in directories based on each image’s dimensions (resolution)
 
@@ -65,5 +77,5 @@ exiftool '-Directory<CreateDate' '-Directory<GPSDateTime' '-Directory<DateTimeOr
 
 ## Resources
 
-- [ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html 'ExifTool commands - 9° Below'), by [9° Below](https://ninedegreesbelow.com "Nine Degrees Below")
+- [ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html 'ExifTool commands - 9° Below'), by [9° Below](https://ninedegreesbelow.com 'Nine Degrees Below')
 - [ExifTool official documentation](https://exiftool.org/exiftool_pod.html 'exiftool Application Documentation')

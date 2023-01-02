@@ -1,6 +1,6 @@
 ---
 date: 2022-05-19T19:14:54+02:00
-updated: 2022-11-21T16:30:06+01:00
+updated: 2022-12-24T10:30:37+01:00
 title: Thesis notes
 tags:
   - uni
@@ -31,6 +31,7 @@ Some random inputs:
 - see [[Logic and Philosophy of Science II#The notion of Rationality in Economics]]: social media do not necessarily influence preferences, but completeness.
 - from [[Political Philosophy I]]: ask to Azzolini for insights concerning Weber’s position in light of <q>surveillance based on mathematical calculus which is extending in more and more spheres of society</q>
 - Technocratic degeneration of society
+- Consider the effects related to PA and public digital infrastructures
 
 ## Title
 
