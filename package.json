@@ -220,7 +220,7 @@
     "locate-path": "^7.1.0",
     "lodash.isfinite": "^3.3.2",
     "lru-cache": "^7.7.1",
-    "luxon": "^2.3.1",
+    "luxon": "^2.5.2",
     "map-cache": "^0.2.2",
     "maximatch": "^0.1.0",
     "mdurl": "^1.0.1",
