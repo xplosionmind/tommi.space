@@ -4,7 +4,7 @@ title: Privacy
 ref: privacy
 lang: en
 redirect_from: [/privacy-policy/, /privacypolicy/]
-layout: page
+layout: page.html
 description: Privacy Policy of tommi.space
 sitemap:
   changefreq: yearly

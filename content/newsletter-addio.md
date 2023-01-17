@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: full.html
 title: Addio…
 link: /tuffo/
 description: Ti sei disiscrittə con successo a Parole Sconnesse, la pseudo-newsletter di Tommi

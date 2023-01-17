@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: full.html
 title: Sei iscrittə!
 link: /tuffo/
 peremalink: /newsletter-iscritt/

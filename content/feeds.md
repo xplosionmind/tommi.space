@@ -1,7 +1,7 @@
 ---
 title: Feeds
 permalink: /feeds/
-layout: page
+layout: page.html
 ref: feeds
 description: All of tommi.space feeds
 ---

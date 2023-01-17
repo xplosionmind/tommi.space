@@ -5,9 +5,11 @@ lang: en
 ref: Zibaldone
 description: Things getting out of Tommi’s head, in the form of articles
 type: CollectionPage
+eleventyImport:
+  collections: ['posts']
 sitemap:
   priority: 0.8
-	changefreq: monthly
+  changefreq: monthly
 ---
 <section class='center row'>
 	<h1>{{ title }}</h1>
@@ -36,7 +38,7 @@ sitemap:
 					{% if entry.data.description %}
 						{{ entry.data.description | markdownify | strip_html }}
 					{% comment %}#upstream #bug{% else %}
-						{{ entry.templateContent | strip_html | truncatewords: 30 }}{% endcomment %}
+						{{ entry.content | strip_html | truncatewords: 30 }}{% endcomment %}
 					{% endif %}
 				</cite>
 				{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}

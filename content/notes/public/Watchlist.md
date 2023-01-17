@@ -6,7 +6,7 @@ tags:
   - log
 description: |
   Log of movies I intend to watch, parsed from <a href='https://github.com/xplosionmind/data/blob/main/watchlist.csv' title='watchlist.csv in xplosionmind/data on GitHub'>this source file</a>. Temporary solution until <a href='/moviewyrm' target='_blank' title='Moviewyrm - tommi.space'>Moviewyrm</a> becomes true.
-layout: large
+layout: large.html
 toc: false
 ---
 {% assign watchlist = watchlist | sort: 'added' | reverse %}

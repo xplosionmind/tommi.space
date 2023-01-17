@@ -2,7 +2,7 @@
 title: Feed
 permalink: /feed/
 redirect_from: [/feeds-it/,/feed-it/,/it/feeds/,/it/feed/]
-layout: page
+layout: page.html
 ref: feeds
 lang: it
 description: Tutti i feed di Tommi

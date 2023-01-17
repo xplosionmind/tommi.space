@@ -92,6 +92,7 @@ module.exports = function(eleventyConfig) {
 			});
 	});
 
+	eleventyConfig.setServerPassthroughCopyBehavior('copy');
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy('js');
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
@@ -99,7 +100,6 @@ module.exports = function(eleventyConfig) {
 	// Plugins //
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
-	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-schema'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 	eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
 		url: 'https://tommi.space',
@@ -173,21 +173,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
 
 	 // Minify output //
-
-
-	// 404 //
-	eleventyConfig.setBrowserSyncConfig({
-		callbacks: {
-			ready: function(err, bs) {
-				bs.addMiddleware('*', (req, res) => {
-					const content_404 = fs.readFileSync('www/404.html');
-					res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
-					res.write(content_404);
-					res.end();
-				});
-			}
-		}
-	});
 
 	// Production-only //
 	if (process.env.ELEVENTY_ENV == 'production') {

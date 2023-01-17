@@ -50,7 +50,7 @@ altUrl: https://sconnesso.link
 					type='audio/{%- if episode.data.format == 'mpeg' -%}mpeg{%- else -%}{{ episode.data.format }}{%- endif -%}'
 				/>
 				<description>
-					<![CDATA[{{ episode.templateContent | markdownify | strip_newlines }}]]>
+					<![CDATA[{{ episode.content | markdownify | strip_newlines }}]]>
 				</description>
 			</item>
 		{% endfor %}

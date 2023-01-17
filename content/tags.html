@@ -1,8 +1,9 @@
 ---
 title: The tags bible
 lang: en
-layout: default
+layout: default.html
 description: Every topic, every recurrency, anything you need to find can be found somewhere in this page.
+eleventyExcludeFromCollections: true
 ---
 {% for tag in site.tags %}{% if tag.url == null %}
 	<div class='row'>

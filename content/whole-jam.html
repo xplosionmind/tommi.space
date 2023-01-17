@@ -2,11 +2,11 @@
 title: The whole Jam
 description: Every single ingredient of <cite>The Jam</cite>
 redirect_from: [/tutta-la-marmellata/,/tutta-marmellata/,/the-whole-jam/,/wholejam/,/whole-jar/,/wholejar/,/the-whole-jar/]
-layout: large
+layout: large.html
 type: CollectionPage
 sitemap:
   priority: 0.6
-	changefreq: weekly
+  changefreq: weekly
 ---
 <div class='row'>
 	<div class='one-third column'>
@@ -24,7 +24,7 @@ sitemap:
 				{% if note.data.description %}
 					<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
 				{% comment %}#upstream #bug{% else %}
-					<p>{{ note.templateContent | strip_html | truncatewords: 30 }}</p>{% endcomment %}
+					<p>{{ note.content | strip_html | truncatewords: 30 }}</p>{% endcomment %}
 				{% endif %}
 				{% render 'entry-tags.html', tags: note.data.tags, site: site, size: 'tiny' %}
 			</div>

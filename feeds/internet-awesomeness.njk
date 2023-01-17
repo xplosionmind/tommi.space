@@ -9,24 +9,24 @@ todo:
 ---
 <?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'>
-  <title>{{ title }}</title>
-  <subtitle>{{ subtitle }}</subtitle>
-  <link href='https://tommi.space{{ page.url }}' rel='self'/>
-  <link href='{{ altUrl }}' rel='alternate'/>
-  <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-  <id>{{ altUrl }}</id>
-  <author>
-    <name>{{ author.name }}</name>
-    <email>{{ author.email }}</email>
-  </author>
-  {%- for entry in internetawesomeness %}
-  {% set absolutePostUrl %}{{ entry.url | url | absoluteUrl(metadata.url) }}{% endset %}
-  <entry>
-    <title>{{ entry.title }}</title>
-    <link href='{{ absolutePostUrl }}'/>
-    {% if entry.added != '' %}<updated>{{ entry.added }}</updated>{% endif %}
-    <id>{{ absolutePostUrl }}</id>
-    <content type='html'>{{ entry.description | markdownify | escape }}</content>
-  </entry>
-  {%- endfor %}
+	<title>{{ title }}</title>
+	<subtitle>{{ subtitle }}</subtitle>
+	<link href='https://tommi.space{{ page.url }}' rel='self'/>
+	<link href='{{ altUrl }}' rel='alternate'/>
+	<updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+	<id>{{ altUrl }}</id>
+	<author>
+		<name>{{ author.name }}</name>
+		<email>{{ author.email }}</email>
+	</author>
+	{%- for entry in internetawesomeness %}
+	{%- set absolutePostUrl = entry.url | absoluteUrl(metadata.url) %}
+	<entry>
+		<title>{{ entry.title }}</title>
+		<link href='{{ absolutePostUrl }}'/>
+		{% if entry.added != '' %}<updated>{{ entry.added }}</updated>{% endif %}
+		<id>{{ absolutePostUrl }}</id>
+		<content type='html'>{{ entry.description | markdownify | escape }}</content>
+	</entry>
+	{%- endfor %}
 </feed>

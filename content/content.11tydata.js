@@ -7,7 +7,7 @@ function caselessCompare(a, b) {
 module.exports = {
 	permalink: '/{{ page.fileSlug | replace: " ", "-" }}/',
 	lang: 'en',
-	layout: 'wrapper',
+	layout: 'wrapper.html',
 	image: '/tommi.space.wip.png',
 	// Automatically generating titles, as explained in https://github.com/11ty/eleventy/discussions/2241#discussioncomment-2224265
 	eleventyComputed: {

@@ -5,7 +5,7 @@ ref: privacy
 lang: it
 description: La Privacy Policy di tommi.space
 redirect_from: [/privacy/it/, /it/privacy/]
-layout: page
+layout: page.html
 sitemap:
   changefreq: yearly
 	priority: 0.2
