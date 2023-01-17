@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2023-01-12T19:58:56+01:00
+updated: 2023-01-17T21:52:28+01:00
 tags: [geek, todo, geek/idea]
 description: Computer related tasks tracking
 ---
@@ -14,6 +14,7 @@ description: Computer related tasks tracking
 	- see calendar and pictures history
 1. Use Samsung tablet as graphic table
 1. Scambi Festival 2022 + LNS 2023 videos upload on Internet Archive
+2. https://github.com/MichaelMure/git-bug
 2. Italian specific section of Gemini website, then publish it on gemini://gemini.iosa.it/tina
 3. [Alacritty features](https://github.com/alacritty/alacritty/blob/master/docs/features.md)
 4. [ohmyzsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
