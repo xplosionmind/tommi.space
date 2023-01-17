@@ -20,17 +20,17 @@ lang: en
 	"language": "en",
 	"items": [{% for entry in collections.jam %}
 	{
-		{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+		{%- set absolutePostUrl = entry.url | absoluteUrl(metadata.url) %}
 		"id": "{{ absolutePostUrl }}",
 		"url": "{{ absolutePostUrl }}",
 		"title": {{ entry.data.title | dump | safe }},
-		"content_html": {{ entry.templateContent | dump | safe }},
-		"content_text": {{ entry.templateContent | striptags(true) | dump | safe }},
+		"content_html": {{ entry.content | dump | safe }},
+		"content_text": {{ entry.content | striptags(true) | dump | safe }},
 		{%- if entry.data.description %}"summary": {{ entry.data.description | dump | safe }},{% endif -%}
 		"image": {%- if entry.data.image %}"{{ entry.data.image }}"{% else %}"{{ image }}"{% endif -%},
-		"date_published": "{{ page.date | dateToRfc3339 }}",
-		{%- if page.data.updated %}"date_modified": "{{ page.data.updated | dateToRfc3339 }}",{% endif -%}
-		{%- if page.data.tags %}"tags": [{% for tag in entry.data.tags -%}
+		{%- if entry.date %}"date_published": "{{ entry.date | dateToRfc3339 }}",{% endif -%}
+		{%- if entry.data.updated %}"date_modified": "{{ entry.data.updated }}",{% endif -%}
+		{%- if entry.data.tags %}"tags": [{% for tag in entry.data.tags -%}
 		"{{ tag.title }}"{%- if loop.last %}{% else %},{% endif -%}
 		{% endfor -%}
 		],{% endif -%}
