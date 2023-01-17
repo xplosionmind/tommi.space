@@ -3,7 +3,11 @@ title: Home
 permalink: /tuffo/
 redirect-from: [/it/home/, /home-it/, /home/it/]
 lang: it
-ref: home
+alternate:
+  url: /home
+  data:
+    lang: en
+eleventyExcludeFromCollections: true
 sitemap:
   priority: 0.9
 ---
@@ -11,7 +15,7 @@ sitemap:
 	<p class='one column center'>Sei appena entrato in un confuso spazio fluttuante nello sterminato Universo del World Wide Web. Questo luogo è <strong>un perpetuo cantiere</strong> popolato da pensieri, visioni, domande, pseudo-risposte, pseudo-intuizioni, pseudo-podcast, contraddizioni, rappresentazioni di caos e sconclusionati tentativi di riordinarlo.
 	<br>Benvenuto nella <u>rappresentazione virtuale della testa di Tommi</u>.
 	<br>Buon divertimento.</p>
-	</div>
+</div>
 
 {% render 'about.html', lang: lang, site: site %}
 
@@ -24,7 +28,7 @@ sitemap:
 	{% render 'sconnesso.html', sconnesso: sconnesso %}
 </div>
 
-{% render 'latest-post.html', lang: lang, collections: collections %}
+{% render 'latest-post.html', lang: lang, posts: collections.posts %}
 
 <div class='row'>
 	<div class='half column'>
