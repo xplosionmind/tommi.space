@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T11:27:09+02:00
-updated: 2023-01-02T14:27:00+01:00
+updated: 2023-01-17T19:47:05+01:00
 tags: geek
 permalink: /linux/
 redirect_from:
@@ -11,7 +11,6 @@ redirect_from:
 description: Insights, guides, notes and ideas about my ongoing attempt at fully switching to Linux.
 aliases: Linux
 ---
-
 Even though [[Linuxplosion]] runs Linux, specifically Ubuntu, 99,9% of my computer time is spent on a MacBook Pro 13' 2019 running, guess what, MacOS.
 
 Even though I hate everything about the capitalist premises of the company who owns and develops it, **I love MacOS** and to be honest most of my life *depends* on it. Nevertheless, since I hate proprietary software, especially if coming from a huge ugly corporation like Apple, I hope that the day where I will have the strength drop everything and exclusively use Linux will come soon. I would love to avoid consumerism, capitalism and monopolies as much as possible, without compromising stability, performance and reliability.

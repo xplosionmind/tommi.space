@@ -1,19 +1,19 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-12-31T18:47:51+01:00
+updated: 2023-01-12T19:58:56+01:00
 tags: [geek, todo, geek/idea]
 description: Computer related tasks tracking
 ---
-1. Move to Linux https://floss.social/@ademalsasa/109597688986340391
-1. Europass CV URL is not valid anymore
 1. tommi.space build failure
-2. [[Server]] locale error
+1. Europass CV URL is not valid anymore
+1. Move to Linux https://floss.social/@ademalsasa/109597688986340391
 1. Late Night ScambiVerso videos recovery with testdisk
 1. Update TUTTO/cose
 	- Musée de Grenoble
 	- LateNight nello ScambiVerso
 	- see calendar and pictures history
-1. Scambi Festival 2022 videos upload on Internet Archive
+1. Use Samsung tablet as graphic table
+1. Scambi Festival 2022 + LNS 2023 videos upload on Internet Archive
 2. Italian specific section of Gemini website, then publish it on gemini://gemini.iosa.it/tina
 3. [Alacritty features](https://github.com/alacritty/alacritty/blob/master/docs/features.md)
 4. [ohmyzsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
