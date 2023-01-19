@@ -27,18 +27,17 @@
 			<p><a href='/privacy' target='_blank'>Privacy</a>&emsp;&#8729;&emsp;<a href='https://plausible.io/tommi.space' title='Visitors stats'>Visitors</a></p>
 		{% endif %}
 	</div>
-	<div class='row'>
-		<div class='one-third column'>
+	<div class='flex row'>
+		<div class=''>
+			<h4 id='gemini'>♊️ Gemini ♊</h4>
 			{% if lang == 'it' %}
-				<p><small>Eccetto dove diversamente specificato, il codice sorgente e tutti i contenuti originali in questo sito sono protetti dalla licenza <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/deed.it' >Creative Commons Attribution-ShareAlike 4.0 International</a>.</small></p>
+				<p>I miei casini mentali superano i limiti del web convenzionale: tommi.space è navigabile anche <a href='gemini://tommi.space' title='tommi.space su Gemini' rel='alternate' type='text/gemini'>attraverso il protocollo Gemini</a>.</p>
 			{% else %}
-				<p><small>This website’s source code and all of its original contents are licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Attribution-ShareAlike 4.0 International License</a>, except where otherwise specified.</small></p>
+				<p>The wild troubles of my mind encompass the standard web: tommi.space is available also <a href='gemini://tommi.space' title='tommi.space Gemini version' rel='alternate' type='text/gemini'>through the Gemini protocol</a>!</p>
 			{% endif %}
 		</div>
-		<div class='two-thirds column vertical flex' lang='en'>
+		<div class='' lang='en'>
 			<p><a href='https://jeffhuang.com/designed_to_last' title='This Page is Designed to Last - Jeff Huang'>This page was designed to last</a></p>
-			<h4 id='gemini'>♊️ Gemini ♊</h4>
-			<p>The wild troubles of my mind encompass the standard web: tommi.space is available also <a href='gemini://tommi.space' title='tommi.space Gemini version' rel='alternate' type='text/gemini'>through the Gemini protocol</a></p>
 		</div>
 	</div>
 	<div class='row' id='webrings'>
@@ -51,5 +50,12 @@
 		<div class='one-third column'>
 			{% render 'indiewebring.html', lang: lang %}
 		</div>
+	</div>
+	<div class='row'>
+		{% if lang == 'it' %}
+			<small>Eccetto dove diversamente specificato, il codice sorgente e tutti i contenuti originali in questo sito sono protetti dalla licenza <a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/deed.it' >Creative Commons Attribution-ShareAlike 4.0 International</a>.</small>
+		{% else %}
+			<small>This website’s source code and all of its original contents are licensed under a <a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Attribution-ShareAlike 4.0 International License</a>, except where otherwise specified.</small>
+		{% endif %}
 	</div>
 </footer>

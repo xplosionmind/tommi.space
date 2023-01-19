@@ -5,7 +5,7 @@ function caselessCompare(a, b) {
 }
 
 module.exports = {
-	permalink: '/{{ page.fileSlug | replace: " ", "-" | downcase }}/',
+	permalink: '/{{ page.fileSlug | downcase | replace: " ", "-" }}/',
 	lang: 'en',
 	layout: 'wrapper.html',
 	image: '/tommi.space.wip.png',

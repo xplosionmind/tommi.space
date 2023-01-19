@@ -13,8 +13,7 @@ function wikilinkSlugifier(pageName) {
 }
 const markdownIt = require('markdown-it');
 const md = markdownIt({
-	html: true,
-	fence: false
+	html: true
 })
 .use(require('markdown-it-wikilinks')({
 	uriSuffix: '',
@@ -43,7 +42,6 @@ module.exports = function(eleventyConfig) {
 	});
 	eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
 	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '<!--excerpt-->'});
-	eleventyConfig.setQuietMode(true);
 
 	// Collections //
 	eleventyConfig.addCollection('posts', function(collection) {
@@ -99,7 +97,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
 
 	// Plugins //
-	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-directory-output'));
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 	eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
@@ -173,10 +170,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl);
 	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
 
-	 // Minify output //
-
 	// Production-only //
 	if (process.env.ELEVENTY_ENV == 'production') {
+		// Minify output //
 		eleventyConfig.addTransform(require('html-minifier'), function(content, outputPath) {
 			if( this.outputPath && this.outputPath.endsWith('.html') ) {
 				let minified = miniHtml.minify(content, {

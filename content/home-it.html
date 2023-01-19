@@ -62,17 +62,21 @@ sitemap:
 </div>
 
 <div class='row'>
-	<section id='changelog'>
-	<h2 class='center title'>Ultime modifiche</h2>
+	<section id='changelog' class='center'>
+	<h2 class='title'>Ultime modifiche</h2>
 		<div class='large grid'>
 			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
-			{% for entry in recently_updated limit:4 %}
-				<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-					<div class='box'>
-						<h4 class='center'>{{ entry.data.title }}</h4>
-						<p class='center' style='margin: .3rem 0;'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}<time></p>
-					</div>
-				</a>
+			{% assign i = 0 %}
+			{% for entry in recently_updated %}
+				{% if entry.date and entry.data.date and i < 7 %}
+					{% capture i %}{% increment counter %}{% endcapture %}
+					<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+						<div class='box'>
+							<h4>{{ entry.data.title }}</h4>
+							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: entry.data.updated %}</time><time></p>
+						</div>
+					</a>
+				{% endif %}
 			{% endfor %}
 		</div>
 		<div class='flex'>

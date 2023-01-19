@@ -1,12 +1,26 @@
 html {
 	background: linear-gradient(135deg, #9DB5C1, #415462), #415462;
 }
+
+::-webkit-scrollbar-track {
+	background-color: #0000;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #FFF;
+}
+
+* {
+	scrollbar-color: #FFF #0000;
+}
+
 body {
 	font-family: Helvetica, 'Helvetica Neue', 'Inter V', sans-serif;
 	background: none;
 	line-break: loose;
 	cursor: auto; /* CREATE CUSTOM CURSOR */
 	font-weight: lighter;
+	--background: #ECECEC;
 	--text: #415462;
 }
 

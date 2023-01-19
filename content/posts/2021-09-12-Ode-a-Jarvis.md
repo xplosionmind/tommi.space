@@ -33,13 +33,13 @@ Se <a href='/self-editor' target='_blank' title='Being a self editor — tommi.s
 *Jarvis* è fedele e paziente, nonostante talvolta soppiantato dall’attrattivo fascino del tuttavia (va riconosciuto) favoloso [Obsidian](https://obsidian.md 'Obsidian'), che uso per organizzare [*La Marmellata*](/marmellata), su cui registrai dieci mesi fa tutte le note in lui scritte, seppur nel titolo ma non nel contenuto.
 
 <figure>
-	<img class='light' src='https://tommi.space/obsidian-graph.png' alt='Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni' title='il grafico delle mie note su Obsidian'>
+	<img class='light' src='https://tommi.space/obsidian-graph.webp' alt='Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni' title='il grafico delle mie note su Obsidian'>
 	<figcaption>
 		Il grafico che raccoglie tutte le mie note (Università + cose personali + poesie + scritti su carta + appunti veloci)
 	</figcaption>
 </figure>
 <figure>
-	<img class='light' src='https://tommi.space/obsidian-graph-jarvis.png' alt='Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni' title='il grafico su Obsidian delle note di Jarvis'>
+	<img class='light' src='https://tommi.space/obsidian-graph-jarvis.webp' alt='Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni' title='il grafico su Obsidian delle note di Jarvis'>
 	<figcaption>
 		Sob, le note di <em>Jarvis</em> costituiscono una grande parte del <em>La Marmellata</em>
 	</figcaption>
