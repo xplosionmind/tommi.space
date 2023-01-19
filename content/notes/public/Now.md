@@ -1,7 +1,6 @@
 ---
 date: 2020-10-16
 updated: 2022-09-21T12:11:10+02:00
-ref: now
 description: Stuff I am up to in these days
 ref: now
 comments: false

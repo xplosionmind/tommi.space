@@ -6,7 +6,7 @@ tags:
   - things
 image: https://tommi.space/2022-occhiali-sole.webp
 description: La storia della mia ossessione per gli occhiali da sole e tutti i paia che ho utilizzato finora.
-redirect_from: [/occhiali-da-sole/,/occhiali-sole/,/sunglasses/]
+redirect_from: [/occhiali-sole/,/sunglasses/]
 ---
 Ho ereditato da mio papà una forte sensibilità alla luce, quindi raramente sono senza un paio di occhiali da sole addosso. Molti di quelli che non mi conoscono, ne fanno esclusivamente una questione di stile, ma non è del tutto così: c’è una base di necessità.
 

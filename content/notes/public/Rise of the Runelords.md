@@ -8,9 +8,6 @@ image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfind
 ---
 {{ description }}. [Immagini della campagna](https://images.tommi.space/index?/category/rise-of-the-runelords '“Rise of the Runelords„ in Visioni')
 
-<br>
-<br>
-
 ## Risorse utili
 
 - [[Appunti Rise of the Runelords]]
@@ -18,15 +15,9 @@ image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfind
 - [[Storia della Gilda degli Esplosivi]]
 - [[Inventario da vendere]]
 
-<br>
-
-<br>
-
 ## PE
 
 430000 + PE <time>2020.02.21</time> + 8000 del <time>2020.03.05</time> + 19.150 PE <time>2020.03.15</time>
-
-<br>
 
 ### Denaro
 
@@ -36,13 +27,9 @@ image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfind
 | MO     | 26890    |
 | MP     | 2467     |
 
-<br>
-
 ## Capolavori
 
 [AL CUORE DI TUTTO e TEMPO TRIPLO](https://golarion.altervista.org/wiki/Bardo/Capolavori)
-
-<br>
 
 ## in game
 
@@ -50,8 +37,6 @@ image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfind
 - costruire trappole
 - borseggio
 - attaccare in punti strategici per stordire
-
-<br>
 
 ### Talenti di metamagia
 
@@ -62,12 +47,7 @@ image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfind
 - incantesimi Persistenti
 - incantesimi Massimizzati
 
-<br>
-
 ### Combattimento
 
 - **colpo vitale**
 - più altri, da vedere
-
-<br>
-<br>

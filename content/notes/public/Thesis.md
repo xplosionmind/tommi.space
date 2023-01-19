@@ -2,7 +2,6 @@
 title: Thesis notes
 date: 2022-05-19T19:14:54+02:00
 updated: 2022-12-24T10:30:37+01:00
-title: Thesis notes
 tags:
   - uni
   - wip

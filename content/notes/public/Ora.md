@@ -1,7 +1,6 @@
 ---
 date: 2020-10-16T02:00:00+02:00
 updated: 2022-09-21T12:12:53+02:00
-ref: now
 lang: it
 description: Le cose che sto facendo
 ref: now

@@ -3,7 +3,6 @@ date: 2020-08-04T02:00:00+02:00
 updated: 2022-10-17T10:43:02+02:00
 tags: geek
 permalink: /bugs/
-tags: geek
 image: https://tommi.space/bugs.svg
 description: Bugs and Feature requests for the apps I use
 redirect_from: [/feature-requests/, /bugs-and-feature-requests/]

@@ -1,7 +1,6 @@
 ---
 date: 2020-12-08
 updated: 2022-02-12T13:23:14+01:00
-aliases: Switch to Signal, Quit WhatsApp
 description:
   Why it is important to switch to Signal, and all of the reasons why it is an ethical choice and not a merely technical one
 aliases: Switch to Signal, Quit WhatsApp
