@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='{% case lang %}{% when 'it' %}it{% when 'fr' %}fr{% else %}en{% endcase %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
 
-	{% if ref and alternate != null %}
+	{% if ref %}
 		{% for entry in collections.all %}
 			{% if entry.data.ref == ref and entry.data.lang != lang %}
 				{% assign alternate = entry %}
