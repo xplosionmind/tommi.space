@@ -1,11 +1,11 @@
 const {titleCase} = require('title-case');
 const wikilinkRegExp = /\[\[\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/g // This regex finds all wikilinks in a string
 function caselessCompare(a, b) {
-    return a.toLowerCase() === b.toLowerCase();
+		return a.toLowerCase() === b.toLowerCase();
 }
 
 module.exports = {
-	permalink: '/{{ page.fileSlug | replace: " ", "-" }}/',
+	permalink: '/{{ page.fileSlug | replace: " ", "-" | downcase }}/',
 	lang: 'en',
 	layout: 'wrapper.html',
 	image: '/tommi.space.wip.png',
