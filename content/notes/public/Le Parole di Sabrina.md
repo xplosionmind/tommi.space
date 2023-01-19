@@ -6,7 +6,7 @@ permalink: /parole-sabrina/
 lang: it
 tags:
   - friends
-image: /sabrina-radical-chic.jpg   
+image: /sabrina-radical-chic.webp
 updated: 2022-11-14T20:59:00+01:00
 ---
 Dato che la mia favolosa amica [Sabrina](https://instagram.com/pipitonesabrina 'Sabrina su Instagram') continua a ignorare il mio insistente invito a creare un proprio sito web, per compassionevole amore ospiterò qui il suo corrispettivo di [[Parole]], ovvero tutti quei termini che lei adora oppure disprezza con tutta sé stessa.

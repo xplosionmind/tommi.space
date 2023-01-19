@@ -8,10 +8,9 @@ image: https://cdn.sanity.io/0e4kwcjv/production/7476e2caded443380b52fefd81f9dda
 I impulsively bought a [reMarkable tablet](https://remarkable.com/store/remarkable-2 'reMarkable 2') out of curiosity, after two years after finding out about its existence. I bought it with the purpose of giving it back in the 30 days test period, only to test it for a bit.  
 I am giving it back mainly for the reason that it is a **watershed product**, valuable and clever, but still <u>too pricey for what it offers</u>. The writing and drawing experience is excellent, almost perfect. Everything else lacks a lot of important features both from the software and the hardware points of view.
 
-Surprisingly, there is a lot of community open source software development happening behind the scenes, but it still is largely unstable and makes the usage experience much heavier. Nevertheless, [Toltec](https://toltec-dev.org/ 'Toltec package manager') is very nice, useful, and rich of great applications.
+Surprisingly, there is a lot of community open source software development happening behind the scenes, but it still is largely unstable and makes the usage experience much heavier. Nevertheless, [Toltec](https://toltec-dev.org 'Toltec package manager') is very nice, useful, and rich of great applications.
 
-<br>
-<br>
+![Remarkable shell screenshot](https://tommi.space/remarkable-ssh.webp 'A screenshot of the ReMarkable shell')
 
 ## Missing features
 
@@ -23,8 +22,6 @@ Surprisingly, there is a lot of community open source software development happe
 - VPN support
 - custom sleep and off splash screen
 - automatic landscape-portrait rotation of a note (if I switch, the text should not keep its original orientation)
-
-<br>
 
 ### Hardware
 

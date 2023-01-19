@@ -12,7 +12,7 @@
 	},
 	"primary": "#FCC920",
 	"description": "The virtual representation of the mess inside Tommi’s mind",
-	"favicon": "https://tommi.space/favicon.ico",
+	"favicon": "https://tommi.space/favicon.png",
 	"image": "/tommi.space.wip.png",
 	"source": "https://gitmi.dev/tommi/tommi.space",
 	"changelog": "https://gitmi.dev/tommi/tommi.space/commits/branch/main",

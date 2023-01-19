@@ -8,7 +8,7 @@ length: 599
 audio: S02E01
 format: mp3
 description: Un’esclusiva irripetibile incursione nell’appartamento più magico di venezia
-image: https://tommi.space/2022-05-22-casa-campo.jpg
+image: https://tommi.space/2022-05-22-casa-campo.webp
 permalink: /sconnesso/casa-campo/
 redirect_from: [/casa-campo/]
 explicit: true
