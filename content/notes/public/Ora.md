@@ -4,6 +4,7 @@ updated: 2022-09-21T12:12:53+02:00
 ref: now
 lang: it
 description: Le cose che sto facendo
+ref: now
 hide: true
 comments: false
 ---
@@ -31,4 +32,4 @@ Al momento sono in [[Erasmus à Grenoble|Erasmus]] a [[Grenoble]], luogo che sto
 
 ## Tutto il resto
 
-Nel mentre, continuo a girare il più possibile e fare cose di ogni sorta. I progetti principali a cui sto partecipando sono [qui](/cose 'Cose'); invece, una lista completa e più esaustiva dei singoli eventi, progetti, idee, eccetera in cui mi trovo in mezzo è [qui](/tutto 'Tutto').
+Nel mentre, continuo a girare il più possibile e fare cose di ogni sorta. I progetti principali a cui sto partecipando sono [qui](https://tommi.space/cose 'Cose'); invece, una lista completa e più esaustiva dei singoli eventi, progetti, idee, eccetera in cui mi trovo in mezzo è [qui](https://tommi.space/tutto 'Tutto').

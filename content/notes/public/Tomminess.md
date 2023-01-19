@@ -3,13 +3,13 @@ date: 2022-05-18T14:34:20+02:00
 updated: 2022-11-13T13:08:36+01:00
 location: Zattere
 tags: self
+image: /tomminess.jpg
+description: Who Tommi is, what are the values that make him and the ones he stands for
 aliases: Tommi =, Tommi Uguale
 redirect_from: [/tommi-uguale/]
-description: Who Tommi is, what are the values that make him and the ones he stands for
-image: /tomminess.jpg
 main: true
 ---
-Who Tommi is cannot exhaustively be defined merely by [his <cite>About page</cite>](/about 'About Tommi'), [his resume](https://cv.tommi.space 'Tommi’s CV'), [what he is doing](/now 'Now - tommi.space'), nor <a href='/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what he did</a>.
+Who Tommi is cannot exhaustively be defined merely by [his <cite>About page</cite>](https://tommi.space/about 'About Tommi'), [his resume](https://cv.tommi.space 'Tommi’s CV'), [what he is doing](https://tommi.space/now 'Now - tommi.space'), nor <a href='https://tommi.space/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what he did</a>.
 
 In so many occasions my friends come to me and say something like: <q lang='it'>questa cosa è un sacco *da Tommi*</q>, <q lang='it'>ti ho immediatamente pensato perché mi ha ricordato te</q>, or simply tell me something about me that makes me think <q>oh, this is *so* me</q>. I am collecting all of those attributes here.
 
@@ -43,7 +43,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - having a tremendously difficult time distinguishing jokes and serious statements made with sarcasm, in other words: **not understanding irony**
 - believing in **love**, yet being unable to find it
 - following and advocating for **the art of <cite>[[Introductionism]]</cite>**
-- in pursuing <cite><a href='/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
+- in pursuing <cite><a href='https://tommi.space/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
 - being completely incapable of controlling [[Caffeinated|the effects of caffeine]]

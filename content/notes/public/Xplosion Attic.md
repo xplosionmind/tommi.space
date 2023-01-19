@@ -9,9 +9,9 @@ lang: it
 image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115115209-67743c90-me.jpg
 main: true
 ---
-Sin da quando avevo 10 anni sognavo di trasferire la mia cameretta nella soffitta della mia casa a Riva Ligure, dove sono cresciuto.  Riuscii a convincere i miei genitori ad appena 16 anni, mentre solamente nel *lockdown* del fui in grado di trasformarla in uno spazio veramente **mio**, costruendo le mie amate *[[Gianna]]* e *[[Aida]]*.
+Sin da quando avevo 10 anni sognavo di trasferire la mia cameretta nella soffitta della mia casa a Riva Ligure, dove sono cresciuto.  Riuscii a convincere i miei genitori ad appena 16 anni, mentre solamente nel *lockdown* del fui in grado di trasformarla in uno spazio veramente **mio**, costruendo le mie amate <cite>[[Gianna]]</cite> e <cite>[[Aida]]</cite>.
 
-Purtroppo le immagini testimoni dell’evoluzione di *Xplosion Attic* negli anni si sono smarrite fra miriadi di files e traumatici [*data loss*](/storage#data-loss 'Narrazione dei miei data loss'), ma quelle che sono riuscito a salvare sono conservate in [questo album][Xplosion Attic Pictures].
+Purtroppo le immagini testimoni dell’evoluzione di <cite>Xplosion Attic</cite> negli anni si sono smarrite fra miriadi di files e traumatici [*data loss*](https://tommi.space/storage#data-loss 'Narrazione dei miei data loss'), ma quelle che sono riuscito a salvare sono conservate in [questo album][Xplosion Attic Pictures].
 
 [Xplosion Attic Pictures]: https://images.tommi.space/index?/category/attic 'Xplosion Attic Pictures'
 

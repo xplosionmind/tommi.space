@@ -3,6 +3,7 @@ date: 2020-10-16
 updated: 2022-09-21T12:11:10+02:00
 ref: now
 description: Stuff I am up to in these days
+ref: now
 comments: false
 todo:
   - history of previous “now”s when updating
@@ -29,4 +30,4 @@ Currently, I am in [[Erasmus à Grenoble|Erasmus]] in [[Grenoble]], France, wher
 
 ## Projects, ideas, and collaborations
 
-In the meanwhile, I am continuing to wander around Italy to take part and/or assist to interesting things that happen. I take note of the most important stuff [here](/stuff 'Stuff - tommi.space'), and <a href='/tutto' hreflang='it' target='_blank' title='Tutto quello che ho fatto'>here</a> I log everything (literally anything) I have done.
+In the meanwhile, I am continuing to wander around Italy to take part and/or assist to interesting things that happen. I take note of the most important stuff [here](https://tommi.space/stuff 'Stuff - tommi.space'), and <a href='https://tommi.space/tutto' hreflang='it' title='Tutto quello che ho fatto'>here</a> I log everything (literally anything) I have done.

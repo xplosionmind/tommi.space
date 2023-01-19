@@ -7,7 +7,7 @@ description: Every geek worth to be called so has a custom launcher. This is the
 ---
 <p class='date'>30<sup>th</sup> May 2020</p>
 
-I was writing the list of the [apps on my Android phone](/apps#android 'Apps \> Android — tommi.space') and I got to the point where I had to add [Nova Launcher](http://novalauncher.com/ 'Nova Launcher').
+I was writing the list of the [apps on my Android phone](https://tommi.space/apps#android 'Apps \> Android — tommi.space') and I got to the point where I had to add [Nova Launcher](http://novalauncher.com/ 'Nova Launcher').
 
 One thing struck me: since when I got my first phone (2013) up to now (mid-2020) I’ve always used it. It’s been so good I also bought [Nova Launcher Prime](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher.prime 'Nova Launcher Prime on Google Play'), and I never changed my mind. It’s most likely the (not pre-installed) app I used for the longest time.
 
@@ -23,8 +23,6 @@ Here’s the launchers (in alphabetical order):
 - [T-UI](https://github.com/fAndreuzzi/TUI-ConsoleLauncher 'TUI-ConsoleLauncher on GitHub'), I need to test it to really get how it works, but it seems like the whole launcher is replaced by some sort of Linux CLI. **Wow**.
 
 I’ll dig more in depth to understand how they works and which one suits my needs in the best way and I’ll come back in a few days with my verdict.
-
-<br>
 
 <p class='date'>1<sup>st</sup> June 2020</p>
 
@@ -48,8 +46,6 @@ That’s it. Wrapping it up, I’m so happy I found the best launcher ever.
 Gimme a KISS.
 
 Bye
-
-<br>
 
 <p class='date'>7<sup>th</sup> August 2020</p>
 

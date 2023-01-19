@@ -3,8 +3,9 @@ date: 2020-09-09
 updated: 2022-07-17T19:03:11+02:00
 description: Books I own and books I would love to read and/or have
 tags: reading
-redirect_from: [/library/,/libreria/,/libri/,/bookshelf/]
 image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120147-9340ca01-me.jpg
+description: Books I own and books I would love to read and/or have
+redirect_from: [/library/,/libreria/,/libri/,/bookshelf/]
 main: true
 todo:
   - integrate with [Bookwyrm](https://bookwyrm.social 'Bookwyrm')
@@ -22,8 +23,8 @@ todo:
 	{% for book in library -%}
 		{% unless book.location == 'given away' or book.location == 'sold' or book.location contains 'gift' -%}
 			{% if book.isbn -%}
-				<a href='https://openlibrary.org/isbn/{{ book.isbn }}' title='{{ book.title }} in the Open Library'>
-					<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}'>
+				<a href='<https://openlibrary.org/isbn/{{> book.isbn }}' title='{{ book.title }} in the Open Library'>
+					<img src='<https://covers.openlibrary.org/b/isbn/{{> book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}'>
 			{% else -%}
 				<a href='javascript:void(0)' title='{{ book.title }}'>
 				<div><strong>{{ book.author }}</strong> - <cite>{{ book.title }}</cite></div>
@@ -58,9 +59,8 @@ All of my public notes on what I read
 
 <div class='yellow box'>
 	<h4>Note</h4>
-	If you got here from the <a href='/wishlist' title='My Wishlist'>Wishlist</a>, please consider that most of the books below are merely readings I'm interested in and not <strong>books I actually need</strong>. Write me if you intend to gift me with a book (thanks for the idea ❤️)
+	If you got here from the <a href='https://tommi.space/wishlist' title='My Wishlist'>Wishlist</a>, please consider that most of the books below are merely readings I'm interested in and not <strong>books I actually need</strong>. Write me if you intend to gift me with a book (thanks for the idea ❤️)
 </div>
-
 
 <ul class='two'>
 	{% for book in books-wishlist -%}

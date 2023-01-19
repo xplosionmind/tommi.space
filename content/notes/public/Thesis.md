@@ -1,12 +1,13 @@
 ---
+title: Thesis notes
 date: 2022-05-19T19:14:54+02:00
 updated: 2022-12-24T10:30:37+01:00
 title: Thesis notes
 tags:
   - uni
   - wip
-toc: false
 description: Notes concerning my thesis on Philosophy and Computer Sciences
+toc: false
 ---
 {{ description }}
 
@@ -14,7 +15,7 @@ description: Notes concerning my thesis on Philosophy and Computer Sciences
 
 Some random inputs:
 
-- <cite>[The power of decentralization](/the-power-of-decentralization 'The power of decentralization - tommi.space')</cite>
+- <cite>[The power of decentralization](https://tommi.space/the-power-of-decentralization 'The power of decentralization - tommi.space')</cite>
 - [[Internet Freedom]]
 - [Articles around the Web](https://inputs.tommi.space/tag/list/thesis 'Entries tagged `thesis` in Tommi’s inputs')
 - [Max Horkheimer](https://en.wikipedia.org/wiki/Max_Horkheimer)
@@ -43,21 +44,20 @@ Some random inputs:
 
 <p class='date'><time datetime='2022-09-20T09:49:02+02:00'>Tuesday 20 September 2022</time></p>
 
-- **Heiddeger** sul senso della tecnica. La preoccupazione fondamentale è che la tecnica da mezzo neutrale si trasformasse in fine. Non più l’uomo che 
+- **Heiddeger** sul senso della tecnica. La preoccupazione fondamentale è che la tecnica da mezzo neutrale si trasformasse in fine. Non più l’uomo che
 - [Hans **Jonas**](https://en.wikipedia.org/wiki/Hans_Jonas): il problema del futuro non sarà più cosa noi potremo fare con la tecnica ma cosa la tecnica potrà fare di noi: <cite>Tecnica, medicina ed etica</cite>, primi capitoli
 - [Günther **Anders**](https://en.wikipedia.org/wiki/G%C3%BCnther_Anders): <cite>L’uomo è antiquato</cite>
 
 Articoli più recenti che mettono in pratica quanto scritto prima
 Come lo strumento tecnico è fatto condiziona l’utente. Esempio delle chiavi delle stanze più pesanti. <u>Lo strumento non è neutro</u>
 
-https://youtu.be/hckj173UuWY
+<https://youtu.be/hckj173UuWY>
 
 <q>Il modo in cui le tecniche si presentano impone anche un certo ordine social e un certo ordine culturale</q>
 
 Come orientano l’azione? Chi decide come viene orientata?
 
-
-Adriano **Olivetti**: l’idea di sposare ingegneri con letterati ed artisti. Si tratta di <u>riprendere in mano il progetto olivettiano</u>: fare i conti con questa eredità, capire perché è fallita 
+Adriano **Olivetti**: l’idea di sposare ingegneri con letterati ed artisti. Si tratta di <u>riprendere in mano il progetto olivettiano</u>: fare i conti con questa eredità, capire perché è fallita
 
 ## Formats
 

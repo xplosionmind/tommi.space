@@ -1,15 +1,15 @@
 ---
 date: 2022-01-02T23:12:57+01:00
-updated: 2022-11-26T10:31:59+01:00
+updated: 2023-01-18T11:48:43+01:00
 tags: cinema/film
 image: https://static.onecms.io/wp-content/uploads/sites/6/2019/01/rent-6-2000.jpg
-description: About the awesome wonderful genius Musical by the awesome wonderful genius <a href='/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>
+description: About the awesome wonderful genius Musical by the awesome wonderful genius <a href='https://tommi.space/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>
 ---
 
 <cite>[Rent](https://en.wikipedia.org/wiki/Rent_(musical) '“Rent” on Wikipedia')</cite> is one of the things I love the most, and, of course, its [2005 representation in movie](https://en.wikipedia.org/wiki/Rent_(film) '“Rent”, the movie on Wikipedia') is one of my [[Cinema#Favorites|favorite films]].
 
 How can a musical be so inspiring and true I really cannot understand.  
-I just know I deeply love [Jonathan Larson](/people#jonathan-larson 'Jonathan Larson among my favorite people — tommi.space').
+I just know I deeply love [Jonathan Larson](https://tommi.space/people#jonathan-larson 'Jonathan Larson among my favorite people — tommi.space').
 
 [Here](https://www.awesomefilm.com/script/rent.txt 'The whole script of “Rent„ (2005)') is the whole script.
 

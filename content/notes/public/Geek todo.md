@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2023-01-17T21:52:28+01:00
+updated: 2023-01-18T11:01:43+01:00
 tags: [geek, todo, geek/idea]
 description: Computer related tasks tracking
 ---
@@ -44,7 +44,7 @@ description: Computer related tasks tracking
 25. Update [[Storage|Backup]] and [[Backup checklist]]
 26. Cross-environment **[[Tags]] integration**
 	- **audios**: notes containing shared links of files in Cubbit?
-	- **images**: consider collecting shared links of albums in a private *[Giri](/giri 'Giri')*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
+	- **images**: consider collecting shared links of albums in a private *[Giri](https://tommi.space/giri 'Giri')*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
 27. Configure and install [sensible.vim](https://github.com/tpope/vim-sensible 'sensible.vim on GitHub'), to associate keybindings to commands on Vim
 28. Use [Hype Machine](https://hypem.com 'Hype Machine')
 29. Create a CSS framework
@@ -56,4 +56,4 @@ description: Computer related tasks tracking
 35. [[Bugs and Feature Requests]]
 36. [[Missing Knowledge#Geek|Learn]]
 
-[Yunohost]: <https://yunohost.org/> 'Yunohost'
+[Yunohost]: https://yunohost.org 'Yunohost'

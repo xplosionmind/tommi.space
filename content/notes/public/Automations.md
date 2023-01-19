@@ -12,8 +12,8 @@ Below a list of automations that I am using or I intend to setup.
 
 - [ ] [Internet Awesomeness](https://tommi.space/internet-awesomeness.xml 'Internet Awesomeness RSS feed') to [Telegram](https://t.me/internet_awesomeness 'Internet Awesomeness channel on Telegram')
 - [ ] [Internet Awesomeness] to [Stream]
-- [ ] Add [[Around the world|Places]] entries to [my OpenStreetMap diary](https://osm.org/user/xplosionmind/diary 'xplosionmind’s  OpenStreetMap diary')
-- [ ] Add [[Around the world|Places]] entries to [my uMap](https://umap.openstreetmap.fr/en/map/around-the-world_593427 '“Around the World”, Tommi’s favorite places on uMap')
+- [ ] Add [Places](https://tommi.space/places) entries to [my OpenStreetMap diary](https://osm.org/user/xplosionmind/diary 'xplosionmind’s  OpenStreetMap diary')
+- [ ] Add [Places](https://tommi.space/places) entries to [my uMap](https://umap.openstreetmap.fr/en/map/around-the-world_593427 '“Around the World”, Tommi’s favorite places on uMap')
 - [ ] Share [newsletter] as soon as it gets out
 - [ ] [newsletter] reads new writings from [Zibaldone’s RSS](https://tommi.space/zibaldone.xml 'Zibaldone RSS feed') and sends them via email
 - [ ] Share all new [data entries](https://gitmi.dev/tommi/tommi.space/src/branch/main/data 'data folder in tommi.space repository') on [Stream]

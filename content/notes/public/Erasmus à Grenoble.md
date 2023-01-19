@@ -43,10 +43,10 @@ e cosa vogliono saperne i babbani</p>
 <p>di vivere in mezzo alle montagne<br>
 dei francesi sopportare le magagne</p>
 
-<p>di rubare <a href='/grenoble-carelli.jpg' target='_blank' title='Un’immagine di noi mentre rubiamo dei carrelli in un supermercato a Grenoble'>carrelli nei supermercati</a><br>
+<p>di rubare <a href='https://tommi.space/grenoble-carelli.jpg' target='_blank' title='Un’immagine di noi mentre rubiamo dei carrelli in un supermercato a Grenoble'>carrelli nei supermercati</a><br>
 dei vini in confezioni in plastica, sottovalutati</p>
 
-<p>Del <cite lang='fr'><a href='/notabeer#poisson-rouge' hreflang='fr' title='Il Poisson Rouge'>Poisson Rouge</a></cite> mille volte meglio del <cite lang='fr'>Moulin Rouge</cite><br>
+<p>Del <cite lang='fr'><a href='https://tommi.space/notabeer#poisson-rouge' hreflang='fr' title='Il Poisson Rouge'>Poisson Rouge</a></cite> mille volte meglio del <cite lang='fr'>Moulin Rouge</cite><br>
 del neologismo concepito per fare rima: <q lang='fr'>ufffifidicdkeouge</q></p>
 
 <p>e quando un giorno ricorderemo questo trionfo<br>

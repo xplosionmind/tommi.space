@@ -5,7 +5,7 @@ tags:
   - cinema
   - log
 description: |
-  Log of movies I watched, parsed from <a href='https://github.com/xplosionmind/data/blob/main/watchlog.csv' title='watchlog.csv in xplosionmind/data on GitHub'>this source file</a>. Temporary solution until <a href='/moviewyrm' target='_blank' title='Moviewyrm - tommi.space'>Moviewyrm</a> becomes true.
+  Log of movies I watched, parsed from <a href='https://github.com/xplosionmind/data/blob/main/watchlog.csv' title='watchlog.csv in xplosionmind/data on GitHub'>this source file</a>. Temporary solution until <a href='https://tommi.space/moviewyrm' target='_blank' title='Moviewyrm - tommi.space'>Moviewyrm</a> becomes true.
 layout: large.html
 toc: false
 ---

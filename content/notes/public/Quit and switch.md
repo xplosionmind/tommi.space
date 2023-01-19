@@ -27,7 +27,7 @@ todo: update and refactor
 - 😵‍💫 [[Quit listing]]
 - ⏸/❌ [[Switch to LineageOS]]
 - ✅ [[Quit Netflix]]
-- 🚧/❌ [[Switch to Darktable]]
+- 🚧/❌ [[Darktable]]
 - ✅+🚧 [[Quit IMDb]]
 - 🚧 [[Switch to Linux]]
 - 🚧 [[Signal|Switch to Signal]]

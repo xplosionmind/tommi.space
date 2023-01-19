@@ -2,10 +2,10 @@
 date: 2020-06-10T02:00:00+02:00
 updated: 2022-12-02T01:11:38+01:00
 tags: cinema
-aliases: Movies
-description: After watching these movies and series, I was not the same anymore.
-redirect_from: [/movies/,/film/,/films/]
 image: https://www.lascimmiapensa.com/wp-content/uploads/2020/03/597c9296ed82967974a455aef591ecfc.jpg
+description: After watching these movies and series, I was not the same anymore.
+aliases: Movies
+redirect_from: [/movies/,/film/,/films/]
 main: true
 ---
 Il mio concetto di cinema può essere a sommi capi rappresentato dalla visione di cinema che mi dona [[Woody Allen]].
@@ -19,7 +19,7 @@ My all-time favorite movies and series:
 <ul class='two'>
     {%- for fav in favorites -%}
         <li>
-            <cite><a href='{%- if tommi == '' -%}https://en.wikipedia.org/wiki/{{ fav.title }}{%- else -%}{{ fav.tommi }}{%- endif -%}' title='“{{ fav.title }}”'>{{ fav.title }}</a></cite>
+            <cite><a href='{%- if tommi == '' -%}<https://en.wikipedia.org/wiki/{{> fav.title }}{%- else -%}{{ fav.tommi }}{%- endif -%}' title='“{{ fav.title }}”'>{{ fav.title }}</a></cite>
         </li>
     {%- endfor -%}
 </ul>
@@ -38,5 +38,5 @@ Movies I watched are logged in [[Watchlog]]. The current method I am using for l
 
 Otherwise, I wrote a guide in Italian:
 
-[Scaricare film, come si deve](/scaricare-film 'Scaricare film, come si deve'), una mia guida in italiano per scaricare film tramite torrent.
+[Scaricare film, come si deve](https://tommi.space/scaricare-film 'Scaricare film, come si deve'), una mia guida in italiano per scaricare film tramite torrent.
 {lang=it}

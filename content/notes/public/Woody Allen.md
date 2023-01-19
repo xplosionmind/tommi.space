@@ -4,12 +4,11 @@ updated: 2022-04-01T12:18:41+02:00
 tags:
   - people
   - cinema
+image: https://leganerd.com/wp-content/uploads/2020/03/woody-allen.jpg
+description: Chi è Woody Allen per me
 type: Person
 toc: false
-lang: it
-description: Chi è Woody Allen per me
-image: https://leganerd.com/wp-content/uploads/2020/03/woody-allen.jpg
 ---
-Ho un mio pensiero e un mio particolarissimo amore per il mitico Woody Allen ma non ha senso ne scriva perché ho riversato tutto tutto quello che pensavo e bla bla quanto è speciale scrivendo di <cite>[A Rainy Day in New York](/a-rainy-day-in-new-york 'Pensieri su “A Rainy Day in New York„')</cite>
+Ho un mio pensiero e un mio particolarissimo amore per il mitico Woody Allen ma non ha senso ne scriva perché ho riversato tutto tutto quello che pensavo e bla bla quanto è speciale scrivendo di <cite>[A Rainy Day in New York](https://tommi.space/a-rainy-day-in-new-york 'Pensieri su “A Rainy Day in New York„')</cite>
 
 ![[A Rainy Day in New York]]

@@ -1,9 +1,9 @@
 ---
 date: 2021-10-28T19:11:57+02:00
 updated: 2022-12-24T21:10:41+01:00
+lang: it
 tags:
   - topic
-lang: it
 alias: Amore
 ---
 Parlare dell’amore ne toglie il romanticismo: <cite>Ecce Bombo</cite>, 40:22
@@ -12,7 +12,7 @@ Parlare dell’amore ne toglie il romanticismo: <cite>Ecce Bombo</cite>, 40:22
 
 ## Bartleboom
 
-Come citato in [<cite>Parole Sconnesse</cite> del <time datetime='2022-11-15'>15 novembre 2022</time>](/amore-oggi '“L’amore oggi”'):
+Come citato in [<cite>Parole Sconnesse</cite> del <time datetime='2022-11-15'>15 novembre 2022</time>](https://tommi.space/amore-oggi '“L’amore oggi”'):
 
 > Posa la penna, piega il foglio, lo infila in una busta. Si alza, prende dal suo baule una scatola di mogano, solleva il coperchio, ci lascia cadere dentro la lettera, aperta e senza indirizzo. Nella scatola ci sono centinaia di buste uguali. Aperte e senza indirizzo. Ha 38 anni, Bartleboom. <u>Lui pensa che da qualche parte, nel mondo, incontrerà un giorno una donna che, da sempre, è la sua donna</u>. Ogni tanto si rammarica che il destino si ostini a farlo attendere con tanta indelicata tenacia, ma col tempo ha imparato a considerare la cosa con grande serenità. Quasi ogni giorno, ormai da anni, prende la penna in mano e le scrive.  
 > Non ha nomi e non ha indirizzi da mettere sulle buste: ma ha una vita da raccontare. E a chi, se non a lei? Lui pensa che quando si incontreranno sarà bello posarle sul grembo una scatola di mogano piena di lettere e dirle  

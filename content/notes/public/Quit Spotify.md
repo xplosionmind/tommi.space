@@ -2,16 +2,15 @@
 date: 2020-11-07T01:00:00+01:00
 updated: 2022-07-17T19:04:08+02:00
 tags: geek
-aliases: Quitting Spotify
+image: https://tommi.space/jar/quit-spotify.jpg
 description: Thoughts and decisions about quitting Spotify
-permalink: /quit-spotify/
+aliases: Quitting Spotify
 redirect_from:
   - /spotify/
   - /deezer/
   - /apple-music/
 todo:
   - refactor/update
-image: https://tommi.space/jar/quit-spotify.jpg
 ---
 <div class='yellow box'>
 	<strong>Update</strong>: I figured I heve to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang='it'>e basta</i>, without having to waste time on a better way to do it.<br>
@@ -38,7 +37,7 @@ Reasons to quit Spotify:
 <br>
 
 <figure>
-	<img src='/Spotify-close-account.jpg' title='repercussions of closing Spotify account' alt='repercussions of closing Spotify account'>
+	<img src='https://tommi.space/Spotify-close-account.jpg' title='repercussions of closing Spotify account' alt='repercussions of closing Spotify account'>
 	<figcaption>
 		Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.
 	</figcaption>
@@ -72,7 +71,7 @@ Reasons to quit Spotify:
 
 ### Resources
 
-- https://social.linux.pizza/@pmarg/109110668747853766
+- <https://social.linux.pizza/@pmarg/109110668747853766>
 - [Quitting Spotify and moving to NewPipe + FreeTube](https://forum.privacytools.io/t/quitting-spotify-and-moving-to-newpipe-freetube/4935 'Quitting Spotify and moving to NewPipe + FreeTube') post on PrivacyTools Community
 - [awesome-music-listening](https://github.com/ybayle/awesome-music-listening 'awesome-music-listening on GitHub'), a repository collecting a ton of online services to listen to music
 - I switched commenting service, but I received a very insightful comment about this topic, so I am embedding it below:
@@ -86,8 +85,6 @@ As of the time of writing, the best alternative is using [Deezer](https://deezer
 Up to now, my free subscription is definitely enough, but once Freezer will be closed (it is going to happen, sooner or later) I am willing to pay the premium Deezer membership.
 
 One thing I am going to actually miss is the weekly email with new releases from Spotify. I am managing to replace this with a future-proof system which uses RSS-Bridge to generate a feed for a Discogs list. Discogs is great as a database, but it does not have very little known music.
-
-<br>
 
 ### On desktop
 

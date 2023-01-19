@@ -6,10 +6,10 @@ tags:
   - music
   - tomminess
   - csvfy
-aliases: Playlist
-description: Soundtracks of my life. The songs which marked my existence and made me who I am.
-redirect_from: [/canzoni/,/songs/,/playlist/,/playlists/]
 image: https://tommi.space/tommis-head-exploding.png
+description: Soundtracks of my life. The songs which marked my existence and made me who I am.
+aliases: Playlist
+redirect_from: [/canzoni/,/songs/,/playlist/,/playlists/]
 todo:
   - find a way to sync playlists and contents
   - write meaning, reasons and explanations for every song
@@ -37,8 +37,8 @@ main: true
 - [<cite>Xplosion Music</cite> on Apple Music](https://music.apple.com/it/playlist/xplosion-music/pl.u-aZb0NorCPK4eLqJ 'Xplosion Music')
 - [<cite>Xplosion Music</cite> on Deezer](https://deezer.page.link/APHqYniHa51ZR4GG6 'Xplosion Music')
 - [<cite>Xplosion Music</cite> YouTube](https://youtube.com/playlist?list=PL4Ag6Ba3_trc0x1jJoXlJ2y2dNYH_jPR_ 'Xplosion Music')
-<!--- [*Xplosion Music* on Radio4000](https://radio4000.com/xplosionmind 'Xplosion Music on Radio4000')
-- [*Xplosion Music* on Openwhyd](https://openwhyd.org/u/5f26be00b484e4fd9104af08/playlist/0 'Xplosion Music on Openwhyd')-->
+<!--- [*Xplosion Music* on Radio4000](<https://radio4000.com/xplosionmind> 'Xplosion Music on Radio4000')
+- [*Xplosion Music* on Openwhyd](<https://openwhyd.org/u/5f26be00b484e4fd9104af08/playlist/0> 'Xplosion Music on Openwhyd')-->
 
 ## Others
 
@@ -66,7 +66,7 @@ I love Marvel movies. I actually get crazy before watching any new one. Avengers
 
 ## Amélie No, <cite>Where Did You Sleep Last Night</cite>
 
-This is [a folk American song](https://en.wikipedia.org/wiki/In_the_Pines), famous all over the world because of [the great performance by Nirvana](https://youtu.be/hEMm7gxBYSc). I love this one in particular because it’s part of the soundtrack of a wonderful movie I watched as a juror at [Giffoni Film Festival 2018](/tutto#gff2018): [<cite>Les Faux Tatouages</cite>](https://www.giffonifilmfestival.it/sezioni-film-2018/4267-fake-tattoos.html 'Les Faux Tatouages in Giffoni Film Festival’s catalogue').
+This is [a folk American song](https://en.wikipedia.org/wiki/In_the_Pines), famous all over the world because of [the great performance by Nirvana](https://youtu.be/hEMm7gxBYSc). I love this one in particular because it’s part of the soundtrack of a wonderful movie I watched as a juror at [Giffoni Film Festival 2018](https://tommi.space/tutto#gff2018): [<cite>Les Faux Tatouages</cite>](https://www.giffonifilmfestival.it/sezioni-film-2018/4267-fake-tattoos.html 'Les Faux Tatouages in Giffoni Film Festival’s catalogue').
 
 ## America, <cite>A Horse with No Name</cite>
 

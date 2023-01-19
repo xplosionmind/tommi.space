@@ -28,7 +28,7 @@ A premise: I have a fetish for Typography. I really do. I often find myself twea
 - [Inter](https://rsms.me/inter 'Inter official website'), a wonderful Open Font by [Rasmus Andersson](https://rsms.me 'Rasmus Andersson’s website').  
 Update 3<sup>rd</sup> December 2020: I will never stop loving Inter and using it **everywhere**
 	- [play with it](https://rsms.me/inter/lab/ 'Inter lab')
-	- [why](/genesi#tipografia 'Genesi, tipografia') this website uses Inter
+	- [why](https://tommi.space/genesi#tipografia 'Genesi, tipografia') this website uses Inter
 - [Merriweather](https://github.com/SorkinType/Merriweather), ~~the serif font I use on this blog~~ (not anymore), it’s designed by [Eben Sorkin](http://sorkintype.com/about.html 'About Eben Sorkin').  
 Update 3<sup>rd</sup> December 2020: I've been deluded: like [Playfair Display](https://github.com/clauseggers/Playfair-Display), it feels AWESOME at the beginning, it then gets itchy and bothering after a while.
 - [Graphik](https://commercialtype.com/catalog/graphik), Sans Serif

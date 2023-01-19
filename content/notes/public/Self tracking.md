@@ -4,8 +4,8 @@ updated: 2022-10-31T15:04:16+01:00
 tags:
   - zen
   - draft
-aliases: Quantified self, Life logging
 description: Gaining knowledge and awareness of ourselves by collecting any sort of data which concern us
+aliases: Quantified self, Life logging
 redirect_from: [/quantified-self/,/life-logging/]
 todo:
   - rewrite
@@ -34,7 +34,7 @@ The basic idea is trying to pinpoint daily events and feelings which could be re
 
 Since I do not have the proper [[Automations|automations]] in place, every time I do something I need to perform a set of actions to properly log it.
 
-- Add to <cite lang='it'><a href='/tutto' hreflang='it' title='Tutto quello che io abbia mai fatto'>Tutto</a></cite>
+- Add to <cite lang='it'><a href='https://tommi.space/tutto' hreflang='it' title='Tutto quello che io abbia mai fatto'>Tutto</a></cite>
 - Toot about it?
 - Post it on [[Pixelfed|TMI Pics]]?
 - Is it worth being on the curriculum?

@@ -1,6 +1,6 @@
 ---
 date: 2020-10-27
-updated: 2022-03-14T14:59:11+01:00
+updated: 2023-01-18T11:16:51+01:00
 tags:
   - geek/web
   - idea
@@ -47,14 +47,14 @@ Domain names I am using:
 	- `slots.time` (not existing TLD)
 	- `time.ninja` (taken)
 	- `slot.it` (taken)
-- [Internet Awesomeness](/internet-awesomeness 'Awesome websites — tommi.space')
+- [Internet Awesomeness](https://tommi.space/internet-awesomeness 'Awesome websites — tommi.space')
 	- `internet.ninja`
 	- `awesome.int`
 	- `internet.awesome` (not existing TLD)
 	- `awesome.internet` (not existing TLD)
 	- `internet.cool` (taken)
 	- `awesome.website` (taken)
-- [Everyone dedicated website](/everyone 'Everyone short movie')
+- [Everyone dedicated website](https://tommi.space/everyone 'Everyone short movie')
 	- `everyone.movie`
 	- 
 - [[RSSify|RSS everywhere]]

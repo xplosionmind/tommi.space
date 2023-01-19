@@ -33,7 +33,7 @@ Details on ![[Self-hosting tommi.space]]
 
 ## Issue tracking
 
-Up to now, anything concerning website ideas and development was listed quite randomly on [[Website development]]. My intention was to keep everything portable and within [[The Jam]]. Nevertheless, tracking both bugs, feature ideas and stuff to do with services dedicated to that is easier, simpler, and much more integrated with the development environment and workflow that git provides.
+Up to now, anything concerning website ideas and development was listed quite randomly on the website development page. My intention was to keep everything portable and within <cite>[The Jam](https://tommi.space/jam 'The Jam — tommi.space')</cite>. Nevertheless, tracking both bugs, feature ideas and stuff to do with services dedicated to that is easier, simpler, and much more integrated with the development environment and workflow that git provides.
 
 I am now [using GitHub for issue tracking](https://github.com/xplosionmind/tommi.space/issues 'tommi.space issues on GitHub'), even though the repository is currently being [hosted on Codeberg][source].
 

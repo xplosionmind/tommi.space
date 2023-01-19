@@ -3,8 +3,7 @@ date: 2021-08-12T11:19:18.015547+02:00
 updated: 2021-08-12T11:19:18.015547+02:00
 tags: topic
 aliases: ['Curiosity']
-redirect_from: ['/curiosita', '/curiosity']
-lang: it
+redirect_from: ['/curiosita/', '/curiosity/']
 ---
 La curiosità non è una qualità naturale, soprattutto non deve essere considerata come un dato di fatto.  
 La curiosità va stimolata e deve essere frutto di soffrerenza, sforzo, impegno. [[Leggere]] è una fra le attività che più alimentano la fame di sapere e accrescono la necessità di conoscere il mondo e chi lo abita; tuttavia, non concede una soddisfazione immediata, ma il piacere che regala va conquistato pagina dopo pagina, capitolo dopo capitolo.

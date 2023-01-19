@@ -1,10 +1,12 @@
 ---
 date: 2020-07-17
-updated: 2022-11-21T15:20:25+01:00
+updated: 2023-01-19T11:20:10+01:00
 redirect_from: [/desideri/,/regali/]
 toc: false
 image: https://tommi.space/wishlist.svg
 description: Stuff I need and things I just would love to have
+redirect_from: [/desideri/,/regali/]
+toc: false
 main: true
 tag: track
 ---
@@ -20,7 +22,7 @@ tag: track
 6. Thermometer for high temperatures designed for photographic development
 7. Ledlenser torch
 8. [Compact point-and-shoot camera](https://www.wired.com/gallery/best-compact-cameras 'Best compact camerad on WIRED')
-9. Watertight bag or backpack
+9. Watertight bag
 10. City bike
 11. Elgato Cam Link
 12. Ski mask
@@ -29,12 +31,11 @@ tag: track
 15. Full Frame mirrorless camera
 16. Green Screen
 17. Polaroid camera
-18. Portable turntable
-19. [Boosted Board](https://boostedusa.com/collections/electric-skateboards 'Electric skateboards on Boosted Board official website')
-20. Snowboard
-21. Wetsuit
-22. Surf board
-23. ¾ guitar
+18. [Boosted Board](https://boostedusa.com/collections/electric-skateboards 'Electric skateboards on Boosted Board official website')
+19. Snowboard
+20. Wetsuit
+21. Surf board
+22. ¾ guitar
 
 ## Always welcomed gifts
 
@@ -48,7 +49,7 @@ tag: track
 
 ### Books
 
-Check the [Books wishlist](/books#wishlist 'Books wishlist')
+Check the [Books wishlist](https://tommi.space/books#wishlist 'Books wishlist')
 
 ## Got
 

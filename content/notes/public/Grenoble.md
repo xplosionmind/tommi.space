@@ -2,11 +2,10 @@
 date: 2022-09-14T17:09:25+02:00
 updated: 2022-11-13T13:08:36+01:00
 location: BDL
-description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
-lang: fr
 tags:
   - place
   - wip
+description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 ---
 Notes et réflexions de la cité ou je fais [[Erasmus à Grenoble|mon premier Erasmus]]
 
@@ -18,7 +17,7 @@ Notes et réflexions de la cité ou je fais [[Erasmus à Grenoble|mon premier Er
 
 Le problème fondamental de ma vie a Grenoble, par rapport a la vie Venisienne, est que tous takes more time <b class='missing'>+++</b> à faire. Aller au supermarché, laver les vêtements (do the laundry <b class='missing'>+++</b>), cuisiner et manger… la quotidianité <b class='ish'>ish</b> est rempli pas beaucoup de petits temps morts entre les tasks <b class='missing'>+++</b> qui à Venice je étais habitué à compléter dans quelque minute.
 
-Par consequence, forcément je suis obligé à supprimer mes nombreux instincts <b class='ish'>ish</b> à <a href='/procrastinazione' hreflang='fr' title='L’arte di procrastinare'>procrastiner</a> et je dois m’habituer à enjoy <b class='missing'>+++</b> les moment de relax et de pause en situations sociels <b class='ish'>ish</b> pendant lesquelles je ne suis pas habitué à me relaxer complètement. C’est un bon exercice, mais parfois il devient trop fatiguant.
+Par consequence, forcément je suis obligé à supprimer mes nombreux instincts <b class='ish'>ish</b> à <a href='https://tommi.space/procrastinazione' hreflang='fr' title='L’arte di procrastinare'>procrastiner</a> et je dois m’habituer à enjoy <b class='missing'>+++</b> les moment de relax et de pause en situations sociels <b class='ish'>ish</b> pendant lesquelles je ne suis pas habitué à me relaxer complètement. C’est un bon exercice, mais parfois il devient trop fatiguant.
 
 ## Ressources
 
@@ -26,7 +25,7 @@ Par consequence, forcément je suis obligé à supprimer mes nombreux instincts 
 
 ## Mes endroits
 
-[[Around the world|Mes endroits]] autour de la ville:
+<a href='https://tommi.space/places' target='_blank' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
 
 	<div class='grid'>
 		{% assign endroits = places | where: 'city', 'Grenoble' %}

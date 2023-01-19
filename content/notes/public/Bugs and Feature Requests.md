@@ -3,9 +3,10 @@ date: 2020-08-04T02:00:00+02:00
 updated: 2022-10-17T10:43:02+02:00
 tags: geek
 permalink: /bugs/
-redirect_from: [/feature-requests/, /bugs-and-feature-requests/]
-description: Bugs and Feature requests for the apps I use
+tags: geek
 image: https://tommi.space/bugs.svg
+description: Bugs and Feature requests for the apps I use
+redirect_from: [/feature-requests/, /bugs-and-feature-requests/]
 ---
 Most the [[Apps]] I use the are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.
 
@@ -113,7 +114,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 [Joplin](https://joplinapp.org) is a wonderful and complete note-taking app.
 
-<div class='red box'><strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a>. The reasons why I did this are in <a href='/switch-to-zettelkasten' title='Switch to Zettelkasten'>this blog post</a>.</div>
+<div class='red box'><strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href='https://obsidian.md' target='_blank' title='Obsidian official website'>Obsidian</a>. The reasons why I did this are in <a href='https://tommi.space/switch-to-zettelkasten' title='Switch to Zettelkasten'>this blog post</a>.</div>
 
 ### Features requests
 
@@ -142,7 +143,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
 
-<div class='red box'>Since November 2020 I stopped using Zettlr because its work could be made by <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a></div>
+<div class='red box'>Since November 2020 I stopped using Zettlr because its work could be made by <a href='https://obsidian.md' target='_blank' title='Obsidian official website'>Obsidian</a></div>
 
 - Implement split view: two different notes side by side
 

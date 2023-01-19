@@ -28,7 +28,7 @@ todo:
 
 ### CSS
 
-[A repository](/css) collecting CSS snippets I use, in different programs.
+[A repository](https://tommi.space/css) collecting CSS snippets I use, in different programs.
 
 ### Stunning websites
 

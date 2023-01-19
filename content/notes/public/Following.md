@@ -1,7 +1,9 @@
 ---
 date: 2020-06-11T02:00:00+02:00
-updated: 2022-03-14T14:58:24+01:00
-redirect_from: ['/telegram-following/', '/telegram-channels/', '/subscriptions/', '/newsletters/']
+updated: 2023-01-18T11:24:06+01:00
+tags:
+  - wip
+redirect_from: [/telegram-following/,/telegram-channels/,/subscriptions/,/newsletters/]
 todo:
   - 'integrate with [[Webrings]], [[People]], and [[Blogroll]]'
 ---
@@ -15,17 +17,12 @@ Stuff means: Newsletters by people, newsletters by magazines, newsletters by com
 	Content which is in Italian has its description in Italian
 </div>
 
-<br>
-
 ## RSS
 
 Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS 'RSS on Wikipedia'). I think the whole world should use it. It’s such a clever, useful, simple, neat, old but solid technology that I believe it could [replace social media](https://quitsocialmedia.club/solution#rss 'RSS as a Solution on Quit Social Media').  
 I'm working hard to build an independent infrastructure on my [[Server|server]] capable of gettings social media feeds and making them RSS feeds I can subscribe to. In the meanwhile, I'm slowly and steadily transitioning to use exclusively it, and below there’s a link to my feed subscriptions.
 
-[**My Feed Subscriptions**](/assets/subscriptions.xml) - last updated on Nov 4<sup>th</sup>, 2020
-
-<br>
-<br>
+[**My Feed Subscriptions**](https://tommi.space/subscriptions.xml) - last updated on Jan 18<sup>th</sup>, 2022
 
 ## Telegram
 
@@ -46,7 +43,7 @@ My Telegram channels:
 - [Ministero della Salute](https://t.me/MinisteroSalute), notizie, aggiornamenti e informazioni ufficiali dal [Ministero della Salute](http://salute.gov.it/) italiano.
 - [Mostly, I write](https://t.me/mostlyiwrite), di [Andonio Dini](http://antoniodini.com/).
 
-	Storie e pensieri suoi e di altri. Per iscriversi alla newsletter *Mostly Weekly*: https://tinyletter.com/MostlyIWrite
+	Storie e pensieri suoi e di altri. Per iscriversi alla newsletter *Mostly Weekly*: <https://tinyletter.com/MostlyIWrite>
 - [Mozilla Italia](https://t.me/MozItaBot), aggiornamenti da [Mozilla Italia](http://mozillaitalia.org)
 - [The Devs](https://t.me/thedevs), from [The Devs Network](https://thedevs.network)
 
@@ -59,14 +56,11 @@ My Telegram channels:
 - [Offerte sul Web](https://t.me/offertesulweb)
 - [Engineering PDF Books](https://t.me/Engineering_PDF_Books)
 
-<br>
-
 ### Telegram Public Groups
 
 - [Associazione Oltre](https://t.me/Oltre_Sanremo), il gruppo pubblico di discussione dell’Associazione Culturale di Sanremo di cui sono presidente.
 - [BiT PoliTo Forum](https://t.me/bitPoliTO), gruppo pubblico su Bitcoin, Blockchain e Crypto gestito dal team studentesco BIT PoliTo
 - [FSFE Milano](https://t.me/fsfemilano), FSFE Local Group Milano: gruppo telegram di coordinamento e discussione attività [FSFE](https://fsfe.org) Milano
-
 
 ### Telegram Bots
 
@@ -98,9 +92,6 @@ My Telegram channels:
 
 - [Torrent Bot](https://t.me/torrentobot)
 - [Wolfram Alpha](https://t.me/WolframBot)
-
-<br>
-<br>
 
 ## Facebook
 
