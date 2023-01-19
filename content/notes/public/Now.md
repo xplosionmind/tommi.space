@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16
-updated: 2022-09-21T12:11:10+02:00
+updated: 2023-01-19T12:02:30+01:00
 description: Stuff I am up to in these days
 ref: now
 comments: false
@@ -17,7 +17,9 @@ What I am doing right now:
 
 {% comment %}I am living in [Venice](https://www.comune.venezia.it/ 'Venice institutional website'), Italy, where {% endcomment %}I am a student of [Philosophy, International Studies and Economics](https://unive.it/pise 'PISE course page on UniVe website') at [Ca’ Foscari University](https://unive.it 'Ca’ Foscari University website').
 
-Currently, I am in [[Erasmus à Grenoble|Erasmus]] in [[Grenoble]], France, where I am attending classes both from <a href='https://www.univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' lang='fr' hreflang='fr'>Université Grenoble-Alpes</a> and [Sciences Po](https://www.sciencespo-grenoble.fr 'Sciences Po Grenoble').
+### Writing my thesis
+
+I am writing my bachelor thesis on the broad topic linking Computer Sciences to Sociology. I decided to publish and keep updated my notes, [[Thesis|here]].
 
 ## Working on <cite>Scambi Festival</cite>
 

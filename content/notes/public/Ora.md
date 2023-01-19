@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16T02:00:00+02:00
-updated: 2022-09-21T12:12:53+02:00
+updated: 2023-01-19T12:00:21+01:00
 lang: it
 description: Le cose che sto facendo
 ref: now
@@ -21,9 +21,9 @@ Sto:
 
 Studio [*Philosophy, International Studies and Economics*](https://unive.it/pise 'la pagina del PISE sul sito di Ca’ Foscari') presso l’[Università Ca’ Foscari](https://unive.it 'il sito web di Ca’ Foscari'), nella favolosa [Venezia](https://www.comune.venezia.it 'Sito web del comune di Venezia').
 
-### Erasmus
+### Scrivendo la tesi
 
-Al momento sono in [[Erasmus à Grenoble|Erasmus]] a [[Grenoble]], luogo che sto adorando. Qui frequento sia l’<a href='https://www.univ-grenoble-alpes.fr' title='Université Grenoble-Alpes' lang='fr' hreflang='fr'>Université Grenoble-Alpes</a> che [Sciences Po](https://www.sciencespo-grenoble.fr 'Sciences Po Grenoble').
+Sto scrivendo la mia tesi di laurea triennale sul tema della sociologia digitale. Ho deciso di aggiornare pubblicamente i miei appunti al riguardo, [[Thesis|qui]].
 
 ## Amministrando <cite>Pan</cite>
 
