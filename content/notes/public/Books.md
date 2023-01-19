@@ -1,7 +1,6 @@
 ---
 date: 2020-09-09
 updated: 2022-07-17T19:03:11+02:00
-description: Books I own and books I would love to read and/or have
 tags: reading
 image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120147-9340ca01-me.jpg
 description: Books I own and books I would love to read and/or have
