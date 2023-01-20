@@ -1,13 +1,10 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2023-01-18T11:01:43+01:00
+updated: 2023-01-19T23:39:34+01:00
 tags: [geek, todo, geek/idea]
 description: Computer related tasks tracking
 ---
-1. tommi.space build failure
-1. Europass CV URL is not valid anymore
 1. Move to Linux https://floss.social/@ademalsasa/109597688986340391
-1. Late Night ScambiVerso videos recovery with testdisk
 1. Update TUTTO/cose
 	- Musée de Grenoble
 	- LateNight nello ScambiVerso
@@ -15,6 +12,7 @@ description: Computer related tasks tracking
 1. Use Samsung tablet as graphic table
 1. Scambi Festival 2022 + LNS 2023 videos upload on Internet Archive
 2. https://github.com/MichaelMure/git-bug
+1. Ask to remove visits.tommi.space from [EasyList](https://easylist.to)
 2. Italian specific section of Gemini website, then publish it on gemini://gemini.iosa.it/tina
 3. [Alacritty features](https://github.com/alacritty/alacritty/blob/master/docs/features.md)
 4. [ohmyzsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
