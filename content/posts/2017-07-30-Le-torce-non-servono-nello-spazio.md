@@ -9,10 +9,10 @@ Il buon vecchio Paolo Nespoli ritorna sulla ISS (International Space Station): h
 
 <figure>
   <img class='u-photo' src='{{ image }}' alt='un astronauta guarda fuori dal finestrino della Soyuz appena atterrata'>
-  <figcaption>oltre - &copy; NASA</figcaption>
+  <figcaption>oltre - © NASA</figcaption>
 </figure>
 
-No, risposta sbagliata, anzi, una risposta incresciosa se sei un astronauta; Paolo infatti non solo si dice, ma si dimostra assetato, energico e curioso, avendo appena cominciato la missione europea VITA (Vitality, Innovation, Technology, Ability) orbitando a 400.000 metri dal suolo terrestre. Tutti i dettagli di ciò che farà e che ha in testa l’astronauta italiano più anziano sono esaustivamente contemplati nell’indimenticabile [questa intervista](https://www.wired.it/scienza/spazio/2017/07/27/intervista-paolo-nespoli-astronauta/ 'intervista a Paolo Nespoli') su Wired.
+No, risposta sbagliata, anzi, una risposta incresciosa se sei un astronauta; Paolo infatti non solo si dice, ma si dimostra assetato, energico e curioso, avendo appena cominciato la missione europea VITA (Vitality, Innovation, Technology, Ability) orbitando a 400.000 metri dal suolo terrestre. Tutti i dettagli di ciò che farà e che ha in testa l’astronauta italiano più anziano sono esaustivamente contemplati nell’indimenticabile [questa intervista](https://wired.it/scienza/spazio/2017/07/27/intervista-paolo-nespoli-astronauta 'intervista a Paolo Nespoli') su Wired.
 
 Vorrei però concentrarmi, al di là di questa missione, sulla permanenza nello spazio, sulla brama di scoperta, sul desiderio di conoscenza che mai nessuno è riuscito né, credo, riuscirà ad esaurire. Perché andiamo nello spazio? Alzare gli occhi al cielo è sempre stato naturale ed istintivo per gli uomini, eppure le spiegazioni che ci siamo dati nell’antichità sono state quasi totalmente inventate, frutto di ragionamenti teorici e dogmi non confutati.
 
@@ -21,8 +21,6 @@ Ora, e ancor maggiormente ogni secondo che passa, la consapevolezza da parte nos
 Soli, al buio, fluttuando ad osservare da una cupola di vetro ed acciaio l’immensità del pianeta Terra, è difficile non far nascere in sé riflessioni profonde sull’esistenza di un’entità superiore che ha concepito, creato e tuttora governa il complesso, articolato e vastissimo Universo. D’altra parte non possiamo per ora avere l’assoluta certezza che questo cosmo sia finito, né possiamo comprenderne l’estensione, né possiamo assicurarci di essere unici e che, pur noi non vedendo altri, siano però differenti forme di vita ad osservare noi. Dunque probabilmente non è la sola curiosità o necessità a spingerci al di fuori della nostra sicura – almeno, finché non smetteremo di distruggerla – atmosfera, ma un innato, recondito ed intangibile istinto alla ricerca di Dio.
 
 Tommi Boom – Ufficio Stampa Liceo G.D. Cassini Sanremo
-
-<br>
 
 ---
 

@@ -12,7 +12,7 @@ step: 16
 <br>
 
 ![Papa Francesco, la sera della sua elezione](https://www.americamagazine.org/sites/default/files/main_image/PopeBalcony.jpg)
-Papa Francesco, la sera della sua elezione, il 13 febbraio 2013 - &copy; americamagazine.org
+Papa Francesco, la sera della sua elezione, il 13 febbraio 2013 - © americamagazine.org
 
 Non può esistere migliore incarnazione del valore se non [Papa Francesco](https://it.wikipedia.org/wiki/Papa_Francesco). Nella mia opinione (senza conoscere nessuno dei Papi precedenti al 2000) è il più grande, carismatico e adatto alla propria epoca fra tutti i Papi.
 

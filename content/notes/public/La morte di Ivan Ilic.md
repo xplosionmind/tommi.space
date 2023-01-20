@@ -226,9 +226,9 @@ Gli ultimi giorni della vita di Ivan Il’ič sono caratterizzati da un alternar
 > In quello stesso momento Ivan Il’ič era sprofondato, aveva visto la luce e aveva scoperto che la sua vita non era stata come avrebbe dovuto essere, ma che a questo <u>si poteva ancora rimediare</u>. Si era chiesto cosa si poteva fare di giusto e si era calmato mettendosi in ascolto. Allora aveva sentito qualcuno che gli baciava la mano. Aveva aperto gli occhi e aveva visto il figlio. Aveva avuto pietà di lui. La moglie gli si era avvicinata. l’aveva guardata. Lei, con la bocca aperta, le lacrime che scorrevano sul naso e sulle guance, senza che le asciugasse, lo guardava con un’aria disperata. Aveva avuto pietà di lei.
 > <q>Si, li tormento</q>, aveva pensato. <q>Mi fanno pietà, staranno meglio, quando sarò morto.</q> Voleva dirlo, ma non aveva la forza di pronunciare la frase. <q>perché parlare, bisogna fare, Del resto</q>, aveva pensato. Aveva indicato con gli occhi il figlio alla moglie, e aveva detto: <q>Portalo… mi fa pietà… anche tu…</q>. Voleva dire anche <q>scusami</q>, ma aveva detto <q>usami</q> e, non avendo la forza per correggersi, aveva agitato una mano, sapendo che chi doveva capire avrebbe capito.
 > E d’un tratto gli era sembrato chiaro che quello che lo faceva penare e non voleva andar via, se ne stava andando via d’un tratto, tutto in una volta, da due parti, da dieci parti, da tutte le parti. Gli facevano pietà, bisognava fare in modo che non stessero più male. Liberarli e liberare se stesso da quelle sofferenze. <q>Com’è bello e com’è semplice</q>, aveva pensato. <q>E il male?</q> si era chiesto. <q>Dov’è andato? Be’, dove sei, male?</q>
-> &emsp;Si era messo a ascoltare.
-> &emsp;<q>Eccolo qua. Be’, è lo stesso, sta’ pur qua.</q>
-> &emsp;<q>E la morte? Dov’è?</q>
+>  Si era messo a ascoltare.
+>  <q>Eccolo qua. Be’, è lo stesso, sta’ pur qua.</q>
+>  <q>E la morte? Dov’è?</q>
 > Aveva cercato la sua solita paura della morte, quella di prima, e non l’aveva trovata. Dov’era? Che morte? <u class=double>Non c’era nessuna paura perché non c’era nessuna morte</u>.
 > Invece della morte c’era la luce.
 > <q>Ah, è così!</q> aveva esclamato d’un tratto. <q>Che meraviglia.</q>

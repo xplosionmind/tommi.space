@@ -17,7 +17,7 @@ Run [`crontab -e`][crontab]
 
 - [<q>How do I set up a Cron Job?</q>](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job 'How do I set up a Cron Job? - AskUbuntu') on AskUbuntu
 - [Creating a custom Cron Job](https://help.dreamhost.com/hc/en-us/articles/215767047-Creating-a-custom-Cron-Job 'Creating a custom Cron Job'), in DreamHost Knowledge Base
-- More detailed information in [Ubuntu Community Help Wiky](https://help.ubuntu.com/community 'Ubuntu Community Help Wik') &rarr; [CronHowto](https://help.ubuntu.com/community/CronHowto 'CronHowto in Ubuntu Community Help Wiki')
+- More detailed information in [Ubuntu Community Help Wiky](https://help.ubuntu.com/community 'Ubuntu Community Help Wik') → [CronHowto](https://help.ubuntu.com/community/CronHowto 'CronHowto in Ubuntu Community Help Wiki')
 - [Crontab Guru](https://crontab.guru 'Crontab Guru'), simple and insightful tool to configure and check [`crontab`s][crontab].
 
 ### Enable logging
