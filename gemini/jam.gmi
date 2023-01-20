@@ -7,7 +7,7 @@ Online, you may stumble upon it as a Digital Garden, or it may be defined as a Z
 
 I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the Zibaldone.
 
-=> gemini://tommi.space/zibaldone.gmi Zibaldone
+=> gemini://tommi.space/blog.gmi Zibaldone
 
 I take all of these things and I make The Jam out of them.
 

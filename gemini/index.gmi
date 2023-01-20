@@ -1,10 +1,22 @@
 # Tommi’s mind
 
-This is just an experimental endpoint in the awesome Gemini universe. Unfortunately, for the moment the full experience of the mess inside Tommi’s mind can be experienced only from its regular (but still weird and whimsical) web endpoint.
+=> gemini://tommi.space/it/index.gmi 🇮🇹 Versione italiana 🇮🇹
+
+This is just an experimental endpoint for the representation of Tommi’s mind in the awesome Gemini universe.
+
+=> gemini://tommi.space/about.gmi Who is Tommi?
+
+Unfortunately, the full experience of the chaos inside Tommi’s brain can be fully experienced only from its regular (but still weird and whimsical) web endpoint:
 
 => https://tommi.space tommi.space
 
-Still, I am playing a bit with some scripts and I am managing to publish some content on here.
+Still, I am playing a bit with some scripts and I am managing to publish some content on here. “Zibaldone” is my pseudo-blog, and “The Jam” hosts my pseudo-notes.
 
 => gemini://tommi.space/zibaldone.gmi Zibaldone
 => gemini://tommi.space/jam.gmi The Jam
+
+---
+
+this capsule has been built with Titan
+
+=> gemini://tommi.space/titan.gmi Titan

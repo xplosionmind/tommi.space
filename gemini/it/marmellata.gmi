@@ -1,0 +1,16 @@
+# La Marmellata
+
+Online, you may stumble upon it as a Digital Garden, or it may be defined as a Zettelkasten system. Mine, instead, is definitely less ambitious; yet, it is whipped, fragmented, juicy and sweet. It is a jam.
+
+Sul web viene comunemente chiamato “Digital Garden”, oppure può essere definito come Zettelkasten”. La mia, invece, è molto neno altisonante, ma più frullata e gustosa: si tratta di una Marmellata.
+
+=> https://dev.to/jbranchaud/the-digital-garden-l10 Digital Garden
+=> gemini://tommi.space/Zettelkasten.gmi Zettelkasten
+
+Ci sono curiose scoperte e piccoli pensieri che voglio salvare prima che finiscano nel dimenticatoio, o nell’attesa che vengano riformulati in maniera migliore e raccontati ne Lo Zibaldone.
+
+=> gemini://tommi.space/zibaldone.gmi Zibaldone
+
+Prendo tutte queste cose e ne faccio una Marmellata.
+
+Da questa pagina è possibile cominciare ad assaggiarne gli ingredienti.
