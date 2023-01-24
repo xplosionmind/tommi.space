@@ -1,14 +1,13 @@
-const {titleCase} = require('title-case');
 const wikilinkRegExp = /\[\[\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/g // This regex finds all wikilinks in a string
+const {titleCase} = require('title-case');
 function caselessCompare(a, b) {
 		return a.toLowerCase() === b.toLowerCase();
 }
 
 module.exports = {
-	permalink: '/{{ page.fileSlug | downcase | replace: " ", "-" }}/',
 	lang: 'en',
 	layout: 'wrapper.html',
-	image: '/tommi.space.wip.png',
+	image: '/tommi.space.wip.webp',
 	// Automatically generating titles, as explained in https://github.com/11ty/eleventy/discussions/2241#discussioncomment-2224265
 	eleventyComputed: {
 		title(data) {
@@ -21,22 +20,6 @@ module.exports = {
 			// console.log(`${data.page.filePathStem} => ${title}${hadTitle ? " (had title)" : ""}`);
 			return title;
 		},
-		/*date(data) {
-			let hadDate = false;
-			const date = data.date || '2020-03-20';
-			if (data.date) {
-				hadDate = true;
-			}
-			return date;
-		},*/
-		/*updated(data) { // disabled since always having an updated date is useless
-			let hadUpdated = false;
-			const updated = data.updated || data.date;
-			if (data.updated) {
-				hadUpdated = true;
-			}
-			return updated;
-		},*/
 		sitemap: {
 			img: data => {
 			return { url: data.image };

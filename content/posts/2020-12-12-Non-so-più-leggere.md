@@ -2,7 +2,7 @@
 title: Non so più leggere
 date: 2020-12-12
 image: /2020-12-12-non-so-piu-leggere.jpg
-redirect_from: ['/analfabetismo/', '/non-so-leggere/', '/non-so-piu-leggere/']
+redirect_from: ['/analfabetismo/', '/non-so-leggere/']
 ---
 Le lettere, le parole mi scorrono davanti senza lasciare un segno. È tutto uguale, lontano, criptico, inafferrabile. Come se ciò che leggo apparisse in una lingua diversa da quella che il mio cervello sa decodificare.
 

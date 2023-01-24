@@ -12,6 +12,7 @@ function wikilinkSlugifier(pageName) {
 	return pageName
 }
 const markdownIt = require('markdown-it');
+const { default: slugify } = require('slugify');
 const md = markdownIt({
 	html: true
 })
@@ -37,11 +38,13 @@ const md = markdownIt({
 module.exports = function(eleventyConfig) {
 	// General //
 	eleventyConfig.setLibrary('md', md);
-	eleventyConfig.setFrontMatterParsingOptions({
-		permalink: '/{{ page.fileSlug }}/',
-	});
 	eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
-	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '<!--excerpt-->'});
+
+	eleventyConfig.addGlobalData('permalink', () => {
+		return (data) => slugify(`${data.page.fileSlug}`, {
+			lower: true
+		}).concat('/');
+	});
 
 	// Collections //
 	eleventyConfig.addCollection('posts', function(collection) {
