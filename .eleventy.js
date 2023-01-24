@@ -42,6 +42,7 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addGlobalData('permalink', () => {
 		return (data) => slugify(`${data.page.fileSlug}`, {
+			remove: /'/g,
 			lower: true
 		}).concat('/');
 	});
