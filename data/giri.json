@@ -1,10 +1,60 @@
 [
 	{
+		"start": "2022-12-11T16:13:00+01:00",
+		"end": "2022-12-18T10:56:00+01:00",
+		"title": "Trip to Brussels",
+		"tags": ["trip", "networking"],
+		"people": ["CSV Polis", "Davide Pesce", "Gloria Chiaramonti", "Michela Tarantino", "Martina Monti"],
+		"location": "Bruxelles",
+		"description": "A trip organized by [CSV Polis](https://csvpolis.it 'CSV Polis'), taking to Brussels a dozen of representatives of the most promising associations of Western Liguria, mainly to enhance and stabilize networking with EU institutions.",
+		"data":[
+			{
+				"what": "Images",
+				"url": "https://images.tommi.space/index?/category/brussels-csv-polis"
+			}
+		]
+	},
+	{
+		"start": "2022-12-13T14:00:00+01:00",
+		"end": "2022-12-18T17:56:00+01:00",
+		"title": "Visite du musée de Grenoble",
+		"url": "https://museedegrenoble.fr/2684-de-la-nature.htm",
+		"tags": ["museum", "art", "love"],
+		"people": ["Sophie"],
+		"location": "Grenoble",
+		"latitude": 45.19495,
+		"longitude": 5.73226,
+		"data":[
+			{
+				"what": "Images",
+				"url": "https://images.tommi.space/index?/category/visite-du-musee-de-grenoble"
+			}
+		]
+	},
+	{
+		"start": "2022-12-11T16:13:00+01:00",
+		"end": "2022-05-21T17:56:00+02:00",
+		"title": "Anti Social Social Park 2022",
+		"aliases": ["ASSP 2022"],
+		"url": "https://instagram.com/antisocialsocialpark",
+		"tags": ["festival", "music", "workshop", "networking", "ASSP", "concert"],
+		"people": ["Francesco Zollo", "Tredici Pietro", "Fulminacci"],
+		"location": "Volterra",
+		"latitude": 43.40057,
+		"longitude": 10.86190,
+		"data":[
+			{
+				"what": "Images",
+				"url": "https://images.tommi.space/index?/category/assp-2022"
+			}
+		]
+	},
+	{
 		"start": "2022-05-21T18:00:00+02:00",
 		"end": "2022-05-21T22:50:00+02:00",
 		"title": "La festa del secolo",
 		"aliases": ["Centenario AGESCI Mestre", "Cento anni di scoutismo a Mestre"],
-		"url": "https://www.agescimestre.it/",
+		"url": "https://agescimestre.it",
 		"tags": ["scout", "event", "concert"],
 		"people": ["L’Ostile Scout"],
 		"location": "Campi del Sole, Mestre",
@@ -12,8 +62,12 @@
 		"longitude": 12.234811,
 		"data":[
 			{
-				"what": "Messa del Patriarca",
+				"what": "Video completo",
 				"url": "https://youtu.be/i8rjmiUhfZo"
+			},
+			{
+				"what": "Comunicato stampa",
+				"url": "https://www.agescimestre.it/wp-content/uploads/2022/05/COMUNICATO_STAMPA_MESTRE100.pdf"
 			}
 		]
 	},

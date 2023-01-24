@@ -1,5 +1,44 @@
 [
 	{
+		"title": "Late Night nello ScambiVerso",
+		"start": "2022-12-27T20:00:00+01:00",
+		"end": "2022-12-28T01:00:00+01:00",
+		"url": "https://scambi.org/editions#latenight-scambiverso",
+		"tags": ["scambi", "music"],
+		"people": ["Asganaway", "Claynuts", "Late Night Sessions"],
+		"description": "We got in touch with those crazy people of <cite>[Late Night Sessions](https://instagram.com/latenightsessions2022 'Late Night Sessions')</cite>, and together we organized an unforgettable night. The [Asganaway](https://instagram.com/__asganaway_ 'Asganaway su Instagram') and The [Claynuts](https://instagram.com/clay.nuts 'Claynuts su Instagram') played so hard that all of our hearts trembled.",
+		"location": "Oratorio di Santa Brigida",
+		"lat": 43.81901,
+		"lon": 7.77419,
+		"data":[
+			{
+				"what": "Media",
+				"url": "https://archive.org/details/latenight-scambiverso"
+			}
+		]
+	},
+	{
+		"start": "2022-08-25T09:00:00+02:00",
+		"end": "2022-08-28T23:59:00+02:00",
+		"title": "Scambi Festival 2022",
+		"aliases": ["Scambi 2022"],
+		"url": "https://scambi.org/editions#2022",
+		"tags": ["event", "scambi"],
+		"location": "La Pigna",
+		"lat": 43.81878,
+		"lon": 7.77434,
+		"data":[
+			{
+				"what": "Documentary",
+				"url": "https://peertube.uno/w/nVkrGcAxERp2WHhWWRvTng"
+			},
+			{
+				"what": "Media",
+				"url": "https://archive.org/details/scambi-2022"
+			}
+		]
+	},
+	{
 		"start": "2022-05-13T09:45:00+01:00",
 		"end": "2022-05-15T09:45:00+01:00",
 		"title": "VeUMEU",
