@@ -1,10 +1,11 @@
 ---
 date: 2021-11-17T10:23:35+01:00
-updated: 2022-03-14T14:52:05+01:00
+updated: 2023-01-24T22:34:50+01:00
 image: https://www.ilriformista.it/wp-content/uploads/2022/03/pasolini-calcio-solo-900x600.jpeg
 tags:
   - uni
   - people
+permalink: /pasolini/
 ---
 > l’idea cioè che qualcuno, per scrivere qualcosa, debba possedere <q>autorevolezza</q>. Io non capisco sinceramente come possa venire in mente una cosa simile. Ho sempre pensato, come qualsiasi persona normale, che dietro a chi
 scrive ci debba essere necessità di scrivere, libertà, autenticità, rischio. Pensare che ci debba essere qualcosa di sociale e di ufficiale che «fissi» l’autorevolezza di qualcuno, è un pensiero, appunto aberrante, dovuto evidentemente alla deformazione di chi non sappia più concepire verità al di fuori dell’autorità.
@@ -51,4 +52,3 @@ Scelta **esteriore**, non autentica perché standard. -> **provocazione** trans-
 ---
 
 - Omologazione dei modelli imposti dalla televisione vs omologazione social media
-- 
