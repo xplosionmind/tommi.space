@@ -6,7 +6,7 @@ description: La mia scrivania da me costruita con bancali riciclati
 lang: it
 location: Xplosion Attic
 toc: false
-redirect_from: [/desk,/xplosion-attic-desk,/xplosion-attic/desk,/xplosion-attic/aida]
+redirect_from: [/desk/]
 image: https://images.tommi.space/picture?/16608/category/attic
 ---
 L’idea di Aida fu coltivata nella mia mente sin dal remoto 2014, quando, invece di ascoltare le lezioni di letteratura, impiegavo ore per realizzare progetti di mobili di bancali riciclati.

@@ -1,6 +1,6 @@
 ---
 date: 2021-12-24T18:40:13+01:00
-updated: 2022-03-14T12:36:43+01:00
+updated: 2023-01-25T18:45:14+01:00
 tags:
   - meta
   - geek
@@ -37,9 +37,20 @@ permalink: /tags-notes/
 - `writing`
 - `zen`
 
-<br>
-<br>
+## Places
 
-## Place
+- Location name
+- `bathroom`
 
-- `Venezia`
+## Situations
+
+- `sunset`
+- `pano`
+- `friends`
+
+## Content
+
+- `me`
+	- `ugly selfies`
+- `desk`
+- `portrait`, mainly concerning photos I shot to other people

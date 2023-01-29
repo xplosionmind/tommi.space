@@ -5,7 +5,7 @@ updated: 2021-09-20T19:05:32+02:00
 subtitle: e la magia dello scoutismo non banale
 aliases: CFT, Campo di Formazione Tirocinanti
 permalink: /cft/
-redirect_from: ['/tirocinanti-saltellanti/', '/campo-di-formazione-tirocinanti/', '/cft-2021/', '/cft-mestre-2021/']
+redirect_from: [/tirocinanti-saltellanti/]
 tags: scout
 image: /2021-09-19-tirocinanti-saltellanti.jpg
 description: Ovvero perché lo scoutismo è molto più di quella cosa banale che appare essere.

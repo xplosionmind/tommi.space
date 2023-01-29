@@ -3,7 +3,6 @@ date: 2020-07-17
 updated: 2023-01-19T11:20:10+01:00
 image: https://tommi.space/wishlist.svg
 description: Stuff I need and things I just would love to have
-redirect_from: [/desideri/,/regali/]
 toc: false
 main: true
 tag: track

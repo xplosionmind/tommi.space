@@ -2,7 +2,8 @@
 date: 2021-02-04T23:47:35+01:00
 updated: 2022-04-27T12:31:15+02:00
 aliases: Translations
-redirect_from: [/to-translate/,/translations/,/l10n/]
+permalink: /l10n/
+redirect_from: [/to-translate/, /translate/]
 tags: writing
 toc: false
 description: Writings I intend to translate

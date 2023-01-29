@@ -5,7 +5,7 @@ date: 2021-09-12T14:42:09+02:00
 updated: 2021-09-12T17:05:14+02:00
 aliases: Jarvis, Addio Jarvis
 permalink: /jarvis/
-redirect_from: [/addio-jarvis/, /lost-jarvis/, /jarvis-lost/, /i-lost-jarvis/, /ode-a-jarvis/]
+redirect_from: [/ode-a-jarvis/]
 tags: zen
 image: /2021-09-12-ode-a-jarvis.jpg
 description: Triste addio ad un insostituibile compagno di viaggio, nonché accettazione dello smarrimento di una parte di me

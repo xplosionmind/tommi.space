@@ -4,7 +4,7 @@ tags: geek/apps
 image: https://www.tomshw.it/images/images/2021/03/foto-generiche-147818.jpg
 description: A comprehensive list of apps I use + interesting apps I have to keep record of.
 aliases: Software, Digital Tools
-redirect_from: [/uses,/installed,/installed-apps,/applications,/applicazioni,/programs,/programmi,/software,/ios-apps,/iphone,/iphone-apps,/ios,/macos-apps,/mac-apps,/macos,/macbook,/macbook-pro,/macbookpro,/tommis-mac,/tommis-macbook,/tommis-macbook-pro,/tommismacbookpro]
+redirect_from: [/uses/]
 todo:
   - print whether the app is open source or not
 ---

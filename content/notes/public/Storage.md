@@ -1,6 +1,6 @@
 ---
 date: 2020-12-24T01:00:00+01:00
-updated: 2023-01-02T14:27:44+01:00
+updated: 2023-01-25T23:04:36+01:00
 tags: geek
 redirect_from: [/backup/, /backups/]
 description: Notes concerning storage management, viable solutions and systems tsting
@@ -30,6 +30,10 @@ In the XXI century, storage is a big deal. Preserving personal data and memories
 - Does it make sense to use my [[Cubbit]]'s 4TB for long-term picture storage? *It does, as long as [[Cubbit#Feature requests|some features]] will be included*
 - Should I use portable Hard Disks, as the ones I already have, or internal hard disks to plug to [[Linuxplosion]]? *None of the two, if the Cubbit solution works*
 
+## Research
+
+- <b class='missing'>+++</b> Linking <cite>Ecologia Digitale</cite> article
+
 ## Solutions
 
 ### SSH
@@ -42,7 +46,7 @@ In the XXI century, storage is a big deal. Preserving personal data and memories
 
 ### Photoprism
 
-[Photoprism](https://photoprism.app 'Photoprism') is arguably the best Google Photos alternative. Nevertheless, it requires a relatively powerful software to run. It is the best possible solution in terms of usability, but not in terms of costs and eco-friendliness. [Some installation resources](https://inputs.tommi.space/tag/list/photoprism 'Entries tagged “photoprism” in inputs.tommi.space')
+[Photoprism](https://photoprism.app 'Photoprism') is arguably the best Google Photos alternative. Nevertheless, it requires a relatively powerful hardware to run. It is the best possible solution in terms of usability, but not in terms of costs and eco-friendliness. [Some installation resources](https://inputs.tommi.space/tag/list/photoprism 'Entries tagged “photoprism” in inputs.tommi.space')
 
 ## Resources
 
@@ -53,7 +57,9 @@ In the XXI century, storage is a big deal. Preserving personal data and memories
 
 On [[Linuxplosion]], I am considering to configure a [RAID 1](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1 '“RAID Levels” on Wikipedia') storage system. Below, some notes about this.
 
-- [💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾](https://youtu.be/O3Iq9hx8V7U '💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾'), a YouTube video of September 2020
+- [💽 How to Setup Software RAID with MDADM Command on Linux Ubuntu in 2021 💾](https://youtu.be/O3Iq9hx8V7U '💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾'), a YouTube video of September 2020
 - [Ubuntu 20.04 Mdadm Setup Guide](https://youtu.be/F4YIxh1kkhI 'Ubuntu 20.04 Mdadm Setup Guide') a YouTube video
+
+![[Personal storage management notes]]
 
 ![[Backup checklist]]

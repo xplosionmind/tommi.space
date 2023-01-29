@@ -13,8 +13,6 @@ There is little need to look for fancy apps and customizable complex interfaces 
 1. having most of the important data (and metadata!) in [[Ode to plain text|plain text]], so that there is no need to go through painful, stressful and long importing or exporting practices which go beyond the use of [[Pandoc]];
 1. improving basic coding skills by refining and updating scripts, in order to make them better.
 
-<br>
-
 The only, huge, drawback is that the extreme specificity of such scripts leads to a very poor if not <u>non-existent usability for other people</u>. The user-base would be me, and me only.
 
 Furthermore, while technical knowledge and skills to build local-first scripts in [[Bash]] or [[Python]] for [[Cheat sheets|CLI]] are quite accessible to a non-developer like I am, anything that involves [[Server|servers]] and [APIs](https://en.wikipedia.org/wiki/API 'API on Wikipedia') becomes too hard to handle. In any case, no solution would be perfect and completely future-proof, though.

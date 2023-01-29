@@ -1,7 +1,7 @@
 ---
 title: Feed
 permalink: /feed/
-redirect_from: [/feeds-it/,/feed-it/,/it/feeds/,/it/feed/]
+redirect_from: [/it/feeds/,/it/feed/]
 layout: page.html
 ref: feeds
 lang: it

@@ -4,7 +4,7 @@ updated: 2022-11-28T10:40:49+01:00
 tags: geek
 description: Notes on writing and rendering long writings with citations via PanDoc
 permalink: /pandoc-workflow/
-redirect_from: ['/academic-writing-with-pandoc/','/pandoc-paper/','/pandoc-bibliography/']
+redirect_from: [/academic-writing-with-pandoc/,/pandoc-paper/]
 aliases: Thesis writing workflow with Pandoc, Long writing in Markdown
 toc: false
 image: https://s3.amazonaws.com/libapps/accounts/109251/Screen_Shot_2017-01-06_at_4.18.48_PM.png

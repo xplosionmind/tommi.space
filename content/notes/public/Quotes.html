@@ -24,8 +24,7 @@ todo:
 	</blockquote>
 	{% if q.author != '' or q.work != '' %}
 		<p class='cite'>
-			{{ q.author }}{%- if q.work != '' and q.author != '' -%}, {% endif -%}<cite>{% if q.url != '' %}<a href='{{ q.url }}' lang='{{ q.lang }}' hreflang='{{ q.lang }}' target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{% else %}{{ q.work }}{% endif %}</cite>
-			<br>{% if q.note != '' %}{{ q.note | markdownify }}{% endif %}
+			{{ q.author }}{%- if q.work != '' and q.author != '' -%}, {% endif -%}<cite>{% if q.url != '' %}<a href='{{ q.url }}' lang='{{ q.lang }}' hreflang='{{ q.lang }}' target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{% else %}{{ q.work }}{% endif %}</cite>{% if q.note != '' %} — {{ q.note | markdownify }}{% endif %}
 		</p>
 	{% endif %}
 {% endfor %}

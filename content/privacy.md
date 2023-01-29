@@ -3,7 +3,6 @@ updated: 2022-04-13T18:39:22+02:00
 title: Privacy
 ref: privacy
 lang: en
-redirect_from: [/privacy-policy/, /privacypolicy/]
 layout: page.html
 description: Privacy Policy of tommi.space
 sitemap:
