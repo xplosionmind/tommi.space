@@ -6,9 +6,11 @@ const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 // Markdown //
 function wikilinkSlugifier(pageName) {
-	pageName = pageName.trim()
-	pageName = pageName.split('/').map(require('sanitize-filename')).join('/')
-	pageName = pageName.replace(/\s+/, '-')
+	pageName = pageName.replace(/\s+/, '-');
+	pageName = slugify(pageName, {
+		remove: /'/g,
+		lower: true
+	});
 	return pageName
 }
 const markdownIt = require('markdown-it');
