@@ -23,18 +23,11 @@ const md = markdownIt({
 	makeAllLinksAbsolute: true,
 	class: 'wikilink',
 	postProcessPageName: wikilinkSlugifier
-})).disable('code')
-.use(require('markdown-it-attrs'))
+}))
 .use(require('markdown-it-anchor'))
 .use(require('markdown-it-footnote'))
-.use(require('markdown-it-sup'))
-.use(require('markdown-it-sub'))
-.use(require('markdown-it-ins'))
 .use(require('markdown-it-mark'))
 .use(require('markdown-it-task-lists'))
-.use(require('markdown-it-container'), 'box')
-.use(require('markdown-it-collapsible'))
-.use(require('markdown-it-abbr'))
 .use(require('markdown-it-mathjax3'));
 
 module.exports = function(eleventyConfig) {
