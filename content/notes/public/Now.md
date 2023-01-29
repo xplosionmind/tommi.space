@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16
-updated: 2023-01-19T12:02:30+01:00
+updated: 2023-01-24T18:58:33+01:00
 description: Stuff I am up to in these days
 ref: now
 comments: false
@@ -15,7 +15,7 @@ What I am doing right now:
 
 ## Studying
 
-{% comment %}I am living in [Venice](https://www.comune.venezia.it/ 'Venice institutional website'), Italy, where {% endcomment %}I am a student of [Philosophy, International Studies and Economics](https://unive.it/pise 'PISE course page on UniVe website') at [Ca’ Foscari University](https://unive.it 'Ca’ Foscari University website').
+I am living in [Venice](https://comune.venezia.it 'Venice institutional website'), Italy, where I am a student of [Philosophy, International Studies and Economics](https://unive.it/pise 'PISE course page on UniVe website') at [Ca’ Foscari University](https://unive.it 'Ca’ Foscari University website').
 
 ### Writing my thesis
 
