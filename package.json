@@ -20,7 +20,7 @@
 	},
 	"homepage": "https://tommi.space",
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.0-beta.1",
+		"@11ty/eleventy": "^2.0.0",
 		"@11ty/eleventy-plugin-rss": "^1.1.2",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
 		"@sardine/eleventy-plugin-tinyhtml": "^0.2.0",
