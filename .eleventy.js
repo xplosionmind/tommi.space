@@ -63,6 +63,11 @@ module.exports = function(eleventyConfig) {
 			return b.date - a.date;
 		});
 	});
+	eleventyConfig.addCollection('scripts', function(collection) {
+		return collection.getFilteredByGlob('scripts/*.md').sort((a, b) => {
+			return b.date - a.date;
+		});
+	});
 	// Multilingual sitemap collection. See https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap
 	eleventyConfig.addCollection('sitemap', function(collectionApi) {
 		return collectionApi
