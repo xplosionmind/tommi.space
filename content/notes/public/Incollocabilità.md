@@ -1,6 +1,6 @@
 ---
 date: 2023-01-29T18:24:03+01:00
-updated: 2023-01-30T10:51:32+01:00
+updated: 2023-01-30T11:33:14+01:00
 location: Club Tenco
 permalink: /incollocabilità/
 redirect_from: [/incollocabilita/]
@@ -15,11 +15,10 @@ Il [gabbiere](https://it.wiktionary.org/wiki/gabbiere) è il marinaio che sta ne
 
 Ascoltandolo in [un piccolo soave concerto al Tenco](https://p.lu/w/tqbCk5fr4CDj6squjJt9Co 'qualche secondo di Francesco Sirianni che canta'), ha parlato di un concetto che sento particolarmente mio, che d’ora in poi descriverò con le sue parole, che gli ho chiesto di ripetermi per poterle registrare a memoria imperitura.
 
-<audio controls>
-	<source src='https://tommi.space/incollocabilita.m4a' type='audio/m4a'>
-	<a href='/incollocabilita.m4a'>Federico Sirianni sull’incollocabilità</a>
-</audio>
-
-> L’incollocabilità è quella condizione che fa un po’ parte di chi fa un certo tipo di vita, quindi si muove incessantemente, è quella sensazione di appartenere a tanti luoghi contemporaneamente ma di non appartenere completamente a nessuno di essi.
->
-> Una sorta di dolce sdradicamento dalla terra.
+<figure>
+	<audio controls src='/incollocabilita.m4a'></audio>
+	<figcaption>
+		<blockquote><p>L’incollocabilità è quella condizione che fa un po’ parte di chi fa un certo tipo di vita, quindi si muove incessantemente, è quella sensazione di appartenere a tanti luoghi contemporaneamente ma di non appartenere completamente a nessuno di essi.</p>
+		<p>Una sorta di dolce sdradicamento dalla terra.</p></blockquote>
+	</figcaption>
+</figure>

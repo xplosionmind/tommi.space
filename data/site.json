@@ -14,6 +14,7 @@
 	"description": "The virtual representation of the mess inside Tommi’s mind",
 	"favicon": "https://tommi.space/favicon.png",
 	"image": "/tommi.space.wip.png",
+	"forge": "https://gitmi.dev/tommi",
 	"source": "https://gitmi.dev/tommi/tommi.space",
 	"changelog": "https://gitmi.dev/tommi/tommi.space/commits/branch/main",
 	"issues": "https://github.com/xplosionmind/tommi.space/issues",

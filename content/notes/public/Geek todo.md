@@ -1,11 +1,12 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2023-01-28T23:56:16+01:00
+updated: 2023-02-09T14:05:56+01:00
 tags: [geek, todo, geek/idea]
 description: Computer related tasks tracking
 ---
 1. [[Switching to Linux]]
-1. Switch to Nextcloud Tasks for reminders
+2. Expose PW publicly with a stronger password
+1. GitHub education verification renewal
 1. Use Samsung tablet as graphic table
 1. Scambi Festival 2022 + LNS 2023 videos upload on Internet Archive
 1. Backup/storage/hosting with Cubbit’s Object Storage [Cubbit Cloud-to-cloud](https://cubbit.io/cloud-to-cloud)
@@ -29,7 +30,6 @@ description: Computer related tasks tracking
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[Giri](https://tommi.space/giri 'Giri')*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
 5. Configure and install [sensible.vim](https://github.com/tpope/vim-sensible 'sensible.vim on GitHub'), to associate keybindings to commands on Vim
-6. Use [Hype Machine](https://hypem.com 'Hype Machine')
 7. Create a CSS framework
 8. MacBook Pro color profile
 9. #geek/idea s

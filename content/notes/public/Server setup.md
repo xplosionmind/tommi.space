@@ -1,8 +1,8 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2022-11-28T18:46:40+01:00
-tags: geek/server
+updated: 2023-02-07T20:32:45+01:00
 redirect_from: [/server-configuration/,/nextcloud/]
+tags: geek/server
 description: A walktrough of the steps I executed to set up my server
 aliases: Server configuration, VPS configuration
 ---
@@ -83,7 +83,7 @@ sudo ufw allow 'Apache'
 create [SSH](https://en.wikipedia.org/wiki/SSH 'SSH on Wikipedia') folder to store allowed keys
 
 ```bash
-mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
+ssh-keygen -t ed -a 100 -c 'tommi@tommi.space'
 ```
 
 **on local client**:
@@ -412,6 +412,12 @@ There are a lot of very useful [Nextcloud apps](https://apps.nextcloud.com/ 'Nex
 
 ## Nextcloud Cheat Sheet
 
+### Using OCC
+
+```
+sudo -u nextcloud php8.0 --define apc.enable_cli=1 /var/www/nextcloud/occ
+```
+
 ### Manually install applications
 
 move to the Nextcloud apps folder
@@ -450,7 +456,7 @@ chmod -R 755 /var/www/nextcloud/apps/app-name
 Toggle maintenance mode
 
 ```bash
-sudo -u nextcloud php7.3 --define apc.enable_cli=1 /var/www/occ maintenance:mode --on # or --off
+sudo -u nextcloud php8.0 --define apc.enable_cli=1 /var/www/nextcloud/occ --on # or --off
 ```
 
 ### Dockerized commands
