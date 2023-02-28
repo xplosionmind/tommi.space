@@ -14,7 +14,7 @@ type: CollectionPage
 					{% for place in places %}
 						{% if place.name contains location or place.aliases contains location %}
 							{% if place.osm != '' %}
-								<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+								<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>,
 							{% else %}
 								<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
@@ -27,7 +27,7 @@ type: CollectionPage
 					{% for place in places %}
 						{% if place.name contains location or place.aliases contains location %}
 							{% if place.osm != '' %}
-								<a href='{{ place.osm }}' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
+								<a href='{{ place.osm }}' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>,
 							{% else %}
 								<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
