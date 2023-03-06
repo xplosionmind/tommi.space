@@ -10,7 +10,7 @@ redirect_from: [/torrent/]
 ---
 ## Premessa
 
-Questo articolo contiene le istruzioni step-by-step per scaricare contenuti multimediali online. Se avessi bisogno di aiuto [scrivimi](mailto:{{ site.author.email }} 'Scrivimi un’email').
+Questo articolo contiene le istruzioni step-by-step per scaricare contenuti multimediali online. Se avessi bisogno di aiuto [scrivimi]({{ site.encoded_mailto }} 'Scrivimi un’email').
 
 <div class='yellow box'>
 	<strong>Nota</strong>: queste istruzioni vanno eseguite da computer, da telefono è molto più complicato e noioso, per cui conviene scaricare il film da computer e poi trasferirlo su telefono con il cloud o via cavo.
