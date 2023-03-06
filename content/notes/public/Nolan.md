@@ -29,6 +29,10 @@ As a result, *Nolan* makes a huge CSV or JSON database with a **timeline** of *e
 
 The existing software closest to what Nolan does is [personal-management-system](https://github.com/Volmarg/personal-management-system 'personal-management-system’s source code on GitHub')
 
-<time datetime='2023-01-28T23:14:02+01:00'>Saturday 28 January 2023</time>
+<p class='date'><time datetime='2023-01-28T23:14:02+01:00'>Saturday 28 January 2023</time></p>
 
 I have just stumbled upon [datasette](https://datasette.io), which does not have very much to do with life management per se, but it shares the fundamental concept of valuing little datasets and connecting them in the best possible way, reciprocally integrating them.
+
+<p class='date'><time datetime='2023-02-13T07:49:40+01:00'>Monday 13 February 2023</time></p>
+
+- https://github.com/Richardsl/heatmap-calendar-obsidian

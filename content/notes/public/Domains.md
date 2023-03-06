@@ -36,7 +36,7 @@ Domain names I am using:
 - [`tommasomarmo.com`][tommasomarmo.com], which redirects to `tommi.space`
 - [`gitmi.dev`][gitmi.dev], where [[GiTMI]] is hosted
 - ~~`pise-notes.club`, where I used to host my [[PISE]] notes~~
-- ~~`matto.club`, general purpose domain I bought for [[YunoHost]]~~
+- ~~`matto.club`, general purpose domain I bought for [[Server|Xplosion Server]]~~
 
 <br>
 

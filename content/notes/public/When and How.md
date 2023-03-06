@@ -4,7 +4,7 @@ updated: 2022-07-17T19:05:21+02:00
 tags:
   - draft
   - politics
-premalink: /when-how/
+redirect_from: [/when-how/,/how-when/,/how-and-when/]
 ---
 There is no actual meaning for what happens in the world right now. There is no what, there is no real why, everything, anything, is reduced to a matter of timing and exposition.
 

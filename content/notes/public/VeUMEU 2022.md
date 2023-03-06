@@ -2,7 +2,14 @@
 date: 2022-04-22T10:45:09+02:00
 updated: 2022-05-16T10:15:51+02:00
 location: VIU
+tags:
+  - event
+description: Random notes from VeUMEU 2022
+link: https://univiu.org/viu-life/veumeu-2022-venice-universities-model-european-union
+image: https://tommi.space/veumeu.webp
 ---
+This page contains random notes and points from [VeUMEU 2022](https://univiu.org/viu-life/veumeu-2022-venice-universities-model-european-union 'Venice Universities’ Model European Union 2022').
+
 ## Questions
 
 - why is Hungary still in the EU if Fidesz is Euro-skeptic and it holds the majority?
@@ -11,11 +18,9 @@ location: VIU
 
 Aiming at evenly distributing the cost to sustain in order to carry out the <q>green transition</q>. Ensuring that all of the EU goes towards carbon neutrality at the same pace.
 
--  Not a stable and permanent measure, temporary tool, from 2025-2032 (**Art. 1**)
-- Its use by member states depends by each country Social Climate Plan 
+- Not a stable and permanent measure, temporary tool, from 2025-2032 (**Art. 1**)
+- Its use by member states depends by each country Social Climate Plan
 - It works complementarily with the <abbr title='Emission Trading System'>ETS</abbr> directive and the Energy Efficiency Directive
-
-<br>
 
 ### Fidesz’s points
 
@@ -26,21 +31,13 @@ Aiming at evenly distributing the cost to sustain in order to carry out the <q>g
 - States as Hungary, towards which the EU clearly has a negative bias, are more likely to see their Social Climate Plans rejected. This legislation assumes all Plans will be good. The conditionality determined by the unclear requirements of the Plans make this regulation all but actually useful.
 - Member stated should not carry the burden of as much as 50% of their plan. If the EU wants to add regulations, it should assume the economical responsibility of making it true, too.
 
-<br>
-<br>
-
 ## Artificial Intelligence
 
 Comprehensive legal framework for the use of AI in the Union.
 
 **Artificial Intelligence**: technologies able to reach a pre-defined result through human-like autonomy and capacity.
 
-
-<br>
-
 ---
-
-<br>
 
 ## Press conference
 
