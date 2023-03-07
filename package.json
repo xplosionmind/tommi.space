@@ -228,6 +228,7 @@
 		"neo-async": "^2.6.2",
 		"nopt": "^5.0.0",
 		"normalize-path": "^3.0.0",
+		"npm": "^9.6.0",
 		"npm-check-updates": "^16.0.5",
 		"nunjucks": "^3.2.3",
 		"object-assign": "^4.1.1",
