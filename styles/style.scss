@@ -483,6 +483,11 @@ table {
 		background: var(--dark-blue);
 		margin: root.$tiny root.$regular-less;
 	}
+	.banner {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
 }
 
 @keyframes pulse {
@@ -821,12 +826,6 @@ h4 {
 	&:hover {
 		bottom: 0;
 	}
-}
-
-.banner {
-	position: fixed;
-	bottom: 0;
-	right: 0;
 }
 
 #latest-post {
