@@ -135,10 +135,6 @@ brew pin navi
 
 ## GPG
 
-GnuPG Cheat Sheets:
-
-<script src='https://gist.github.com/turingbirds/3df43f1920a98010667a.js'></script>
-
 - [GnuPG CheatSheet](https://devhints.io/gnupg 'GnuPG Cheat Sheet') on [devhints.io](https://devhints.io/ 'devhints')
 - [GPG Cheat Sheet](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/ 'GPG Cheat Sheet')
 

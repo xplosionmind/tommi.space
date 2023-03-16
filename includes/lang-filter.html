@@ -7,55 +7,10 @@
 		{% endif -%}
 	</h3>
 	<div class='flex'>
-		<a onclick='toggleen()' href='javascript:void(0);' title='{% if lang == 'it' -%}Mostra solo articoli in inglese{% else %}Show only posts in English{% endif -%}'>🇬🇧 </a>
-		<a onclick='toggleit()' href='javascript:void(0);' title='{% if lang == 'it' -%}Mostra solo articoli in italiano{% else %}Show only posts in Italian{% endif -%}'>🇮🇹 </a>
-		<a onclick='togglefr()' href='javascript:void(0);' title='{% if lang == 'it' -%}Mostra solo articoli in francese{% else %}Show only posts in French{% endif -%}'>🇫🇷 </a>
-		<a onclick='toggleall()' href='javascript:void(0);' title='{% if lang == 'it' -%}Mostra tutti gli articoli{% else %}Show all the posts{% endif -%}'>🌏</a>
+		<button onclick='toggleEn();' title='{% if lang == 'it' -%}Mostra solo articoli in inglese{% else %}Show only posts in English{% endif -%}'>🇬🇧 </button>
+		<button onclick='toggleIt();' title='{% if lang == 'it' -%}Mostra solo articoli in italiano{% else %}Show only posts in Italian{% endif -%}'>🇮🇹 </button>
+		<button onclick='toggleFr();' title='{% if lang == 'it' -%}Mostra solo articoli in francese{% else %}Show only posts in French{% endif -%}'>🇫🇷 </button>
+		<button onclick='toggleAll();' title='{% if lang == 'it' -%}Mostra tutti gli articoli{% else %}Show all the posts{% endif -%}'>🌏</a>
 	</div>
-
-<script>
-function toggleit() {
-	var x = document.querySelectorAll("li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en'], li[lang='fr'], .one .row > a[hreflang='fr'], .grid a[hreflang='fr']");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'none';
-	}
-	var x = document.querySelectorAll("li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it']");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'block';
-	}
-}
-function toggleen() {
-	var x = document.querySelectorAll("li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it'], li[lang='fr'], .one .row > a[hreflang='fr'], .grid a[hreflang='fr']");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'block';
-	}
-	var x = document.querySelectorAll("li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en']");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'block';
-	}
-}
-function togglefr() {
-	var x = document.querySelectorAll("li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it'], li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en']");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'none';
-	}
-	var x = document.querySelectorAll("li[lang='fr'], .one .row > a[hreflang='fr'], .grid a[hreflang='fr']");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'block';
-	}
-}
-function toggleall() {
-	var x = document.querySelectorAll("li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it'], li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en'], li[lang='fr'], .one .row > a[hreflang='fr'], .grid a[hreflang='fr']");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'block';
-	}
-}
-</script>
+	<noscript><p><strong class='red'>{% if lang == 'it' %}JavaScript è diasbilitato: i filtri non funzioneranno{% else %}JavaScript is disabled: filters won’t work{% endif %}</strong></p></noscript>
 </section>

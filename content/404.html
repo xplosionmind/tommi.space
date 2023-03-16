@@ -12,14 +12,6 @@ eleventyExcludeFromCollections: true
 
 {% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
 
-<script>
-window.onload = function(){
-	const pageNotFound = window.location.href.replace(/https:\/\/tommi\.space/g, '');
-	const errorReportUri = '{{ site.encoded_mailto }}?subject=%5Btommi.space%5D%20%5B404%5D%20' + pageNotFound;
-	document.getElementById('error-report').setAttribute('href', errorReportUri);
-};
-</script>
-
 <body class='landing'>
 	<a class='vertical flex' href='/home' onClick='javascript:history.go(-1)'>
 		<h1>{{ title }}</h1>
@@ -38,4 +30,11 @@ window.onload = function(){
 			</li>
 		</ul>
 	</div>
+<script>
+window.onload = function(){
+	const pageNotFound = window.location.href.replace(/https:\/\/tommi\.space/g, '');
+	const errorReportUri = '{{ site.encoded_mailto }}?subject=%5Btommi.space%5D%20%5B404%5D%20' + pageNotFound;
+	document.getElementById('error-report').setAttribute('href', errorReportUri);
+};
+</script>
 </body></html>
