@@ -1,6 +1,6 @@
 ---
 date: 2023-03-01T11:35:23+01:00
-updated: 2023-03-06T12:13:25+01:00
+updated: 2023-03-15T09:50:17+01:00
 location: home
 tags:
   - history
@@ -34,3 +34,49 @@ In 1962, Licklider hired by ARPA to focus on command and control of behavioral s
 What in the 60s was strongly and <q>jealously guarded</q>, computing resources, now is abundant. It is now software and algorithms the platforms provided.
 
 > Licklider’s influence was felt further afield through his support of large research programmes in universities that stimulated the early computer studies departments and <u>attracted the new generation of students</u> to the new field.
+
+Zott's beer garden as one of the main locations part of the story of the internet. The recurring **[[Partying|partying]] factor** in the development of digital technologies, as with, [for example, Facebook](https://wired.com/story/sex-beer-and-coding-inside-facebooks-wild-early-days 'Sex, Beer, and Coding: Inside Facebook’s Wild Early Days in Palo Alto | WIRED') (page 34)
+
+> The invention of the transistor at Bell Labs in 1947 liberated computing from the large, unreliable vacuum tubes on which the first digital computers were based.
+
+page 53
+
+> Tim Berners-Lee developed a piece of software called <q>Enquire</q> in the 1980s to map relationships between the various people, programs and systems he encountered there \[CERN\]
+
+page 105
+
+> He \[Berners-Lee\] and visionaries such Ted Nelson and Douglas Engelbart who came after him both sought to develop tools that could allow human beings to <u>better cope with the weight of information bearing down on them</u>.
+
+page 106, **hypertext** by Ted Nelson
+
+> > Its \[the www's\] universality is essential: the fact that a hyperlink can point to anything, be it personal, local or global, be it draft or highly polished.
+
+In October 1990 HTML editing and viewing, in December 1990 the first servers. Uninterest, slow implementation and adopting even within CERN. The first thing to be widely written in HTML was CERN's telephone directory.
+
+In 1995 Netscape went public with the largest IPO ever.
+
+> For the first few years of its existence the Web was <q>defined by nothing more than specifications stored on some disk sitting around somewhere at CERN</q>.
+
+> When the early developers of www software met in early 1994 for a <q>www wizards' workshop</q>, Berners-Lee proposed the idea of a consortium to oversee the future direction of the Web. The www Consortium, known as <q>W3C</q>, was formed to promote <u class='double'>interoperability</u> and <u>standardization</u> of web technologies.
+
+## Stallman and proprietary software
+
+<cite>Open-source: the hacker renaissance</cite>, from page 111:
+
+> delivery of new computers whose manufacturers demanded that their users sign non-disclosure agreements prohibiting them from swapping code and building on each other's work. From Stallman's perspective:
+>
+> > This meant that the first step in using a computer was to promise not to help your neighbor. A cooperating community was forbidden. The rule made by the owners of proprietary software was, <q>If you share with your neighbor, you are a pirate. If you want any changes, beg us to make them.</q>
+
+> The community that emerged from the wide collaboration on Linux was a loosely governed structure over which Torvalds watched as a benevolent dictator and moral authority.
+
+https://youtu.be/fs-YpQj88ew
+
+<div class='red box'>
+	<ul><li>What distinguished the Capitalist efforts at making Web technologies and communitarian ones such as Linux?</li>
+	<li>consider the aspect of the technology and software vs the hardware it is run on</li></ul>
+</div>
+
+page 118: Google's initial focus was on **back links**. PageRank, **Freedom to seek** at page 119. <q>googol</q>: Google's success and effectiveness is based on massive amount of data, centralized, processed, inspected, **ranked**:
+
+> The enormity of the googol, according to Google, <q>reflects their mission to organize a seemingly infinite amount of information on the Web</q>.
+

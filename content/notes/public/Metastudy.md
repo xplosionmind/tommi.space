@@ -1,12 +1,7 @@
 ---
 date: 2020-01-03T01:00:00+01:00
-updated: 2022-11-04T15:30:29+01:00
-tags:
-  - zen
-  - topic
-description: 'The study of studying, or'
+updated: 2023-03-14T07:36:18+01:00
 permalink: /study/
-aliases: Study method, Metodo di studio
 redirect_from:
   - /metastudy/
   - /studio/
@@ -14,7 +9,13 @@ redirect_from:
   - /studiare/
   - /metodo-di-studio/
   - /study-method/
+tags:
+  - zen
+  - topic
+  - wip
 toc: false
+description: 'The study of studying, or'
+aliases: Study method, Metodo di studio
 ---
 Literally, *metastudy* should mean “studying study”; actually, it signifies deepening the knowledge of how understanding, learning and remembering something works. I collect here some thoughts concerning <u>how to study better</u>, while keeping in mind that my considerations are strictly personal.
 
@@ -41,6 +42,10 @@ How to study is the trickiest matter. I have not found the solution which is bes
 <p class='date'><time datetime='2022-11-04T15:27:36+01:00'>Friday 4 November 2022</time></p>
 
 <p>E ne nasce una domanda: è il tempo passato studiando, entrando nelle cose, masticandole, “perdendoci” tempo e approfondendo oppure è il tempo cinetico, di piccoli slot iperproduttivi, concentrati e frullati, quello distorto?</p>
+
+## Conflict
+
+I hate to study, but I love studying. <b class='misssing'>+++</b>
 
 ## Resources
 
