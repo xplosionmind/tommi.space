@@ -3,6 +3,7 @@ let pageUrl = window.location.href;
 let show = 'block';
 let hide = 'none';
 scrollButton = document.getElementById('scrollButton');
+let pageHeight = document.body.scrollHeight;
 
 function scrollButtonBehavior() {
 	scrollButton.href = 'javascript:void(0);';
@@ -21,12 +22,28 @@ function nowScroll() {
 	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
 		window.scrollTo(0, 0);
 	} else {
-		window.scrollTo(0, document.body.scrollHeight);
+		window.scrollTo(0, pageHeight);
 	}
 }
 
-window.onload = function() {scrollButtonBehavior()};
-window.onscroll = function() {scrollButtonBehavior()};
+function tocBehavior() {
+	let footer = document.getElementsByTagName('footer')[0];
+	let footerHeight = footer.offsetHeight;
+	let tocHeight = pageHeight - footerHeight - 900; // adding some random pixels to consider margins etc.
+	if (document.body.scrollTop > tocHeight || document.documentElement.scrollTop > tocHeight) {
+		document.getElementById('toc').style.left = '-19vw';
+	} else {
+		document.getElementById('toc').style.left = '4vw';
+	}
+}
+
+window.onload = function() {
+	scrollButtonBehavior();
+	window.onscroll = function() {
+		tocBehavior();
+		scrollButtonBehavior();
+	};
+};
 
 /******************
 * Language filter *
