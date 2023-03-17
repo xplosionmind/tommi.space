@@ -14,21 +14,22 @@ function wikilinkSlugifier(pageName) {
 	return pageName
 }
 const markdownIt = require('markdown-it');
-const { default: slugify } = require('slugify');
 const md = markdownIt({
-	html: true
-})
-.use(require('markdown-it-wikilinks')({
-	uriSuffix: '',
-	makeAllLinksAbsolute: true,
-	class: 'wikilink',
-	postProcessPageName: wikilinkSlugifier
-}))
-.use(require('markdown-it-anchor'))
-.use(require('markdown-it-footnote'))
-.use(require('markdown-it-mark'))
-.use(require('markdown-it-task-lists'))
-.use(require('markdown-it-mathjax3'));
+		html: true
+	})
+	.use(require('markdown-it-wikilinks')({
+		uriSuffix: '',
+		makeAllLinksAbsolute: true,
+		class: 'wikilink',
+		postProcessPageName: wikilinkSlugifier
+	}))
+	.use(require('markdown-it-anchor'))
+	.use(require('markdown-it-footnote'))
+	.use(require('markdown-it-mark'))
+	.use(require('markdown-it-task-lists'))
+	.use(require('markdown-it-mathjax3'));
+
+const { default: slugify } = require('slugify');
 
 module.exports = function(eleventyConfig) {
 	// General //
@@ -97,7 +98,6 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.setServerPassthroughCopyBehavior('copy');
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
-	eleventyConfig.addPassthroughCopy('js');
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
 
 	// Plugins //
@@ -147,7 +147,7 @@ module.exports = function(eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
 	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
-		baseUrl: 'assets/svg/'
+		baseUrl: 'svg/'
 	});
 	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
 		ul: true,
@@ -184,13 +184,17 @@ module.exports = function(eleventyConfig) {
 					removeComments: true,
 					collapseWhitespace: true,
 					minifyCSS: true,
-					minifyJS: {
-						warnings: true,
-						expression: true,
-					},
+					minifyJS: true,
 					minifyURLs: true
 				});
 				return minified;
+			}
+			return content;
+		});
+		eleventyConfig.addTransform(require('uglify-js'), function(content, outputPath) {
+			if( this.outputPath && this.outputPath.endsWith('.js') ) {
+				console.log(this.outputPath);
+				return UglifyJS.minify(content);
 			}
 			return content;
 		});
