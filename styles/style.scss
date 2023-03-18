@@ -175,9 +175,6 @@ a {
 			}
 		}
 	}
-	code {
-		color: var(--primary);
-	}
 	&.box {
 		&:hover {
 			box-shadow: none !important;
@@ -354,17 +351,6 @@ pre {
 	white-space: pre-wrap;
 	background: var(--dark-blue);
 	color: var(--white);
-	code {
-		background: none;
-		padding: 0;
-		box-shadow: unset;
-	}
-}
-
-code {
-	padding: 1px 4px;
-	box-shadow: var(--inner-little-shadow);
-	border-radius: root.$radius-s;
 }
 
 .missing,
