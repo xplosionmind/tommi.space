@@ -16,8 +16,8 @@ todo:
 	<updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
 	<id>{{ altUrl }}</id>
 	<author>
-		<name>{{ author.name }}</name>
-		<email>{{ author.email }}</email>
+		<name>{{ site.author.name }}</name>
+		<email>{{ site.author.email }}</email>
 	</author>
 	{%- for entry in internetawesomeness %}
 	{%- set absolutePostUrl = entry.url | absoluteUrl(metadata.url) %}
