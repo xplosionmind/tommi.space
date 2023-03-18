@@ -142,20 +142,12 @@ span.citation {
 	background: var(--yellow);
 }
 
-::-webkit-scrollbar-track {
-	background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: var(--red);
-}
-
 .dim {
 	opacity: .5;
 }
 
 .transparent {
-	color: #0000;
+	opacity: 0;
 }
 
 a {
