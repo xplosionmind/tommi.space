@@ -8,6 +8,7 @@ tags:
   - music
   - erasmus
 permalink: /amore-oggi/
+image: /amore-oggi.webp
 ---
 Ieri sera, leggendo <cite>[Oceano mare](https://it.wikipedia.org/wiki/Oceano_mare '“Oceano mare” su Wikipedia')</cite>, regalatomi dalla mia cara amica [Valeria](https://instagram.com/valeria.contarini '@valeria.contarini su Instagram') (che compie gli anni oggi, buon compleanno ❤️), mi imbatto nel personaggio del professor Bartleboom e mi si spalancano le palpebre.
 
