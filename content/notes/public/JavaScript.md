@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T19:24:15+02:00
-updated: 2023-03-17T11:38:53+01:00
+updated: 2023-03-18T15:06:23+01:00
 tags: geek/knowledge
 description: Insights about JavaScript, a great tool but also a nightmare.
 created: 2021-12-15T13:03:38+01:00
@@ -22,9 +22,9 @@ I am stacking here everything I find out on the web which might be useful for wh
 - [JavaScript, The Right Way](https://jstherightway.org/ 'JavaScript, The Right Way'), an open source, easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web
 - [OneMonth](https://onemonth.com/ 'OneMonth official website'), free with [GitHub Education](https://education.github.com 'GitHub Education')
 
-### React
+### Node
 
-- Beginner’s [React developer roadmap](https://dev.to/monicafidalgo/react-developer-roadmap-beginners-guide-14fc 'React developer roadmap')
+- [oclif](https://oclif.io 'The Open CLI Framework'): The Open CLI Framework · Create command line tools your users love
 
 ## Notes
 
