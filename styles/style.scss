@@ -231,18 +231,6 @@ input {
 	cursor: url(/cursor-forbidden.svg) 16 16, not-allowed;
 }
 
-.embed-wrapper {
-	padding: 2rem 5%;
-	font-size: .8em;
-	background: var(--deep);
-	border-radius: root.$radius-l;
-	box-shadow: var(--inner-shadow);
-}
-
-.embed-title {
-	display: none;
-}
-
 .flex {
 	display: flex !important;
 	flex-wrap: wrap;
