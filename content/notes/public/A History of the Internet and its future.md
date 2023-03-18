@@ -7,6 +7,7 @@ tags:
   - uni/thesis
   - wip
   - reading/book
+permalink: /internet-history/
 ---
 
 p. 15:

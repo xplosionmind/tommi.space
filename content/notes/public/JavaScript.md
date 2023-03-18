@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T19:24:15+02:00
-updated: 2023-03-15T18:44:03+01:00
+updated: 2023-03-17T11:38:53+01:00
 tags: geek/knowledge
 description: Insights about JavaScript, a great tool but also a nightmare.
 created: 2021-12-15T13:03:38+01:00
@@ -30,5 +30,43 @@ I am stacking here everything I find out on the web which might be useful for wh
 
 - When combining stuff, the string always wins
 - you can grab the content of a DOM Element by selecting it and using `innerText`
+- `textContent` is better than `innerText`
+
+### Reading and writing JSON
+
+To read a JSON file in JavaScript, you can use the `fetch()` method to get the contents of the file as a `Response` object. Then, you can convert the `Response` object to JSON using the `json()` method.
+
+Here is an example:
+
+```
+fetch('example.json')
+	.then(response => response.json())
+	.then(data => console.log(data))
+	.catch(error => console.error(error))
+```
+
+To write a JSON file in JavaScript, you can create an object that you want to write to a file, convert it to a JSON string using the `JSON.stringify()` method, and then write the string to a file using the `fs` module.
+
+Here is an example:
+
+```
+const fs = require('fs')
+
+const data = {
+	name: 'John',
+	age: 30,
+	city: 'New York'
+}
+
+const jsonData = JSON.stringify(data)
+
+fs.writeFile('example.json', jsonData, err => {
+	if (err) {
+		console.error(err)
+		return
+	}
+console.log('Data written to file')
+})
+```
 
 [JavaScript]: https://en.wikipedia.org/wiki/JavaScript 'JavaScript on Wikipedia'

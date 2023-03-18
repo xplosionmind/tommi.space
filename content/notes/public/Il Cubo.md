@@ -4,25 +4,25 @@ updated: 2022-03-14T14:57:41+01:00
 lang: it
 location: Il Cubo
 permalink: /cubo/
+redirect_from: /il-cubo/
 tags: places
+toc: false
 todo:
   - Foto del Cubo
   - Foto del Tommi Boom
-toc: false
-redirect_from: /il-cubo/
 ---
 Il Cubo è la spiaggia più bella di Sanremo.  
 Può godere di questo primato in quanto, pur essendo uno stabilimento balneare, non ne possiede alcuna, di spiaggia.
 
 Il Cubo è una fortezza, un’inespugnabile palafitta in fondo alla serie di noiose spiagge mondane che affollano la cosiddetta zona “Tre Ponti”, a levante della ridente cittadina ligure.
 
-Il Cubo è la roccaforte della socialità e della leggerezza, ultimo baluardo sanremese dell’aperitivo con amici che non si esaurisce davanti a un qualunque bicchiere di ottima *San Miguel* alla spina, ma che arriva fino alla palletta delle diciannove e trenta, difficilmente riuscendo a terminare prima delle ventieventi.
+Il Cubo è la roccaforte della socialità e della leggerezza, ultimo baluardo sanremese dell’aperitivo con amici che non si esaurisce davanti a un qualunque bicchiere di ottima <cite>San Miguel</cite> alla spina, ma che arriva fino alla palletta delle diciannove e trenta, difficilmente riuscendo a terminare prima delle ventieventi.
 
 Il Cubo è l’incarnazione terrena dell’ideale tomistico di bar sulla spiaggia.
 
 Al Cubo non esiste genere musicale che non trovi un momento adatto per essere riprodotto. Non a caso, Il Cubo è la casa de [Il Mio CUBO suona il Rock](https://tommi.space/tutto#concertini '“Concertini” in Tutto').
 
-I genitori del Cubo sono Andrea e Silvia, <em lang='en'>arguably</em> i due meno associali e più umani ristoratori del ponente ligure:  
+I genitori del Cubo sono Andrea e Silvia, i due più umani ristoratori del ponente ligure:  
 Andrea, in particolare mentre surfa con mirabile abilità una <cite>Spalmer</cite>[^1], sfoggia un’invidiabile chioma di capelli d’oro tanto che, quando timidamente salvai per la prima volta il suo numero in rubrica, lo salvai *Andrea Capellidoro*;  
 Silvia è invece colei che con uno sguardo e due parole sa farmi capire che sto sparando troppe cazzate, oppure ama consigliare libri che nella vita vanno letti almeno sette volte, e cucina degli ottimi, prelibati, inimitabili <cite>Spalmer</cite>[^2].
 
@@ -32,13 +32,13 @@ All’imbrunire, non esiste luogo migliore del Cubo in cui essere, sorseggiando,
 
 Se Super Pippo frequentasse il Cubo, sarebbe la persona più felice del mondo. Con il suo dolcissimo sorriso, la Stefi sommerge gli *abitué* con inesauribili montagne di arachidi, donando loro attimi di platonica gioia.
 
-Il Cubo è perfetto per studiare: sia nel periodo della sessione estiva che di quella autunnale, recandovisi, facilmente ci si potrà imbattere in assembramenti di ingegneri (che nella sessione invernale, invece, affollano [l’aula verde](https://tommi.space/avanguardia 'L’Avanguardia')) crucciati a risolvere un problema di cui già sanno di non saper giungere a soluzione, ma che sono consapevoli che il solo scervellarsi seduti ad un tavolino del Cubo può aumentare il loro quoziente intellettivo di almeno dodici punti.
+Il Cubo è perfetto per studiare: sia nel periodo della sessione estiva che di quella autunnale, recandovisi, facilmente ci si potrà imbattere in assembramenti di ingegneri (che nella sessione invernale, invece, affollano [l’aula verde](https://tommi.space/avanguardia 'L’Avanguardia')) crucciati a risolvere un problema di cui già sanno di non saper giungere a soluzione, ma che sono consapevoli che il solo scervellarsi seduti a un tavolino del Cubo può aumentare il loro quoziente intellettivo di almeno dodici punti.
 
 Presso il Cubo è stata pronunciata [la celeberrima frase](https://tommi.space/quotes#pista-studiare-sopravvalutato) dell’altrettanto famoso Pista, che naturalmente corrobora la tesi del paragrafo precedente.
 
 Esiste una legge matematica che, se trasgredita, porta irreparabili maledizioni sulla vita di chi la ignora; tale regola è stata da me formulata al Cubo, per salvare il mondo:
 
-> I Negroni ordinati da un umano $x$ devono necessariamente essere di numero $2n$; qualora avvenisse il contrario, ed erroneamente o per sfida contro la natura $x$ si trovasse a bere o, ancora peggio, pagare un numero dispari, ergo $2n+1$ di Negroni, $x$ deve aspettarsi un numero $y$ di sciagure nel corso della propria esistenza, dove $y = 2^{2n+1}$. Qualora $y \le 8$ fra tali sciagure sicuramente esisterà la morte.
+> I Negroni ordinati da un umano $x$ devono necessariamente essere di numero $2n$; qualora avvenisse il contrario, ed erroneamente o per sfida contro la natura $x$ si trovasse a bere o, ancora peggio, pagare un numero dispari, ergo $2n+1$ di Negroni, $x$ deve aspettarsi un numero $y$ di sciagure nel corso della propria esistenza, dove $y = 2^{2n+1}$. Qualora $y \ge 8$ fra tali sciagure sicuramente esisterà la morte.
 
 Il Cubo è un luogo magico e devo vergognarmi se mai qualcuno verrà a trovarmi a Sanremo senza essere ivi portato.
 

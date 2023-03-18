@@ -25,8 +25,6 @@ I just know I deeply love [Jonathan Larson](https://tommi.space/people#jonathan-
 
 ## La vie bohème
 
-<https://youtu.be/i5tuzq-uIVc>
-
 <div class='embed'><iframe title='La Vie Bohème A and B' src='https://p.lu/videos/embed/2dfddc5f-1298-4875-95f0-67189e655a19?autoplay=1&amp;warningTitle=0' allowfullscreen='' sandbox='allow-same-origin allow-scripts allow-popups' frameborder='0'></iframe></div>
 
 > To days of inspiration  
