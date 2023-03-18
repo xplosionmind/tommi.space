@@ -9,7 +9,7 @@
 		{% endfor %}
 	{% endif %}
 
-	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
+	{% render 'head.html', runMode: eleventy.env.runMode, latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
 
 	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
 		<a id='scrollButton' class='tool' onclick='nowScroll()' href='#' aria-label='scroll to top' title='scroll to top'>

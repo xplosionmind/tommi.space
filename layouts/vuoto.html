@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='{% if lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'>
 
-	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
+	{% render 'head.html', runMode: eleventy.env.runMode, latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
 
 	<body>
 		{% if textonly %}
