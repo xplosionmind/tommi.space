@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
 		"build": "ELEVENTY_ENV=production eleventy",
-		"debug": "DEBUG=Eleventy* npm start",
+		"debug": "DEBUG=Eleventy* npm start --dry-run",
 		"clean": "del-cli dist"
 	},
 	"repository": {
@@ -47,6 +47,7 @@
 	},
 	"dependencies": {
 		"@aloskutov/eleventy-plugin-external-links": "^1.4.0",
+		"@photogabble/eleventy-plugin-interlinker": "^1.0.0",
 		"@quasibit/eleventy-plugin-sitemap": "^2.1.5",
 		"a-sync-waterfall": "^1.0.1",
 		"abbrev": "^1.1.1",
@@ -128,6 +129,7 @@
 		"engine.io-parser": "^5.0.3",
 		"entities": "^3.0.1",
 		"errno": "^1.0.0",
+		"esbuild": "0.17.12",
 		"escalade": "^3.1.1",
 		"escape-html": "^1.0.3",
 		"escape-string-regexp": "^5.0.0",
