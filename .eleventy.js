@@ -15,7 +15,8 @@ function wikilinkSlugifier(pageName) {
 }
 const markdownIt = require('markdown-it');
 const md = markdownIt({
-		html: true
+		html: true,
+		typographer: true
 	})
 	.use(require('markdown-it-wikilinks')({
 		uriSuffix: '',
@@ -23,7 +24,9 @@ const md = markdownIt({
 		class: 'wikilink',
 		postProcessPageName: wikilinkSlugifier
 	}))
-	.use(require('markdown-it-anchor'))
+	.use(require('markdown-it-anchor'), {
+		permalink: require('markdown-it-anchor').permalink.headerLink(),
+	})
 	.use(require('markdown-it-footnote'))
 	.use(require('markdown-it-mark'))
 	.use(require('markdown-it-task-lists'))
@@ -99,6 +102,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.setServerPassthroughCopyBehavior('copy');
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
+	eleventyConfig.addPassthroughCopy('index.js');
 
 	// Plugins //
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
@@ -188,13 +192,6 @@ module.exports = function(eleventyConfig) {
 					minifyURLs: true
 				});
 				return minified;
-			}
-			return content;
-		});
-		eleventyConfig.addTransform(require('uglify-js'), function(content, outputPath) {
-			if( this.outputPath && this.outputPath.endsWith('.js') ) {
-				console.log(this.outputPath);
-				return UglifyJS.minify(content);
 			}
 			return content;
 		});

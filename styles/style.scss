@@ -677,12 +677,17 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1;
 	hyphens: none;
 	margin: 0;
-	.anchor {
-		opacity: 0;
-	}
+}
+
+.header-anchor {
+	color: var(--text);
 	&:hover {
-		.anchor {
-			opacity: 1;
+		border-bottom: 2px solid var(--primary);
+		&::before {
+			content: '🔗';
+			position: absolute;
+			left: -2.2rem;
+			transform: scale(.8);
 		}
 	}
 }
