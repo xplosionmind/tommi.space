@@ -76,8 +76,10 @@
 	<link rel='alternate' type='application/rss+xml' title='Internet Awesomeness feed' href='/internet-awesomeness.xml'>
 	<link rel='alternate' type='application/json' title='Internet Awesomeness feed' href='/internet-awesomeness.json'>
 
-	<!-- Analytics -->
-	<script async defer data-website-id='67cb7012-b84d-4bc7-afac-ac149d944c1d' src='https://visits.tommi.space/umami.js'></script>
+	{% if runMode == 'build' %}
+		<!-- Analytics -->
+		<script async defer data-website-id='67cb7012-b84d-4bc7-afac-ac149d944c1d' src='https://visits.tommi.space/umami.js'></script>
+	{% endif %}
 
 	<script type='application/ld+json'>
 		{
