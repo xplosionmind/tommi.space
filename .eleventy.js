@@ -99,7 +99,7 @@ module.exports = function(eleventyConfig) {
 			});
 	});
 
-	/*eleventyConfig.addTemplateFormats('js');
+	eleventyConfig.addTemplateFormats('js');
 	eleventyConfig.addExtension('js', {
 		outputFileExtension: 'js',
 		compile: async (inputContent, inputPath) => {
@@ -124,12 +124,11 @@ module.exports = function(eleventyConfig) {
 				return output.outputFiles[0].text;
 			}
 		}
-	});*/
+	});
 
 	//eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
-	eleventyConfig.addPassthroughCopy('index.js');
 
 	// Plugins //
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
