@@ -99,7 +99,34 @@ module.exports = function(eleventyConfig) {
 			});
 	});
 
-	eleventyConfig.setServerPassthroughCopyBehavior('copy');
+	/*eleventyConfig.addTemplateFormats('js');
+	eleventyConfig.addExtension('js', {
+		outputFileExtension: 'js',
+		compile: async (inputContent, inputPath) => {
+			console.log(inputPath);
+			if (inputPath !== './js/index.js') {
+				console.log('path to be skipped');
+				return;
+			}
+
+			let output = await require('esbuild').build({
+				target: 'es2020',
+				entryPoints: [inputPath],
+				minify: true,
+				bundle: true,
+				write: false,
+			});
+
+
+			return async () => {
+				console.log('processing js');
+				console.log(output.outputFiles[0].text);
+				return output.outputFiles[0].text;
+			}
+		}
+	});*/
+
+	//eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
 	eleventyConfig.addPassthroughCopy('index.js');
@@ -138,12 +165,6 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
-	/*eleventyConfig.addPlugin(
-		require('@photogabble/eleventy-plugin-interlinker'),
-		{
-			defaultLayout: 'layouts/wikilink-embed.liquid'
-		}
-	);*/
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPlugin(require('eleventy-sass'), {
 		compileOptions: {
@@ -201,6 +222,13 @@ module.exports = function(eleventyConfig) {
 			}
 			return content;
 		});
+		eleventyConfig.addTransform(require('uglify-js'), function(content, outputPath) {
+			console.log(outputPath);
+			if(this.outputPath && this.outputPath.endsWith('.js') ) {
+				return UglifyJS.minify(content);
+			}
+			return content;
+		})
 		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
 	}
 
