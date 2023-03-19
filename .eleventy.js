@@ -5,25 +5,25 @@ const miniHtml = require('html-minifier');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 // Markdown //
-/*function wikilinkSlugifier(pageName) {
+function wikilinkSlugifier(pageName) {
 	pageName = pageName.replace(/\s+/, '-');
 	pageName = slugify(pageName, {
 		remove: /'/g,
 		lower: true
 	});
 	return pageName
-}*/
+}
 const markdownIt = require('markdown-it');
 const md = markdownIt({
 		html: true,
 		typographer: true
 	})
-	/*.use(require('markdown-it-wikilinks')({
+	.use(require('markdown-it-wikilinks')({
 		uriSuffix: '',
 		makeAllLinksAbsolute: true,
 		class: 'wikilink',
 		postProcessPageName: wikilinkSlugifier
-	}))*/
+	}))
 	.use(require('markdown-it-anchor'), {
 		permalink: require('markdown-it-anchor').permalink.headerLink(),
 	})
