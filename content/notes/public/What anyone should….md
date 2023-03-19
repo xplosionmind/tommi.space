@@ -1,6 +1,6 @@
 ---
 date: 2023-03-14T17:00:42+01:00
-updated: 2023-03-14T17:10:39+01:00
+updated: 2023-03-18T22:43:32+01:00
 location: BAUM
 permalink: /must/
 aliases: Must…
@@ -14,4 +14,4 @@ description: Book passages, articles, movies, songs, podcasts, quotes I believe 
 
 to add:
 
-- chapter "The Web!" in [[A History of the Internet and its future]]
+- chapter "The Web!" in [[A History of the Internet and the digital future]]
