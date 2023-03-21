@@ -1,11 +1,9 @@
-README.md
-
 # Gemini files are handled by Titan: https://tommi.space/scripts/titan
 gemini
 
 # Obsidian
-content/notes/.trash
-content/notes/.obsidian
+input/notes/.trash
+input/notes/.obsidian
 
 # private content
-content/notes/private
+input/notes/private

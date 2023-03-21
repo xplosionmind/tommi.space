@@ -1,7 +1,3 @@
-const fs = require('fs');
-const _ = require('lodash');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const miniHtml = require('html-minifier');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 // Markdown //
@@ -48,22 +44,22 @@ module.exports = function(eleventyConfig) {
 
 	// Collections //
 	eleventyConfig.addCollection('posts', function(collection) {
-		return collection.getFilteredByGlob('content/posts/**/*').sort((a, b) => {
+		return collection.getFilteredByGlob('input/posts/**/*').sort((a, b) => {
 			return b.date - a.date; // sort by date - descending
 		});
 	});
 	eleventyConfig.addCollection('jam', function(collection) {
-		return collection.getFilteredByGlob('content/notes/public/*').sort((a, b) => {
+		return collection.getFilteredByGlob('input/notes/public/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
 	eleventyConfig.addCollection('poetry', function(collection) {
-		return collection.getFilteredByGlob('content/poetry/*').sort((a, b) => {
+		return collection.getFilteredByGlob('input/poetry/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
 	eleventyConfig.addCollection('sconnesso', function(collection) {
-		return collection.getFilteredByGlob('content/sconnesso/*').sort((a, b) => {
+		return collection.getFilteredByGlob('input/sconnesso/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
@@ -104,19 +100,18 @@ module.exports = function(eleventyConfig) {
 		outputFileExtension: 'js',
 		compile: async (inputContent, inputPath) => {
 			console.log(inputPath);
-			if (inputPath !== './js/index.js') {
+			if (inputPath !== './input/js/index.js') {
 				console.log('path to be skipped');
 				return;
 			}
 
 			let output = await require('esbuild').build({
-				target: 'es2020',
+				target: 'es2022',
 				entryPoints: [inputPath],
 				minify: true,
 				bundle: true,
 				write: false,
 			});
-
 
 			return async () => {
 				console.log('processing js');
@@ -182,7 +177,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
 		ul: true,
 	});
-	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'));
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
 		sitemap: {
 			hostname: 'https://tommi.space'
@@ -199,17 +194,17 @@ module.exports = function(eleventyConfig) {
 		return md.renderInline(str);
 	});
 	// RSS Filters //
-	eleventyConfig.addFilter('dateToRfc3339', pluginRss.dateToRfc3339);
-	eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
-	eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl);
-	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
+	eleventyConfig.addFilter('dateToRfc3339', require('@11ty/eleventy-plugin-rss').dateToRfc3339);
+	eleventyConfig.addFilter('getNewestCollectionItemDate', require('@11ty/eleventy-plugin-rss').getNewestCollectionItemDate);
+	eleventyConfig.addFilter('absoluteUrl', require('@11ty/eleventy-plugin-rss').absoluteUrl);
+	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', require('@11ty/eleventy-plugin-rss').convertHtmlToAbsoluteUrls);
 
 	// Production-only //
 	if (process.env.ELEVENTY_ENV == 'production') {
 		// Minify output //
 		eleventyConfig.addTransform(require('html-minifier'), function(content, outputPath) {
 			if( this.outputPath && this.outputPath.endsWith('.html') ) {
-				let minified = miniHtml.minify(content, {
+				let minified = require('html-minifier').minify(content, {
 					useShortDoctype: true,
 					removeComments: true,
 					collapseWhitespace: true,
@@ -221,22 +216,16 @@ module.exports = function(eleventyConfig) {
 			}
 			return content;
 		});
-		eleventyConfig.addTransform(require('uglify-js'), function(content, outputPath) {
-			console.log(outputPath);
-			if(this.outputPath && this.outputPath.endsWith('.js') ) {
-				return UglifyJS.minify(content);
-			}
-			return content;
-		})
 		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
 	}
 
 	return {
 		dir: {
-			includes: 'includes',
-			layouts: 'layouts',
-			data: 'data',
-			output: 'www'
+			input: 'input',
+			output: 'www',
+			includes: '../includes',
+			layouts: '../layouts',
+			data: '../data'
 		}
 	}; // there should never be anything after the “return” function
 };
