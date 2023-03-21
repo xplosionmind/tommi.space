@@ -99,7 +99,6 @@ module.exports = function(eleventyConfig) {
 			});
 	});
 
-	eleventyConfig.setServerPassthroughCopyBehavior('copy');
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
 	eleventyConfig.addPassthroughCopy('index.js');

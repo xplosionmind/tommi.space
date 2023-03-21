@@ -1,12 +1,13 @@
 ---
 date: 2023-02-17T18:34:11+01:00
-updated: 2023-02-24T17:37:13+01:00
+updated: 2023-03-19T09:57:02+01:00
 lang: it
 location: home
 tags:
   - topic
   - word
   - zen
+  - draft
 ---
 Mi sono imbattuto per la prima volta in questo termine leggendolo da Luca Sofri, che lo utilizzò per descrivere [il suo rapporto con i Pet Shop Boys](https://hyp.is/_DglLK7qEe2RhAOk02ADIg/www.ilpost.it/pet-shop-boys-opera 'la frase in cui Luca Sofri ha utilizzato l’aggettivo “onanistico”, in “Due notti all’Opera').
 
