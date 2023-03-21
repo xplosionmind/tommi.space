@@ -1,3 +1,4 @@
 {
-	"eleventyExcludeFromCollections": true
+	"eleventyExcludeFromCollections": true,
+	"layout": null
 }
