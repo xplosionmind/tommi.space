@@ -108,16 +108,16 @@ module.exports = function(eleventyConfig) {
 			let output = await require('esbuild').build({
 				target: 'es2022',
 				entryPoints: [inputPath],
-				minify: true,
 				bundle: true,
 				write: false,
 			});
 
 			return async () => {
-				console.log('processing js');
-				console.log(output.outputFiles[0].text);
 				return output.outputFiles[0].text;
 			}
+		},
+		compileOptions: {
+			permalink: (contents, inputPath) => (data) => data.page.filePathStem + '.js',
 		}
 	});
 
