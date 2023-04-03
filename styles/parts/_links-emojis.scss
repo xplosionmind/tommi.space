@@ -88,6 +88,7 @@ li {
 				content: '📡 ';
 			}
 		}
+		&[href*='images.tommi.space' i],
 		&[href*='photography' i] {
 			&::before {
 				content: '📸 ';
@@ -115,7 +116,8 @@ li {
 				content: '📍 ';
 			}
 		}
-		&[href*='openstreetmap' i] {
+		&[href*='openstreetmap' i],
+		&[href*='osm.org' i] {
 			&::before {
 				content: '🗺 ';
 			}
@@ -198,6 +200,9 @@ li {
 				content: '🎙 ';
 			}
 		}
+		&[href*='thinktommi' i],
+		&[href*='thinkpad' i],
+		&[href*='macbook' i],
 		&[href^='/geek' i],
 		&[href^='/feeds/geek' i] {
 			&::before {
@@ -212,21 +217,6 @@ li {
 		&[href*='paDzrTfqL9PbkSX/starred'] {
 			&::before {
 				content: '❤️ ';
-			}
-		}
-		&[href='https://wallabag.nixnet.services/feed/tommi/paDzrTfqL9PbkSX/archive'] {
-			&::before {
-				content: '👀 ';
-			}
-		}
-		&[href*='xplosion-attic' i] {
-			&::before {
-				content: '👀 ';
-			}
-		}
-		&.user-mention {
-			&::before {
-				content: '🧑🏻 ';
 			}
 		}
 	}

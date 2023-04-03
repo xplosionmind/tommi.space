@@ -14,14 +14,13 @@
 	--razzmatazz: #EC0868;
 	--purple: #884EE1;
 	--orange: #FF6024;
-	--darkmatazz: #D0031F;
 	
 	--invert: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
 	--invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 
-	--font-sans: 'Inter V', Inter, system-ui, -apple-system, Helvetica, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-	--font-serif: 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-	--font-mono: 'Ubuntu Mono', ui-monospace, 'Roboto Mono', mono;
+	--font-sans: 'Inter V', Inter, system-ui, -apple-system, sans-serif;
+	--font-serif: 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif;
+	--font-mono: 'Ubuntu Mono', ui-monospace, mono;
 }
 
 $tiny: .2rem;
