@@ -29,7 +29,7 @@ Chi mi conosce sa quanto io sia appassionato, quasi ossessionato, dalle storie: 
 		{% for thing in collections.things %}
 	 		<a href='{{ thing.url }}' title='{{ thing.data.title }}' lang='{{ thing.data.lang }}' hreflang='{{ thing.data.lang }}'>
 				<div class='box'>
-					{% if thing.data.image != '/tommi.space.wip.png' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
+					{% if thing.data.image != '/tommi.space.wip.webp' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
 					<h3>{{ thing.data.title }}</h3>
 					{% if thing.data.description %}
 						<p>{{ thing.data.description | markdownify | strip_html | truncatewords: 30 }}</p>

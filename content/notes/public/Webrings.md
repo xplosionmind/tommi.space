@@ -4,7 +4,7 @@ updated: 2022-03-14T12:32:27+01:00
 tags: geek
 description: Webrings this website belongs to
 toc: false
-image: /webrings.svg
+image: /webrings.webp
 ---
 Webrings this website belongs to:
 
@@ -15,9 +15,6 @@ Webrings this website belongs to:
 		{% endif %}
 	{% endfor %}
 </ul>
-
-<br>
-<br>
 
 Webrings I am interested in:
 

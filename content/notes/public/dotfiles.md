@@ -11,9 +11,6 @@ Non-metaphorically speaking, dotfiles are <u>plain text configuration files</u>,
 
 **[My dotfiles][dotfiles]**
 
-<br>
-<br>
-
 ## Resources
 
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles 'awesome-dotfiles on GitHub'), a repository collecting all sorts of resources concerning dotfiles

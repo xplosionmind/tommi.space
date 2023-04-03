@@ -1434,7 +1434,7 @@
 				"en": "An event by LIBERA"
 			}
 		},
-		"logo": "/libera.png",
+		"logo": "/libera.webp",
 		"color": "#0D1833",
 		"background": "#B5D5E2",
 		"button-text": {
@@ -1459,7 +1459,7 @@
 				"en": "A Firefox themed illustration"
 			}
 		},
-		"logo": "/mozilla-italia.svg",
+		"logo": "https://mozillaitalia.org/img/logo.svg",
 		"color": "#FFF",
 		"background": "#007CFF",
 		"button-text": {

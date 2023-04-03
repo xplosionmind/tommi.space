@@ -6,7 +6,7 @@ aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
   I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference.
 redirect_from: [/cheatsheet/,/cheatsheets/,/cheat-sheet/,/terminal/,/cli/]
-image: https://tommi.space/terminal.png
+image: /terminal.webp
 ---
 ## Terminal
 

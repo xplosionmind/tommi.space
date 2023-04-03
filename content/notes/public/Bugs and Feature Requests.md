@@ -4,7 +4,7 @@ updated: 2022-10-17T10:43:02+02:00
 permalink: /bugs/
 redirect_from: [/feature-requests/, /bugs-and-feature-requests/]
 tags: geek
-image: https://tommi.space/bugs.svg
+image: https://tommi.space/bugs.webp
 description: Bugs and Feature requests for the apps I use
 ---
 Most the [[Apps]] I use the are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.

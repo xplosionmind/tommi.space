@@ -1,7 +1,3 @@
-const fs = require('fs');
-const _ = require('lodash');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const miniHtml = require('html-minifier');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 // Markdown //

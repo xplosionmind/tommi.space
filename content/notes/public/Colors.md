@@ -1,12 +1,11 @@
 ---
 date: 2020-05-22T02:00:00+02:00
-updated: 2022-07-17T19:03:22+02:00
+updated: 2023-04-03T10:17:02+02:00
 tags:
   - design
   - geek/web
 description: A collection of colors I love and where I use them
-redirect_from: [/colours, /colori]
-image: https://tommi.space/palette.svg
+image: https://tommi.space/palette.webp
 ---
 ## tommi.space
 
@@ -26,22 +25,13 @@ image: https://tommi.space/palette.svg
 <li><code style='background:#20CE88;color:#222'>#20CE88</code> geek green</li>
 </ul>
 
-<br>
-
 ### tommi.space Syntax Highlight
 
 This website’s code snippets use a custom made syntax highlight; its source is [here](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_highlight.scss 'tommi.space’s highlight.scss').
 
-<br>
-<br>
-
 ## Scambi
 
 [The main colors](https://come.scambi.org/design#colori 'I colori di Scambi') of [Scambi Festival’s website](https://scambi.org 'Scambi')
-
-
-<br>
-<br>
 
 {% comment %}
 ## pise-notes.club
@@ -66,8 +56,6 @@ The website is currently offline since our faculty supervisor asked me to close 
 <li><code style='background:#222;color:#FFF'>#222222</code></li>
 </ul>
 
-<br>
-<br>
 {% endcomment %}
 
 ## quitsocialmedia.club
@@ -80,9 +68,6 @@ The website is currently offline since our faculty supervisor asked me to close 
 <li><code style='background:#1D3557;color:#F1FAEE'>#1D3557</code></li>
 <li><code style='background:#E63946;color:#F1FAEE'>#1D3557</code></li>
 </ul>
-
-<br>
-<br>
 
 ## Dark and green website
 
@@ -98,9 +83,6 @@ Color scheme for [Philosophy & Engineering](Filosofia.md 'Philosophy section of 
 <li><code style='background:#F41C73;color:#FFF'>#F41C73</code></li>
 <li><code style='background:#CE2066;color:#FFF'>#CE2066</code></li>
 </ul>
-
-<br>
-<br>
 
 ## Red
 
@@ -118,9 +100,6 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 <li><code style='background:#AF0539;color:#FFF'>#AF0539</code>, <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, picked from the SVG of <a href="https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a></li>
 </ul>
 
-<br>
-<br>
-
 ## Syntax highlight
 
 [Monokai Pro](https://monokai.pro 'Monokai Pro') inspired sintax highlight, which does not correspond to [this website code snippets’ syntax](#tommispace-syntax-highlight)
@@ -134,9 +113,6 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 <li><code style='background:#8DD8EF;color:#222'>#8DD8EF</code></li>
 <li><code style='background:#AB9DF2;color:#222'>#AB9DF2</code></li>
 </ul>
-
-<br>
-<br>
 
 ## Dark app palette
 
@@ -152,15 +128,9 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 <li><code style='background:#72BE47;color:#111'>#72BE47</code> expand</li>
 </ul>
 
-<br>
-<br>
-
 ## Other palettes
 
 - [<cite>Persistence</cite>](https://www.color-hex.com/color-palette/89620 'Persistence color palette'), a wonderful green gradient palette
-
-<br>
-<br>
 
 ## Various
 
@@ -169,14 +139,11 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 <li><code style='background:#F28F3B;color:#451960'>#F28F3B</code></li>
 </ul>
 
-<br>
-<br>
-
 ## Generators
 
 Color palettes generators
 
-- [Colormind](http://colormind.io/ 'Colormind')
-- [Coolors](https://coolors.co/ 'Coolors')
+- [Colormind](http://colormind.io 'Colormind')
+- [Coolors](https://coolors.co 'Coolors')
 
 [pise-notes.club]: https://pise-notes.club 'PISE Notes'

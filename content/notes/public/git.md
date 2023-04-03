@@ -9,13 +9,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
 
 I share common people struggles when using it, but I also love it and try to exploit its potential the most I can.
 
-<br>
-<br>
-
 ## Cheat sheet
-
-<br>
-<br>
 
 ## Resources
 

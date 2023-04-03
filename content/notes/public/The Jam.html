@@ -10,7 +10,7 @@ permalink: /jam/
 redirect_from: /jar/
 ref: jam
 toc: false
-image: /jam.png
+image: /jam.webp
 ---
 <div class='row'><div class='one column'><article>{% renderTemplate 'md' %}Online, you may stumble upon it as a <cite>[Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10 'The Digital Garden on DEV.to')</cite>, or it may be defined as a *<a lang='de' hreflang='en' href='/zettelkasten' title='Zettelkasten - tommi.space'>Zettelkasten</a> system*. Mine, instead, is definitely less ambitious; yet, it is whipped, fragmented, juicy and sweet. It is **a jam**.
 
@@ -42,7 +42,7 @@ Every single element in The Jam is connected to at least another one: at the end
 	{% for note in collections.jam %}
 		{% if note.data.main %}
 			<a class='box' href='{{ note.url }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
-				{% if thing.data.image != '/tommi.space.wip.png' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
+				{% if thing.data.image != '/tommi.space.wip.webp' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
 				<h3>{{ note.data.title }}</h3>
 				<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
 			</a>

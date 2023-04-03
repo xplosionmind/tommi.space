@@ -7,7 +7,7 @@ lang: it
 ref: jam
 toc: false
 layout: default.html
-image: /jam.png
+image: /jam.webp
 type: CollectionPage
 ---
 <div class='row'><div class='one column'><article>{% renderTemplate 'md' %}Sul web viene comunemente chiamato <cite lang='en'><a href='https://dev.to/jbranchaud/the-digital-garden-l10' hreflang='en' title='The Digital Garden su DEV.to'>Digital Garden</a></cite>, oppure può essere definito come <em>sistema <a lang='de' href='/zettelkasten' hreflang='en' title='Zettelkasten — tommi.space'>Zettelkasten</a></em>. La mia, invece, è molto neno altisonante, ma più frullata e gustosa: si tratta di una <cite>Marmellata</cite>.
@@ -40,7 +40,7 @@ Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, f
 	{% for note in collections.jam %}
 		{% if note.data.main %}
 			<a class='box' href='{{ note.url }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
-				{% if thing.data.image != '/tommi.space.wip.png' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
+				{% if thing.data.image != '/tommi.space.wip.webp' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
 				<h3>{{ note.data.title }}</h3>
 				<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
 			</a>
