@@ -1,3 +1,4 @@
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 // Markdown //
@@ -184,7 +185,7 @@ module.exports = function(eleventyConfig) {
 		// Minify output //
 		eleventyConfig.addTransform(require('html-minifier'), function(content, outputPath) {
 			if( this.outputPath && this.outputPath.endsWith('.html') ) {
-				let minified = miniHtml.minify(content, {
+				let minified = require('html-minifier').minify(content, {
 					useShortDoctype: true,
 					removeComments: true,
 					collapseWhitespace: true,

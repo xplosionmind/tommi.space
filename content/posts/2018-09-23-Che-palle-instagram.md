@@ -3,7 +3,7 @@ title: Che palle Instagram
 date: 2018-09-23
 image: /2018-09-23-che-palle-instagram.webp
 aliases: Annichilimento Social
-redirect_from: /annichilimento-social/
+redirect_from: [/annichilimento-social/]
 ---
 Stamattina presto continuavo a rigirarmi nel letto e non trovavo pace. Un po’ come Zeno, che, seppur consapevole della sua assurdità, soffre disperatamente di una malattia 'immaginaria', forse unicamente frutto della sua fantasia. Se però nel suo caso distrazioni di carattere amoroso e, come noi diremmo, trip mentali assurdi lo distraevano dal suo dolore, nel mio caso -e, credo, nel nostro- sono quelle che in fondo mancano e quelle che noi riteniamo distrazioni se non proprio la causa, sono ciò che più enfatizza la nostra sofferenza.
 
