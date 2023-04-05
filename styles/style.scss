@@ -931,9 +931,17 @@ img.button {
 	bottom: 3vw;
 	right: 4vw;
 	z-index: 2;
+	display: flex;
 	.button {
-		padding: .3rem;
+		width: root.$height;
+		height: root.$height;
+		padding: .5rem;
 	}
+}
+
+.search {
+	margin: .2rem;
+	background: var(--background);
 }
 
 .scrollToBottom {
@@ -1128,6 +1136,11 @@ img.button {
 		a {
 			transform: scale(.85);
 			display: block;
+		}
+	}
+	.tool {
+		.search {
+			display: none;
 		}
 	}
 }

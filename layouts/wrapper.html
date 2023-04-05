@@ -12,9 +12,6 @@
 	{% render 'head.html', runMode: eleventy.env.runMode, latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
 
 	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
-		<a id='scrollButton' class='tool' onclick='nowScroll()' href='#' aria-label='scroll to top' title='scroll to top'>
-			<svg class='button' viewBox='0 0 24 24' style='background:var(--background)' aria-hidden='true'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--text)'/></svg>
-		</a>
 
 		{% render 'nav.html', lang: lang, alternate: alternate %}
 
@@ -32,6 +29,8 @@
 			{% render 'footer.html', lang: lang %}
 		</div>
 	
+		{% render 'toolbar.liquid', lang: lang %}
+
 		<script src='/index.js' type='text/javascript'></script>
 	</body>
 </html>

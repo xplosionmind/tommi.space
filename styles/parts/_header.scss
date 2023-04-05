@@ -105,10 +105,16 @@ header {
 	position: absolute;
 	background: var(--background);
 	z-index: -1;
+	a {
+		transform: scale(.5);
+	}
 	#langtoggle:checked + & {
 		top: 3.7rem;
 		box-shadow: var(--shadow);
 		z-index: 9;
+		a {
+			transform: revert;
+		}
 	}
 }
 
@@ -118,7 +124,7 @@ header {
 	width: root.$height;
 	position: fixed;
 	bottom: calc(3vh + .5rem);
-	right: calc(6vw + 3.5rem);
+	right: calc(6vw + 3.5rem + 3.25rem);
 	box-shadow: var(--button-shadow);
 	background: var(--background);
 	z-index: 6;
@@ -191,6 +197,9 @@ header {
 		label {
 			padding: 0 root.$regular-more;
 		}
+	}
+	#nav .search {
+		display: none;
 	}
 }
 
