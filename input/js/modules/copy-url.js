@@ -1,3 +1,9 @@
+window.addEventListener('load', () => {
+  for (const button of document.querySelectorAll('#copyUrl')) {
+    button.addEventListener('click', copyUrl);
+  }
+});
+
 function copyUrl() {
 	copyUrlButton = document.getElementById('copyUrl');
 	navigator.clipboard.writeText(pageUrl);
