@@ -200,6 +200,11 @@ module.exports = function(eleventyConfig) {
 		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
 	}
 
+	eleventyConfig.on('eleventy.after', () => {
+		const execSync = require('child_process').execSync;
+		execSync(`npx pagefind`, { encoding: 'utf-8' });
+	})
+
 	return {
 		dir: {
 			includes: 'includes',
