@@ -1,8 +1,14 @@
 <div class='tool'>
-	<a class='search button' href='/search' title='search'>
-		🔎
-	</a>
 	<a id='scrollButton' onclick='nowScroll()' href='#' aria-label='scroll to top' title='scroll to top'>
-		<svg class='button' style='background:var(--background)' aria-hidden='true' viewBox='0 0 24 24'><path d='m19 16-6.9-5.7-6.9 5.7c-0.54 0.47-1.4 0.38-1.8-0.19-0.45-0.56-0.37-1.4 0.19-1.8l7.7-6.4c0.47-0.4 1.1-0.4 1.6 0l7.7 6.4c0.55 0.46 0.7 1.4 0.17 1.8-0.49 0.47-1.1 0.7-1.8 0.19z' fill='var(--text)'/></svg>
+		<div class='button'>⬆</div>
 	</a>
+	{% if alternate != null %}
+		<label for='langtoggle' title='language selector' class='button'>🌍</label>
+		<input type='checkbox' id='langtoggle'>
+		<div class='lang-list'>
+			<a rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='{{ alternate.data.title }}'>{% if alternate.data.lang == 'it' %}🇮🇹{% elsif alternate.data.lang == 'en' %}🇬🇧{% else %}{{ alternate.data.lang }}{% endif %}</a>
+		</div>
+	{% endif %}
+	<a class='button' href='/search' title='search'>🔎</a>
+	<label id='nav-toggle-button' for='menutoggle' aria-label='toggle-menu' class='button'>🍔</label>
 </div>

@@ -100,57 +100,8 @@ header {
 	}
 }
 
-.lang-list {
-	top: 0;
-	position: absolute;
-	background: var(--background);
-	z-index: -1;
-	a {
-		transform: scale(.5);
-	}
-	#langtoggle:checked + & {
-		top: 3.7rem;
-		box-shadow: var(--shadow);
-		z-index: 9;
-		a {
-			transform: revert;
-		}
-	}
-}
-
 #nav-toggle-button {
 	display: none;
-	height: root.$height;
-	width: root.$height;
-	position: fixed;
-	bottom: calc(3vh + .5rem);
-	right: calc(6vw + 3.5rem + 3.25rem);
-	box-shadow: var(--button-shadow);
-	background: var(--background);
-	z-index: 6;
-	span {
-		top: 1.4rem;
-		left: .7rem;
-	}
-	span,
-	span::before,
-	span::after {
-		height: 4px;
-		width: 1.7rem;
-		background: var(--text);
-		position: absolute;
-		display: block;
-		content: '';
-		box-shadow: var(--little-shadow);
-		border-radius: root.$radius-s !important;
- 		transition: root.$trans-quick;
-	}
-	span::before {
-		top: .65rem;
-	}
-	span::after {
-		bottom: .65rem;
-	}
 }
 
 @media only screen and (max-width: 950px) {
@@ -198,31 +149,10 @@ header {
 			padding: 0 root.$regular-more;
 		}
 	}
-	#nav .search {
-		display: none;
-	}
 }
 
 #menutoggle:checked {
 	& ~ menu {
 		right: calc(4vw + .3rem);
-	}
-	& ~ #nav-toggle-button {
-		box-shadow: var(--inner-little-shadow);
-		span {
-			background: transparent;
-			box-shadow: none;
-			&::before,
-			&::after {
-				top: 0;
-				box-shadow: none;
-			}
-			&::before {
-				transform: rotate(45deg);
-			}
-			&::after {
-				transform: rotate(-45deg);
-			}
-		}
 	}
 }

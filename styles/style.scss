@@ -3,7 +3,7 @@
 @use 'fonts/ubuntu-mono';
 @use 'fonts/eb-garamond';
 @use 'parts/root';
-@use 'parts/header';
+@use 'parts/nav';
 @use 'parts/links-emojis';
 @use 'parts/tags';
 @use 'parts/commento';
@@ -97,11 +97,6 @@ body {
 * {
 	transition: root.$trans, transform root.$trans-quick, box-shadow root.$trans-quick, text-shadow root.$trans-quick, border root.$trans-quick;
 	scrollbar-color: var(--red) transparent;
-}
-
-#menutoggle,
-#langtoggle {
-	display: none;
 }
 
 .row {
@@ -586,19 +581,6 @@ figcaption {
 	}
 }
 
-.dropdown-content {
-	display: none;
-}
-
-.dropdown {
-	&:hover,
-	&:focus {
-		.dropdown-content {
-			display: block;
-		}
-	}
-}
-
 .center {
 	text-align: center;
 	h2 {
@@ -856,6 +838,23 @@ audio,
 	border-radius: root.$radius-m;
 }
 
+.written {
+	--text: var(--background);
+	color: var(--text);
+	background: var(--primary);
+}
+
+.embed {
+	lite-youtube,
+	iframe {
+		margin: auto !important;
+		box-shadow: var(--shadow) !important;
+		article & {
+			border-radius: root.$radius-l !important;
+		}
+	}
+}
+
 button {
 	margin: 0;
 	padding: none;
@@ -874,6 +873,7 @@ img.button {
 
 .button {
 	display: inline-block;
+	background: var(--background);
 	padding: root.$small root.$regular;
 	font-size: root.$bigger;
 	font-weight: 700;
@@ -895,12 +895,6 @@ img.button {
 	}
 }
 
-.written {
-	--text: var(--background);
-	color: var(--text);
-	background: var(--primary);
-}
-
 .smaller {
 	padding: root.$tiny root.$regular-less;
 	margin: root.$tiny;
@@ -915,17 +909,6 @@ img.button {
 	border-radius: 4px;
 }
 
-.embed {
-	lite-youtube,
-	iframe {
-		margin: auto !important;
-		box-shadow: var(--shadow) !important;
-		article & {
-			border-radius: root.$radius-l !important;
-		}
-	}
-}
-
 .tool {
 	position: fixed;
 	bottom: 3vw;
@@ -936,12 +919,25 @@ img.button {
 		width: root.$height;
 		height: root.$height;
 		padding: .5rem;
+		margin: root.$tiny;
+		color: var(--text);
 	}
 }
 
-.search {
-	margin: .2rem;
+.lang-list {
+	display: none;
+	bottom: 3.7rem;
+	position: absolute;
 	background: var(--background);
+	box-shadow: var(--shadow);
+	#langtoggle:checked + & {
+		display: block;
+	}
+}
+
+#menutoggle,
+#langtoggle {
+	display: none;
 }
 
 .scrollToBottom {
@@ -1136,11 +1132,6 @@ img.button {
 		a {
 			transform: scale(.85);
 			display: block;
-		}
-	}
-	.tool {
-		.search {
-			display: none;
 		}
 	}
 }

@@ -13,7 +13,7 @@
 
 	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
 
-		{% render 'nav.html', lang: lang, alternate: alternate %}
+		{% render 'nav.liquid', lang: lang %}
 
 		{% if tags contains 'draft' or tags contains 'wip' %}
 			{% render 'draft.html', lang: lang %}
@@ -29,7 +29,7 @@
 			{% render 'footer.html', lang: lang %}
 		</div>
 	
-		{% render 'toolbar.liquid', lang: lang %}
+		{% render 'toolbar.liquid', lang: lang, alternate: alternate, url: page.url %}
 
 		<script src='/index.js' type='text/javascript'></script>
 	</body>

@@ -6,7 +6,7 @@ function caselessCompare(a, b) {
 
 module.exports = {
 	lang: 'en',
-	layout: 'wrapper.html',
+	layout: 'wrapper.liquid',
 	image: '/tommi.space.wip.webp',
 	// Automatically generating titles, as explained in https://github.com/11ty/eleventy/discussions/2241#discussioncomment-2224265
 	eleventyComputed: {
