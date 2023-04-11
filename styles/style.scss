@@ -207,7 +207,7 @@ input {
 		outline: none;
 	}
 	& ~ .button {
-		margin-left: .5rem;
+		margin-left: root.$small;
 	}
 }
 
@@ -249,7 +249,6 @@ input {
 		padding: 3%;
 		overflow: hidden; // some titles might overflow
 		box-shadow: var(--little-shadow);
-		/*height: 13rem;*/
 	}
 }
 
@@ -318,7 +317,7 @@ li {
 	font-weight: bolder;
 	float: left;
 	font-size: 8em;
-	margin: .6rem .6rem 0 0;
+	margin: root.$small root.$small 0 0;
 	text-shadow: 2px 2px 0 var(--yellow);
 }
 
@@ -551,7 +550,7 @@ figcaption {
 		hyphens: auto;
 		line-height: 1;
 		text-shadow: none;
-		margin: 1rem auto;
+		margin: root.$regular-less auto;
 	}
 }
 
@@ -647,7 +646,7 @@ h1, h2, h3, h4, h5, h6 {
 		&::before {
 			content: '🔗';
 			position: absolute;
-			left: -2.2rem;
+			left: -(root.$twice);
 			transform: scale(.8);
 		}
 	}
@@ -767,7 +766,7 @@ h4 {
 	}
 	ul,
 	ol {
-		padding-left: 1.3rem;
+		padding-left: root.$regular-more;
 	}
 }
 
@@ -785,8 +784,8 @@ h4 {
 	position: relative;
 	h2.button {
 		position: absolute;
-		top: 1rem;
-		right: -1rem;
+		top: root.$regular-less;
+		right: -(root.$regular-less);
 		z-index: 2;
 		transform: rotate(10deg);
 	}
@@ -918,20 +917,31 @@ img.button {
 	.button {
 		width: root.$height;
 		height: root.$height;
-		padding: .5rem;
+		line-height: root.$height;
+		padding: 0 root.$small;
 		margin: root.$tiny;
 		color: var(--text);
+		fill: var(--other-grey);
+		background: var(--background);
+	}
+}
+
+#nav-toggle-button {
+	&:active,
+	&:hover,
+	&:focus {
+		box-shadow: var(--inner-shadow);
 	}
 }
 
 .lang-list {
 	display: none;
-	bottom: 3.7rem;
+	bottom: root.$height + 2*root.$tiny;
+	right: root.$height + 2*root.$tiny;
 	position: absolute;
-	background: var(--background);
-	box-shadow: var(--shadow);
+	flex-direction: vertical;
 	#langtoggle:checked + & {
-		display: block;
+		display: flex;
 	}
 }
 
@@ -1018,7 +1028,7 @@ img.button {
 .border {
 	color: var(--text) !important;
 	background: var(--background) !important;
-	border: 5px solid var(--text);
+	border: root.$border solid var(--text);
 	--link: var(--primary) !important;
 }
 
@@ -1092,6 +1102,9 @@ img.button {
 			margin: 0 3vw root.$bigger;
 		}
 	}
+	.lang-list {
+		right: 7rem;
+	}
 }
 
 @media only screen and (min-width: 950px) {
@@ -1114,7 +1127,7 @@ img.button {
 		left: 4vw;
 		bottom: 1vw;
 		width: 18vw;
-		font-size: 1rem;
+		font-size: root.$regular-less;
 		.post & {
 			width: 23vw;
 		}
