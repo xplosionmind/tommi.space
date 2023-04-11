@@ -922,7 +922,7 @@ img.button {
 		margin: root.$tiny;
 		color: var(--text);
 		fill: var(--other-grey);
-		background: var(--background);
+		background: var(--background) !important;
 	}
 }
 
