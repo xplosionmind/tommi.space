@@ -3,6 +3,7 @@ let pageUrl = window.location.href;
 let show = 'block';
 let hide = 'none';
 scrollButton = document.getElementById('scrollButton');
+copyUrlButton = document.getElementById('copyUrl');
 let pageHeight = document.body.scrollHeight;
 
 function scrollButtonBehavior() {
@@ -90,7 +91,6 @@ function toggleAll() {
 }
 
 function copyUrl() {
-	copyUrlButton = document.getElementById('copyUrl');
 	navigator.clipboard.writeText(pageUrl);
 	console.log('copied %s to clipboard', pageUrl);
 	copyUrlButton.style.background = 'var(--green)';
@@ -111,3 +111,21 @@ function shareViaMastodon() {
 	let shareUrl = instanceUrl + 'share?text=' + encodeURIComponent(pageUrl + '\n\nby ' + author);
 	window.open(shareUrl, '_blank');
 }
+
+window.addEventListener('load', () => {	
+  for (const button of document.querySelectorAll('[data-target-lang=en]')) {
+    button.addEventListener('click', toggleEn);
+  };
+  for (const button of document.querySelectorAll('[data-target-lang=fr]')) {
+    button.addEventListener('click', toggleFr);
+  };
+  for (const button of document.querySelectorAll('[data-target-lang=it]')) {
+    button.addEventListener('click', toggleIt);
+  };
+  for (const button of document.querySelectorAll('[data-target-lang=all]')) {
+    button.addEventListener('click', toggleAll);
+  };
+  scrollButton.addEventListener('click', nowScroll);
+  copyUrlButton.addEventListener('click', copyUrl);
+  document.getElementById('shareViaMastodon').addEventListener('click', shareViaMastodon);
+});
