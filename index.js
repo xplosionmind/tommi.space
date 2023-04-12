@@ -52,13 +52,13 @@ window.onload = function() {
 /******************
 * Language filter *
 *******************/
-let Italian = document.querySelectorAll(".zibaldone a[hreflang='it'], .grid a[hreflang='it']");
-let nonItalian = document.querySelectorAll(".zibaldone a[hreflang='en'], .grid a[hreflang='en'], .zibaldone a[hreflang='fr'], .grid a[hreflang='fr']");
-let English = document.querySelectorAll(".zibaldone a[hreflang='en'], .grid a[hreflang='en']");
-let nonEnglish = document.querySelectorAll(".zibaldone a[hreflang='it'], .grid a[hreflang='it'], .zibaldone a[hreflang='fr'], .grid a[hreflang='fr']");
-let French = document.querySelectorAll(".zibaldone a[hreflang='fr'], .grid a[hreflang='fr']");
-let nonFrench = document.querySelectorAll(".zibaldone a[hreflang='it'], .grid a[hreflang='it'], .zibaldone a[hreflang='en'], .grid a[hreflang='en']");
-let allLang = document.querySelectorAll(".zibaldone a[hreflang='it'], .grid a[hreflang='it'], .zibaldone a[hreflang='en'], .grid a[hreflang='en'], .zibaldone a[hreflang='fr'], .grid a[hreflang='fr']");
+let Italian = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[hreflang=it]');
+let nonItalian = document.querySelectorAll('.zibaldone a[hreflang=en], .grid a[hreflang=en], .zibaldone a[hreflang=fr], .grid a[hreflang=fr]');
+let English = document.querySelectorAll('.zibaldone a[hreflang=en], .grid a[hreflang=en]');
+let nonEnglish = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[hreflang=it], .zibaldone a[hreflang=fr], .grid a[hreflang=fr]');
+let French = document.querySelectorAll('.zibaldone a[hreflang=fr], .grid a[hreflang=fr]');
+let nonFrench = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[hreflang=it], .zibaldone a[hreflang=en], .grid a[hreflang=en]');
+let allLang = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[hreflang=it], .zibaldone a[hreflang=en], .grid a[hreflang=en], .zibaldone a[hreflang=fr], .grid a[hreflang=fr]');
 
 function toggleIt() {
 	for (i = 0; i < nonItalian.length; i++) {
