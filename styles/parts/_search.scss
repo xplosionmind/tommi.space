@@ -1,7 +1,7 @@
-:root {
+.pagefind-ui {
 	--pagefind-ui-primary: var(--primary);
 	--pagefind-ui-text: var(--text);
 	--pagefind-ui-background: var(--background);
-	--pagefind-ui-border: #152028;
+	--pagefind-ui-border: var(--slight);
 	--pagefind-ui-tag: var(--secondary);
 }
