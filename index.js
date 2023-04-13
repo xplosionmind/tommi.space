@@ -113,19 +113,25 @@ function shareViaMastodon() {
 }
 
 window.addEventListener('load', () => {	
-  for (const button of document.querySelectorAll('[data-target-lang=en]')) {
-    button.addEventListener('click', toggleEn);
-  };
-  for (const button of document.querySelectorAll('[data-target-lang=fr]')) {
-    button.addEventListener('click', toggleFr);
-  };
-  for (const button of document.querySelectorAll('[data-target-lang=it]')) {
-    button.addEventListener('click', toggleIt);
-  };
-  for (const button of document.querySelectorAll('[data-target-lang=all]')) {
-    button.addEventListener('click', toggleAll);
-  };
-  scrollButton.addEventListener('click', nowScroll);
-  copyUrlButton.addEventListener('click', copyUrl);
-  document.getElementById('shareViaMastodon').addEventListener('click', shareViaMastodon);
+	if (document.querySelectorAll('[data-target-lang]')) {
+	  for (const button of document.querySelectorAll('[data-target-lang=en]')) {
+		  button.addEventListener('click', toggleEn);
+		};
+		for (const button of document.querySelectorAll('[data-target-lang=fr]')) {
+			button.addEventListener('click', toggleFr);
+		};
+		for (const button of document.querySelectorAll('[data-target-lang=it]')) {
+			button.addEventListener('click', toggleIt);
+		};
+		for (const button of document.querySelectorAll('[data-target-lang=all]')) {
+			button.addEventListener('click', toggleAll);
+		};
+	};
+	if (copyUrlButton) {
+		copyUrlButton.addEventListener('click', copyUrl);
+	};
+	if (document.getElementById('shareViaMastodon')) {
+		document.getElementById('shareViaMastodon').addEventListener('click', shareViaMastodon);
+	};
+	scrollButton.addEventListener('click', nowScroll);
 });
