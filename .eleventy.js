@@ -197,7 +197,8 @@ module.exports = function(eleventyConfig) {
 			}
 			return content;
 		});
-		eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
+		//temporarily disabled since it removes Commento styling
+		//eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
 	}
 
 	eleventyConfig.on('eleventy.after', () => {
