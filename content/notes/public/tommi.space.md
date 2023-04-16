@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-12-02T01:28:01+01:00
+updated: 2023-04-16T10:36:01+01:00
 tags:
   - meta
   - geek/web
@@ -95,9 +95,9 @@ I decided not to, for now, for three main reasons:
 
 ### Further reading
 
-- [A lovely overview](https://www.gwern.net/Sidenotes 'Sidenotes in Web Design') of sidenotes implementation techniques and a thorough explanation of their philosophy
+- [A lovely overview](https://gwern.net/Sidenotes 'Sidenotes in Web Design') of sidenotes implementation techniques and a thorough explanation of their philosophy
 - [Koos Loijesteijn's sidenotes](https://github.com/kslstn/sidenotes 'Koos’ sidenotes on GitHub')
-- [Tufte CSS](https://edwardtufte.github.io/tufte-css/ 'Tufte CSS')
+- [Tufte CSS](https://edwardtufte.github.io/tufte-css 'Tufte CSS')
 
 <p class='date'><time datetime='2021-03-14'>14 March 2021</time></p>
 
@@ -115,7 +115,7 @@ Notes concerning search implementation.
 
 It is not the best solution in terms of speed and dependance, but it is still valid temporarily. Search functionality is very useful, so it is a trade-off I am willing to accept—temporarily).
 
-Following [these instructions](https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/ 'Quickstart for Using Algolia on Netlify ') the setup is quite simple. What is annoying and long to effectively customize is [the front-end CSS](https://github.com/algolia/autocomplete/blob/next/packages/autocomplete-theme-classic/src/theme.scss 'SCSS source for Algolia’s Autocomplete front-end, on GitHub'), which I eventually decided would be simple to [write from scratch](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_search.scss 'My SCSS partial for Algolia front-end styling') by myself.
+Following [these instructions](https://algolia.com/doc/tools/crawler/netlify-plugin/quick-start 'Quickstart for Using Algolia on Netlify ') the setup is quite simple. What is annoying and long to effectively customize is [the front-end CSS](https://github.com/algolia/autocomplete/blob/next/packages/autocomplete-theme-classic/src/theme.scss 'SCSS source for Algolia’s Autocomplete front-end, on GitHub'), which I eventually decided would be simple to [write from scratch](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_search.scss 'My SCSS partial for Algolia front-end styling') by myself.
 
 <p class='date'><time datetime='2021-12-17T00:33:16+01:00'>17 December 2021</time></p>
 

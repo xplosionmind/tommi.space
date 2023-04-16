@@ -1,6 +1,6 @@
 ---
 date: 2023-03-01T11:35:23+01:00
-updated: 2023-03-30T11:20:36+02:00
+updated: 2023-04-14T16:37:44+02:00
 location: home
 permalink: /internet-history/
 tags:
@@ -20,7 +20,7 @@ Splitting information and communications in small, fragmented <q>packets</q> of 
 
 page 16:
 
-> Baran’s concept had the same centrifugal character that defines the Internet today. At its most basic, what this book calls the <q>centrifugal</q> approach is to flatten established hierarchies and put power and responsibility at the nodal level so that each node is equal. Baran’s network focused on what he called <q>user to user rather than … centre-to-centre operation</q>.
+> Baran’s concept had the same centrifugal character that defines the Internet today. At its most basic, what this book calls the <u>centrifugal</u> approach is to flatten established hierarchies and put power and responsibility at the nodal level so that each node is equal. Baran’s network focused on what he called <u>user to user rather than … centre-to-centre operation</u>.
 
 Even if it was economically extremely convenient (60M$ instead of 2B$ per year), AT&T refused to invest in digital communication technologies.
 
@@ -89,3 +89,7 @@ https://youtu.be/fs-YpQj88ew
 page 118: Google's initial focus was on **back links**. PageRank, **Freedom to seek** at page 119. <q>googol</q>: Google's success and effectiveness is based on massive amount of data, centralized, processed, inspected, **ranked**:
 
 > The enormity of the googol, according to Google, <q>reflects their mission to organize a seemingly infinite amount of information on the Web</q>.
+
+p. 120
+
+> eBay proved that the Internet was <q>a marketplace so massive, and so diverse, that nothing is beyond commodification</q>.

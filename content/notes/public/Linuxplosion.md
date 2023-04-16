@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39+01:00
-updated: 2022-11-28T10:44:18+01:00
+updated: 2023-04-13T09:44:51+02:00
 tags: geek
 image: https://tommi.space/2019-08-05-linuxplosion-2.jpg
 description:
@@ -93,8 +93,7 @@ Software installed on Linuxplosion
 
 ## To do
 
-1. Finalize [[Storage]] and [[Images]] sorting thanks to [Czkawka](https://github.com/qarmin/czkawka 'Czkawka on GitHub')
-1. [Install PhotoPrism](https://github.com/photoprism/photoprism/discussions/1160 'Build PhotoPrism locally')
+1. Finalize [[Storage]] and [[Images]] management
 1. [Automate emails sending](https://tecadmin.net/ways-to-send-email-from-linux-command-line/ 'Ways to send email from linux command line')
 1. [Configure DDNS for remote SSH access](https://dev.to/juliaria08/comment/1efl6 'DDNS config')
 1. [Configure WebDAV](https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-18-04 'How To Configure WebDAV Access with Apache on Ubuntu 18.04')

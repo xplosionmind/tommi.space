@@ -1,16 +1,14 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2023-03-14T15:46:53+01:00
+updated: 2023-04-13T08:44:33+02:00
 tags: [geek, todo, geek/idea]
 description: Computer related tasks tracking
 ---
 1. `0 2 * * * BACKUP_PORT=60213 /usr/local/bin/backup || echo 'The automatic backup has failed.' | mailx -s 'AUTO BACKUP FAILED' tommiboom@pm.me`
+1. [[Automations]]
 1. Xplosion Server dotfiles backup
 2. [[Switching to Linux]]
 1. Configure Firefly III
-1. Copy `assets` folder from Mac from ThinkTommi
-3. Expose PW publicly
-4. GitHub education verification renewal
 5. Use Samsung tablet as graphic table
 6. Scambi Festival 2022 + LNS 2023 videos upload on Internet Archive
 7. Open source STT software + library, for automated workflow
@@ -18,12 +16,7 @@ description: Computer related tasks tracking
 9. [Server fallback](https://yunohost.org/en/app_fallback)
 10. [Using YunoHost as a Tor Hidden Service](https://yunohost.org/en/torhiddenservice)
 11. [[GiTMI]]
-12. Git in-depth learning via video
-	- Configure [git email sending](https://git-send-email.io 'git-send-email.io')
-	- <https://github.com/MichaelMure/git-bug>
-13. @stream.tommi.space -> @tommi.space
 14. [[Images]] and [[Storage]]
-15. [[Automations]]
 16. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 17. [Setup Matrix server](https://github.com/matrix-org/synapse#id5 'Install Synapse')
 18. [[Scripts]]

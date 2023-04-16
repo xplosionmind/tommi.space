@@ -1,7 +1,7 @@
 ---
 title: Thesis notes
 date: 2022-05-19T19:14:54+02:00
-updated: 2023-02-28T18:33:10+01:00
+updated: 2023-04-13T10:23:15+02:00
 tags:
   - uni
   - wip
@@ -19,6 +19,11 @@ Some random inputs:
 - [Articles around the Web](https://inputs.tommi.space/tag/list/thesis 'Entries tagged `thesis` in Tommi’s inputs')
 - [Max Horkheimer](https://en.wikipedia.org/wiki/Max_Horkheimer)
 - <cite>The Dictatorship of no alternatives</cite>, Mangabeira (2006)
+
+## Postulates
+
+1. Superficial historical assessment, functional to the core argumentation
+2. Computer Sciences are considered from the limited perspectives of networking and interactions, in their most social aspects
 
 ## People
 
@@ -56,10 +61,12 @@ Some random inputs:
 
 ### Potential case studies
 
-- Gab
-- Hong Kong
-- Olivetti
+- Gab; Trump’s TRUTH Social
+- Hong Kong Umbrella Movement
+- (Olivetti)
 - Musk's Twitter
+
+## 
 
 ## Title
 
