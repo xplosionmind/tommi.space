@@ -15,12 +15,6 @@ const md = markdownIt({
 		html: true,
 		typographer: true
 	})
-	.use(require('markdown-it-wikilinks')({
-		uriSuffix: '',
-		makeAllLinksAbsolute: true,
-		class: 'wikilink',
-		postProcessPageName: wikilinkSlugifier
-	}))
 	.use(require('markdown-it-anchor'), {
 		permalink: require('markdown-it-anchor').permalink.headerLink(),
 	})
@@ -134,12 +128,12 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
-	/*eleventyConfig.addPlugin(
+	eleventyConfig.addPlugin(
 		require('@photogabble/eleventy-plugin-interlinker'),
 		{
 			defaultLayout: 'layouts/wikilink-embed.liquid'
 		}
-	);*/
+	);
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPlugin(require('eleventy-sass'), {
 		compileOptions: {
