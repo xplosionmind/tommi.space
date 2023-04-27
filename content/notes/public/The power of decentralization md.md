@@ -1,6 +1,6 @@
 ---
 date: 2021-11-30T01:00:00+01:00
-updated: 2021-12-15T15:55:01+01:00
+updated: 2023-04-16T17:48:06+02:00
 bibliography: /Users/tommi/bib.bib
 toc: true
 tags: uni/viu
@@ -16,16 +16,11 @@ Even though the nature of the internet is decentralized—it is not anyone’s p
 
 This essay focuses on the side effects of this phenomenon with respect to Online Social Networks (OSNs). It then proceeds to analyze how oligopolistic centralization of platforms strongly limits users’ rights. Lastly, it is highlighted how a process of (re)decentralization could help address or even solve some of the most pressing issues.
 
-<br>
-
 ### Note
 
 The present essay will insistently and extensively focus on very few firms in order to provide examples. This is not intended to discriminate those firms specifically, but it is because undeniably their activity is so extensive that it is very rare to observe other less known or smaller actors behaving similarly.
 
 This very point reinforces the thesis sustained by this essay: a tiny number of stakeholders is responsible for most of the discussions concerning the Internet of today and of tomorrow.
-
-<br>
-<br>
 
 ## Introduction
 
@@ -36,9 +31,6 @@ As analyzed by [@bahri2018], “logical centralization” consists in the <q>unp
 Therefore, the core problem of centralization can be reduced to the fact that not only the ownership, but also the control and the management of OSNs is concentrated in the hands of few corporations. Their good will becomes the <i lang='la'>conditio sine equa non</i> for smaller presences on the web.
 
 The web is undeniably experiencing a drastic growth, which nevertheless appears to be uneven. Do efforts towards [[Decentralization]] help to achieve more fairness? Why should a more technical matter come before regulation? In the following points I am going to argue that, when an immense amount of power is wielded by very few supranational for-profits, struggle to curb their influence through regulation is in vain if not backed by more technically oriented propositions, specifically pushing towards decentralization.
-
-<br>
-<br>
 
 ## Algorithms as <q>Black-Boxes</q>
 
@@ -60,9 +52,6 @@ Ultimately, it appears self-evident that <q>it is very difficult to establish al
 
 As long as OSN platforms will keep retaining to their own evaluation and self-regulation tools and instructions to access the heart of the machine learning driving their infrastructures, nobody will be able to improve the long-term trend.
 
-<br>
-<br>
-
 ## Proprietary and open source software
 
 Despite [@roio2018] argues that <q>“openness” and “transparency” are not sufficient conditions to realise the good ethical propositions of the free software movement</q>, it must be noted that they may not be enough, but they are arguably necessary. In the scenario under analysis, we are dealing with software whose functioning, even if thoroughly explained, may still not actually exactly correspond to what its source code instructs it to do.
@@ -75,8 +64,6 @@ The true obstacle, rather than limit, represented by proprietary (“close-sourc
 
 In this case, too, centralization plays a major detrimental role: if there is only one entity possessing the source code of a program, I am the only one that can run it, and—necessarily—the sole provider.
 
-<br>
-
 ### The case of <cite>Truth Social</cite>
 
 The chief display of the relevance centralized OSNs monopolies exert can be found in their relation with Donald Trump, former president of the United States of America.
@@ -88,10 +75,6 @@ With a great surprise of the Free Software community, Truth Social appeared to b
 Nonetheless, [Trump Media & Technology Group](https://www.tmtgcorp.com/ 'TMTG’s official website') (TMTG) underestimated one little but ineludible detail: Mastodon’s [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html 'AGPL 3.0'), according to whose deed it is possible to copy and modify the source code of the original program as long as the source code of its by-products stays open, too. As of October 23<sup>rd</sup> 2021, [Mastodon source code](https://github.com/mastodon/mastodon 'Mastodon’s source code, on GitHub') was open, while Truth Social one was not. Once Eugen Rochko, Mastodon founder and current maintainer, realized there was something off, he filed a [complaint](https://blog.joinmastodon.org/2021/10/trumps-new-social-media-platform-found-using-mastodon-code/ '“Trump’s new social media platform found using Mastodon code„ on Mastodon’s blog') to TMTG, forcing it to make Truth Social’s source public. On November 12<sup>th</sup> 2021 Trump’s platform code was made open, with a bold <q>Our goal is to support the open source community no matter what your political beliefs are</q> on [the page that displays it](https://truthsocial.com/open-source/ 'Truth Social’s source code page').
 
 One might consider the resolution of this case a triumph of open source advocates, or read it as a great contradiction of a powerful and capable Company bending to some legal quibble, but without any argument this proves the rising relevance of the open source movement and its ever improving software.
-
-
-<br>
-<br>
 
 ## APIs and Interoperability
 
@@ -114,9 +97,6 @@ A master example of Adversarial Interoperability today is email. If the email pr
 
 Social media platforms should work like email. To post something, I should not be tied to the server or the platform I post from, and also who is not a subscriber could see what I published and interact with me. The current brand-focused development of technology make us believe that envisioning such a perspective is utopistic, but we will see it is not.
 
-<br>
-<br>
-
 ## Surveillance Capitalism
 
 All of the topics under scrutiny up to this point converge to an effect of very broad scope and influence, with deep socio-economical roots. The invention of the term <q>Surveillance Capitalism</q> is attributed to Dr. Shoshana Zuboff, whose writings brought a new, watershed perspective to OSNs capitalization and its effects on society.
@@ -137,9 +117,6 @@ It is impossible to keep ourselves from wondering how the <q>Big Other</q>’s p
 
 Such alternatives exists, and arguably the sole element keeping them from taking off is a very low user base.
 
-<br>
-<br>
-
 ## Decentralized social media: the Fediverse
 
 How are alternative social media different from the ones most of the world use?  
@@ -158,8 +135,6 @@ From those common and open source specifications, a considerable amount of indep
 
 The distributed core-less nature of decentralized social media networks restores what should have always been networking platforms’ main goal: grouping individuals, offering communities a way to stay in touch, enhancing human interactions without any second purpose driven by economical interest [@zulli2020]. What is argued by [@zuboff2015] and [@reviglio2020] finds a meeting point in a process of platforms decentralization, in which the gap among those who provide a service and the ones benefit from it is small and it could be easily filled with a message.
 
-<br>
-
 ### A focus on community
 
 In a world where virtual relations wander inside a universe of federated platforms, the ultimate stakeholder is not a board of navigated moneymen, but the ensemble of communities that form it. There is no single point of failure not only from a technical perspective, but there is nobody having the last decision-wise too. New subscribers can freely decide which one of the infinitely many instances run by different software suits her/him the most, and once in it, she/he automatically signs a tacit (yet explicit) contract to meld into the values she/he chose that specific platform for.
@@ -169,16 +144,11 @@ In the case of a report or complaint, content moderation is almost trivial, sinc
 
 Communities empowerment online brings back the quintessential value of plurality: there may be servers hosting one or little more users, who find their actual interactions only by connecting to “worlds” (figuratively meaning servers and spheres of thinking) that can happen to be profoundly different by hers/his one. Communities as well as individuals unable to live together with others end up isolated, or <q>de-federated</q>. It is the case of [Gab](https://gab.com/ 'Gab’s official website') social network, originally part of the Fediverse, but gradually disconnected by almost all of the other instances[^1].
 
-<br>
-
 ### Immortality
 
 The ultimate superpower of the Fediverse is its immortality. Even if the bigger instances will be shut down and software development will stop, the open source of every single aspect of it enables any student of Computer Engineering, as well as any tech enthusiast or company to install the software on a server and keep the Fediverse alive. There is no necessity to “monetize” anything, since there are no capitals required to keep things running. Investments and funding are very welcomed and happily spent on improving the software, but very little is needed to simply make things work.
 
 What is almost romantic about decentralization is its intrinsic value of undefeatability. Even the stoical resistance of one single node can maintain alive the hope that the whole net will be brought back.
-
-<br>
-<br>
 
 ## Conclusion
 
@@ -187,9 +157,6 @@ The core problem highlighted at the beginning can be translated, under the light
 > modern technology too is a means to an end. That is why the instrumental conception of technology conditions every attempt to bring man into the right relation to technology. Everything depends on our manipulating technology in the proper manner as a means.
 
 Decentralization spreads and fragments the power of monopolizing intentions and attention, allowing users to restore their humanity and their need for relationship without being driven by foolish tendencies. Only by removing the possibility of living in a lonely swallowed bubble, everyone might find its place.
-
-<br>
-<br>
 
 ## References
 

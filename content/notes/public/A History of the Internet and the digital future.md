@@ -1,6 +1,6 @@
 ---
 date: 2023-03-01T11:35:23+01:00
-updated: 2023-04-14T16:37:44+02:00
+updated: 2023-04-18T23:45:55+02:00
 location: home
 permalink: /internet-history/
 tags:
@@ -93,3 +93,11 @@ page 118: Google's initial focus was on **back links**. PageRank, **Freedom to s
 p. 120
 
 > eBay proved that the Internet was <q>a marketplace so massive, and so diverse, that nothing is beyond commodification</q>.
+
+> The Internet became a global marketplace without any explicit plan to make it so. Indeed, until the very beginning of 1995 commercial activity on the Internet was expressly forbidden under the National Science Foundation’s Acceptable Usable Policy.
+
+By the 90s, more than half of the Internet was run by the private sector. Preventing commercial activity within the Internet would have inhibited investments in the infrastructure of commercial TCP/IP services.
+
+> In 1993 the NSF took steps to privatize the operation of the Internet. NSF published a plan for the change in May 1993: ISPS would operate their own networks and gateways would interconnect them.
+
+> Finally, on 30 April 1995

@@ -3,7 +3,8 @@ date: 2023-02-10T12:14:03+01:00
 updated: 2023-02-11T12:28:39+01:00
 location: home
 tags:
-  - geek/wip
+  - geek
+  - wip
 ---
 I finally got my lovely Lenovo ThinkPad P14s Gen 3 (AMD), and I love it! I was only surprised to find out that the glorious 4K screen has touch support, which makes it a bit more reflective, but it is to
 
@@ -33,3 +34,17 @@ I finally got my lovely Lenovo ThinkPad P14s Gen 3 (AMD), and I love it! I was o
 		- GitHub token
 		- .ssh
 1. Configure Gradient
+
+## Known issues
+
+- Webcam is not working
+
+### Fedora
+
+- Overheating
+- Screen freezing
+- [suspend not working effectively](+++)
+
+### Vanilla OS
+
+- [`apx` not working](+++)
