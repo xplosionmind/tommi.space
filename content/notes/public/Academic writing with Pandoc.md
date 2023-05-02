@@ -1,6 +1,6 @@
 ---
 date: 2021-12-06T11:39:18+01:00
-updated: 2023-04-27T12:24:46+02:00
+updated: 2023-04-28T11:25:33+02:00
 permalink: /pandoc-workflow/
 redirect_from: [/academic-writing-with-pandoc/,/pandoc-paper/]
 tags: geek
@@ -15,8 +15,11 @@ Finally, a simple and wonderful [[Pandoc]] command compiles the whole thesis.
 
 ## Pandoc
 
+In order to correctly format all the styling, it is necessary to convert the Markdown source file to HTML first, and then convert the HTML to PDF
+
 ```bash
-pandoc -s in.md --resource-path="$PWD" -C -o out.pdf
+pandoc -s Thesis.md --resource-path="$PWD" --metadata-file=Thesis.yml -C -o Thesis.html &&\
+pandoc -s Thesis.html --resource-path="$PWD" --metadata-file=Thesis.yml -C -o Thesis.pdf
 ```
 
 - `-s` parses the output in one standalone file
@@ -32,7 +35,7 @@ Inside the front matter, different parameters could be customized, following [Pa
 ## Open questions
 
 - How to customize the front page so that it matches [Ca Foscari University’s guidelines](https://unive.it/pag/8751)?
-- `<u>` and `<q>` HTML tags are stripped and not parsed…
+- ~~`<u>` and `<q>` HTML tags are stripped and not parsed…~~ solved by converting to HTML first
 - Automatically title the references section
 - [Add colors](https://pandoc.org/MANUAL.html#links)
 

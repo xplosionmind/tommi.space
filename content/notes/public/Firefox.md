@@ -28,9 +28,9 @@ Even though Firefox is my go-to browser and I absolutely love it, it lacks some 
 
 - Easy and quick site-specific tracking, fingerprinting and cookies settings (Like in [[Brave]])
 
-## Custom appearance
+## Monoline
 
-I created the custom theme [Firefox Monoline](https://codeberg.org/tommi/firefox-monoline 'firefox-monoline source code on Codeberg').
+I created the custom theme [Firefox Monoline](https://gitmi.dev/tommi/firefox-monoline 'firefox-monoline source code on giTMI').
 
 ## about:config
 

@@ -1,7 +1,7 @@
 ---
 title: Thesis notes
 date: 2022-05-19T19:14:54+02:00
-updated: 2023-04-13T10:23:15+02:00
+updated: 2023-04-30T23:25:38+02:00
 tags:
   - uni
   - wip
@@ -14,6 +14,7 @@ I am collecting here mostly random inputs and resources for my bachelor thesis, 
 
 Some random inputs:
 
+- [rhizomatic - Wiktionary](https://en.wiktionary.org/wiki/rhizomatic)
 - <cite>[The power of decentralization](https://tommi.space/the-power-of-decentralization 'The power of decentralization - tommi.space')</cite>
 - [[Internet Freedom]]
 - [Articles around the Web](https://inputs.tommi.space/tag/list/thesis 'Entries tagged `thesis` in Tommi’s inputs')
