@@ -9,12 +9,19 @@ function wikilinkSlugifier(pageName) {
 		lower: true
 	});
 	return pageName
-}
+};
+
 const markdownIt = require('markdown-it');
 const md = markdownIt({
 		html: true,
 		typographer: true
 	})
+	.use(require('markdown-it-wikilinks')({
+		uriSuffix: '',
+		makeAllLinksAbsolute: true,
+		class: 'wikilink',
+		postProcessPageName: wikilinkSlugifier
+	}))
 	.use(require('markdown-it-anchor'), {
 		permalink: require('markdown-it-anchor').permalink.headerLink(),
 	})
@@ -151,6 +158,7 @@ module.exports = function(eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
 		ul: true,
+		wrapperClass: 'collapsible-element',
 	});
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
