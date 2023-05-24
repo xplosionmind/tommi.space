@@ -308,7 +308,7 @@
 		"socket.io": "^4.4.1",
 		"socket.io-adapter": "^2.3.3",
 		"socket.io-client": "^4.4.1",
-		"socket.io-parser": "^4.1.2",
+		"socket.io-parser": "^4.2.3",
 		"source-map": "^0.7.3",
 		"sprintf-js": "^1.1.2",
 		"statuses": "^2.0.1",
