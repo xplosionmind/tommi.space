@@ -294,7 +294,7 @@
 		"rxjs": "^7.5.5",
 		"safer-buffer": "^2.1.2",
 		"section-matter": "^1.0.0",
-		"semver": "^7.3.5",
+		"semver": "^7.5.2",
 		"semver-compare": "^1.0.0",
 		"send": "^0.17.2",
 		"serve-index": "^1.9.1",
