@@ -95,7 +95,7 @@ body {
 }
 
 * {
-	transition: root.$trans, transform root.$trans-quick, box-shadow root.$trans-quick, text-shadow root.$trans-quick, border root.$trans-quick;
+	transition: root.$trans, transform root.$trans-quick, box-shadow root.$trans-quick, text-shadow root.$trans-quick, border root.$trans-quick, grid-template-rows root.$trans;
 	scrollbar-color: var(--red) transparent;
 }
 
@@ -231,6 +231,19 @@ input {
 	height: 100%;
 }
 
+.collapsible-supercontainer {
+	&:hover .collapsible-container {
+		grid-template-rows: 1fr;
+	}
+}
+.collapsible-container {
+	display: grid;
+	grid-template-rows: 0fr;
+	.collapsible-element {
+		overflow: hidden;
+	}
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -276,15 +289,6 @@ input {
 li {
 	line-height: 1.5;
 	margin-bottom: root.$small;
-	ul {
-		li {
-			margin-bottom: 0;
-			list-style-type: '–  ';
-			ul {
-				list-style-type: '+  ';
-			}
-		}
-	}
 	ol {
 		list-style-type: lower-alpha;
 		ol {
@@ -622,7 +626,7 @@ b {
 article {
 	position: relative;
 	font-size: root.$regular-more;
-	margin: root.$big 15vh;
+	margin: root.$big 5vw;
 	h2, h3 {
 		margin: revert;
 	}
@@ -633,7 +637,6 @@ article {
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
-	transition: root.$trans-quick;
 	line-height: 1;
 	hyphens: none;
 	margin: 0;
@@ -753,14 +756,7 @@ h4 {
 }
 
 #toc {
-	h3 {
-		text-shadow: var(--tiny-shadow);
-		color: var(--slight);
-		margin: 0;
-	}
-	a {
-		color: var(--slight);
-	}
+	z-index: 3;
 	li {
 		line-height: 1;
 	}
@@ -773,11 +769,7 @@ h4 {
 #help {
 	position: fixed;
 	z-index: 7;
-	bottom: -16rem;
 	width: 20rem;
-	&:hover {
-		bottom: 0;
-	}
 }
 
 #latest-post {
@@ -1091,6 +1083,9 @@ img.button {
 	#toc,
 	#goto {
 		margin: 5vh 3vw 0;
+		&.collapsible-supercontainer .collapsible-container {
+			grid-template-rows: 1fr;
+		}
 	}
 	#latest-post h2.button {
 		top: 10rem;
@@ -1123,14 +1118,17 @@ img.button {
 		columns: 3;
 	}
 	#toc {
-		position: fixed;
-		left: 4vw;
-		bottom: 1vw;
-		width: 18vw;
-		font-size: root.$regular-less;
-		.post & {
-			width: 23vw;
+		h3 {
+			text-align: center;
 		}
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		font-size: root.$regular-less;
+		background: var(--background);
+		box-shadow: var(--shadow);
+		border-radius: 0 root.$radius-l 0 0;
+		padding: root.$regular-less;
 	}
 	#goto {
 		position: fixed;

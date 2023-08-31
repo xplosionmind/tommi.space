@@ -44,9 +44,11 @@ layout: wrapper.liquid
 	{% render 'goto.html', lang: lang, path: page.inputPath, source: source %}
 
 	{% if toc %}
-		<aside id='toc'>
+		<aside id='toc' class='collapsible-supercontainer'>
 			<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-			{{ content | toc: '"ul":"false"' }}
+			<div class='collapsible-container'>
+				{{ content | toc: '"ul":"false"' }}
+			</div>
 		</aside>
 	{% endif %}
 
