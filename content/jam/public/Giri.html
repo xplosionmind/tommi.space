@@ -27,8 +27,8 @@ todo:
 			{% else %}
 				, {{ cosa.location }}
 			{% endif %}
-			{% if cosa.notes %}
-				<br>☞ {{ cosa.notes }}
+			{% if cosa.jam %}
+				<br>☞ {{ cosa.jam }}
 			{% endif %}
 			{% if cosa.tags != nil or cosa.aliases != nil %}
 				<span class='mono dim'> ∙ {% for alias in cosa.aliases %} {{ alias }}{% endfor %}{% for tag in cosa.tags %} <span rel='tag'>{{ tag }}</span>{% endfor %}</span>

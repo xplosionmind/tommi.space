@@ -1,13 +1,12 @@
 ---
 date: 2022-09-14T17:09:25+02:00
-updated: 2022-11-13T13:08:36+01:00
+updated: 2023-01-13T13:08:36+01:00
 location: BDL
 tags:
   - place
-  - wip
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 ---
-Notes et réflexions de la cité ou je fais [[Erasmus à Grenoble|mon premier Erasmus]]
+Notes et réflexions de la cité ou j’ai vécu [[Erasmus à Grenoble|mon premier Erasmus]]
 
 <div class='blue box' lang='en'>
 	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://social.scambi.org' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://social.scambi.org/web/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
@@ -47,7 +46,7 @@ Par consequence, forcément je suis obligé à supprimer mes nombreux instincts 
 
 ## Aller voire
 
-Tous les lieus ou je voudrais aller
+Tous les lieus ou j’aurais voulu
 
 - [ ] [Le bon label](https://lebonlabel.com), café brasserie
 - [ ] [L’Amperage](https://amperage.fr), local pour musiciens émergents locaux

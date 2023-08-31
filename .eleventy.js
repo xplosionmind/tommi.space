@@ -20,7 +20,7 @@ const md = markdownIt({
 		uriSuffix: '',
 		makeAllLinksAbsolute: true,
 		class: 'wikilink',
-		postProcessPageName: wikilinkSlugifier
+		postProcessPageName: wikilinkSlugifier,
 	}))
 	.use(require('markdown-it-anchor'), {
 		permalink: require('markdown-it-anchor').permalink.headerLink(),
@@ -51,7 +51,7 @@ module.exports = function(eleventyConfig) {
 		});
 	});
 	eleventyConfig.addCollection('jam', function(collection) {
-		return collection.getFilteredByGlob('content/notes/public/*').sort((a, b) => {
+		return collection.getFilteredByGlob('content/jam/public/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});

@@ -35,7 +35,7 @@ exiftool -all= ./* #filename.jpg
 Rename all files in pwd, according to the time and time they were shot
 
 ```bash
-exiftool '-FileName=CustomName%-c.%le' '-FileName<CreateDate' '-FileName<GPSDateTime' '-FileName<DateTimeOriginal' -d %Y.%m.%d-%H.%M.%S%%-lc.%%le -r ./*
+exiftool '-FileName=CustomName%-c.%le' '-FileName<FileModifyDate' '-FileName<CreateDate' '-FileName<GPSDateTime' '-FileName<DateTimeOriginal' -d %Y.%m.%d-%H.%M.%S%%-lc.%%le -r ./*
 ```
 
 where:

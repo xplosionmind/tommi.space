@@ -1,6 +1,6 @@
 ---
 date: 2023-02-10T12:14:03+01:00
-updated: 2023-02-11T12:28:39+01:00
+updated: 2023-05-06T22:55:24+02:00
 location: home
 tags:
   - geek
@@ -13,7 +13,7 @@ I finally got my lovely Lenovo ThinkPad P14s Gen 3 (AMD), and I love it! I was o
 	1. Updating all firmware
 3. Copying my KeePassXC database on a USB drive
 4. Nextcloud system login
-5. ==Install GNOME extensions==
+5. Install GNOME extensions
 6. Setup fingerprint reader
 7. +++
 8. `sudo abroot exec apt install gnome-tweaks`

@@ -1,10 +1,9 @@
 ---
 date: 2021-03-22T12:19:14+01:00
-updated: 2023-04-27T10:18:00+02:00
+updated: 2023-05-06T22:07:17+02:00
 tags:
   - geek/knowledge
   - geek/apps
-  - wip
 aliases: Neovim
 description: Insights about the best text editor in the world
 image: https://tommi.space/vim.webp

@@ -1,10 +1,9 @@
 ---
 author: Martin Heidegger
 date: 2023-02-14T09:58:01+01:00
-updated: 2023-02-16T11:09:23+01:00
+updated: 2023-05-06T22:31:15+02:00
 location: home
 tags:
-  - wip
   - uni/thesis
 ---
 Heidegger’s analysis of technology in The Question Concerning Technology consists of three main ‘claims’:

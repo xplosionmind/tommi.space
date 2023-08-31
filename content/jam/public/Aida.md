@@ -26,10 +26,6 @@ Per ottimizzare gli spazi, scelsi di appoggiare la scrivania a supporti angolari
 
 <figure><a href='https://images.tommi.space/picture?/16626/category/aida' target='_blank'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115115602-b5fe253c-me.jpg' title='Aida appena completata' alt='Un’immagine di Aida appena completata'></a></figure>
 
-<br>
-
 ---
-
-<br>
 
 Tutte le foto della costruzione di Aida ed i ritrovamenti storici dei primi progetti di cui è protagonista sono raccolti nell’album [<cite>Aida</cite>](https://images.tommi.space/index?/category/aida 'Immagini di Aida').

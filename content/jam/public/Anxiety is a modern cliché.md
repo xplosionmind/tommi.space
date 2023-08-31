@@ -9,7 +9,7 @@ lang: it
 toc: false
 image: https://linkstorage.linkfire.com/medialinks/images/c682694d-4bca-4210-9c51-e94dc48b5948/artwork-440x440.jpg
 ---
-Un anno dopo l’[intervista a Maddalena Morielli](https://web.cubbit.io/link/#a1120261-bdd7-4d91-a7fa-5bb3f9150d0f!WyPlkz/WOwuAJjj2ugPwyWIsUFIcNuFjKISRG7gMgxI!z0BlPWzknJNBw3xFAU+7GA 'File con l’intervista a Maddalena su Cubbit'), come un fulmine a ciel sereno, alle cinque meno venti del 26 gennaio 2021, il giorno prima 17 ore prima del mio catastrofico orale di [[Political Philosophy II]], mi è tornato in mente quello che ci siamo detti. E la sua (ad oggi, sola) canzone.
+Un anno dopo l’[intervista a Maddalena Morielli](https://web.cubbit.io/link/#a1120261-bdd7-4d91-a7fa-5bb3f9150d0f!WyPlkz/WOwuAJjj2ugPwyWIsUFIcNuFjKISRG7gMgxI!z0BlPWzknJNBw3xFAU+7GA 'File con l’intervista a Maddalena su Cubbit'), come un fulmine a ciel sereno, alle cinque meno venti del 26 gennaio 2021, il giorno prima 17 ore prima del mio catastrofico orale di [Political Philosophy II](https://www.unive.it/data/course/332080 'Political Philosophy II course page - Università Ca’ Foscari di Venezia'), mi è tornato in mente quello che ci siamo detti. E la sua (ad oggi, sola) canzone.
 
 > Anxiety is a modern cliché
 > take me there I don’t wanna stay here

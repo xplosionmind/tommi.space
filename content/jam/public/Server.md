@@ -23,5 +23,5 @@ To check and reload the configuration:
 
 ```sh
 sudo nginx -t && \
-sudo nginx systemctl restart
+sudo systemctl restart nginx
 ```

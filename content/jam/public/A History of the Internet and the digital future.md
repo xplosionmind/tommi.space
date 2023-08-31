@@ -1,12 +1,11 @@
 ---
 date: 2023-03-01T11:35:23+01:00
-updated: 2023-04-18T23:45:55+02:00
+updated: 2023-05-26T17:49:12+02:00
 location: home
 permalink: /internet-history/
 tags:
   - history
   - uni/thesis
-  - wip
   - reading/book
 description: Notes, citations, and thoughts about a greatly insightful work I am using for my bachelor’s thesis.
 ---
@@ -100,4 +99,10 @@ By the 90s, more than half of the Internet was run by the private sector. Preven
 
 > In 1993 the NSF took steps to privatize the operation of the Internet. NSF published a plan for the change in May 1993: ISPS would operate their own networks and gateways would interconnect them.
 
-> Finally, on 30 April 1995
+---
+
+## Del.icio.us
+
+> In 2003 Joshua Schracter founded <q>Del.icio.us</q>, a directory of bits and pieces of Web content that users had tagged with reference phrases to denote that it was of interest for one reason or another.
+
+p. 144

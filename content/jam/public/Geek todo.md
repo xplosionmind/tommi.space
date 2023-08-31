@@ -1,12 +1,19 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2023-04-13T08:44:33+02:00
+updated: 2023-05-06T22:08:03+02:00
 tags: [geek, todo, geek/idea]
 description: Computer related tasks tracking
 ---
-1. `0 2 * * * BACKUP_PORT=60213 /usr/local/bin/backup || echo 'The automatic backup has failed.' | mailx -s 'AUTO BACKUP FAILED' tommiboom@pm.me`
+1. `0 2 * * * BACKUP_PORT=60213 /usr/local/bin/backup || echo 'The automatic backup has failed.' | mailx -s 'AUTO BACKUP FAILED' tommiboom@pm.me` -> send email only if backup fails (or simply change the object of the email)
+2. fix espanso
+3. https://github.com/GabePoel/KvLibadwaita
+1. `pnpm`
+3. only use updated and maintained plugins in Obsidian
+4. check if Obsidian syntax ho light works
+5. Troubleshoot Obsidian screen freezing
 1. [[Automations]]
 1. Xplosion Server dotfiles backup
+1. [[Vim]] configuration and dotfiles backup
 2. [[Switching to Linux]]
 1. Configure Firefly III
 5. Use Samsung tablet as graphic table

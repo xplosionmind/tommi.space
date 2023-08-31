@@ -8,14 +8,11 @@ lang: it
 toc: false
 image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120151-facc9f48-me.jpg
 ---
-Dopo aver concluso la costruzione di [[Aida]], mi sentivo orgoglioso del lavoro portato a termine, ma è cresciuto in me il desiderio di trovare una collocazione definitiva per i miei libri che fino a quel momento erano rimasti appoggiati per terra, in fila.
+Dopo aver concluso la costruzione di [[Aida]], mi sentivo orgoglioso del lavoro portato a termine, ma è cresciuto in me il desiderio di trovare una collocazione definitiva in [[Xplosion Attic]] per i miei libri che fino a quel momento erano rimasti appoggiati per terra, in fila.
 
-Ho avviato così la costruzione di <cite>Gianna</cite>, che prende il nome dal[l’omonima canzone][Gianna] di [Rino Gaetano], che ascoltavo in *loop* durante la sua costruzione.
+Ho avviato così la costruzione di <cite>Gianna</cite>, che prende il nome dall’[omonima canzone](https://it.wikipedia.org/wiki/Gianna%2FVisto_che_mi_vuoi_lasciare 'Gianna su Wikipedia') di [Rino Gaetano](https://it.wikipedia.org/wiki/Rino_Gaetano 'Rino Gaetano su Wikipedia'), che ascoltavo in <em lang='en'>loop</em> durante la sua costruzione.
 
 https://youtu.be/laIH5AQqeH0
-
-<br>
-<br>
 
 ## Costruzione
 
@@ -32,8 +29,6 @@ https://youtu.be/laIH5AQqeH0
 <figure>
 	<a href='https://images.tommi.space/picture?/16662/category/gianna' target='_blank'>
 		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120151-facc9f48-me.jpg' title="Gianna completa" alt='Gianna con i libri su di sé, in tutto il suo splendore'>
-	</a>	
+	</a>
+	<figure>Gianna, in tutto il suo splendore (cliccando sull’immagine, tutte le foto della galleria)</figure>
 </figure>
-
-[Gianna]: https://it.wikipedia.org/wiki/Gianna%2FVisto_che_mi_vuoi_lasciare 'Gianna su Wikipedia'
-[Rino Gaetano]: https://it.wikipedia.org/wiki/Rino_Gaetano 'Rino Gaetano su Wikipedia'

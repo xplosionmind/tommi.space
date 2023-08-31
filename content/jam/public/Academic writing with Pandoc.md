@@ -1,6 +1,6 @@
 ---
 date: 2021-12-06T11:39:18+01:00
-updated: 2023-04-28T11:25:33+02:00
+updated: 2023-06-23T03:34:59+02:00
 permalink: /pandoc-workflow/
 redirect_from: [/academic-writing-with-pandoc/,/pandoc-paper/]
 tags: geek
@@ -18,8 +18,9 @@ Finally, a simple and wonderful [[Pandoc]] command compiles the whole thesis.
 In order to correctly format all the styling, it is necessary to convert the Markdown source file to HTML first, and then convert the HTML to PDF
 
 ```bash
-pandoc -s Thesis.md --resource-path="$PWD" --metadata-file=Thesis.yml -C -o Thesis.html &&\
-pandoc -s Thesis.html --resource-path="$PWD" --metadata-file=Thesis.yml -C -o Thesis.pdf
+pandoc -s Thesis.md --wrap=none --resource-path="$PWD" --metadata-file=Thesis.yml -C -o Thesis.html &&\
+pandoc -s Thesis.html --wrap=none --resource-path="$PWD" --metadata-file=Thesis.yml -C -o Thesis.tex &&\
+pdflatex Thesis.tex
 ```
 
 - `-s` parses the output in one standalone file
@@ -34,10 +35,15 @@ Inside the front matter, different parameters could be customized, following [Pa
 
 ## Open questions
 
-- How to customize the front page so that it matches [Ca Foscari University’s guidelines](https://unive.it/pag/8751)?
+- How to customize the front page so that it matches [Ca Foscari University’s guidelines](https://unive.it/pag/8751)? Asking [fauno](https://0xacab.org/fauno 'fauno’s profile') for help, he told me that it is too hard to actually customize the front page with LaTeX, so it is better to create the frontispiece with LibreOffice, and embed it using [this code](https://0xacab.org/utopias-piratas/utopia.partidopirata.com.ar/-/blob/develop/_layouts/header.tex#L68-77 'a few lines from a layout file of utopia.partidopirata.com.ar') he wrote a while ago, we adapted it and made [this](https://cloud.tommi.space/s/WbZgpLjbgm5Zo96 'thesis_frontispiece.tex')
 - ~~`<u>` and `<q>` HTML tags are stripped and not parsed…~~ solved by converting to HTML first
 - Automatically title the references section
+- How to properly create a dedications section
 - [Add colors](https://pandoc.org/MANUAL.html#links)
+	- [Custom colors in LaTeX](https://tex.stackexchange.com/questions/436528/setting-all-links-in-hyperref-package-to-a-custom-color 'Setting all links in hyperref package to a custom color')
+	- [custom latex url color - SearXNG @ searx.tiekoetter.com](https://searx.tiekoetter.com/search?q=custom+latex+url+color&category_general=on&language=en-US&time_range=&safesearch=0&theme=simple)
+ - Impaginazione in LaTeX?
+ - [Producing a PDF/A in LaTeX](https://tex.stackexchange.com/questions/655521/how-to-produce-pdf-a-and-pdf-x-in-2022 'pdfx - How to produce PDF/A and PDF/X in 2022? - TeX - LaTeX Stack Exchange') (basically, just adding `\DocumentMetadata{pdfstandard=A-2b}` before `\documentclass`)
 
 ## Resources
 

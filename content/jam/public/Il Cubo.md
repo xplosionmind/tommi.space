@@ -1,6 +1,6 @@
 ---
 date: 2021-02-02T11:00:18+01:00
-updated: 2022-03-14T14:57:41+01:00
+updated: 2023-05-07T18:37:41+02:00
 lang: it
 location: Il Cubo
 permalink: /cubo/
@@ -10,6 +10,7 @@ toc: false
 todo:
   - Foto del Cubo
   - Foto del Tommi Boom
+  - video sticker Scambi
 ---
 Il Cubo è la spiaggia più bella di Sanremo.  
 Può godere di questo primato in quanto, pur essendo uno stabilimento balneare, non ne possiede alcuna, di spiaggia.
@@ -45,6 +46,14 @@ Il Cubo è un luogo magico e devo vergognarmi se mai qualcuno verrà a trovarmi 
 <div class='embed'>
 	<iframe class='light' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://osm.org/export/embed.html?bbox=7.81429946422577%2C43.821239081625386%2C7.81655251979828%2C43.82272918510757&amp;layer=mapnik&amp;marker=43.82198330001541%2C7.815425799999957'></iframe>
 </div>
+
+## Cronache dal Cubo
+
+<p class='date' datetime='2023-05-07T18:37:41+02:00'>7 maggio 2023</p>
+
+Giulia mi dice:
+
+> Andrea è proprio la ragazza che ti servirebbe
 
 [^1]: <cite>Spalmer</cite>: **a.** onda unica al mondo, dalle peculiarità inimitabili e introvabili sul pianeta Terra, eccetto che nel duecento metri di costa antistanti *Il Cubo*.
 [^2]: <cite>Spalmer</cite>: **b.** panino unico al mondo, dagli ingredienti apparentemente banali ma la cui combinazione, insieme al luogo in cui viene addentato (naturalmente, Il Cubo di Sanremo), lo rendono insuperabile; il suo nome è ispirato all’onda omonima di cui sopra.

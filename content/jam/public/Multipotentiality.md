@@ -1,6 +1,6 @@
 ---
 date: 2022-01-29T11:56:14+01:00
-updated: 2022-06-18T14:06:04+02:00
+updated: 2023-05-06T22:08:44+02:00
 location: Zattere
 tags:
   - knowledge
@@ -18,9 +18,6 @@ I wrote to Martina on <time datetime='2022-01-29T12:13:37+01:00'>29 January 2022
 …that is basically what I think about this whole concept.
 
 To be further explored.
-
-<br>
-<br>
 
 ## Resources
 
