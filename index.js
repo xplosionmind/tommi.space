@@ -34,9 +34,9 @@ function tocBehavior() {
 		let footerHeight = footer.offsetHeight;
 		let tocHeight = pageHeight - footerHeight - 900; // adding some random pixels to consider margins etc.
 		if (document.body.scrollTop > tocHeight || document.documentElement.scrollTop > tocHeight) {
-			toc.style.left = '-19vw';
+			toc.style.bottom = '-5rem';
 		} else {
-			toc.style.left = '4vw';
+			toc.style.bottom = '0';
 		}
 	}
 }
