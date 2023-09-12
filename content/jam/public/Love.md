@@ -4,7 +4,7 @@ updated: 2022-12-24T21:10:41+01:00
 lang: it
 tags:
   - topic
-alias: Amore
+aliases: Amore
 ---
 Parlare dell’amore ne toglie il romanticismo: <cite>Ecce Bombo</cite>, 40:22
 
