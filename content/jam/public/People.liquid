@@ -6,6 +6,9 @@ tags:
 description: Real and fictional characters who left a mark in me
 redirect_from: [/characters/,/persone/,/personaggi/,/idols/,/idoli/]
 main: true
+todo:
+  - Use grid layout or something more effective
+  - Better differenciate people and notes about people
 ---
 <style>
 	h-entry.note {
@@ -15,8 +18,14 @@ main: true
 	}
 </style>
 
+<section class='row'>
+	<div class='one column'>
+		<p>A collection of people who influenced my life or who I simply immensely admire.</p>
+	</div>
+</section>
+
 {% for idol in people -%}
-## {{ idol.who }}{.center .title}
+	<h2 class='title' id='{{ idol.who | slugify }}'>{{ idol.who }}</h2>
 <a href='{{ idol.url }}'>
 	<figure>
 		<picture>
@@ -26,20 +35,15 @@ main: true
 	</figure>
 </a>
 
-<br>
-<br>
-
 {% endfor -%}
 
 {% for idol in collections.jam -%}
 	{% for tag in idol.data.tags -%}
 		{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture -%}
 		{% if idoltag contains 'people' -%}
-			<h2 class='center title' id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
+			<h2 class='title' id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
 			<a href='{{ idol.url | url }}'><figure><img src='{{ idol.data.image }}' title='{{ idol.data.title }}' alt='An image portraying {{ idol.data.title }}'></figure></a>
 			<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
-			<br>
-			<br>
 		{% endif -%}
 	{% endfor -%}
 {% endfor -%}
