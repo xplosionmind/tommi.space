@@ -6,8 +6,7 @@ tag:
   - zen
 aliases: Just quit, Choose the alternative, Go alternative, Make the switch
 image: https://tommi.space/just-quit.jpg
-description:
-  Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it is for the best, it is worth it. Below some of the things I am quitting.
+description: Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it is for the best, it is worth it. Below some of the things I am quitting.
 permalink: /switch/
 redirect_from:
   - /quit-and-switch/
@@ -31,7 +30,7 @@ todo: update and refactor
 - ✅+🚧 [[Quit IMDb]]
 - 🚧 [[Switch to Linux]]
 - 🚧 [[Signal|Switch to Signal]]
-- 🚧 <time datetime='2021-11-16T11:43:34+01:00'>2021.11.16</time> - WIP Quit [GitHub](https://github.com/xplosionmind 'GitHub') and [[GiTMI|self-host a Gitea instance]], [GiTMI](https://gitmi.dev 'GiTMI homepage')
+- 🚧 <time datetime='2021-11-16T11:43:34+01:00'>2021.11.16</time> - WIP Quit [GitHub](https://github.com/xplosionmind 'GitHub') and [[giTMI|self-host a Gitea instance]], [GiTMI](https://gitmi.dev 'GiTMI homepage')
 
 ## Quitting
 
