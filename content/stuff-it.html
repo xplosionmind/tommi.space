@@ -16,12 +16,6 @@ sitemap:
 	</section>
 </div>
 
-<div class='row'>
-	<div class='one column'>
-		{% render 'scambi.html', lang: lang %}
-	</div>
-</div>
-
 {% assign stuff = tutto | where: 'stuff', true | sort: 'one-time' | sort: 'current' | reverse %}
 {% for thing in stuff %}
 	<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>

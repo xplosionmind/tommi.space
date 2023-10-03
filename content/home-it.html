@@ -10,20 +10,18 @@ sitemap:
   priority: 0.9
 ---
 <div class='row'>
-	<p class='one column center'>Sei appena entrato in un confuso spazio fluttuante nello sterminato Universo del World Wide Web. Questo luogo è <strong>un perpetuo cantiere</strong> popolato da pensieri, visioni, domande, pseudo-risposte, pseudo-intuizioni, pseudo-podcast, contraddizioni, rappresentazioni di caos e sconclusionati tentativi di riordinarlo.
-	<br>Benvenuto nella <u>rappresentazione virtuale della testa di Tommi</u>.
-	<br>Buon divertimento.</p>
+	<div class='one column center'>
+		<p>Sei appena entrato in un confuso spazio fluttuante nello sterminato Universo del World Wide Web. Questo luogo è <strong>un perpetuo cantiere</strong> popolato da pensieri, visioni, domande, pseudo-risposte, pseudo-intuizioni, pseudo-podcast, contraddizioni, rappresentazioni di caos e sconclusionati tentativi di riordinarlo.</p>
+		<p>Benvenuto nella <u>rappresentazione virtuale della testa di Tommi</u>.</p>
+		<p>Buon divertimento.</p>
+	</div>
 </div>
 
 {% render 'about.html', lang: lang, site: site %}
 
-<div class='one column'>
-	{% render 'scambi.html', lang: lang %}
-</div>
-
 <div class='row'>
 	{% render 'quitsocialmedia.html', lang: lang %}
-	{% render 'sconnesso.html', sconnesso: sconnesso %}
+	{% render 'sconnesso.html', sconnesso: sconnesso, lang: lang %}
 </div>
 
 {% render 'latest-post.liquid', lang: lang, posts: collections.posts %}
@@ -36,7 +34,7 @@ sitemap:
 				<h2 class='title'>La Marmellata</h2>
 			</a>
 			<p>Ci sono cose che scopro e avrei voluto imparare prima, o cose che semplicemente non riesco a non condividere ma che non sono abbastanza corpose per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
-			<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <cite><a href='/marmellata'>La Marmellata></a></cite>.</p>
+			<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <cite><a href='/marmellata'>La Marmellata</a></cite>.</p>
 			<div class='flex row'>
 				<a class='razzmatazz written button' href='/marmellata'>Assaggia 🥄</a>
 			</div>
@@ -71,7 +69,7 @@ sitemap:
 					<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
 						<div class='box'>
 							<h4>{{ entry.data.title }}</h4>
-							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: entry.data.updated %}</time><time></p>
+							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.updated %}</time><time></p>
 						</div>
 					</a>
 				{% endif %}

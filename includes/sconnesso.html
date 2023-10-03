@@ -1,9 +1,12 @@
 <section class='half column' lang='it'>
-	<div class='box' style='background:linear-gradient(-45deg,#884EE177,#884EE122)'>
-		<a href='/sconnesso'><img src='/sconnesso.webp' alt='Logo Sconnesso' title='Il logo di Sconnesso' style='aspect-ratio:1/1'></a>
-		{{ sconnesso.description | markdownify }}
+	<div id='sconnesso' class='box'>
+		<a href='{{ sconnesso.url }}'>
+			<h2 class='title'>{% if lang == 'it' %}Il podcast {% endif %}<cite lang='it'>Sconnesso</cite></h2>
+			<img src='/sconnesso.webp' alt='Logo Sconnesso' title='Il logo di Sconnesso'>
+		</a>
+		<p>{{ sconnesso.description | markdownify }}</p>
 		<div class='flex row'>
-			<a class='written button' href='/sconnesso' style='background:var(--purple);color:white;'>{% case lang %}{% when 'it' %}Ascolta{% else %}Listen{% endcase %}</a>
+			<a class='written button' href='{{ sconnesso.url }}'>{% case lang %}{% when 'it' %}Ascolta{% else %}Listen{% endcase %}</a>
 		</div>
 	</div>
 </section>
