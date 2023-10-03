@@ -4,7 +4,9 @@ updated: 2023-01-18T11:16:51+01:00
 tags:
   - geek/web
   - idea
-redirect_from: [/websites-ideas, /philosophy-websites, /lifestyle-websites, /websites-creation, /domain, /domain-names, /tld, /tlds]
+permalink: /domains/
+redirect_from:
+  - /tld/
 description: Cool domains ideas, notes and tracking
 ---
 [tommi.space]: https://tommi.space 'The virtual representation of Tommi’s mind'
@@ -20,9 +22,6 @@ Ideas and purposes I do not know a name for yet, but for which I would like to g
 - a domain, a name, a format <u>unlinked from my name</u>
 - [various less important others](#various)
 
-<br>
-<br>
-
 ## Names
 
 ### Taken
@@ -34,11 +33,9 @@ Domain names I am using:
 - [`quitsocialmedia.club`][quitsocialmedia.club], where [[Quit Social Media Notes|quitsocialmedia.club]] is hosted
 - [`sconnesso.link`][sconnesso.link], where <cite>Sconnesso</cite> is hosted
 - [`tommasomarmo.com`][tommasomarmo.com], which redirects to `tommi.space`
-- [`gitmi.dev`][gitmi.dev], where [[GiTMI]] is hosted
+- [`gitmi.dev`][gitmi.dev], where [[giTMI]] is hosted
 - ~~`pise-notes.club`, where I used to host my [[PISE]] notes~~
 - ~~`matto.club`, general purpose domain I bought for [[Server|Xplosion Server]]~~
-
-<br>
 
 ### Various
 
@@ -90,8 +87,6 @@ Domain names I am using:
 
 - `tommaso.ooo`
 - `tommas.ooo`
-
-<br>
 
 ### TMI
 

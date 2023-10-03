@@ -6,7 +6,6 @@ tags:
   - geek
   - wip
 ---
-I finally got my lovely Lenovo ThinkPad P14s Gen 3 (AMD), and I love it! I was only surprised to find out that the glorious 4K screen has touch support, which makes it a bit more reflective, but it is to
 
 1. Disabling Secure Boot in the BIOS
 2. installing Vanilla OS
