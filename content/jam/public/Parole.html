@@ -9,7 +9,7 @@ redirect_from: /words/
 <ul class='two'>
 	{% for p in parole %}
 		<li>
-			<time datetime='{{ p.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: p.date %}</time>
+			<time datetime='{{ p.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: p.date %}</time>
 			{%- if p.url -%}
 				<a href='{{ p.url }}' title='{{ p.word }}'>{{ p.word }}</a>
 			{%- else -%}

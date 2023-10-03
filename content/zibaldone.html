@@ -32,7 +32,7 @@ eleventyImport:
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
 				<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
 				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: entry.date %}<time></p>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}<time></p>
 				<cite class='excerpt'>
 					{% if entry.data.description %}
 						{{ entry.data.description | markdownify | strip_html }}

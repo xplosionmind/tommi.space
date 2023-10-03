@@ -21,7 +21,7 @@ type: CollectionPage
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: date %}</time>{% endif %}
+				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: date %}</time>{% endif %}
 			{% else %}
 				{% if location %}
 					{% for place in places %}
@@ -39,7 +39,7 @@ type: CollectionPage
 			{% if lang == 'it' %}
 				{% if updated %}
 					<br>ultima modifica: 
-					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: updated %}</time>
+					<time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: updated %}</time>
 				{% endif %}
 			{% else %}
 				{% if updated %}

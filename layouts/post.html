@@ -20,7 +20,7 @@ layout: wrapper.liquid
 				{% endif %}
 			{% endfor %}
 		{% endif %}
-		{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.html', date: date %}</time>{% endif %}
+		{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: date %}</time>{% endif %}
 	{% else %}
 		{% if location %}
 			{% for place in places %}
