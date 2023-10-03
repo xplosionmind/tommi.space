@@ -3,5 +3,7 @@
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Ubuntu Mono'),url('https://tommi.space/ubuntu-mono.woff2') format('woff2');
+  src: local('Ubuntu Mono'),
+		url('https://tommi.space/ubuntu-mono.woff2') format(woff2),
+		url('/ubuntu-mono.woff2') format(woff2);
 }

@@ -2,5 +2,7 @@
   font-family: 'EB Garamond';
   font-weight: 100 900;
   font-display: swap;
-  src: local('EB Garamond'), url('https://tommi.space/eb-garamond.woff2') format('woff2');
+  src: local('EB Garamond'),
+	  url('https://tommi.space/eb-garamond.woff2') format(woff2),
+	  url('/eb-garamond.woff2') format(woff2);
 }
