@@ -1,4 +1,4 @@
-/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
 Document
@@ -15,22 +15,10 @@ Use a better box model (opinionated).
 	box-sizing: border-box;
 }
 
-/**
-Use a more readable tab size (opinionated).
-*/
-
 html {
-	tab-size: 2;
-}
-
-/**
-1. Correct the line height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-*/
-
-html {
-	line-height: 1.15; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
+	-moz-tab-size: 2; /* 3. Use a more readable tab size (opinionated). */
+	tab-size: 2; /* 3 */
 }
 
 /*
@@ -38,32 +26,9 @@ Sections
 ========
 */
 
-/**
-Remove the margin in all browsers.
-*/
-
 body {
-	margin: 0;
+	margin: 0; /* Remove the margin in all browsers. */
 }
-
-/**
-Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
-*/
-
-/* ******* ALREADY MODIFIED IN _root ******
-body {
-	font-family:
-		system-ui,
-		-apple-system,
-		'Segoe UI',
-		Roboto,
-		Helvetica,
-		Arial,
-		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji';
-}
-******* ****** */
 
 /*
 Grouping content
@@ -105,33 +70,11 @@ strong {
 ******* ******* */
 
 /**
-1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
-2. Correct the odd 'em' font sizing in all browsers.
-*/
-
-/* ******* ALREADY MODIFIED IN style.scss *******
-code,
-kbd,
-samp,
-pre {
-	font-family:
-		ui-monospace,
-		SFMono-Regular,
-		Consolas,
-		'Liberation Mono',
-		Menlo,
-		monospace;
-	font-size: 1em;
-}
-******* ******* */
-
-/**
 Add the correct font size in all browsers.
 */
 
 small {
 	font-size: 80%;
-	font-weight: 200;
 }
 
 /**
@@ -161,12 +104,12 @@ Tabular data
 
 /**
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+2. Correct table border color inheritance in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 */
 
 table {
 	text-indent: 0; /* 1 */
-	/*border-color: inherit; */
+	border-color: inherit; /* 2 */
 }
 
 /*
@@ -192,11 +135,10 @@ textarea {
 
 /**
 Remove the inheritance of text transform in Edge and Firefox.
-1. Remove the inheritance of text transform in Firefox.
 */
 
 button,
-select { /* 1 */
+select {
 	text-transform: none;
 }
 
@@ -264,11 +206,12 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 /**
 1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari. (it is styled wrongly in Firefox)
+2. Correct the outline style in Safari.
 */
 
 [type='search'] {
 	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
 }
 
 /**
