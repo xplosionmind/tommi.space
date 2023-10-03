@@ -1,7 +1,8 @@
 ---
 date: 2020-10-16
-updated: 2023-01-24T18:58:33+01:00
+updated: 2023-09-15T11:57:56+02:00
 description: Stuff I am up to in these days
+location: Berlin
 ref: now
 comments: false
 todo:
@@ -11,23 +12,13 @@ todo:
 	The one you are reading is more than a simple web page, it is a part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>a movement</a> started by the legendary <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> in 2015, and <a href='https://sive.rs/now3'>it grew a lot</a> since then. To know more about the concept and find out <a href='https://nownownow.com' title='NowNowNow'>how many people</a> are embracing it, visit <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, which is a <a href='https://en.wikipedia.org/wiki/Webring' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
 </div>
 
-What I am doing right now:
+## Free Software Foundation Europe
 
-## Studying
+From November 2023 to April 2024 I am attending an internship at the [<abbr title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org), in **Berlin**.
 
-I am living in [Venice](https://comune.venezia.it 'Venice institutional website'), Italy, where I am a student of [Philosophy, International Studies and Economics](https://unive.it/pise 'PISE course page on UniVe website') at [Ca’ Foscari University](https://unive.it 'Ca’ Foscari University website').
+## <cite>Pan</cite>
 
-### Writing my thesis
-
-I am writing my bachelor thesis on the broad topic linking Computer Sciences to Sociology. I decided to publish and keep updated my notes, [[Thesis|here]].
-
-## Working on <cite>Scambi Festival</cite>
-
-{% render 'scambi.html', lang: lang %}
-
-## Aministrating <cite>Pan</cite>
-
-<cite>[Pan](https://pan.rent 'Pan social')</cite> is a [[Fediverse]] node I conceived and I maintain together with <cite>APS Oltre</cite>, the same association organizing <cite>Scambi Festival</cite>
+<cite>[Pan](https://pan.rent 'Pan social')</cite> is a [[Fediverse]] node I conceived and I maintain together with <cite>APS Oltre</cite>, the same association organizing [<cite>Scambi Festival</cite>](https://scambi.org/en)
 
 ## Projects, ideas, and collaborations
 

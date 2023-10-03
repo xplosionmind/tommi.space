@@ -1,14 +1,12 @@
 ---
 date: 2022-04-08T12:07:30+02:00
-updated: 2022-12-02T01:09:34+01:00
+updated: 2023-09-15T12:26:05+02:00
 location: home
 tags: geek/server
-description: Automations I take advantage of
 toc: false
+description: Automations I take advantage of
 ---
-Since exploiting [[Cron Jobs]] to perform automations requires some amount of technical knowledge, skills and experience, I take advantage of [n8n](https://n8n.io 'n8n official website') to perform my automations, now. I installed it on [[Server|Xplosion Server]] at [auto.tommi.space](https://auto.tommi.space 'Tommi’s n8n instance')
-
-Below a list of automations that I am using or I intend to setup.
+There are several automations I would like to activate to ease and improve my digital workflow. Below there is a list of those I am using or that I intend to setup.
 
 - [ ] [Internet Awesomeness](https://tommi.space/internet-awesomeness.xml 'Internet Awesomeness RSS feed') to [Telegram](https://t.me/internet_awesomeness 'Internet Awesomeness channel on Telegram')
 - [ ] [Internet Awesomeness] to [Stream]
@@ -33,10 +31,12 @@ Below a list of automations that I am using or I intend to setup.
 	- [ ] YouTube
 	- [ ] ListenBrainz
 
-## Tools
+## Tools and resources
 
-- [n8n](https://auto.tommi.space)
-- [feediverse](https://github.com/edsu/feediverse): Send RSS/Atom feeds to Mastodon
+- <cite>[Automate the Boring Stuff with Python](https://automatetheboringstuff.com)</cite>, a great book suggested by my friend [Theo](https://nutcroft.com 'nutcroft, Theodore Keloglu’s personal website')
+- [n8n](https://n8n.io 'n8n official website')
+- [feediverse](https://github.com/edsu/feediverse 'feediverse on GitHub'): Send RSS/Atom feeds to Mastodon
+- [Bridgy](https://brid.gy 'Bridgy official website')
 
 [Stream]: https://stream.tommi.space 'Tommi’s Stream of consciousness'
 [Internet Awesomeness]: https://tommi.space/internet-awesomeness.xml 'Internet Awesomeness RSS feed'
