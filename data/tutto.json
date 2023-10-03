@@ -1,5 +1,27 @@
 [
 	{
+		"title": "Direzione Fediverso!",
+		"start": "2023-06-11T09:30:00+02:00",
+		"end": "2023-06-11T13:30:00+02:00",
+		"url": "https://scambi.org/2023/lab/direzione-fediverso",
+		"tags": ["scambi", "lab"],
+		"description": "Insieme a Pitte, ho ideato e moderato il laboratorio sul Fediverso tenuto a [Scambi Festival](https://scambi.org 'Scambi, Il Festival dei Laboratori Paneuretici') 2023.",
+		"location": "La Pigna di Sanremo",
+		"lat": "+++",
+		"lon": "+++"
+	},
+	{
+		"title": "Laboratorio sul Fediverso al quarantennale del Mira 1",
+		"start": "2023-06-11T09:30:00+02:00",
+		"end": "2023-06-11T13:30:00+02:00",
+		"url": "https://tommi.space/lab-fediverso",
+		"tags": ["scout", "lab"],
+		"description": "Sono stato invitato a tenere una bottega (termine scout per indicare un laboratorio) in occasione del quarantennale del Mira 1, gruppo scout in cui sono stato capo dal 2020 al 2022.",
+		"location": "Oriago di Mira",
+		"lat": "+++",
+		"lon": "+++"
+	},
+	{
 		"title": "Late Night nello ScambiVerso",
 		"start": "2022-12-27T20:00:00+01:00",
 		"end": "2022-12-28T01:00:00+01:00",
