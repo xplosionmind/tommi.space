@@ -829,12 +829,6 @@ audio,
 	border-radius: root.$radius-m;
 }
 
-.written {
-	--text: var(--background);
-	color: var(--text);
-	background: var(--primary);
-}
-
 .embed {
 	lite-youtube,
 	iframe {
@@ -963,6 +957,13 @@ img.button {
 	p {
 		text-align: center;
 	}
+}
+
+.background {
+	color: var(--text);
+	background: var(--background);
+	--link: var(--primary);
+	--internal-link: var(--secondary);
 }
 
 .green {
