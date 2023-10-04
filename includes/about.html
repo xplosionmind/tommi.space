@@ -3,44 +3,46 @@
 		<img class='u-photo' src='/profile.webp' alt='a photo of me conducting a live show' title='Tommi on stage conducting a live show' style='aspect-ratio:3/4'>
 	</div>
 	<div class='half column'>
-	{% if lang == 'it' %}
+		{% if lang == 'it' %}
+			<h2 class='title'>Chi è questo tipo</h2>
+			{% renderTemplate "md" %}
+Sono <span class='p-name'>Tommi</span>,
 
-		<h2 class='title'>Chi è questo tipo</h2>
+è possibile vedermi campeggiare sul pianeta Terra, ma sono perennemente in viaggio in una dimensione parallela dominata da <strong class='p-category p-label'>curiosità</strong> e <strong class='p-category p-label'>entusiasmo</strong>, ma anche costellata di <strong class='p-category p-label'>ansia</strong> e <strong class='p-category p-label'>confusione</strong>.
 
-		<p>Mi chiamo <span class='p-name'>Tommi</span>,</p>
+Faccio [tante cose](/tutto), e il mio ipercinetismo mi fa sentire come <a href='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz' title='Leibniz su Wikipedia'>Leibniz</a>, che ha detto: <q cite='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz'>nella mia vita ho cominciato tutto e concluso nulla</q>. Non essere sorpresə e perdonami se qui ci sono molte cose disordinate, incomplete o abbandonate.
 
-		<p>è possibile vedermi campeggiare sul pianeta Terra, ma sono perennemente in viaggio in una dimensione parallela dominata dall’entusiasmo, dalla curiosità e dalla confusione.</p>
+Riconosco di non essere bravo a rispondere alla domanda <q>chi sei</q>, ma, diciamocelo, nessunə ne è davvero capace. La mia identità è riassunta in <cite>[Tomminess](/tomminess 'Tomminess — tommi.space')</cite>, il manifesto della mia esistenza.
 
-		<p>Mi capita spesso di perdermi, ma mi muovo continuamente (in tutti i sensi) per conoscere nuove persone e scoprire le loro storie. Il mio ipercinetismo mi rende un allegro individuo perennemente saltellante, talvolta insopportabile. Finora, come scrive il sommo <a href='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz' title='Leibniz su Wikipedia'>Leibniz</a>, <q cite='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz'>nella mia vita ho cominciato tutto e concluso nulla</q>.</p>
+<div class='flex'>
+	<a class='background written button u-url' href='/ora' title='Cosa sto facendo ora'>Ora</a>
+	<a lang='en' class='red written button' href='{{ site.author.keyoxide }}' hreflang='en' title='Tommi’s digital identity verification'>Digital ID</a>
+	<a class='dark-blue written button u-url' href='{{ site.author.cv }}' title='Il curriculum vitae di Tommaso Marmo, su Europass'>CV</a>
+	<address><a class='blue written button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Inviami un’email'>Scrivimi</a></address>
+</div>
 
-		<p>Riconosco di non essere bravo a rispondere alla domanda <q>chi sei</q>, ma, diciamocelo, nessuno ne è davvero capace. Chi sono veramente lo raccontano i miei <a href='/zibaldone' title='Zibaldone - tommi.space'>pseudo-articoli</a>, il mio <a href='#sconnesso' title='Sconnesso'>pseudo-podcast</a>, <a href='/ora' title='Now page - tommi.space'>quello che sto facendo ora</a> e tutto <a href='/cose'>quello che faccio</a> nella vita. Tuttavia, per vivere veramente il caos che regna nella mia testa, di cui questo sito è la rappresentazione virtuale, è necessario assaggiare <a href='/marmellata'><em>La Marmellata</em></a>.</p>
-
-		<p>Alcune risorse utili:
-			<ul>
-				<li>il mio <a class='u-url' href='{{ site.author.cv }}' title='Curriculum Vitae di Tommaso Marmo su Europass'>Curriculum Vitae</a> e il mio <a class='u-url' rel='me' href='https://linkedin.com/in/tommasomarmo' title='Tommaso Marmo su Linkedin'>profilo Linkedin</a></li>
-				<li>Il mio <address><a class='u-email' href='{{ site.encoded_mailto }}' rel='me' title='Scrivimi un’email'>indirizzo email</a></address>. Se possibile, utilizzate la mia <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>chiave PGP</a> (non è necessaria se utilizzate <a href='https://proton.me' title='Sito web di Proton'>Proton</a>)</li>
-				<li>il mio username è ovunque o <code class='p-nickname'>@tommi</code> o <code>@xplosionmind</code></li>
-			</ul>
-		</p>
-
-
+<p><small>Prego di usare <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>la mia chiave PGP</a></small></p>
+			{% endrenderTemplate %}
 		{% else %}
+			<h2 class='title'>About this weirdo</h2>
+			{% renderTemplate "md" %}
+Hey, I’m <span class='p-name'>Tommi</span>.
 
-		<h2 class='title'>About this weirdo</h2>
+In one word, I am an <strong class='p-category p-label'>enthusiast</strong>. Who I am is best represented by the manifesto of my being, or <cite>[Tomminess](/tomminess 'Tomminess — tommi.space')</cite>.
 
-		<p>Hi, I’m <span class='p-name'>Tommi</span>.</p>
+I am in perpetual movement, and I get involved in <a href='/tutto' hreflang='it' title='A log of all that I do'>a lot of stuff</a>. Hence, I can really relate to what <a href='https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz' title='Leibniz on Wikipedia'>Leibniz</a> said: <q cite='https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz'>in my life I started everything and concluded nothing</q>.
 
-		<p>I am an <span class='p-category p-label'>enthusiast</span>. I love getting involved in everything which involves human interactions and I am overthinking addicted. Who I am is best represented by the manifesto of my being, or <cite><a href='/tomminess' title='Tomminess — tommi.space'>Tomminess</a></cite>.</p>
-		<p><span class='p-note'>The purpose of my whole existence is meeting all the people in the world</span>. For this reason, when I am not <a href='/now#studying' title='“Studying„ in Tommi’s Now page'>studying</a>, I keep myself busy doing a lot of <a href='/stuff' title='Stuff I do'>stuff</a>. As a consequence, as also the great <a href='https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz' title='Leibniz on Wikipedia'>Leibniz</a> said, that <q cite='https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz'>in my life I started everything and concluded nothing</q>.<br>
-		You can know more about something of the just mentioned everything by browsing around this virtual representation of my mind.</p>
+I really do not know what else to write without ending up with a stream of blabbering words. To know me better just wander around here. Don’t be surprised and pardon me if many things are incomplete and messy.
+{% endrenderTemplate %}
 
-		<p>Some resources which might be useful:
-			<ul>
-				<li>my <a class='u-url' rel='me' href='https://linkedin.com/in/tommasomarmo' title='Tommaso Marmo su Linkedin'>Linkedin profile</a> and my <a class='u-url' href='{{ site.author.cv }}'>Curriculum Vitae</a></li>
-				<li>you can <address><a class='u-email' href='{{ site.encoded_mailto }}' rel='me' title='Write me an email'>write me an email</a></address>. If possible, please use my <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>PGP key</a> (it is not necessary if you use <a href='https://proton.me' title='Proton website'>Proton</a>)</li>
-				<li>my username on the internet is always either <code class='p-nickname'>@tommi</code> or <code class='p-nickname'>@xplosionmind</code> everywhere.</li>
-			</ul>
-		</p>
+<div class='flex'>
+	<a class='red written button' href='{{ site.author.keyoxide }}' title='Tommi’s digital identity verification'>Digital ID</a>
+	<a class='dark-blue written button u-url' href='{{ site.author.cv }}' title='Tommaso Marmo’s Europass resume'>Resume</a>
+	<a class='background written button u-url' href='/now' title='What I am doing now'>Now</a>
+	<address><a class='blue written button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Write me an email'>Email me</a></address>
+</div>
+
+<p><small>Please use <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>my PGP key</a></small></p>
 		{% endif %}
 	</div>
 </section>
