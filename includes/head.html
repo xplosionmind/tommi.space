@@ -58,8 +58,10 @@
 	{% endfor %}
 	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search={{ site.author.email }}'>
 
+	{% comment %}
 	<!-- Gemini version -->
 	<link rel='alternate' type='text/gemini' title='tommi.space through Gemini' href='gemini://tommi.space'>
+	{% endcomment %}
 
 	<!-- RSS Feeds -->
 	<link rel='alternate' type='application/rss+xml' title='Stream' href='/all.xml'>

@@ -28,7 +28,8 @@
 		{% endif %}
 	</div>
 	<div class='flex row'>
-		<div class=''>
+		{% comment %}
+		<div>
 			<h4 id='gemini'>♊️ Gemini ♊️</h4>
 			{% if lang == 'it' %}
 				<p>I miei casini mentali superano i limiti del web convenzionale: tommi.space è navigabile anche <a href='gemini://tommi.space' title='tommi.space su Gemini' rel='alternate' type='text/gemini'>attraverso il protocollo Gemini</a>.</p>
@@ -36,7 +37,8 @@
 				<p>The wild troubles of my mind encompass the standard web: tommi.space is available also <a href='gemini://tommi.space' title='tommi.space Gemini version' rel='alternate' type='text/gemini'>through the Gemini protocol</a>!</p>
 			{% endif %}
 		</div>
-		<div class='' lang='en'>
+		{% endcomment %}
+		<div lang='en'>
 			<p><a href='https://jeffhuang.com/designed_to_last' title='This Page is Designed to Last - Jeff Huang'>This page was designed to last</a></p>
 		</div>
 	</div>

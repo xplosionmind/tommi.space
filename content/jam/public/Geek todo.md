@@ -1,13 +1,16 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2023-09-27T19:18:14+02:00
+updated: 2023-10-04T16:29:49+01:00
 tags:
   - geek
   - todo
   - geek/idea
 description: Tracking of computer related tasks
 ---
+1. Website profile pic
+1. Fix [[tommi.space]] gemini
 1. Fix Sconnesso Castopod
+1. [[Server]] backup
 1. [[giTMI]] SSH
 2. Learn git credentials management
 3. IP6 for tommiboompi.noho.st does not work on TIM Hub
