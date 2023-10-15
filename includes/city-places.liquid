@@ -1,0 +1,17 @@
+<div class='grid'>
+	{% assign endroits = places | where: 'city', city -%}
+	{%- for place in endroits -%}
+		<div class='vertical flex box'>
+		 {% if place.img != '' -%}<img src='{{ place.img }}' alt='{{ place.name }}'>{% endif%}
+			<h3>{{ place.name }}</h3>
+			{% if place.description -%}
+				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
+			{% endif -%}
+			<div class='flex row'>
+				{% if place.plot != ''%}<a class='tiny yellow button' href='{{ place.more }}' target='_blank' title='What I wrote about {{ place.name }}'>My story</a>{% endif -%}
+					{% if place.url != '' -%}<a class='tiny red button' href='{{ place.url }}' title='{{ place.name }}’s website'>Website</a>{% endif -%}
+					<a class='tiny green button' href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}' title='{{ place.name }} on the map'>View on map</a>
+			</div>
+		</div>
+	{%- endfor -%}
+</div>
