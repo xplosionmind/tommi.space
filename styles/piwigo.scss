@@ -31,7 +31,7 @@ body {
 	overflow-wrap: break-word;
 	hyphens: auto;
 	font: root.$regular var(--font-sans) !important;
-	cursor: url('https://tommi.space/cursor.svg') 16 16, crosshair;
+	cursor: var(--cursor);
 	scroll-behavior: smooth;
 }
 
@@ -41,7 +41,7 @@ body {
 	body {
 		transition: root.$trans;
 
-		cursor: url('https://tommi.space/cursor.svg') 16 16, crosshair;
+		cursor: var(--cursor);
 
 		--background: #FFF;
 		--text: var(--black-ish);
@@ -68,7 +68,7 @@ body {
 }
 
 :any-link {
-	cursor: url('https://tommi.space/cursor-hover.svg') 16 16, pointer !important;
+	cursor: var(--cursor-hover) !important;
 }
 
 .albThumbs li {
@@ -435,7 +435,7 @@ span.menuInfoCat.badge,
 }
 
 a {
-	cursor: url('https://tommi.space/cursor-hover.svg') 16 16, pointer !important;
+	cursor: var(--cursor-hover) !important;
 	color: var(--text) !important;
 	&:hover {
 		text-decoration: none !important;

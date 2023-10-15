@@ -14,8 +14,8 @@
 
 html {
 	scroll-behavior: smooth;
-	background: url(/cantiere.svg), #000;
-	cursor: url(/cursor.svg) 16 16, crosshair;
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDgwMCA4MDAiPjxwYXRoIGZpbGw9IiNGQ0M5MjAiIGQ9Im0wIDAgODAwIDgwMFY3MDBMMTAwIDB6bTIwMCAwIDYwMCA2MDBWNTAwTDMwMCAwem0yMDAgMCA0MDAgNDAwVjMwMEw1MDAgMHptMjAwIDAgMjAwIDIwMFYxMDBMNzAwIDB6TTAgMjAwbDYwMCA2MDBoMTAwTDAgMTAwem0wIDIwMCA0MDAgNDAwaDEwMEwwIDMwMHptMCAyMDAgMjAwIDIwMGgxMDBMMCA1MDB6bTAgMjAwaDEwMEwwIDcwMHoiLz48L3N2Zz4='), #000;
+	cursor: var(--cursor);
 }
 
 /* DARK THEME */
@@ -185,7 +185,7 @@ a,
 button,
 .button,
 label {
-	cursor: url(/cursor-hover.svg) 16 16, pointer;
+	cursor: var(--cursor-hover);
 }
 
 input {

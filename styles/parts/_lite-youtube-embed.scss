@@ -5,7 +5,7 @@ lite-youtube {
 	contain: content;
 	background-position: center center;
 	background-size: cover;
-	cursor: url(/cursor-hover.svg) 16 16, pointer;
+	cursor: var(--cursor-hover);
 	article & {
 		border-radius: 1rem;
 	}
@@ -40,7 +40,7 @@ lite-youtube {
 		width: 68px;
 		height: 48px;
 		position: absolute;
-		cursor: url(/cursor-hover.svg) 16 16, pointer;
+		cursor: var(--cursor-hover);
 		transform: translate3d(-50%, -50%, 0);
 		top: 50%;
 		left: 50%;
@@ -58,7 +58,7 @@ lite-youtube {
 	}
 	/* Post-click styles */
 	&.lyt-activated {
-		cursor: url(/cursor.svg) 16 16, crosshair;
+		cursor: var(--cursor-hover);
 		&::before,
 		& > .lty-playbtn {
 			opacity: 0;
