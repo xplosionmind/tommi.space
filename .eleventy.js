@@ -104,14 +104,14 @@ module.exports = function(eleventyConfig) {
 	// Plugins //
 	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-	eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
+	/*eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
 		url: 'https://tommi.space',
 		rel: ['noreferrer', 'noopener', 'external'],
 		overwrite: false,
 		excludedDomains:[
 			'https://tommasomarmo.com'
 		]
-	});
+	});*/
 	eleventyConfig.addPlugin(require('eleventy-plugin-embed-everything'), {
 		youtube: {
 			options: {
@@ -152,7 +152,6 @@ module.exports = function(eleventyConfig) {
 			style: 'compressed'
 		}
 	});
-	eleventyConfig.addPlugin(require('eleventy-plugin-svg-contents'));
 	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
 		baseUrl: 'svg/'
 	});
