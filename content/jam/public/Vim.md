@@ -64,7 +64,7 @@ Use `:retab` to convert the buffer to your setup for indentation. For instance, 
 - [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ 'Practical Vim, Second Edition') a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](https://drewneil.com/).
 - [Vim subreddit](https://www.reddit.com/r/vim/ 'r/vim')
 - [Vim intermediate guide](https://thevaluable.dev/vim-intermediate/ 'A Vim Guide for Intermediate Users')
-- [Vim as an IDE](https://blog.jez.io/vim-as-an-ide 'Vim as an IDE'), a <mark>workshop</mark> by [Jake Zimmerman](https://jez.io 'Jake Zimmerman')
+- [Vim as an IDE](https://blog.jez.io/vim-as-an-ide 'Vim as an IDE'), a ==workshop== by [Jake Zimmerman](https://jez.io 'Jake Zimmerman')
 - [Obsidian](https://obsidian.md 'Obsidian official website') is awesome, nevertheless it is not the best performance-wise. Even if it becomes way harder and complicated to manage, it is worth keeping note of [personal notetaking in Vim](https://vimways.org/2019/personal-notetaking-in-vim/ 'Personal Notetaking in Vim')
 
 ## .vimrc

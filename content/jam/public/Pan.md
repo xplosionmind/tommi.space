@@ -24,7 +24,7 @@ Here I take notes concerning the milestones of its history, as well as ideas, in
 
 <cite>Pan</cite> was born as an experimental [[Fediverse]] instance coming out of the [Lab on the topic](https://scambi.org/en/2022/lab/6 'Fediverse: Social Network Umani') during [Scambi Festival 2022](https://scambi.org/2022 'Scambi Festival’s II edition').
 
-The server [social.scambi.org](https://web.archive.org/https://social.scambi.org 'Snapshot of social.scambi.org') was hosted on was owned and maintained by by [<cite lang='it'>APS Oltre</cite>](https://manuale.scambi.org/en/association 'About APS Oltre'), the same association organizing the festival.
+The server [pan.rent](https://web.archive.org/https://pan.rent 'Snapshot of pan.rent') was hosted on was owned and maintained by by [<cite lang='it'>APS Oltre</cite>](https://manuale.scambi.org/en/association 'About APS Oltre'), the same association organizing the festival.
 
 <p class='date'><time datetime='2022-11-12T10:06:19+01:00'>Saturday 12 November 2022</time></p>
 

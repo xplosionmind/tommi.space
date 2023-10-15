@@ -16,7 +16,7 @@ Underlining is soft, neat, light, instead.
 
 While ==highlighting screams==: <q>LOOK AT ME COME ON!</q>, <u>underlining</u> raises a hand and timidly tells you: <q>hey! Remember this!</q>
 
-<mark>Highlighting is egocentric</mark> and annoying, <u>underlining is actually useful</u>: it catches the eye, but without stressing it with too many frills.
+==Highlighting is egocentric== and annoying, <u>underlining is actually useful</u>: it catches the eye, but without stressing it with too many frills.
 
 Underlining lets you focus on the content, which is what actually matters.
 

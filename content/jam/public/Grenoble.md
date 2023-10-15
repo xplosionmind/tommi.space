@@ -6,17 +6,17 @@ tags:
   - place
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 ---
-Notes et réflexions de la cité ou j’ai vécu [[Erasmus à Grenoble|mon premier Erasmus]]
+Notes et réflexions de la cité ou j’ai vécu [[Erasmus à Grenoble|mon premier Erasmus]].
 
 <div class='blue box' lang='en'>
-	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://social.scambi.org' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://social.scambi.org/web/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
+	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://pan.rent' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://pan.rent/web/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
 </div>
 
 ## La vie
 
-Le problème fondamental de ma vie a Grenoble, par rapport a la vie Venisienne, est que tous takes more time <b class='missing'>+++</b> à faire. Aller au supermarché, laver les vêtements (do the laundry <b class='missing'>+++</b>), cuisiner et manger… la quotidianité <b class='ish'>ish</b> est rempli pas beaucoup de petits temps morts entre les tasks <b class='missing'>+++</b> qui à Venice je étais habitué à compléter dans quelque minute.
+Le problème fondamental de ma vie a Grenoble, par rapport a la vie Venisienne, est que tout prend plus de temps à faire. Aller au supermarché, faire la lessive, cuisiner et manger… la quotidianité <b class='ish'>ish</b> est rempli pas beaucoup de petits temps morts entre les tâches qui à Venice je étais habitué à compléter dans quelque minute.
 
-Par consequence, forcément je suis obligé à supprimer mes nombreux instincts <b class='ish'>ish</b> à <a href='https://tommi.space/procrastinazione' hreflang='fr' title='L’arte di procrastinare'>procrastiner</a> et je dois m’habituer à enjoy <b class='missing'>+++</b> les moment de relax et de pause en situations sociels <b class='ish'>ish</b> pendant lesquelles je ne suis pas habitué à me relaxer complètement. C’est un bon exercice, mais parfois il devient trop fatiguant.
+Par consequence, forcément je suis obligé à supprimer mes nombreux instincts de <a href='https://tommi.space/procrastinazione' hreflang='it' title='L’arte di procrastinare'>procrastination</a> et je dois m’habituer à profiter de chaque instant de relax et de pause en moments de convivialité pendant lesquelles je ne suis pas habitué à me relaxer complètement. C’est un bon exercice, mais parfois il devient trop fatiguant.
 
 ## Ressources
 
@@ -26,23 +26,7 @@ Par consequence, forcément je suis obligé à supprimer mes nombreux instincts 
 
 <a href='https://tommi.space/places' target='_blank' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
 
-	<div class='grid'>
-		{% assign endroits = places | where: 'city', 'Grenoble' %}
-		{% for place in endroits %}
-			<div class='vertical flex box'>
-				{% if place.img != '' %}<img src='{{ place.img }}' alt='{{ place.name }}'>{% endif %}
-				<h3>{{ place.name }}</h3>
-				{% if place.description %}
-					<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
-				{% endif %}
-				<div class='flex row'>
-					{% if place.plot != '' %}<a class='tiny yellow button' href='{{ place.more }}' target='_blank' title='What I wrote about {{ place.name }}'>My story</a>{% endif %}
-					{% if place.url != '' %}<a class='tiny red button' href='{{ place.url }}' title='{{ place.name }}’s website'>Website</a>{% endif %}
-					<a class='tiny green button' href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}' title='{{ place.name }} on the map'>View on map</a>
-				</div>
-			</div>
-		{% endfor %}
-	</div>
+{% render "city-places.liquid", places: places, city: 'Grenoble' %}
 
 ## Aller voire
 
