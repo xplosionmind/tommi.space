@@ -1,0 +1,20 @@
+---
+pagination:
+  data: redirect_to
+  size: 1
+  alias: redirect
+  addAllPagesToCollections: false
+permalink: '{{ redirect.from }}'
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang='{{ redirect.lang }}' style='background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDgwMCA4MDAiPjxwYXRoIGZpbGw9IiNGQ0M5MjAiIGQ9Im0wIDAgODAwIDgwMFY3MDBMMTAwIDB6bTIwMCAwIDYwMCA2MDBWNTAwTDMwMCAwem0yMDAgMCA0MDAgNDAwVjMwMEw1MDAgMHptMjAwIDAgMjAwIDIwMFYxMDBMNzAwIDB6TTAgMjAwbDYwMCA2MDBoMTAwTDAgMTAwem0wIDIwMCA0MDAgNDAwaDEwMEwwIDMwMHptMCAyMDAgMjAwIDIwMGgxMDBMMCA1MDB6bTAgMjAwaDEwMEwwIDcwMHoiLz48L3N2Zz4="), #000;width: 100%;height: 100%'>
+	<meta charset='utf-8' />
+	<title>Redirect to {{ redirect.to }}</title>
+	<link rel='canonical' href='{{ redirect.to }}' />
+	<script>location = '{{ redirect.to }}';</script>
+	<meta http-equiv='refresh' content='0; url={{ redirect.to }}' />
+	<meta name='robots' content='noindex' />
+	<h1 style='color:#FFF;text-align: center'>{%- if redirect.lang == 'it' -%}Reindirizzando…{%- else -%}Redirecting…{%- endif -%}{{ redirect.to }}</h1>
+	<p><a style='color:#D00text-align: center' href='{{ redirect.to }}'>{%- if redirect.lang == 'it' -%}Clicca qui se non sei reindirizzatə{%- else -%}Click here if you are not redirected{%- endif -%}.</a></p>
+</html>
