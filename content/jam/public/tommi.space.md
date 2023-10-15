@@ -17,9 +17,27 @@ todo:
   - “help wanted” issues search query
 ---
 <div class='yellow box'>
-	<p>These notes have to be considered more a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
+	<p>These notes have to be considered a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
 	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing effort in documenting my decisions is not my priority, as well as to explain passages for educational purposes</p>
 </div>
+
+<p class='date'><time datetime='2023-10-14T23:00:00+02:00'>October 14<sup>th</sup> 2023</time></p>
+
+## No analytics!
+
+I realized that I do not actually need analytics on this website. I uninstalled [umami](https://umami.is 'umami official website') and I removed any client-side tracking. I did so for multiple reasons:
+
+- I rarely checked the data
+- Data was not reliable, since [visits.tommi.space is now listed in the easylist blocklist](https://github.com/easylist/easylist/issues/15069 '“ALLOW *.tommi.space / remove visits.tommi.space from the list” issue in easylist repository on GitHub'). All the people using ad blockers did not appear at all in the stats.
+- Loading the analytics script took the website ~700ms longer to fully load.
+- I should learn to analyze server access logs, and I could use [server-side analytics](https://plausible.io/blog/server-log-analysis 'Client side vs server side analytics: What's the gap in data? | Plausible blog')
+- In the end, do I really care about how many people visit this crazy place? I do not need to see numbers, but to get feedback, create actual, direct, interactions!
+
+<p class='date'><time datetime='2023-04-05T00:00:00+01:00'>April 5<sup>th</sup> 2023</time></p>
+
+## Search
+
+Finally, after three years since rewriting this website from scratch, I found [Pagefind](https://pagefind.app 'Pagefind') to be <u>the perfect search solution</u>, both in terms of ease of use and performance.
 
 <p class='date'><time datetime='2022-12-01T10:14:49+01:00'>Thursday, December 1<sup>st</sup> 2022</time></p>
 
@@ -35,7 +53,7 @@ Details on ![[Self-hosting tommi.space]]
 
 Up to now, anything concerning website ideas and development was listed quite randomly on the website development page. My intention was to keep everything portable and within <cite>[The Jam](https://tommi.space/jam 'The Jam — tommi.space')</cite>. Nevertheless, tracking both bugs, feature ideas and stuff to do with services dedicated to that is easier, simpler, and much more integrated with the development environment and workflow that git provides.
 
-I am now [using GitHub for issue tracking](https://github.com/xplosionmind/tommi.space/issues 'tommi.space issues on GitHub'), even though the repository is currently being [hosted on Codeberg][source].
+I am now [using GitHub for issue tracking](https://github.com/xplosionmind/tommi.space/issues 'tommi.space issues on GitHub'), even though the repository is currently being [hosted on giTMI][source], and mirrored on [Codeberg](https://codeberg.org/tommi/tommi.space 'tommi.space repository on Codeberg')
 
 <p class='date'><time datetime='2022-04-21T06:14:30+02:00'>Thursday, April 21<sup>st</sup> 2022</time></p>
 
@@ -106,10 +124,6 @@ I decided not to, for now, for three main reasons:
 ![[Minimalizing]]
 
 <p class='date'><time datetime='2021-12-16T00:10:28+01:00'>Thursday 16 December 2021</time></p>
-
-## Search
-
-Notes concerning search implementation.
 
 ### Algolia
 

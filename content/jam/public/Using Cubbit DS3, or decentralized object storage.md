@@ -1,6 +1,6 @@
 ---
 date: 2023-09-27T17:41:04+02:00
-updated: 2023-09-28T18:50:28+02:00
+updated: 2023-10-14T21:51:19+02:00
 location: Biblioteca Salaborsa, Bologna
 permalink: /ds3/
 tags:
@@ -27,3 +27,7 @@ Currently, [[Xplosion Server]] has a 200GB SSD, which is more than enough for wh
 The first step in my migration to Cubbit DS3 has been to offload on its infrastructure the backup of Xplosion Server.
 
 ![[YunoHost backups on Cubbit DS3 object storage using s3fs]]
+
+## Nextcloud External Storage
+
+I do not fully trust Cubbit DS3 becoming [my Nextcloud](https://cloud.tommi.space 'Tommi’s self-hosted cloud')’s [primary storage](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/primary_storage.html 'Configuring Object Storage as Primary Storage — Nextcloud latest Administration Manual'). Hence, I configured it as [external storage](https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/external_storage/amazons3.html 'Configuring Amazon S3 as Nextcloud External storage'), and it is working well so far.
