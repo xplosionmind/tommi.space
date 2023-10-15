@@ -5,12 +5,12 @@
 		</svg>
 	</a>
 	{% if alternate != null %}
-		<label for='langtoggle' title='language selector' class='button'>🌍</label>
+		<label for='langtoggle' title='{% if lang == 'it' %}Cambia lingua{% else %}Switch language!{% endif %}' class='button'>🌍</label>
 		<input type='checkbox' id='langtoggle'>
 		<div class='lang-list'>
-			<a class='button' rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='{{ alternate.data.title }}'>{% if alternate.data.lang == 'it' %}🇮🇹{% elsif alternate.data.lang == 'en' %}🇬🇧{% else %}{{ alternate.data.lang }}{% endif %}</a>
+			<a class='button' rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='{{ alternate.data.title }}'>{% if alternate.data.lang == 'it' %}🇮🇹{% elsif alternate.data.lang == 'en' %}🇬🇧{% elsif alternate.data.lang == 'fr' %}🇫🇷{% else %}{{ alternate.data.lang }}{% endif %}</a>
 		</div>
 	{% endif %}
-	<a class='button' href='/search' title='search'>🔎</a>
-	<label id='nav-toggle-button' for='menutoggle' aria-label='toggle-menu' class='button'>🍔</label>
+	<a class='button' href='/search' title='{% if lang == 'it' %}Cerca qualunque cosa{% else %}Search for anything everywhere{% endif %}'>🔎</a>
+	<label id='nav-toggle-button' for='menutoggle' aria-label='toggle-menu' class='button' title='Menu'>🍔</label>
 </div>
