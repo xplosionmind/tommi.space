@@ -810,9 +810,6 @@ footer {
 	p a {
 		color: var(--primary) !important;
 	}
-	> .row {
-		justify-content: space-between;
-	}
 	h4 {
 		margin-top: root.$regular;
 		margin-bottom: 0;
@@ -1076,11 +1073,6 @@ img.button {
 			margin-top: root.$regular-more;
 		}
 	}
-	footer {
-		& > .row {
-			justify-content: center;
-		}
-	}
 	#toc,
 	#goto {
 		margin: 5vh 3vw 0;
@@ -1144,6 +1136,11 @@ img.button {
 		a {
 			transform: scale(.85);
 			display: block;
+		}
+	}
+	footer {
+		& > .row:first-child {
+			justify-content: space-between;
 		}
 	}
 }
