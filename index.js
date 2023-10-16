@@ -3,7 +3,6 @@ let pageUrl = window.location.href;
 let show = 'block';
 let hide = 'none';
 scrollButton = document.getElementById('scrollButton');
-copyUrlButton = document.getElementById('copyUrl');
 let pageHeight = document.body.scrollHeight;
 
 function scrollButtonBehavior() {
@@ -90,28 +89,6 @@ function toggleAll() {
 	}
 }
 
-function copyUrl() {
-	navigator.clipboard.writeText(pageUrl);
-	console.log('copied %s to clipboard', pageUrl);
-	copyUrlButton.style.background = 'var(--green)';
-}
-
-function shareViaMastodon() {
-	let defaultUrl = localStorage['instanceUrl'];
-	console.log(defaultUrl);
-	let instanceUrl= prompt('Enter the address of your server:', defaultUrl);
-	localStorage['instanceUrl'] = instanceUrl; 
-	if ( !instanceUrl.startsWith('https://') && !instanceUrl.startsWith('http://') ) {
-		instanceUrl = 'https://' + instanceUrl;
-	}
-	if ( !instanceUrl.endsWith('/') ) {
-		instanceUrl += '/';
-	}
-	let author = '@tommi@pan.rent'; 
-	let shareUrl = instanceUrl + 'share?text=' + encodeURIComponent(pageUrl + '\n\nby ' + author);
-	window.open(shareUrl, '_blank');
-}
-
 window.addEventListener('load', () => {	
 	if (document.querySelectorAll('[data-target-lang]')) {
 	  for (const button of document.querySelectorAll('[data-target-lang=en]')) {
@@ -129,9 +106,6 @@ window.addEventListener('load', () => {
 	};
 	if (copyUrlButton) {
 		copyUrlButton.addEventListener('click', copyUrl);
-	};
-	if (document.getElementById('shareViaMastodon')) {
-		document.getElementById('shareViaMastodon').addEventListener('click', shareViaMastodon);
 	};
 	scrollButton.addEventListener('click', nowScroll);
 });

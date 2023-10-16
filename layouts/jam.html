@@ -74,8 +74,6 @@ type: CollectionPage
 
 	<div class='row'>
 		<div class='one column'>
-				{% assign encoded_absolute_url = page.url | prepend: site.url | url_encode %}
-			{% render 'share.html', lang: lang, title: title, encoded_absolute_url: encoded_absolute_url %}
 			{% render 'backlinks.html', lang: lang, backlinks: backlinks %}
 			{% render 'comments.html', lang: lang %}
 		</div>

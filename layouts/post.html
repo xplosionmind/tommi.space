@@ -69,8 +69,6 @@ layout: wrapper.liquid
 
 	<div class='row'>
 		<div class='half column'>
-				{% assign encoded_absolute_url = page.url | prepend: site.url | url_encode %}
-			{% render 'share.html', lang: lang, title: title, encoded_absolute_url: encoded_absolute_url %}
 			{% render 'backlinks.html', lang: lang, backlinks: backlinks %}
 		</div>
 		<div class='half column'>
