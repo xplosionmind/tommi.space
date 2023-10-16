@@ -1,17 +1,24 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2023-04-16T10:36:01+01:00
+updated: 2023-10-16T01:02:24+02:00
+permalink: /meta/
+redirect_from:
+  - /development/
+  - /tommi.space/
+  - /dev/
 tags:
   - meta
   - geek/web
   - wip
-aliases: tommi.space, Development Roadmap, Website todo, Meta, Changelog
-permalink: /meta/
-redirect_from: [/development/,/tommi.space/,/dev/]
-main: true
-toc: false
 image: /2020-04-18-making-this-website.jpg
 description: I put a lot of care and attention to details in this website (probably too much), thus I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
+aliases:
+  - tommi.space
+  - Development Roadmap
+  - Website todo
+  - Meta
+  - Changelog
+main: true
 todo:
   - finish updating
   - “help wanted” issues search query
@@ -20,6 +27,12 @@ todo:
 	<p>These notes have to be considered a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
 	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing effort in documenting my decisions is not my priority, as well as to explain passages for educational purposes</p>
 </div>
+
+<p class='date'><time datetime='2023-10-16T14:00:00+02:00'>October 16<sup>th</sup> 2023</time></p>
+
+## Remove the share section
+
+As with the analytics, I realized that the share section is quite useless, and the page weight and performance vs utility ratio is not worth it. Removed that, too! How liberating it is to just strip away all extra stuff!
 
 <p class='date'><time datetime='2023-10-14T23:00:00+02:00'>October 14<sup>th</sup> 2023</time></p>
 

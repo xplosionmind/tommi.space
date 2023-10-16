@@ -1,6 +1,9 @@
 ---
 date: 2023-10-14T23:37:10+02:00
 updated: 2023-10-14T23:41:55+02:00
+tags:
+  - geek/wip
+permalink: /gemini/
 ---
 [[Server|Xplosion Server]] hosts [[tommi.space|this website]] both on the standard web and on Gemini.
 
