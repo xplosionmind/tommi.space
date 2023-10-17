@@ -1,0 +1,7 @@
+{% for event in tutto limit:1 %}
+	{% assign buildTime = 'now' | date: '%Y-%m-%d' | remove: '-' %}
+	{% assign eventTime = event.start | date: '%Y-%m-%d' | remove: '-' %}
+	{% if eventTime >= buildTime %}
+		
+	{% endif %}
+{% endfor %}
