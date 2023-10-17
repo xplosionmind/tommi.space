@@ -19,28 +19,3 @@ On top of the awesomeness of the service, I am a fan of Cubbit also for several 
 </figure>
 
 The only problem of Cubbit is that, being so cutting-edge, its development is sloooow and new features are rolled out very, very rarely.
-
-<br>
-<br>
-
-## Feature requests
-
-0. Waiting for the whole Cubbit source code to become open
-1. Improved photos management
-	- better image previews and thumbnails
-	- albums support
-1. Mobile filesystem integration
-1. Automatic batch pictures upload/sync from mobile (possibly achieved by third party service if SFTP is integrated
-1. SFTP + WebDAV support (integrating with [PhotoPrism]
-1. Multiple account support in the apps
-1. File tagging (allow APIs to change them: e.g. tags change according to the ones set in [PhotoPrism]
-1. Customization
-	- using a custom domain
-	- custom logo
-	- custom accent colors
-1. [Rclone] support
-1. Collaborative editing of documents
-
-[Rclone]: https://github.com/rclone/rclone 'Rclone on GitHub'
-[Cubbit]: https://cubbit.io 'Cubbit'
-[PhotoPrism]: https://photoprism.app 'PhotoPrism'
