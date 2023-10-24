@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2023-10-16T01:02:24+02:00
+updated: 2023-10-17T17:10:18+02:00
 permalink: /meta/
 redirect_from:
   - /development/
@@ -33,6 +33,16 @@ todo:
 ## Remove the share section
 
 As with the analytics, I realized that the share section is quite useless, and the page weight and performance vs utility ratio is not worth it. Removed that, too! How liberating it is to just strip away all extra stuff!
+
+<p class='date'><time datetime='2023-10-17T16:53:00+02:00'>October 17<sup>th</sup> 2023</time></p>
+
+## Dropping Gemini
+
+I did not log it here, but in late 2022 [[tommi.space Gemini capsule|I set up a Gemini capsule for tommi.space]], meaning a modified, minimalist version of this website was made available via the [Gemini protocol](https://geminiprotocol.net 'Gemini protocol in the standard web'). I developed [a script to build and deploy the capsule](https://tommi.space/scripts/titan 'Titan, the script that launches tommi.space in the Geminispace'), and I configured [a Gemini server](https://github.com/YunoHost-Apps/gemserv_ynh 'gemserv YunoHost package') in [YunoHost](https://yunohost.org) to publish it.
+
+As time passed by, something in the workflow broke, and I did not have enough time to fix it. This made me realize that <u>geek stuff such as Gemini should be fun experiments rather than growing maintenance burden of an amateur self-hoster</u> like me.
+
+I do not exclude to bring the capsule back to life if I feel like it, but I want to keep things light and joyful. Not thinking about it for a while.
 
 <p class='date'><time datetime='2023-10-14T23:00:00+02:00'>October 14<sup>th</sup> 2023</time></p>
 
