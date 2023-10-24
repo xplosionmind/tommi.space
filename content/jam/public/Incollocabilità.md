@@ -1,9 +1,10 @@
 ---
 date: 2023-01-29T18:24:03+01:00
-updated: 2023-01-30T11:33:14+01:00
+updated: 2023-10-22T15:34:27+02:00
 location: Club Tenco
 permalink: /incollocabilità/
-redirect_from: [/incollocabilita/]
+redirect_from:
+  - /incollocabilita/
 tags:
   - music
   - topic
@@ -19,6 +20,6 @@ Ascoltandolo in [un piccolo soave concerto al Tenco](https://p.lu/w/tqbCk5fr4CDj
 	<audio controls src='/incollocabilita.m4a'></audio>
 	<figcaption>
 		<blockquote><p>L’incollocabilità è quella condizione che fa un po’ parte di chi fa un certo tipo di vita, quindi si muove incessantemente, è quella sensazione di appartenere a tanti luoghi contemporaneamente ma di non appartenere completamente a nessuno di essi.</p>
-		<p>Una sorta di dolce sdradicamento dalla terra.</p></blockquote>
+		<p>Una sorta di dolce sradicamento dalla terra.</p></blockquote>
 	</figcaption>
 </figure>
