@@ -13,16 +13,17 @@ Sono <span class='p-name'>Tommi</span>,
 Faccio [tante cose](/tutto), e il mio ipercinetismo mi fa sentire come <a href='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz' title='Leibniz su Wikipedia'>Leibniz</a>, che ha detto: <q cite='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz'>nella mia vita ho cominciato tutto e concluso nulla</q>. Non essere sorpresə e perdonami se qui ci sono molte cose disordinate, incomplete o abbandonate.
 
 Riconosco di non essere bravo a rispondere alla domanda <q>chi sei</q>, ma, diciamocelo, nessunə ne è davvero capace. La mia identità è riassunta in <cite>[Tomminess](/tomminess 'Tomminess — tommi.space')</cite>, il manifesto della mia esistenza.
+			{% endrenderTemplate %}
 
 <div class='flex'>
 	<a class='background written button u-url' href='/ora' title='Cosa sto facendo ora'>Ora</a>
-	<a lang='en' class='red written button' href='{{ site.author.keyoxide }}' hreflang='en' title='Tommi’s digital identity verification'>Digital ID</a>
+	<a lang='en' class='red written button' href='https://keyoxide.org/{{ site.author.email }}' hreflang='en' title='Tommi’s digital identity verification'>Digital ID</a>
 	<a class='dark-blue written button u-url' href='{{ site.author.cv }}' title='Il curriculum vitae di Tommaso Marmo, su Europass'>CV</a>
 	<address><a class='blue written button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Inviami un’email'>Scrivimi</a></address>
 </div>
 
 <p><small>Prego di usare <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>la mia chiave PGP</a></small></p>
-			{% endrenderTemplate %}
+
 		{% else %}
 			<h2 class='title'>About this weirdo</h2>
 			{% renderTemplate "md" %}
@@ -36,7 +37,7 @@ I really do not know what else to write without ending up with a stream of blabb
 {% endrenderTemplate %}
 
 <div class='flex'>
-	<a class='red written button' href='{{ site.author.keyoxide }}' title='Tommi’s digital identity verification'>Digital ID</a>
+	<a class='red written button' href='https://keyoxide.org/{{ site.author.email }}' title='Tommi’s digital identity verification'>Digital ID</a>
 	<a class='dark-blue written button u-url' href='{{ site.author.cv }}' title='Tommaso Marmo’s Europass resume'>Resume</a>
 	<a class='background written button u-url' href='/now' title='What I am doing now'>Now</a>
 	<address><a class='blue written button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Write me an email'>Email me</a></address>
