@@ -1,13 +1,10 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2023-10-15T19:33:08+02:00
-location: Xplosion Attic
-tags:
-  - geek/server
-  - geek/wip
-  - todo
-description: Information and insights concerning the configuration and manteinance of Tommi’s server
+updated: 2023-10-29T13:08:35+01:00
 aliases: Xplosion Server
+tags: [geek/server, geek/wip, todo]
+location: Xplosion Attic
+description: Information and insights concerning the configuration and manteinance of Tommi’s server
 ---
 <cite>Xplosion Server</cite> is my personal server, hosted on a remote VPS. It is running [YunoHost](https://yunohost.org 'YunoHost'). This pages collects useful information to manage the server, and it keeps track of the
 
@@ -34,6 +31,10 @@ sudo systemctl restart nginx
 ## Backup
 
 ![[YunoHost backups on Cubbit DS3 object storage using s3fs]]
+
+## Nextcloud
+
+Using occ `sudo -u nextcloud php8.2 --define apc.enable_cli=1 occ [command]`
 
 ## To do
 
