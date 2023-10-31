@@ -1,5 +1,7 @@
 ---
 date: 2023-10-16T10:14:14+02:00
+location: Liceo G.D. Cassini, Sanremo
+tags: [lab]
 ---
 1. Storia rete decentralizzata guerra fredda
 2. Peccato originale dell’internet che porta a centralizzazione
