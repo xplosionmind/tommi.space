@@ -68,7 +68,7 @@ sitemap:
 					<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
 						<div class='box'>
 							<h4>{{ entry.data.title }}</h4>
-							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}<time></p>
+							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}<time></p>
 						</div>
 					</a>
 				{% endif %}
