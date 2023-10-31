@@ -1,6 +1,6 @@
 @use 'parts/normalize';
 @use 'fonts/inter';
-@use 'fonts/ubuntu-mono';
+@use 'fonts/permanent-marker';
 @use 'fonts/eb-garamond';
 @use 'parts/root';
 @use 'parts/nav';
@@ -500,17 +500,6 @@ img {
 	max-width: 100%;
 	display: block;
 	border-radius: root.$radius-l;
-	h2 &,
-	h3 & {
-		margin: auto;
-		max-height: 9rem;
-		border-radius: 0;
-		max-width: 90%;
-	}
-	& + h2,
-	& + h3 {
-		margin-top: root.$regular-more;
-	}
 }
 
 figure {
@@ -586,9 +575,6 @@ figcaption {
 
 .center {
 	text-align: center;
-	h2 {
-		color: var(--slight);
-	}
 }
 
 .right,
@@ -627,15 +613,17 @@ article {
 	position: relative;
 	font-size: root.$regular-more;
 	margin: root.$big 5vw;
-	h2, h3 {
-		margin: revert;
-	}
 	> .box {
 		margin: root.$bigger 0;
 	}
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
+	font-family: var(--font-heading);
+	line-height: 1;
+}
+
+h4, h5, h6 {
 	text-transform: uppercase;
 	line-height: 1;
 	hyphens: none;
@@ -655,10 +643,6 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-.title {
-	font-size: root.$twice;
-}
-
 h1 {
 	font-size: root.$mega;
 	color: var(--text);
@@ -671,14 +655,14 @@ h1 {
 }
 
 h2 {
-	font-size: root.$bigger;
+	font-size: 2.5rem;
 	.anchor::after {
 		content: '##';
 	}
 }
 
 h3 {
-	font-size: root.$big;
+	font-size: 2rem;
 	.anchor::after {
 		content: '###';
 	}
@@ -712,6 +696,7 @@ h4 {
 	}
 	h2,
 	h3 {
+		margin-top: root.$small;
 		text-align: center;
 	}
 	h3 {
@@ -719,12 +704,6 @@ h4 {
 	}
 	.written.button:not(.tiny) {
 		margin: root.$small;
-	}
-	img {
-		& + h2,
-		& + h3 {
-			margin-top: root.$small;
-		}
 	}
 }
 
@@ -742,7 +721,7 @@ h4 {
 		a {
 			color: var(--text);
 		}
-		margin: 0;
+		//margin: 0;
 	}
 	.flex {
 		max-height: 30vh;
@@ -757,6 +736,9 @@ h4 {
 
 #toc {
 	z-index: 3;
+	h3 {
+		margin: 0;
+	}
 	li {
 		line-height: 1;
 	}
@@ -774,13 +756,14 @@ h4 {
 
 #latest-post {
 	position: relative;
-	h2.button {
-		position: absolute;
-		top: root.$regular-less;
-		right: -(root.$regular-less);
-		z-index: 2;
-		transform: rotate(10deg);
-	}
+}
+
+#latest-post-sign {
+	position: absolute;
+	top: root.$regular-less;
+	right: -(root.$regular-less);
+	z-index: 2;
+	transform: rotate(10deg);
 }
 
 .excerpt {
@@ -793,6 +776,16 @@ h4 {
 .metadata {
 	line-height: 1.1;
 	opacity: .8;
+}
+
+.mastodon-embed {
+	margin: 0 auto;
+	width: 100%;
+	min-height: 200px;
+	border: 0px;
+	overflow: scroll;
+	border-radius: root.$radius-m;
+	box-shadow: var(--shadow);
 }
 
 .footnotes {
@@ -857,7 +850,7 @@ img.button {
 	display: inline-block;
 	background: var(--background);
 	padding: root.$small root.$regular;
-	font-size: root.$bigger;
+	font-size: root.$big;
 	font-weight: 700;
 	text-transform: uppercase;
 	border-radius: root.$radius-m;
@@ -947,10 +940,10 @@ img.button {
 }
 
 .tag {
-	h2 {
+	/*h2 {
 		border-radius: root.$radius-m;
 		padding: root.$small;
-	}
+	}*/
 	p {
 		text-align: center;
 	}
@@ -1080,7 +1073,7 @@ img.button {
 			grid-template-rows: 1fr;
 		}
 	}
-	#latest-post h2.button {
+	#latest-post-sign {
 		top: 10rem;
 		right: -6rem;
 		transform: rotate(82deg);

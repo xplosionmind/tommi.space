@@ -49,6 +49,10 @@ h2 {
 	font-size: 2.2rem;
 }
 	
+h1, h2, h3 {
+	font-family: var(--font-sans);
+}
+
 .button {
 	color: #FFF;
 	background: linear-gradient(120deg, #9DB5C1, #415462);

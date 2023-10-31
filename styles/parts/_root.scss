@@ -19,8 +19,9 @@
 	--invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 
 	--font-sans: 'Inter V', Inter, system-ui, -apple-system, sans-serif;
+	--font-heading: 'Permanent Marker', var(--font-sans, sans-serif);
 	--font-serif: 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif;
-	--font-mono: 'Ubuntu Mono', ui-monospace, mono;
+	--font-mono: 'Ubuntu Mono', ui-monospace, monospace;
 
 	--cursor: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjUiIGZpbGw9IiNGQ0M5MjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIzIi8+PC9zdmc+') 16 16, crosshair;
 	--cursor-hover: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSI1IiBmaWxsPSIjRkZGIiBzdHJva2U9IiNEMDAiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==') 16 16, pointer;
@@ -28,9 +29,9 @@
 
 $tiny: .2rem;
 $small: .5rem;
-$regular-less: 1rem;
-$regular: 1.1rem;
-$regular-more: 1.3rem;
+$regular-less: .9rem;
+$regular: 1rem;
+$regular-more: 1.1rem;
 $big: 1.6rem;
 $bigger: 1.8rem;
 $twice: 2.2rem;
