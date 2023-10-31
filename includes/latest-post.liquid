@@ -1,8 +1,8 @@
 {% for post in posts limit:1 %}
 	<section id='latest-post' class='box row' title='{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}'>
-		<h2 class='red button'>{% if lang == 'it' %}Ultimo post{% else %}Latest post{% endif %}</h2>
+		<h2 id='latest-post-sign' class='red button'>{% if lang == 'it' %}Ultimo post{% else %}Latest post{% endif %}</h2>
 		<div class='half column vertical flex'>
-			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' style='margin-bottom: 2rem'><h2>{{ post.data.title }}</h2></a>
+			<h2><a href='{{ post.url }}' hreflang='{{ post.data.lang }}'>{{ post.data.title }}</a></h2>
 			<cite class='excerpt'>
 				{{ post.content | markdownify | strip_html | truncatewords: 160 }}
 			</cite>
