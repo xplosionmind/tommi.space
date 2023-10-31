@@ -104,8 +104,5 @@ window.addEventListener('load', () => {
 			button.addEventListener('click', toggleAll);
 		};
 	};
-	if (copyUrlButton) {
-		copyUrlButton.addEventListener('click', copyUrl);
-	};
 	scrollButton.addEventListener('click', nowScroll);
 });
