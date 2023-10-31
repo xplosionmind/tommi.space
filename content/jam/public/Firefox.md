@@ -14,7 +14,7 @@ Three different add-ons configurations can be found in my [Firefox Collections](
 
 - [minimal](https://addons.mozilla.org/en-US/firefox/collections/13538650/minimal/ '“minimal” extensions collection') configuration: must-have add-ons for a safe and optimized browsing experience
 - [main](https://addons.mozilla.org/en-US/firefox/collections/13538650/main/ '“main” extensions collection') configuration: the main extensions I use + integrated tools to take advantage of the services I use in the best way possible.
-- [super](https://addons.mozilla.org/en-US/firefox/collections/13538650/super/ '“super” extensions collection - Firefox AddOns') configuration, extra add-ons to enjoy all the bells and whistles extensions can offer
+- [extra](https://addons.mozilla.org/en-US/firefox/collections/13538650/extra/ '“extra” extensions collection - Firefox AddOns') configuration, extra add-ons to enjoy all the bells and whistles extensions can offer
 
 ## Shortcuts
 
@@ -30,7 +30,7 @@ Even though Firefox is my go-to browser and I absolutely love it, it lacks some 
 
 ## Monoline
 
-I created the custom theme [Firefox Monoline](https://gitmi.dev/tommi/firefox-monoline 'firefox-monoline source code on giTMI').
+I created the custom theme [Firefox Monoline](https://codeberg.org/tommi/firefox-monoline 'firefox-monoline source code on Codeberg').
 
 ## about:config
 
