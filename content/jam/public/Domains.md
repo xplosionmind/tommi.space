@@ -14,7 +14,6 @@ description: Cool domains ideas, notes and tracking
 [tmi.pics]: https://tmi.pics 'TMI Pics'
 [quitsocialmedia.club]: https://quitsocialmedia.club 'Quit Social Media'
 [sconnesso.link]: https://sconnesso.link 'Sconnesso'
-[gitmi.dev]: https://gitmi.dev 'GiTMI'
 ## Purposes
 
 Ideas and purposes I do not know a name for yet, but for which I would like to get a domain:
@@ -33,7 +32,7 @@ Domain names I am using:
 - [`quitsocialmedia.club`][quitsocialmedia.club], where [[Quit Social Media Notes|quitsocialmedia.club]] is hosted
 - [`sconnesso.link`][sconnesso.link], where <cite>Sconnesso</cite> is hosted
 - [`tommasomarmo.com`][tommasomarmo.com], which redirects to `tommi.space`
-- [`gitmi.dev`][gitmi.dev], where [[giTMI]] is hosted
+- [`gitmi.dev`](https://gitmi.dev 'GiTMI'), where [[giTMI]] is hosted
 - ~~`pise-notes.club`, where I used to host my [[PISE]] notes~~
 - ~~`matto.club`, general purpose domain I bought for [[Server|Xplosion Server]]~~
 

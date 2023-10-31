@@ -1,12 +1,12 @@
 ---
 date: 2020-10-16
 updated: 2023-09-15T11:57:56+02:00
-description: Stuff I am up to in these days
 location: Berlin
-ref: now
-comments: false
+description: Stuff I am up to in these days
 todo:
   - history of previous “now”s when updating
+ref: now
+comments: false
 ---
 <div class='blue box'>
 	The one you are reading is more than a simple web page, it is a part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>a movement</a> started by the legendary <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> in 2015, and <a href='https://sive.rs/now3'>it grew a lot</a> since then. To know more about the concept and find out <a href='https://nownownow.com' title='NowNowNow'>how many people</a> are embracing it, visit <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, which is a <a href='https://en.wikipedia.org/wiki/Webring' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
@@ -14,7 +14,7 @@ todo:
 
 ## Free Software Foundation Europe
 
-From November 2023 to April 2024 I am attending an internship at the [<abbr title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org), in **Berlin**.
+I am living in **Berlin**, where I am working at the [<abbr title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org) as an intern.
 
 ## <cite>Pan</cite>
 

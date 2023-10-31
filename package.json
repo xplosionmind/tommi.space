@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://gitmi.dev/tommi/tommi.space.git"
+		"url": "git@codeberg.org:tommi/tommi.space.git"
 	},
 	"keywords": [],
 	"author": "",
