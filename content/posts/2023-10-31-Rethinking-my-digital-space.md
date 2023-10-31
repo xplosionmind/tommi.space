@@ -1,7 +1,7 @@
 ---
 title: Rethinking my digital space
-date: 2023-10-31T15:23:31+01:00
-tags: [zen, meta]
+date: 2023-10-31T20:15:12+01:00
+tags: [zen, meta, geek]
 location: Berlin
 permalink: /v2/
 image: https://tommi.space/xhain-workspace.webp
