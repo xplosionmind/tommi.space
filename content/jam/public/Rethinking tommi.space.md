@@ -1,10 +1,12 @@
 ---
 date: 2023-10-28T11:32:43+02:00
+updated: 2023-10-31T18:15:08+01:00
 aliases:
   - Rethinking this space
-  - Rethinking my space
-permalink: /rethinking-notes/
+permalink: /rethinking/
+location: Berlin
 ---
+Here are my notes about rethinking myself and tommi.space. These thoughts got better formulated in [this post](https://tommi.space/v2 'Rethinking tommi.space')
 
 > Having a personal website should be the right balance between doing something fun and owning your own communication means e.g. the IndieWeb, etc, etc. I got it wrong at the beginning, by feeling this need to put inside the website *all* the stuff I do. But it is wrong, because sometimes this need to put all the stuff I do there and properly document it means feeling the pressure to share something over leaving it, and so it becomes the same as the rabbit hole of social media, and even worse because social media has less friction: you can post without working too much on it, while on the website you do need more time. The example of Gemini: the decision about it basically represents the whole point of rethinking tommi.space. Not being a space where I necessarily represent *all* of myself, or something like a log of everything. Rather, a joyful, and also a political representation of struggle and joy and myself. Not necessarily in a comprehensive way, but in a loud way. I don’t know, not all of myself necessarily, but the salient significant points about myself. So, I would think about taking down the pages that I do not maintain, pages that I created many months or years ago with the intention of filling them with stuff I've been thinking about but I never had the time, the energy or I didn't bother to fill. The fact that they are not filled, it just gives me anxiety of the need of filling them instead of me actually wanting to tell that stuff. This is why I should be rethinking the fact that I want to put on the website stuff I do want to talk about instead of just putting in the website stuff to log it, to track it.
 > 

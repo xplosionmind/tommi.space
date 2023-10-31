@@ -1,32 +1,44 @@
 ---
 date: 2020-02-02T01:00:00+01:00
 updated: 2023-10-17T17:10:18+02:00
-permalink: /meta/
-redirect_from:
-  - /development/
-  - /tommi.space/
-  - /dev/
-tags:
-  - meta
-  - geek/web
-  - wip
-image: /2020-04-18-making-this-website.jpg
-description: I put a lot of care and attention to details in this website (probably too much), thus I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
 aliases:
   - tommi.space
   - Development Roadmap
   - Website todo
   - Meta
   - Changelog
+tags: [meta, geek/web, wip]
+permalink: /meta/
+image: /2020-04-18-making-this-website.jpg
+description: I put a lot of care and attention to details in this website (probably too much), thus I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
+redirect_from:
+  - /development/
+  - /tommi.space/
+  - /dev/
 main: true
-todo:
-  - finish updating
-  - “help wanted” issues search query
 ---
 <div class='yellow box'>
-	<p>These notes have to be considered a random set of thoughts rather than an actual log. It was my original intention to track here the changes tommi.space undertakes, nevertheless, I fail at documenting everything because <u>it takes time and I am lazy</u>.</p>
-	<p>Also, being a developer or a designer is definitely not my occupation nor my main hobby, hence investing effort in documenting my decisions is not my priority, as well as to explain passages for educational purposes</p>
+	<p>These notes are random thoughts rather than a log. My intention was to track changes to tommi.space, but I fail to document everything because <u>it takes time and I am lazy.</u>.</p>
+	<p>As I am not a developer or designer by profession, documenting my decisions for educational purposes is not my priority.</p>
 </div>
+
+<div class='blue box'>
+	This page follows a reverse chronological order. Sections are marked by date.
+</div>
+
+<p class='date'><time datetime='2023-10-31T14:22:10+01:00'>31<sup>st</sup> October 2023</time></p>
+
+## Version 2!
+
+**I completely rethought tommi.space**. I explain what marks this new version in [a dedicated post](https://tommi.space/v2 'Rethinking tommi.space').
+
+The major change marking this new version is philosophical, but I changed a few nice technicalities, too.
+
+## Heading font
+
+I love Inter, but using it everywhere is becoming quite boring. I have been thinking about choosing a cool whimsical font to use in headings for a while.
+
+I chose to use <cite>[Permanent Marker](https://www.fontsquirrel.com/fonts/permanent-marker 'Permanent Marker on FontSquirrel')</cite> since it wonderfully reflects the work-in-progress mood of the website.
 
 <p class='date'><time datetime='2023-10-16T14:00:00+02:00'>October 16<sup>th</sup> 2023</time></p>
 
@@ -132,7 +144,7 @@ I decided not to, for now, for three main reasons:
 2. I could easily create an {% raw %}`{% render sidenotes.html %}`{% endraw %} where I could pass as arguments both the note content and the word linked to it, but it wouldn't satisfy me for two reasons:
 	1. In the case of printing, it would be a great mess.
 	2. On other readers or Markdown parsers outside of Jekyll I'd have a massive chunk of unrendered ugly text
-3. Considered the reasons above, <u>it’s not worth it</u>. I use footnotes very few times (even though I massively over-use parentheses (as I am doing right now)) and with the lovely arrow[^test] automatically created, it’s painless to use them.
+3. Considered the reasons above, <u>it’s not worth it</u>. I use footnotes very few times (even though I massively over-use parentheses (as I am doing right now)) and with the lovely arrow[^1] automatically created, it’s painless to use them.
 
 ### Further reading
 
@@ -177,7 +189,7 @@ I will be noting below my doubts and, if solved, my conclusions.
 		- keeping the content document more clean
 
 <div class='red box'>
-	To check all of the bugs, feature requests, and ideas, go to <a href='https://github.com/xplosionmind/tommi.space' title='tommi.space issues on GitHub'>tommi.space’s GitHub issues</a>
+	To check all of the bugs, feature requests, and ideas, go to <a href='https://github.com/xplosionmind/tommi.space/issues' title='tommi.space issues on GitHub'>tommi.space’s GitHub issues</a>
 </div>
 
 ### page-specific to-dos
@@ -199,4 +211,5 @@ I will be noting below my doubts and, if solved, my conclusions.
 [Jekyll]: https://jekyllrb.com 'Jekyll official website'
 [Eleventy]: https://11ty.dev 'Eleventy official website'
 [source]: {{ site.source }} 'tommi.space source code'
-[^test]: Lovely arrow test ->
+
+[^1]: Lovely arrow test ->
