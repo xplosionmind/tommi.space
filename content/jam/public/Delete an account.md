@@ -1,15 +1,14 @@
 ---
 date: 2020-08-05
 updated: 2022-11-14T19:27:50+01:00
-tags: geek/free
+tags: [geek/free]
 permalink: /delete/
-redirect_from: [/delete-account/,/just-delete-it/,/quit/]
 description: Walkthrough and refernece documentation for deleting an account or quitting an online service in the most effective way possible.
 ---
 The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though:
 
-1. often, <strong>there is no button</strong>
-2. if there is, it is hidden somewhere in the most remote corners of the settings.
+- often, there is **no button**
+- if there is, it is **hidden** somewhere in the most remote corners of the settings.
 
 Below, I reported how I attempt to overcome this itchy obstacles.
 
@@ -25,7 +24,7 @@ There are two kind of emails:
 
 To facilitate this process, I have stumbled upon [Own Your Data](https://yourdigitalrights.org), it appears to be interesting but I did not have the chance to use it yet.
 
-### Documentation
+### Resources
 
 - <a href='https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/2014184' title='Documento del Garante della Privacy' lang='it' hreflang='it'>Fac-simile Garante Privacy</a>, for Italians, in Italian
 
@@ -63,8 +62,8 @@ Cordiali Saluti.
 ### Solo eliminazione
 
 ```
-Buongiorno, in accordo con il regolamento GDPR, desidererei esercitare il mio diritto di accesso, eliminazione e portabilità dei dati (rispettivamente trattati negli articoli 15, 17 e 20) richiedendo la completa eliminazione del mio account dal vostro database, insieme a tutti i dati ad esso collegati, così come lo storico di tutte le mie attività. A seguito dell'eliminazione dell'account, desidero richiedere anche la totale eliminazione di questo scambio di email.
-	
+Buongiorno, in accordo con il regolamento GDPR, desidererei esercitare il mio diritto di accesso, eliminazione e portabilità dei dati (rispettivamente trattati negli articoli 15, 17 e 20) richiedendo la completa eliminazione del mio account dal vostro database, insieme a tutti i dati ad esso collegati, così come lo storico di tutte le mie attività. A seguito dell’eliminazione dell’account, desidero richiedere anche la totale eliminazione di questo scambio di email.
+
 Grazie mille.
 Cordiali Saluti.
 ```
