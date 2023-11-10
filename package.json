@@ -65,7 +65,7 @@
 		"assert-never": "^1.2.1",
 		"async": "^3.2.5",
 		"async-each-series": "^1.1.0",
-		"axios": "^0.26.1",
+		"axios": "^1.6.0",
 		"babel-walk": "^3.0.0",
 		"backo2": "^1.0.2",
 		"balanced-match": "^2.0.0",
