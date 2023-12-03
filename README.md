@@ -8,7 +8,7 @@ The main repository is [hosted on Codeberg](https://codeberg.org/tommi/tommi.spa
 
 ## 📟 Software
 
-Such representation is proudly built with [Eleventy](https://11ty.dev 'Eleventy official website') .
+Such representation is proudly built with [Eleventy](https://11ty.dev 'Eleventy official website').
 
 ## 🏠 Hosting
 
