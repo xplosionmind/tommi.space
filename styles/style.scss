@@ -89,7 +89,7 @@ body {
 }
 
 .cantiere {
-	margin: 3vw;
+	margin: 3vw 3vw 10rem;
 	border-radius: root.$radius-l;
 	box-shadow: 5px 5px 2.5vw #000C;
 }
@@ -1049,6 +1049,11 @@ img.button {
 	.newsletter {
 		margin: 2vh 0;
 	}
+	#intro {
+		p {
+			margin: root.$regular-less 3vw;
+		}
+	}
 	#goto div {
 		display: flex;
 		overflow-x: scroll;
@@ -1074,9 +1079,9 @@ img.button {
 		}
 	}
 	#latest-post-sign {
-		top: 10rem;
-		right: -6rem;
-		transform: rotate(82deg);
+		top: -1rem;
+		right: -1rem;
+		transform: rotate(6deg);
 	}
 	.poetry {
 		h1 {
@@ -1129,6 +1134,11 @@ img.button {
 		a {
 			transform: scale(.85);
 			display: block;
+		}
+	}
+	#about {
+		.flex {
+			margin: 0 10%
 		}
 	}
 	footer {
