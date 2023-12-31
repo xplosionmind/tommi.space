@@ -2,8 +2,9 @@
 date: 2021-11-27T14:22:55+01:00
 updated: 2022-04-01T18:52:07+02:00
 tags:
-  - geek/idea
   - help
+  - idea
+  - geek/dev
 toc: false
 description: Concept of a social network in which the algorithm governing it is built and defined by its users as if it was a LEGO.
 ---

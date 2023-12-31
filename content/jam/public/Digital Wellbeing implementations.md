@@ -1,5 +1,7 @@
 ---
-tags: geek/idea
+tags:
+  - geek
+  - idea
 toc: false
 ---
 Interesting and curious integrations which could be implemented in the [system Digital Wellbeing](https://www.android.com/digital-wellbeing/ 'Android Digital Wellbeing') app on mobile, linking to [[Nolan]].

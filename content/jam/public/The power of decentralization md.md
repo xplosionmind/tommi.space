@@ -1,12 +1,12 @@
 ---
 date: 2021-11-30T01:00:00+01:00
 updated: 2023-06-03T12:01:52+02:00
-tags: uni/viu
+aliases:
+  - Global Internet Governance essay
+tags: [uni/viu]
+description: "My final essay for <a href='https://univiu.org' target='_blank' title='Venice International University'>VIU</a>’s <a href='https://www.univiu.org/fall-2021?view=resource&id=1437' target='_blank' title='Global Internet Governance syllabus'>Global Internet Governance</a> course."
 toc: true
-description: |
 bibliography: /Users/tommi/bib.bib
-aliases: Global Internet Governance essay
-  My final essay for <a href='https://univiu.org' target='_blank' title='Venice International University'>VIU</a>’s <a href='https://www.univiu.org/fall-2021?view=resource&id=1437' target='_blank' title='Global Internet Governance syllabus'>Global Internet Governance</a> course.
 ---
 ## Preface
 
@@ -68,7 +68,7 @@ In this case, too, centralization plays a major detrimental role: if there is on
 
 The chief display of the relevance centralized OSNs monopolies exert can be found in their relation with Donald Trump, former president of the United States of America.
 
-After Mr. Trump repeated aggressive behavior and spread of misinformation through social media platforms during his presidency [@nacosDonaldTrumpAggressive2020], he was eventually permanently banned or temporarily suspended from all major social media platforms, by the end of February 2021[^3]. The counter-attack by the American billionaire has been to announce to open his own platform, named [Truth Social](https://truthsocial.com 'Truth Social official website').
+After Mr. Trump repeated aggressive behavior and spread of misinformation through social media platforms during his presidency [@nacosDonaldTrumpAggressive2020], he was eventually permanently banned or temporarily suspended from all major social media platforms, by the end of February 2021[^1]. The counter-attack by the American billionaire has been to announce to open his own platform, named [Truth Social](https://truthsocial.com 'Truth Social official website').
 
 With a great surprise of the Free Software community, Truth Social appeared to be based on the most common and known open source alternative social media platform, [Mastodon](https://joinmastodon.org 'Mastodon official website'). Glossing over the many speculations concerning Trump’s awareness of the value of the choice to base his platform on an open one, this is a master proof of the merit that a software that can easily be copied and modified has.
 
@@ -109,8 +109,8 @@ This process happens perpetually under the hood, concealed by a fancy design and
 
 At the end of her 2015 work Dr. Zuboff summarizes her conclusions with so wonderfully to appear profoundly worrying indeed:
 
-> New monetization opportunities are thus associated with a new global architecture of data capture and analysis that produces rewards and punishments aimed at modifying and commoditizing behavior for profit. \[…\]
-> Structural asymmetries of knowledge and rights made it impossible for people to learn about these practices. \[…\]
+> New monetization opportunities are thus associated with a new global architecture of data capture and analysis that produces rewards and punishments aimed at modifying and commoditizing behavior for profit. \[…\]  
+> Structural asymmetries of knowledge and rights made it impossible for people to learn about these practices. \[…\]  
 > These developments became the basis for a fully institutionalized new logic of accumulation that I have called surveillance capitalism. In this new regime, a global architecture of computer mediation turns the electronic text of the bounded organization into an intelligent world-spanning organism that I call Big Other. \[…\]
 
 It is impossible to keep ourselves from wondering how the <q>Big Other</q>’s power could be stopped, contained, or—at least—avoided. In my opinion the most effective solution, again, is not in trying to politically reform or regulate internet monopolies as they currently are. The only way to achieve a long-term stability which does not have to be kept from degenerating is to educate users and empower them so that they will be able to see the best in healthier and better alternatives to centralized OSNs.
@@ -139,10 +139,10 @@ The distributed core-less nature of decentralized social media networks restores
 
 In a world where virtual relations wander inside a universe of federated platforms, the ultimate stakeholder is not a board of navigated moneymen, but the ensemble of communities that form it. There is no single point of failure not only from a technical perspective, but there is nobody having the last decision-wise too. New subscribers can freely decide which one of the infinitely many instances run by different software suits her/him the most, and once in it, she/he automatically signs a tacit (yet explicit) contract to meld into the values she/he chose that specific platform for.
 
-Terms of Service, Community Guidelines, Privacy Policy, and all of the elements necessary to keep people together are not handed over from above by some unknown figure, but they are defined commonly and nobody is forced to agree to them, since signing up elsewhere is very easy.
-In the case of a report or complaint, content moderation is almost trivial, since all over the world instances hundreds of thousands of users big can be counted on the fingers of one hand, while all the others’ user count does not surpass five figures[^5]. There is no need for under-payed private contractors to stare at a screen for countless hours to take down hate speech[^2]. Users become their own moderators, since when a post from an user subscribed to another instance, appears as offensive to a transgender member of a community whose Code of Conduct explicitly refuses transfobia, the community administrator is permitted to make that post disappear from her/his instance without any further step.
+Terms of Service, Community Guidelines, Privacy Policy, and all of the elements necessary to keep people together are not handed over from above by some unknown figure, but they are defined commonly and nobody is forced to agree to them, since signing up elsewhere is very easy.  
+In the case of a report or complaint, content moderation is almost trivial, since all over the world instances hundreds of thousands of users big can be counted on the fingers of one hand, while all the others’ user count does not surpass five figures[^2]. There is no need for under-payed private contractors to stare at a screen for countless hours to take down hate speech[^3]. Users become their own moderators, since when a post from an user subscribed to another instance, appears as offensive to a transgender member of a community whose Code of Conduct explicitly refuses transfobia, the community administrator is permitted to make that post disappear from her/his instance without any further step.
 
-Communities empowerment online brings back the quintessential value of plurality: there may be servers hosting one or little more users, who find their actual interactions only by connecting to “worlds” (figuratively meaning servers and spheres of thinking) that can happen to be profoundly different by hers/his one. Communities as well as individuals unable to live together with others end up isolated, or <q>de-federated</q>. It is the case of [Gab](https://gab.com/ 'Gab’s official website') social network, originally part of the Fediverse, but gradually disconnected by almost all of the other instances[^1].
+Communities empowerment online brings back the quintessential value of plurality: there may be servers hosting one or little more users, who find their actual interactions only by connecting to “worlds” (figuratively meaning servers and spheres of thinking) that can happen to be profoundly different by hers/his one. Communities as well as individuals unable to live together with others end up isolated, or <q>de-federated</q>. It is the case of [Gab](https://gab.com/ 'Gab’s official website') social network, originally part of the Fediverse, but gradually disconnected by almost all of the other instances[^4].
 
 ### Immortality
 
@@ -162,7 +162,7 @@ Decentralization spreads and fragments the power of monopolizing intentions and 
 
 <!-- Pandoc will parse references here -->
 
-[^5]: [The Federation](https://the-federation.info/ 'The Federation'): Fediverse user-count and statistics
-[^2]: <cite>[Bodies in seats](https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa 'Facebook moderators break their NDAs to expose desperate working conditions - The Verge')</cite> (2019), an investigative article by Casey Newton on [The Verge](https://www.theverge.com 'The Verge')
-[^1]: <cite>[How the biggest decentralized social network is dealing with its Nazi problem](https://www.theverge.com/2019/7/12/20691957/mastodon-decentralized-social-network-gab-migration-fediverse-app-blocking 'How the biggest decentralized social network is dealing with its Nazi problem') (2019), by Alex Castro on [The Verge](https://www.theverge.com 'The Verge')
-[^3]: [What Happened When Trump Was Banned on Social Media](https://www.nytimes.com/interactive/2021/06/07/technology/trump-social-media-ban.html 'What Happened When Trump Was Banned on Facebook and Twitter - The New York Times') (2021), by D.Alba and E.Koeze on [The New York Times](https://nytimes.com 'The New York Times')
+[^1]: [The Federation](https://the-federation.info/ 'The Federation') (2021), by D.Alba and E.Koeze on [Bodies in seats](https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa 'Facebook moderators break their NDAs to expose desperate working conditions - The Verge')
+[^2]: [The Verge](https://www.theverge.com 'The Verge'): Fediverse user-count and statistics
+[^3]: <cite>[How the biggest decentralized social network is dealing with its Nazi problem](https://www.theverge.com/2019/7/12/20691957/mastodon-decentralized-social-network-gab-migration-fediverse-app-blocking 'How the biggest decentralized social network is dealing with its Nazi problem')</cite> (2019), an investigative article by Casey Newton on [The Verge](https://www.theverge.com 'The Verge')
+[^4]: <cite>[What Happened When Trump Was Banned on Social Media](https://www.nytimes.com/interactive/2021/06/07/technology/trump-social-media-ban.html 'What Happened When Trump Was Banned on Facebook and Twitter - The New York Times') (2019), by Alex Castro on [The New York Times](https://nytimes.com 'The New York Times')

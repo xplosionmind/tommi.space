@@ -65,7 +65,7 @@ I realized that I do not actually need analytics on this website. I uninstalled 
 - I rarely checked the data
 - Data was not reliable, since [visits.tommi.space is now listed in the easylist blocklist](https://github.com/easylist/easylist/issues/15069 '“ALLOW *.tommi.space / remove visits.tommi.space from the list” issue in easylist repository on GitHub'). All the people using ad blockers did not appear at all in the stats.
 - Loading the analytics script took the website ~700ms longer to fully load.
-- I should learn to analyze server access logs, and I could use [server-side analytics](https://plausible.io/blog/server-log-analysis 'Client side vs server side analytics: What's the gap in data? | Plausible blog')
+- I should learn to analyze server access logs, and I could use [server-side analytics](https://plausible.io/blog/server-log-analysis ‘Client side vs server side analytics: What’s the gap in data? | Plausible blog’)
 - In the end, do I really care about how many people visit this crazy place? I do not need to see numbers, but to get feedback, create actual, direct, interactions!
 
 <p class='date'><time datetime='2023-04-05T00:00:00+01:00'>April 5<sup>th</sup> 2023</time></p>
@@ -78,7 +78,7 @@ Finally, after three years since rewriting this website from scratch, I found [P
 
 ## Self-hosting
 
-By migrating [[Xplosion Server]] to a slightly more performant machine, I ended up messing up some configurations, and I also realized that my website publishing workflow was not really independent and stable. Therefore, I decided it was time to self host tommi.space.
+By migrating [[Nebuchadnezzar]] to a slightly more performant machine, I ended up messing up some configurations, and I also realized that my website publishing workflow was not really independent and stable. Therefore, I decided it was time to self host tommi.space.
 
 Details on ![[Self-hosting tommi.space]]
 
@@ -108,7 +108,7 @@ Being Google Analytics definitely out of consideration, finding a simple, free, 
 - [Matomo](https://matomo.org 'Matomo') is the go-to Google Analytics alternative, but, as such, it has many features that I do not need and that make it quite heavy.
 - [Plausible](https://plausible.io 'Plausible Analytics') is the analytics service I have been using in the last two years, even though it does not feel 100% right, even if it nicely does the work I require. Probably, it is because it costs me a little more than 30€ a year, and I would like to avoid such expense.
 
-Of course, I prefer to self-host analytics, but as of right now Matomo is the only analytics platform packaged for YunoHost (the OS I am using on [[Server|Xplosion Server]]). As soon as any light analytics software will get packaged for YunoHost, I will switch to it.
+Of course, I prefer to self-host analytics, but as of right now Matomo is the only analytics platform packaged for YunoHost (the OS I am using on [[Nebuchadnezzar|Xplosion Server]]). As soon as any light analytics software will get packaged for YunoHost, I will switch to it.
 
 <p class='date'><time datetime='2022-03-23T16:21:06+01:00'>Wednesday, March 23<sup>rd</sup> 2022</time></p>
 
@@ -140,10 +140,10 @@ Equally, there are a ton of blog posts comparing the two static site generators,
 Sidenotes are awesome, and after taking a look at [Koos Loijesteijn post](https://www.kooslooijesteijn.net/blog/sidenotes-without-js 'Sidenotes without JavaScript') about them, I figured it would be great to implement them on here, too.
 
 I decided not to, for now, for three main reasons:
-1. They are impossible to be implemented in Markdown, they need **a lot** of HTML and I don't have the skills for making a Jekyll plugin to transform footnotes in sidenotes (but it may be [[Website log#Sidenotes|a great idea]] to create one)
-2. I could easily create an {% raw %}`{% render sidenotes.html %}`{% endraw %} where I could pass as arguments both the note content and the word linked to it, but it wouldn't satisfy me for two reasons:
+1. They are impossible to be implemented in Markdown, they need **a lot** of HTML and I don’t have the skills for making a Jekyll plugin to transform footnotes in sidenotes (but it may be [[Website log#Sidenotes|a great idea]] to create one)
+2. I could easily create an {% raw %}`{% render sidenotes.html %}`{% endraw %} where I could pass as arguments both the note content and the word linked to it, but it wouldn’t satisfy me for two reasons:
 	1. In the case of printing, it would be a great mess.
-	2. On other readers or Markdown parsers outside of Jekyll I'd have a massive chunk of unrendered ugly text
+	2. On other readers or Markdown parsers outside of Jekyll I’d have a massive chunk of unrendered ugly text
 3. Considered the reasons above, <u>it’s not worth it</u>. I use footnotes very few times (even though I massively over-use parentheses (as I am doing right now)) and with the lovely arrow[^1] automatically created, it’s painless to use them.
 
 ### Further reading
@@ -208,8 +208,8 @@ I will be noting below my doubts and, if solved, my conclusions.
 	{%- endfor -%}
 </ul>
 
-[Jekyll]: https://jekyllrb.com 'Jekyll official website'
-[Eleventy]: https://11ty.dev 'Eleventy official website'
-[source]: {{ site.source }} 'tommi.space source code'
+[Jekyll]: https://jekyllrb.com ‘Jekyll official website’  
+[Eleventy]: https://11ty.dev ‘Eleventy official website’  
+[source]: {{ site.source }} ‘tommi.space source code’
 
 [^1]: Lovely arrow test ->

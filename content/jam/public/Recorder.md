@@ -1,7 +1,9 @@
 ---
 date: 2021-02-27T14:44:53+01:00
 updated: 2021-02-27T14:44:53+01:00
-tags: geek/idea
+tags:
+  - geek/dev
+  - idea
 description: An audio recorder on steroids.
 toc: false
 ---

@@ -7,7 +7,7 @@ tags:
 ---
 ## Before the switch
 
-- [[Backup checklist]]
+- [[Mobile backup checklist]]
 - Manually copy
 	- Obsidian config files
 	- Firefox profile

@@ -1,7 +1,10 @@
 ---
 date: 2021-01-09
 updated: 2022-03-14T14:57:22+01:00
-tags: geek/idea
+tags:
+  - geek
+  - idea
+  - stale
 toc: false
 description: A Jekyll plugin which implements sidenotes
 ---

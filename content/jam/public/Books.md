@@ -7,7 +7,7 @@ description: Books I own and books I would love to read and/or have
 redirect_from: [/library/,/libreria/,/libri/,/bookshelf/]
 main: true
 todo:
-  - integrate with [Bookwyrm](https://bookwyrm.social 'Bookwyrm')
+  - "integrate with [Bookwyrm](https://bookwyrm.social 'Bookwyrm')"
   - updated picture of Gianna
 ---
 <style>

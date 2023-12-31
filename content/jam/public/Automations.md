@@ -1,13 +1,17 @@
 ---
 date: 2022-04-08T12:07:30+02:00
 updated: 2023-09-15T12:26:05+02:00
+tags:
+  - geek/neb
 location: home
-tags: geek/server
+description: Ideas about things it could help to automate.
 toc: false
-description: Automations I take advantage of
 ---
 There are several automations I would like to activate to ease and improve my digital workflow. Below there is a list of those I am using or that I intend to setup.
 
+ - [ ] CV Automation
+	 - [HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub')
+- [ ] [[Audio notes workflow using Whisper and Nextcloud]]
 - [ ] [Internet Awesomeness](https://tommi.space/internet-awesomeness.xml 'Internet Awesomeness RSS feed') to [Telegram](https://t.me/internet_awesomeness 'Internet Awesomeness channel on Telegram')
 - [ ] [Internet Awesomeness] to [Stream]
 - [ ] Add [Places](https://tommi.space/places) entries to [my OpenStreetMap diary](https://osm.org/user/xplosionmind/diary 'xplosionmind’s  OpenStreetMap diary')
@@ -38,8 +42,8 @@ There are several automations I would like to activate to ease and improve my di
 - [feediverse](https://github.com/edsu/feediverse 'feediverse on GitHub'): Send RSS/Atom feeds to Mastodon
 - [Bridgy](https://brid.gy 'Bridgy official website')
 
-[Stream]: https://stream.tommi.space 'Tommi’s Stream of consciousness'
-[Internet Awesomeness]: https://tommi.space/internet-awesomeness.xml 'Internet Awesomeness RSS feed'
-[mastodon.uno]: https://mastodon.uno/@tommi '@tommi on mastodon.uno'
-[newsletter]: https://newsletter.tommi.space '“Parole Sconnesse”, Tommi’s newsletter'
-[writing.exchange]: https://writing.exchange/@tommi 'Tommi’s profile on writing.exchange'
+[Stream]: https://stream.tommi.space ‘Tommi’s Stream of consciousness’  
+[Internet Awesomeness]: https://tommi.space/internet-awesomeness.xml ‘Internet Awesomeness RSS feed’  
+[mastodon.uno]: https://mastodon.uno/@tommi ‘@tommi on mastodon.uno’  
+[newsletter]: https://newsletter.tommi.space ‘“Parole Sconnesse”, Tommi’s newsletter’  
+[writing.exchange]: https://writing.exchange/@tommi ‘Tommi’s profile on writing.exchange’

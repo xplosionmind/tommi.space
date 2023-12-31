@@ -10,7 +10,7 @@ lang: fr
 ---
 > Qu’est-ce qu’un impromptu ? C’est une petite pièce, le plus souvent de théâtre ou de musique, composée, comme dit Littré, « sur-le-champ et sans préparation ».
 
-<p class='cite'>Comte-Sponville, <cite>[[Bonjour l’angoisse ! et autres impromptus]]</cite>, p. 2</p>
+<p class='cite'>Comte-Sponville, <cite>Bonjour l’angoisse ! et autres impromptus</cite>, p. 2</p>
 
 ---
 

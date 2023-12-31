@@ -1,14 +1,18 @@
 ---
-title: Thesis notes
 date: 2022-05-19T19:14:54+02:00
 updated: 2023-07-03T13:22:32+01:00
 tags:
   - uni/Thesis
-  - wip
-toc: false
+aliases: Computer Sciences are Social Sciences
 description: Notes concerning my thesis on Philosophy and Computer Sciences
+toc: false
+permalink: /thesis/
+redirect_from:
+  - /csss/
 ---
-I am collecting here mostly random inputs and resources for my bachelor thesis, whose main topic is addressing philosophically and sociologically the internet; broadly put, its main and fundamental claim is: <q>Computer Sciences are Social Sciences</q>.
+I intend to thoroughly revise and partly rewrite my thesis, to publish it as a book. In the meanwhile, for all those who ask me about it, I am making it [publicly available](https://tommi.space/Computer%20Sciences%20are%20Social%20Sciences%20%E2%80%94%20Tommaso%20Marmo%E2%80%99s%20bachelor%20thesis.pdf).
+
+The rest of this page collects random inputs and resources gathered while writing my bachelor thesis, whose main topic is addressing philosophically and sociologically the internet; broadly put, its main and fundamental claim is: **<q>Computer Sciences are Social Sciences!</q>**.
 
 ## Outline
 
@@ -30,7 +34,7 @@ I am collecting here mostly random inputs and resources for my bachelor thesis, 
 	4. Interpreting the Umbrella Movement with respect to Hannah Arendt’s conception of the social sphere
 4. A better Internet
 	1. Philosophy *in* Science, rather than Philosophy *of* Science
-	1. Using the Web to pursue utopias: Aaron Swartz and Brewster Khale
+	2. Using the Web to pursue utopias: Aaron Swartz and Brewster Khale
 
 ## Missing things
 
@@ -86,10 +90,10 @@ I am collecting here mostly random inputs and resources for my bachelor thesis, 
 - [Hans **Jonas**](https://en.wikipedia.org/wiki/Hans_Jonas): il problema del futuro non sarà più cosa noi potremo fare con la tecnica ma cosa la tecnica potrà fare di noi: <cite>Tecnica, medicina ed etica</cite>, primi capitoli
 - [Günther **Anders**](https://en.wikipedia.org/wiki/G%C3%BCnther_Anders): <cite>L’uomo è antiquato</cite>
 
-Articoli più recenti che mettono in pratica quanto scritto prima
+Articoli più recenti che mettono in pratica quanto scritto prima  
 Come lo strumento tecnico è fatto condiziona l’utente. Esempio delle chiavi delle stanze più pesanti. <u>Lo strumento non è neutro</u>
 
-<https://youtu.be/hckj173UuWY>
+https://youtu.be/hckj173UuWY
 
 <q>Il modo in cui le tecniche si presentano impone anche un certo ordine social e un certo ordine culturale</q>
 

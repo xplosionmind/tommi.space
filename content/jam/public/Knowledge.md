@@ -10,24 +10,15 @@ main: true
 ---
 Almost every single portion of this website is a more or less organized collection of what I know and how I connect my knowledge. Nevertheless, it is useful to keep track in this page of some insightful resources that I would lose otherwise.
 
-<br>
-<br>
-
 ## Meta
 
 Managing knowledge, as well as picturing it, is a very complex, subjective and oversimplified matter. Productivity and effectiveness are the anthems with which the matter of personal and non-personal knowledge management end up being addressed with toxic capitalistic ineffective solutions. Some thoughts about this below.
 
 ![[Knowledge management]]
 
-<br>
-<br>
-
 ## University
 
 On this website there is very little concerning what I study for university and my notes, that I am forced to keep private for copyright reasons. I spent a lot of time and efforts to develop [pise-notes.club](https://web.archive.org/web/20210521084059/https://pise-notes.club/ 'Snapshot of the website'), a website where I collected all of my university notes, but the [PISE](https://unive.it/pise 'Philosophy, International Studies and Economics') head professor made me take it down.
-
-<br>
-<br>
 
 ## Geek
 
@@ -37,6 +28,8 @@ Where and how to learn about Computer Sciences topics and anything technology re
 	Most of the things one could be looking for are very likely to be found in the <strong>AWESOME</strong> <a href='https://project-awesome.org'  target='_blank' title='Project Awesome'>Project Awesome</a>. I am not writing anything about the main sources cited in there.
 </div>
 
+- Learn how clipping and masking works in Inkscape
+- Learn how to configure automated tagging in Thunderbird
 - [What is code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/ 'What is code?'), a longread by Paul Ford
 - [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills can ask for
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books 'Free Programming Books'), a GitHub repository which contains, guess what, free e-books to learn programming.
@@ -68,27 +61,15 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Awesome Computer Sciences courses](https://github.com/prakhar1989/awesome-courses 'awesome-courses on GitHub')
 - [Learn to program](https://github.com/karlhorky/learn-to-program 'learn-to-program on GitHub'), a curated set of high quality educational resources.
 
-<br>
-
 ![[Vim#Resources]]
-
-<br>
 
 ![[JavaScript#Resources]]
 
-<br>
-
 ![[Python#Resources]]
-
-<br>
 
 ![[Bash#Resources]]
 
-<br>
-
 ![[LaTeX#Resources]]
-
-<br>
 
 ### C
 
@@ -97,37 +78,22 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [GCC options](https://www.thegeekstuff.com/2012/10/gcc-compiler-options/ 'GCC Compiler options')
 - [Invoking GCC](https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html 'Invoking GCC')
 
-
-<br>
-
 ### Open Street Map
 
 ![[OpenStreetMap#Resources|OSM]]
-
-<br>
-<br>
 
 ## git
 
 ![[git#Resources]]
 
-<br>
-<br>
-
 ## Culture
 
 - [American Masters Digital Archive](https://www.pbs.org/wnet/americanmasters/archive 'American Masters Digital Archive'), unreleased interviews filmed for past [American Masters](https://en.wikipedia.org/wiki/American_Masters '“American Masters” on Wikipedia') documentaries
-
-<br>
-
 
 ### Talks
 
 - [<cite>This is Water</cite>](https://youtube.com/embed/ms2BvRbjOYo '“This is Water„ by David Foster Wallace on YouTube') by David Foster Wallace
 - <cite>[Dealing with prejudice](https://www.youtube.com/embed/fRwvAMeidz4 'Stephen Fry - Dealing with Prejudice')</cite> by Stephen Fry
-
-<br>
-<br>
 
 ## Costituzione italiana
 
@@ -135,13 +101,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 
 - [La Costituzione](https://www.senato.it/1024 'La Costituzione italiana') sul sito web del Senato italiano
 - [Brocardi](https://www.brocardi.it/ 'Brocardi'): Consulenze legali, codici commentati, dizionario giuridico e notizie.
-
-<br>
-
 - [Legge n. 47/1948](https://www.odg.it/legge-n-47-1948/24253 'Legge n. 47/1948') sulla libertà di stampa (dal sito dell’[Ordine dei Giornalisti](https://odg.it 'Ordine dei Giornalisti'))
-
-<br>
-<br>
 
 ## Various
 
@@ -150,9 +110,6 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Oppia](https://www.oppia.org 'Oppia') is <q cite='https://www.oppiafoundation.org/about-oppia'>an engaging new approach to online learning that caters specifically to the unique needs of the world's most underserved youth</q>.
 - [OMS Central courses](https://omscentral.com/courses 'Courses')
 - [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge 'the-book-of-secret-knowledge on GitHub')
-
-<br>
-<br>
 
 ## Free eBooks
 
@@ -171,17 +128,6 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [AvaxHome](https://avxhm.is)
 - [Books Depository](https://www.bookdepository.com/publishers/T-N-T-Books)
 
-<br>
-<br>
-
-![[Images#Resources]]
-
-<br>
-<br>
-
 ![[Design#Resources]]
-
-<br>
-<br>
 
 ![[Data Sources]]

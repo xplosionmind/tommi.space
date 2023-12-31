@@ -48,11 +48,6 @@ A quick for loop
 for f in *.txt; do pandoc '$f' -s -o '${f%.txt}.rtf'; done
 ```
 
-watch <cite>[Star Wars - A New Hope](https://en.wikipedia.org/wiki/Star_Wars_(film) ''“Star Wars” on Wikipedia')</cite> in ASCII (not a joke)
-```bash
-nc towel.blinkenlights.nl 23
-```
-
 Erase disk
 ```bash
 sudo diskutil eraseDisk /dev/disk2 

@@ -1,18 +1,16 @@
 ---
 date: 2020-12-24T01:00:00+01:00
-updated: 2023-09-28T18:54:29+02:00
+updated: 2023-11-05T22:33:49+01:00
+aliases:
+  - Backup
+tags: [geek]
 redirect_from:
   - /backup/
   - /backups/
-tags: geek
+  - /images/
 description: Notes concerning storage management, viable solutions and systems testing
-aliases: Backup
 ---
-In the XXI century, storage is a big deal. Preserving personal data and memories is hard, but it is hell considering privacy and ethics of possible solutions. Naturally, I am very interested in this, while being no developer, nor engineer, nor having enough time to dedicate to this issues, therefore I will be noting some thoughts here.
-
-<div class='yellow box'>
-	To better understand my positions about this topic and their reasons, it would be useful to read my experience with [[Data loss|data loss]].
-</div>
+In the 21<sup>st</sup> century, storing information storage a major challenge. It is difficult to properly preserve personal data and memories, especially given the privacy and ethical concerns surrounding potential solutions. Although I am not an expert with enough time to devote to these issues, I am still quite interested in them and will share some thoughts here. I still carry the anxiety of two traumatic [[Data loss|data losses]], which makes everything more difficult, but more important.
 
 ## Needs
 
@@ -30,8 +28,12 @@ In the XXI century, storage is a big deal. Preserving personal data and memories
 - Can I rely on [[Flickr to Piwigo]] alone to host all of my JPGs, even my private ones? *No*
 	- is it reliable? How much do I risk of losing my data? *Not too much. Not more reliable than any server around the world*.
 	- is it secure? Are my private pictures somehow server-side encrypted? *[**No encryption**](https://piwigo.org/forum/viewtopic.php?id=31166 'How much can I trust Piwigo with my private pictures?'). Not the best option to backup pictures*
-- Does it make sense to use my [[Cubbit]]'s 4TB for long-term picture storage? *It does, as long as [[Cubbit#Feature requests|some features]] will be included*
+- Does it make sense to use my [[Cubbit]]‘s 4TB for long-term picture storage? *It does, as long as [[Cubbit#Feature requests|some features]] will be included*
 - Should I use portable Hard Disks, as the ones I already have, or internal hard disks to plug to [[Linuxplosion]]? *None of the two, if the Cubbit solution works*
+
+## Laptop backup
+
+![[No backup]]
 
 ## Solution
 
@@ -39,4 +41,4 @@ In the XXI century, storage is a big deal. Preserving personal data and memories
 
 ![[Personal storage management notes]]
 
-![[Backup checklist]]
+![[Mobile backup checklist]]

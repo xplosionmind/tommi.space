@@ -2,9 +2,10 @@
 date: 2021-03-22T12:19:14+01:00
 updated: 2023-05-06T22:07:17+02:00
 tags:
-  - geek/knowledge
   - geek/apps
-aliases: Neovim
+  - knowledge
+aliases:
+  - Neovim
 description: Insights about the best text editor in the world
 image: https://tommi.space/vim.webp
 ---
@@ -12,6 +13,7 @@ image: https://tommi.space/vim.webp
 
 - Track config file within a dotfiles repository
 - Publish here Vim config file
+- [firenvim](https://github.com/glacambre/firenvim): embed Neovim in browser
 
 ## To learn
 
@@ -20,29 +22,12 @@ image: https://tommi.space/vim.webp
 
 ## Cheat Sheet
 
-[Count occurrences](https://vimtricks.com/p/vimtrick-count-occurrences/ 'Count occurrences on Vim Tricks')
-```vim
-:%s/some_pattern//n
-```
-
-Toggling spell checking
-```vim
-:set spell "nospell
-```
-
-Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spell-checking-in-vim/ 'Spell checking in Vim'), I need to change the language, since [my `init.vim` file](https://github.com/xplosionmind/dotfiles/blob/main/.config/nvim/init.vim 'my init.vim') has `set spelllang=it` by default
-```vim
-:set spell spelllang=en
-```
-
-[Navigate changes](https://vimtricks.com/p/vimtrick-jump-between-changes/ 'Jump between changes') (by using `g;` and `g,`)
-```vim
-:changes
-```
-
-Use `:retab` to convert the buffer to your setup for indentation. For instance, if you configured vim to have 4 spaces for indentation, it will convert the tabs to 4 spaces.
-
-[Time travel](https://vimtricks.com/p/vimtrick-time-travel-in-vim/ 'Time travel in Vim')
+- [Count occurrences](https://vimtricks.com/p/vimtrick-count-occurrences/ 'Count occurrences on Vim Tricks'): **`:%s/some_pattern//n`**
+- Toggling spell checking: **`:set spell "nospell`**.
+- Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spell-checking-in-vim/ 'Spell checking in Vim'), I need to change the language, since [my `init.vim` file](https://github.com/xplosionmind/dotfiles/blob/main/.config/nvim/init.vim 'my init.vim') has `set spelllang=it` by default: **`:set spell spelllang=en`**.
+- [Navigate changes](https://vimtricks.com/p/vimtrick-jump-between-changes/ 'Jump between changes') (by using `g;` and `g,`): **`:changes`**.
+- Use **`:retab`** to convert the buffer to your setup for indentation. For instance, if you configured vim to have 4 spaces for indentation, it will convert the tabs to 4 spaces.
+- [Time travel](https://vimtricks.com/p/vimtrick-time-travel-in-vim/ 'Time travel in Vim')
 ```vim
 :earlier 3 'undo the last three changes
 :earlier 5m 'Go back to the state of the file 5 minutes ago

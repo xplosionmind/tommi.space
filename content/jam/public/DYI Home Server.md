@@ -6,7 +6,7 @@ tags:
 toc: false
 description: Notes and insights about running an amateur DYI server in my home
 ---
-Currently, [[Server|Xplosion Server]] is running in a VPS hosted by Contabo. I am exploring here various ideas, solutions and resources about running a server in my own house, instead.
+Currently, [[Nebuchadnezzar|Xplosion Server]] is running in a VPS hosted by Contabo. I am exploring here various ideas, solutions and resources about running a server in my own house, instead.
 
 - <https://youtu.be/DlQNciGVgbQ>
 - <https://youtu.be/ohkMRA74MB4>

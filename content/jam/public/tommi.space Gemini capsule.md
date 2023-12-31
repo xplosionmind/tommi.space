@@ -2,7 +2,8 @@
 date: 2023-10-14T23:37:10+02:00
 updated: 2023-10-17T17:06:14+02:00
 tags:
-  - geek/stale
+  - geek
+  - stale
 permalink: /gemini/
 description: Notes, logs, and thoughts about the tommi.space Gemini capsule.
 toc: false
@@ -12,7 +13,7 @@ toc: false
 	<p>tommi.space is not on Gemini anymore. More information <a href='/meta#dropping-gemini' title='“Dropping Gemini” section in tommi.space development log'>here</a>.</p>
 </div>
 
-The [tommi.space Gemini capsule](gemini://tommi.space) uses the [YunoHost package](https://github.com/YunoHost-Apps/gemserv_ynh 'gemserv YunoHost package source on GitHub') of [gemserv](https://git.sr.ht/~int80h/gemserv 'gemserv repository on sourcehut'), installed on [[Server|Xplosion Server]].
+The [tommi.space Gemini capsule](gemini://tommi.space) uses the [YunoHost package](https://github.com/YunoHost-Apps/gemserv_ynh 'gemserv YunoHost package source on GitHub') of [gemserv](https://git.sr.ht/~int80h/gemserv 'gemserv repository on sourcehut'), installed on [[Nebuchadnezzar|Xplosion Server]].
 
 ```toml
 [[server]]

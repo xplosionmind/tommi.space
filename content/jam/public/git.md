@@ -24,4 +24,4 @@ I share common people struggles when using it, but I also love it and try to exp
 
 ## GiTMI
 
-I am the admin of [[GiTMI]], [a forge](https://en.wikipedia.org/wiki/Forge_(software) 'Forge on Wikipedia') I self-host on [[Server|Xplosion Server]].
+I am the admin of [[GiTMI]], [a forge](https://en.wikipedia.org/wiki/Forge_(software) 'Forge on Wikipedia') I self-host on [[Nebuchadnezzar|Xplosion Server]].

@@ -1,7 +1,7 @@
 ---
 date: 2021-01-07T01:00:00+01:00
 updated: 2022-03-14T13:53:11+01:00
-tags: reading/book/wip
+tags: reading/book
 description: 
 permalink: /dorian-gray/
 redirect_from: /the-picture-of-dorian-gray/

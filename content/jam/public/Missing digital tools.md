@@ -2,12 +2,22 @@
 date: 2020-02-26
 updated: 2022-03-30T09:45:41+02:00
 tags:
-  - geek/idea
   - help
-aliases: Programming ideas, Development ideas, Missing Apps
+  - idea
+  - geek/dev
+aliases:
+  - Programming ideas
+  - Development ideas
+  - Missing Apps
 description: Ideas for any sort of software that I would find extremely useful but that to my knowledge does not exist, yet.
 permalink: /missing-tools/
-redirect_from: [/tools-ideas/,/programming-ideas/,/development-ideas/,/apps-ideas/,/missing-apps/,/missing-digital-tools/]
+redirect_from:
+  - /tools-ideas/
+  - /programming-ideas/
+  - /development-ideas/
+  - /apps-ideas/
+  - /missing-apps/
+  - /missing-digital-tools/
 main: true
 toc: false
 type: CollectionPage

@@ -1,7 +1,9 @@
 ---
 date: 2018-12-27
 updated: 2022-11-07T14:28:02+01:00
-tags: archive/scout
+tags:
+  - scout
+  - archive
 permalink: /ribelli/
 lang: it
 toc: false

@@ -93,7 +93,7 @@ Interesting tools and software to test
 
 ## Server
 
-The services I self-hosted which are running on my server can be found in the [[Server]] Jam ingredient.
+The services I self-hosted which are running on my server can be found in the [[Nebuchadnezzar]] Jam ingredient.
 
 ## Awesome Software
 

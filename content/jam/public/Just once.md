@@ -1,6 +1,7 @@
 ---
 tags:
-  - geek/idea
+  - idea
+  - geek/dev
 toc: false
 description: An app which automatizes the update of a profile picture on several different platforms
 updated: 2022-03-14T12:30:34+01:00

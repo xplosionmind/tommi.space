@@ -1,16 +1,12 @@
 ---
 date: 2021-04-04T19:24:15+02:00
 updated: 2023-03-18T15:06:23+01:00
-tags: geek/knowledge
+tags:
+  - geek
+  - knowledge
 description: Insights about JavaScript, a great tool but also a nightmare.
 created: 2021-12-15T13:03:38+01:00
 ---
-[JavaScript] is awesome. It is so awesome that it is becoming ubiquitous, and some claim it is destroying the internet.
-
-Nevertheless, I could not care much and I know it definitely is the next programming language I have to learn. I must learn it. Nowadays, I believe that knowing JavaScript well enough any guy with an idea can make it true by using few or no other languages.
-
-The point is that I am both lazy and excessively busy, and to actually learn a programming language, even though intuitive and high level, requires a lot of time to spare and a great deal of curiosity to overcome the most tricky passages (such as addresses and pointers in C, for instance).
-
 I am stacking here everything I find out on the web which might be useful for when I am finally going to get into the magical universe of JavaScript.
 
 ## Resources
@@ -69,4 +65,4 @@ console.log('Data written to file')
 })
 ```
 
-[JavaScript]: https://en.wikipedia.org/wiki/JavaScript 'JavaScript on Wikipedia'
+[JavaScript]: https://en.wikipedia.org/wiki/JavaScript ‘JavaScript on Wikipedia’

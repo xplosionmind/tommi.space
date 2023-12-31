@@ -8,7 +8,6 @@ permalink: /rete-democratica/
 tags:
   - reading/book
   - uni/thesis
-  - wip
 description: Un libro che sottolinea l’intrinseco fattore anarchico all’interno della rete e le sue problematiche, da un punto di vista sia ontologico che epistemologico.
 image: https://covers.openlibrary.org/b/id/13348461-L.jpg
 ---
@@ -132,7 +131,7 @@ pagina 75:
 
 > la Rete viene invocata a garante dell’orizzontalità democratica, ma, tuttavia, è comunque nelle mani di aziende private, non degli Stati.
 
-> Il modello sociale sino-americano ha in comune la pressione sempre più forte alla trasparenza radicale 
+> Il modello sociale sino-americano ha in comune la pressione sempre più forte alla trasparenza radicale
 
 pagina 76:
 

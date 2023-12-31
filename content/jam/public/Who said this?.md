@@ -3,8 +3,9 @@ date: 2022-05-19T19:22:11+02:00
 updated: 2022-05-19T19:25:09+02:00
 location: home
 tags:
-  - geek/idea
   - help
+  - geek/dev
+  - idea
 permalink: /who-said-this/
 description: Idea for a search engine optimized for quotes
 toc: false

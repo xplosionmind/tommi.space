@@ -5,7 +5,6 @@ location: Portorož
 permalink: /pyhf/
 tags:
   - event
-  - wip
 toc: false
 ---
 ## Final speech

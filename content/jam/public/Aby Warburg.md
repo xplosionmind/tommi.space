@@ -11,7 +11,7 @@ toc: false
 ---
 Acquistava i libri in duplice copia: una veniva tenuta in biblioteca, dell’altra venivano scomposte le pagine e messe in relazione a quelle di altri volumi
 
-Le costanti non solo in scienza e matematica, ma anche nell’arte. Esistono delle persistenze? Questa domanda è trasversale alla vita e allo studio di Aby Warburg: cercava ricorrenze non solo nell’arte, ma anche nella pubblicità e addirittura nelle immagini dei francobolli
+Le costanti non solo in scienza e matematica, ma anche nell’arte. Esistono delle persistenze? Questa domanda è trasversale alla vita e allo studio di Aby Warburg: cercava ricorrenze non solo nell’arte, ma anche nella pubblicità e addirittura nelle immagini dei francobolli.
 
 - cede al fratello il diritto di primogenitura
 - biblioteca interdisciplinare ad Amburgo

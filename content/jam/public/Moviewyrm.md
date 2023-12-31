@@ -2,12 +2,11 @@
 date: 2021-11-15T12:46:39+01:00
 updated: 2022-09-25T22:29:22+02:00
 tags:
-  - geek/apps
-  - geek/idea
-  - geek/free
   - help
+  - idea
+  - geek/dev
 description: |
-  A concept for an IMDb/TMDb alternative, a fork of [Bookwyrm](https://joinbookwyrm.com 'Bookwyrm') made for movies.
+  A concept for an IMDb/TMDb alternative, a fork of [Bookwyrm](https:"//joinbookwyrm.com 'Bookwyrm') made for movies."
 toc: false
 ---
 <cite>**Moviewyrm**</cite> is {{ description }}

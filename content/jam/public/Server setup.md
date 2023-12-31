@@ -16,7 +16,7 @@ aliases: Server configuration, VPS configuration
 
 ## General knowledge
 
-Resources, apps, tutorials and several knowledge sources are mentioned in the [[Server]] page.
+Resources, apps, tutorials and several knowledge sources are mentioned in the [[Nebuchadnezzar]] page.
 
 ## Docker
 

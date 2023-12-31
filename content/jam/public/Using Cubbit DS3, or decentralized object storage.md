@@ -5,7 +5,7 @@ location: Biblioteca Salaborsa, Bologna
 permalink: /ds3/
 tags:
   - geek/server
-  - geek/wip
+  - wip
 ---
 [[Storage]] is a big deal. After years experimenting many different options and attempting to circle down optimal solutions, I finally landed on a solution which is very promising and I believe it to be the definitive one.
 
@@ -22,7 +22,7 @@ I am migrating all of my storage system to the S3 filesystem, based on Cubbit de
 
 ## Xplosion Server Backup
 
-Currently, [[Xplosion Server]] has a 200GB SSD, which is more than enough for what I need. To back it up, though, I need some more storage.
+Currently, [[Nebuchadnezzar]] has a 200GB SSD, which is more than enough for what I need. To back it up, though, I need some more storage.
 
 The first step in my migration to Cubbit DS3 has been to offload on its infrastructure the backup of Xplosion Server.
 

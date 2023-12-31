@@ -1,7 +1,9 @@
 ---
 date: 2020-12-12
 updated: 2021-06-11T06:54:28+02:00
-tags: geek/idea
+tags:
+  - geek/dev
+  - idea
 description: A script which poses you questions to debug you
 toc: false
 ---
