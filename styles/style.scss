@@ -810,6 +810,9 @@ footer {
 	h4 + p {
 		margin-top: 0;
 	}
+	.row {
+		justify-content: space-evenly;
+	}
 }
 
 audio,
@@ -1129,11 +1132,6 @@ img.button {
 	#about {
 		.flex {
 			margin: 0 10%
-		}
-	}
-	footer {
-		.row {
-			justify-content: space-evenly;
 		}
 	}
 }
