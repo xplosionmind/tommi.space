@@ -66,6 +66,9 @@ header {
 	* {
 		margin: 0 !important;
 	}
+	.current {
+		opacity: .5;
+	}
 	ul,
 	menu {
 		padding: 0;

@@ -3,12 +3,10 @@
 	<nav id='nav'>
 		<input type='checkbox' id='menutoggle'>
 		<menu>
-			<li>{% if lang == 'it' %}<a href='/about-it' title='Chi sono'>Io{% else %}<a href='/about' title='About me'>About{% endif %}</a></li>
-			<li>{% if lang == 'it' %}<a href='/ora' title='Ciò che sto facendo'>Ora{% else %}<a href='/now' title='What I am doing'>Now{% endif %}</a></li>
-			<li>{% if lang == 'it' %}<a href='/zibaldone' title='Blog'>Zibaldone{% else %}<a href='/zibenglish' title='Zibaldone'>Blog{% endif %}</a></li>
-			<li><a href='https://images.tommi.space' {% if lang == 'it' %}title='Immagini dal mondo di Tommi'>Visioni{% else %}title='Pictures from Tommi’s world'>Visions{% endif %}</a></li>
-			{% comment %}<li>{% if lang == 'it' %}<a href='/cose' title='cose'>Cose{% else %}<a href='/stuff' title='Stuff'>Stuff{% endif %}</a></li>{% endcomment %}
-			<li>{% if lang == 'it' %}<a href='/marmellata' title='La Marmellata'>Marmellata{% else %}<a href='/jam' title='The Jam'>The Jam{% endif %}</a></li>
+			<li {% if current == '/tuffo/' or current == '/home/' %}class='current'{% endif %}><a href={% if lang == 'it' %}'/tuffo'{% else %}'/home'{% endif %} title='Homepage'>Intro</a></li>
+			<li {% if current == '/ora/' or current == '/now/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/ora' title='Ciò che sto facendo'>Ora{% else %}<a href='/now' title='What I am doing'>Now{% endif %}</a></li>
+			<li {% if current == '/zibaldone/' or current == '/zibenglish/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/zibaldone' title='Blog'>Zibaldone{% else %}<a href='/zibenglish' title='Zibaldone'>Blog{% endif %}</a></li>
+			<li {% if current == '/marmellata/' or current == '/jam/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/marmellata' title='La Marmellata'>Marmellata{% else %}<a href='/jam' title='The Jam'>The Jam{% endif %}</a></li>
 		</menu>
 	</nav>
 </header>
