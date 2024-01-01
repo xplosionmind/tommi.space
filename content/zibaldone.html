@@ -28,20 +28,18 @@ eleventyImport:
 	
 <div class='zibaldone flex row'>
 	{% for entry in collections.posts %}
-		<div class='one-third'>
-			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-				<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
-				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}<time></p>
-				<cite class='excerpt'>
-					{% if entry.data.description %}
-						{{ entry.data.description | markdownify | strip_html }}
-					{% comment %}#upstream #bug{% else %}
-						{{ entry.content | strip_html | truncatewords: 30 }}{% endcomment %}
-					{% endif %}
-				</cite>
-				{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}
-			</a>
-		</div>
+		<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+			<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
+			<h2>{{ entry.data.title }}</h2>
+			<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}<time></p>
+			<cite class='excerpt'>
+				{% if entry.data.description %}
+					{{ entry.data.description | markdownify | strip_html }}
+				{% comment %}#upstream #bug{% else %}
+					{{ entry.content | strip_html | truncatewords: 30 }}{% endcomment %}
+				{% endif %}
+			</cite>
+			{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}
+		</a>
 	{% endfor %}
 </div>
