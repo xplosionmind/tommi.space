@@ -1106,6 +1106,11 @@ img.button {
 		border-radius: 0 root.$radius-l 0 0;
 		padding: root.$regular-less;
 	}
+	.zibaldone {
+		box {
+			max-width: 25rem;
+		}
+	}
 	#goto {
 		position: fixed;
 		width: 16rem;
