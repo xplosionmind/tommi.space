@@ -258,7 +258,8 @@ input {
 		margin: 5%;
 	}
 	.box {
-		margin: 0;
+		height: auto;
+		margin: auto;
 		padding: 3%;
 		overflow: hidden; // some titles might overflow
 		box-shadow: var(--little-shadow);

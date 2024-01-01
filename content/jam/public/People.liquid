@@ -1,49 +1,51 @@
 ---
 date: 2020-06-25
-updated: 2021-12-14T13:27:19+01:00
+updated: 2023-12-05
 tags:
   - log
 description: Real and fictional characters who left a mark in me
 redirect_from: [/characters/,/persone/,/personaggi/,/idols/,/idoli/]
 main: true
-todo:
-  - Use grid layout or something more effective
-  - Better differentiate people and notes about people
+toc: false
+layout: default.html
 ---
-<style>
-	h-entry.note {
-		width: unset;
-		margin-left: unset;
-		min-width: 70%;
-	}
-</style>
-
-<section class='row'>
+<div class='row'>
 	<div class='one column'>
-		<p>A collection of people who influenced my life or who I simply immensely admire.</p>
+		<article>
+			<p>This page collects people who left a mark in me. in no particular order.</p>
+		</article>
 	</div>
-</section>
+</div>
 
-{% for idol in people -%}
-	<h2 class='title' id='{{ idol.who | slugify }}'>{{ idol.who }}</h2>
-<a href='{{ idol.url }}'>
-	<figure>
-		<picture>
-			<img src='{{ idol.image }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}'>
-		</picture>
-		<figcaption>{% if idol.note -%}{{ idol.note | markdownify }}{% endif -%}</figcaption>
-	</figure>
-</a>
+<div class='large grid'>
+	{% for idol in people %}
+		{% unless idol.url contains 'tommi.space' %}
+			<div class='vertical flex box'>
+				<img src='{{ idol.image }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}'>
+				<h3 id='{{ idol.who | slugify }}'>{{ idol.who }}</h3>
+				{% if idol.note %}
+					<p>{{ idol.note | markdownify }}</p>
+				{% endif %}
+			</div>
+		{% endunless %}
+	{% endfor %}
+</div>
 
-{% endfor -%}
+<h2 class='center'>People I wrote about</h2>
 
-{% for idol in collections.jam -%}
-	{% for tag in idol.data.tags -%}
-		{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture -%}
-		{% if idoltag contains 'people' -%}
-			<h2 class='title' id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
-			<a href='{{ idol.url | url }}'><figure><img src='{{ idol.data.image }}' title='{{ idol.data.title }}' alt='An image portraying {{ idol.data.title }}'></figure></a>
-			<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
-		{% endif -%}
-	{% endfor -%}
-{% endfor -%}
+<div class='large grid'>
+	{% for idol in collections.jam %}
+		{% for tag in idol.data.tags %}
+			{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture %}
+			{% if idoltag contains 'people' %}
+				<div class='vertical flex box'>
+					<a href='{{ idol.url | url }}'>
+						<img src='{{ idol.data.image }}' title='{{ idol.data.title }}' alt='An image portraying {{ idol.data.title }}'>
+					</a>
+					<h3 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h3>
+					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
+				</div>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</div>
