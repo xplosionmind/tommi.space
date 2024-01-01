@@ -16,7 +16,7 @@ permalink: italiano.xml
 		<name>{{ site.author.name }}</name>
 		<email>{{ site.author.email }}</email>
 	</author>
-	{%- for entry in collections.all %}
+	{%- for entry in collections.all | sort(true, false, 'date') %}
 		{% if entry.data.lang == 'it' %}
 			{%- set absolutePostUrl = entry.url | absoluteUrl(metadata.url) %}
 			<entry>

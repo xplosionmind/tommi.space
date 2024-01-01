@@ -19,7 +19,7 @@ todo:
 		<name>{{ site.author.name }}</name>
 		<email>{{ site.author.email }}</email>
 	</author>
-	{%- for entry in internetawesomeness %}
+	{%- for entry in internetawesomeness | sort(true, false, 'added') %}
 	{%- set absolutePostUrl = entry.url | absoluteUrl(metadata.url) %}
 	<entry>
 		<title>{{ entry.title }}</title>

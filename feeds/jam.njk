@@ -17,7 +17,7 @@ lang: en
 		<name>{{ site.author.name }}</name>
 		<email>{{ site.author.email }}</email>
 	</author>
-	{%- for entry in collections.jam %}
+	{%- for entry in collections.jam | sort(true, false, 'date') %}
 	{%- set absolutePostUrl = entry.url | absoluteUrl(metadata.url) %}
 	<entry>
 		<title>{{ entry.data.title }}</title>

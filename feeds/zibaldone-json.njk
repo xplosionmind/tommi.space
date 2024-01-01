@@ -17,7 +17,7 @@ permalink: /zibaldone.json
 		"avatar": "{{ site.author.avatar }}"
 	}],
 	"language": "en",
-	"items": [{% for entry in collections.posts %}
+	"items": [{% for entry in collections.posts | sort(true, false, 'date') %}
 	{
 		{%- set absolutePostUrl %}{{ entry.url | url | absoluteUrl(metadata.url) }}{% endset -%}
 		"id": "{{ absolutePostUrl }}",

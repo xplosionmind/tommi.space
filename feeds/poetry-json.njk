@@ -18,7 +18,7 @@ lang: it
 		"avatar": "{{ site.author.avatar }}"
 	}],
 	"language": "en",
-	"items": [{% for entry in collections.poetry %}
+	"items": [{% for entry in collections.poetry | sort(true, false, 'date') %}
 	{
 		{%- set absolutePostUrl %}{{ entry.url | url | absoluteUrl(metadata.url) }}{% endset -%}
 		"id": "{{ absolutePostUrl }}",

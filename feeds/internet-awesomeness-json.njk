@@ -18,7 +18,7 @@ lang: en
 		"avatar": "{{ site.author.avatar }}"
 	}],
 	"language": "en",
-	"items": [{% for entry in internetawesomeness %}
+	"items": [{% for entry in internetawesomeness | sort(true, false, 'added') %}
 	{
 		"id": "{{ entry.url }}",
 		"url": "{{ entry.url }}",
