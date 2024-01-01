@@ -910,19 +910,7 @@ img.button {
 	}
 }
 
-.lang-list {
-	display: none;
-	bottom: root.$height + 2*root.$tiny;
-	right: root.$height + 2*root.$tiny;
-	position: absolute;
-	flex-direction: vertical;
-	#langtoggle:checked + & {
-		display: flex;
-	}
-}
-
-#menutoggle,
-#langtoggle {
+#menutoggle {
 	display: none;
 }
 
@@ -1087,9 +1075,6 @@ img.button {
 		h1 {
 			margin: 0 3vw root.$bigger;
 		}
-	}
-	.lang-list {
-		right: 7rem;
 	}
 }
 
