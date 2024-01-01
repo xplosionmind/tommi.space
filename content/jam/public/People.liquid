@@ -20,12 +20,14 @@ layout: default.html
 <div class='large grid'>
 	{% for idol in people %}
 		{% unless idol.url contains 'tommi.space' %}
-			<div class='vertical flex box'>
-				<img src='{{ idol.image }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}'>
-				<h3 id='{{ idol.who | slugify }}'>{{ idol.who }}</h3>
-				{% if idol.note %}
-					<p>{{ idol.note | markdownify }}</p>
-				{% endif %}
+			<div class='vertical flex'>
+				<div class='vertical flex box'>
+					<img src='{{ idol.image }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}'>
+					<h3 id='{{ idol.who | slugify }}'>{{ idol.who }}</h3>
+					{% if idol.note %}
+						<p>{{ idol.note | markdownify }}</p>
+					{% endif %}
+				</div>
 			</div>
 		{% endunless %}
 	{% endfor %}
@@ -38,12 +40,14 @@ layout: default.html
 		{% for tag in idol.data.tags %}
 			{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture %}
 			{% if idoltag contains 'people' %}
-				<div class='vertical flex box'>
-					<a href='{{ idol.url | url }}'>
-						<img src='{{ idol.data.image }}' title='{{ idol.data.title }}' alt='An image portraying {{ idol.data.title }}'>
-					</a>
-					<h3 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h3>
-					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
+				<div class='vertical flex'>
+					<div class='vertical flex box'>
+						<a href='{{ idol.url | url }}'>
+							<img src='{{ idol.data.image }}' title='{{ idol.data.title }}' alt='An image portraying {{ idol.data.title }}'>
+						</a>
+						<h3 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h3>
+						<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
+					</div>
 				</div>
 			{% endif %}
 		{% endfor %}
