@@ -1,6 +1,6 @@
 ---
-date: 2020-10-16
-updated: 2023-09-15T11:57:56+02:00
+date: 2020-10-16T02:00:00+02:00
+updated: 2024-01-01T17:14:30+01:00
 location: Berlin
 description: Stuff I am up to in these days
 todo:
@@ -9,17 +9,25 @@ ref: now
 comments: false
 ---
 <div class='blue box'>
-	The one you are reading is more than a simple web page, it is a part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>a movement</a> started by the legendary <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> in 2015, and <a href='https://sive.rs/now3'>it grew a lot</a> since then. To know more about the concept and find out <a href='https://nownownow.com' title='NowNowNow'>how many people</a> are embracing it, visit <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, which is a <a href='https://en.wikipedia.org/wiki/Webring' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
+	This page is part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>a movement</a> started by the incredible <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> in 2015. To learn more, visit <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, a <a href='https://en.wikipedia.org/wiki/Webring' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
 </div>
 
 ## Free Software Foundation Europe
 
-I am living in **Berlin**, where I am working at the [<abbr title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org) as an intern.
+I am working full time at the [<abbr title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org) as an intern.
+
+## Embracing the Berlin life
+
+After moving to Berlin for my internship, quite a lot of unprecedented things crashed down on me. Above them all, living in a really big city, whose language I don’t speak, a place with a very different soul, temperature, and temperament with respect to the places I have lived before.
+
+Settling in and discovering this fascinating conundrum of life is taking up pretty much all of the time I am not working.
+
+Mostly threading my way into whimsical *raves*, meeting people, strolling around, getting lost, being found, then lost again into the thundering darkness of this unique city.
+
+## Writing
+
+I told myself that I would commit to carve out some time to focus on comprehensively revising [[Thesis|my bachelor’s thesis]] to make into a book. I am not doing it as much as I wanted, but I am keeping the mindset.
 
 ## <cite>Pan</cite>
 
 <cite>[Pan](https://pan.rent 'Pan social')</cite> is a [[Fediverse]] node I conceived and I maintain together with <cite>APS Oltre</cite>, the same association organizing [<cite>Scambi Festival</cite>](https://scambi.org/en)
-
-## Projects, ideas, and collaborations
-
-In the meanwhile, I am continuing to wander around Italy to take part and/or assist to interesting things that happen. I take note of the most important stuff [here](https://tommi.space/stuff 'Stuff - tommi.space'), and <a href='https://tommi.space/tutto' hreflang='it' title='Tutto quello che ho fatto'>here</a> I log everything (literally anything) I have done.
