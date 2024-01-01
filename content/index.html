@@ -38,13 +38,10 @@ type: WebSite
 			<a href='gemini://tommi.space' title='tommi.space throught the Gemini protocol'> gemini version </a>
 			{% endcomment %}
 		</div>
-		<div class='row' id='webrings'>
-			<div class='half column'>
-				{% render 'hotlinewebring.html', lang: lang %}
-			</div>
-			<div class='half column'>
-				{% render 'indiewebring.html', lang: lang %}
-			</div>
+		<div class='flex row' id='webrings'>
+			{% render 'hotlinewebring.html', lang: lang %}
+			{% render 'indiewebring.html', lang: lang %}
+			{% render 'safontwebring.html', lang: lang %}
 		</div>
 	</div>
 </body>
