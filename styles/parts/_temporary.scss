@@ -8,10 +8,8 @@
 }
 
 #webrings {
-	margin: root.$regular-less 0;
-	justify-content: space-evenly;
 	.box {
-		margin: 0;
+		margin: root.$regular-less 0;
 	}
 }
 

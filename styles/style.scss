@@ -1132,8 +1132,8 @@ img.button {
 		}
 	}
 	footer {
-		& > .row:first-child {
-			justify-content: space-between;
+		.row {
+			justify-content: space-evenly;
 		}
 	}
 }
