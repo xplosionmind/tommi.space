@@ -4,8 +4,8 @@ updated: 2022-09-28T17:28:12+02:00
 location: Bibliothèque Droit-Lettres
 image: https://www.puf.com/sites/default/files/styles/ouvrage_couverture_zoom/public/1645497016_9782130835820_v100.jpg
 tags:
-  - word
   - topic
+  - mot
 lang: fr
 ---
 > Qu’est-ce qu’un impromptu ? C’est une petite pièce, le plus souvent de théâtre ou de musique, composée, comme dit Littré, « sur-le-champ et sans préparation ».

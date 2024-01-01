@@ -4,7 +4,6 @@ updated: 2023-09-15T12:26:51+02:00
 lang: it
 location: Trattoria del Mutuo Soccorso
 tags:
-  - csv
   - meeting
 ---
 - Non ci sono altri ETS in contatto con ufficio affari europei, in Liguria siamo i primi. Un sacco di soldi di investimenti europei vengono restituiti.

@@ -10,9 +10,9 @@ permalink: /thesis/
 redirect_from:
   - /csss/
 ---
-I intend to thoroughly revise and partly rewrite my thesis, to publish it as a book. In the meanwhile, for all those who ask me about it, I am making it [publicly available](https://tommi.space/Computer%20Sciences%20are%20Social%20Sciences%20%E2%80%94%20Tommaso%20Marmo%E2%80%99s%20bachelor%20thesis.pdf).
+I intend to thoroughly revise and partly rewrite my bachelor’s thesis, to publish it as a book. In the meanwhile, for all those who ask me about it, I am making it [publicly available](https://tommi.space/Computer%20Sciences%20are%20Social%20Sciences%20%E2%80%94%20Tommaso%20Marmo%E2%80%99s%20bachelor%20thesis.pdf).
 
-The rest of this page collects random inputs and resources gathered while writing my bachelor thesis, whose main topic is addressing philosophically and sociologically the internet; broadly put, its main and fundamental claim is: **<q>Computer Sciences are Social Sciences!</q>**.
+The rest of this page collects random inputs and resources gathered while writing the thesis. Its main topic is a philosophical and sociological account of the Internet; broadly put, its main and fundamental claim is: **<q>Computer Sciences are Social Sciences!</q>**.
 
 ## Outline
 
