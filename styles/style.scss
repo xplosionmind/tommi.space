@@ -442,7 +442,7 @@ table {
 		border-radius: root.$radius-l;
 		animation: pulse 1s infinite;
 	}
-	.button {
+	.button:not(.tiny) {
 		color: #FFF;
 		background: var(--dark-blue);
 		margin: root.$tiny root.$regular-less;
