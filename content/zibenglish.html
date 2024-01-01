@@ -23,24 +23,42 @@ sitemap:
 		{% render 'tags.html', site: site %}
 	</div>
 	<div class='one-third column'>
-		{% render 'lang-filter.html', lang: lang %}
+		<section id='lang-filter' class='box'>
+			<h3>
+				{% if lang == 'it' -%}
+					Filtra per lingua
+				{% else -%}
+					Filter by language
+				{% endif -%}
+			</h3>
+			<div class='flex'>
+				<label id='en-langFilterButton' for='langFilter-en' title='{% if lang == 'it' -%}Mostra solo i contenuti in inglese{% else %}Show only content in English{% endif -%}'>🇬🇧</label>&emsp;
+				<label id='it-langFilterButton' for='langFilter-it' title='{% if lang == 'it' -%}Mostra solo i contenuti in italiano{% else %}Show only content in Italian{% endif -%}'>🇮🇹</label>&emsp;
+				<label id='fr-langFilterButton' for='langFilter-fr' title='{% if lang == 'it' -%}Mostra solo i contenuti in francese{% else %}Show only content in French{% endif -%}'>🇫🇷</label>
+			</div>
+		</section>
 	</div>
 </div>
 
-<div class='zibaldone flex row'>
+<div class='zibaldone flex row '>
+	<input type='checkbox' id='langFilter-en' class='langFilter'>
+	<input type='checkbox' id='langFilter-it' class='langFilter'>
+	<input type='checkbox' id='langFilter-fr' class='langFilter'>
 	{% for entry in collections.posts %}
-		<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-			<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
-			<h2>{{ entry.data.title }}</h2>
-			<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.date | date: '%-d %B %Y' }}<time></p>
-			<cite class='excerpt'>
-				{% if entry.data.description %}
-					{{ entry.data.description | markdownify | strip_html }}
-				{% comment %}#upstream #bug{% else %}
-					{{ entry.content | strip_html | truncatewords: 30 }}{% endcomment %}
-				{% endif %}
-			</cite>
-			{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}
-		</a>
+		<div class='one-third' lang='{{ entry.data.lang }}'>
+			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
+				<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
+				<h2>{{ entry.data.title }}</h2>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.date | date: '%-d %B %Y' }}<time></p>
+				<cite class='excerpt'>
+					{% if entry.data.description %}
+						{{ entry.data.description | markdownify | strip_html }}
+					{% comment %}#upstream #bug{% else %}
+						{{ entry.content | strip_html | truncatewords: 30 }}{% endcomment %}
+					{% endif %}
+				</cite>
+				{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}
+			</a>
+		</div>
 	{% endfor %}
 </div>

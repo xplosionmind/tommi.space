@@ -1,0 +1,25 @@
+#menutoggle,
+.langFilter {
+	display: none;
+}
+
+#langFilter-en:checked {
+	& ~ div[lang='it'],
+	& ~ div[lang='fr'] {
+		display: none;
+	}
+}
+
+#langFilter-it:checked {
+	& ~ [lang='en'],
+	& ~ [lang='fr'] {
+		display: none;
+	}
+}
+
+#langFilter-fr:checked {
+	& ~ [lang='en'],
+	& ~ [lang='it'] {
+		display: none;
+	}
+}

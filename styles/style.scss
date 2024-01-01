@@ -9,6 +9,7 @@
 @use 'parts/commento';
 @use 'parts/temporary';
 @use 'parts/search';
+@use 'parts/interaction-buttons';
 @use 'parts/syntax-highlight';
 @use 'parts/lite-youtube-embed';
 
@@ -912,10 +913,6 @@ img.button {
 	&:focus {
 		box-shadow: var(--inner-shadow);
 	}
-}
-
-#menutoggle {
-	display: none;
 }
 
 .scrollToBottom {
