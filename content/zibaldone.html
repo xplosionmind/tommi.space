@@ -43,7 +43,7 @@ eleventyImport:
 	{% for entry in collections.posts %}
 		<div class='one-third' lang='{{ entry.data.lang }}'>
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
-				<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
+				<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}' loading='lazy'>
 				<h2>{{ entry.data.title }}</h2>
 				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}<time></p>
 				<cite class='excerpt'>
