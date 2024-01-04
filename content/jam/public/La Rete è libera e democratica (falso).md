@@ -7,7 +7,7 @@ location: CFZ
 permalink: /rete-democratica/
 tags:
   - reading/book
-  - uni/thesis
+  - uni/PISE/thesis
 description: Un libro che sottolinea l’intrinseco fattore anarchico all’interno della rete e le sue problematiche, da un punto di vista sia ontologico che epistemologico.
 image: https://covers.openlibrary.org/b/id/13348461-L.jpg
 ---

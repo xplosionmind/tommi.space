@@ -4,7 +4,6 @@ updated: 2023-03-06T11:23:18+01:00
 location: BAUM
 permalink: /semantic-web/
 tags:
-  - uni/thesis
   - wip
   - topic
 ---

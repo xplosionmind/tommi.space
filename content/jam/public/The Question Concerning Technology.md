@@ -4,7 +4,7 @@ date: 2023-02-14T09:58:01+01:00
 updated: 2023-05-06T22:31:15+02:00
 location: home
 tags:
-  - uni/thesis
+  - uni/PISE/thesis
 ---
 Heidegger’s analysis of technology in The Question Concerning Technology consists of three main ‘claims’:
 
@@ -28,7 +28,7 @@ Heidegger’s analysis of technology in The Question Concerning Technology consi
 
 > But suppose now that technology were no mere means, how would it stand with the will to master it? Yet we said, did we not, that the instrumental definition of technology is correct? To be sure. The correct always fixes upon something pertinent in whatever is under consideration. However, in order to be correct, this fixing by no means needs to uncover the thing in question in its essence. Only at the point where such an uncovering happens does the true come to pass. For that reason the merely correct is not yet the true. Only the true brings us into a free relationship with that which concerns us from out of its essence. Accordingly, the correct instrumental definition of technology still does not show us technology’s essence. In order that we may arrive at this, or at least come close to it, we must seek the true by way of the correct. We must ask: What is the instrumental itself? Within what do such things as means and end belong?”
 
-### Reference
+## Reference
 
 Heidegger, Martin. “The question concerning technology (W. Lovitt, Trans.) The question concerning technology: and other essays (pp. 3-35).” (1977).
 
@@ -39,4 +39,3 @@ Mastering technology does not mean being capable of determining and understandin
 Heidegger proves that rather than the much discussed popular worry of an artificial intelligence becoming sentient and overthrowing humanity, the risk posed by technology is in the way it could potentially cause a great enhancement of inequalities, and the exacerbation of social issues that already exist.
 
 ## Technology ≠ Essence of Technology
-

@@ -4,7 +4,7 @@ updated: 2023-03-14T07:59:59+01:00
 location: Casa Campo
 permalink: /postgrad/
 tags:
-  - uni
+  - uni/PISE
   - future
 toc: false
 description: Insights about what to do after my bachelor graduation

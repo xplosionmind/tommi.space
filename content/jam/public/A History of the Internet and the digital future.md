@@ -5,7 +5,7 @@ location: home
 permalink: /internet-history/
 tags:
   - history
-  - uni/thesis
+  - uni/PISE/thesis
   - reading/book
 description: Notes, citations, and thoughts about a greatly insightful work I am using for my bachelor’s thesis.
 ---

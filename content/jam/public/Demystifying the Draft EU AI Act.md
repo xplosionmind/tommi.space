@@ -1,7 +1,8 @@
 ---
 date: 2021-11-08T15:01:16+01:00
 updated: 2022-07-17T19:05:21+02:00
-tags: uni
+location: VIU
+tags: uni/VIU
 permalink: /veale-lecture/
 ---
 By [Michael Veale](https://michae.lv 'Michael Veale’s personal website')
@@ -12,7 +13,7 @@ Material scope: marketing and use of AI systems (minus military), defined very b
 
 Assessing different kinds and entities of risk.
 
-### Manipulation prohibition
+## Manipulation prohibition
 
 Title II, article 5
 
@@ -30,7 +31,7 @@ Commission examples
 
 <br>
 
-### Social Scoring
+## Social Scoring
 
 Title II, art 5
 
@@ -41,15 +42,9 @@ A prohibition on marketing, putting into service or use of:
 - based on natural persons’ social behavior or known or predicted personal or personality characteristics
 - leading to detrimental or unfavorable treatment of certain <strong class='missing'>+++</strong>
 
-<br>
-
-### Remote “real-time” law enforcement biometrics
+## Remote “real-time” law enforcement biometrics
 
 <strong class='missing'>+++</strong>
-
-
-<br>
-<br>
 
 Clearview AI would not be likely to be sanctioned, instead the result of their data is shared with law enforcement agencies.
 
@@ -59,16 +54,10 @@ Google Takeout etc. does not exactly fulfill and comply with GDPR, they just giv
 
 Transforming people/users in points in multi-dimensional spaces, where their proximity determines the category they belong to.
 
-<br>
-
 AI Act and Product Regulation
 
 The New Legislative Framework is a 40 year old approach to regulating complex products using pre-marketing approval; essentially a toolkit to determine regulations.
 
-<br>
-<br>
-
 AI Act fails to deal with general purpose models-as-a-service
-
 
 <cite>The panoptic sourge</cite> - <strong class='missing'>+++</strong> professor in North Carolina

@@ -2,7 +2,7 @@
 date: 2022-05-19T19:14:54+02:00
 updated: 2023-07-03T13:22:32+01:00
 tags:
-  - uni/Thesis
+  - uni/PISE/thesis
 aliases: Computer Sciences are Social Sciences
 description: Notes concerning my thesis on Philosophy and Computer Sciences
 toc: false

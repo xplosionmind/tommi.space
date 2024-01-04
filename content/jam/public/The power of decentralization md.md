@@ -3,7 +3,7 @@ date: 2021-11-30T01:00:00+01:00
 updated: 2023-06-03T12:01:52+02:00
 aliases:
   - Global Internet Governance essay
-tags: [uni/viu]
+tags: uni/VIU
 description: "My final essay for <a href='https://univiu.org' target='_blank' title='Venice International University'>VIU</a>’s <a href='https://www.univiu.org/fall-2021?view=resource&id=1437' target='_blank' title='Global Internet Governance syllabus'>Global Internet Governance</a> course."
 toc: true
 bibliography: /Users/tommi/bib.bib
