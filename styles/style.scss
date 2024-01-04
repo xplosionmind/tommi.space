@@ -825,13 +825,32 @@ audio,
 }
 
 .embed {
-	lite-youtube,
-	iframe {
-		margin: auto !important;
+	--video--width: 1920;
+	--video--height: 1080;
+
+	position: relative;
+	padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
+	max-width: 100%;
+	background: none;
+	margin: root.$regular auto;
+	iframe,
+	object,
+	embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 		box-shadow: var(--shadow) !important;
-		article & {
-			border-radius: root.$radius-l !important;
-		}
+		border-radius: root.$radius-l !important;
+	}
+}
+
+lite-youtube {
+	margin: auto !important;
+	box-shadow: var(--shadow) !important;
+	article & {
+		border-radius: root.$radius-l !important;
 	}
 }
 

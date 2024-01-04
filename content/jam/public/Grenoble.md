@@ -3,7 +3,7 @@ date: 2022-09-14T17:09:25+02:00
 updated: 2023-01-13T13:08:36+01:00
 location: BDL
 tags:
-  - place
+  - places
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 ---
 Notes et réflexions de la cité ou j’ai vécu [[Erasmus à Grenoble|mon premier Erasmus]].
@@ -26,7 +26,7 @@ Par consequence, forcément je suis obligé à supprimer mes nombreux instincts 
 
 <a href='https://tommi.space/places' target='_blank' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
 
-{% render "city-places.liquid", places: places, city: 'Grenoble' %}
+{% render 'city-places.liquid', places: places, city: 'Grenoble' %}
 
 ## Aller voire
 

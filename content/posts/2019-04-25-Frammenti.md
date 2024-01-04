@@ -36,10 +36,10 @@ Ci sono tre fondamentali differenze, però:
 
 Non aggiungo altro, spero di aver reso l’idea della mia preoccupazione e soprattutto spero non risulti esagerata una similitudine così potente.
 
-<br>
+---
 
 Concludo con Mirko, che ha capito tutto e con questa canzone trasmette questo messaggio d’allarme meglio di me con millemila parole.
 
 (Ci sono alcuni mondi che sono rimasti protetti e resistono alla frammentazione, ma ora si era fatta troppo lunga e vado a sentire Giancarlo Caselli che parla qui a Riva per il 25 aprile e sono in ritardo, alla prossima, dunque.)
 
-<iframe src='https://www.youtube-nocookie.com/embed/hGRjoBY7DkU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+https://youtu.be/hGRjoBY7DkU

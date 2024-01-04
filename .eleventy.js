@@ -115,7 +115,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(require('eleventy-plugin-embed-everything'), {
 		youtube: {
 			options: {
-				embedClass: 'embed',
+				embedClass: 'auto-embed',
 				lite: {
 					css: {
 						enabled: false
@@ -125,13 +125,13 @@ module.exports = function(eleventyConfig) {
 		},
 		spotify: {
 			options: {
-				embedClass: 'embed',
+				embedClass: 'auto-embed',
 				width: '100%'
 			}
 		},
 		instagram: {
 			options: {
-				embedClass: 'embed'
+				embedClass: 'auto-embed'
 			}
 		}
 	});
