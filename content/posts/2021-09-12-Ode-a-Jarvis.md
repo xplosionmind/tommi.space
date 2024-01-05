@@ -68,13 +68,10 @@ Dato che domattina ricominciano le mie lezioni e mi sono ripromesso che non avre
 
 Mi sono rassegnato al fatto che Jarvis non tornerà più fra le mie mani. Con sofferenza, ho finalmente ricominciato a scrivere, comprando [[Compagni di viaggio#Jacala I]].
 
-<figure>
-	<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
-		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'>
-	</a>
+<figure class='half column'>
+	<img src='https://tommi.space/jakala-open.webp' alt='Una foto della prima pagina di Jakala'>
 </figure>
-<figure>
-	<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
-		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'>
-	</a>
+<figure class='half column'>
+	<img src='https://tommi.space/jakala-closed.webp' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'>
 </figure>
+

@@ -8,7 +8,7 @@ location: Val Codera
 ---
 <cite>Stambecco Cinetico</cite> è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout) '“Totem” su Wikipedia'), o nome di caccia.
 
-Lo ricevetti il 2 agosto 2019, durante la magica [Route in Val Codera](https://images.tommi.space/index?/category/route-2019-val-codera 'Immagini della Route 2019 in Val Codera'), in una notte di improvvisa pioggia e temporale.
+Lo ricevetti il 2 agosto 2019, durante la magica Route in Val Codera, in una notte di improvvisa pioggia e temporale.
 
 L’assegnazione del totem consiste in una cerimonia caratterizzata da una serie di prove simboliche da superare, nel mio caso bere una sostanza strana ed indovinarne gli ingredienti, rispondere a quiz sullo scoutismo e sulla storia del gruppo, trovare senza torcia un oggetto nel bosco, guidato da starlights, e culmina con il **salto del fuoco**, in cui si lascia cadere nel fuoco un bastoncino con inciso il proprio nome di battesimo, si urla l’animale scelto e il resto del gruppo risponde urlando l’aggettivo scelto.
 

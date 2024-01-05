@@ -2,7 +2,7 @@
 date: 2020-09-09
 updated: 2022-07-17T19:03:11+02:00
 tags: reading
-image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120147-9340ca01-me.jpg
+image: https://tommi.space/gianna.webp
 description: Books I own and books I would love to read and/or have
 redirect_from: [/library/,/libreria/,/libri/,/bookshelf/]
 main: true

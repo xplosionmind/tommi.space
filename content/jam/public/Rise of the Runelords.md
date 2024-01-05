@@ -3,10 +3,10 @@ date: 2020-03-16
 updated: 2022-03-14T14:50:58+01:00
 tags: archive/dnd
 description: |
-  Appunti sulla campagna <a href='https://pathfinderwiki.com/wiki/Rise_of_the_Runelords' target='_blank' hreflang='en' title='“Rise of the Runelords„ on Pathfinder Wiki'>Rise of the Runelords</a>
+  Appunti sulla campagna <a href='https:"//pathfinderwiki.com/wiki/Rise_of_the_Runelords' target='_blank' hreflang='en' title='“Rise of the Runelords„ on Pathfinder Wiki'>Rise of the Runelords</a>"
 image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfinder-adventure-card-game-rise-of-the-runelords-base-set
 ---
-{{ description }}. [Immagini della campagna](https://images.tommi.space/index?/category/rise-of-the-runelords '“Rise of the Runelords„ in Visioni')
+{{ description }}.
 
 ## Risorse utili
 
@@ -33,7 +33,7 @@ image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfind
 
 ## in game
 
-- cercare via d'uscita per la fuga
+- cercare via d’uscita per la fuga
 - costruire trappole
 - borseggio
 - attaccare in punti strategici per stordire

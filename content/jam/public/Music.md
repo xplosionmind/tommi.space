@@ -4,7 +4,7 @@ updated: 2022-04-04T19:43:02+02:00
 tags: music
 main: true
 description: Insights about music when made, played, or listened
-image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2020/12/24/20201224164521-98446d01-me.jpg
+image: https://tommi.space/cubo-guitar.webp
 ---
 <div class='blue box'>
 	The soundtrack of my existence is in <cite>[[Xplosion Music]]</cite>.
@@ -24,7 +24,7 @@ While suggestions Spotify or its similars advance are [based on calculus and emo
 ## Playing
 
 <figure>
-	<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2020/12/24/20201224164521-98446d01-sm.jpg' alt='An image of me playing the guitar'>
+	<img src='https://tommi.space/cubo-guitar.webp' alt='An image of me playing the guitar'>
 	<figcaption>During my 18<sup>th</sup> birthday at [[Il Cubo]] I was pretending to know how to play a guitar in a very embarrassing situation</figcaption>
 </figure>
 
@@ -43,4 +43,4 @@ Concerning playing the guitar and singing, in front of a bonfire as well as on s
 - [[Music idea due]]
 - [[Idea musicale]]
 
-[Rolling Stone]: https://www.rollingstone.com/ 'Rolling Stone'
+[Rolling Stone]: https://www.rollingstone.com/ ‘Rolling Stone’

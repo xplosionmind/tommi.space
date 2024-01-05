@@ -13,5 +13,3 @@ todo:
   - create a photo gallery as with Living Art
 ---
 Since the beginning of 2019, every 27 days at 12:11 PM I have been taking a picture of my desk, without cleaning or uncluttering it. I would just shoot a picture of how my desk is at that specific moment.
-
-All the pictures are in [Desk logging](https://images.tommi.space/index?/category/desk 'Desk Logging pictures')

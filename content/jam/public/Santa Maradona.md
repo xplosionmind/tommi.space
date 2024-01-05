@@ -7,7 +7,7 @@ tags:
 toc: false
 description: |
   Collezione di disordinate idee da <cite><a href='https://it.wikipedia.org/wiki/Santa_Maradona' target='_blank' title='“Santa Maradona„ su Wikipedia'>Santa Maradona</a></cite>, il mio film preferito.
-image: https://images.tommi.space/uploads/j/b/u/jbuqxznr00//2021/07/03/20210703101124-dc978467.jpg
+image: https://tommi.space/santa-maradona.webp
 video: https://youtu.be/SElehi4oD3w
 lang: it
 ---

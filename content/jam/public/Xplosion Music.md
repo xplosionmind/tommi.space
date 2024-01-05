@@ -15,9 +15,9 @@ todo:
   - write meaning, reasons and explanations for every song
 main: true
 ---
-[Classical Xplosion]: https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 'Classical Xplosion on Spotify'
-[metamusic]: https://open.spotify.com/playlist/5I1sC0lvlsVTlh5jy12bms 'metamusic on Spotify'
-[Xplosion Music Extended]: https://open.spotify.com/playlist/2LLtQtDGNCIEe9tBMuVNg0 'Xplosion Music Extended on Spotify'
+[Classical Xplosion]: https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 ‘Classical Xplosion on Spotify’  
+[metamusic]: https://open.spotify.com/playlist/5I1sC0lvlsVTlh5jy12bms ‘metamusic on Spotify’  
+[Xplosion Music Extended]: https://open.spotify.com/playlist/2LLtQtDGNCIEe9tBMuVNg0 ‘Xplosion Music Extended on Spotify’
 
 <div class='row'>
 	<div class='half column' style='margin-bottom:1vh'>
@@ -49,12 +49,12 @@ Since I could never choose a song over another, the following list follows the a
 
 ## Alicia Keys, <cite>Empire State of Mind</cite>
 
-Do you remember [those old-looking mp3 players](https://cdn.pixabay.com/photo/2013/07/12/12/49/mp3-player-146314_1280.png 'a picture of an old-looking mp3 player') with an integrated USB?\
+Do you remember [those old-looking mp3 players](https://cdn.pixabay.com/photo/2013/07/12/12/49/mp3-player-146314_1280.png 'a picture of an old-looking mp3 player') with an integrated USB?\  
 Well, when my aunt gave me my first one as a gift, there was only this song inside.
 
 ## Alan Silvestri, <cite>The Avengers</cite>
 
-I love Marvel movies. I actually get crazy before watching any new one. Avengers’ theme is the perfect representation of my hype and feelings about those awesome films. I can't help but getting excited AF when this track starts playing.
+I love Marvel movies. I actually get crazy before watching any new one. Avengers’ theme is the perfect representation of my hype and feelings about those awesome films. I can’t help but getting excited AF when this track starts playing.
 
 ## Amélie No, <cite>Where Did You Sleep Last Night</cite>
 
@@ -75,7 +75,7 @@ It will forever be my **windsurfing anthem**.
 
 ## The Beatles, <cite>Yellow Submarine</cite>
 
-A hot day of April during my last year of elementary school, we spent a day to visit what the following year would become my middle school.
+A hot day of April during my last year of elementary school, we spent a day to visit what the following year would become my middle school.  
 My soon-to-be English professor, to welcome us, held a class only on this song. In that moment I realized how brilliant The Beatles are and how much I loved English.
 
 ## Ben E. King, <cite>Stand by Me</cite>
@@ -105,7 +105,7 @@ I was in my car, driving home. This song popped out from the stereo, it pumped m
 
 ## Cantiere 164, <cite>Stella Cometa</cite>
 
-<p lang='it'>I <a href='https://www.facebook.com/Cantiere164' target='_blank' title='Pagina Facebook dei Cantiere 164'>Cantiere 164</a> sono dei grandi. Ci siamo conosciuti il 30 aprile 2017, quando sono venuti a Sanremo per essere <a href='https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo' target='_blank' title='L’intervista ai Cantiere 164'>intervistati da Radioimmaginaria</a>. Da quel giorno, abbiamo stretto un grande legame di amicizia e stima reciproca, del quale sono molto orgoglioso. Li ho portati a suonare alla <a href='' target='_blank' title=''></a>Teen Parade e sono stati i protagonisti del primo <cite><a href='https://images.tommi.space/index?/category/il-mio-cubo-suona-il-rock' target='_blank' title='Foto di Il mio CUBO Suona il Rock'>Il mio CUBO Suona il Rock</a></cite>.<br>
-<cite><a href='https://www.youtube.com/watch?v=N1S_QhjhqdY' target='_blank' title='Il videoclip di Stella Cometa'>Stella Cometa</a></cite> è il brano che stavano promuovendo quando ci siamo incontrati e, per quando anche gli altri pezzi siano una forza, per me questo resterà sempre il numero uno.</p>
+<p lang='it'>I <a href='https://www.facebook.com/Cantiere164' target='_blank' title='Pagina Facebook dei Cantiere 164'>Cantiere 164</a> sono dei grandi. Ci siamo conosciuti il 30 aprile 2017, quando sono venuti a Sanremo per essere <a href='https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo' target='_blank' title='L’intervista ai Cantiere 164'>intervistati da Radioimmaginaria</a>. Da quel giorno, abbiamo stretto un grande legame di amicizia e stima reciproca, del quale sono molto orgoglioso. Li ho portati a suonare alla Teen Parade e sono stati i protagonisti del primo <cite>Il mio CUBO Suona il Rock</cite>.  
+<cite><a href='https://youtu.be/N1S_QhjhqdY' target='_blank' title='Il videoclip di Stella Cometa'>Stella Cometa</a></cite> è il brano che stavano promuovendo quando ci siamo incontrati e, per quando anche gli altri pezzi siano una forza, per me questo resterà sempre il numero uno.</p>
 
 <strong class='missing'>+++</strong> — *to be continued…*

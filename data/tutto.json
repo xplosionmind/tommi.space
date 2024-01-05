@@ -70,10 +70,6 @@
 		"location": "VIU",
 		"data":[
 			{
-				"what": "Images",
-				"url": "https://images.tommi.space/index?/category/veumeu-2022"
-			},
-			{
 				"what": "Position Papers",
 				"url": "https://drive.google.com/drive/folders/1wZ8-Y0P46YzDszfPAFNXkUfn5X1qMpTc?usp=sharing"
 			},
@@ -94,13 +90,7 @@
 		"tags": ["scout"],
 		"location": "Bosco di Mestre",
 		"lat": 45.524053,
-		"lon": 12.283767,
-		"data":[
-			{
-				"what": "images",
-				"url": "https://images.tommi.space/index?/category/san-giorgio-2022"
-			}
-		]
+		"lon": 12.283767
 	},
 	{
 		"start": "2022-02-26T15:00:00+01:00",
@@ -117,10 +107,6 @@
 			{
 				"what": "Il mio discorso introduttivo",
 				"url": "https://www.instagram.com/tv/CaceajQJ0sF/"
-			},
-			{
-				"what": "images",
-				"url": "https://images.tommi.space/index?/category/scambi-presenta"
 			}
 		]
 	},
@@ -141,13 +127,7 @@
 		"title": "Stage al Dipartimento di Matematica dell’Università di Genova",
 		"url": "https://web.archive.org/web/20190605092418/https://www2.dima.unige.it/it/per_le_scuole/stage_al_dima",
 		"location": "Genova",
-		"tags": ["school"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/stage-al-dima-genova"
-			}
-		]
+		"tags": ["school"]
 	},
 	{
 		"end": "2019-07-09",
@@ -156,10 +136,6 @@
 		"location": "Il Cubo",
 		"tags": ["live"],
 		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/91-il_mio_cubo_suona_il_rock"
-			},
 			{
 				"what": "Video teaser su Facebook",
 				"url": "https://www.facebook.com/QuelDuoLi/videos/2333791650275489/"
@@ -184,13 +160,7 @@
 		"title": "Route in Val Codera",
 		"location": "Val Codera",
 		"tags": ["scout"],
-		"notes": "in cui divenni [[Stambecco Cinetico]]",
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/route-2019-val-codera"
-			}
-		]
+		"notes": "in cui divenni [[Stambecco Cinetico]]"
 	},
 	{
 		"start": "2014-02-21",
@@ -204,10 +174,6 @@
 			{
 				"what": "Puntate",
 				"url": "/rimm-db#festival-di-sanremo-2014"
-			},
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/sanremo2014"
 			}
 		]
 	},
@@ -233,10 +199,6 @@
 				"url": "https://flic.kr/s/aHskvtuM9o"
 			},
 			{
-				"what": "Foto mie",
-				"url": "https://images.tommi.space/index?/category/sanremo2015"
-			},
-			{
 				"what": "Puntate",
 				"url": "/rimm-db#festival-di-sanremo-2015"
 			}
@@ -250,13 +212,7 @@
 		"location": "Riva Ligure",
 		"tags": ["radioimmaginaria"],
 		"people": ["WeFly", "Windsurf & Wellness"],
-		"notes": "il primo evento in assoluto che io abbia mai organizzato",
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/radioimmaginaria-beach-party"
-			}
-		]
+		"notes": "il primo evento in assoluto che io abbia mai organizzato"
 	},
 	{
 		"start": "2015-08-23",
@@ -269,10 +225,6 @@
 			{
 				"what": "Foto di Radioimmaginaria",
 				"url": "https://flic.kr/s/aHskmDM2RX"
-			},
-			{
-				"what": "Foto mie",
-				"url": "https://images.tommi.space/index?/category/radioimmaginaria-at-expo-milano-2015"
 			},
 			{
 				"what": "Puntate",
@@ -295,10 +247,6 @@
 			{
 				"url": "https://flic.kr/s/aHskAsvk5s",
 				"what": "Foto di Radioimmaginaria"
-			},
-			{
-				"what": "Foto mie",
-				"url": "https://images.tommi.space/index?/category/teen-parade-2015"
 			}
 		]
 	},
@@ -307,13 +255,7 @@
 		"title": "Istituto Superiore Mario Boella",
 		"aliases": ["Radioimmaginaria all’ISMB", "ISMB"],
 		"url": "https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065427373515801/",
-		"tags": ["radioimmaginaria"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/radioimmaginaria-a-ismb"
-			}
-		]
+		"tags": ["radioimmaginaria"]
 	},
 	{
 		"start": "2016-02-07",
@@ -330,10 +272,6 @@
 			{
 				"url":"/rimm-db#festival-di-sanremo-2016",
 				"what": "Puntate"
-			},
-			{
-				"url":"https://images.tommi.space/index?/category/sanremo2016",
-				"what": "Foto mie"
 			}
 		]
 	},
@@ -345,10 +283,6 @@
 		"location": "Milano",
 		"tags": ["radioimmaginaria"],
 		"data":[
-			{
-				"what": "Foto mie",
-				"url": "https://images.tommi.space/index?/category/radiocity-2016"
-			},
 			{
 				"url": "https://www.flickr.com/photos/radioimmaginaria/albums/72157668517426676",
 				"what": "Foto di Radioimmaginaria"
@@ -363,13 +297,7 @@
 		"url": "https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london",
 		"location": "London",
 		"tags": ["radioimmaginaria"],
-		"notes": "sono andato con le mitiche Flora e Amalia in quel di Londra a salvare l’antenna di Radioimmaginaria Londra",
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/radioimmaginaria-in-london"
-			}
-		]
+		"notes": "sono andato con le mitiche Flora e Amalia in quel di Londra a salvare l’antenna di Radioimmaginaria Londra"
 	},
 	{
 		"start": "2016-07-15",
@@ -380,10 +308,6 @@
 		"location": "Giffoni",
 		"tags": ["radioimmaginaria", "giffoni"],
 		"data":[
-			{
-				"url": "https://images.tommi.space/index?/category/giffoni-2016",
-				"what": "Foto mie"
-			},
 			{
 				"url": "https://flic.kr/s/aHskK5eqx3",
 				"what": "Foto di Radioimmaginaria"
@@ -404,14 +328,6 @@
 				"url": "https://www.riviera24.it/2016/08/radioimmaginaria-a-riva-ligure-per-il-radiocampo-233170"
 			},
 			{
-				"url": "https://images.tommi.space/index?/category/radiocampo-2016",
-				"what": "Foto"
-			},
-			{
-				"url": "https://images.tommi.space/index?/category/photoshoot-radiocampo-2016",
-				"what": "Foto promozionali"
-			},
-			{
 				"what": "Puntate",
 				"url": "/rimm-db#Radiocampo-2016"
 			}
@@ -430,10 +346,6 @@
 				"url": "/rimm-db#teen-parade-2016"
 			},
 			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/teen-parade-2016"
-			},
-			{
 				"what": "Foto da Radioimmaginaria",
 				"url": "https://flic.kr/s/aHskK2sy8z"
 			},
@@ -446,16 +358,9 @@
 	{
 		"end": "2016-11-30",
 		"title": "School Attack",
-		"url": "https://images.tommi.space/index?/category/riva-ligure-school-attack",
 		"location": "Scuole medie di Riva Ligure",
 		"coordinates": ["43,83717", "7,87851"],
-		"tags": ["radioimmaginaria", "kids"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/riva-ligure-school-attack"
-			}
-		]
+		"tags": ["radioimmaginaria", "kids"]
 	},
 	{
 		"start": "2017-02-08",
@@ -465,10 +370,6 @@
 		"location": "Sanremo",
 		"tags": ["radioimmaginaria"],
 		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/sanremo-2017"
-			},
 			{
 				"what": "Foto da Radioimmaginaria",
 				"url": "https://flic.kr/s/aHskRvXnWV"
@@ -488,10 +389,6 @@
 		"tags": ["radioimmaginaria"],
 		"notes": "l’inizio di amicizia e grande stima reciproca",
 		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/radioimmaginaria-sanremo-intervista-i-cantiere-164"
-			},
 			{
 				"what": "Episodio",
 				"url": "https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo"
@@ -573,10 +470,6 @@
 			{
 				"what": "Video",
 				"url": "https://youtu.be/bCrHQz4rCQs"
-			},
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/fare-il-giornale-nelle-scuole-2017"
 			}
 		]
 	},
@@ -664,13 +557,8 @@
 		"title": "A little Christmas Show",
 		"url": "https://www.facebook.com/events/318752479011472/",
 		"location": "Sede Club Tenco",
-		"coordinates": ["43,81423", "7,77303"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/a-little-christmas-show"
-			}
-		]
+		"lat": 43.81423,
+		"lon": 7.77303
 	},
 	{
 		"start": "2019-11-13",
@@ -680,10 +568,6 @@
 		"location": "Genova",
 		"tags": ["radioimmaginaria"],
 		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/teen-parade-2019"
-			},
 			{
 				"what": "Foto da Radioimmaginaria",
 				"url": "https://flic.kr/s/aHsmJjqJpQ"
@@ -695,39 +579,21 @@
 		"end": "2016-04-25",
 		"title": "San Giorgio",
 		"location": "Cipressa",
-		"tags": ["scout"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/san-giorgio-2016"
-			}
-		]
+		"tags": ["scout"]
 	},
 	{
 		"start": "2015-05-09",
 		"end": "2015-05-10",
 		"title": "San Giorgio",
 		"location": "Taggia",
-		"tags": ["scout"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/san-giorgio-2015"
-			}
-		]
+		"tags": ["scout"]
 	},
 	{
 		"end": "2015-06-06",
 		"title": "Autofinanziamento a tema Pirati",
 		"location": "Campo Scout",
 		"coordinates": ["43,84462", "7,90617"],
-		"tags": ["scout"],
-		"data":[
-			{
-				"url": "https://images.tommi.space/index?/category/autofinanziamento-pirati",
-				"what": "Foto"
-			}
-		]
+		"tags": ["scout"]
 	},
 	{
 		"end": "2015-06-13",
@@ -735,82 +601,45 @@
 		"url": "https://emiro.agesci.it/tag/agescidalpapa/",
 		"location": "Piazza San Pietro",
 		"tags": ["scout"],
-		"notes": "sono stato estratto come rappresentante della Regione Liguria per incontrare di persona il Papa",
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/agesci-dal-papa"
-			}
-		]
+		"notes": "sono stato estratto come rappresentante della Regione Liguria per incontrare di persona il Papa"
 	},
 	{
 		"start": "2015-07-16",
 		"end": "2015-07-23",
 		"title": "Campo estivo",
 		"location": "Mendatica",
-		"tags": ["scout"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/campo-estivo-2015"
-			}
-		]
+		"tags": ["scout"]
 	},
 	{
 		"start": "2015-11-08",
 		"end": "2015-11-09",
 		"title": "Passaggi",
 		"location": "Carpasio + Cipressa",
-		"tags": ["scout"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/passaggi-2015"
-			}
-		]
+		"tags": ["scout"]
 	},
 	{
 		"start": "2016-10-28",
 		"end": "2016-10-29",
 		"title": "Campetto responsabilità",
 		"location": "Laigueglia",
-		"tags": ["scout"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/campetto-di-responsabilita"
-			}
-		]
+		"tags": ["scout"]
 	},
 	{
 		"end": "2019-03-16",
 		"title": "Uscita di Clan",
 		"location": "Colla Micheri",
-		"tags": ["scout"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/uscita-di-clan-a-colla-micheri"
-			}
-		]
+		"tags": ["scout"]
 	},
 	{
 		"end": "2019-05-26",
 		"title": "Caccia di Primavera",
 		"aliases": ["Caccia di Zona"],
 		"location": "Imperia",
-		"tags": ["scout", "lc"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/caccia-di-primavera-2019"
-			}
-		]
+		"tags": ["scout", "lc"]
 	},
 	{
 		"end": "2021-01-04",
 		"title": "Partenza",
-		"url": "https://images.tommi.space/index?/category/partenza",
 		"location": "Riva Ligure",
 		"tags": ["scout"]
 	},
@@ -823,10 +652,6 @@
 		"tags": ["giffoni"],
 		"notes": "come giurato Generator +18",
 		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/giffoni-2018"
-			},
 			{
 				"what": "Foto di Giffoni",
 				"url": "https://www.flickr.com/photos/giffonifilmfestival/collections/72157672241562127/"
@@ -842,10 +667,6 @@
 		"tags": ["giffoni"],
 		"notes": "in Masterclass Cult",
 		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/giffoni-2019"
-			},
 			{
 				"what": "Foto di Giffoni",
 				"url": "https://www.flickr.com/photos/giffonifilmfestival/collections/72157709275531493/"
@@ -896,10 +717,6 @@
 				"url": "https://vimeo.com/xplosionmind/unmatto"
 			},
 			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/confusion-in-an-old-station"
-			},
-			{
 				"what": "articolo Riviera24",
 				"url": "http://www.riviera24.it/evento/confusion-in-an-old-station-in-mostra-le-opere-degli-studenti-del-liceo-cassini-di-sanremo/"
 			},
@@ -915,13 +732,7 @@
 		"title": "Premio Tenco 2017",
 		"url": "https://clubtenco.it/tenco-2017/",
 		"location": "Teatro Ariston di Sanremo",
-		"tags": ["tenco"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/tenco2017"
-			}
-		]
+		"tags": ["tenco"]
 	},
 	{
 		"start": "2018-10-18",
@@ -929,25 +740,13 @@
 		"title": "Premio Tenco 2018",
 		"url": "https://clubtenco.it/tenco-2018/",
 		"location": "Teatro Ariston di Sanremo",
-		"tags": ["tenco"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/tenco2018"
-			}
-		]
+		"tags": ["tenco"]
 	},
 	{
 		"end": "2019-05-10",
 		"title": "Viva Vecchioni",
 		"location": "Teatro del Casino di Sanremo",
-		"tags": ["tenco"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/viva-vecchioni"
-			}
-		]
+		"tags": ["tenco"]
 	},
 	{
 		"start": "2019-10-17",
@@ -955,13 +754,7 @@
 		"title": "Premio Tenco 2019",
 		"url": "https://clubtenco.it/tenco-2019",
 		"location": "Teatro Ariston di Sanremo",
-		"tags": ["tenco"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/tenco2019"
-			}
-		]
+		"tags": ["tenco"]
 	},
 	{
 		"end": "2021-03-31",
@@ -975,44 +768,25 @@
 		"title": "Premio Tenco 2021",
 		"url": "https://clubtenco.it/tenco-2021/",
 		"location": "Teatro Ariston di Sanremo",
-		"tags": ["tenco"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/tenco2021"
-			}
-		]
+		"tags": ["tenco"]
 	},
 	{
 		"end": "2019-01-16",
 		"title": "Liberamente musica",
 		"location": "Sede Club Tenco, Sanremo",
 		"coordinates": ["43,81423", "7,77303"],
-		"tags": ["libera", "tenco"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/liberamente-musica"
-			}
-		]
+		"tags": ["libera", "tenco"]
 	},
 	{
 		"end": "2019-02-09",
 		"title": "Inaugurazione Presidio Rosario Livatino",
 		"location": "Liceo G.D. Cassini di Sanremo",
 		"tags": ["libera", "school"],
-		"people": ["Rocco Mangiardi"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/inaugurazione-presidio-livatino"
-			}
-		]
+		"people": ["Rocco Mangiardi"]
 	},
 	{
 		"end": "2019-03-21",
 		"title": "Giornata della memoria e dell’impegno",
-		"url": "https://images.tommi.space/index?/category/libera-21-marzo-2019",
 		"location": "Sanremo",
 		"tags": ["libera"]
 	},
@@ -1027,7 +801,6 @@
 	{
 		"end": "2015-05-17",
 		"title": "YAMAHA OrchestranDo Music Festival",
-		"url": "https://images.tommi.space/index?/category/orchestrando-festival-2015",
 		"location": "Jesolo",
 		"tags": ["orchestrando", "music"]
 	},
@@ -1035,14 +808,12 @@
 		"start": "2016-05-29",
 		"end": "2016-05-31",
 		"title": "YAMAHA OrchestranDo Music Festival",
-		"url": "https://images.tommi.space/index?/category/orchestrando-festival-2016",
 		"location": "Pergine in Valsugana",
 		"tags": ["orchestrando", "music"]
 	},
 	{
 		"end": "2019-04-17",
 		"title": "Concerto dell’orchestra n°1 delle Scuole Europee di Bruxelles con l’orchestra Note Libere",
-		"url": "https://images.tommi.space/index?/category/orchestra-delle-scuole-europee-di-bruxelles-e-note-libere-al-cas",
 		"location": "Teatro del Casino di Sanremo",
 		"tags": ["music", "host"],
 		"notes": "ho presentato il concerto mentre i miei amici giravano per le riprese del mio cortometraggio [Everyone](/it/everyone 'Everyone'); nelle scene a teatro ci sono le riprese proprio di quel giorno"
@@ -1050,7 +821,6 @@
 	{
 		"end": "2019-08-30",
 		"title": "Everyone Premiere",
-		"url": "https://images.tommi.space/index?/category/everyone-premiere",
 		"location": "Riva Ligure",
 		"tags": ["cinema"],
 		"data":[
@@ -1066,26 +836,13 @@
 		"url": "https://www.rockin1000.com/it/tl_linate.php",
 		"location": "Milano",
 		"tags": ["music"],
-		"notes": "mi sono infiltrato nel dietro le quinte grazie al mio amico <a href='https://instagram.com/matteo_cifani/' target='_blank' title='@matteo_cifani su Instagram'>Matteo Cifani</a>.",
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/rockin1000-linate"
-			}
-		]
+		"notes": "mi sono infiltrato nel dietro le quinte grazie al mio amico <a href='https://instagram.com/matteo_cifani/' target='_blank' title='@matteo_cifani su Instagram'>Matteo Cifani</a>."
 	},
 	{
 		"end": "2019-10-13",
 		"title": "Deejay Ten",
-		"url": "https://images.tommi.space/index?/category/deejayten2019",
 		"location": "Milano",
-		"notes": "sempre grazie a <a href='https://instagram.com/matteo_cifani/' target='_blank' title='@matteo_cifani su Instagram'>Matteo Cifani</a>, sono andato in giro per il centro di Milano a fare scatti per la <a href='https://deejayten.deejay.it/milano/' target='_blank' title='Deejay Ten'>Deejay Ten</a>, la maratona di <a href='https://deejay.it' target='_blank' title='Radio Deejay'>Radio Deejay</a>",
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/deejayten2019"
-			}
-		]
+		"notes": "sempre grazie a <a href='https://instagram.com/matteo_cifani/' target='_blank' title='@matteo_cifani su Instagram'>Matteo Cifani</a>, sono andato in giro per il centro di Milano a fare scatti per la <a href='https://deejayten.deejay.it/milano/' target='_blank' title='Deejay Ten'>Deejay Ten</a>, la maratona di <a href='https://deejay.it' target='_blank' title='Radio Deejay'>Radio Deejay</a>"
 	},
 	{
 		"end": "2018-05-25",
@@ -1113,10 +870,6 @@
 			{
 				"what": "articolo su Riviera24",
 				"url": "https://www.riviera24.it/2018/05/tommaso-marmo-del-liceo-cassini-di-sanremo-vince-il-primo-premio-al-monaco-mouse-trap-grand-prix-286175"
-			},
-			{
-				"what": "images",
-				"url": "https://images.tommi.space/index?/category/mouse-trap-car-grand-prix-2018"
 			}
 		],
 		"button-text": {
@@ -1193,10 +946,6 @@
 			{
 				"what": "Comunicato stampa",
 				"url": "https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html"
-			},
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/twenty-shoes-against-racism"
 			}
 		]
 	},
@@ -1214,13 +963,7 @@
 		"title": "Helper at ACLE City Camp",
 		"location": "Scuole medie di Arma di Taggia",
 		"coordinates": ["43,8347058", "7,8534986"],
-		"tags": ["ACLE", "kids"],
-		"data":[
-			{
-				"what": "Foto",
-				"url": "https://images.tommi.space/index?/category/acle-city-camp-2017"
-			}
-		]
+		"tags": ["ACLE", "kids"]
 	},
 	{
 		"start": "2015-10",
@@ -1232,10 +975,6 @@
 			{
 				"what": "Appunti della campagna ne La Marmellata",
 				"url": "/rise-of-the-runelords"
-			},
-			{
-				"what": "Immagini della campagna",
-				"url": "https://images.tommi.space/index?/category/rise-of-the-runelords"
 			}
 		]
 	},
@@ -1614,7 +1353,6 @@
 			"it": "Portfolio",
 			"en": "My portfolio"
 		},
-		"url": "https://images.tommi.space/index?/category/portfolio",
 		"description": "Videos and photos I shoot around the world or just when people ask me to.",
 		"description-it": "Quando mi dicono <q>Tommi vieni a fare le foto per questa cosa?</q> oppure quando metto mie foto o video in giro quello che scrivo è <cite>Xplosion Pictures</cite>, per sentirmi professionale.",
 		"current": true,

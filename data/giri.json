@@ -6,13 +6,7 @@
 		"tags": ["trip", "networking"],
 		"people": ["CSV Polis", "Davide Pesce", "Gloria Chiaramonti", "Michela Tarantino", "Martina Monti"],
 		"location": "Bruxelles",
-		"description": "A trip organized by [CSV Polis](https://csvpolis.it 'CSV Polis'), taking to Brussels a dozen of representatives of the most promising associations of Western Liguria, mainly to enhance and stabilize networking with EU institutions.",
-		"data":[
-			{
-				"what": "Images",
-				"url": "https://images.tommi.space/index?/category/brussels-csv-polis"
-			}
-		]
+		"description": "A trip organized by [CSV Polis](https://csvpolis.it 'CSV Polis'), taking to Brussels a dozen of representatives of the most promising associations of Western Liguria, mainly to enhance and stabilize networking with EU institutions."
 	},
 	{
 		"start": "2022-12-13T14:00:00+01:00",
@@ -23,13 +17,7 @@
 		"people": ["Sophie"],
 		"location": "Grenoble",
 		"latitude": 45.19495,
-		"longitude": 5.73226,
-		"data":[
-			{
-				"what": "Images",
-				"url": "https://images.tommi.space/index?/category/visite-du-musee-de-grenoble"
-			}
-		]
+		"longitude": 5.73226
 	},
 	{
 		"start": "2022-12-11T16:13:00+01:00",
@@ -41,13 +29,7 @@
 		"people": ["Francesco Zollo", "Tredici Pietro", "Fulminacci"],
 		"location": "Volterra",
 		"latitude": 43.40057,
-		"longitude": 10.86190,
-		"data":[
-			{
-				"what": "Images",
-				"url": "https://images.tommi.space/index?/category/assp-2022"
-			}
-		]
+		"longitude": 10.86190
 	},
 	{
 		"start": "2022-05-21T18:00:00+02:00",
@@ -93,13 +75,7 @@
 		"title": "TALK, Il Post",
 		"url": "https://ilpost.it/talk-2",
 		"location": "Faenza",
-		"tags": ["festival"],
-		"data":[
-			{
-				"what": "foto",
-				"url": "https://images.tommi.space/index?/category/1-talk_il_post"
-			}
-		]
+		"tags": ["festival"]
 	},
 	{
 		"end": "2013-07-10",
@@ -121,7 +97,6 @@
 		"start": "2015-03-09",
 		"end": "2015-03-13",
 		"title": "Gita a Venezia",
-		"url": "https://images.tommi.space/index?/category/gita-a-venezia",
 		"location": "Venezia",
 		"tags": ["school"]
 	},
@@ -129,7 +104,6 @@
 		"start": "2016-03-16",
 		"end": "2016-03-18",
 		"title": "Gita in Toscana",
-		"url": "https://images.tommi.space/index?/category/gita-in-toscana",
 		"location": "Siena, Volterra, Larderello",
 		"tags": ["school"]
 	},
@@ -137,7 +111,6 @@
 		"start": "2019-04-29",
 		"end": "2019-04-30",
 		"title": "CERN and Geneva",
-		"url": "https://images.tommi.space/index?/category/cern-and-geneva",
 		"location": "Geneva",
 		"tags": ["school"]
 	},
@@ -145,7 +118,6 @@
 		"start": "2019-04-08",
 		"end": "2019-04-13",
 		"title": "Gita a Barcellona",
-		"url": "https://images.tommi.space/index?/category/gita-a-barcellona",
 		"location": "Barcelona",
 		"tags": ["school"]
 	},
@@ -160,21 +132,18 @@
 		"start": "2017-03-12",
 		"end": "2017-03-17",
 		"title": "Gita in Sicilia",
-		"url": "https://images.tommi.space/index?/category/gita-in-sicilia",
 		"location": "Palermo,Agrigento",
 		"tags": ["school"]
 	},
 	{
 		"end": "2016-06-06",
 		"title": "Gita a San Fruttuoso",
-		"url": "https://images.tommi.space/index?/category/gita-a-san-fruttuoso",
 		"location": "San Fruttuoso",
 		"tags": ["school"]
 	},
 	{
 		"end": "2015-05-26",
 		"title": "Gita a EXPO",
-		"url": "https://images.tommi.space/index?/category/gita-a-expo-milano",
 		"location": "Milano",
 		"tags": ["school"]
 	},
@@ -182,7 +151,6 @@
 		"start": "2018-06-10",
 		"end": "2018-06-30",
 		"title": "vacanza studio a Londra",
-		"url": "https://images.tommi.space/index?/category/london-2018",
 		"location": "London",
 		"tags": ["trip"]
 	},
@@ -190,7 +158,6 @@
 		"start": "2016-02-26",
 		"end": "2016-03-01",
 		"title": "scambio culturale a Bath",
-		"url": "https://images.tommi.space/index?/category/bath",
 		"location": "Bath",
 		"tags": ["school"],
 		"notes": "(dal 16 al 23 ottobre i ragazzi di Bath sono venuti a Sanremo)"
@@ -236,12 +203,6 @@
 		"url": "https://www.comune.venezia.it/it/content/1501-26022022-mostra-fotografica-what-europe-you",
 		"location": "Palazzo Abruzzi-Capello",
 		"tags": ["photo","exhibition"],
-		"data":[
-			{
-				"what": "Immagini della mia visita",
-				"url": "https://images.tommi.space/index?/category/249-what_is_europe_to_you"
-			}
-		],
 		"lat": 45.442681,
 		"lon": 12.335983
 	}
