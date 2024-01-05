@@ -135,6 +135,7 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
+	eleventyConfig.addPlugin(require('./eleventy.config.images.js'));
 	/*eleventyConfig.addPlugin(
 		require('@photogabble/eleventy-plugin-interlinker'),
 		{

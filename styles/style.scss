@@ -499,7 +499,8 @@ table {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
+	height: auto;
 	display: block;
 	border-radius: root.$radius-l;
 }
@@ -507,9 +508,7 @@ img {
 figure {
 	margin: 0 auto;
 	img {
-		max-height: 100vh;
 		box-shadow: var(--shadow);
-		margin: 0 auto;
 	}
 	& + figure {
 		margin-top: root.$bigger;
