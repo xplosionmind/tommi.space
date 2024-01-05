@@ -15,16 +15,11 @@ Building a website from scratch can be challenging. It took me several months of
 
 I wanted to learn by doing and **do it in the best possible way**.
 
-<br>
-
 Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a <a href='https://www.staticgen.com/about' target='_blank'>Static Site Generator</a>, which doesn’t necessarily make things heavier but for sure it makes them simpler and **way quicker**. We’ll get there.
 
 One last thing before diving in: this article is not intended to be a guide or a tutorial. Since I’ve been struggling **a lot** to get here, I feel like it may be useful to someone to know the path I followed (or, better, traced) to obtain what I was aiming at. Not having any clue of the right next step is **so** stressful, I’ve been on the edge of giving up multiple times.
 
 Eventually, another point it’s worth making is that web develpement is **ridicolously cheap**: you just need a laptop (not even a powerful one), everything else is for **free** (actually, I bought <a href='http://www.htmlandcssbook.com/' target='_blank'>this book</a>, but online there are a few great alternatives). The only, **huge** price you need to pay is **time**. I spent handful of restless hours fighting with the urgency and the desire of getting things done, and trying to have paticence of going on by gradual steps. 
-
-<br>
-<br>
 
 ## The Beginning
 
@@ -38,24 +33,15 @@ As of when I’m writing, `xplosionmind.tk` isn’t completed. The following ste
 
 Since I spent my whole COVID-19 quarantine (two months ish) doing this, I'm gonna add the git commit date of each step at the beginning.
 
-<br>
-<br>
-
 ## Learning HTML and CSS
 
-As I wrote before, since I was so lost and I had no idea of the best starting point, I bought a book on basic web programming: “HTML and CSS” by Jon Duckett. I spent ten days reading and studying it thoroughly. After that, I knew all the basics, then I was able to start building a test page.
-
-<br>
-<br>
+As I wrote before, since I was so lost and I had no idea of the best starting point, I bought a book on basic web programming: <cite>HTML and CSS</cite> by Jon Duckett. I spent ten days reading and studying it thoroughly. After that, I knew all the basics, then I was able to start building a test page.
 
 ## Building
 
 I chose the about page to be my test page. At first, it wasn't a section of the homepage, but a standalone one. I struggled to make it look like the one on the Wix website (I won’t link it anymore, you can browse around using the first one I gave) and I couldn’t make it appear nicely, until I discovered the `object-fit` CSS property, which changed my game.
 
 To be honest, even after finishing the book I knew nothing about <a href='https://en.wikipedia.org/wiki/Web_framework' target='_blank'>frameworks</a> but after reading <a href='https://www.taniarascia.com/you-dont-need-a-framework/' target='_blank'>this article</a> I told myself I wouldn't need one. Even after completing the website, I still don't know if I made the right choice. Without a doubt, <a href='https://github.com/xplosionmind/xplosionmind/blob/master/style.css' target='_blank'>my <code>style.css</code></a> file is a huge mess. Nevertheless, I get things done pretty easily by searching classes' names in the file and I have only a stylesheet, so it’s good.
-
-<br>
-<br>
 
 ## Navigation bar, Header and footer
 
@@ -98,7 +84,6 @@ I decided to use the `include` php function to have only a header and a footer f
 - added _stuff extended_
 - added _Radioimmaginaria database_
 
-
 ## Resources
 
 ### useful websites
@@ -106,7 +91,6 @@ I decided to use the `include` php function to have only a header and a footer f
 - [Tania Rascia](https://www.taniarascia.com/)’s blog, great for learning grasp the most important aspects of front-end web programming;
 - brick.im
 - http://webtypography.net/intro/
-
 
 ### specific articles
 

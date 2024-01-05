@@ -30,7 +30,7 @@ Nonetheless, I write a lot of emails. I send them to people I admire, as well as
 I experienced the astounding waterfall effect one replay can have thanks to [Wendy Hanamura](https://www.linkedin.com/in/wendyhanamura 'Wendy Hanamura on LinkedIn'). Not only she gave credit to a frantic and overwhelming unsolicited email, but after getting in touch she invited me to some super insightful conversations at [Unfinished Camp](https://unfinished.com/camp/ 'Unfinished Camp: Venice') before even meeting me.
 
 <figure>
-	<img src='/unfinished-camp-2022.jpg' alt='The picture of a room full of artists and curators'>
+	{% img '/unfinished-camp-2022.jpg', 'The picture of a room full of artists and curators', 'u-photo' %}
 	<figcaption><cite>New Institutions for the Arts of Tomorrow</cite>, a talk hosted by <a href='https://www.acmi.net.au/' target='_blank' title='Australian Center for the Moving Image'>ACMI</a> + <a href='https://thehighline.org' target='_blank' title='The High Line official website'>The High Line</a> + UCCA</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Later on, Wendy revealed to me that she considered my email, among the many ones
 
 
 <figure>
-	<img src='/tommi-wendy-toast.jpg' alt='Me and Wendy toasting with champagne with San Marco on the background' title='Me and Wendy enjoyed attending a very fancy exclusive party'>
+	{% img '/tommi-wendy-toast.jpg', 'Me and Wendy toasting with champagne with San Marco on the background' %}
 <figure>
 
 This is why I am writing this disordered collection of sentences:

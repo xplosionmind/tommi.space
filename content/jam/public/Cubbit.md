@@ -14,7 +14,7 @@ On top of the awesomeness of the service, I am a fan of Cubbit also for several 
 - I met Stefano Onofri, Cubbit CEO, and he showed me around Bologna, the city where Cubbit was born. It was a great experience and I had the opportunity of seeing the enthusiasm and commitment Cubbiters have!
 
 <figure>
-	<img src='https://tommi.space/2022-02-03-stefano-onofri-cubbit-bologna.jpg' alt='A photo of me and my friend Margherita with Stefano Onofri, on the rooftop of Cubbit HQ'>
+	{% img '2022-02-03-stefano-onofri-cubbit-bologna.jpg', 'A photo of me and my friend Margherita with Stefano Onofri, on the rooftop of Cubbit HQ' %}
 	<figcaption>Me and <a href='https://mondomarghe.jimdofree.com' target='_blank' title='“mondomarghe” — Margherita’s website'>Margherita</a> with Stefano on the rooftop of Cubbit’s HQ</figcaption>
 </figure>
 

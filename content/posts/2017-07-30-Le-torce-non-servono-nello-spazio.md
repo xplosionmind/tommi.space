@@ -8,7 +8,7 @@ Non è solo adrenalina, scienza, scoperta, desiderio, speranza, orbita, è Vita.
 Il buon vecchio Paolo Nespoli ritorna sulla ISS (International Space Station): ha 60 anni, due figli e potrebbe dirsi soddisfatto.
 
 <figure>
-  <img class='u-photo' src='{{ image }}' alt='un astronauta guarda fuori dal finestrino della Soyuz appena atterrata'>
+  {% img image, 'Un astronauta guarda fuori dal finestrino della Soyuz appena atterrata', 'u-photo' %}
   <figcaption>oltre - © NASA</figcaption>
 </figure>
 
@@ -19,8 +19,6 @@ Vorrei però concentrarmi, al di là di questa missione, sulla permanenza nello 
 Ora, e ancor maggiormente ogni secondo che passa, la consapevolezza da parte nostra riguardo al funzionamento e la composizione di ciò che ci circonda è basata su rilevazioni pratiche che confermano assunzioni teoriche che, grazie alle prime, divengono sempre più sicure ed affidabili basi per nuove scoperte. Eppure, come lo stesso Paolo Nespoli afferma, in questo momento più che mai gli scienziati, ed in particolare gli astronauti, sentono la necessità di avere una consapevolezza slegata dalla mera realtà in cui viviamo e di ricercare qualcosa di superiore, di divino.
 
 Soli, al buio, fluttuando ad osservare da una cupola di vetro ed acciaio l’immensità del pianeta Terra, è difficile non far nascere in sé riflessioni profonde sull’esistenza di un’entità superiore che ha concepito, creato e tuttora governa il complesso, articolato e vastissimo Universo. D’altra parte non possiamo per ora avere l’assoluta certezza che questo cosmo sia finito, né possiamo comprenderne l’estensione, né possiamo assicurarci di essere unici e che, pur noi non vedendo altri, siano però differenti forme di vita ad osservare noi. Dunque probabilmente non è la sola curiosità o necessità a spingerci al di fuori della nostra sicura – almeno, finché non smetteremo di distruggerla – atmosfera, ma un innato, recondito ed intangibile istinto alla ricerca di Dio.
-
-Tommi Boom – Ufficio Stampa Liceo G.D. Cassini Sanremo
 
 ---
 

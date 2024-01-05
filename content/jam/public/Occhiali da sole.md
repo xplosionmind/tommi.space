@@ -4,13 +4,13 @@ updated: 2022-10-13T17:39:19+02:00
 tags:
   - track
   - things
-image: https://tommi.space/2022-occhiali-sole.webp
+image: /2022-occhiali-sole.webp
 description: La storia della mia ossessione per gli occhiali da sole e tutti i paia che ho utilizzato finora.
 redirect_from: [/occhiali-sole/,/sunglasses/]
 ---
 Ho ereditato da mio papà una forte sensibilità alla luce, quindi raramente sono senza un paio di occhiali da sole addosso. Molti di quelli che non mi conoscono, ne fanno esclusivamente una questione di stile, ma non è del tutto così: c’è una base di necessità.
 
-### I primi antenati
+## I primi antenati
 
 I primi <cite>Xplosion Sunglasses</cite> degni di questo nome, che possono essere considerati i padri di tutti quelli che li seguiranno, sono un paio di [Ray-Ban Wayfarer Limited Edition](https://nitrolicious.com/wp-content/uploads/2010/06/RB-2140-1033.jpg 'Ray-Ban Wayfarar Limited Edition') con una raffigurazione, all’esterno, della mappa della metropolitana di New York.
 
@@ -24,7 +24,7 @@ Per il capodanno fra il 2017 e il 2018, trascorsi con alcuni amici qualche giorn
 
 Disperato, sono andato a cercare di nuovo il modello su eBay. 738$.
 
-![I miei occhiali, dopo qualche anno, su eBay](https://tommi.space/2018-01-07-broken-sunglasses.jpg 'I miei occhiali, dopo qualche anno, su eBay')
+![I miei occhiali, dopo qualche anno, su eBay](https://tommi.space/2018-01-07-broken-sunglasses.jpg ‘I miei occhiali, dopo qualche anno, su eBay’)
 
 ### I Blackfin
 
@@ -75,7 +75,7 @@ Per quanto ci impegniamo perché accada più spesso, io e [Rebecca](https://inst
 Come al mio solito ho perso e ritrovato i Ray-Ban Meteor un’infinità di volte. Il loro smarrimento definitivo corrisponde alla notte di pazza ebbrezza passata con Rebi il <time datetime='2022-08-09'>9 agosto 2022</time> a una serata ai bagni Manola di Arma di Taggia.
 
 <figure>
-	<img src='https://tommi.space/rebi-smarrimento.webp' alt='Un selfie con Rebecca e gli occhiali appesi alla camicia'>
+	{% img 'rebi-smarrimento.webp', 'Un selfie con Rebecca e gli occhiali appesi alla camicia' %}
 	<figcaption>L’ultima foto in cui appaiono i miei amati occhialini, nonché ultima testimonianza della nostra sobrietà prima di una notte di tempesta</figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ Come al mio solito ho perso e ritrovato i Ray-Ban Meteor un’infinità di volte
 Al momento sto utilizzando dei Ray-Ban acquistati al volo su Amazon in una situazione di emergenza nell’estate 2019.
 
 <figure>
-	<img src='https://tommi.space/2022-occhiali-sole.webp' alt='Un mio selfie con la linguaccia e gli occhiali da sole attuali'>
+	{% img image, 'Un mio selfie con la linguaccia e gli occhiali da sole attuali' %}
 </figure>
 
 ## Non ci vedo più

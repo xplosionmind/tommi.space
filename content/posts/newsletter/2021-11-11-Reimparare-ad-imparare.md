@@ -28,7 +28,7 @@ Mi limiterò dunque a condividere una immagine da [*TMI Pics*](https://tmi.pics 
 
 <a href='https://tmi.pics/p/tommi/364002011270435929' title='Vedi su TMI Pics'>
 	<figure>
-		<img src='https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg' alt='Foto di me che presento a tarda notte una esibizione del dopo-Tenco'>
+		{% img 'https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg', 'Foto di me che presento a tarda notte una esibizione del dopo-Tenco', 'u-photo' %}
 	</figure>
 </a>
 
@@ -50,12 +50,6 @@ Il [*PrivacyPride*](https://privacypride.org 'PrivacyPride') è la prima grande 
 L’evento sarà contemporaneamente a Roma, Venezia e Milano, il 13 novembre 2021. Io sarò agli scout e non ci sarò fisicamente, ma sono orgogliosamente [fra i sostenitori](https://privacypride.org/#sostenitori 'Lista dei sostenotori del PrivacyPride'), due volte: sia con Scambi che con [quitsocialmedia.club](https://quitsocialmedia.club/it/home 'Quit Social Media').
 
 [Il manifesto](https://privacypride.org/manifesto 'Manifesto del PrivacyPride') del *PrivacyPride*.
-
-<a href='https://privacypride.org' title='vai al sito del PrivacyPride'>
-	<figure>
-		<img src='https://quitsocialmediaclub/images/privacypride.png' alt='Locandina del PrivacyPride'>
-	</figure>
-</a>
 
 ## Mi è tornata la poesia
 

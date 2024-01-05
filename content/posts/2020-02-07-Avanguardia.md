@@ -4,30 +4,30 @@ date: 2020-02-07
 image: /2020-02-07-avanguardia.jpg
 permalink: /avanguardia/
 ---
-Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerebbe la felpa, quella pesante che mantiene in quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su [exercise.polito.it](https://exercise.polito.it 'Esercizi - Politecnico di Torino') nella speranza di osservare un'ispirazione per risolvere un equazione.
+Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerebbe la felpa, quella pesante che mantiene in quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su [exercise.polito.it](https://exercise.polito.it 'Esercizi - Politecnico di Torino') nella speranza di osservare un’ispirazione per risolvere un equazione.
 
 E intorno.
 
-La favola è intorno. Intorno è una scenografia da film, un luogo ed un'atmosfera romantici, nel senso stretto della parola, nel senso che il cuore batte solo per la bellezza di essere lì.
+La favola è intorno. Intorno è una scenografia da film, un luogo ed un’atmosfera romantici, nel senso stretto della parola, nel senso che il cuore batte solo per la bellezza di essere lì.
 
-Che poi uno è scemo se si emoziona tanto da farsi battere il cuore nell'aula studio verde (avrebbe un numero ma non lo sa, uno. In gergo si chiama così) del Politecnico di Torino. Uno sarà anche scemo ma capitelo. Con la temperatura di cui sopra, le palpebre pesanti tenute aperte a forza da una volontà stoica o più probabilmente dalla consapevolezza che presto o tardi questa routine distruttiva terminerà, intorno a lui ci sono dei volti per cui se Van Gogh fosse vivo impazzirebbe. Io stesso, che non ho il coraggio di impugnare una matita senza la sicurezza di un righello che la guidi, passerei tutto il giorno a disegnare l'umanità di questa stanza.
+Che poi uno è scemo se si emoziona tanto da farsi battere il cuore nell’aula studio verde (avrebbe un numero ma non lo sa, uno. In gergo si chiama così) del Politecnico di Torino. Uno sarà anche scemo ma capitelo. Con la temperatura di cui sopra, le palpebre pesanti tenute aperte a forza da una volontà stoica o più probabilmente dalla consapevolezza che presto o tardi questa routine distruttiva terminerà, intorno a lui ci sono dei volti per cui se Van Gogh fosse vivo impazzirebbe. Io stesso, che non ho il coraggio di impugnare una matita senza la sicurezza di un righello che la guidi, passerei tutto il giorno a disegnare l’umanità di questa stanza.
 
-Quella nell'aula verde del Politecnico di Torino è l'avanguardia dell'umanità.
+Quella nell’aula verde del Politecnico di Torino è l’avanguardia dell’umanità.
 
-Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazza al suo fianco si è addormentata. Così. Ha chiuso il portatile, incrociato le braccia sul tavolo, e ci ha sprofondato la fronte in mezzo. Quello a sinistra di lei impreca. Non dice nulla ma uno che lo sta guardando può dirlo osservando i suoi occhi roteare con furia e le sue labbra stringersi, probabilmente per un esercizio che sta svolgendo da mezz'ora ma continua a risultare errato, con una piccolissima discrepanza nella radice. Dietro sta un cinese che se fosse in qualunque altro posto indosserebbe una mascherina e verrebbe guardato un po' male, ora. Nell'aula verde, però, sono tutti troppo impegnati a superare gli esami per pensare di poterlo guardare storto. Più in là una ragazza sta guardando un video su YoTube, beh, una pausa concediamogliela. Un tipo decisamente nerd, dall'altra parte del tavolo, con un accento napoletano scambia alcune parole un po' in francese, un po' in inglese con un negretto dal volto ingenuo che non si è mai tolto quel cappellino con cui è entrato questa mattina alle sette.
+Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazza al suo fianco si è addormentata. Così. Ha chiuso il portatile, incrociato le braccia sul tavolo, e ci ha sprofondato la fronte in mezzo. Quello a sinistra di lei impreca. Non dice nulla ma uno che lo sta guardando può dirlo osservando i suoi occhi roteare con furia e le sue labbra stringersi, probabilmente per un esercizio che sta svolgendo da mezz’ora ma continua a risultare errato, con una piccolissima discrepanza nella radice. Dietro sta un cinese che se fosse in qualunque altro posto indosserebbe una mascherina e verrebbe guardato un po’ male, ora. Nell’aula verde, però, sono tutti troppo impegnati a superare gli esami per pensare di poterlo guardare storto. Più in là una ragazza sta guardando un video su YoTube, beh, una pausa concediamogliela. Un tipo decisamente nerd, dall’altra parte del tavolo, con un accento napoletano scambia alcune parole un po’ in francese, un po’ in inglese con un negretto dal volto ingenuo che non si è mai tolto quel cappellino con cui è entrato questa mattina alle sette.
 
 <figure>
-	<img class='u-photo' src='{{ image }}' alt='l’aula verde' title='l’aula verde'>
+	{% img image, 'l’aula verde', 'u-photo' %}
 	<figcaption>pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde</figcaption>
 </figure>
 
-Fisica II, Analisi II, Ingegneria Strutturale, Analisi I, Elettrotecnica, Fisiologia, Circuiti, Idrologia, Impianti Industriali, uno sbircia curioso con troppa indiscrezione e riesce a leggere alcuni dei libri furiosamente sfogliati dagli avanguardisti, che ogni tanto schiantano la propria schiena sullo schienale, sbuffando scoraggiati. Poi, ad un orario variabile, entrano gli arabi. Ah, gli arabi. Uno si accorge che arrivano perché probabilmente non hanno mai imparato a parlare sottovoce. Cominciano ad andare a salutare le persone (gli arabi sono amici di tutti, ti salutano e stringono la mano anche se non li hai mai visti prima) fanno il giro dell'aula per guardare il codice di quelli che stanno programmando, valutano un po' l'atmosfera, poi se ne vanno. Non si sa dove. Forse nell'aula studio con i vetri (che forse ha un numero ma uno non lo sa, in gergo è così).
+Fisica II, Analisi II, Ingegneria Strutturale, Analisi I, Elettrotecnica, Fisiologia, Circuiti, Idrologia, Impianti Industriali, uno sbircia curioso con troppa indiscrezione e riesce a leggere alcuni dei libri furiosamente sfogliati dagli avanguardisti, che ogni tanto schiantano la propria schiena sullo schienale, sbuffando scoraggiati. Poi, ad un orario variabile, entrano gli arabi. Ah, gli arabi. Uno si accorge che arrivano perché probabilmente non hanno mai imparato a parlare sottovoce. Cominciano ad andare a salutare le persone (gli arabi sono amici di tutti, ti salutano e stringono la mano anche se non li hai mai visti prima) fanno il giro dell’aula per guardare il codice di quelli che stanno programmando, valutano un po’ l’atmosfera, poi se ne vanno. Non si sa dove. Forse nell’aula studio con i vetri (che forse ha un numero ma uno non lo sa, in gergo è così).
 
 Il bello è che uno può stare tutto il giorno gomito a gomito con una ragazza bellissima o con un programmatore fortissimo che sta creando un programma pazzesco e non scambia con loro nemmeno una parola. Zero. No, una forse. <q>È libero qui?</q> <q>Sì.</q> Fine.
 
-Sono così, gli ingegneri. Hanno questa malattia strana per cui possiedono l'etica e la rettitudine morale di un padre costituente, ma la socievolezza di Clint Eastwood in Gran Torino. Non fraintendiate, uno può conoscere mille persone e avere moltissimi legami in aula studio - anche se non è arabo - ma non potrà mai **farsi** degli amici, lì.
+Sono così, gli ingegneri. Hanno questa malattia strana per cui possiedono l’etica e la rettitudine morale di un padre costituente, ma la socievolezza di Clint Eastwood in Gran Torino. Non fraintendiate, uno può conoscere mille persone e avere moltissimi legami in aula studio - anche se non è arabo - ma non potrà mai **farsi** degli amici, lì.
 
-In questo mondo, uno ammira le penne agitarsi, come all'impazzata girano le rotelle di chi le impugna, dita esili e sicure digitare nugae dettate dall'esasperazione come:
+In questo mondo, uno ammira le penne agitarsi, come all’impazzata girano le rotelle di chi le impugna, dita esili e sicure digitare nugae dettate dall’esasperazione come:
 
 ```c
 printf("how tired are you from one to ten: ");
@@ -50,7 +50,7 @@ Forse non sono riuscito a raccontare poeticamente e con pathos come farei di sol
 
 Però forse riesco a buttare giù qualcosa ora:
 
-non esiste Festival di Sanremo, non esiste letteratura, non esistono strani pensieri effimeri ed astratti, per quanto profondi siano, non esistono velleità intellettuali di ogni sorta, nell'aula verde. Ci sono le emozioni concrete, la forza dello stare vicini, di conoscersi senza parlarsi, di rispettarsi senza squadrarsi. C'è compassione. Come la intende Schopenhauer, che stando sempre solo ha capito bene cosa vuol dire studiare insieme (anche se non necessariamente studiando la stessa cosa di un altro): la compassione del condividere le stesse tribolazioni, gli stessi dubbi, la stessa necessità di quel 18 che non salva nessun lavoro ma unicamente il proprio orgoglio.
+non esiste Festival di Sanremo, non esiste letteratura, non esistono strani pensieri effimeri ed astratti, per quanto profondi siano, non esistono velleità intellettuali di ogni sorta, nell’aula verde. Ci sono le emozioni concrete, la forza dello stare vicini, di conoscersi senza parlarsi, di rispettarsi senza squadrarsi. C’è compassione. Come la intende Schopenhauer, che stando sempre solo ha capito bene cosa vuol dire studiare insieme (anche se non necessariamente studiando la stessa cosa di un altro): la compassione del condividere le stesse tribolazioni, gli stessi dubbi, la stessa necessità di quel 18 che non salva nessun lavoro ma unicamente il proprio orgoglio.
 
 Alla fine uno perde minuti importanti di studio per condividere e scrivere di quello che vede, di quanto è felice di stare in un posto a cui non appartiene ma che lo affascina, e rischia di essere bocciato di Analisi perciò, dopo essersi concesso questa “pausetta” sarebbe bene che uno tornasse al lavoro.
 
@@ -63,8 +63,6 @@ Forse ha letto che uno ha scritto che si è addormentata.
 Fiuu, non c’è problema.
 
 C’è bisogno accada molto peggio perché due ingegneri sconosciuti si parlino.
-
-<br>
 
 ### Alcune note
 

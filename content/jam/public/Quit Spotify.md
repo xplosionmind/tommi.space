@@ -2,7 +2,6 @@
 date: 2020-11-07T01:00:00+01:00
 updated: 2022-07-17T19:04:08+02:00
 tags: geek
-image: https://tommi.space/jar/quit-spotify.jpg
 description: Thoughts and decisions about quitting Spotify
 aliases: Quitting Spotify
 redirect_from:
@@ -37,7 +36,7 @@ Reasons to quit Spotify:
 <br>
 
 <figure>
-	<img src='https://tommi.space/Spotify-close-account.jpg' title='repercussions of closing Spotify account' alt='repercussions of closing Spotify account'>
+	{% img 'Spotify-close-account.jpg', 'repercussions of closing Spotify account' %}
 	<figcaption>
 		Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.
 	</figcaption>

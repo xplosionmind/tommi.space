@@ -2,7 +2,7 @@
 	<div id='sconnesso' class='box'>
 		<a href='{{ sconnesso.url }}'>
 			<h2 class='title'>{% if lang == 'it' %}Il podcast {% endif %}<cite lang='it'>Sconnesso</cite></h2>
-			<img src='/sconnesso.webp' alt='Logo Sconnesso' title='Il logo di Sconnesso'>
+			{% img "sconnesso.webp", "Logo Sconnesso" %}
 		</a>
 		<p>{{ sconnesso.description | markdownify }}</p>
 		<div class='flex row'>

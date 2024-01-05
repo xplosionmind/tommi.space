@@ -2,7 +2,7 @@
 	{% assign endroits = places | where: 'city', city -%}
 	{%- for place in endroits -%}
 		<div class='vertical flex box'>
-		 {% if place.img != '' -%}<img src='{{ place.img }}' alt='{{ place.name }}'>{% endif%}
+			{% if place.img != '' -%}{% img place.img, place.name %}{% endif%}
 			<h3>{{ place.name }}</h3>
 			{% if place.description -%}
 				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>

@@ -5,8 +5,10 @@ tags: ['Inchiostro Digitale', 'photography']
 image: /2017-06-04-prima-di-scattare-pensa.jpg
 ---
 È un attimo, un istante fulmineo che può passare alla storia o può essere dimenticato 0.1 secondi dopo averlo scattato. È quell’immagine che hai rincorso per tutta la vita, è la perfezione, oppure è l’ennesima, sfocata e -forse- senza senso.
-<!--more-->
-<figure><img class='u-photo' title='renewable energy' alt='a streetlamp lit by sunlight' src='{{ image }}'></figure>
+
+<figure>
+	{% img image, 'a streetlamp lit by sunlight', 'u-photo' %}
+</figure>
 
 È il mondo della fotografia, dell’inquinamento visivo, come sarebbe opportuno chiamarlo. È molto, molto difficile -oggi- trovare uno scatto che impressioni, che ricorderemo sempre con le stesse emozioni o che ce ne susciterà di nuove ogni volta che la rivedremo.
 
@@ -28,10 +30,6 @@ Un gran pasticcio, ad essere sinceri. È molto facile ricevere dubbi o commenti 
 
 Scritte, scritte, scritte. Nulla di che. Le immagini ritornerebbero ad essere unicamente quelle che scattiamo noi, che vediamo alle mostre, o che possiamo toccare e sfogliare su libri fotografici. Le immagini tornerebbero ad essere quelle tangibili, quelle profonde, quelle create da qualcuno con un _purpose_, un sentimento che spinge loro a scattare per cercare di trasmetterlo e condividerlo. Guardare tante foto è sbagliato? No, nulla è sbagliato, nulla, quando si progredisce verso nuovi orizzonti della tecnologia e della società può essere del tutto compreso e difficile è discernere il corretto dall’errato. Ciò che occorre a tutti noi è la consapevolezza, il pensiero ricorrente, prima di premere il pulsante che scatterà una foto, prima di cominciare a sfogliare un album fotografico, prima di metterci in posa e sorridere, che quello che stiamo per fare abbia un motivo. Non dobbiamo fare foto perché vogliamo “fare una foto”, ma perché vogliamo immortalare un momento e con questo intrappolare un sentimento, l’istante che riempie di vita un ammasso colorato di pixels.
 
-<br>
-
-Tommaso Marmo – Ufficio Stampa Liceo G.D. Cassini Sanremo
-
-<br>
+---
 
 [articolo originale](https://www.rivieratime.news/prima-di-scattare-pensa '“Prima di scattare pensa„ su Inchiostro Digitale - RivieraTime')

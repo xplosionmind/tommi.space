@@ -42,7 +42,6 @@ Da questa pagina è possibile partire per navigare all’interno della Marmellat
 	{% for note in collections.jam %}
 		{% if note.data.main %}
 			<a class='box' href='{{ note.url }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
-				{% if thing.data.image != '/tommi.space.wip.webp' %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
 				<h3>{{ note.data.title }}</h3>
 				<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
 			</a>

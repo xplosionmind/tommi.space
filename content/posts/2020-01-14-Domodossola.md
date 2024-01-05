@@ -7,7 +7,7 @@ Ciò che di più bello c’è a Torino, il quattordici gennaio duemilaventi come
 
 E io, scrutando questo groviglio di contrasti, privo di colore se non al tramonto, continuando ad alzare lo sguardo, ancora a disagio per l’idea di non avere un orizzonte, incapace di vedere oltre palazzi angolosi e seri che gridano la loro monotonia nel vano tentativo di poter competere con la bidimensionalità del cielo, ecco, io rimango estasiato.
 
-Estasiato ed estenuato, estasiato ed estenuato dalla banale novità in cui io e altri squinternati sventurati ci siamo catapultati più per l'inerzia del “così funziona di solito” che per autentica volontà.
+Estasiato ed estenuato, estasiato ed estenuato dalla banale novità in cui io e altri squinternati sventurati ci siamo catapultati più per l’inerzia del “così funziona di solito” che per autentica volontà.
 
 Cosa c’è di nuovo in una città? Quale particolare fragranza di smog, quale sfumatura della scala dei grigi che la compongono, quale tram sferragliante trasforma questa nuova quotidianità universitaria in un’avventura?
 
@@ -33,13 +33,9 @@ Noi, che alcuni sono ingegneri e dovrebbero capire il mondo ed essere i primi a 
 
 E come treni, come <a href='https://youtu.be/5bW7m--WiWE' target='_blank'>SQUALI</a> non ci fermiamo, mai, solo per fare la spesa.
 
-<br>
+<figure>{% img image, 'alberi capillari in Corso Racconigi a Torino', 'u-photo' %}<figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
 
-<figure><img class='u-photo' src='{{ image }}' alt='alberi capillari in Corso Racconigi a Torino'><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
-
-<br>
-
-### Alcune note
+## Alcune note
 
 Chiedo perdono se non so più usare le virgole ma quelle che mancano se le è mangiate <a href='https://it.wikipedia.org/wiki/Un_amore_(romanzo)' target='_blank'>Dino Buzzati</a>.
 
@@ -49,7 +45,7 @@ Chiedo scusa anche queste parentesi. Siccome purtroppo mi sto sforzando di limit
 
 Allora, o leggete prima solo tutte le parentesi e poi leggete tutto il resto saltandole (ammesso che vi ricordiate il contenuto) oppure semplicemente di frase in frase le omettete e poi le leggete dopo. Io, logicamente, devo proprio metterle a metà e interrompere e troncare tutto, altrimenti si capirebbe ancora meno di così.
 
-Mi dispiace essermi dilungato così tanto ho disinstallato instagram e twitter e al massimo ogni tanto butto un occhio su Reddit ma questo è un po' l'unico sfogo che posso avere.
+Mi dispiace essermi dilungato così tanto ho disinstallato instagram e twitter e al massimo ogni tanto butto un occhio su Reddit ma questo è un po’ l’unico sfogo che posso avere.
 
 Già che ho tirato in mezzo Brunori, ricordo che le canzoni da ascoltare leggendo qui, o meglio, le canzoni della mia vita, sono sempre in <a href='https://open.spotify.com/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' target='blank'>questa playlist</a>.
 

@@ -30,7 +30,7 @@ I tirocinanti sono un manipolo di saltellanti ~ventunenni che adorano stare fra 
 In particolare, alcuni giorni fa, una ventina di loro, provenienti della [zona di Mestre](https://www.facebook.com/agescizonamestre/ 'Pagina Facebook della zona AGESCI Mestre') (e dintorni) si sono riuniti a San Lorenzo, la parrocchia del Duomo di Mestre.
 
 <figure>
-  <img src='{{ image }}' alt='Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo' title='I partecipanti al CFT della zona di Mestre a settembre 2021'>
+  {% img image, 'Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo', 'u-photo' %}
   <figcaption>I partecipanti al CFT della zona di Mestre a settembre 2021</figcaption>
 </figure>
 
@@ -38,17 +38,13 @@ Questi squinternati immortalati nella foto qui sopra, fra cui —per loro sventu
 Sono stato contento di avere stretto il rapporto con i mitici Fede ed Enrico, miei “omologhi” nel [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'pagina Facebook del gruppo Mira 1'), il gruppo la cui [<abbr title='Comunità Capi'>Co.Ca.</abbr>](https://it.wikipedia.org/wiki/Comunit%C3%A0_Capi '“Comunità Capi„ su Wikipedia') mi ha accolto alcuni mesi fa, dopo la mia partenza dal [*Costa Balenae*](https://m.facebook.com/Agesci-Costabalenae-484902901713104/ 'Pagina Facebook del gruppo Costa Balenae'), di conoscere Maria e Chiara, nostre “omologhe” nel [Mira 2](https://agescimiradue.altervista.org/ 'sito web del gruppo Mira 2'), ma soprattutto felice di condividere esperienze, dubbi e soddisfazioni con altri simpatici ragazzi molto più in gamba di me.
 
 <figure>
-  <img class='u-photo' src='/2021-09-19-promesse.jpg' alt='Foto dei nostri diversi fazzolettoni appesi tutti insieme' title='i nostri diversi fazzolettoni appesi tutti insieme'>
+  {% img '/2021-09-19-promesse.jpg', 'Foto dei nostri diversi fazzolettoni appesi tutti insieme' %}
   <figcaption>Per tre giorni siamo stati una comunità: abbiamo appeso da una parte tutte le nostre diverse e colorate promesse e ne abbiamo indossato una nuova, che ci univa tutti sotto uno stesso colore, casualmente praticamente identico a quello della camicia.</figcaption>
 </figure>
 
 Passare ore sotto lo stesso tetto non per sé, ma per <q>fare del proprio meglio per essere pronti a servire</q> altri, rende ancora più magico il valore dell’incontrarsi. Imparare e crescere non per fini personali, ma per essere un riferimento esemplare per più piccoli (nemmeno troppo) nella fase più confusa della propria vita è qualcosa che sono orgoglioso di aver fatto e di continuare a voler fare.
 
-<br>
-
 ---
-
-<br>
 
 Essere scout è uno stile di vita. Per quanto possa sembrare cliché e naturale, significa avere stile, il *vero* stile, quello che con orgoglio chiamiamo ***lo stile scout*** (e non [*L’Ostile Scout*](https://www.lostilescout.it/ 'L’Ostile Scout')). Vivere da scout significa incarnare tre fondamentali valori:
 - il servizio;

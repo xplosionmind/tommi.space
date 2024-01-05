@@ -6,7 +6,7 @@ description: La mia inimitabile soffitta da sogno, affacciata sul mare di Riva L
 location: Xplosion Attic
 toc: false
 lang: it
-image: https://tommi.space/xplosion-attic.webp
+image: /xplosion-attic.webp
 main: true
 ---
 Sin da quando avevo 10 anni sognavo di trasferire la mia cameretta nella soffitta della mia casa a Riva Ligure, dove sono cresciuto. Riuscii a convincere i miei genitori ad appena 16 anni, mentre solamente nel *lockdown* del fui in grado di trasformarla in uno spazio veramente **mio**, costruendo le mie amate <cite>[[Gianna]]</cite> e <cite>[[Aida]]</cite>.
@@ -14,6 +14,6 @@ Sin da quando avevo 10 anni sognavo di trasferire la mia cameretta nella soffitt
 Purtroppo le immagini testimoni dell’evoluzione di <cite>Xplosion Attic</cite> negli anni si sono smarrite fra miriadi di files e traumatici [*data loss*](https://tommi.space/storage#data-loss 'Narrazione dei miei data loss').
 
 <figure>
-	<img src='https://tommi.space/xplosion-attic.webp' alt='un’immagine della soffitta in una giornata di Sole' title='ma quanto è bella'>
+	{% img image, 'Un’immagine della soffitta in una giornata di Sole' %}
 	<figcaption><cite>Xplosion Attic</cite> a seguito dell’ultima riorganizzazione in soffitta, a maggio 2020</figcaption>
 </figure>

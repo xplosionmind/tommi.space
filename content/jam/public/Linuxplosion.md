@@ -3,20 +3,21 @@ date: 2021-01-20T16:55:39+01:00
 updated: 2023-11-05T21:49:24+01:00
 aliases:
   - Linux Workstation
-tags: [geek]
-image: https://tommi.space/2019-08-05-linuxplosion-2.jpg
-description:
-  Linuxplosion is my awesome workstation, which I assembled in 2019 to edit a short movie. Now, I use it for my heaviest computing tasks, such as video editing or image processing.
+tags:
+  - geek
+image: /2019-08-05-linuxplosion-2.jpg
+description: Linuxplosion is my awesome workstation, which I assembled in 2019 to edit a short movie. Now, I use it for my heaviest computing tasks, such as video editing or image processing.
 toc: false
 ---
 The original fundamental purpose of building <cite>Linuxplosion</cite> was editing [Everyone](https://tommi.space/everyone 'Everyone'). Some computerphiles friends joined me in finding the best components to use, as well as in assembling the computer. In particular, a huge shout-out to my friend Giorgio, who had the patience of bearing with me during all of the assembling process.
 
 <figure>
-	<img src='https://tommi.space/2019-08-05-linuxplosion-1.jpg' alt='Giorgio inserting a component of the PC into the case' title='Giorgio inserting a component of the PC into the case'>
+	{% img '2019-08-05-linuxplosion-1.jpg', 'Giorgio inserting a component of the PC into the case' %}
 </figure>
 
 <figure>
-	<img src='https://tommi.space/2019-08-05-linuxplosion-2.jpg' alt='The CPU cooler and the graphic card in evidence on the left side of the case' title='The CPU cooler and the graphic card in evidence on the left side of the case'>
+	{% img image, 'The CPU cooler and the graphic card in evidence on the left side of the case' %}
+	<figcaption>The CPU cooler and the graphic card in evidence on the left side of the case</figcaption>
 </figure>
 
 I worked as a plumber all of August 2019 to buy it, and it has definitely been worth it. We finished assembling it the 5<sup>th</sup> of August.

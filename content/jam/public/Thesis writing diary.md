@@ -14,11 +14,3 @@ In a sort of ephiphanic miracle, laying down and visualizing together all of my 
 
 Of course I still have many question marks, I fear I have too much stuff and I need to get more specific, but it makes me so relieved and committed to have a general scheme, a loose outline of the thesis' flow.
 
-<figure class='half column'>
-	<img src='https://tommi.space/thesis-poster-blank.webp' alt='a photo of the blank poster'>
-	<figcaption>Before</figcaption>
-<figure>
-<figure class='half column'>
-	<img src='https://tommi.space/thesis-poster-filled.webp' alt='a photo of the blank poster'>
-	<figcaption>After one hour of mental wandering</figcaption>
-<figure>

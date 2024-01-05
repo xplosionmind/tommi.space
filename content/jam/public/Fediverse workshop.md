@@ -43,21 +43,16 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 
 ## Script
 
-0. Introductions and ice-breaker
-1. Split the poster/whiteboard in two parts, where each person could freely write:
+1. Introductions and ice-breaker
+2. Split the poster/whiteboard in two parts, where each person could freely write:
 	- what I like about social media
 	- what I do not like about social media
-2. Centralization and rope game: the host impersonates the centralized social network, distributing a portion of the rope to each person sitting in the circle. They do so while remaining the unique connection among the participants. Each person should hold in their hands a part of the rope, and the host the only mediator at the center of all the connections the rope creates. At this point, the host should ask to a person to secretly tell or write them a controversial statement. The host should share with the rest of the group a distorted version of the message, proving how the centralized node hs complete unconditional control on all the conversations happening in the network.
-3. Explaining what the Fediverse is and how it is different from centralized mainstream social media.
-4. Decentralization and rope game: use the same rope to create a peer-to-peer network, where every user is directly connected to all the others. If a more accurate and complex representation of the Fediverse is to be enacted, the cardboard notes should be connected as a decentralized network, while small sub-groups of participants are connected in a centralized way to a node of their choice. In this case, further operations in the Fediverse could be enacted.
+3. Centralization and rope game: the host impersonates the centralized social network, distributing a portion of the rope to each person sitting in the circle. They do so while remaining the unique connection among the participants. Each person should hold in their hands a part of the rope, and the host the only mediator at the center of all the connections the rope creates. At this point, the host should ask to a person to secretly tell or write them a controversial statement. The host should share with the rest of the group a distorted version of the message, proving how the centralized node hs complete unconditional control on all the conversations happening in the network.
+4. Explaining what the Fediverse is and how it is different from centralized mainstream social media.
+5. Decentralization and rope game: use the same rope to create a peer-to-peer network, where every user is directly connected to all the others. If a more accurate and complex representation of the Fediverse is to be enacted, the cardboard notes should be connected as a decentralized network, while small sub-groups of participants are connected in a centralized way to a node of their choice. In this case, further operations in the Fediverse could be enacted.
 	- Migrating to another instance
 	- Defederating another instance
-5. As the conclusion, go back to what was written on the poster/whiteboard at the beginning of the workshop, and reason collectively on if and how the pros and cons of centralized social media relate to the Fediverse.
-
-<figure>
-	<img alt='A red rope composing a p2p network' src='/gomitolo_dweb.jpg'>
-	<figcaption>Decentralized rope game being played during <a href='https://scambi.org/en'>Scambi Festival 2023</a></figcaption>
-</figure>
+6. As the conclusion, go back to what was written on the poster/whiteboard at the beginning of the workshop, and reason collectively on if and how the pros and cons of centralized social media relate to the Fediverse.
 
 ## When
 

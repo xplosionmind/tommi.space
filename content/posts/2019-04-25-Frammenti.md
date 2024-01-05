@@ -5,7 +5,10 @@ image: /barcelona-montjuic-pose.webp
 ---
 Alla fine mi trovo sempre a scrivere, fra l’altro di cose di poco conto e riflessioni personalissime prive di fondamento concreto o oggettivo, nei momenti in cui ciò di cui tratto più mi manca. Meglio: scrivo di tutto quello che vorrei sistemare nella mia bellissima, fortunata, peraltro confusa, scombussolata ed incerta vita solo nei periodi in cui la sua confusione è massima. In pratica, butto giù due parole per me, per confortarmi, per dimostrarmi che anche se non combino un fico secco a **blaterare** e fare bella figura sono ancora in grado.
 
-<figure><img class='u-photo' src='{{ image }}' alt='una persona che fa una foto a un’altra persona da un punto lontano'><figcaption>Non c’è nulla di più frammentato di due persone che fanno una foto allo stesso tipo in posa. Montjuic Castle, Barcellona, aprile 2019</figcaption></figure>
+<figure>
+	{% img image, 'Una persona che fa una foto a un’altra persona da un punto lontano', 'u-photo' %}
+	<figcaption>Non c’è nulla di più frammentato di due persone che fanno una foto allo stesso tipo in posa. Montjuic Castle, Barcellona, aprile 2019</figcaption>
+</figure>
 
 Poi, alla fine, per trasformare questi minuti persi a digitare assurde teorie (di nuovo: che nella maggior parte dei casi non hanno alcun fondamento al di fuori della mia esistenza) le rovescio nel mio blog, così, perché pensare che scrivo su un “mio blog” mi fa trovare qualcosa di unico, speciale o migliore rispetto ad altri, quando invece **non c’è**.
 
@@ -30,7 +33,7 @@ la frammentazione della vita di adesso è l’eroina negli anni ’80. Io non c�
 
 Ci sono tre fondamentali differenze, però:
 
-1. Per quanto problematica possa essere, la frammentazione non sarà mai una droga o paragonabile all’eroina; io mi sto allarmando della situazione sociale che scaturisce dall'incapacità individuale di **concentrazione**, non la dipendenza patologica da una sostanza terribile.
+1. Per quanto problematica possa essere, la frammentazione non sarà mai una droga o paragonabile all’eroina; io mi sto allarmando della situazione sociale che scaturisce dall’incapacità individuale di **concentrazione**, non la dipendenza patologica da una sostanza terribile.
 2. Chi si faceva (e si fa) di eroina, una volta era un emarginato, un poveraccio, uno che a stento si reggeva in piedi e veniva purtroppo abbandonato a sé stesso; ora, più uno frammenta la sua vita, più è **normale**: è normale controllare ogni tre secondi i messaggi, è normale avere mille cose contemporaneamente nella testa, è un **pregio** essere **multitasking**. Intendo dire che oggi stiamo accettando come normale una situazione allarmante. Perché?
 3. Perché quella della frammentazione è una dipendenza **subdola**, un sintomo che ha effetto non palesandosi, ma insinuandosi nella quotidianità, e alla lunga prendendo il suo posto.
 

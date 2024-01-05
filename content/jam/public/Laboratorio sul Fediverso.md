@@ -55,11 +55,6 @@ Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella ver
 	- Esempio di defederazione
 5. In conclusione, riprendere quanto scritto sul cartellone all’inizio del laboratorio e verificare partecipativamente come le cose belle e le cose brutte dette sui social network mainstream funzionino invece nel Fediverso.
 
-<figure>
-	<img alt='Un gomitolo rosso che compone un network peer-to-peer di persone sedute in cerchio' src='/gomitolo_dweb.jpg'>
-	<figcaption>Persone sedute in cerchio formano un network peer-to-peer con gomitolo rosso <a href='https://scambi.org'>Scambi Festival 2023</a></figcaption>
-</figure>
-
 ## Quando
 
 Occasioni in cui ho svolto il laboratorio:

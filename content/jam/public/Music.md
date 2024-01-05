@@ -4,7 +4,7 @@ updated: 2022-04-04T19:43:02+02:00
 tags: music
 main: true
 description: Insights about music when made, played, or listened
-image: https://tommi.space/cubo-guitar.webp
+image: /cubo-guitar.webp
 ---
 <div class='blue box'>
 	The soundtrack of my existence is in <cite>[[Xplosion Music]]</cite>.
@@ -24,7 +24,7 @@ While suggestions Spotify or its similars advance are [based on calculus and emo
 ## Playing
 
 <figure>
-	<img src='https://tommi.space/cubo-guitar.webp' alt='An image of me playing the guitar'>
+	{% img image, 'An image of me playing the guitar' %}
 	<figcaption>During my 18<sup>th</sup> birthday at [[Il Cubo]] I was pretending to know how to play a guitar in a very embarrassing situation</figcaption>
 </figure>
 

@@ -41,7 +41,7 @@ rel: places
 	{% for place in places %}
 		<div class='vertical flex'>
 			<div class='vertical flex box'>
-				{% if place.img != '' %}<img src='{{ place.img }}' alt='{{ place.name }}'>{% endif %}
+				{% if place.img != '' %}{% img place.img, place.name %}{% endif %}
 				<h3>{{ place.name }}</h3>
 				{% if place.city != '' %}
 					<h4>{{ place.city }}</h4>

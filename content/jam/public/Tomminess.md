@@ -62,7 +62,7 @@ Occasionally, friends of mine I have not been in touch with for quite some time 
 	<a href='{{ p.url }}'>
 		<figure>
 			{% if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
-			{% if p.image != '' -%}<img src='{{ p.image }}' title='Tommi come {{ p.name }}'>{% endif -%}
+			{% if p.image != '' -%}{% img p.image, p.name %}{% endif -%}
 			{% if p.description != '' -%}<figcaption>{{ p.description | markdownify }}</figcaption>{% endif -%}
 		</figure>
 	</a>

@@ -9,7 +9,9 @@
 			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' class='written red button'>{% if lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
 		</div>
 		<div class='half column vertical flex'>
-			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}'><img src='{{ post.data.image }}' alt='{{ post.data.title }}' title='{{ post.data.title }}'></a>
+			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}'>
+				{% img post.data.image, post.data.title %}
+			</a>
 		</div>
 	</section>
 {% endfor %}
