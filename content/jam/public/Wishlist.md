@@ -1,35 +1,40 @@
 ---
 date: 2020-07-17
 updated: 2023-07-16T11:59:29+02:00
-redirect_from: [/desideri/,/regali/]
+redirect_from:
+  - /desideri/
+  - /regali/
 image: https://tommi.space/wishlist.svg
 toc: false
 description: Stuff I need and things I just would love to have
 main: true
-tag: track
+tags:
+  - track
+aliases:
+  - Desideri
+  - Regali
 ---
 <div class='yellow box'>
-	Items are sorted in order of urgency and need. Things at the top are the ones I need to buy ASAP
+	Items are sorted in order of urgency and need.
 </div>
 
 1. Microfono ad archetto
-3. Sound card (Focusrite Scarlett 2i2)
-4. Studio microphone
-5. Backlight to scan negatives
-6. Thermometer for high temperatures designed for photographic development
-8. [Compact point-and-shoot camera](https://wired.com/gallery/best-compact-cameras 'Best compact camerad on WIRED')
-9. Watertight bag
-11. Elgato Cam Link
-12. Ski mask
-13. Snowboard boots
-14. Radio Amateur Rig
-15. Full Frame mirrorless camera
-16. Green Screen
-17. Polaroid camera
-19. Snowboard
-20. Wetsuit
-21. Surf board
-22. ¾ guitar
+2. Sound card (Focusrite Scarlett 2i2)
+3. Studio microphone
+4. Backlight to scan negatives
+5. Thermometer for high temperatures designed for photographic development
+6. [Compact point-and-shoot camera](https://wired.com/gallery/best-compact-cameras 'Best compact camerad on WIRED')
+7. Watertight bag
+8. Ski mask
+9. Snowboard boots
+10. Radio Amateur Rig
+11. Full Frame mirrorless camera
+12. Green Screen
+13. Polaroid camera
+14. Snowboard
+15. Wetsuit
+16. Surf board
+17. ¾ guitar
 
 ## Always welcomed gifts
 
