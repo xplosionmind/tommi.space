@@ -1,0 +1,21 @@
+{% capture buildTime %}{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}{% endcapture %}
+{% assign introPrinted = '0' %}
+
+{% for event in giri %}
+	{% if event.end >= buildTime %}
+		{% if introPrinted == '0' %}
+			<section id='upcoming' class='center'>
+			<h2 class='title'>{% if lang == 'it' %}Prossimi eventi{% else %}Upcoming events{% endif %}</h2>
+			<div class='flex row'>
+			{% assign introPrinted = '1' %}
+		{% endif %}
+		<div class='border box'>
+			<h4>{{ event.title }}</h4>
+		<p>{% if event.location %}{{ event.location }}, {% endif %}{% if event.start %}<time datetime='{{ event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.start | date: '%-d %B %Y' }} - {% endif %}<time datetime='{{ event.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.end | date: '%-d %B %Y' }}<time></p>
+		</div>
+	{% endif %}
+	{% if forloop.last == true and introPrinted == '1' %}
+		</div></section>
+		{% assign introPrinted = '2' %}
+	{% endif %}
+{% endfor %}
