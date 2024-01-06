@@ -34,7 +34,7 @@ sitemap:
 
 <div class='box row'>
 	<div class='half column vertical flex'>
-		<img src='/2019-08-30-squali-consapevoli.jpg' alt='a snaphot of of the final frames of the movie' title='romantic finale'>
+		{% img '2019-08-30-squali-consapevoli.jpg', 'a snaphot of of the final frames of the movie' %}
 	</div>
 	<div class='half column vertical flex'>
 		<h2>Some thoughts from the director</h2>
@@ -51,7 +51,7 @@ sitemap:
 
 <div class='box row'>
 	<div class='one-third column vertical flex'>
-		<img src='/everyone-shirt-1.webp' title='the best sleeping shirt' alt='a photo of a girl in Everyone shirt'>
+		{% img 'https://live.staticflickr.com/65535/48707603012_fe0d45e19c_h.jpg', 'a photo of a girl in Everyone shirt' %}
 	</div>
 	<div class='one-third column vertical flex'>
 		<h2>Everyone shirt</h2>
@@ -59,7 +59,7 @@ sitemap:
 		<a href='{{ site.encoded_mailto }}?subject=PURCHASE-EVERYONE-SHIRT' target='_blank' class='written button'>Order Now</a>
 	</div>
 	<div class='one-third column vertical flex'>
-		<img src='/everyone-shirt-2.webp' title='the best sleeping shirt' alt='a photo of a girl in Everyone shirt'>
+		{% img 'https://live.staticflickr.com/65535/49863476997_7248e8202e_h.jpg', 'a photo of a girl in Everyone shirt' %}
 	</div>
 </div>
 
@@ -69,31 +69,45 @@ sitemap:
 	</div>
 </div>
 
-<div class='flex row'>
-	<img class='mosaic' src='/everyone-bizzarri.webp' title='Everyone with Luca Bizzarri' alt='a photo of Luca Bizzarri holding Everyone’s shirt'>
-	<img class='mosaic' src='/everyone-catalano.webp' title='Everyone with Guido Catalano' alt='a photo of Guido Catalano holding Everyone’s shirt'>
-	<img class='mosaic' src='/everyone-calabresi.webp' title='Everyone with Mario Calabresi' alt='a photo of Mario Calabresi holding Everyone’s shirt'>
-</div>
-<div class='flex row'>
-	<img class='mosaic' src='/everyone-baricco.webp' title='Everyone with Alessandro Baricco' alt='a photo of Alessandro Baricco holding Everyone’s shirt'>
-	<img class='mosaic' src='/everyone-severgnini.webp' title='Everyone with Beppe Severgnini' alt='a photo of Beppe Severgnini holdin Everyone’s shirt'>
-	<img class='mosaic' src='/everyone-giletti.webp' title='Everyone with Massimo Giletti' alt='a photo of Massimo Giletti holding Everyone’s shirt'>
-</div>
-<div class='flex row'>
-	<img class='mosaic' src='/everyone-veltroni.webp' title='Everyone with Walter Veltroni' alt='a photo of Walter Veltroni holding Everyone’s shirt'>
-	<img class='mosaic' src='/everyone-odifreddi.webp' title='Everyone with Piergiorgio Odifreddi' alt='a photo of Piergiorgio Odifreddi holding Everyone shirt'>
-	<img class='mosaic' src='/everyone-desilva.webp' title='Everyone with Amleto De Silva' alt='a photo of Amleto De Silva holding Everyone’s shirt'>
+<div class='flex mosaic row'>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863177766_dc6eff91aa_b.jpg', 'A photo of Luca Bizzarri holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743498842_9b7573b4a7_h.jpg', 'A photo of Guido Catalano holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743119228_58a188fde2_b.jpg', 'A photo of Mario Calabresi holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743382471_8e6b93a8e8_b.jpg', 'A photo of Alessandro Baricco holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743387051_e657e2ac5e_c.jpg', 'A photo of Beppe Severgnini holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863233411_899ec3f5ee_h.jpg', 'A photo of Massimo Giletti holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743563042_48fd8e57d1_b.jpg', 'A photo of Walter Veltroni holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863511427_1eed273bb5_b.jpg', 'A photo of Piergiorgio Odifreddi holding the shirt with the “I am Everyone” writing' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863508277_1385cb1d3d_b.jpg', 'A photo of Amleto De Silva holdin Everyone’s shirt' %}
+	</figure>
 </div>
 
 <div class='row'>
 	<div class='one column flex'>
-		<img src='/everyone-on-set.jpg' alt='a shot of the crew on set' title='on set'>
+		{% img '/everyone-on-set.jpg', 'a shot of the crew on set' %}
 	</div>
 </div>
 
 <div id='imdb' class='box row'>
 	<div class='half column vertical flex'>
-		<img src='/everyone-imdb.webp' title='Everyone poster' alt='Everyone poster'>
+		{% img '/everyone-imdb.webp', 'Everyone poster' %}
 	</div>
 	<div class='half column vertical flex'>
 		<h2>We’re not serious, but we try to look so</h2>

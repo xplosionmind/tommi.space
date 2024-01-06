@@ -36,7 +36,7 @@ sitemap:
 
 <div class='box row'>
 	<div class='half column vertical flex'>
-		<img src='/2019-08-30-squali-consapevoli.jpg' alt='un fotogramma della scena finale del cortometraggio' title='romantico finale in pigiama'>
+		{% img '/2019-08-30-squali-consapevoli.jpg', 'Un fotogramma della scena finale del cortometraggio' %}
 	</div>
 	<div class='half column vertical flex'>
 		<h2>Alcuni pensieri (aka film mentali)</h2>
@@ -52,7 +52,7 @@ sitemap:
 
 <div class='box row'>
 	<div class='one-third column vertical flex'>
-		<img src='/everyone-shirt-1.webp' title='the best sleeping shirt' alt='una foto di a girl in Everyone shirt'>
+		{% img 'https://live.staticflickr.com/65535/48707603012_fe0d45e19c_h.jpg', 'Una foto di a girl in Everyone shirt' %}
 	</div>
 	<div class='one-third column vertical flex'>
 		<h2 class='thing-title'>Magliette di Everyone</h2>
@@ -60,7 +60,7 @@ sitemap:
 		<a href='{{ site.encoded_mailto }}?subject=Acquisto-maglietta-everyone' target='_blank' class='written button'>Ordina ora</a>
 	</div>
 	<div class='one-third column vertical flex'>
-		<img src='/everyone-shirt-2.webp' title='la miglior maglietta del pigiama' alt='una foto di una ragazza con la maglietta di Everyone'>
+		{% img 'https://live.staticflickr.com/65535/49863476997_7248e8202e_h.jpg', 'Una foto di una ragazza con la maglietta di Everyone' %}
 	</div>
 </div>
 
@@ -70,31 +70,45 @@ sitemap:
 	</div>
 </div>
 
-<div class='flex row'>
-	<img class='mosaic' src='/everyone-bizzarri.webp' title='Everyone con Luca Bizzarri' alt='una foto di Luca Bizzarri con la maglietta di Everyone'>
-	<img class='mosaic' src='/everyone-catalano.webp' title='Everyone con Guido Catalano' alt='una foto di Guido Catalano con la maglietta di Everyone'>
-	<img class='mosaic' src='/everyone-calabresi.webp' title='Everyone con Mario Calabresi' alt='una foto di Mario Calabresi con la maglietta di Everyone'>
-</div>
-<div class='flex row'>
-	<img class='mosaic' src='/everyone-baricco.webp' title='Everyone con Alessandro Baricco' alt='una foto di Alessandro Baricco con la maglietta di Everyone'>
-	<img class='mosaic' src='/everyone-severgnini.webp' title='Everyone con Beppe Severgnini' alt='una foto di Beppe Severgnini holdin Everyone’s shirt'>
-	<img class='mosaic' src='/everyone-giletti.webp' title='Everyone con Massimo Giletti' alt='una foto di Massimo Giletti con la maglietta di Everyone'>
-</div>
-<div class='flex row'>
-	<img class='mosaic' src='/everyone-veltroni.webp' title='Everyone con Walter Veltroni' alt='una foto di Walter Veltroni con la maglietta di Everyone'>
-	<img class='mosaic' src='/everyone-odifreddi.webp' title='Everyone con Piergiorgio Odifreddi' alt='una foto di Piergiorgio Odifreddi con la maglietta di Everyone'>
-	<img class='mosaic' src='/everyone-desilva.webp' title='Everyone con Amleto De Silva' alt='una foto di Amleto De Silva holdin Everyone’s shirt'>
+<div class='flex mosaic row'>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863177766_dc6eff91aa_b.jpg', 'Una foto di Luca Bizzarri con la maglietta di Everyone' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743498842_9b7573b4a7_h.jpg', 'Una foto di Guido Catalano con la maglietta di Everyone' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743119228_58a188fde2_b.jpg', 'Una foto di Mario Calabresi con la maglietta di Everyone' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743382471_8e6b93a8e8_b.jpg', 'Una foto di Alessandro Baricco con la maglietta di Everyone' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743387051_e657e2ac5e_c.jpg', 'Una foto di Beppe Severgnini holdin Everyone’s shirt' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863233411_899ec3f5ee_h.jpg', 'Una foto di Massimo Giletti con la maglietta di Everyone' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/48743563042_48fd8e57d1_b.jpg', 'Una foto di Walter Veltroni con la maglietta di Everyone' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863511427_1eed273bb5_b.jpg', 'Una foto di Piergiorgio Odifreddi con la maglietta di Everyone' %}
+	</figure>
+	<figure>
+		{% img 'https://live.staticflickr.com/65535/49863508277_1385cb1d3d_b.jpg', 'Una foto di Amleto De Silva holdin Everyone’s shirt' %}
+	</figure>
 </div>
 
 <div class='row'>
 	<div class='one column flex'>
-		<img src='/everyone-on-set.jpg' alt='a shot of the crew on set' title='on set'>
+		{% img 'everyone-on-set.jpg', 'a shot of the crew on set' %}
 	</div>
 </div>
 
 <div id='imdb' class='box row'>
 	<div class='half column vertical flex'>
-		<img src='/everyone-imdb.webp' title='Everyone artwork' alt='Everyone artwork'>
+		{% img 'everyone-imdb.webp', 'Everyone artwork' %}
 	</div>
 	<div class='half column vertical flex'>
 		<h2 class='thing-title'>Non siamo gente seria, ma fingiamo di esserlo</h2>
