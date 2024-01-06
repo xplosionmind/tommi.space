@@ -35,12 +35,5 @@ gli domando
 una sceneggiatura di vita  
 mi dice.
 
-<br>
-<br>
-
-T
-
-<br>
-<br>
-
 *ispirato a fatti realmente accaduti (il dialogo con Vlad, intendo, non la sceneggiatura. Quella figuriamoci)*
+

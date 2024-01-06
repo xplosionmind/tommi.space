@@ -25,7 +25,3 @@ ma me lo chiederai tu
 perché ti sembrerà troppo bello  
 per essere vero
 
-<br>
-<br>
-
-T

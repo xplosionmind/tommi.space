@@ -22,6 +22,3 @@ io guardavo loro
 poi la mamma mi ha chiamato  
 e ho smesso di giocare con i LEGO.
 
-<br>
-
-T

@@ -31,8 +31,4 @@ blu
 o forse  
 vorrei proprio essere lui  
 e farmi dedicare una poesia.
-
-<br>
-<br>
-
-T 
+ 

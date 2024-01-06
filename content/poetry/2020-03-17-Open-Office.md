@@ -26,7 +26,3 @@ temere, rischiare
 di scomparire  
 e non tornare più.
 
-<br>
-<br>
-
-T
