@@ -1,12 +1,12 @@
 <header>
-	<a id='home' href='{% if lang == 'it' %}/tuffo{% else %}/home{% endif %}' title='home'>Tommi Space</a>
+	<a id='home' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/' title='home'>Tommi Space</a>
 	<nav id='nav'>
 		<input type='checkbox' id='menutoggle'>
 		<menu>
 			<li {% if current == '/tuffo/' or current == '/home/' %}class='current'{% endif %}><a href={% if lang == 'it' %}'/tuffo'{% else %}'/home'{% endif %} title='Homepage'>Intro</a></li>
-			<li {% if current == '/ora/' or current == '/now/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/ora' title='Ciò che sto facendo'>Ora{% else %}<a href='/now' title='What I am doing'>Now{% endif %}</a></li>
-			<li {% if current == '/zibaldone/' or current == '/zibenglish/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/zibaldone' title='Blog'>Zibaldone{% else %}<a href='/zibenglish' title='Zibaldone'>Blog{% endif %}</a></li>
-			<li {% if current == '/marmellata/' or current == '/jam/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/marmellata' title='La Marmellata'>Marmellata{% else %}<a href='/jam' title='The Jam'>The Jam{% endif %}</a></li>
+			<li {% if current == '/ora/' or current == '/now/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/ora/' title='Ciò che sto facendo'>Ora{% else %}<a href='/now/' title='What I am doing'>Now{% endif %}</a></li>
+			<li {% if current == '/zibaldone/' or current == '/zibenglish/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/zibaldone/' title='Blog'>Zibaldone{% else %}<a href='/zibenglish/' title='Zibaldone'>Blog{% endif %}</a></li>
+			<li {% if current == '/marmellata/' or current == '/jam/' %}class='current'{% endif %}>{% if lang == 'it' %}<a href='/marmellata/' title='La Marmellata'>Marmellata{% else %}<a href='/jam/' title='The Jam'>The Jam{% endif %}</a></li>
 		</menu>
 	</nav>
 </header>
