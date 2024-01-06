@@ -549,12 +549,14 @@ figcaption {
 }
 
 .poetry {
+	min-height: 100vh;
 	background: var(--yellow);
 	--text: var(--black-ish) !important;
 	--tiny-shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22 !important;
 	color: var(--black-ish);
-	.one {
-		padding-bottom: 6vh;
+	padding: 5vw;
+	.intro {
+		max-width: 500px;
 	}
 	a {
 		color: var(--dark-blue) !important;
@@ -564,13 +566,11 @@ figcaption {
 		list-style-type: none;
 	}
 	h1 {
-		margin: 0 15vh root.$bigger;
-		padding-top: root.$bigger;
+		margin: 0;
 		text-align: left;
 	}
-	code {
-		box-shadow: none;
-		padding: none;
+	article {
+		margin: 0;
 	}
 }
 
@@ -1092,7 +1092,7 @@ img.button {
 	}
 	.poetry {
 		h1 {
-			margin: 0 3vw root.$bigger;
+			font-size: root.$bigger;
 		}
 	}
 }
