@@ -1,20 +1,21 @@
 ---
-tags: log
-aliases: Cose extended, Tutte le cose, Stuff extended, Di tutto e di più, Done, Fatto
-lang: it
-redirect_from: [/everything/]
+aliases: Everything I do
+tags:
+  - log
+  - draft
+redirect_from: [/everything/, /cose/, /stuff/, /giri/]
 main: true
-description: Un archivio di (quasi) tutte le cose che faccio e che ho fatto, in ordine cronologico e inverso
 toc: false
+description: A messy archive of things I have done, am doing, and will do.
 ---
 <p>{{ description }}</p>
 
 <div class='yellow box'>
-Alcuni link fra i seguenti potrebbero essere protetti da password oppure non aggiornati. Se aveste bisogno di accedere a contenuti privati, <address><a class='u-email' href='mailto:surfing@tommi.space' rel='me' title='Scrivimi un’email'>scrivetemi</a></address>.
+	<p>This page and <a href='{{ site.source }}/src/branch/main/data/tutto.json' >the dataset it is based on</a> are being <strong>heavily refactored</strong>. Sorry if everything is particularly confused around here. By Summer 2024, I hope find enough time to finally code and arrange everything.</p>
 </div>
 
 <ul>
-	{% assign tutto = tutto | where: "stuff", nil | sort: 'end' | reverse %}
+	{% assign tutto = tutto | sort: 'end' | reverse %}
 	{% for cosa in tutto %}
 		<li id='{{ cosa.title | slugify }}-{{ cosa.end | date: '%Y' }}'>
 			{% if cosa.url %}
@@ -48,9 +49,3 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 	{% endfor %}
 </ul>
 
-<br>
-<br>
-
-<h2>Spettatore</h2>
-
-Tengo traccia di tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante, in <a href='/giri' title='Giri'><em>Giri</em></a>.
