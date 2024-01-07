@@ -18,7 +18,16 @@ sitemap:
 </div>
 
 {% render 'about.html', lang: lang, site: site %}
-{% render 'upcoming.liquid', lang: lang, giri: giri %}
+
+<div class='row'>
+	<div class='one column'>
+		<section id='meet' class='center blue box'>
+			<h2 class='title'>Incontriamoci!</h2>
+			<p>Sono sempre molto felice di conoscere persone nuove, soprattutto se trasformando un contatto virtuale in un incontro. In questo periodo sono di base a Berlino, non esitare a contattarmi se fossi nei paraggi!</p>
+			{% render 'upcoming.liquid', lang: lang, tutto: tutto %}
+		</section>
+	</div>
+</div>
 
 <div class='row'>
 	{% render 'quitsocialmedia.html', lang: lang %}
@@ -72,3 +81,4 @@ sitemap:
 		L’ultima volta in cui questo sito è stato generato è stata il <strong><time datetime='{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ 'now' | date: '%d/%m/%Y alle %H:%M' }}</time></strong>.
 	</p>
 </div>
+

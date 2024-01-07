@@ -1,21 +1,25 @@
-{% capture buildTime %}{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}{% endcapture %}
+{% assign buildTime = 'now' | date: '%Y%m%d' %}
 {% assign introPrinted = '0' %}
 
-{% for event in giri %}
-	{% if event.end >= buildTime %}
+{% for event in tutto reversed %}
+	{% assign eventEnd = event.end | slice: 0, 9 | remove: '-' | remove: 'current' %}
+	{% if eventEnd >= buildTime %}
 		{% if introPrinted == '0' %}
-			<section id='upcoming' class='center'>
-			<h2 class='title'>{% if lang == 'it' %}Prossimi eventi{% else %}Upcoming events{% endif %}</h2>
+		<p>{% if lang == 'it' %}Altrimenti, quelle che seguono potrebbero essere ottime occasioni per trovarsi. Batti un colpo se ci sarai anche tu!{% else %}Otherwise, the following events could be great occasions to get together. Hit me up if you plan to attend any of them!</p>{% endif %}
+			<h3 class='title'>{% if lang == 'it' %}Prossimi eventi{% else %}Upcoming events{% endif %}</h3>
 			<div class='flex row'>
 			{% assign introPrinted = '1' %}
 		{% endif %}
-		<div class='border box'>
-			<h4>{{ event.title }}</h4>
-		<p>{% if event.location %}{{ event.location }}, {% endif %}{% if event.start %}<time datetime='{{ event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.start | date: '%-d %B %Y' }} - {% endif %}<time datetime='{{ event.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.end | date: '%-d %B %Y' }}<time></p>
+		<div class='box'>
+			<a href='{{ event.url }}'>
+				<h4>{{ event.title }}</h4>
+			</a>
+			<p>{% if event.location %}<strong>{{ event.location }}</strong>, {% endif %}{% if event.start %}<time datetime='{{ event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.start | date: '%-d %b' }} → {% endif %}<time datetime='{{ event.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.end | date: '%-d %b %Y' }}<time></p>
 		</div>
 	{% endif %}
-	{% if forloop.last == true and introPrinted == '1' %}
-		</div></section>
+	{% if forloop.last and introPrinted == '1' %}
+			</div>
 		{% assign introPrinted = '2' %}
 	{% endif %}
 {% endfor %}
+

@@ -17,7 +17,16 @@ sitemap:
 </div>
 
 {% render 'about.html', lang: lang, site: site %}
-{% render 'upcoming.liquid', lang: lang, giri: giri %}
+
+<div class='row'>
+	<div class='one column'>
+		<section id='meet' class='center blue box'>
+			<h2 class='title'>Let’s meet!</h2>
+			<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in Berlin, don’t hesitate to get in touch if you are around!</p>
+			{% render 'upcoming.liquid', lang: lang, tutto: tutto %}
+		</section>
+	</div>
+</div>
 
 <div class='row'>
 	{% render 'quitsocialmedia.html', lang: lang %}
@@ -72,3 +81,4 @@ sitemap:
 		The website was last built on <strong><time datetime='{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ 'now' | date: '%-d %B %Y at %H:%M' }}</time></strong>.
 	</p>
 </div>
+
