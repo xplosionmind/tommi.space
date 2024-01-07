@@ -221,6 +221,9 @@ dependencies:
   eleventy-plugin-find:
     specifier: ^1.0.0
     version: 1.0.0
+  eleventy-plugin-metagen:
+    specifier: ^1.8.3
+    version: 1.8.3(supports-color@9.4.0)
   eleventy-plugin-purgecss:
     specifier: ^0.3.0
     version: 0.3.0
@@ -2988,6 +2991,17 @@ packages:
       dot-prop: 6.0.1
     dev: false
 
+  /eleventy-plugin-metagen@1.8.3(supports-color@9.4.0):
+    resolution: {integrity: sha512-PP0pQrY/2Jeo5BgBW3xJyBkNhMW0/xOOMBaJkZTJMCT1uOaEFnN0vYPZ3FgD3rvkmhAAVSBwBh172x/E/Y6uQw==}
+    dependencies:
+      '@11ty/eleventy': 2.0.1(supports-color@9.4.0)
+      meta-generator: 0.1.5
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
   /eleventy-plugin-purgecss@0.3.0:
     resolution: {integrity: sha512-QC53FAUOS9x0SAb+9xYd/UgOnnwofg+QqO9H84zVCawqDTmEAt0ujcZSMZbh/IG/17HwgweHHDbNg0oI0FTSWA==}
     dependencies:
@@ -3507,6 +3521,10 @@ packages:
   /get-stream@6.0.1:
     resolution: {integrity: sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==}
     engines: {node: '>=10'}
+    dev: false
+
+  /get-tag@0.1.10:
+    resolution: {integrity: sha512-WizKzwUyC0hopc1JcXj6oP/Iq402XWbxaDJdz2ON/uW4ae66XTIAAULryeCLnozRXGsqc7/EQJKnhHcs26S/aw==}
     dev: false
 
   /github-from-package@0.0.0:
@@ -4742,6 +4760,12 @@ packages:
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
+    dev: false
+
+  /meta-generator@0.1.5:
+    resolution: {integrity: sha512-stImEDLa5k2TfIMfpFomJKM9LuYzwIIsxS/ejBop0CifPqc4nHoLdTQkABnjrzzkZgLhmXdN144R7OT4dnbKqw==}
+    dependencies:
+      get-tag: 0.1.10
     dev: false
 
   /mhchemparser@4.2.1:

@@ -116,6 +116,7 @@
 		"ejs": "^3.1.9",
 		"eleventy-plugin-embed-everything": "^1.18.1",
 		"eleventy-plugin-find": "^1.0.0",
+		"eleventy-plugin-metagen": "^1.8.3",
 		"eleventy-plugin-purgecss": "^0.3.0",
 		"eleventy-plugin-toc": "^1.1.5",
 		"eleventy-sass": "^2.2.4",

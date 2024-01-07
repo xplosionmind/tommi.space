@@ -136,12 +136,7 @@ module.exports = function(eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(require('./eleventy.config.images.js'));
-	/*eleventyConfig.addPlugin(
-		require('@photogabble/eleventy-plugin-interlinker'),
-		{
-			defaultLayout: 'layouts/wikilink-embed.liquid'
-		}
-	);*/
+	eleventyConfig.addPlugin(require('eleventy-plugin-metagen'));
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPlugin(require('eleventy-sass'), {
 		compileOptions: {
