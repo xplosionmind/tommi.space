@@ -1,5 +1,31 @@
 [
 	{
+		"title": "DWeb Camp 2024",
+		"start": "2024-08-07",
+		"end": "2024-08-11",
+		"url": "https://dwebcamp.org",
+		"tags": [
+			"geek"
+		],
+		"description-it": "Incontro internazionale sul Web decentralizzato",
+		"description": "International gathering for the decentralized web",
+		"location": "California"
+	},
+	{
+		"title": "FOSDEM 2024",
+		"start": "2024-02-01",
+		"end": "2024-02-04",
+		"url": "https://fosdem.org/2024",
+		"tags": [
+			"FSFE",
+			"work",
+			"geek"
+		],
+		"description-it": "La più importante conferenza sul Software Libero in Europa",
+		"description": "The most important Free Software conference in Europe",
+		"location": "Bruxelles"
+	},
+	{
 		"title": "Club Tenco",
 		"start": "2017-10-01",
 		"end": "current",
