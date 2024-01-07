@@ -34,7 +34,7 @@ ossessione mitizzata della ricerca personale
 venduta come metamorfosi sensazionale  
 non so cosa Rebekah Neumann creda  
 ma meditando io non mi sento che preda  
-sotto un celo di stelle e di satelliti  
+sotto un cielo di stelle e di satelliti  
 del capitalismo non esistono superstiti  
 se non quelli che accettano il compromesso  
 quello in cui se finisci solo sei fesso
