@@ -1060,14 +1060,14 @@ img.button {
 			margin: root.$regular-less 3vw;
 		}
 	}
-	#goto div {
+	/*#goto div {
 		display: flex;
 		overflow-x: scroll;
 		-ms-overflow-style: none;
 		a {
 			margin-right: root.$small;
 		}
-	}
+	}*/
 	#help {
 		bottom: -15rem;
 	}
@@ -1078,12 +1078,12 @@ img.button {
 		}
 	}
 	#toc,
-	#goto {
+	/*#goto {
 		margin: 5vh 3vw 0;
 		&.collapsible-supercontainer .collapsible-container {
 			grid-template-rows: 1fr;
 		}
-	}
+	}*/
 	#latest-post-sign {
 		top: -1rem;
 		right: -1rem;
@@ -1129,7 +1129,7 @@ img.button {
 			max-width: 25rem;
 		}
 	}
-	#goto {
+	/*#goto {
 		position: fixed;
 		width: 16rem;
 		top: 30vh;
@@ -1143,7 +1143,7 @@ img.button {
 			transform: scale(.85);
 			display: block;
 		}
-	}
+	}*/
 	#about {
 		.flex {
 			margin: 0 10%
