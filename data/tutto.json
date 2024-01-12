@@ -26,6 +26,18 @@
 		"location": "Bruxelles"
 	},
 	{
+		"title": "Viaggio a Varsavia",
+		"start": "2024-01-19",
+		"end": "2024-01-21",
+		"tags": [
+			"friends"
+		],
+		"description-it": "Giretto a Varsavia per il compleanno della mia amica Lucia",
+		"description": "Quick trip to Warsaw to visit my friend Lucia",
+		"location": "Warszawa",
+		"lang": "it"
+	},
+	{
 		"title": "Club Tenco",
 		"start": "2017-10-01",
 		"end": "current",
