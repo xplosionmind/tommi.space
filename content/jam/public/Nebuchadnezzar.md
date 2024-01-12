@@ -56,3 +56,5 @@ Using occ `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud
 
 - Set global and/or specific CORS Origin permissions
 - Why <q>The configuration file `/var/www/.well-known/www.tommi.space/autoconfig/mail/config-v1.1.xml` has been manually modified and will not be updated</q>?
+- `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ stt_whisper:download-models medium`
+- Nextcloud changed config files: `/var/www/nextcloud/config/config.php`, old: `/var/cache/yunohost/appconfbackup//var/www/nextcloud/config/config.php.backup.11142`
