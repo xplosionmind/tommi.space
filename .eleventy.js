@@ -1,4 +1,3 @@
-const pluginRss = require('@11ty/eleventy-plugin-rss');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 // Markdown //
@@ -160,7 +159,6 @@ module.exports = function(eleventyConfig) {
 		ul: true,
 		wrapperClass: 'collapsible-element',
 	});
-	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
 		sitemap: {
 			hostname: 'https://tommi.space'
@@ -176,11 +174,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('markdownify', (str) => {
 		return md.renderInline(str);
 	});
-	// RSS Filters //
-	eleventyConfig.addFilter('dateToRfc3339', pluginRss.dateToRfc3339);
-	eleventyConfig.addFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate);
-	eleventyConfig.addFilter('absoluteUrl', pluginRss.absoluteUrl);
-	eleventyConfig.addFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls);
 
 	// Production-only //
 	if (process.env.ELEVENTY_ENV == 'production') {
