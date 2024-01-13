@@ -10,7 +10,7 @@ altUrl: https://tommi.space/sconnesso/
 		<title>{{ title }}</title>
 		<description>{{ sconnesso.description | markdownify | escape | strip_newlines }}</description>
 		<link>{{ altUrl }}</link>
-		<atom:link href='{{ page.url | prepend: site.url }}' rel='self' type='application/rss+xml'/>
+		<atom:link href='{{ site.url }}{{ page.url }}' rel='self' type='application/rss+xml'/>
 		<itunes:author>{{ site.author.name }}</itunes:author>
 		<itunes:image href='{{ image }}'/>
 		<language>it</language>
@@ -37,8 +37,8 @@ altUrl: https://tommi.space/sconnesso/
 				<itunes:episodeType>full</itunes:episodeType>
 				<itunes:explicit>{%- if episode.data.explicit -%}yes{%- else -%}no{%- endif -%}</itunes:explicit>
 				{% if episode.data.image %}<itunes:image href='{{ episode.data.image }}' />{% endif %}
-				<link>{{ episode.url | prepend: site.url }}</link>
-				<guid isPermaLink='true'>{{ episode.url | prepend: site.url }}</guid>
+				<link>{{ site.url }}{{ episode.url }}</link>
+				<guid isPermaLink='true'>{{ site.url }}{{ episode.url }}</guid>
 				<pubDate>{{ episode.date | date: '%a, %-d %b %Y %H:%M:%S %z' }}</pubDate>
 				<itunes:keywords>
 					{%- if episode.tags %}{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}{% endif -%}
@@ -46,8 +46,7 @@ altUrl: https://tommi.space/sconnesso/
 				<itunes:duration>{{ episode.data.length }}</itunes:duration>
 				<enclosure
 					url='{{ site.url }}/sconnesso/{{ episode.data.audio }}.{{ episode.data.format }}'
-					length='{{ episode.data.length }}'
-					type='audio/{%- if episode.data.format == 'mpeg' -%}mpeg{%- else -%}{{ episode.data.format }}{%- endif -%}'
+					type='audio/{{ episode.data.format }}'
 				/>
 				<description>
 					<![CDATA[{{ episode.content | markdownify | strip_newlines }}]]>

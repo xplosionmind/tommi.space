@@ -1,0 +1,20 @@
+---
+title: Internet Awesomeness
+subtitle: Internet Awesomeness entries
+altUrl: https://tommi.space/internet-awesomeness/
+permalink: /internet-awesomeness.xml
+lang: en
+layout: feed.xml.liquid
+---
+{% assign ia = internetawesomeness | sort: 'added' | reverse %}
+{% for entry in ia %}
+	<item>
+		<title>{{ entry.title }}</title>
+		<link>{{ entry.url }}</link>
+		<description><![CDATA[{{ entry.description | markdownify | replace: '"/', '"https://tommi.space/' | replace: '\'/', '\'https://tommi.space/' }}]]></description>
+		<author>{{ site.author.email }} ({{ site.author.name }})</author>
+		<category>{{ tags | replace: ' ', '</category><category>' }}</category>
+		<guid>{{ entry.url }}</guid>
+		<pubDate>{{ entry.added | date: '%a, %-d %b %Y %H:%m:%S %z' }}</pubDate>
+	</item>
+{% endfor %}
