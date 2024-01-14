@@ -7,7 +7,7 @@ permalink: /it/index.xsl
 	<xsl:template match='/'>
 		<html xmlns='http://www.w3.org/1999/xhtml'>
 			<head>
-				<title><xsl:value-of select='/rss/channel/title'/>flusso principale di tommi.space</title>
+				<title><xsl:value-of select='/rss/channel/title'/></title>
 				<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
 				<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
 				<meta charset='UTF-8'/>
@@ -76,7 +76,7 @@ Faccio [tante cose](/tutto), e il mio ipercinetismo mi fa sentire come <a href='
 						<small>Eccetto dove diversamente specificato, <a href='{{ site.source }}' hreflang='en' title='Codice sorgente di tommi.space, su Codeberg'>il codice sorgente di questo sito</a> e tutti i contenuti originali al suo interno sono protetti dalla licenza <a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/deed.it'>Creative Commons <strong>Attribution-ShareAlike</strong> 4.0 International</a>.</small>
 					</div>
 					<div class='row'>
-						<small>Questa pagina è stata generata da <a href='{{ site.source }}/src/branch/main/feeds/it/index.xsl.liquid' title='Codice sorgente di questa pagina, su Codeberg'>questo file sorgente</a> il <time datetime='{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ 'now' | date: '%d/%m/%Y alle %H:%M' }}</time>, orgogliosamente usando <a href='https://11ty.dev' hreflang='en'>Eleventy</a> v{{ eleventyVersion }} ❤️.</small>
+						<small>Questa pagina è stata generata da <a href='{{ site.source }}/src/branch/main/feeds/it/index.xsl.liquid' title='Codice sorgente di questa pagina, su Codeberg'>questo file sorgente</a> il <time datetime='{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ 'now' | date: '%d/%m/%Y alle %H:%M' }}</time>, orgogliosamente usando <a href='https://11ty.dev' hreflang='en'>Eleventy</a> v{{ eleventy.version }} ❤️.</small>
 					</div>
 				</footer>
 			</body>
