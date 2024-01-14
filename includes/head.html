@@ -7,6 +7,9 @@
 
 	<!-- Assets -->
 	<link rel='stylesheet' href='/style.css' type='text/css'>
+	{% if stylesheet %}
+		<link rel='stylesheet' type='text/css' href='{{ stylesheet }}'>
+	{% endif %}
 
 	<!-- Favicon -->
 	<link rel='icon' href='/favicon.ico'>

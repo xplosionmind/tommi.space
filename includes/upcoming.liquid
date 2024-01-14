@@ -14,7 +14,7 @@
 			<a href='{{ event.url }}'>
 				<h4>{{ event.title }}</h4>
 			</a>
-			<p>{% if event.location %}<strong>{{ event.location }}</strong>, {% endif %}{% if event.start %}<time datetime='{{ event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.start | date: '%-d %b' }} → {% endif %}<time datetime='{{ event.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.end | date: '%-d %b %Y' }}<time></p>
+			<p>{% if event.location %}<strong>{{ event.location }}</strong>, {% endif %}{% if event.start %}<time datetime='{{ event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.start | date: '%-d %b' }} → {% endif %}<time datetime='{{ event.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.end | date: '%-d %b %Y' }}</time></p>
 		</div>
 	{% endif %}
 	{% if forloop.last and introPrinted == '1' %}

@@ -20,13 +20,13 @@ sitemap:
 	{% for note in collections.jam %}
 		<a href='{{ note.url }}' lang='{{ note.data.lang }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
 			<div class='vertical flex box'>
-				<h3>{{ note.data.title }}</h3>
+				<h4>{{ note.data.title }}</h4>
 				{% if note.data.description %}
 					<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
 				{% comment %}#upstream #bug{% else %}
 					<p>{{ note.content | strip_html | truncatewords: 30 }}</p>{% endcomment %}
 				{% endif %}
-				{% render 'entry-tags.html', tags: note.data.tags, site: site, size: 'tiny' %}
+				{% render 'entry-tags.liquid', tags: note.data.tags, site: site, size: 'tiny' %}
 			</div>
 		</a>
 	{% endfor %}

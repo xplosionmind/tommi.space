@@ -45,7 +45,7 @@ eleventyImport:
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
 				{% img entry.data.image, entry.data.title %}
 				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}<time></p>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
 				<cite class='excerpt'>
 					{% if entry.data.description %}
 						{{ entry.data.description | markdownify | strip_html }}
@@ -53,7 +53,7 @@ eleventyImport:
 						{{ entry.content | strip_html | truncatewords: 30 }}{% endcomment %}
 					{% endif %}
 				</cite>
-				{% render 'entry-tags.html', tags: entry.data.tags, site: site, size: 'tiny' %}
+				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
 		</div>
 	{% endfor %}
