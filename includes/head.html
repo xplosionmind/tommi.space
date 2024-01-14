@@ -56,10 +56,12 @@
 	{% endcomment %}
 
 	<!-- RSS Feeds -->
-	<link rel='alternate' type='application/rss+xml' title='Stream' href='/all.xml'>
+	{% if lang == 'it' %}
+		<link rel='alternate' type='application/rss+xml' title='Feed principale' href='/it/index.xml'>
+		<link rel='alternate' type='application/json' title='Tutto in italiano - JSON' href='/italiano.json'>
+	{% endif %}
+	<link rel='alternate' type='application/rss+xml' title='Main feed' href='/index.xml'>
 	<link rel='alternate' type='application/json' title='Stream - JSON' href='/all.json'>
-	{% if lang == 'it' %}<link rel='alternate' type='application/rss+xml' title='Tutto in italiano' href='/italiano.xml'>{% endif %}
-	{% if lang == 'it' %}<link rel='alternate' type='application/json' title='Tutto in italiano - JSON' href='/italiano.json'>{% endif %}
 	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}Zibaldone{% else %}Blog feed{% endif %}' href='/zibaldone.xml'>
 	<link rel='alternate' type='application/json' title='{% if lang == 'it' %}Zibaldone{% else %}Blog feed{% endif %}' href='/zibaldone.json'>
 	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}Poesie{% else %}Poetry{% endif %}' href='/poetry.xml'>

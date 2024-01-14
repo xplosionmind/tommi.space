@@ -1,0 +1,32 @@
+---
+title: tommi.space main stream
+description: EVERYTHING from tommi.space
+altUrl: https://tommi.space/
+permalink: /index.xml
+lang: en
+---
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet href='/index.xsl' type='text/xsl'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+{% assign all = collections.jam | concat: collections.zibaldone | concat: collections.poetry | sort: 'date' | reverse %}
+	<channel>
+		<title>{{ title }}</title>
+		<description>{{ description }}</description>
+		<atom:link href='{{ site.url }}{{ page.url }}' rel='self' type='application/rss+xml' />
+		<link>{{ altUrl }}</link>
+		{% for entry in all limit: 20 %}
+			<item>
+				<title>{{ entry.data.title }}</title>
+				<link>{{ site.url }}{{ entry.url }}</link>
+				<description><![CDATA[{{ entry.content | replace: '"/', '"https://tommi.space/' | replace: '\'/', '\'https://tommi.space/' }}]]></description>
+				<author>{{ site.author.email }} ({{ site.author.name }})</author>
+				{% for tag in tags %}
+					<category>{{ tag }}</category>
+				{% endfor %}
+				<guid>{{ site.url }}{{ entry.url }}</guid>
+				<pubDate>{{ entry.date | date: '%a, %-d %b %Y %H:%m:%S %z' }}</pubDate>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>
+

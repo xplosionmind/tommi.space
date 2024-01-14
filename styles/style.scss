@@ -95,6 +95,10 @@ body {
 	box-shadow: 5px 5px 2.5vw #000C;
 }
 
+.no-background {
+	background: none;
+}
+
 * {
 	transition: root.$trans, transform root.$trans-quick, box-shadow root.$trans-quick, text-shadow root.$trans-quick, border root.$trans-quick, grid-template-rows root.$trans;
 	scrollbar-color: var(--red) transparent;
@@ -848,6 +852,10 @@ audio,
 	}
 }
 
+iframe {
+	border: none;
+}
+
 lite-youtube {
 	margin: auto !important;
 	box-shadow: var(--shadow) !important;
@@ -952,6 +960,19 @@ img.button {
 .tag {
 	p {
 		text-align: center;
+	}
+}
+
+.feed {
+	h1 {
+		color: #FFF;
+		text-shadow: var(--shadow);
+	}
+	.grid {
+		margin: 0 3vw;
+	}
+	img {
+		border-radius: 100%;
 	}
 }
 

@@ -1,0 +1,85 @@
+---
+permalink: /it/index.xsl
+---
+<?xml version='1.0' encoding='utf-8'?>
+<xsl:stylesheet version='3.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' xmlns:atom='http://www.w3.org/2005/Atom' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'>
+	<xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
+	<xsl:template match='/'>
+		<html xmlns='http://www.w3.org/1999/xhtml'>
+			<head>
+				<title><xsl:value-of select='/rss/channel/title'/>flusso principale di tommi.space</title>
+				<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+				<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+				<meta charset='UTF-8'/>
+				<link rel='stylesheet' href='/style.css'/>
+			</head>
+			<body class='no-background feed'>
+				<h1><xsl:value-of select='/rss/channel/title'/></h1>
+				<div class='row'>
+					<div class='half column'>
+						<div class='row'>
+							<div class='red box'>
+								<h2>Cos’è?</h2>
+								<p>Questo è il feed RSS principale di tommi.space. Come molte cose in questo sito, è piuttosto sottosopra, ma piano piano lo sto sistemando. Per iscriverti, basta copiare l’indirizzo di questa pagina nel tuo lettore RSS</p>
+							</div>
+						</div>
+						<div class='row'>
+							<div class='yellow box'>
+								<div class='row'>
+									<h2>Chi lo ha creato?</h2>
+								</div>
+								<div class='row'>
+									<div class='one-third column'>
+										{% img "profile.webp", "Tommi mentre presenta il Tenco Ascolta 2018 alla Pigna di Sanremo" %}</img>
+									</div>
+									<div class='two-thirds column'>
+										{% renderTemplate "md" %}
+											Sono <span class='p-name'>Tommi</span>, è possibile vedermi campeggiare sul pianeta Terra, ma sono perennemente in viaggio in una dimensione parallela dominata da <strong class='p-category p-label'>curiosità</strong> e <strong class='p-category p-label'>entusiasmo</strong>, ma anche costellata di <strong class='p-category p-label'>ansia</strong> e <strong class='p-category p-label'>confusione</strong>.
+
+Faccio [tante cose](/tutto), e il mio ipercinetismo mi fa sentire come <a href='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz' title='Leibniz su Wikipedia'>Leibniz</a>, che ha detto: <q cite='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz'>nella mia vita ho cominciato tutto e concluso nulla</q>.
+										{% endrenderTemplate %}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='half column'>
+						<div class='row'>
+							<div class='box'>
+								<h2>Sottoflussi</h2>
+								<p><a href='{{ site.issues }}/65' hreflang='en' title='tommi.space GitHub issue: Optimize RSS feeds handling and parsing'>Ci sto lavorando…</a></p>
+							</div>
+						</div>
+						<div class='row'>
+							<div class='blue box'>
+								<h2>Flussi di dati</h2>
+								<p><a href='{{ site.issues }}/65' hreflang='en' title='tommi.space GitHub issue: Optimize RSS feeds handling and parsing'>Ci sto lavorando…</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<main>
+					<h2 class='title'>The latest 20 things published on tommi.space</h2>
+					<div class='grid'>
+						<xsl:for-each select='/rss/channel/item'>
+							<a><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>
+								<div class='vertical flex box'>
+									<h4><xsl:value-of select='title'/></h4>
+									<p><time><xsl:value-of select='pubDate' /></time></p>
+								</div>
+							</a>
+						</xsl:for-each>
+					</div>
+				</main>
+				<footer>
+					<div class='row'>
+						<small>Eccetto dove diversamente specificato, <a href='{{ site.source }}' hreflang='en' title='Codice sorgente di tommi.space, su Codeberg'>il codice sorgente di questo sito</a> e tutti i contenuti originali al suo interno sono protetti dalla licenza <a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/deed.it'>Creative Commons <strong>Attribution-ShareAlike</strong> 4.0 International</a>.</small>
+					</div>
+					<div class='row'>
+						<small>Questa pagina è stata generata da <a href='{{ site.source }}/src/branch/main/feeds/it/index.xsl.liquid' title='Codice sorgente di questa pagina, su Codeberg'>questo file sorgente</a> il <time datetime='{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ 'now' | date: '%d/%m/%Y alle %H:%M' }}</time>, orgogliosamente usando <a href='https://11ty.dev' hreflang='en'>Eleventy</a> v{{ eleventyVersion }} ❤️.</small>
+					</div>
+				</footer>
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>

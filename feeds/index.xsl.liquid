@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xsl:stylesheet version='3.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' xmlns:atom='http://www.w3.org/2005/Atom' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'>
+	<xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
+	<xsl:template match='/'>
+		<html xmlns='http://www.w3.org/1999/xhtml'>
+			<head>
+				<title><xsl:value-of select='/rss/channel/title'/>tommi.space main stream</title>
+				<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+				<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+				<meta charset='UTF-8'/>
+				<link rel='stylesheet' href='/style.css'/>
+			</head>
+			<body class='no-background feed'>
+				<h1><xsl:value-of select='/rss/channel/title'/></h1>
+				<div class='row'>
+					<div class='half column'>
+						<div class='row'>
+							<div class='red box'>
+								<h2>WTF is this?</h2>
+								<p>This is a web feed that can be viewed in the browser. <strong>Subscribe for free</strong> by copying the link of this page into your feed reader. If you want to learn what a RSS feed is, read <a href='https://www.thisdaysportion.com/about/what-is-rss/' title='What’s RSS? – Leon Paternoster'>this article by Leon Paternoster</a>.</p>
+							</div>
+						</div>
+						<div class='row'>
+							<div class='yellow box'>
+								<div class='row'>
+									<h2>Who created this?</h2>
+								</div>
+								<div class='row'>
+									<div class='one-third column'>
+										{% img "profile.webp", "Tommi on stage conducting a live show" %}</img>
+									</div>
+									<div class='two-thirds column'>
+										{% renderTemplate "md" %}
+											Hey, I’m <span class='p-name'>Tommi</span>. In one word, I am an <strong class='p-category p-label'>enthusiast</strong>. Who I am is best represented by the manifesto of my being, or <cite>[Tomminess](/tomminess 'Tomminess — tommi.space')</cite>.
+
+											I am in perpetual movement, and I get involved in <a href='/tutto' hreflang='it' title='A log of all that I do'>a lot of stuff</a>. Hence, I can really relate to what <a href='https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz' title='Leibniz on Wikipedia'>Leibniz</a> said: <q cite='https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz'>in my life I started everything and concluded nothing</q>.
+										{% endrenderTemplate %}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='half column'>
+						<div class='row'>
+							<div class='box'>
+								<h2>Sub-feeds</h2>
+								<p><a href='{{ site.issues }}/65' title='tommi.space GitHub issue: Optimize RSS feeds handling and parsing'>I am working on it…</a></p>
+							</div>
+						</div>
+						<div class='row'>
+							<div class='blue box'>
+								<h2>Data-based feeds</h2>
+								<p><a href='{{ site.issues }}/65' title='tommi.space GitHub issue: Optimize RSS feeds handling and parsing'>I am working on it…</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<main>
+					<h2 class='title'>The latest 20 things published on tommi.space</h2>
+					<div class='grid'>
+						<xsl:for-each select='/rss/channel/item'>
+							<a><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>
+								<div class='vertical flex box'>
+									<h4><xsl:value-of select='title'/></h4>
+									<p><time><xsl:value-of select='pubDate' /></time></p>
+								</div>
+							</a>
+						</xsl:for-each>
+					</div>
+				</main>
+				<footer>
+					<div class='row'>
+						<small><a href='{{ site.source }}' title='tommi.space’s source code on Codeberg'>This website’s source code</a> and all the original content it contains are licensed under <a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0'>Creative Commons <strong>Attribution-ShareAlike</strong> 4.0 International License</a>, except where otherwise specified.</small>
+					</div>
+					<div class='row'>
+						<small>This feed was last generated from <a href='{{ site.source }}/src/branch/main/feeds/index.xsl.liquid' title='the source code of this page on Codeberg'>this source file</a> on <time datetime='{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ 'now' | date: '%-d %B %Y at %H:%M' }}</time>, proudly using <a href='https://11ty.dev'>Eleventy</a> v{{ eleventy.version }} ❤️.</small>
+					</div>
+				</footer>
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>
