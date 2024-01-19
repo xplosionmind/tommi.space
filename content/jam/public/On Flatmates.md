@@ -1,8 +1,10 @@
 ---
 date: 2023-11-20T07:34:20+01:00
 updated: 2023-11-20T07:34:20+01:00
-tags: [zen, epiphany]
-location: Revaler Straße 19, Friedrichshain, Berlin
+tags:
+  - zen
+  - epiphany
+location: Revaler Straße 19, Berlin
 ---
 You realize the vital quintessential spiritual emotional comical value of a flatmate only when you miss them.
 
