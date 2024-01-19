@@ -15,12 +15,13 @@
 		"title": "Rete (In)Sostenibile, Circonomia",
 		"start": "2024-03-07",
 		"end": "2024-03-10",
+		"url": "https://circonomia.it",
 		"tags": [
 			"festival",
 			"lab/fedi"
 		],
-		"description-it": "Giretto a Varsavia per il compleanno della mia amica Lucia",
-		"description": "Quick trip to Warsaw to visit my friend Lucia",
+		"description-it": "Sono stato invitato a tenere il mio Lab sul Fediverso, rivisitato in chiave di sostenibilità, nella sezione <cite>Aria Fresca</cite> del Festival <cite>Circonomia</cite>, la cui edizione del 2024 si terrà contestualmente a Pesaro Capitale Italiana della Cultura 2024.",
+		"description": "I was invited to <cite lang='it'>Circonomia</cite> to host my Fediverse workshop.",
 		"location": "Pesaro",
 		"lang": "it",
 		"role": "host"
