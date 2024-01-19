@@ -12,6 +12,20 @@
 		"location": "California"
 	},
 	{
+		"title": "Rete (In)Sostenibile, Circonomia",
+		"start": "2024-03-07",
+		"end": "2024-03-10",
+		"tags": [
+			"festival",
+			"lab/fedi"
+		],
+		"description-it": "Giretto a Varsavia per il compleanno della mia amica Lucia",
+		"description": "Quick trip to Warsaw to visit my friend Lucia",
+		"location": "Pesaro",
+		"lang": "it",
+		"role": "host"
+	},
+	{
 		"title": "FOSDEM 2024",
 		"start": "2024-02-01",
 		"end": "2024-02-04",
@@ -66,7 +80,7 @@
 		"end": "2023-10-20T12:30:00+02:00",
 		"url": "https://tommi.space/fedilab-cassini",
 		"tags": [
-			"lab"
+			"lab/fedi"
 		],
 		"description": "Ho proposto il mio [Laboratorio sul Fediverso](https://tommi.space/lab-fediverso 'Lab sul Fediverso, tommi.space') durante l’assemblea d’istituto del mio ex liceo, il [Liceo G.D. Cassini di Sanremo](https://www.liceogdcassini.it).",
 		"location": "Liceo G.D. Cassini, Sanremo",
@@ -81,7 +95,7 @@
 		"end": "2023-09-23T20:00:00+01:00",
 		"url": "https://2023.antiuniversity.org/events/conceiving-the-social-networks-of-the-future-spoiler-they-already-exist",
 		"tags": [
-			"lab"
+			"lab/fedi"
 		],
 		"description": "I brought my [Fediverse workshop](https://tommi.space/fedilab 'Fediverse Workshop information page on tommi.space') to [ANTIUNIVERSITY LONDON 2023](https://2023.antiuniversity.org).",
 		"location": "MayDay Rooms, London",
@@ -96,7 +110,7 @@
 		"url": "https://scambi.org/2023/lab/direzione-fediverso",
 		"tags": [
 			"scambi",
-			"lab"
+			"lab/fedi"
 		],
 		"description": "Insieme a Pitte, ho ideato e moderato il laboratorio sul Fediverso tenuto a [Scambi Festival](https://scambi.org 'Scambi, Il Festival dei Laboratori Paneuretici') 2023.",
 		"location": "La Pigna, Sanremo",
@@ -111,7 +125,7 @@
 		"url": "https://tommi.space/lab-fediverso",
 		"tags": [
 			"scout",
-			"lab"
+			"lab/fedi"
 		],
 		"description": "Sono stato invitato a tenere una bottega (termine scout per indicare un laboratorio) in occasione del quarantennale del Mira 1, gruppo scout in cui sono stato capo dal 2020 al 2022.",
 		"location": "Oriago di Mira",

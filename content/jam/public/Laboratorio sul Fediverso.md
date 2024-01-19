@@ -60,7 +60,7 @@ Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella ver
 Occasioni in cui ho svolto il laboratorio:
 
 <ul>{% for lab in tutto %}
-	{% if lab.title contains 'Fedivers' and lab.tags contains 'lab' %}
+	{% if lab.tags contains 'lab/fedi' %}
 		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: lab.start -%}</time>. {{ lab.description | markdownify }}</li>
 	{% endif %}
 {% endfor %}</ul>
