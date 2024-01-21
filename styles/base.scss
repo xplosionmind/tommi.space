@@ -1,79 +1,7 @@
 @forward 'root';
 @use 'root' as *;
-@forward 'clearfix';
 @use 'clearfix';
-
-html {
-	scroll-behavior: smooth;
-	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDgwMCA4MDAiPjxwYXRoIGZpbGw9IiNGQ0M5MjAiIGQ9Im0wIDAgODAwIDgwMFY3MDBMMTAwIDB6bTIwMCAwIDYwMCA2MDBWNTAwTDMwMCAwem0yMDAgMCA0MDAgNDAwVjMwMEw1MDAgMHptMjAwIDAgMjAwIDIwMFYxMDBMNzAwIDB6TTAgMjAwbDYwMCA2MDBoMTAwTDAgMTAwem0wIDIwMCA0MDAgNDAwaDEwMEwwIDMwMHptMCAyMDAgMjAwIDIwMGgxMDBMMCA1MDB6bTAgMjAwaDEwMEwwIDcwMHoiLz48L3N2Zz4='), #000;
-	cursor: var(--cursor);
-}
-
-/* DARK THEME (default) */
-body {
-	color-scheme: dark;
-	background: var(--black-ish);
-	color: var(--text);
-	overflow-wrap: break-word;
-	hyphens: auto;
-	font: $regular var(--font-sans);
-	transition: $trans;
-
-	--background: var(--black-ish);
-	--text: var(--white);
-	--deep: var(--dark-blue);
-	--link: var(--primary);
-	--primary: var(--yellow);
-	--secondary: var(--blue);
-	--slight: var(--light-blue);
-	--internal-link: var(--blue);
-	--grey: var(--dark-grey);
-	--other-grey: var(--light-grey);
-	--transp-text: #FFF4;
-	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC15; 
-	--opposite-shadow: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
-	--little-shadow: 4px 4px 15px #0009, -3px -3px 12px #FFF3CC18; 
-	--tiny-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
-	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
-	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
-	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
-	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
-}
-
-/* LIGHT THEME */
-@media screen and (prefers-color-scheme: light) {
-	body {
-		color-scheme: light;
-		--background: #FFF;
-		background: var(--background);
-		--text: var(--black-ish);
-		--deep: #FFF;
-		--link: var(--primary);
-		--primary: var(--red);
-		--secondary: var(--blue);
-		--slight: var(--dark-blue);
-		--grey: var(--light-grey);
-		--other-grey: var(--dark-grey);
-		--transp-text: #11305B33;
-		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
-		--opposite-shadow: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
-		--little-shadow: 4px 4px 15px #11305B10, -3px -3px 10px #FFF3CC22;
-		--tiny-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
-		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
-		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
-	}
-	.dark {
-		filter: var(--invert-dark);
-		box-shadow: var(--opposite-shadow);
-	}
-}
-
-@media screen and (prefers-color-scheme: dark) {
-	.light {
-		filter: var(--invert);
-		box-shadow: var(--opposite-shadow);
-	}
-}
+@use 'theme';
 
 /** Layout **/
 
@@ -172,7 +100,7 @@ figure {
 figcaption {
 	font: $regular var(--font-serif);
 	margin: $regular-less 10% 0;
-	color: var(--other-grey);
+	opacity: .8;
 	text-align: center;
 }
 
@@ -204,7 +132,7 @@ input {
 	font-size: $bigger;
 	max-width: 100%;
 	&::placeholder {
-		color: var(--other-grey);
+		opacity: .5;
 	}
 	&:focus,
 	&:active,

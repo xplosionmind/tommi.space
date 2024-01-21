@@ -1,35 +1,3 @@
-@use 'normalize';
-@use 'fonts';
-
-:root {
-	color-scheme: light dark;
-
-	--black-ish: #222;
-	--white: #E3E3E3;
-	--dark-grey: #555;
-	--light-grey: #AAA;
-	--yellow: #FCC920;
-	--blue: #3185FC;
-	--dark-blue: #11305B;
-	--light-blue: #ADCFFF;
-	--red: #D00;
-	--green: #88D18A;
-	--razzmatazz: #EC0868;
-	--purple: #884EE1;
-	--orange: #FF6024;
-	
-	--invert: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
-	--invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
-
-	--font-sans: 'Inter V', Inter, system-ui, -apple-system, sans-serif;
-	--font-heading: 'Permanent Marker', var(--font-sans, sans-serif);
-	--font-serif: 'Garamond Libre', 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif;
-	--font-mono: 'Ubuntu Mono', ui-monospace, monospace;
-
-	--cursor: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjUiIGZpbGw9IiNGQ0M5MjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIzIi8+PC9zdmc+') 16 16, crosshair;
-	--cursor-hover: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSI1IiBmaWxsPSIjRkZGIiBzdHJva2U9IiNEMDAiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==') 16 16, pointer;
-}
-
 $tiny: .2rem;
 $small: .5rem;
 $regular-less: .9rem;
@@ -49,3 +17,49 @@ $border: 5px;
 
 $trans: .5s ease-out;
 $trans-quick: .1s ease-in-out;
+
+$shadow-light-inverted: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
+$shadow-dark-inverted: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
+	
+$invert-light: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
+$invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
+
+/* UNUSED */
+$dark-grey: #555;
+$light-grey: #AAA;@use 'normalize';
+@use 'fonts';
+
+:root {
+	color-scheme: light dark;
+
+	--black-ish: #222;
+	--white: #E3E3E3;
+	--yellow: #FCC920;
+	--blue: #3185FC;
+	--dark-blue: #11305B;
+	--light-blue: #ADCFFF;
+	--red: #D00;
+	--green: #88D18A;
+	--razzmatazz: #EC0868;
+	--purple: #884EE1;
+	--orange: #FF6024;
+
+	--font-sans: 'Inter V', Inter, system-ui, -apple-system, sans-serif;
+	--font-heading: 'Permanent Marker', var(--font-sans, sans-serif);
+	--font-serif: 'Garamond Libre', 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif;
+	--font-mono: 'Ubuntu Mono', ui-monospace, monospace;
+
+	--cursor: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjUiIGZpbGw9IiNGQ0M5MjAiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIzIi8+PC9zdmc+') 16 16, crosshair;
+	--cursor-hover: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSI1IiBmaWxsPSIjRkZGIiBzdHJva2U9IiNEMDAiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==') 16 16, pointer;
+}
+
+html {
+	overflow-wrap: break-word;
+	hyphens: auto;
+	font: $regular var(--font-sans);
+	transition: $trans;
+	scroll-behavior: smooth;
+	cursor: var(--cursor);
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDgwMCA4MDAiPjxwYXRoIGZpbGw9IiNGQ0M5MjAiIGQ9Im0wIDAgODAwIDgwMFY3MDBMMTAwIDB6bTIwMCAwIDYwMCA2MDBWNTAwTDMwMCAwem0yMDAgMCA0MDAgNDAwVjMwMEw1MDAgMHptMjAwIDAgMjAwIDIwMFYxMDBMNzAwIDB6TTAgMjAwbDYwMCA2MDBoMTAwTDAgMTAwem0wIDIwMCA0MDAgNDAwaDEwMEwwIDMwMHptMCAyMDAgMjAwIDIwMGgxMDBMMCA1MDB6bTAgMjAwaDEwMEwwIDcwMHoiLz48L3N2Zz4='), #000;
+}
+
