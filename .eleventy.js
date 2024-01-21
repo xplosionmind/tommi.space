@@ -192,7 +192,7 @@ module.exports = function(eleventyConfig) {
 			}
 			return content;
 		});
-		//temporarily disabled since it removes Commento styling
+		//temporarily disabled since it removes Piwigo styling
 		//eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
 	}
 
