@@ -1,6 +1,4 @@
-@use 'parts/root';
-@use 'fonts/inter';
-@use 'fonts/permanent-marker';
+@use 'root' as *;
 
 html,
 body {
@@ -24,12 +22,12 @@ body {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: root.$trans;
+	transition: $trans;
 	background: var(--background) !important;
 	color: var(--text) !important;
 	overflow-wrap: break-word;
 	hyphens: auto;
-	font: root.$regular var(--font-sans) !important;
+	font: $regular var(--font-sans) !important;
 	cursor: var(--cursor);
 	scroll-behavior: smooth;
 }
@@ -38,7 +36,7 @@ body {
 @media screen and (prefers-color-scheme: light) {
 	html,
 	body {
-		transition: root.$trans;
+		transition: $trans;
 
 		cursor: var(--cursor);
 
@@ -71,9 +69,9 @@ body {
 }
 
 .albThumbs li {
-	border-radius: root.$radius-m;
+	border-radius: $radius-m;
 	box-shadow: var(--shadow);
-	margin: root.$tiny !important;
+	margin: $tiny !important;
 	&:hover {
 		transform: scale(1.05);
 		transition: all .1s;
@@ -90,10 +88,10 @@ body {
 
 .wide {
 	#imageInfos {
-		margin-right: root.$regular;
-		margin-top: root.$regular;
+		margin-right: $regular;
+		margin-top: $regular;
 		box-shadow: var(--shadow);
-		border-radius: root.$radius-l !important;
+		border-radius: $radius-l !important;
 		background: var(--background) !important;
 	}
 	.imageInfo {
@@ -102,7 +100,7 @@ body {
 		}
 	}
 	.imageInfoTable {
-		padding: root.$regular root.$small root.$regular root.$regular !important;
+		padding: $regular $small $regular $regular !important;
 		border-radius: 0 0 1rem 1rem;
 	}
 }
@@ -142,7 +140,7 @@ body {
 .switchBox {
 	background-color: var(--background) !important;
 	box-shadow: var(--shadow);
-	border-radius: root.$radius-s;
+	border-radius: $radius-s;
 }
 
 
@@ -151,7 +149,7 @@ body {
 	padding: 6px .5rem 9px !important;
 	margin: 0 3% !important;
 	box-shadow: var(--shadow);
-	border-radius: root.$radius-m;
+	border-radius: $radius-m;
 }
 
 .uc-icon-star-filled,
@@ -167,7 +165,7 @@ body {
 #tooltip {
 	background: none !important;
 	padding: 0 !important;
-	border-radius: root.$radius-l !important;
+	border-radius: $radius-l !important;
 	box-shadow: var(--shadow) !important;
 	border: solid 2px var(--text);
 	span {
@@ -175,7 +173,7 @@ body {
 		color: transparent !important;
 	}
 	img {
-		border-radius: root.$radius-l !important;
+		border-radius: $radius-l !important;
 	}
 }
 
@@ -200,8 +198,8 @@ body {
 @media only screen and (max-width: 640px) {
 	aside#menubar {
 		top: 80px !important;
-		left: root.$regular;
-		border-radius: root.$radius-m;
+		left: $regular;
+		border-radius: $radius-m;
 		box-shadow: var(--shadow);
 		opacity: 1;
 	}
@@ -218,7 +216,7 @@ body {
 	}
 	#albumActionsSwitcher + .categoryActions {
 		background-color: var(--background) !important;
-		border-radius: root.$radius-s;
+		border-radius: $radius-s;
 		box-shadow: var(--shadow) !important;
 		opacity: 1 !important;
 		z-index: 10000 !important;
@@ -236,7 +234,7 @@ body {
 		margin: 0 15% 10px 0;
 	}
 	.actionButtonsWrapper .actionButtons {
-		border-radius: root.$radius-m;
+		border-radius: $radius-m;
 		box-shadow: var(--little-shadow) !important;
 		background-color: var(--background) !important;
 		opacity: 1 !important;
@@ -245,36 +243,36 @@ body {
 
 @media only screen and (min-width: 640px) {
 	#menubar {
-		height: root.$height;
-		line-height: root.$height;
+		height: $height;
+		line-height: $height;
 		background: var(--primary) !important;
 		color: var(--background) !important;
 		margin: 2vw !important;
-		border-radius: root.$radius-m;
+		border-radius: $radius-m;
 		box-shadow: var(--shadow);
-		padding: 0 root.$regular !important;
+		padding: 0 $regular !important;
 		a {
 			color: var(--background) !important;
 		}
 	}
 	#thumbnails {
-		margin: root.$regular 5% !important;
+		margin: $regular 5% !important;
 	}
 	#pictureComments {
 		max-width: 800px;
-		margin: root.$regular auto 3vw;
+		margin: $regular auto 3vw;
 	}
 }
 
 #menubar {
 	width: unset !important;
-	padding: root.$regular root.$small root.$small;
+	padding: $regular $small $small;
 	text-transform: uppercase;
 	font-weight: 700;
 	dd, .switchBox, .categoryActions {
 		background: var(--background) !important;
 		color: var(--text) !important;
-		border-radius: root.$radius-m;
+		border-radius: $radius-m;
 		box-shadow: var(--shadow) !important;
 		z-index: 10000 !important;
 	}
@@ -294,10 +292,10 @@ body {
 		font-size: 0;
 		a {
 			padding: 1px 6px;
-			margin: root.$tiny;
+			margin: $tiny;
 			box-shadow: var(--little-shadow);
 			display: inline-block;
-			border-radius: root.$radius-s;
+			border-radius: $radius-s;
 			font-family: var(--font-sans) !important;
 			font-weight: 700;
 			font-size: 1rem;
@@ -307,17 +305,17 @@ body {
 }
 
 .albLegend {
-	padding: root.$regular root.$tiny root.$small !important;
+	padding: $regular $tiny $small !important;
 	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8)) !important;
 	text-shadow: 1px 1px 5px #000E;
 	height: unset !important;
 	max-height: 60%;
 	h4 {
-		margin: root.$small root.$small 0 root.$small !important;
+		margin: $small $small 0 $small !important;
 		line-height: 1;
 	}
 	div {
-		margin: 0 root.$small;
+		margin: 0 $small;
 		opacity: .6;
 		font-size: .8em;
 	}
@@ -346,10 +344,10 @@ body {
 }
 
 #pictureComments {
-	padding: root.$regular 3vw;
+	padding: $regular 3vw;
 	margin: 3vh auto;
 	box-shadow: var(--shadow);
-	border-radius: root.$radius-l;
+	border-radius: $radius-l;
 	background: var(--background) !important;
 }
 
@@ -363,10 +361,10 @@ body {
 #comments TEXTAREA,
 input {
 	border: none !important;
-	border-radius: root.$radius-s;
+	border-radius: $radius-s;
 	background: var(--deep);
 	color: var(--text);
-	padding: 2px root.$small;
+	padding: 2px $small;
 	box-shadow: var(--inner-shadow);
 }
 
@@ -380,7 +378,7 @@ input[value='Submit'] {
 
 div.thumbHover {
 	background: var(--primary);
-	border-radius: root.$radius-s;
+	border-radius: $radius-s;
 	box-shadow: var(--button-shadow);
 	color: var(--background) !important;
 	font-weight: 800;
@@ -391,10 +389,10 @@ a .pwg-icon {
 }
 
 .pwg-icon.pwg-icon-menu {
-	padding: root.$small !important;
-	margin: root.$small;
+	padding: $small !important;
+	margin: $small;
 	background: var(--primary) !important;
-	border-radius: root.$radius-s;
+	border-radius: $radius-s;
 	box-shadow: var(--little-shadow);
 	opacity: 1 !important;
 	color: var(--background) !important;
@@ -408,8 +406,8 @@ a .pwg-icon {
 	background: none !important;
 	color: var(--text);
 	line-height: unset !important;
-	padding: root.$small !important;
-	margin: root.$small 3%;
+	padding: $small !important;
+	margin: $small 3%;
 	h2 {
 		a {
 			color: var(--text) !important;
@@ -430,7 +428,7 @@ span.menuInfoCat.badge,
 	}
 	/* background: var(--grey) !important;
 	box-shadow: var(--little-shadow);
-	border-radius: root.$radius-s; */
+	border-radius: $radius-s; */
 }
 
 a {
@@ -449,8 +447,8 @@ a {
 }
 
 .calItem {
-	padding: root.$tiny root.$small !important;
-	border-radius: root.$radius-s !important;
+	padding: $tiny $small !important;
+	border-radius: $radius-s !important;
 	border: none !important;
 	box-shadow: var(--button-shadow);
 }
@@ -459,7 +457,7 @@ a {
 	overflow: hidden;
 	font-size: .5rem;
 	img {
-		border-radius: root.$radius-s;
+		border-radius: $radius-s;
 	}
 }
 
@@ -501,7 +499,7 @@ p.imageComment {
 
 .piwishack {
 	border: none !important;
-	border-radius: root.$radius-l;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	.header,
 	.tab,
@@ -512,9 +510,9 @@ p.imageComment {
 		border: none !important;
 	}
 	.footer {
-		border-radius: 0 0 root.$radius-l root.$radius-l;
+		border-radius: 0 0 $radius-l $radius-l;
 		button {
-			border-radius: root.$radius-s;
+			border-radius: $radius-s;
 			margin-right: .6rem;
 			img {
 				display: none;
@@ -528,15 +526,15 @@ p.imageComment {
 
 textarea {
 	border: none !important;
-	border-radius: root.$radius-s;
-	min-height: root.$big;
+	border-radius: $radius-s;
+	min-height: $big;
 }
 
 #map {
-	border-radius: root.$radius-l;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	.imageInfos & {
-		border-radius: root.$radius-m;
+		border-radius: $radius-m;
 		box-shadow: var(--little-shadow);
 	}
 	#osmmap & {

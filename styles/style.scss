@@ -1,17 +1,12 @@
-@use 'parts/normalize';
-@use 'fonts/inter';
-@use 'fonts/permanent-marker';
-@use 'fonts/garamond-libre';
-@use 'parts/root';
-@use 'parts/nav';
-@use 'parts/links-emojis';
-@use 'parts/tags';
-@use 'parts/commento';
-@use 'parts/temporary';
-@use 'parts/search';
-@use 'parts/interaction-buttons';
-@use 'parts/syntax-highlight';
-@use 'parts/lite-youtube-embed';
+@use 'root' as *;
+@use 'fonts';
+@use 'nav';
+@use 'links-emojis';
+@use 'tags';
+@use 'temporary';
+@use 'search';
+@use 'interaction-buttons';
+@use 'lite-youtube-embed';
 
 html {
 	scroll-behavior: smooth;
@@ -26,7 +21,7 @@ body {
 	color: var(--text);
 	overflow-wrap: break-word;
 	hyphens: auto;
-	font: root.$regular var(--font-sans);
+	font: $regular var(--font-sans);
 
 	--background: var(--black-ish);
 	--text: var(--white);
@@ -48,7 +43,7 @@ body {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: root.$trans;
+	transition: $trans;
 
 }
 
@@ -74,7 +69,7 @@ body {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 
-		transition: root.$trans;
+		transition: $trans;
 	}
 	.dark {
 		filter: var(--invert-dark);
@@ -91,7 +86,7 @@ body {
 
 .cantiere {
 	margin: 3vw 3vw 10rem;
-	border-radius: root.$radius-l;
+	border-radius: $radius-l;
 	box-shadow: 5px 5px 2.5vw #000C;
 }
 
@@ -100,7 +95,7 @@ body {
 }
 
 * {
-	transition: root.$trans, transform root.$trans-quick, box-shadow root.$trans-quick, text-shadow root.$trans-quick, border root.$trans-quick, grid-template-rows root.$trans;
+	transition: $trans, transform $trans-quick, box-shadow $trans-quick, text-shadow $trans-quick, border $trans-quick, grid-template-rows $trans;
 	scrollbar-color: var(--red) transparent;
 }
 
@@ -165,7 +160,7 @@ a {
 		&:hover,
 		&:focus {
 			margin-bottom: -2px;
-			border-bottom: 2px solid var(--primary);
+			border-bottom: 2px solid inherit;
 		}
 		&[href^='/'],
 		&[href^='#'],
@@ -198,10 +193,10 @@ input {
 	border: none;
 	background: var(--background);
 	color: var(--text);
-	border-radius: root.$radius-m;
-	padding: root.$small root.$regular;
+	border-radius: $radius-m;
+	padding: $small $regular;
 	box-shadow: var(--inner-shadow);
-	font-size: root.$bigger;
+	font-size: $bigger;
 	max-width: 100%;
 	&::placeholder {
 		color: var(--other-grey);
@@ -213,7 +208,7 @@ input {
 		outline: none;
 	}
 	& ~ .button {
-		margin-left: root.$small;
+		margin-left: $small;
 	}
 }
 
@@ -253,20 +248,20 @@ input {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: root.$regular-less;
+	grid-gap: $regular-less;
 	h3 {
 		text-align: center;
 	}
 }
 
 #changelog .grid p {
-	margin: root.$tiny 0 0 0;
+	margin: $tiny 0 0 0;
 }
 
 .library {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-	grid-gap: root.$tiny;
+	grid-gap: $tiny;
 	img,
 	a div {
 		font: .5em var(--font-serif);
@@ -274,7 +269,7 @@ input {
 		color: #E1DCC5;
 		background: linear-gradient(-30deg, #39281E, #4E3C2B);
 		margin-top: 15%;
-		border-radius: root.$radius-s;
+		border-radius: $radius-s;
 		box-shadow: var(--tiny-shadow);
 		min-height: 75%;
 	}
@@ -282,7 +277,7 @@ input {
 
 li {
 	line-height: 1.5;
-	margin-bottom: root.$small;
+	margin-bottom: $small;
 	ol {
 		list-style-type: lower-alpha;
 		ol {
@@ -297,9 +292,9 @@ li {
 
 .task-list-item-checkbox {
 	position: relative;
-	right: root.$regular-less;
-	width: root.$regular;
-	height: root.$regular;
+	right: $regular-less;
+	width: $regular;
+	height: $regular;
 }
 
 .serif {
@@ -315,7 +310,7 @@ li {
 	font-weight: bolder;
 	float: left;
 	font-size: 8em;
-	margin: root.$small root.$small 0 0;
+	margin: $small $small 0 0;
 	text-shadow: 2px 2px 0 var(--yellow);
 }
 
@@ -339,8 +334,8 @@ samp {
 }
 
 pre {
-	padding: root.$regular;
-	border-radius: root.$radius-m;
+	padding: $regular;
+	border-radius: $radius-m;
 	white-space: pre-wrap;
 	background: var(--dark-blue);
 	color: var(--white);
@@ -350,7 +345,7 @@ pre {
 .bug,
 .wtf {
 	padding: 2px 5px;
-	border-radius: root.$radius-s;
+	border-radius: $radius-s;
 }
 
 .missing,
@@ -392,7 +387,7 @@ tr {
 }
 
 th {
-	padding: root.$small root.$regular-less;
+	padding: $small $regular-less;
 	position: sticky;
 	top: 0;
 	background: var(--background);
@@ -400,15 +395,15 @@ th {
 
 td {
 	font-size: .8em;
-	padding: root.$tiny root.$small;
+	padding: $tiny $small;
 }
 
 .table {
 	max-height: 90vh;
 	overflow: scroll;
-	margin: root.$height 3vw;
+	margin: $height 3vw;
 	border: 3px solid var(--text);
-	border-radius: root.$radius-l;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	table {
 		width: 100%;
@@ -427,19 +422,19 @@ table {
 	h1 {
 		color: #FFF;
 		font-weight: 800;
-		margin: 0 root.$small root.$bigger;
+		margin: 0 $small $bigger;
 		text-shadow: 2px 2px 5px #11305B33;
 		background: var(--red);
 		border: 5px solid #FFF;
 		padding: 1vw 3vw;
 		box-shadow: var(--shadow);
-		border-radius: root.$radius-l;
+		border-radius: $radius-l;
 		animation: pulse 1s infinite;
 	}
 	.button:not(.tiny) {
 		color: #FFF;
 		background: var(--dark-blue);
-		margin: root.$tiny root.$regular-less;
+		margin: $tiny $regular-less;
 	}
 	.banner {
 		position: fixed;
@@ -494,7 +489,7 @@ img {
 	width: 100%;
 	height: auto;
 	display: block;
-	border-radius: root.$radius-l;
+	border-radius: $radius-l;
 }
 
 figure {
@@ -503,17 +498,17 @@ figure {
 		box-shadow: var(--shadow);
 	}
 	& + figure {
-		margin-top: root.$bigger;
+		margin-top: $bigger;
 	}
 	& + figure.column {
-		margin: 0 0 0 root.$big;
+		margin: 0 0 0 $big;
 		width: calc(50% - 1.6rem);
 	}
 }
 
 figcaption {
-	font: root.$regular var(--font-serif);
-	margin: root.$regular-less 10% 0;
+	font: $regular var(--font-serif);
+	margin: $regular-less 10% 0;
 	color: var(--other-grey);
 	text-align: center;
 }
@@ -536,7 +531,7 @@ figcaption {
 		hyphens: auto;
 		line-height: 1;
 		text-shadow: none;
-		margin: root.$regular-less auto;
+		margin: $regular-less auto;
 	}
 }
 
@@ -599,16 +594,16 @@ b {
 .large {
 	margin: 0 3vw;
 	&.grid {
-		margin: root.$big 3vw;
+		margin: $big 3vw;
 	}
 }
 
 article {
 	position: relative;
-	font-size: root.$regular-more;
-	margin: root.$big 5vw;
+	font-size: $regular-more;
+	margin: $big 5vw;
 	> .box {
-		margin: root.$bigger 0;
+		margin: $bigger 0;
 	}
 }
 
@@ -631,14 +626,14 @@ h4, h5, h6 {
 		&::before {
 			content: '🔗';
 			position: absolute;
-			left: -(root.$twice);
+			left: -($twice);
 			transform: scale(.8);
 		}
 	}
 }
 
 h1 {
-	font-size: root.$mega;
+	font-size: $mega;
 	color: var(--text);
 	text-align: center;
 	margin: 8vh 3vw 0;
@@ -671,13 +666,13 @@ h4 {
 	background: var(--background);
 	max-width: 100%;
 	color: var(--text);
-	padding: root.$big;
-	margin: root.$regular-less 3%;
-	border-radius: root.$radius-l;
+	padding: $big;
+	margin: $regular-less 3%;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	&.little {
-		border-radius: root.$radius-m;
-		padding: root.$small;
+		border-radius: $radius-m;
+		padding: $small;
 		background: var(--primary);
 		margin: 2vw;
 		a {
@@ -690,11 +685,11 @@ h4 {
 	}
 	h2,
 	h3 {
-		margin: 0 auto root.$small;
+		margin: 0 auto $small;
 		text-align: center;
 	}
 	.written.button:not(.tiny) {
-		margin: root.$small;
+		margin: $small;
 	}
 	.grid &,
 	.box {
@@ -707,11 +702,11 @@ h4 {
 			font-size: .8em;
 			font-weight: 300;
 			line-height: 1.1;
-			margin: root.$small;
+			margin: $small;
 		}
 	}
 	.box {
-		margin: root.$small;
+		margin: $small;
 	}
 }
 
@@ -724,7 +719,7 @@ h4 {
 }
 
 .tags {
-	padding: root.$small root.$tiny;
+	padding: $small $tiny;
 	h2 {
 		a {
 			color: var(--text);
@@ -739,7 +734,7 @@ h4 {
 }
 
 #lang-filter {
-	font-size: root.$bigger;
+	font-size: $bigger;
 }
 
 #toc {
@@ -752,7 +747,7 @@ h4 {
 	}
 	ul,
 	ol {
-		padding-left: root.$regular-more;
+		padding-left: $regular-more;
 	}
 }
 
@@ -768,15 +763,15 @@ h4 {
 
 #latest-post-sign {
 	position: absolute;
-	top: root.$regular-less;
-	right: -(root.$regular-less);
+	top: $regular-less;
+	right: -($regular-less);
 	z-index: 2;
 	transform: rotate(10deg);
 }
 
 .excerpt {
 	display: block;
-	margin: root.$small 10%;
+	margin: $small 10%;
 	font: italic .85em var(--font-sans);
 	line-height: 1.5;
 }
@@ -792,27 +787,27 @@ h4 {
 	min-height: 200px;
 	border: 0px;
 	overflow: scroll;
-	border-radius: root.$radius-m;
+	border-radius: $radius-m;
 	box-shadow: var(--shadow);
 }
 
 .footnotes {
 	font-size: .8em;
-	margin-top: root.$height;
+	margin-top: $height;
 }
 
 footer {
 	background: var(--background);
-	padding: root.$big;
-	margin: root.$bigger 3%;
-	border-radius: root.$radius-l;
+	padding: $big;
+	margin: $bigger 3%;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	text-align: center;
 	p a {
 		color: var(--primary) !important;
 	}
 	h4 {
-		margin-top: root.$regular;
+		margin-top: $regular;
 		margin-bottom: 0;
 	}
 	h4 + p {
@@ -827,7 +822,7 @@ audio,
 .controlBar {
 	width: 100%;
 	box-shadow: var(--shadow);
-	border-radius: root.$radius-m;
+	border-radius: $radius-m;
 }
 
 .embed {
@@ -838,7 +833,7 @@ audio,
 	padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
 	max-width: 100%;
 	background: none;
-	margin: root.$regular auto;
+	margin: $regular auto;
 	iframe,
 	object,
 	embed {
@@ -848,7 +843,7 @@ audio,
 		width: 100%;
 		height: 100%;
 		box-shadow: var(--shadow) !important;
-		border-radius: root.$radius-l !important;
+		border-radius: $radius-l !important;
 	}
 }
 
@@ -860,7 +855,7 @@ lite-youtube {
 	margin: auto !important;
 	box-shadow: var(--shadow) !important;
 	article & {
-		border-radius: root.$radius-l !important;
+		border-radius: $radius-l !important;
 	}
 }
 
@@ -873,21 +868,21 @@ button {
 
 svg.button,
 img.button {
-	height: root.$height;
+	height: $height;
 	width: auto;
 	padding: .35rem;
-	margin: root.$tiny;
+	margin: $tiny;
 	background: var(--primary);
 }
 
 .button {
 	display: inline-block;
 	background: var(--background);
-	padding: root.$small root.$regular;
-	font-size: root.$big;
+	padding: $small $regular;
+	font-size: $big;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-radius: root.$radius-m;
+	border-radius: $radius-m;
 	box-shadow: var(--button-shadow);
 	text-align: center;
 	hyphens: none;
@@ -905,16 +900,16 @@ img.button {
 }
 
 .smaller {
-	padding: root.$tiny root.$regular-less;
-	margin: root.$tiny;
-	font-size: root.$big;
-	border-radius: root.$radius-s;
+	padding: $tiny $regular-less;
+	margin: $tiny;
+	font-size: $big;
+	border-radius: $radius-s;
 }
 
 .tiny {
-	padding: 1px root.$small;
-	margin: root.$tiny;
-	font-size: root.$regular-less;
+	padding: 1px $small;
+	margin: $tiny;
+	font-size: $regular-less;
 	border-radius: 4px;
 }
 
@@ -925,11 +920,11 @@ img.button {
 	z-index: 2;
 	display: flex;
 	.button {
-		width: root.$height;
-		height: root.$height;
-		line-height: root.$height;
-		padding: 0 root.$small;
-		margin: root.$tiny;
+		width: $height;
+		height: $height;
+		line-height: $height;
+		padding: 0 $small;
+		margin: $tiny;
 		color: var(--text);
 		fill: var(--text);
 		background: var(--background) !important;
@@ -954,12 +949,6 @@ img.button {
 		&:active {
 			box-shadow: var(--button-shadow);
 		}
-	}
-}
-
-.tag {
-	p {
-		text-align: center;
 	}
 }
 
@@ -1038,7 +1027,7 @@ img.button {
 .border {
 	color: var(--text) !important;
 	background: var(--background) !important;
-	border: root.$border solid var(--text);
+	border: $border solid var(--text);
 	--link: var(--primary) !important;
 }
 
@@ -1052,13 +1041,13 @@ img.button {
 		margin: 0;
 	}
 	article {
-		margin: root.$regular 3vw;
+		margin: $regular 3vw;
 	}
 	section h1 {
-		font-size: root.$height;
+		font-size: $height;
 	}
 	.stuff-logo {
-		margin-top: root.$bigger
+		margin-top: $bigger
 	}
 	.line {
 		width: 20%;
@@ -1078,7 +1067,7 @@ img.button {
 	}
 	#intro {
 		p {
-			margin: root.$regular-less 3vw;
+			margin: $regular-less 3vw;
 		}
 	}
 	/*#goto div {
@@ -1086,7 +1075,7 @@ img.button {
 		overflow-x: scroll;
 		-ms-overflow-style: none;
 		a {
-			margin-right: root.$small;
+			margin-right: $small;
 		}
 	}*/
 	#help {
@@ -1095,7 +1084,7 @@ img.button {
 	.box .column {
 		& + .column h2,
 		& + .column h3 {
-			margin-top: root.$regular-more;
+			margin-top: $regular-more;
 		}
 	}
 	#toc,
@@ -1112,7 +1101,7 @@ img.button {
 	}
 	.poetry {
 		h1 {
-			font-size: root.$bigger;
+			font-size: $bigger;
 		}
 	}
 }
@@ -1121,7 +1110,7 @@ img.button {
 	.box .column {
 		p,
 		li {
-			margin: root.$regular 10%;
+			margin: $regular 10%;
 		}
 	}
 	ul.two,
@@ -1139,11 +1128,11 @@ img.button {
 		position: fixed;
 		left: 0;
 		bottom: 0;
-		font-size: root.$regular-less;
+		font-size: $regular-less;
 		background: var(--background);
 		box-shadow: var(--shadow);
-		border-radius: 0 root.$radius-l 0 0;
-		padding: root.$regular-less;
+		border-radius: 0 $radius-l 0 0;
+		padding: $regular-less;
 	}
 	.zibaldone {
 		box {
