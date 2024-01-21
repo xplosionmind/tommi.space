@@ -10,6 +10,7 @@ tags:
 image: https://tommi.space/gomitolo_dweb.jpg
 description: Un laboratorio di introduzione ai social network decentralizzati
 ref: fediverse-lab
+location: Sanremo
 ---
 Proseguendo imperterrito nella mia missione di proselitismo per il [[Fediverse|Fediverso]], sempre più mi accorgo di quanto sia bello ed efficace utilizzare strumenti interattivi e partecipativi per decostruire l’apparente complessità di concetti informatici alternativi.
 
@@ -44,16 +45,16 @@ Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella ver
 
 ## Svolgimento
 
-0. Presentazioni e rompighiaccio
-1. Dividere il cartellone o la lavagna in due parti, in cui ogni persona in totale libertà può scrivere
+1. Presentazioni e rompighiaccio
+2. Dividere il cartellone o la lavagna in due parti, in cui ogni persona in totale libertà può scrivere
 	- cosa mi piace dei social
 	- cosa non mi piace dei social
-2. Gioco gomitolo e centralizzazione: il moderatore del laboratorio impersona il social network centralizzato, distribuendo un estremo del gomitolo a ciascuna persona nel cerchio, ma rimanendo sempre unico tramite del collegamento fra ogni persona. Ciascunə dovrà aver in mano una parte gomitolo ed il moderatore essere il centro di tutti i collegamenti. A questo punto, il moderatore chiede ad una persona di dirgli all’orecchio o scrivere su un foglietto un messaggio controverso. Il moderatore condividerà con il cerchio il messaggio, ma distorto. La chiave di questa dinamica dovrebbe essere provare che il singolo utente non può provare né fare nulla senza il controllo e l’intervento dell’ente centrale
-3. Spiegare cos’è il Fediverso e raccontare in breve come si distingua radicalmente dai social network decentralizzati.
-4. Gioco gomitolo e decentralizzazione: utilizzare lo stesso gomitolo per creare una rete peer-to-peer, in cui ogni utente è direttamente in contatto. In caso si volesse rappresentare una versione più accurata ed elaborata, dell’infrastruttura del Fediverso, connettere in modo decentralizzato i cartoncini che rappresentano istanze diverse, a cui sono connessi in modo centralizzato diversi utenti. In questo secondo caso, si possono rappresentare anche ulteriori dinamiche del fediverso:
+3. Gioco gomitolo e centralizzazione: il moderatore del laboratorio impersona il social network centralizzato, distribuendo un estremo del gomitolo a ciascuna persona nel cerchio, ma rimanendo sempre unico tramite del collegamento fra ogni persona. Ciascunə dovrà aver in mano una parte gomitolo ed il moderatore essere il centro di tutti i collegamenti. A questo punto, il moderatore chiede ad una persona di dirgli all’orecchio o scrivere su un foglietto un messaggio controverso. Il moderatore condividerà con il cerchio il messaggio, ma distorto. La chiave di questa dinamica dovrebbe essere provare che il singolo utente non può provare né fare nulla senza il controllo e l’intervento dell’ente centrale
+4. Spiegare cos’è il Fediverso e raccontare in breve come si distingua radicalmente dai social network decentralizzati.
+5. Gioco gomitolo e decentralizzazione: utilizzare lo stesso gomitolo per creare una rete peer-to-peer, in cui ogni utente è direttamente in contatto. In caso si volesse rappresentare una versione più accurata ed elaborata, dell’infrastruttura del Fediverso, connettere in modo decentralizzato i cartoncini che rappresentano istanze diverse, a cui sono connessi in modo centralizzato diversi utenti. In questo secondo caso, si possono rappresentare anche ulteriori dinamiche del fediverso:
 	- Esempio di migrazione su un’altra istanza
 	- Esempio di defederazione
-5. In conclusione, riprendere quanto scritto sul cartellone all’inizio del laboratorio e verificare partecipativamente come le cose belle e le cose brutte dette sui social network mainstream funzionino invece nel Fediverso.
+6. In conclusione, riprendere quanto scritto sul cartellone all’inizio del laboratorio e verificare partecipativamente come le cose belle e le cose brutte dette sui social network mainstream funzionino invece nel Fediverso.
 
 ## Quando
 

@@ -1,11 +1,16 @@
 ---
 date: 2020-05-11T02:00:00+02:00
 updated: 2022-04-07T09:12:14+02:00
-tags: reading/book
+tags:
+  - reading/book
 lang: it
 permalink: /jack-frusciante/
-redirect_from: [/brizzi-frusciante/,/jack-frusciante-è-uscito-dal-gruppo/,/jack-frusciante-e-uscito-dal-gruppo/]
+redirect_from:
+  - /brizzi-frusciante/
+  - /jack-frusciante-è-uscito-dal-gruppo/
+  - /jack-frusciante-e-uscito-dal-gruppo/
 description: Note da un libro che ho letto perché va letto. Impareggiabile e necessario.
+location: Santuario della Madonna del Buon Consiglio, Riva Ligure
 ---
 [Enrico Brizzi](https://it.wikipedia.org/wiki/Enrico_Brizzi 'Enrico Brizzi su Wikipedia') aveva la mia età quando scrisse <cite>[Jack Frusciante è uscito dal gruppo](https://it.wikipedia.org/wiki/Jack_Frusciante_è_uscito_dal_gruppo '“Jack Frusciante è uscito dal gruppo„ su Wikipedia')Jack Frusciante è uscito dal gruppo</cite>. Volevo capire quanto quello che aveva nella testa corrisponda a quello che ho io ora, perciò ho stilato una lista di tutte le reference, le citazioni, le persone e i personaggi citati nel libro, così come [le parole](#vocabolario 'Vocabolario di Jack Frusciante è uscito dal gruppo') che Brizzi ha scelto.
 
@@ -69,7 +74,7 @@ description: Note da un libro che ho letto perché va letto. Impareggiabile e ne
 - Corto Maltese, `p. 121`
 - Felix Krill, `p. 122`
 - Hillel Slogan, `p. 124`
-- Mother's Milk, `p. 124`
+- Mother’s Milk, `p. 124`
 - Peter Gabriel, `p. 125`
 - The Orange, `p. 127`
 - Dorian Gray, `p. 128`
@@ -89,7 +94,7 @@ description: Note da un libro che ho letto perché va letto. Impareggiabile e ne
 - Vasco, `p. 147`
 - Richard Bach, `p. 149`
 - Antoine de Saint-Exupéry, `p. 149`
-- Friday I'm in Love dei Cure, `p. 150`
+- Friday I’m in Love dei Cure, `p. 150`
 - ultimi giorni di Bisanzio, `p. 152`
 - assedio di Madrid, `p. 152`
 - i koan, `p. 153`
@@ -119,7 +124,7 @@ description: Note da un libro che ho letto perché va letto. Impareggiabile e ne
 - <q>il nostro roccioso</q>
 - <q>i nostri pirati</q>
 - <q>una coppia assolutamente balsamica</q>
-- <q><i>dall'archivio magnetico del Signor Alex D.</i></q>
+- <q><i>dall’archivio magnetico del Signor Alex D.</i></q>
 - <q>illo</q>
 - <q>la rivoluzione punk jazz</q>
 - <q>cinebrivido</q>

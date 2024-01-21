@@ -9,6 +9,7 @@ tags:
 image: https://tommi.space/gomitolo_dweb.jpg
 description: An introductory workshop on decentralized social media and the Fediverse
 ref: fediverse-lab
+location: Sanremo
 ---
 Carrying on with my mission of spreading the word about the [[Fediverse]], I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
 

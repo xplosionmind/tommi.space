@@ -6,6 +6,7 @@ tags:
 aliases:
   - Venice
 image: https://tommi.space/venezia-mood.webp
+location: Venezia
 ---
 - [**Guida minima alla vita studentesca veneziana**](https://www.unive.it/pag/14024/?tx_news_pi1[news]=10609&cHash=f76a09ae3f0a56e2b997122b0a2df70d 'Guida minima alla vita studentesca veneziana')
 - [Sconti e riduzioni per studenti](https://www.comune.venezia.it/it/content/elenco-sconti-e-riduzioni-0 '')

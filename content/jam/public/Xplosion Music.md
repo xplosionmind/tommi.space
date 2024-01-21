@@ -8,8 +8,13 @@ tags:
   - csvfy
 image: https://tommi.space/tommis-head-exploding.png
 description: Soundtracks of my life. The songs which marked my existence and made me who I am.
-aliases: Playlist
-redirect_from: [/canzoni/,/songs/,/playlist/,/playlists/]
+aliases:
+  - Playlist
+redirect_from:
+  - /canzoni/
+  - /songs/
+  - /playlist/
+  - /playlists/
 todo:
   - find a way to sync playlists and contents
   - write meaning, reasons and explanations for every song

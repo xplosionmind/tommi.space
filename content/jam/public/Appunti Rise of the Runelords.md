@@ -1,9 +1,11 @@
 ---
 date: 2015-11-01
 updated: 2022-03-14T15:01:46+01:00
-tags: archive/dnd
+tags:
+  - archive/dnd
 toc: false
 lang: it
+location: Casa Gonella, Sanremo
 ---
 ## Forgia delle Rune
 

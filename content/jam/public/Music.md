@@ -1,10 +1,12 @@
 ---
 date: 2021-01-12T01:00:00+01:00
-updated: 2022-04-04T19:43:02+02:00
-tags: music
+updated: 2024-01-19T13:20:02+01:00
+tags:
+  - music
 main: true
 description: Insights about music when made, played, or listened
 image: /cubo-guitar.webp
+location: In my headphones
 ---
 <div class='blue box'>
 	The soundtrack of my existence is in <cite>[[Xplosion Music]]</cite>.
@@ -20,6 +22,10 @@ One of the reasons why [[Quit Spotify|Quitting Spotify]] is so hard is that it i
 Probably, as [Gilad Edelman](https://wired.com/author/gilad-edelman 'Gilad Edelman’s profile on Wired') points out in <cite>[You Should Listen to CDs](https://wired.com/story/you-should-listen-to-cds 'You Should Listen to CDs')</cite>, <q cite='https://hyp.is/ONwkwGQTEeyXXMNroZdLqw/www.wired.com/story/you-should-listen-to-cds/'>Streaming platforms just aren’t designed with the serious music fan in mind</q>. The hassle of getting into a shop and looking for what you want mutates into a pleasure if you consider it as part of the experience: breathing the atmosphere of a place that is becoming one of the rarest on the planet.
 
 While suggestions Spotify or its similars advance are [based on calculus and emotion-less considerations](https://tommi.space/the-power-of-decentralization#algorithms-as-black-boxes '“Algorithms as Black Boxes„ section in my essay “The Power of Decentralization„'), getting into a physical place provides a matchless feeling that makes up for any annoyance. If you do not know what you intend to listen, it is not a machine providing you (feeding you with) a suggestion.
+
+## Message
+
+In an era of empty music driven by money, I hate to ultimately evaluate an album based on the fact that it says something, rather than doing it on the basis of how well it says it. Having a message should be the natural, quintessential, feature of a music production. It is not anymore. (See [[Saviors]])
 
 ## Playing
 
