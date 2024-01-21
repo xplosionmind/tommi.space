@@ -1,0 +1,52 @@
+@use 'root' as *;
+
+.landing {
+	margin: 0;
+	background: none;
+	height: 100vh;
+	overflow-x: hidden;
+	h1 {
+		color: #FFF;
+		font-weight: 800;
+		margin: 0 $small $bigger;
+		text-shadow: 2px 2px 5px #11305B33;
+		background: var(--red);
+		border: 5px solid #FFF;
+		padding: 1vw 3vw;
+		box-shadow: var(--shadow);
+		border-radius: $radius-l;
+		animation: pulse 1s infinite;
+	}
+	.button:not(.tiny) {
+		color: #FFF;
+		background: var(--dark-blue);
+		margin: $tiny $regular-less;
+	}
+	.banner {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

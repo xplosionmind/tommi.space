@@ -1,0 +1,30 @@
+.row {
+	&::before,
+	&::after {
+		display: table;
+		content: '';
+		clear: both;
+	}
+}
+
+.one {
+	width: 70%;
+	margin-left: 15%;
+}
+
+.half {
+	width: 50%;
+}
+
+.one-third {
+	width: calc(100% / 3);
+}
+
+.two-thirds {
+	width: calc(100% / 3 * 2);
+}
+
+.column {
+	float: left;
+}
+
