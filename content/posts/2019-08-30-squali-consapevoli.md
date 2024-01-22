@@ -2,6 +2,8 @@
 title: Squali Consapevoli
 date: 2019-08-30
 image: /2019-08-30-squali-consapevoli.jpg
+tags:
+  - everyone
 ---
 Qual è il prezzo che dobbiamo pagare
 
