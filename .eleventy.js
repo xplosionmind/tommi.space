@@ -101,7 +101,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('index.js');
 
 	// Plugins //
-	eleventyConfig.addPlugin(require('eleventy-plugin-find'));
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 	/*eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
 		url: 'https://tommi.space',
@@ -152,9 +151,6 @@ module.exports = function(eleventyConfig) {
 			style: 'compressed'
 		}
 	});
-	eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
-		baseUrl: 'svg/'
-	});
 	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
 		ul: true,
 		wrapperClass: 'collapsible-element',
@@ -178,15 +174,19 @@ module.exports = function(eleventyConfig) {
 	// Production-only //
 	if (process.env.ELEVENTY_ENV == 'production') {
 		// Minify output //
-		eleventyConfig.addTransform(require('html-minifier'), function(content, outputPath) {
+		eleventyConfig.addTransform(require('html-minifier-terser'), function(content, outputPath) {
 			if( this.outputPath && this.outputPath.endsWith('.html') ) {
-				let minified = require('html-minifier').minify(content, {
+				let minified = require('html-minifier-terser').minify(content, {
 					useShortDoctype: true,
 					removeComments: true,
 					collapseWhitespace: true,
+					decodeEntities: true,
 					minifyCSS: true,
 					minifyJS: true,
-					minifyURLs: true
+					minifyURLs: true,
+					quoteCharacter: "'",
+					removeComments: true,
+					removeEmptyAttributes: true
 				});
 				return minified;
 			}
