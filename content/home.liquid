@@ -9,36 +9,26 @@ eleventyImport:
 sitemap:
   priority: 1.0
 ---
-<div class='row'>
-	<section id='intro' class='one column center'>
+<section id='intro'>
 		<p>You just entered an overwhelming, mindblowing, and confused space inside the immense wonderland of the World Wide Web 🕸️. This place is 🚨 <strong>a perpetual work in progress</strong> 🏗️ populated by thoughts 💭, absurd visions 😵‍💫, silliness 🤡, hope 🌟, questions ⁉️, sort-of-answers 🤔, kinda-intuitions 💡, contraddictions 💢, disorderly attempts of reordering stuff 🎭, depictions of chaos 💥.</p>
 		<p>Welcome to <u>the virtual representation of Tommi’s mind</u>.</p>
 		<p>Have fun!</p>
-	</section>
-</div>
+</section>
 
 {% render 'about.html', lang: lang, site: site %}
 
-<div class='row'>
-	<div class='one column'>
-		<section id='meet' class='center blue box'>
+		<section id='meet' class='blue'>
 			<h2 class='title'>Let’s meet!</h2>
 			<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in Berlin, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
-			{% render 'upcoming.liquid', lang: lang, tutto: tutto %}
+			{% comment %}{% render 'upcoming.liquid', lang: lang, tutto: tutto %}{% endcomment %}
 		</section>
-	</div>
-</div>
 
-<div class='row'>
 	{% render 'quitsocialmedia.html', lang: lang %}
 	{% render 'sconnesso.html', sconnesso: sconnesso, lang: lang %}
-</div>
 
 {% render 'latest-post.liquid', lang: lang, posts: collections.posts %}
 
-<div class='row'>
-	<div class='one column'>
-		<section class='razzmatazz border box'>
+		<section class='razzmatazz'>
 			<a href='/jam' title='The Jam'>
 				{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
 				<h2 class='title'>The Jam</h2>
@@ -50,10 +40,7 @@ sitemap:
 				<a class='razzmatazz written button' href='/jam' title='The Jam'>Dive in 🥄</a>
 			</div>
 		</section>
-	</div>
-</div>
 
-<div class='row'>
 	<section id='changelog' class='center'>
 	<h2 class='title'>Recently updated</h2>
 		<div class='large grid'>
@@ -75,5 +62,4 @@ sitemap:
 			<a class='green button' href='{{ site.changelog }}' title='tommi.space commits on giTMI'>code changelog</a>
 		</div>
 	</section>
-</div>
 

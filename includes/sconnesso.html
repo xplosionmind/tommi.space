@@ -1,5 +1,4 @@
-<section class='half column' lang='it'>
-	<div id='sconnesso' class='box'>
+<section id='sconnesso' lang='it'>
 		<a href='{{ sconnesso.url }}'>
 			<h2 class='title'>{% if lang == 'it' %}Il podcast {% endif %}<cite lang='it'>Sconnesso</cite></h2>
 			{% img "sconnesso.webp", "Logo Sconnesso" %}
@@ -8,5 +7,4 @@
 		<div class='flex row'>
 			<a class='written button' href='{{ sconnesso.url }}'>{% case lang %}{% when 'it' %}Ascolta{% else %}Listen{% endcase %}</a>
 		</div>
-	</div>
 </section>
