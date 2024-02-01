@@ -128,5 +128,15 @@
 		"real": true,
 		"sex": "m",
 		"met": true
+	},
+	{
+		"who": "Cory Doctorow",
+		"lang": "en",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cory_Doctorow_%40_eTech_2007.jpeg",
+		"url": "https://en.wikipedia.org/wiki/Cory_Doctorow",
+		"added": "2021-12-03T23:57:50+01:00",
+		"real": true,
+		"sex": "m",
+		"met": true
 	}
 ]
