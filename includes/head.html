@@ -115,29 +115,25 @@
 					{
 						"@type": "ListItem",
 						"item":{
-							"@id": "{{ site.url }}",
-							"name": "tommi.space landing"
-						}
-					},
-					{
-						"@type": "ListItem",
-						"item":{
-							"@id": "{{ site.url }}{%- if lang == 'it' -%}/tuffo{%- else -%}/home{%- endif -%}",
-							"name": "tommi.space homepage"
+							"@id": "{{ site.url }}/{%- if lang == 'it' -%}tuffo{%- else -%}home{%- endif -%}/",
+							"name": "tommi.space homepage",
+							"position": 1
 						}
 					}{%- if isNote -%},
 					{
 						"@type": "ListItem",
 						"item":{
-							"@id": "{{ site.url }}{%- if lang == 'it' -%}/marmellata{%- else -%}/jam{%- endif -%}",
-							"name": "{%- if lang == 'it' -%}La Marmellata{%- else -%}The Jam{%- endif -%}"
+							"@id": "{{ site.url }}/{%- if lang == 'it' -%}marmellata{%- else -%}jam{%- endif -%}/",
+							"name": "{%- if lang == 'it' -%}La Marmellata{%- else -%}The Jam{%- endif -%}",
+							"position": 2
 						}
 					}{%- endif -%}{%- if isPost -%},
 					{
 						"@type": "ListItem",
 						"item":{
-							"@id": "{{ site.url }}{%- if lang == 'it' -%}/zibaldone{%- else -%}/zibenglish{%- endif -%}",
-							"name": "Zibaldone"
+							"@id": "{{ site.url }}/{%- if lang == 'it' -%}zibaldone{%- else -%}zibenglish{%- endif -%}/",
+							"name": "Zibaldone",
+							"position": 2
 						}
 					}{%- endif -%}
 				]
