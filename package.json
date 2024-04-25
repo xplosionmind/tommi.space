@@ -5,7 +5,7 @@
   "scripts": {
     "start": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
     "build": "ELEVENTY_ENV=production eleventy",
-    "debug": "DEBUG=Eleventy* npm start --dry-run",
+    "debug": "DEBUG=Eleventy* bun run start --dry-run",
     "clean": "del-cli dist"
   },
   "repository": {
