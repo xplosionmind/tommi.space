@@ -3,9 +3,9 @@
 		<h2 id='latest-post-sign' class='red button'>{% if lang == 'it' %}Ultimo post{% else %}Latest post{% endif %}</h2>
 		<div class='half column vertical flex'>
 			<h2><a href='{{ post.url }}' hreflang='{{ post.data.lang }}'>{{ post.data.title }}</a></h2>
-			<cite class='excerpt'>
+			<p>
 				{{ post.content | markdownify | strip_html | truncatewords: 160 }}
-			</cite>
+			</p>
 			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' class='written red button'>{% if lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
 		</div>
 		<div class='half column vertical flex'>
