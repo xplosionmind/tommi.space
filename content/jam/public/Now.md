@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16T02:00:00+02:00
-updated: 2024-01-01T17:14:30+01:00
+updated: 2024-04-25T18:55:39+02:00
 location: Berlin
 description: Stuff I am up to in these days
 todo:
@@ -11,10 +11,6 @@ comments: false
 <div class='blue box'>
 	This page is part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>a movement</a> started by the incredible <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> in 2015. To learn more, visit <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, a <a href='https://en.wikipedia.org/wiki/Webring' title='Webring on Wikipedia'>webring</a> collecting sites which contain a <code>/now</code> page.
 </div>
-
-## Free Software Foundation Europe
-
-I am working full time at the [<abbr title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org) as an intern.
 
 ## Embracing the Berlin life
 

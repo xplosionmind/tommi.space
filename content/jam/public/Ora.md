@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16T02:00:00+02:00
-updated: 2024-01-01T17:14:30+01:00
+updated: 2024-04-25T18:55:54+02:00
 lang: it
 location: Berlin
 description: Le cose che sto facendo
@@ -11,10 +11,6 @@ comments: false
 <div class='blue box'>
 	Questa pagina è parte di <a href='https://sive.rs/nowff' title='Now page - Derek Sivers' hreflang='en'>un movimento</a>, istituito dal mitico <a href='https://sive.rs' hreflang='en' title='Derek Sivers’ personal website'>Derek Sivers</a>. Più informazioni su <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, un immenso <a href='https://it.wikipedia.org/wiki/Webring' title='Webring su Wikipedia'><i>webring</i></a> in sui sono catalogati i siti che contengono una pagina <q>Ora</q>.
 </div>
-
-## Free Software Foundation Europe
-
-Sto svolgendo un tirocinio a tempo pieno presso la [<abbr lang='en' title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org), ovvero la fondazione europea per il software libero.
 
 ## Vivendo Berlino
 
