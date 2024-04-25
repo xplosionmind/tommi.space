@@ -40,17 +40,6 @@ function nowScroll() {
 	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
 		window.scrollTo(0, 0);
 	} else {
-function tocBehavior() {
-	let toc = document.getElementById('toc');
-	if (toc) {
-		let footer = document.getElementsByTagName('footer')[0];
-		let footerHeight = footer.offsetHeight;
-		let tocHeight = pageHeight - footerHeight - 900; // adding some random pixels to consider margins etc.
-		if (document.body.scrollTop > tocHeight || document.documentElement.scrollTop > tocHeight) {
-			toc.style.bottom = '-5rem';
-		} else {
-			toc.style.bottom = '0';
-		}
 		window.scrollTo(0, document.body.scrollHeight);
 	}
 }
@@ -58,7 +47,6 @@ function tocBehavior() {
 window.onload = function() {
 	scrollButtonBehavior();
 	window.onscroll = function() {
-		tocBehavior();
 		scrollButtonBehavior();
 	};
 };
