@@ -18,15 +18,17 @@ sitemap:
 
 {% render 'about.html', lang: lang, site: site %}
 
-<div class='row'>
-	<div class='one column'>
-		<section id='meet' class='center blue box'>
-			<h2 class='title'>Let’s meet!</h2>
-			<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in Berlin, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
-			{% render 'upcoming.liquid', lang: lang, tutto: tutto %}
-		</section>
+<section id='meet' class='row'>
+	<div class='center blue box'>
+		<div class='row'>
+			<div class='one column'>
+				<h2 class='title'>Let’s meet!</h2>
+				<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in <strong>{{ site.author.based }}</strong>, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
+				{% render 'upcoming.liquid', lang: lang, tutto: tutto %}
+			</div>
+		</div>
 	</div>
-</div>
+</section>
 
 <div class='row'>
 	{% render 'quitsocialmedia.html', lang: lang %}

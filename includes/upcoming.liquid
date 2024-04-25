@@ -1,21 +1,28 @@
 {% assign buildTime = 'now' | date: '%Y%m%d' %}
 {% assign introPrinted = '0' %}
 
-{% for event in tutto reversed %}
+{% for event in tutto %}
 	{% assign eventEnd = event.end | slice: 0, 9 | remove: '-' | remove: 'current' %}
 	{% if eventEnd >= buildTime %}
 		{% if introPrinted == '0' %}
-		<p>{% if lang == 'it' %}Altrimenti, quelle che seguono potrebbero essere ottime occasioni per trovarsi. Batti un colpo se ci sarai anche tu!{% else %}Otherwise, the following events could be great occasions to get together. Hit me up if you plan to attend any of them!</p>{% endif %}
+		<p>{% if lang == 'it' %}Altrimenti, qui di seguito potrebbero esserci ottime occasioni per trovarsi. Batti un colpo se ci sarai anche tu!{% else %}Otherwise, the following events could be great occasions to get together. Hit me up if you plan to attend any of them!{% endif %}</p></div></div>
 			<h3 class='title'>{% if lang == 'it' %}Prossimi eventi{% else %}Upcoming events{% endif %}</h3>
 			<div class='flex row'>
 			{% assign introPrinted = '1' %}
 		{% endif %}
-		<div class='box'>
-			<a href='{{ event.url }}'>
+			<a href='{{ event.url }}' class='box'>
 				<h4>{{ event.title }}</h4>
+				<p>
+					{% if event.location %}
+						<strong>{{ event.location }}</strong>, 
+					{% endif %}
+					{% assign start_date = event.start | date: '%Y%m%d' %}
+					{% assign end_date = event.end | date: '%Y%m%d' %}
+					{% if event.start and end_date != start_date %}
+						<time datetime='{{ event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: event.start %}{% else %}{{ event.start | date: '%-d %b' }}{% endif %} → 
+					{% endif %}
+					<time datetime='{{ event.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: event.end %}{% else %}{{ event.end | date: '%-d %b' }}{% endif %}</time></p>
 			</a>
-			<p>{% if event.location %}<strong>{{ event.location }}</strong>, {% endif %}{% if event.start %}<time datetime='{{ event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.start | date: '%-d %b' }} → {% endif %}<time datetime='{{ event.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ event.end | date: '%-d %b %Y' }}</time></p>
-		</div>
 	{% endif %}
 	{% if forloop.last and introPrinted == '1' %}
 			</div>
