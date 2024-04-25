@@ -1,7 +1,7 @@
 {% assign buildTime = 'now' | date: '%Y%m%d' %}
 {% assign introPrinted = '0' %}
 
-{% for event in tutto %}
+{% for event in tutto reversed %}
 	{% assign eventEnd = event.end | slice: 0, 9 | remove: '-' | remove: 'current' %}
 	{% if eventEnd >= buildTime %}
 		{% if introPrinted == '0' %}
