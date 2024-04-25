@@ -1,6 +1,5 @@
 let i = 0;
 scrollButton = document.getElementById('scrollButton');
-let pageHeight = document.body.scrollHeight;
 homeBtn = document.getElementById('home');
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -26,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function scrollButtonBehavior() {
-	scrollButton.href = 'javascript:void(0);';
 	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
 		scrollButton.title='scroll to top';
 		scrollButton.setAttribute('aria-label', 'scroll to top');
@@ -42,10 +40,6 @@ function nowScroll() {
 	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
 		window.scrollTo(0, 0);
 	} else {
-		window.scrollTo(0, pageHeight);
-	}
-}
-
 function tocBehavior() {
 	let toc = document.getElementById('toc');
 	if (toc) {
@@ -57,6 +51,7 @@ function tocBehavior() {
 		} else {
 			toc.style.bottom = '0';
 		}
+		window.scrollTo(0, document.body.scrollHeight);
 	}
 }
 
