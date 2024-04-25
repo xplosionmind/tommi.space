@@ -1,6 +1,29 @@
 let i = 0;
 scrollButton = document.getElementById('scrollButton');
 let pageHeight = document.body.scrollHeight;
+homeBtn = document.getElementById('home');
+
+document.addEventListener('DOMContentLoaded', () => {
+	let homeAnimation = localStorage.getItem('homeAnimation') || true;
+
+  // Toggle animation on button press
+  const btn = document.getElementById('homeAnimationToggleBtn');
+  btn.addEventListener('click', () => {
+		homeBtn.classList.toggle('animate');
+		if (homeAnimation) {
+			homeAnimation = false;
+		} else {
+			homeAnimation = true;
+		}
+    localStorage.setItem('homeAnimation', homeAnimation);
+  });
+
+	if (!homeAnimation) {
+		console.log('HomeAnimation is false!')
+		homeBtn.classList.remove('animate');
+	}
+
+});
 
 function scrollButtonBehavior() {
 	scrollButton.href = 'javascript:void(0);';

@@ -22,7 +22,9 @@ header {
 	background: var(--yellow);
 	box-shadow: var(--shadow);
 	border: 2px solid var(--black-ish);
-	animation: crazy 5s infinite;
+	&.animate {
+		animation: crazy 5s infinite;
+	}
 	&:hover,
 	&:focus {
 		color: #FFF !important;
