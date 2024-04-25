@@ -198,7 +198,7 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.on('eleventy.after', () => {
 		const execSync = require('child_process').execSync;
-		execSync(`npx pagefind`, { encoding: 'utf-8' });
+		execSync(`bun x pagefind`, { encoding: 'utf-8' });
 	})
 
 	return {
