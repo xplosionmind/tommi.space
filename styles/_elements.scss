@@ -333,8 +333,8 @@ img.button {
 	grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
 	grid-gap: $tiny;
 	img,
-	a div {
-		font: .5em var(--font-serif);
+	.book div {
+		font: .8em var(--font-serif);
 		text-align: center;
 		color: #E1DCC5;
 		background: linear-gradient(-30deg, #39281E, #4E3C2B);
