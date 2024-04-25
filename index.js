@@ -1,7 +1,4 @@
 let i = 0;
-let pageUrl = window.location.href;
-let show = 'block';
-let hide = 'none';
 scrollButton = document.getElementById('scrollButton');
 let pageHeight = document.body.scrollHeight;
 
@@ -61,31 +58,31 @@ let allLang = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[href
 
 function toggleIt() {
 	for (i = 0; i < nonItalian.length; i++) {
-		nonItalian[i].style.display = hide;
+		nonItalian[i].style.display = 'none';
 	}
 	for (i = 0; i < Italian.length; i++) {
-		Italian[i].style.display = show;
+		Italian[i].style.display = 'block';
 	}
 }
 function toggleEn() {
 	for (i = 0; i < nonEnglish.length; i++) {
-		nonEnglish[i].style.display = hide;
+		nonEnglish[i].style.display = 'none';
 	}
 	for (i = 0; i < English.length; i++) {
-		English[i].style.display = show;
+		English[i].style.display = 'block';
 	}
 }
 function toggleFr() {
 	for (i = 0; i < nonFrench.length; i++) {
-		nonFrench[i].style.display = hide;
+		nonFrench[i].style.display = 'none';
 	}
 	for (i = 0; i < French.length; i++) {
-		French[i].style.display = show;
+		French[i].style.display = 'block';
 	}
 }
 function toggleAll() {
 	for (i = 0; i < allLang.length; i++) {
-		allLang[i].style.display = show;
+		allLang[i].style.display = 'block';
 	}
 }
 
