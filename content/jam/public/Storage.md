@@ -4,11 +4,11 @@ updated: 2023-11-05T22:33:49+01:00
 aliases:
   - Backup
 tags: [geek]
+description: Notes concerning storage management, viable solutions and systems testing
 redirect_from:
   - /backup/
   - /backups/
   - /images/
-description: Notes concerning storage management, viable solutions and systems testing
 ---
 In the 21<sup>st</sup> century, storing information storage a major challenge. It is difficult to properly preserve personal data and memories, especially given the privacy and ethical concerns surrounding potential solutions. Although I am not an expert with enough time to devote to these issues, I am still quite interested in them and will share some thoughts here. I still carry the anxiety of two traumatic [[Data loss|data losses]], which makes everything more difficult, but more important.
 

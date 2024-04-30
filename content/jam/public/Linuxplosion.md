@@ -5,10 +5,10 @@ aliases:
   - Linux Workstation
 tags:
   - geek
-image: /2019-08-05-linuxplosion-2.jpg
-description: Linuxplosion is my awesome workstation, which I assembled in 2019 to edit a short movie. Now, I use it for my heaviest computing tasks, such as video editing or image processing.
-toc: false
 location: Xplosion Attic
+description: Linuxplosion is my awesome workstation, which I assembled in 2019 to edit a short movie. Now, I use it for my heaviest computing tasks, such as video editing or image processing.
+image: /2019-08-05-linuxplosion-2.jpg
+toc: false
 ---
 The original fundamental purpose of building <cite>Linuxplosion</cite> was editing [Everyone](https://tommi.space/everyone 'Everyone'). Some computerphiles friends joined me in finding the best components to use, as well as in assembling the computer. In particular, a huge shout-out to my friend Giorgio, who had the patience of bearing with me during all of the assembling process.
 

@@ -10,7 +10,8 @@
 		"url": "https://tommi.space/about",
 		"cv": "https://tommi.space/cv.pdf",
 		"keyoxide": "https://keyoxide.org/surfing@tommi.space",
-		"meet": "https://cal.com/tommi"
+		"meet": "https://cal.com/tommi",
+		"based": "Berlin"
 	},
 	"encoded_mailto": "ma&#105;&#108;to&#58;%&#55;&#51;u%72f&#37;&#54;9&#110;&#37;67&#64;t%6F&#109;&#109;&#37;69%2&#69;sp&#97;ce",
 	"primary": "#FCC920",
@@ -26,88 +27,102 @@
 			"title": "newsletter",
 			"color": "#FFF",
 			"background": "linear-gradient(128deg, var(--razzmatazz) 10%, #1F0B8A 55%, var(--blue) 90%)",
-			"description": "<cite>[Parole Sconnesse](/newsletter 'Parole Sconnesse')</cite>, la mia newsletter occasionale e disordinata.",
+			"description": "<cite lang='it'>[Parole Sconnesse](/newsletter 'Parole Sconnesse')</cite> is my discontinuous and messy newsletter.",
+			"description-it": "<cite>[Parole Sconnesse](/newsletter 'Parole Sconnesse')</cite>, la mia newsletter occasionale e disordinata.",
 			"url": "/newsletter#archive"
 		},
 		{
 			"title": "Pasticci",
 			"color": "#522E38",
 			"background": "linear-gradient(160deg, #FFC2D4, #FF7AA2)",
-			"description": "Non è come mangiare un gelato, la scrittura: se la addenti, non ti assale quell’immobilismo per cui il tuo cervello si contrae e non sei in grado di pensare ad altro per cinque virgola due secondi. La scrittura, invece, scalda e dilata, estende e quieta.<br>Ecco alcuni miei morsi di scrittura, vi prego di fare attenzione a non lasciarci un canino.",
+			"description": "A collection of wonderful failures of my foolish attempt at drawing images with my words you are invited to laugh at.",
+			"description-it": "Non è come mangiare un gelato, la scrittura: se la addenti, non ti assale quell’immobilismo per cui il tuo cervello si contrae e non sei in grado di pensare ad altro per cinque virgola due secondi. La scrittura, invece, scalda e dilata, estende e quieta. Di seguito alcuni miei morsi di scrittura, vi prego di fare attenzione a non lasciarci un canino.",
 			"url": "/pasticci"
 		},
 		{
 			"title": "Filosofia dell’ingegneria",
 			"color": "#F0F0CE",
 			"background": "linear-gradient(160deg, #02C39A, #05668D)",
-			"description": "Nei primi mesi del 2020, ho seguito il corso di <a href='https://filinge.blogspot.com'>Filosofia dell’ingegneria</a> al Politecnico di Torino. A ogni studente è stato richiesto di scrivere un blog <a href='https://filinge.blogspot.com/search/label/ABC'>su un tema diverso per ciascuno</a>, il mio era <em><strong>valore</strong></em>.",
+			"description": "Filinge",
+			"description-it": "Nei primi mesi del 2020, ho seguito il corso di <a href='https://filinge.blogspot.com'>Filosofia dell’ingegneria</a> al Politecnico di Torino. A ogni studente è stato richiesto di scrivere un blog <a href='https://filinge.blogspot.com/search/label/ABC'>su un tema diverso per ciascuno</a>, il mio era <em><strong>valore</strong></em>.",
 			"url": "/filinge"
 		},
 		{
 			"title": "geek",
 			"color": "#D9F8EF",
 			"background": "linear-gradient(160deg, #5E60CE, #6F00B1)",
-			"description": "The title says it all. Geek stuff. Notes, resources indexing, useful shortcuts and any sort of knowledge to always have at hand."
+			"description": "Notes, resources, shortcuts, and thoughts on technology and the digital domain. Nerd stuff.",
+			"description-it": "Appunti, risorse, scorciatoie e riflessioni su informatica e tecnologia. Cose da nerd."
 		},
 		{
 			"title": "zen",
 			"color": "#FFF3E6",
 			"background": "linear-gradient(160deg, #1A508B, #0D335D)",
-			"description": "About improving life, relationships, productivity, etc.<br>Everything which should make me happier."
+			"description": "About relationships, emotions, experiences. About life, and taking it in a good way.",
+			"description-it": "Su relazioni, emozioni, esperienze. Sulla vita e sul prenderla bene."
 		},
 		{
 			"title": "cinema",
 			"color": "#FAEFEA",
 			"background": "linear-gradient(160deg, #F28F3B, #C8553D)",
-			"description": "Stuff about cinema"
+			"description": "About the cinema world.",
+			"description-it": "Riguardo al mondo del cinema."
 		},
 		{
 			"title": "draft",
 			"color": "#F2E9E4",
 			"background": "linear-gradient(160deg, #4A4E69, #22223B)",
-			"description": "To finish writing down."
+			"description": "To finish writing down.",
+			"description-it": "Di cui completare la scrittura."
 		},
 		{
 			"title": "wip",
 			"color": "#FFF",
 			"background": "linear-gradient(160deg, #222222, #030303)",
-			"description": "Work in progress content."
+			"description": "Work in progress content.",
+			"description-it": "Cose ancora in costruzione."
 		},
 		{
 			"title": "Inchiostro Digitale",
 			"color": "#9CC455",
 			"background": "linear-gradient(160deg, #604BA5, #3B2071)",
-			"description": "Qualche anno fa sono stato redattore e poi caporedattore dell’Ufficio Stampa del Liceo Cassini di Sanremo. Avevamo avviato una collaborazione con il giornale locale [Riviera Time](https://rivieratime.news), creando sul loro sito il blog [Inchiostro Digitale](https://www.rivieratime.news/blog/inchiostro-digitale/). Questi sono gli articoli che ho scritto. (Se volete divertirvi leggete l’inizio dell’ultimo. Io non ci credo che l’hanno pubblicato sul serio)."
+			"description": "Inchisfp",
+			"description-it": "Al liceo sono stato redattore e poi caporedattore dell’Ufficio Stampa del Liceo Cassini di Sanremo. Avevamo avviato una collaborazione con il giornale locale [Riviera Time](https://rivieratime.news), creando sul loro sito il blog [Inchiostro Digitale](https://www.rivieratime.news/blog/inchiostro-digitale/). Questi sono gli articoli che ho scritto. (Se volete divertirvi leggete l’inizio dell’ultimo. Io non ci credo che l’hanno pubblicato sul serio)."
 		},
 		{
-			"title": "radioimmaginaria",
+			"title": "Radioimmaginaria",
 			"color": "white",
 			"background": "linear-gradient(160deg, #EE4249, #BC2F30)",
-			"description": "È grazie a (o per colpa di) [Radioimmaginaria](/cose#radioimmaginaria) se ho cominciato a sentire quel piccolo ma inarrestabile fremito dal profondo del cuore che mi spinge a scrivere, parlare e condividere quello che mi passa per la testa. Questi sono gli articoli che ho scritto per il blog di radio, i miei primi in assoluto. (leggere con cognizione di causa: avevo sedici o diciassette anni)."
+			"description": "rimm",
+			"description-it": "È grazie a (o per colpa di) [Radioimmaginaria](/cose#radioimmaginaria) se ho cominciato a sentire quel piccolo ma inarrestabile fremito dal profondo del cuore che mi spinge a scrivere, parlare e condividere quello che mi passa per la testa. Questi sono gli articoli che ho scritto per il blog di radio, i miei primi in assoluto. (leggere con cognizione di causa: avevo sedici o diciassette anni)."
 		},
 		{
 			"title": "reading",
 			"color": "#F3E9DC",
 			"background": "linear-gradient(160deg, #895737, #53291E)",
-			"description": "Stopping the scrolling and diving into reading"
+			"description": "When I stop the scrolling and I dive into reading.",
+			"description-it": "Quando fermo lo scrollare e mi tuffo nella lettura."
 		},
 		{
 			"title": "scout",
 			"color": "#F5F0C9",
 			"background": "linear-gradient(160deg, #3C6930, #284420)",
-			"description": "Servire e vivere la comunità. Racconti dal mondo scout"
+			"description": "To serve and to experience the community. Thoughts and tales from the scout world.",
+			"description-it": "Servire e vivere la comunità. Racconti dal mondo scout"
 		},
 		{
 			"title": "idea",
 			"color": "#1F6284",
 			"background": "linear-gradient(160deg, #FFE570, #E0B700)",
-			"description": "Ephemeral lightnings in my mind."
+			"description": "Ephemeral lightnings in my mind.",
+			"description-it": "Effimere illuminazioni nella mia mente."
 		},
 		{
 			"title": "knowledge",
 			"color": "#F0FCD9",
 			"background": "linear-gradient(160deg, #C70039, #581845)",
-			"description": "Learning skills, resources, and insights. Everything concerning knowledge and its scarcity."
+			"description": "Learning skills, resources, and insights. Everything concerning knowledge.",
+			"description-it": "Imparare cose, risorse e suggerimenti. Tutto ciò che riguarda la conoscenza."
 		}
 	]
 }

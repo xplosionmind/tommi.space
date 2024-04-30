@@ -4,9 +4,9 @@ updated: 2022-03-14T14:57:56+01:00
 tags:
   - geek
   - event
+description: Appunti e risorse della presentazione di MDN Web Docs al Linux Day 2020.
 permalink: /MDN-Linux-Day/
 lang: it
-description: Appunti e risorse della presentazione di MDN Web Docs al Linux Day 2020.
 redirect_from: [/appunti-presentazione-MDN/, /Keynote-MDN-Linux-Day-2020/]
 ---
 Il 24 ottobre 2020, in occasione del [Linux Day Online](https://linuxday.it/ 'Sito ufficiale Linux Day') italiano, [ho tenuto una presentazione](https://video.linux.it/videos/watch/091b3ba4-5ed0-4f31-b6f4-4cd06060c9bf 'La registrazione della presentazione') su [MDN Web Docs](https://mdn.dev 'MDN homepage'), una risorsa molto utile per utenti alle prime armi come per svilupptori esperti. Quelle che seguono sono le mie note.
@@ -46,15 +46,13 @@ Chiunque può unirsi alla comunità Mozilla, basta riconoscersi nei suoi princip
 
 <br>
 
-
 ### MDN Web Docs
 
     Da sviluppatori, per sviluppatori
 
     I fruitori di MDN e i suoi creatori fanno parte della stessa famiglia. È questo a rendere le spiegazioni di MDN così esaustive e chiare. Ma prima…
 
-
-### Che cos'è MDN
+### Che cos’è MDN
 
 - Una sorta di “Wikipedia” per la programmazione web.
 - Linguaggi di programmazione:

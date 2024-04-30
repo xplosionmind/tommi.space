@@ -1,8 +1,8 @@
 ---
 date: 2023-11-27T21:08:14+01:00
-location: xHain
 aliases:
   - Tommi’s dotfiles manager
+location: xHain
 description: "a.k.a. *Tommi’s dotfiles manager*: a little ruse to backup my configuration files"
 toc: false
 ---

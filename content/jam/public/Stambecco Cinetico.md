@@ -5,6 +5,8 @@ tags: scout
 aliases: Totem, Nome di caccia
 redirect_from: [/totem/, /stambeccocinetico/]
 location: Val Codera
+lang: it
+toc: false
 ---
 <cite>Stambecco Cinetico</cite> è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout) '“Totem” su Wikipedia'), o nome di caccia.
 
