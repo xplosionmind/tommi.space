@@ -1,6 +1,6 @@
 ---
 date: 2022-05-18T14:34:20+02:00
-updated: 2022-11-13T13:08:36+01:00
+updated: 2024-03-08T13:02:58+02:00
 location: Zattere
 tags: self
 image: /tomminess.jpg
@@ -52,6 +52,7 @@ Unsurprisingly, <cite>Tomminess</cite> is Tommi’s way of living. It is compose
 - getting super pumped and enthusiastic when people/friends he met in different occasions or in different context meet between each other thanks to his mediation.
 - both using and being <q>🤯</q> very (or too) often
 - please, if you know Tommi, [comment below](#comments) by writing what you think is missing, and, if accurate, it will be added.
+- being [[Last-minuTommi|always last-minute]]
 
 ## Tommi =
 

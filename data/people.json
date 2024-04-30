@@ -138,5 +138,15 @@
 		"real": true,
 		"sex": "m",
 		"met": true
+	},
+	{
+		"who": "Matthias Kirschner",
+		"lang": "en",
+		"image": "https://k7r.eu/static/img/MatthiasKirschner-s0t0s0-600x600.jpg",
+		"url": "https://k7r.eu",
+		"added": "2024-04-23T09:16:50+02:00",
+		"real": true,
+		"sex": "m",
+		"met": true
 	}
 ]
