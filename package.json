@@ -5,7 +5,7 @@
   "scripts": {
     "start": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
     "build": "ELEVENTY_ENV=production eleventy",
-    "debug": "DEBUG=Eleventy* bun run start --dry-run",
+    "debug": "DEBUG=Eleventy* bun run start",
     "clean": "del-cli dist"
   },
   "repository": {
@@ -39,8 +39,9 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@photogabble/eleventy-plugin-interlinker": "1.1.0-rc4",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "csv-parse": "^5.5.3",
+    "csv-parse": "^5.5.5",
     "eleventy-plugin-embed-everything": "^1.18.2",
     "eleventy-plugin-toc": "^1.1.5",
     "eleventy-sass": "^2.2.4",
@@ -50,6 +51,7 @@
     "markdown-it-mark": "^4.0.0",
     "markdown-it-mathjax3": "^4.3.2",
     "markdown-it-task-lists": "^2.1.1",
-    "markdown-it-wikilinks": "^1.4.0"
+    "markdown-it-wikilinks": "^1.4.0",
+    "reurl": "1.0.0-rc.2"
   }
 }
