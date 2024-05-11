@@ -37,15 +37,15 @@
 			"background": "linear-gradient(160deg, #FFC2D4, #FF7AA2)",
 			"description": "A collection of wonderful failures of my foolish attempt at drawing images with my words you are invited to laugh at.",
 			"description-it": "Non è come mangiare un gelato, la scrittura: se la addenti, non ti assale quell’immobilismo per cui il tuo cervello si contrae e non sei in grado di pensare ad altro per cinque virgola due secondi. La scrittura, invece, scalda e dilata, estende e quieta. Di seguito alcuni miei morsi di scrittura, vi prego di fare attenzione a non lasciarci un canino.",
-			"url": "/pasticci"
+			"url": "/pasticci/"
 		},
 		{
 			"title": "Filosofia dell’ingegneria",
 			"color": "#F0F0CE",
 			"background": "linear-gradient(160deg, #02C39A, #05668D)",
-			"description": "Filinge",
-			"description-it": "Nei primi mesi del 2020, ho seguito il corso di <a href='https://filinge.blogspot.com'>Filosofia dell’ingegneria</a> al Politecnico di Torino. A ogni studente è stato richiesto di scrivere un blog <a href='https://filinge.blogspot.com/search/label/ABC'>su un tema diverso per ciascuno</a>, il mio era <em><strong>valore</strong></em>.",
-			"url": "/filinge"
+			"description": "In the second semester of the 2020/2021 academic year, I attended the <a href='https://filinge.blogspot.com' hreflang='it'>Philosophy of Engineering</a> course at the <a href='https://polito.it'>Politechnic of Torino</a>. It was requested to each student to write a blog, <a href='https://filinge.blogspot.com/search/label/ABC' hreflang='it'>for each of us, it was on a different topic</a>. My topic was ***value***.",
+			"description-it": "Nei primi mesi del 2020, ho seguito il corso di [Filosofia dell’ingegneria](https://filinge.blogspot.com) al Politecnico di Torino. A ciascuno studente è stato richiesto di scrivere [un blog su un tema diverso](https://filinge.blogspot.com/search/label/ABC), il mio era ***valore***.",
+			"url": "/filinge/"
 		},
 		{
 			"title": "geek",
@@ -86,15 +86,15 @@
 			"title": "Inchiostro Digitale",
 			"color": "#9CC455",
 			"background": "linear-gradient(160deg, #604BA5, #3B2071)",
-			"description": "Inchisfp",
-			"description-it": "Al liceo sono stato redattore e poi caporedattore dell’Ufficio Stampa del Liceo Cassini di Sanremo. Avevamo avviato una collaborazione con il giornale locale [Riviera Time](https://rivieratime.news), creando sul loro sito il blog [Inchiostro Digitale](https://www.rivieratime.news/blog/inchiostro-digitale/). Questi sono gli articoli che ho scritto. (Se volete divertirvi leggete l’inizio dell’ultimo. Io non ci credo che l’hanno pubblicato sul serio)."
+			"description": "While attending High School, I have been editor in chief for [my school](https://liceogdcassini.it)’s press office. During that time, I wrote several articles in collaboration with a local newspaper. The following are the writings we published.",
+			"description-it": "Al liceo sono stato redattore e poi caporedattore dell’Ufficio Stampa del Liceo Cassini di Sanremo. Avevamo avviato una collaborazione con il giornale locale [Riviera Time](https://rivieratime.news), creando sul loro sito il blog [Inchiostro Digitale](https://www.rivieratime.news/blog/inchiostro-digitale/). Questi sono gli articoli che ho scritto."
 		},
 		{
 			"title": "Radioimmaginaria",
 			"color": "white",
 			"background": "linear-gradient(160deg, #EE4249, #BC2F30)",
-			"description": "rimm",
-			"description-it": "È grazie a (o per colpa di) [Radioimmaginaria](/cose#radioimmaginaria) se ho cominciato a sentire quel piccolo ma inarrestabile fremito dal profondo del cuore che mi spinge a scrivere, parlare e condividere quello che mi passa per la testa. Questi sono gli articoli che ho scritto per il blog di radio, i miei primi in assoluto. (leggere con cognizione di causa: avevo sedici o diciassette anni)."
+			"description": "Content originally written on <cite>[Radioimmaginaria](https://radioimmaginaria.it)</cite>’s platforms, or concerning my activity with the radio.",
+			"description-it": "Contenuti originariamente scritti sulle piattaforme di <cite>[Radioimmaginaria](https://radioimmaginaria.it)</cite>, oppure riguardanti la mia attività con la radio."
 		},
 		{
 			"title": "reading",
