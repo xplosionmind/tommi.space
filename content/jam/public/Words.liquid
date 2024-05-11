@@ -1,0 +1,31 @@
+---
+tags: log
+lang: en
+ref: parole
+toc: false
+description: My peronal collection of wonderful words—either ugly words with a wonderful meaning, or words that have a bad meaning, but sound wonderfully.
+---
+{% assign parole = parole | sort: date | reverse %}
+<ul class='two'>
+	{% for p in parole %}
+		<li lang='{{ p.lang }}'>
+			<time datetime='{{ p.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>
+				{{ p.date | date: '%Y-%m-%d' }}
+			</time>
+			{%- if p.url != '' -%}
+				<a href='{{ p.url }}' title='{{ p.word }}'>{{ p.word }}</a>
+			{%- else -%}
+				{%- if p.lang == 'it' -%}
+					<a href='https://www.treccani.it/vocabolario/{{ p.word | url_encode }}' title='“{{ p.word }}” nel vocabolario Treccani'>{{ p.word }}</a>
+				{%- elsif p.lang == 'en' -%}
+					<a href='https://www.merriam-webster.com/dictionary/{{ p.word | url_encode }}' title='“{{ p.word }}” on Merriam-Webster dictionary' hreflang='en'>{{ p.word }}</a>
+				{%- else -%}
+					{{ p.word }}
+				{%- endif -%}
+			{%- endif -%}
+			{%- if p.note != '' -%}
+				, {{ p.note | markdownify }}
+			{%- endif -%}
+		</li>
+	{% endfor %}
+</ul>

@@ -26,27 +26,10 @@ While I keep working on a more detailed and exhaustive article on the topic, bel
 This is a great article, actually the first one I read about the topic.
 - [Three Years of Misery Inside Google, the Happiest Company in Tech](https://www.wired.com/story/inside-google-three-years-misery-happiest-company-tech/ 'Three Years of Misery Inside Google, the Happiest Company in Tech on Wired'), on Wired
 - [How to Leave Google Behind: Quick Guide to Take Back Your Privacy Online.](https://tutanota.com/blog/posts/how-to-leave-google-gmail/ 'How to Leave Google Behind: Quick Guide to Take Back Your Privacy Online by Tutanota') on Tutanota's blog
-- [reasons to quit Google](https://stallman.org/google.html 'Quit Google on Richard Stallman's website') explained by [Richard Stallman]
 - [A new and innovative way for Google to kill your SaaS startup](https://gomox.medium.com/google-safe-browsing-can-kill-your-startup-7d73c474b98d 'A new and innovative way for Google to kill your SaaS startup')
 - 🇫🇷 [degooglisons](https://degooglisons-internet.org/en/ 'Une vie sans Google')
 - 🇮🇹 [Degooglizzazione](https://devol.it/it/degooglizzazione 'Degooglizzazione')
 
-<br>
-<br>
-
 ## Steps
 
 - deleted all accounts on 2021.03.31 ✅
-- ~~Check Drive `Storage` folder~~ ✅ 2020.12.20
-- ~~Check Drive `Shared with me` folder~~ (useful shared links moved to [[Google Drive and Dropbox shared links]]) ✅ 2020\.12\.10
-
-<br>
-<br>
-
-## Alternatives
-
-I will not be listing **all** alternatives, neither sises which list all of possible alternatives, <u>there are plenty</u>. Below, I will list only some other valuable alternatives I could not find out elsewhere.
-
-- [Migadu](https://www.migadu.com/ 'Migadu') mail
-
-[Richard Stallman]: https://stallman.org 'Richard Stallman'

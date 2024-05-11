@@ -33,7 +33,7 @@ sitemap:
 
 <div class='row'>
 	{% render 'quitsocialmedia.html', lang: lang %}
-	{% render 'sconnesso.html', sconnesso: sconnesso, lang: lang %}
+	{% render 'sconnesso.liquid', sconnesso: sconnesso, lang: lang %}
 </div>
 
 {% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
@@ -41,7 +41,7 @@ sitemap:
 <div class='row'>
 	<div class='half column'>
 		<section class='razzmatazz border box'>
-			<a href='/jam'>
+			<a href='/marmellata/' title='La Marmellata'>
 				{% img 'jam.webp', 'Un disegno dell’esplosione della testa di Tommi con una grande confusione che ne esce, il tutto rinchiuso in un vasetto di marmellata' %}
 				<h2 class='title'>La Marmellata</h2>
 			</a>

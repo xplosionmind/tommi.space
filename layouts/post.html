@@ -9,30 +9,30 @@ layout: wrapper.liquid
 		{% endif %}
 		<p class='metadata'>
 			{% if lang == 'it' %}
-			{% if location %}
-			{% for place in places %}
-				{% if place.name contains location or place.aliases contains location %}
-					{% if place.osm != '' %}
-						<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
-					{% else %}
-						<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
-					{% endif %}
+				{% if location %}
+					{% for place in places %}
+						{% if place.name contains location or place.aliases contains location %}
+							{% if place.osm != '' %}
+								<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>,
+							{% else %}
+								<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+							{% endif %}
+						{% endif %}
+					{% endfor %}
 				{% endif %}
-			{% endfor %}
-		{% endif %}
-		{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: date %}</time>{% endif %}
-	{% else %}
-		{% if location %}
-			{% for place in places %}
-				{% if place.name contains location or place.aliases contains location %}
-					{% if place.osm != '' %}
-						<a href='{{ place.osm }}' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
-					{% else %}
-						<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
-					{% endif %}
+				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: date %}</time>{% endif %}
+			{% else %}
+				{% if location %}
+					{% for place in places %}
+						{% if place.name contains location or place.aliases contains location %}
+							{% if place.osm != '' %}
+								<a href='{{ place.osm }}' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>,
+							{% else %}
+								<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+							{% endif %}
+						{% endif %}
+					{% endfor %}
 				{% endif %}
-			{% endfor %}
-		{% endif %}
 				{% if date %}<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%-d %B %Y' }}</time>{% endif %}
 			{% endif %}
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
@@ -51,7 +51,6 @@ layout: wrapper.liquid
 			</div>
 		</aside>
 	{% endif %}
-
 
 	<div class='row'>
 		<div class='one column'>

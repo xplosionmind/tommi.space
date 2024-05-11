@@ -14,7 +14,7 @@ comments: false
 
 ## Vivendo Berlino
 
-Trasferendomi a Berlino per il tirocinio, mi sono piombate addosso un sacco di cose per me inedite. Fra le tante, in particolare vivere in una città veramente grande, di cui non parlo la lingua, con anima, temperatura e temperamento molto diverse da quelle dei luoghi in cui ho vissuto prima.
+Trasferendomi a Berlino per il mio tirocinio alla [FSFE](https://fsfe.org 'Free Software Foundation Europe'), mi sono piombate addosso un sacco di cose per me inedite. Fra le tante, in particolare vivere in una città veramente grande, di cui non parlo la lingua, con anima, temperatura e temperamento molto diverse da quelle dei luoghi in cui ho vissuto prima.
 
 Ambientarmi e scoprire questo luogo affascinante sta occupando gran parte del tempo in cui non lavoro.
 

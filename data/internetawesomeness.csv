@@ -1,4 +1,5 @@
 added,title,url,tags,description
+2024-05-01T06:01:39+02:00,searchmysite.net,https://searchmysite.net/,indieweb,"A niche search engine, focusing on the <q>indieweb</q> or <q>small web</q> or <q>digital gardens</q>, i.e. non-commercial content, primarily personal and independent websites."
 2024-04-28T01:25:09+02:00,Purser Club,https://purserclub.com/,hobby personal,Finding ways to sail more and spend less. And sometimes succeeding.
 2024-04-25T08:55:04+02:00,JS Naked Day,https://js-naked-day.org/,geek web,"A website dedicated to the celebration of JavaScript naked day, on April 24<sup>th</sup>"
 2024-04-24T22:58:45+02:00,Color-namer,https://colornamer.netlify.app,design tool,Find a color’s name starting from its HEX code
@@ -179,7 +180,7 @@ added,title,url,tags,description
 2021-03-16,Gradient Avatar,https://gradient-avatar.glitch.me/xplosionmind,,
 2021-03-16,Online Life Calendar,https://www.onlinelifecalendar.com,,
 2021-03-20,Brand Colors,https://brandcolors.net,design,
-2021-03-20,Tint & shade generator,https://maketintsandshades.com,web design,generate shades of a given color
+2021-03-20,Tint &amp; shade generator,https://maketintsandshades.com,web design,generate shades of a given color
 2021-03-22,Expolibre,https://expolibre.org,geek event,
 2021-03-22,Wizard Zines,https://wizardzines.com,geek,Learn Computer Science basic concepts through wonderful zines
 2021-03-23,Fedidb,https://fedidb.org,geek,a database which keeps count of federated social networks’ instances

@@ -1,16 +1,14 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2024-04-27T19:25:09+02:00
+updated: 2024-05-10T15:37:50+02:00
 aliases:
   - Xplosion Server
   - Neb
   - Server
 tags:
   - todo
-  - wip
   - geek/neb
-location: Xplosion Attic
-description: Information and insights concerning the configuration and manteinance of Tommi’s server
+description: Information and insights concerning the configuration and maintenance of Tommi’s server
 permalink: /neb/
 redirect_from:
   - /server/
@@ -54,11 +52,10 @@ sudo systemctl restart nginx
 
 ## Nextcloud
 
-Using occ `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]`
+Using [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html '“Using the occ command” in Nextcloud Docs'): `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]`.
 
 ## To do
 
 - Set global and/or specific CORS Origin permissions
-- Why <q>The configuration file `/var/www/.well-known/www.tommi.space/autoconfig/mail/config-v1.1.xml` has been manually modified and will not be updated</q>?
 - `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ stt_whisper:download-models medium`
 - Nextcloud changed config files: `/var/www/nextcloud/config/config.php`, old: `/var/cache/yunohost/appconfbackup//var/www/nextcloud/config/config.php.backup.11142`

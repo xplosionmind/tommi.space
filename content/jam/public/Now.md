@@ -14,7 +14,7 @@ comments: false
 
 ## Embracing the Berlin life
 
-After moving to Berlin for my internship, quite a lot of unprecedented things crashed down on me. Above them all, living in a really big city, whose language I don’t speak, a place with a very different soul, temperature, and temperament with respect to the places I have lived before.
+After moving to Berlin for my internship at [FSFE](https://fsfe.org 'Free Software Foundation Europe'), quite a lot of unprecedented things crashed down on me. Above them all, living in a really big city, whose language I don’t speak, a place with a very different soul, temperature, and temperament with respect to the places I have lived before.
 
 Settling in and discovering this fascinating conundrum of life is taking up pretty much all of the time I am not working.
 

@@ -20,7 +20,7 @@ type: WebSite
 	<footer>
 		<div class='row'>
 			<strong>Quick links</strong> →
-			<address><a href='mailto:surfing@tommi.space' rel='me' target='_blank' title='Write me an email'> email </a></address>
+			<address><a href='{{ site.encoded_mailto }}' rel='me' target='_blank' title='Write me an email'> email </a></address>
 			•
 			<a href='https://pan.rent/@tommi' rel='me' target='_blank' title='My Mastodon profile on Pan'> Fediverse </a>
 			•
@@ -30,9 +30,9 @@ type: WebSite
 			•
 			<a href='{{ site.forge }}' target='_blank' rel='me' title='My profile on Codeberg'> git </a>
 			•
-			<a href='{{ site.author.cv }}' target='_blank'  title='My Curriculum Vitae'> CV </a>
+			<a href='{{ site.author.cv }}' title='My Curriculum Vitae'> CV </a>
 			•
-			<a href='/feeds' target='_blank' title='This website’s feeds'> RSS </a>
+			<a href='/feeds/' title='This website’s feeds'> RSS </a>
 			{% comment %}
 			•
 			<a href='gemini://tommi.space' title='tommi.space throught the Gemini protocol'> gemini version </a>
