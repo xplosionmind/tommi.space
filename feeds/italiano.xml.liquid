@@ -1,13 +1,13 @@
 ---
-title: Tommi in italiano
-subtitle: Tutti i contenuti in italiano da tommi.space
+title: Flusso italiano
+description: Flusso dei contenuti in lingua italiana su tommi.space
 altUrl: https://tommi.space/tuffo/
-permalink: /italiano.xml
+permalink: /it.xml
 lang: it
 layout: feed.xml.liquid
 ---
 {% assign all = collections.jam | concat: collections.zibaldone| concat: collections.poetry | sort: 'date' | reverse %}
-{% for entry in all %}{% if entry.data.lang == 'it' %}
+{% for entry in all limit: 10 %}{% if entry.data.lang == 'it' %}
 	<item>
 		<title>{{ entry.data.title }}</title>
 		<link>{{ site.url }}{{ entry.url }}</link>

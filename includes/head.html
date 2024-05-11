@@ -57,13 +57,14 @@
 	<!-- Gemini version -->
 	<link rel='alternate' type='text/gemini' title='tommi.space through Gemini' href='gemini://tommi.space'>
 	{% endcomment %}
-
 	<!-- RSS Feeds -->
 	{% if lang == 'it' %}
 		<link rel='alternate' type='application/rss+xml' title='Feed principale' href='/it/index.xml'>
-		<link rel='alternate' type='application/json' title='Tutto in italiano - JSON' href='/italiano.json'>
+		<link rel='alternate' type='application/rss+xml' title='Feed dei contenuti in italiano' href='/it.xml'>
+		<link rel='alternate' type='application/json' title='Tutto in italiano - JSON' href='/it.json'>
+	{% else %}
+		<link rel='alternate' type='application/rss+xml' title='Main feed' href='/index.xml'>
 	{% endif %}
-	<link rel='alternate' type='application/rss+xml' title='Main feed' href='/index.xml'>
 	<link rel='alternate' type='application/json' title='Stream - JSON' href='/all.json'>
 	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}Zibaldone{% else %}Blog feed{% endif %}' href='/zibaldone.xml'>
 	<link rel='alternate' type='application/json' title='{% if lang == 'it' %}Zibaldone{% else %}Blog feed{% endif %}' href='/zibaldone.json'>
@@ -74,6 +75,8 @@
 	<link rel='alternate' type='application/rss+xml' title='{% if lang == 'it' %}Sconnesso{% else %}Sconnesso podcast{% endif %}' href='/sconnesso.xml'>
 	<link rel='alternate' type='application/rss+xml' title='Internet Awesomeness feed' href='/internet-awesomeness.xml'>
 	<link rel='alternate' type='application/json' title='Internet Awesomeness feed' href='/internet-awesomeness.json'>
+	<link rel='alternate' type='application/rss+xml' title='Recent and upcoming activities' href='/activities.xml'>
+	<link rel='alternate' type='application/json' title='Recent and upcoming activities – JSON' href='/activities.json'>
 
 	<script type='application/ld+json'>
 		{

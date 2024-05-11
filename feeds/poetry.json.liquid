@@ -7,7 +7,7 @@ lang: it
 layout: feed.json.liquid
 ---
 {% assign poetry = collections.poetry | sort: 'date' | reverse %}
-	"items": [{% for entry in poetry limit: 20 %}
+	"items": [{% for entry in poetry limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",

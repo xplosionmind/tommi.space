@@ -1,12 +1,12 @@
 ---
-title: Jam Stream
-description: The feed of all the notes that populate “The Jam„
-altUrl: https://tommi.space/jam
-permalink: /jam.json
+title: Reading notes feed
+description: The feed of my notes from my latest reads
+altUrl: https://tommi.space/tags#reading
+permalink: /reading.json
 layout: feed.json.liquid
 ---
-{% assign jam = collections.jam | sort: 'date' | reverse %}
-	"items": [{% for entry in jam limit: 10 %}
+{% assign reading = collections.reading | sort: 'date' | reverse %}
+	"items": [{% for entry in reading limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",

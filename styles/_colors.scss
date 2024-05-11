@@ -59,6 +59,11 @@
 	border-color: var(--razzmatazz) !important;
 }
 
+.it {
+	color: var(--dark-blue);
+	background: linear-gradient(90deg, #008C45 0%, #FFF 37%, #FFF 63%, #CD212A 100%);
+}
+
 .border {
 	color: var(--text) !important;
 	background: var(--background) !important;

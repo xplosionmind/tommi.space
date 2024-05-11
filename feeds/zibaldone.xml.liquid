@@ -1,13 +1,13 @@
 ---
-title: Zibaldone
-subtitle: Tutti gli articoli dal blog di tommi.space
+title: Zibaldone feed
+subtitle: Il flusso degli ultimi articoli scritti su Zibaldone, il blog di tommi.space
 altUrl: https://tommi.space/zibaldone/
 permalink: /zibaldone.xml
 lang: it
 layout: feed.xml.liquid
 ---
 {% assign zib = collections.zibaldone | sort: 'date' | reverse %}
-{% for entry in zib limit: 20 %}
+{% for entry in zib limit: 10 %}
 	<item>
 		<title>{{ entry.data.title }}</title>
 		<link>{{ site.url }}{{ entry.url }}</link>

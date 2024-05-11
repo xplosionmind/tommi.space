@@ -3,11 +3,10 @@ title: Jam Stream
 subtitle: The feed of all the notes that populate “The Jam„
 altUrl: https://tommi.space/jam/
 permalink: /jam.xml
-lang: en
 layout: feed.xml.liquid
 ---
 {% assign jam = collections.jam | sort: 'date' | reverse %}
-{% for entry in jam limit: 20 %}
+{% for entry in jam limit: 10 %}
 	<item>
 		<title>{{ entry.data.title }}</title>
 		<link>{{ site.url }}{{ entry.url }}</link>

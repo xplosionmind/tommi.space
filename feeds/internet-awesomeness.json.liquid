@@ -3,11 +3,10 @@ title: Internet Awesomeness
 altUrl: https://tommi.space/internet-awesomeness
 description: Internet Awesomeness entries
 permalink: /internet-awesomeness.json
-lang: en
 layout: feed.json.liquid
 ---
 {% assign ia = internetawesomeness | sort: 'added' | reverse %}
-	"items": [{% for entry in ia %}
+	"items": [{% for entry in ia limit: 10 %}
 	{
 		"id": "{{ entry.url }}",
 		"url": "{{ entry.url }}",

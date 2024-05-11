@@ -28,14 +28,11 @@
 				<p>I miei casini mentali superano i limiti del web convenzionale: tommi.space è navigabile anche <a href='gemini://tommi.space' title='tommi.space su Gemini' rel='alternate' type='text/gemini'>attraverso il protocollo Gemini</a>.</p>
 			{% else %}
 				<p>The wild troubles of my mind encompass the standard web: tommi.space is available also <a href='gemini://tommi.space' title='tommi.space Gemini version' rel='alternate' type='text/gemini'>through the Gemini protocol</a>!</p>
+		<a class='button' id='feedBtn' href='{% if lang == 'it' %}/it{% endif %}/index.xml' title='{% if lang == 'it' %}tutti i feed del sito'>Feed principale{% else %}All of this website feeds'>
+			Main feed
 			{% endif %}
-		</div>
-	</div>
-	{% endcomment %}
-	<div class='flex row' id='webrings'>
-		{% render 'hotlinewebring.html', lang: lang %}
-		{% render 'indiewebring.html', lang: lang %}
-		{% render 'safontwebring.html', lang: lang %}
+			<svg id='RSSicon' width='73' height='73' version='1.1' viewBox='0 0 146 146' xmlns='http://www.w3.org/2000/svg'><g fill='#fff' stroke-width='.83'><circle cx='20' cy='126' r='20'/><path d='m97 146h-28a68 68 0 0 0-68-68v-28a97 97 0 0 1 97 97z'/><path d='m117 146a117 117 0 0 0-117-117v-29a146 146 0 0 1 146 146z'/></g></svg>
+		</a>
 	</div>
 	<div class='row'>
 		{% if lang == 'it' %}

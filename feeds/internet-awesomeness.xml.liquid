@@ -3,11 +3,10 @@ title: Internet Awesomeness
 subtitle: Internet Awesomeness entries
 altUrl: https://tommi.space/internet-awesomeness/
 permalink: /internet-awesomeness.xml
-lang: en
 layout: feed.xml.liquid
 ---
 {% assign ia = internetawesomeness | sort: 'added' | reverse %}
-{% for entry in ia %}
+{% for entry in ia limit: 10 %}
 	<item>
 		<title>{{ entry.title }}</title>
 		<link>{{ entry.url }}</link>

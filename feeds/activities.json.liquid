@@ -1,0 +1,18 @@
+---
+title: Tommi’s recent activities
+altUrl: https://tommi.space/activities/
+description: Updates on the most recent things Tommi did/is doing.
+permalink: /activities.json
+layout: feed.json.liquid
+---
+	"items": [{% for entry in activities reversed limit: 10 %}
+	{
+		"id": "{{ entry.title | slugify }}",
+		{% if entry.url %}"url": "{{ entry.url }}",{% endif %}
+		"content_html": "{% if entry.location %}📍 <strong>Location</strong>: {{ entry.location }}<br />{% endif %}🗓️ <strong>Start</strong>: <time datetime='{{ entry.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.start | date: '%-d %b %Y' }}</time><br />{% if entry.end %}🗓️ <strong>End</strong>: <time datetime='{{ entry.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.end | date: '%-d %b %Y' }}</time>{% endif %}<br /><br />{% if entry.description %}{{ entry.description | markdownify | replace: '\\', '\\\\' | replace: '"', '\'' | replace: '\n', ' ' | replace: '	', ' ' | strip }}{% endif %}",
+			"content_text": "{% if entry.location %}📍 Location: {{ entry.location }} — {% endif %}🗓️ Start: {{ entry.start | date: '%-d %b %Y' }} — {% if entry.end %}🗓️ End: {{ entry.end | date: '%-d %b %Y' }} — {% endif %}{% if entry.description %}{{ entry.description | markdownify | strip_html | replace: '\n', ' ' | replace: '	', ' ' | replace: '\\', '\\\\' | replace: '"', '\\"' | strip }}{% endif %}",
+		{% if entry.data.tags %}"tags": ["{{ tags | replace: ' ', '","' }}"],{% endif %}
+		"title": "{{ entry.title }}"
+	}{% unless forloop.last %},{% endunless %}
+	{% endfor %}]
+

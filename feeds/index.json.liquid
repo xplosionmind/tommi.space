@@ -2,12 +2,11 @@
 title: All of Tommi’s craziness
 altUrl: https://tommi.space
 description: EVERYTHING from tommi.space
-permalink: /all.json
-lang: en
+permalink: /index.json
 layout: feed.json.liquid
 ---
 {% assign all = collections.jam | concat: collections.zibaldone| concat: collections.poetry | sort: 'date' | reverse %}
-	"items": [{% for entry in all limit: 20 %}
+	"items": [{% for entry in all limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",
