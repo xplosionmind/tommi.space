@@ -7,7 +7,7 @@ ref: Zibaldone
 description: Things getting out of Tommi’s head, in the form of articles
 type: CollectionPage
 eleventyImport:
-  collections: ['posts']
+  collections: ['zibaldone']
 sitemap:
   priority: 0.8
   changefreq: monthly
@@ -46,7 +46,7 @@ sitemap:
 	<input type='checkbox' id='langFilter-en' class='langFilter'>
 	<input type='checkbox' id='langFilter-it' class='langFilter'>
 	<input type='checkbox' id='langFilter-fr' class='langFilter'>
-	{% for entry in collections.posts %}
+	{% for entry in collections.zibaldone %}
 		<div class='one-third' lang='{{ entry.data.lang }}'>
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
 				{% img entry.data.image, entry.data.title %}

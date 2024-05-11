@@ -5,7 +5,7 @@ redirect-from: [/it/home/]
 lang: it
 ref: home
 eleventyImport:
-  collections: ["posts", "jam", "poetry", "sconnesso"]
+  collections: ["zibaldone", "jam", "poetry", "sconnesso"]
 sitemap:
   priority: 0.9
 ---
@@ -36,7 +36,7 @@ sitemap:
 	{% render 'sconnesso.html', sconnesso: sconnesso, lang: lang %}
 </div>
 
-{% render 'latest-post.liquid', lang: lang, posts: collections.posts %}
+{% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
 
 <div class='row'>
 	<div class='one column'>

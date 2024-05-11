@@ -8,7 +8,7 @@ sitemap:
   priority: 0.8
   changefreq: monthly
 eleventyImport:
-  collections: ['posts']
+  collections: ['zibaldone']
 ---
 <section class='center row'>
 	<h1>{{ title }}</h1>
@@ -45,7 +45,7 @@ eleventyImport:
 	<input type='checkbox' id='langFilter-it' class='langFilter'>
 	<input type='checkbox' id='langFilter-fr' class='langFilter'>
 	<input type='checkbox' id='langFilter-all' class='langFilter'>
-	{% for entry in collections.posts %}
+	{% for entry in collections.zibaldone %}
 		<div class='one-third' lang='{{ entry.data.lang }}'>
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
 				{% img entry.data.image, entry.data.title %}

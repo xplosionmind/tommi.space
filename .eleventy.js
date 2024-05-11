@@ -44,8 +44,8 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Collections //
-	eleventyConfig.addCollection('posts', function(collection) {
-		return collection.getFilteredByGlob('content/posts/**/*').sort((a, b) => {
+	eleventyConfig.addCollection('zibaldone', function(collection) {
+		return collection.getFilteredByGlob('content/zibaldone/**/*').sort((a, b) => {
 			return b.date - a.date; // sort by date - descending
 		});
 	});
