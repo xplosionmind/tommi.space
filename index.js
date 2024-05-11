@@ -1,38 +1,35 @@
-let i = 0;
-scrollButton = document.getElementById('scrollButton');
-homeBtn = document.getElementById('home');
+const htmlEl = document.documentElement;
+const scrollBtn = document.getElementById('scrollBtn');
+const homeBtn = document.getElementById('home');
+const animBtn = document.getElementById('animationToggleBtn');
+let animationStatus = localStorage.getItem('animationStatus') || true;
 
-document.addEventListener('DOMContentLoaded', () => {
-	let homeAnimation = localStorage.getItem('homeAnimation') || true;
-
-  // Toggle animation on button press
-  const btn = document.getElementById('homeAnimationToggleBtn');
-  btn.addEventListener('click', () => {
-		homeBtn.classList.toggle('animate');
-		if (homeAnimation) {
-			homeAnimation = false;
-		} else {
-			homeAnimation = true;
-		}
-    localStorage.setItem('homeAnimation', homeAnimation);
-  });
-
-	if (!homeAnimation) {
-		console.log('HomeAnimation is false!')
-		homeBtn.classList.remove('animate');
-	}
-
-});
-
-function scrollButtonBehavior() {
-	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-		scrollButton.title='scroll to top';
-		scrollButton.setAttribute('aria-label', 'scroll to top');
-		scrollButton.classList.remove('scrollToBottom');
+function tommiSpaceAnimation() {
+	console.log(`animationStatus value inside function: ${animationStatus}`);
+	if (animationStatus) {
+		homeBtn.style.animationPlayState = 'running';
+		htmlEl.style.animationPlayState = 'running';
+		animBtn.title='Pause animations';
+		animBtn.innerHTML = '⏸️';
 	} else {
-		scrollButton.title='scroll to bottom';
-		scrollButton.setAttribute('aria-label', 'scroll to bottom');
-		scrollButton.classList.add('scrollToBottom');
+		homeBtn.style.animationPlayState = 'paused';
+		htmlEl.style.animationPlayState = 'paused';
+		animBtn.title = 'Play animations';
+		animBtn.innerHTML = '▶️';
+	}
+	localStorage.setItem('animationStatus', animationStatus);
+	console.log(`animationStatus value at the end of function: ${animationStatus}`);
+}
+
+function scrollBtnBehavior() {
+	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+		scrollBtn.title='scroll to top';
+		scrollBtn.setAttribute('aria-label', 'scroll to top');
+		scrollBtn.innerHTML = '🔝';
+	} else {
+		scrollBtn.title='scroll to bottom';
+		scrollBtn.setAttribute('aria-label', 'scroll to bottom');
+		scrollBtn.innerHTML = '⬇️';
 	};
 }
 
@@ -44,16 +41,6 @@ function nowScroll() {
 	}
 }
 
-window.onload = function() {
-	scrollButtonBehavior();
-	window.onscroll = function() {
-		scrollButtonBehavior();
-	};
-};
-
-/******************
-* Language filter *
-*******************/
 let Italian = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[hreflang=it]');
 let nonItalian = document.querySelectorAll('.zibaldone a[hreflang=en], .grid a[hreflang=en], .zibaldone a[hreflang=fr], .grid a[hreflang=fr]');
 let English = document.querySelectorAll('.zibaldone a[hreflang=en], .grid a[hreflang=en]');
@@ -63,39 +50,49 @@ let nonFrench = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[hr
 let allLang = document.querySelectorAll('.zibaldone a[hreflang=it], .grid a[hreflang=it], .zibaldone a[hreflang=en], .grid a[hreflang=en], .zibaldone a[hreflang=fr], .grid a[hreflang=fr]');
 
 function toggleIt() {
-	for (i = 0; i < nonItalian.length; i++) {
+	for (let i = 0; i < nonItalian.length; i++) {
 		nonItalian[i].style.display = 'none';
 	}
-	for (i = 0; i < Italian.length; i++) {
+	for (let i = 0; i < Italian.length; i++) {
 		Italian[i].style.display = 'block';
 	}
 }
 function toggleEn() {
-	for (i = 0; i < nonEnglish.length; i++) {
+	for (let i = 0; i < nonEnglish.length; i++) {
 		nonEnglish[i].style.display = 'none';
 	}
-	for (i = 0; i < English.length; i++) {
+	for (let i = 0; i < English.length; i++) {
 		English[i].style.display = 'block';
 	}
 }
 function toggleFr() {
-	for (i = 0; i < nonFrench.length; i++) {
+	for (let i = 0; i < nonFrench.length; i++) {
 		nonFrench[i].style.display = 'none';
 	}
-	for (i = 0; i < French.length; i++) {
+	for (let i = 0; i < French.length; i++) {
 		French[i].style.display = 'block';
 	}
 }
 function toggleAll() {
-	for (i = 0; i < allLang.length; i++) {
+	for (let i = 0; i < allLang.length; i++) {
 		allLang[i].style.display = 'block';
 	}
 }
 
 window.addEventListener('load', () => {	
+
+	console.log(`animationStatus value from localStorage: ${animationStatus}`);
+	tommiSpaceAnimation();
+	animBtn.addEventListener('click', () => {
+		console.log(`animationStatus value before click: ${animationStatus}`);
+		animationStatus = animationStatus ? false : true;
+		tommiSpaceAnimation();
+		console.log(`animationStatus value after click: ${animationStatus}`);
+	});
+
 	if (document.querySelectorAll('[data-target-lang]')) {
-	  for (const button of document.querySelectorAll('[data-target-lang=en]')) {
-		  button.addEventListener('click', toggleEn);
+		for (const button of document.querySelectorAll('[data-target-lang=en]')) {
+			button.addEventListener('click', toggleEn);
 		};
 		for (const button of document.querySelectorAll('[data-target-lang=fr]')) {
 			button.addEventListener('click', toggleFr);
@@ -107,5 +104,11 @@ window.addEventListener('load', () => {
 			button.addEventListener('click', toggleAll);
 		};
 	};
-	scrollButton.addEventListener('click', nowScroll);
+
+	scrollBtn.addEventListener('click', nowScroll);
+	scrollBtnBehavior();
+	window.onscroll = function() {
+		scrollBtnBehavior();
+	};
+
 });
