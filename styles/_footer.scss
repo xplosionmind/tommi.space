@@ -26,6 +26,13 @@
 	}
 }
 
+#madeby {
+	margin-top: $small;
+	&:hover #madeby_shadow {
+		display: none;
+	}
+}
+
 footer {
 	background: var(--background);
 	padding: $big;
