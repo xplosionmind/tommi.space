@@ -13,15 +13,19 @@ permalink: /neb/
 redirect_from:
   - /server/
 ---
-<cite>Nebuchadnezzar</cite> is my personal server, hosted on a remote VPS. It is running [YunoHost](https://yunohost.org 'YunoHost'). Its name is inspired by [the homonymous ship](https://en.wikipedia.org/wiki/Nebuchadnezzar_(The_Matrix) 'Nebuchadnezzar on Wikipedia'), as displayed in [<cite>The Matrix</cite> saga](https://en.wikipedia.org/wiki/The_Matrix_(franchise) 'The Matrix (franchise) on Wikipedia').
+<cite>Nebuchadnezzar</cite> (<q>Neb</q> for friends) is the <abbr title='Virtual Private Server'>VPS</abbr> located in Dusseldorf (DE) I rent from [Contabo](). It is running [YunoHost](https://yunohost.org 'YunoHost').
 
-This page collects various useful information about system administration in general, as well as Neb-specific configurations and customizations. I apologize for data to be cryptic and mostly random, but these are the personal notes of an amateur sysad: nothing particularly insightful for the rest of the world.
+## Name
+
+The name of this server is inspired by [the homonymous ship](https://en.wikipedia.org/wiki/Nebuchadnezzar_(The_Matrix) 'Nebuchadnezzar on Wikipedia'), as displayed in [<cite>The Matrix</cite> saga](https://en.wikipedia.org/wiki/The_Matrix_(franchise) 'The Matrix (franchise) on Wikipedia').
 
 ## Environmental impact
 
 As tommi.space is hosted on Nebuchadnezzar, any point in [[The environmental impact of this website|the page about the environmental impact of this website]] is valid for the server, too.
 
 ## Customizations
+
+From this point on, this page collects various useful information about system administration in general, as well as Neb-specific configurations and customisations. I apologize for data to be cryptic and mostly random, but these are the personal notes of an amateur <abbr title='system administrator'>sysad</abbr>: there’s nothing particularly insightful for the rest of the world.
 
 - Custom CSS
 - Changing the default shell to zsh requires [a different procedure](https://forum.yunohost.org/t/tuto-comment-installer-oh-my-zsh-how-to-install-oh-my-zsh '[Tuto] Comment installer Oh My Zsh / How to install Oh My Zsh | YunoHost Forum').
@@ -48,7 +52,7 @@ sudo systemctl restart nginx
 
 ## Backup
 
-![[YunoHost backups on Cubbit DS3 object storage using s3fs]]
+![[YunoHost backups on Cubbit DS3 object storage using rclone]]
 
 ## Nextcloud
 
