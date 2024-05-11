@@ -38,7 +38,7 @@ sitemap:
 {% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
 
 <div class='row'>
-	<div class='one column'>
+	<div class='half column'>
 		<section class='razzmatazz border box'>
 			<a href='/jam' title='The Jam'>
 				{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
@@ -51,6 +51,9 @@ sitemap:
 				<a class='razzmatazz written button' href='/jam' title='The Jam'>Dive in 🥄</a>
 			</div>
 		</section>
+	</div>
+	<div class='half column'>
+		{% render 'webrings.html', lang: lang %}
 	</div>
 </div>
 
@@ -77,4 +80,5 @@ sitemap:
 		</div>
 	</section>
 </div>
+
 

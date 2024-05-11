@@ -1,57 +1,7 @@
-@use 'root';
-
 .qsm {
 	background: #E63946;
 	.button {
 		background: #1D3557;
-	}
-}
-
-#webrings {
-	.box {
-		margin: root.$regular-less 0;
-	}
-}
-
-#hotlinewebring {
-	background: #FA9ABA;
-	color: #333;
-	border: 5px solid #BF0946;
-	a {
-		background: #BF0946;
-		color: #FFF;
-	}
-	h3 a {
-		color: #333;
-		background: none;
-	}
-}
-
-#indiewebring {
-	background: #FFB100;
-	color: #444;
-	border: 5px solid #FF5C00;
-	a {
-		background: #F00;
-		color: #FFF;
-	}
-	h3 a {
-		color: #444;
-		background: none;
-	}
-}
-
-#safontwebring {
-	background: #000;
-	color: #FFF;
-	border: 5px solid #2ECFCA;
-	a {
-		background: #FFF;
-		color: #000;
-	}
-	h3 a {
-		color: #2ECFCA;
-		background: none;
 	}
 }
 

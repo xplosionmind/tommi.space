@@ -39,7 +39,7 @@ sitemap:
 {% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
 
 <div class='row'>
-	<div class='one column'>
+	<div class='half column'>
 		<section class='razzmatazz border box'>
 			<a href='/jam'>
 				{% img 'jam.webp', 'Un disegno dell’esplosione della testa di Tommi con una grande confusione che ne esce, il tutto rinchiuso in un vasetto di marmellata' %}
@@ -51,6 +51,9 @@ sitemap:
 				<a class='razzmatazz written button' href='/marmellata'>Assaggia 🥄</a>
 			</div>
 		</section>
+	</div>
+	<div class='half column'>
+		{% render 'webrings.html', lang: lang %}
 	</div>
 </div>
 
