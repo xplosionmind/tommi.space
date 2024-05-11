@@ -12,12 +12,12 @@ layout: jam.html
 <p>{{ description }}</p>
 
 <div class='yellow box'>
-	<p>This page and <a href='{{ site.source }}/src/branch/main/data/tutto.json' >the dataset it is based on</a> are being <strong>heavily refactored</strong>. Sorry if everything is particularly confused around here. By Summer 2024, I hope find enough time to finally code and arrange everything.</p>
+	<p>This page and <a href='{{ site.source }}/src/branch/main/data/activities.json' >the dataset it is based on</a> are being <strong>heavily refactored</strong>. Sorry if everything is particularly confused around here. By Summer 2024, I hope find enough time to finally code and arrange everything.</p>
 </div>
 
 <ul>
-	{% assign tutto = tutto | sort: 'end' | reverse %}
-	{% for cosa in tutto %}
+	{% assign activities = activities | sort: 'end' | reverse %}
+	{% for cosa in activities %}
 		<li id='{{ cosa.title | slugify }}-{{ cosa.end | date: '%Y' }}'>
 			{% if cosa.url %}
 				<a href='{{ cosa.url }}' title='{{ cosa.title }}'>{{ cosa.title }}</a>
