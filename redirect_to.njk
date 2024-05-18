@@ -15,6 +15,6 @@ eleventyExcludeFromCollections: true
 	<script>location = '{{ redirect.to }}';</script>
 	<meta http-equiv='refresh' content='0; url={{ redirect.to }}' />
 	<meta name='robots' content='noindex' />
-	<h1 style='color:#FFF;text-align: center'>{%- if redirect.lang == 'it' -%}Reindirizzando…{%- else -%}Redirecting…{%- endif -%}{{ redirect.to }}</h1>
-	<p><a style='color:#D00text-align: center' href='{{ redirect.to }}'>{%- if redirect.lang == 'it' -%}Clicca qui se non sei reindirizzatə{%- else -%}Click here if you are not redirected{%- endif -%}.</a></p>
+	<h1 style='color:#FFF;text-align:center'>{%- if redirect.lang == 'it' -%}Reindirizzando…{%- else -%}Redirecting…{%- endif -%}{{ redirect.to }}</h1>
+	<p><a style='color:#D00;text-align:center' href='{{ redirect.to }}'>{%- if redirect.lang == 'it' -%}Clicca qui se non sei reindirizzatə{%- else -%}Click here if you are not redirected{%- endif -%}.</a></p>
 </html>
