@@ -98,6 +98,16 @@
 		"met": false
 	},
 	{
+		"who": "Shoshana Zuboff",
+		"lang": "en",
+		"image": "https://www.welt.de/img/wirtschaft/mobile203213486/7782504907-ci102l-w1024/American-author-and-prizewinner-Sho.jpg",
+		"url": "https://shoshanazuboff.com/",
+		"added": "2021-11-30T23:06:38+02:00",
+		"real": true,
+		"sex": "f",
+		"met": false
+	},
+	{
 		"who": "Claire Underwood",
 		"lang": "en",
 		"image": "https://cms.qz.com/wp-content/uploads/2016/05/hoc_401_01783r1-e1463586857839.jpeg?quality=75&strip=all&w=3200&h=1802",
@@ -105,7 +115,8 @@
 		"added": "2021-12-08T22:55:48+01:00",
 		"real": false,
 		"sex": "f",
-		"met": false
+		"met": false,
+		"exclude": "2024-05-11T15:35:49+02:00"
 	},
 	{
 		"who": "Jonathan Larson",
@@ -123,10 +134,19 @@
 		"note": "Il giardiniere di Italo Calvino, che mi ha affascinato sin dal giorno in cui è venuto a illustrare le favole che ci siamo inventati durante la mia terza elementare",
 		"lang": "it",
 		"image": "https://ilcinemadelcarbone.it/media/film/un-pomeriggio-con-libereso.jpg",
-		"url": "https://it.wikipedia.org/wiki/Libereso_Guglielmi",
+		"url": "https://dustycloud.org/",
 		"added": "2022-11-22T14:39:11+01:00",
 		"real": true,
 		"sex": "m",
+		"met": true
+	},
+	{
+		"who": "Christine Lemmer-Webber",
+		"image": "https://tommi.space/cwebber.webp",
+		"url": "https://it.wikipedia.org/wiki/Libereso_Guglielmi",
+		"added": "2024-02-04T17:06:50+01:00",
+		"real": true,
+		"sex": "f",
 		"met": true
 	},
 	{
@@ -148,5 +168,15 @@
 		"real": true,
 		"sex": "m",
 		"met": true
+	},
+	{
+		"who": "Donnatella Moss",
+		"lang": "en",
+		"image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/10/lemonlyman.jpg",
+		"url": "https://en.wikipedia.org/wiki/Donna_Moss",
+		"added": "2024-05-11T15:30:26+02:00",
+		"real": false,
+		"sex": "f",
+		"met": false
 	}
 ]
