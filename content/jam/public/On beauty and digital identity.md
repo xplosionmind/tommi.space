@@ -3,6 +3,7 @@ date: 2023-11-28T17:55:10+01:00
 tags:
   - geek
 description: Thinking about the concept of beauty intertwined with the representation of a digital identity. What is *my* digital identity?
+permalink: /digital-beauty/
 ---
 Building a creative, yet neat and structured virtual personality is not simple, because properly setting the nuanced variations at its core represents the very geniality of its  
 creative component.

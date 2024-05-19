@@ -7,7 +7,7 @@ aliases:
   - Website todo
   - Meta
   - Changelog
-tags: [meta, geek/web, wip]
+tags: [meta, geek/web]
 permalink: /meta/
 image: /2020-04-18-making-this-website.jpg
 description: I put a lot of care and attention to details in this website (probably too much), thus I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
@@ -18,7 +18,7 @@ redirect_from:
 main: true
 ---
 <div class='yellow box'>
-	<p>These notes are random thoughts rather than a log. My intention was to track changes to tommi.space, but I fail to document everything because <u>it takes time and I am lazy.</u>.</p>
+	<p>These notes are random thoughts rather than a log. My intention was to track changes to tommi.space, but I fail to document everything because <u>it takes time and I am lazy</u>.</p>
 	<p>As I am not a developer or designer by profession, documenting my decisions for educational purposes is not my priority.</p>
 </div>
 
@@ -88,7 +88,7 @@ Details on ![[Self-hosting tommi.space]]
 
 Up to now, anything concerning website ideas and development was listed quite randomly on the website development page. My intention was to keep everything portable and within <cite>[The Jam](https://tommi.space/jam 'The Jam — tommi.space')</cite>. Nevertheless, tracking both bugs, feature ideas and stuff to do with services dedicated to that is easier, simpler, and much more integrated with the development environment and workflow that git provides.
 
-I am now [using GitHub for issue tracking](https://github.com/xplosionmind/tommi.space/issues 'tommi.space issues on GitHub'), even though the repository is currently being [hosted on giTMI][source], and mirrored on [Codeberg](https://codeberg.org/tommi/tommi.space 'tommi.space repository on Codeberg')
+I am now [using GitHub for issue tracking](https://github.com/xplosionmind/tommi.space/issues 'tommi.space issues on GitHub'), even though the repository is currently being hosted on [Codeberg](https://codeberg.org/tommi/tommi.space 'tommi.space repository on Codeberg').
 
 <p class='date'><time datetime='2022-04-21T06:14:30+02:00'>Thursday, April 21<sup>st</sup> 2022</time></p>
 
@@ -122,7 +122,7 @@ I never gave too much attention to the size of the repository of tommi.space, un
 
 ## Switching to Eleventy
 
-My switching from [Jekyll] to [Eleventy] is one of those things that was not strictly necessary, yet I kept thinking about it every time I coded something, even minimal, on Jekyll. So I switched. It has been very stressful and intense, but I am now thoroughly proud of the fundamental structure of my website, even if [[Website development|it still lacks some features]] it had with Jekyll.
+My switching from [Jekyll](https://jekyllrb.com 'Jekyll official website') to [Eleventy](https://11ty.dev 'Eleventy’s official website') is one of those things that was not strictly necessary, yet I kept thinking about it every time I coded something, even minimal, on Jekyll. So I switched. It has been very stressful and intense, but I am now thoroughly proud of the fundamental structure of my website, even if [[Website development|it still lacks some features]] it had with Jekyll.
 
 There are plenty of step-by-step guides to switch from Jekyll to Eleventy. Even though tutorials have been of little use for me, since tommi.space is heavily customized and tailored, I saved (and I am still continuing to save) [insightful articles about Eleventy](https://inputs.tommi.space/tag/list/11ty 'Pages saved in Tommi’s inputs tagged “11ty”').
 
@@ -207,9 +207,5 @@ I will be noting below my doubts and, if solved, my conclusions.
 		{%- endif -%}
 	{%- endfor -%}
 </ul>
-
-[Jekyll]: https://jekyllrb.com ‘Jekyll official website’  
-[Eleventy]: https://11ty.dev ‘Eleventy official website’  
-[source]: {{ site.source }} ‘tommi.space source code’
 
 [^1]: Lovely arrow test ->

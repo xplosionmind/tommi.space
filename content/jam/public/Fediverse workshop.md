@@ -1,16 +1,21 @@
 ---
 date: 2023-06-07T07:38:05+02:00
 updated: 2023-10-03T13:13:34+02:00
-permalink: /fedilab/
+aliases:
+  - FediLab
 tags:
   - lab
   - digitalrights
   - draft
-image: https://tommi.space/gomitolo_dweb.jpg
-description: An introductory workshop on decentralized social media and the Fediverse
-ref: fediverse-lab
 location: Sanremo
+description: An introductory workshop on decentralized social media and the Fediverse
+image: https://tommi.space/fedilab-scambi.webp
+permalink: /fedilab/
+ref: fediverse-lab
 ---
+
+SOUNDTRACK
+
 Carrying on with my mission of spreading the word about the [[Fediverse]], I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
 
 I conceived this workshop as an easy, comprehensive, interactive, and maybe even fun introduction to decentralized social networks, the Fediverse in particular.
@@ -41,6 +46,11 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 	<h2>⚠️ Spoiler alert ⚠️</h2>
 	<p>If you intend to participate to the lab, I suggest you not to read further in order to avoid spoiling your experience.</p>
 </div>
+
+<figure>
+	{% img image, 'A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together' %}
+	<figcaption>The Lab held during <a href='https://scambi.org/en'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
+</figure>
 
 ## Script
 
