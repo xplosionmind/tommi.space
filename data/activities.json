@@ -15,7 +15,8 @@
 		"end": "2024-05-19T20:00:00+02:00",
 		"url": "https://reclaimthetech.it",
 		"tags": [
-			"geek"
+			"geek",
+			"lab/ournet"
 		],
 		"location": "TPO Bologna"
 	},
@@ -26,7 +27,8 @@
 		"url": "https://conference.libreitalia.org/2024/",
 		"location": "Monte San Vito (AN)",
 		"tags": [
-			"geek"
+			"geek",
+			"lab/ournet"
 		],
 		"description": "[LibreItalia](https://libreitalia.org)’s yearly conference",
 		"description-it": "La conferenza annuale di [LibreItalia](https://libreitalia.org)"
@@ -50,7 +52,7 @@
 		"url": "https://circonomiafano.it",
 		"tags": [
 			"festival",
-			"lab/fedi"
+			"lab/ournet"
 		],
 		"description-it": "Sono stato invitato a tenere il mio Lab sul Fediverso, rivisitato in chiave di sostenibilità, nella sezione <cite>Aria Fresca</cite> del Festival <cite>Circonomia</cite>, la cui edizione del 2024 si terrà contestualmente a Pesaro Capitale Italiana della Cultura 2024.",
 		"description": "I was invited to <cite lang='it'>Circonomia</cite> to host my Fediverse workshop.",
@@ -113,7 +115,7 @@
 		"end": "2023-10-20T12:30:00+02:00",
 		"url": "https://tommi.space/fedilab-cassini",
 		"tags": [
-			"lab/fedi"
+			"lab/ournet"
 		],
 		"description": "Ho proposto il mio [Laboratorio sul Fediverso](https://tommi.space/lab-fediverso 'Lab sul Fediverso, tommi.space') durante l’assemblea d’istituto del mio ex liceo, il [Liceo G.D. Cassini di Sanremo](https://www.liceogdcassini.it).",
 		"location": "Liceo G.D. Cassini, Sanremo",
@@ -128,7 +130,7 @@
 		"end": "2023-09-23T20:00:00+01:00",
 		"url": "https://2023.antiuniversity.org/events/conceiving-the-social-networks-of-the-future-spoiler-they-already-exist",
 		"tags": [
-			"lab/fedi"
+			"lab/ournet"
 		],
 		"description": "I brought my [Fediverse workshop](https://tommi.space/fedilab 'Fediverse Workshop information page on tommi.space') to [ANTIUNIVERSITY LONDON 2023](https://2023.antiuniversity.org).",
 		"location": "MayDay Rooms, London",
@@ -143,7 +145,7 @@
 		"url": "https://scambi.org/2023/lab/direzione-fediverso",
 		"tags": [
 			"scambi",
-			"lab/fedi"
+			"lab/ournet"
 		],
 		"description": "Insieme a Pitte, ho ideato e moderato il laboratorio sul Fediverso tenuto a [Scambi Festival](https://scambi.org 'Scambi, Il Festival dei Laboratori Paneuretici') 2023.",
 		"location": "La Pigna, Sanremo",
@@ -158,7 +160,7 @@
 		"url": "https://tommi.space/lab-fediverso",
 		"tags": [
 			"scout",
-			"lab/fedi"
+			"lab/ournet"
 		],
 		"description": "Sono stato invitato a tenere una bottega (termine scout per indicare un laboratorio) in occasione del quarantennale del Mira 1, gruppo scout in cui sono stato capo dal 2020 al 2022.",
 		"location": "Oriago di Mira",
