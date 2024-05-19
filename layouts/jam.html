@@ -9,6 +9,16 @@ type: CollectionPage
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
 		<p class='metadata'>
+			{% if aliases %}
+				{% if lang == 'it' %}
+					o anche: 
+				{% else %}
+					or also: 
+				{% endif %}
+				{% for alias in aliases %}
+					<cite class='alias'>{{ alias }}</cite>, 
+				{% endfor %}
+			{% endif %}
 			{% if lang == 'it' %}
 				{% if location %}
 					{% for place in places %}
