@@ -1,16 +1,16 @@
 ---
 date: 2023-06-07T07:38:05+02:00
 updated: 2023-10-03T13:12:38+02:00
-lang: it
-permalink: /lab-fediverso/
 tags:
   - lab
   - digitalrights
   - draft
-image: https://tommi.space/gomitolo_dweb.jpg
-description: Un laboratorio di introduzione ai social network decentralizzati
-ref: fediverse-lab
 location: Sanremo
+description: Un laboratorio di introduzione ai social network decentralizzati
+image: https://tommi.space/fedilab-scambi.webp
+lang: it
+permalink: /lab-fediverso/
+ref: fediverse-lab
 ---
 Proseguendo imperterrito nella mia missione di proselitismo per il [[Fediverse|Fediverso]], sempre più mi accorgo di quanto sia bello ed efficace utilizzare strumenti interattivi e partecipativi per decostruire l’apparente complessità di concetti informatici alternativi.
 
@@ -34,6 +34,11 @@ Idealmente, tutte le persone partecipanti si siedono in cerchio. Il laboratorio 
 	<p>Se prevedi di partecipare al laboratorio, ti suggerisco di non proseguire oltre questo punto, per non rovinare l’esperienza</p>
 </div>
 
+<figure>
+	{% img image, 'Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro' %}
+	<figcaption>Il Lab tenuto durante <a href='https://scambi.org'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
+</figure>
+
 ## Materiale
 
 Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella versione più semplice ed essenziale sono sufficienti gomitolo e lavagna/poster.
@@ -56,12 +61,12 @@ Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella ver
 	- Esempio di defederazione
 6. In conclusione, riprendere quanto scritto sul cartellone all’inizio del laboratorio e verificare partecipativamente come le cose belle e le cose brutte dette sui social network mainstream funzionino invece nel Fediverso.
 
-## Quando
+## Edizioni passate
 
 Occasioni in cui ho svolto il laboratorio:
 
 <ul>{% for lab in tutto %}
-	{% if lab.tags contains 'lab/fedi' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: lab.start -%}</time>. {{ lab.description | markdownify }}</li>
+	{% if lab.tags contains 'lab/ournet' %}
+		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>. {{ lab.description | markdownify }}</li>
 	{% endif %}
 {% endfor %}</ul>
