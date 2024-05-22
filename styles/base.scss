@@ -145,29 +145,6 @@ input {
 	}
 }
 
-footer {
-	background: var(--background);
-	padding: $big;
-	margin: $bigger 3%;
-	border-radius: $radius-l;
-	box-shadow: var(--shadow);
-	text-align: center;
-	p a {
-		color: var(--primary) !important;
-	}
-	h4 {
-		margin-top: $regular;
-		margin-bottom: 0;
-	}
-	h4 + p {
-		margin-top: 0;
-	}
-	.row {
-		justify-content: space-evenly;
-	}
-}
-
-
 /* Responsive behavior */
 @media only screen and (max-width: 950px) {
 	.one,
@@ -183,8 +160,8 @@ footer {
 	section h1 {
 		font-size: $height;
 	}
-	.stuff-logo {
-		margin-top: $bigger
+	#toc {
+		margin: $small 3vw;
 	}
 	.line {
 		width: 20%;
@@ -224,13 +201,6 @@ footer {
 			margin-top: $regular-more;
 		}
 	}
-	#toc,
-	/*#goto {
-		margin: 5vh 3vw 0;
-		&.collapsible-supercontainer .collapsible-container {
-			grid-template-rows: 1fr;
-		}
-	}*/
 	#latest-post-sign {
 		top: -1rem;
 		right: -1rem;
@@ -259,9 +229,6 @@ footer {
 		columns: 3;
 	}
 	#toc {
-		h3 {
-			text-align: center;
-		}
 		position: fixed;
 		left: 0;
 		bottom: 0;
@@ -276,21 +243,18 @@ footer {
 			max-width: 25rem;
 		}
 	}
-	/*#goto {
-		position: fixed;
-		width: 16rem;
-		top: 30vh;
-		left: -17rem;
-		z-index: 8;
-		&:hover,
-		&:focus {
-			left: 0;
+	.collapsible-supercontainer {
+		&:hover .collapsible-container {
+			grid-template-rows: 1fr;
 		}
-		a {
-			transform: scale(.85);
-			display: block;
+	}
+	.collapsible-container {
+		display: grid;
+		grid-template-rows: 0fr;
+		.collapsible-element {
+			overflow: hidden;
 		}
-	}*/
+	}
 	#about {
 		.flex {
 			margin: 0 10%
