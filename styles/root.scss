@@ -10,10 +10,10 @@ $height: 3.1rem;
 $mega: 4rem;
 
 $radius-s: .4rem;
-$radius-m: .6rem;
-$radius-l: 1rem;
+$radius-m: .8rem;
+$radius-l: 1.5rem;
 
-$border: 5px;
+$border: 10px;
 
 $trans: .5s ease-out;
 $trans-quick: .1s ease-in-out;
@@ -26,20 +26,24 @@ $invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 
 /* UNUSED */
 $dark-grey: #555;
-$light-grey: #AAA;@use 'normalize';
+$light-grey: #AAA;
+
+@use 'normalize';
 @use 'fonts';
 
 :root {
 	color-scheme: light dark;
 
-	--black-ish: #222;
+	--black-ish: #001E15;
 	--white: #E3E3E3;
 	--yellow: #FCC920;
 	--blue: #3185FC;
 	--dark-blue: #11305B;
-	--light-blue: #ADCFFF;
+	--light-blue: #A6FFE5;
+
 	--red: #D00;
 	--green: #88D18A;
+	--dark-green: #032B1E;
 	--razzmatazz: #EC0868;
 	--purple: #884EE1;
 	--orange: #FF6024;
@@ -61,5 +65,18 @@ html {
 	scroll-behavior: smooth;
 	cursor: var(--cursor);
 	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDgwMCA4MDAiPjxwYXRoIGZpbGw9IiNGQ0M5MjAiIGQ9Im0wIDAgODAwIDgwMFY3MDBMMTAwIDB6bTIwMCAwIDYwMCA2MDBWNTAwTDMwMCAwem0yMDAgMCA0MDAgNDAwVjMwMEw1MDAgMHptMjAwIDAgMjAwIDIwMFYxMDBMNzAwIDB6TTAgMjAwbDYwMCA2MDBoMTAwTDAgMTAwem0wIDIwMCA0MDAgNDAwaDEwMEwwIDMwMHptMCAyMDAgMjAwIDIwMGgxMDBMMCA1MDB6bTAgMjAwaDEwMEwwIDcwMHoiLz48L3N2Zz4='), #000;
+  animation: cantiereScroll 180s linear infinite;
+}
+
+@keyframes cantiereScroll {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100vw 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 

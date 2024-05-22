@@ -15,16 +15,15 @@ header {
 	position: fixed;
 	top: 1.5vw;
 	left: 5vw;
-	padding: 0 root.$regular-less;
+	padding: root.$small root.$regular 0;
 	line-height: root.$height; 
-	font-size: root.$bigger;
-	color: var(--black-ish);
+	font: root.$bigger var(--font-heading);
+	color: #000;
 	background: var(--yellow);
 	box-shadow: var(--shadow);
-	border: 2px solid var(--black-ish);
-	&.animate {
-		animation: crazy 5s infinite;
-	}
+	border: 5px solid #000;
+	border-radius: 100px;
+	animation: crazy 5s infinite;
 	&:hover,
 	&:focus {
 		color: #FFF !important;

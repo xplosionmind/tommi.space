@@ -3,7 +3,7 @@
 html,
 body {
 	/* DARK THEME */
-	--background: var(--black-ish);
+	--background: #000;
 	--text: var(--white);
 	--deep: var(--dark-blue);
 	--link: var(--primary);
@@ -18,7 +18,7 @@ body {
 	--opposite-shadow: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
 	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
-	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
+	--btn-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
@@ -44,8 +44,8 @@ body {
 		--text: var(--black-ish);
 		--deep: #FFF;
 		--link: var(--secondary);
-		--primary: var(--blue);
-		--secondary: var(--razzmatazz);
+		--primary: var(--red);
+		--secondary: var(--blue);
 		--slight: var(--dark-blue);
 		--internal-link: var(--red);
 		--grey: var(--light-grey);
@@ -373,13 +373,13 @@ input[value='Submit'] {
 	color: var(--background);
 	font-weight: 700;
 	text-transform: uppercase;
-	box-shadow: var(--button-shadow);
+	box-shadow: var(--btn-shadow);
 }
 
 div.thumbHover {
 	background: var(--primary);
 	border-radius: $radius-s;
-	box-shadow: var(--button-shadow);
+	box-shadow: var(--btn-shadow);
 	color: var(--background) !important;
 	font-weight: 800;
 }
@@ -450,7 +450,7 @@ a {
 	padding: $tiny $small !important;
 	border-radius: $radius-s !important;
 	border: none !important;
-	box-shadow: var(--button-shadow);
+	box-shadow: var(--btn-shadow);
 }
 
 .navThumbs {

@@ -4,6 +4,9 @@
 }
 
 #langFilter-en:checked {
+	& ~ div[lang='en'] {
+		display: block
+	}
 	& ~ div[lang='it'],
 	& ~ div[lang='fr'] {
 		display: none;
@@ -11,6 +14,9 @@
 }
 
 #langFilter-it:checked {
+	& ~ div[lang='it'] {
+		display: block
+	}
 	& ~ [lang='en'],
 	& ~ [lang='fr'] {
 		display: none;
@@ -18,6 +24,9 @@
 }
 
 #langFilter-fr:checked {
+	& ~ div[lang='fr'] {
+		display: block
+	}
 	& ~ [lang='en'],
 	& ~ [lang='it'] {
 		display: none;

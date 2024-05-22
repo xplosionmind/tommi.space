@@ -3,7 +3,7 @@
 /* DARK THEME (default) */
 body {
 	color-scheme: dark;
-	background: var(--black-ish);
+	background: #000;
 	color: var(--text);
 
 	--background: var(--black-ish);
@@ -18,10 +18,10 @@ body {
 	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC15; 
 	--little-shadow: 4px 4px 15px #0009, -3px -3px 12px #FFF3CC18; 
 	--tiny-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
-	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
-	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
-	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
-	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
+	--tool-shadow: inset 1px 1px 5px #FFF6, inset -1px -1px 5px #0006;
+	--btn-shadow: inset 2px 2px 8px #FFF6, inset -2px -2px 8px #0006;
+	--focus-shadow: inset 2px 2px 3px #FFF2, inset -2px -2px 3px #0002;
+	--inner-shadow: inset 2px 2px 3px #0009, inset -2px -2px 3px #FFF7;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -43,12 +43,11 @@ body {
 		--primary: var(--red);
 		--secondary: var(--blue);
 		--slight: var(--dark-blue);
-		--transp-text: #11305B33;
+		--transp-text: #1113;
 		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
 		--little-shadow: 4px 4px 15px #11305B10, -3px -3px 10px #FFF3CC22;
 		--tiny-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
-		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
-		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
+		--inner-shadow: inset 2px 2px 3px #0009, inset -2px -2px 3px #FFF7;
 	}
 	.dark {
 		filter: $invert-light;

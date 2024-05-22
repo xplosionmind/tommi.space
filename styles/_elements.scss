@@ -40,19 +40,22 @@ lite-youtube {
 	font-weight: 700;
 	text-transform: uppercase;
 	border-radius: $radius-m;
-	box-shadow: var(--button-shadow);
+	box-shadow: var(--btn-shadow);
 	text-align: center;
 	hyphens: none;
 	&:hover,
 	&:focus {
-		box-shadow: none;
+		box-shadow: var(--focus-shadow) !important;
 	}
 	&:active {
-		box-shadow: var(--inner-shadow);
+		box-shadow: var(--inner-shadow) !important;
 	}
 	form & {
 		color: var(--text);
 		border: none;
+	}
+	&.written:not(.tiny) {
+		margin: $small;
 	}
 }
 
@@ -107,7 +110,8 @@ img.button {
 }
 
 .feed {
-	h1 {
+	h1,
+	& main h2 {
 		color: #FFF;
 		text-shadow: var(--shadow);
 	}
@@ -116,6 +120,9 @@ img.button {
 	}
 	img {
 		border-radius: 100%;
+	}
+	.button {
+		margin: $small;
 	}
 }
 .box {
@@ -142,19 +149,17 @@ img.button {
 	}
 	h2,
 	h3 {
-		margin: 0 auto $small;
+		margin: $small auto;
 		text-align: center;
-	}
-	.written.button:not(.tiny) {
-		margin: $small;
 	}
 	.grid &,
 	.box {
 		height: auto;
 		margin: auto;
-		padding: 3%;
+		padding: $regular-less;
 		overflow: hidden; // some titles might overflow
 		box-shadow: var(--little-shadow);
+		border-radius: $radius-m;
 		p {
 			font-size: .8em;
 			font-weight: 300;
@@ -201,13 +206,15 @@ img.button {
 }
 
 #lang-filter {
-	font-size: $bigger;
+	div {
+		font-size: $bigger;
+	}
 }
 
 #toc {
 	z-index: 3;
 	h3 {
-		margin: 0;
+		margin: $tiny 0 0;
 	}
 	li {
 		line-height: 1;
@@ -306,19 +313,6 @@ img.button {
 	height: 100%;
 }
 
-.collapsible-supercontainer {
-	&:hover .collapsible-container {
-		grid-template-rows: 1fr;
-	}
-}
-.collapsible-container {
-	display: grid;
-	grid-template-rows: 0fr;
-	.collapsible-element {
-		overflow: hidden;
-	}
-}
-
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -349,7 +343,7 @@ img.button {
 	}
 }
 
-.p-author {
+body:not(.poetry) .p-author {
 	display: none;
 }
 
