@@ -16,10 +16,12 @@ sitemap:
 
 {% render 'about.html', lang: lang, site: site %}
 
-<section id='meet' class='center wide blue box'>
-	<h2>Let’s meet!</h2>
-	<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in <strong>{{ site.author.based }}</strong>, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
-				{% render 'upcoming.liquid', lang: lang, activities: activities %}
+<section id='meet' class='two-thirds'>
+	<div class='center blue box'>
+		<h2>Let’s meet!</h2>
+		<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in <strong>{{ site.author.based }}</strong>, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
+		{% render 'upcoming.liquid', lang: lang, activities: activities %}
+	</div>
 </section>
 
 	{% render 'quitsocialmedia.html', lang: lang %}
@@ -27,16 +29,18 @@ sitemap:
 
 {% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
 
-<section class='razzmatazz border box'>
-	<a href='/jam' title='The Jam'>
-		{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
-		<h2>The Jam</h2>
-	</a>
-	<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
-	<p>I take this things, I throw them into <cite><a href='/jam' title='The Jam'>The Jam</a></cite>.</p>
-	<p>I hope you’ll find it interesting!</p>
-	<div class='flex'>
-		<a class='razzmatazz written button' href='/jam' title='The Jam'>Dive in 🥄</a>
+<section class='one-third'>
+	<div class='razzmatazz border box'>
+		<a href='/jam' title='The Jam'>
+			{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
+			<h2>The Jam</h2>
+		</a>
+		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
+		<p>I take this things, I throw them into <cite><a href='/jam' title='The Jam'>The Jam</a></cite>.</p>
+		<p>I hope you’ll find it interesting!</p>
+		<div class='flex'>
+			<a class='razzmatazz written button' href='/jam' title='The Jam'>Dive in 🥄</a>
+		</div>
 	</div>
 </section>
 

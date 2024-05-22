@@ -1,6 +1,6 @@
 const htmlEl = document.documentElement;
 const scrollBtn = document.getElementById('scrollBtn');
-const homeBtn = document.getElementById('home');
+const homeBtn = document.getElementById('tommiSpace');
 const animBtn = document.getElementById('animationToggleBtn');
 let animationStatus = localStorage.getItem('animationStatus') || 'running';
 

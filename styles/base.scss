@@ -17,14 +17,12 @@
 	scrollbar-color: var(--red) transparent;
 }
 
-/*** Layout > elements ***/
-
 main {
 	position: relative;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(100%, 30em), 1fr));
-	//grid-template-columns: repeat(4, 1fr);
-	gap: 3vw;
+	//grid-template-columns: repeat(auto-fit, minmax(min(100%, 30em), 1fr));
+
+	gap: 3vw 3%;
 	margin: 3vw;
 	padding-top: 5vw;
 }
@@ -33,6 +31,8 @@ main {
 	display: grid;
 	grid-template-columns: subgrid;
 }
+
+/*** Layout > elements ***/
 
 article {
 	position: relative;
@@ -163,7 +163,6 @@ input {
 	gap: $small;
 }
 
-
 /* Responsive behavior */
 @media only screen and (max-width: 950px) {
 	#toc {
@@ -197,6 +196,32 @@ input {
 }
 
 @media only screen and (min-width: 950px) {
+	main {
+		grid-template-columns: repeat(6, 1fr);
+	}
+	.span-2,
+	.one-third {
+		grid-column: span 2;
+	}
+
+	.span-3,
+	.half{
+		grid-column: span 3;
+	}
+
+	.span-4,
+	.two-thirds {
+		grid-column: span 4;
+	}
+
+	.span-5 {
+		grid-column: span 5;
+	}
+
+	.span-2-row {
+		grid-row: span 2;
+	}
+
 	ul.two,
 	ol.two {
 		columns: 2;

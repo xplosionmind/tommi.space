@@ -1,5 +1,5 @@
 <header>
-	<a id='tommispace' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/' title='home'>Tommi Space</a>
+	<a id='tommiSpace' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/' title='home'>Tommi Space</a>
 	<input type='checkbox' id='navToggle'>
 	<nav>
 		<a href={% if lang == 'it' %}'/tuffo'{% else %}'/home'{% endif %} title='Homepage' {% if current == '/tuffo/' or current == '/home/' %}class='current'{% endif %}>Intro</a>
