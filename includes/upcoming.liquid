@@ -5,12 +5,12 @@
 	{% assign activityEnd = activity.end | date: '%Y%m%d' %}
 	{% if activityEnd >= buildTime %}
 		{% if introPrinted == '0' %}
-		<p>{% if lang == 'it' %}Altrimenti, qui di seguito potrebbero esserci ottime occasioni per trovarsi. Batti un colpo se ci sarai anche tu!{% else %}Otherwise, the following activities could be great occasions to get together. Hit me up if you plan to attend any of them!{% endif %}</p></div></div>
-			<h3 class='title'>{% if lang == 'it' %}Prossime attività{% else %}Upcoming activities{% endif %}</h3>
+		<p>{% if lang == 'it' %}Altrimenti, qui di seguito potrebbero esserci ottime occasioni per trovarsi. Batti un colpo se ci sarai anche tu!{% else %}Otherwise, the following activities could be great occasions to get together. Hit me up if you plan to attend any of them!{% endif %}</p>
+			<h3>{% if lang == 'it' %}Prossime attività{% else %}Upcoming activities{% endif %}</h3>
 			<div class='flex row'>
 			{% assign introPrinted = '1' %}
 		{% endif %}
-			<a href='{{ activity.url }}' class='box'>
+			<a href='{{ activity.url }}' class='little box'>
 				<h4>{{ activity.title }}</h4>
 				<p>
 					{% if activity.location %}

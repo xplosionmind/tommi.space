@@ -12,7 +12,7 @@ ref: jam
 toc: false
 image: /jam.webp
 ---
-<div class='row'><div class='one column'><article>
+<article class='wide'>
 {% renderTemplate 'md' %}
 I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <cite>[Zibaldone](/zibenglish)</cite>.
 
@@ -26,26 +26,19 @@ From this page, it is possible to start navigating in The Jam. There are two dif
 - by choosing a tag
 - by opening one of the macro-notes (or <abbr title='Map Of Content'>MOC</abbr>s) below, and diving deeper and deeper in growingly branched notes.
 {% endrenderTemplate %}
-</article></div></div>
+</article>
 
-<div class='row'>
-	<div class='two-thirds column'>
-		{% render 'tags.html', site: site -%}
-	</div>
-	<div class='one-third column'>
-		<div class='flex row'>
-			{% render 'lang-filter.html', lang: lang -%}
-		</div>
-		<div class='flex row'>
-			<a class='red button' href='/jam/whole/' title='The Whole Jam'>The Whole Jam</a>
-		</div>
-	</div>
+{% render 'tags.html', site: site -%}
+{% render 'lang-filter.html', lang: lang -%}
+
+<div class='wide flex'>
+	<a class='red button' href='/jam/whole/' title='The Whole Jam'>The Whole Jam</a>
 </div>
 
-<div class='large grid'>
+<div class='wide grid'>
 	{% for note in collections.jam %}
 		{% if note.data.main %}
-			<a class='box' href='{{ note.url }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
+			<a class='little box' href='{{ note.url }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
 				<h3>{{ note.data.title }}</h3>
 				<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
 			</a>
@@ -53,8 +46,8 @@ From this page, it is possible to start navigating in The Jam. There are two dif
 	{% endfor %}
 </div>
 
-<div class='flex row'>
-	<a class='red button' href='/jam/whole/' title='The Whole Jam'>The Whole Jam</a>
+<div class='flex'>
+	<a class='red margin button' href='/jam/whole/' title='The Whole Jam'>The Whole Jam</a>
 </div>
 
 <div class='yellow box'>

@@ -1,5 +1,19 @@
 @use 'root' as *;
 
+footer {
+	margin: 3vw;
+	padding: $big;
+	border-radius: $radius-l;
+	background: var(--background);
+	box-shadow: var(--shadow);
+	text-align: center;
+	justify-content: space-evenly;
+	gap: $small;
+	* {
+		gap: inherit;
+	}
+}
+
 #Mastodon {
 	background: linear-gradient(#6364FF, #563ACC);
 }
@@ -27,21 +41,8 @@
 }
 
 #madeby {
-	margin-top: $small;
 	&:hover #madeby_shadow {
 		display: none;
 	}
 }
 
-footer {
-	background: var(--background);
-	padding: $big;
-	margin: $bigger 3%;
-	border-radius: $radius-l;
-	box-shadow: var(--shadow);
-	text-align: center;
-	.row.flex {
-		justify-content: space-evenly;
-		margin-bottom: $regular-less;
-	}
-}

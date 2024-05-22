@@ -1,6 +1,5 @@
 @forward 'root';
 @use 'root' as *;
-@use 'clearfix';
 @use 'theme';
 
 /** Layout **/
@@ -22,6 +21,17 @@
 
 main {
 	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 30em), 1fr));
+	//grid-template-columns: repeat(4, 1fr);
+	gap: 3vw;
+	margin: 3vw;
+	padding-top: 5vw;
+}
+
+.subgrid {
+	display: grid;
+	grid-template-columns: subgrid;
 }
 
 article {
@@ -79,7 +89,7 @@ label {
 img {
 	width: 100%;
 	height: auto;
-	display: block;
+	/*display: block;*/
 	border-radius: $radius-l;
 }
 
@@ -145,32 +155,24 @@ input {
 	}
 }
 
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: $small;
+}
+
+
 /* Responsive behavior */
 @media only screen and (max-width: 950px) {
-	.one,
-	.half,
-	.one-third,
-	.two-thirds {
-		width: 100%;
-		margin: 0;
-	}
-	article {
-		margin: $regular 3vw;
-	}
-	section h1 {
-		font-size: $height;
-	}
 	#toc {
 		margin: $small 3vw;
 	}
 	.line {
 		width: 20%;
 	}
-	.grid .box {
-		margin: 0 3%;
-		height: unset;
-	}
-	.tool {
+	.toolbar {
 		bottom: 3vh;
 	}
 	.popup {
@@ -179,27 +181,8 @@ input {
 	.newsletter {
 		margin: 2vh 0;
 	}
-	#intro {
-		p {
-			margin: $regular-less 3vw;
-		}
-	}
-	/*#goto div {
-		display: flex;
-		overflow-x: scroll;
-		-ms-overflow-style: none;
-		a {
-			margin-right: $small;
-		}
-	}*/
 	#help {
 		bottom: -15rem;
-	}
-	.box .column {
-		& + .column h2,
-		& + .column h3 {
-			margin-top: $regular-more;
-		}
 	}
 	#latest-post-sign {
 		top: -1rem;
@@ -214,12 +197,6 @@ input {
 }
 
 @media only screen and (min-width: 950px) {
-	.box .column {
-		p,
-		li {
-			margin: $regular 10%;
-		}
-	}
 	ul.two,
 	ol.two {
 		columns: 2;
@@ -238,26 +215,7 @@ input {
 		border-radius: 0 $radius-l 0 0;
 		padding: $regular-less;
 	}
-	.zibaldone {
-		box {
-			max-width: 25rem;
-		}
-	}
-	.collapsible-supercontainer {
-		&:hover .collapsible-container {
-			grid-template-rows: 1fr;
-		}
-	}
-	.collapsible-container {
-		display: grid;
-		grid-template-rows: 0fr;
-		.collapsible-element {
-			overflow: hidden;
-		}
-	}
-	#about {
-		.flex {
-			margin: 0 10%
-		}
+	.wide {
+		grid-column: 1/-1;
 	}
 }

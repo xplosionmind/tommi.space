@@ -8,10 +8,9 @@
 }
 
 p {
+	max-width: max(50%, 50em);
 	line-height: 1.7;
-	&.one.column {
-		padding: 0 3vw;
-	}
+	margin: $regular-less auto;
 }
 
 strong,
@@ -142,17 +141,6 @@ table {
 }
 
 /*** Text > custom classes ***/
-
-.no-background {
-	background: none;
-}
-
-.large {
-	margin: 0 3vw;
-	&.grid {
-		margin: $big 3vw;
-	}
-}
 
 .header-anchor {
 	color: var(--text);

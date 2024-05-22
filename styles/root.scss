@@ -24,10 +24,6 @@ $shadow-dark-inverted: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
 $invert-light: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
 $invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 
-/* UNUSED */
-$dark-grey: #555;
-$light-grey: #AAA;
-
 @use 'normalize';
 @use 'fonts';
 

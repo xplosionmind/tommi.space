@@ -1,0 +1,10 @@
+<header>
+	<a id='tommispace' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/' title='home'>Tommi Space</a>
+	<input type='checkbox' id='navToggle'>
+	<nav>
+		<a href={% if lang == 'it' %}'/tuffo'{% else %}'/home'{% endif %} title='Homepage' {% if current == '/tuffo/' or current == '/home/' %}class='current'{% endif %}>Intro</a>
+		<a {% if current == '/ora/' or current == '/now/' %}class='current'{% endif %}{% if lang == 'it' %}href='/ora/' title='Ciò che sto facendo'>Ora{% else %}href='/now/' title='What I am doing'>Now{% endif %}</a>
+		<a {% if current == '/zibaldone/' or current == '/zibenglish/' %}class='current'{% endif %} {% if lang == 'it' %}href='/zibaldone/' title='Blog'>Zibaldone{% else %}href='/zibenglish/' title='Zibaldone'>Blog{% endif %}</a>
+		<a {% if current == '/marmellata/' or current == '/jam/' %}class='current'{% endif %} {% if lang == 'it' %}href='/marmellata/' title='La Marmellata'>Marmellata{% else %}href='/jam/' title='The Jam'>The Jam{% endif %}</a>
+	</nav>
+</header>
