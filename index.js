@@ -2,11 +2,11 @@ const htmlEl = document.documentElement;
 const scrollBtn = document.getElementById('scrollBtn');
 const homeBtn = document.getElementById('home');
 const animBtn = document.getElementById('animationToggleBtn');
-let animationStatus = localStorage.getItem('animationStatus') || true;
+let animationStatus = localStorage.getItem('animationStatus') || 'running';
 
 function tommiSpaceAnimation() {
 	console.log(`animationStatus value inside function: ${animationStatus}`);
-	if (animationStatus) {
+	if (animationStatus == 'running' ) {
 		homeBtn.style.animationPlayState = 'running';
 		htmlEl.style.animationPlayState = 'running';
 		animBtn.title='Pause animations';
@@ -85,7 +85,11 @@ window.addEventListener('load', () => {
 	tommiSpaceAnimation();
 	animBtn.addEventListener('click', () => {
 		console.log(`animationStatus value before click: ${animationStatus}`);
-		animationStatus = animationStatus ? false : true;
+		if (animationStatus == 'running') {
+			animationStatus = 'paused';
+		} else {
+			animationStatus = 'running';
+		}
 		tommiSpaceAnimation();
 		console.log(`animationStatus value after click: ${animationStatus}`);
 	});
