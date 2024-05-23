@@ -4,67 +4,91 @@ lang: en
 ref: home
 permalink: /home/
 eleventyImport:
-  collections: ["zibaldone", "jam", "poetry", "sconnesso"]
+  collections: ['zibaldone', 'jam', 'poetry', 'sconnesso']
 sitemap:
   priority: 1.0
 ---
-<section id='intro' class='center wide'>
-	<p>You just entered an overwhelming, mindblowing, and confused space inside the immense wonderland of the World Wide Web 🕸️. This place is 🚨 <strong>a perpetual work in progress</strong> 🏗️ populated by thoughts 💭, absurd visions 😵‍💫, silliness 🤡, hope 🌟, questions ⁉️, sort-of-answers 🤔, kinda-intuitions 💡, contraddictions 💢, disorderly attempts of reordering stuff 🎭, depictions of chaos 💥.</p>
-	<p>Welcome to <u>the virtual representation of Tommi’s mind</u>.</p>
-	<p>Have fun!</p>
-</section>
-
-{% render 'about.html', lang: lang, site: site %}
-
-<section id='meet' class='two-thirds'>
-	<div class='center blue box'>
-		<h2>Let’s meet!</h2>
-		<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in <strong>{{ site.author.based }}</strong>, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
-		{% render 'upcoming.liquid', lang: lang, activities: activities %}
-	</div>
-</section>
-
-	{% render 'quitsocialmedia.html', lang: lang %}
-	{% render 'sconnesso.liquid', sconnesso: sconnesso, lang: lang %}
-
-{% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
-
-<section class='one-third'>
-	<div class='razzmatazz border box'>
-		<a href='/jam' title='The Jam'>
-			{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
-			<h2>The Jam</h2>
-		</a>
-		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
-		<p>I take this things, I throw them into <cite><a href='/jam' title='The Jam'>The Jam</a></cite>.</p>
-		<p>I hope you’ll find it interesting!</p>
-		<div class='flex'>
-			<a class='razzmatazz written button' href='/jam' title='The Jam'>Dive in 🥄</a>
+<main>
+	<section id='intro' class='middle center'>
+		<div class='box'>
+			<p>You just entered an overwhelming, mindblowing, and confused space inside the immense wonderland of the World Wide Web 🕸️. This place is 🚨 <strong>a perpetual work in progress</strong> 🏗️ populated by thoughts 💭, absurd visions 😵‍💫, silliness 🤡, hope 🌟, questions ⁉️, sort-of-answers 🤔, kinda-intuitions 💡, contraddictions 💢, disorderly attempts of reordering stuff 🎭, depictions of chaos 💥.</p>
+			<p>Welcome to <u>the virtual representation of Tommi’s mind</u>.</p>
+			<p>Have fun!</p>
 		</div>
-	</div>
-</section>
+	</section>
 
-{% render 'webrings.html', lang: lang %}
+	{% render 'about.html', lang: lang, site: site %}
 
-<section id='changelog' class='wide center'>
-	<h2>Recently updated</h2>
-	<div class='grid'>
-		{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
-		{% assign i = 0 %}
-		{% for entry in recently_updated %}
-			{% if entry.date and entry.data.date and i < 7 %}
-				{% capture i %}{% increment counter %}{% endcapture %}
-				<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-					<div class='little box'>
-						<h4>{{ entry.data.title }}</h4>
-						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}</time></p>
-					</div>
-				</a>
-			{% endif %}
-		{% endfor %}
-	</div>
-	<div class='flex'>
-		<a class='green margin button' href='{{ site.changelog }}' title='tommi.space commits on giTMI'>code changelog</a>
-	</div>
-</section>
+	<section id='meet' class='two-thirds'>
+		<div class='center blue box'>
+			<h2>Let’s meet!</h2>
+			<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in <strong>{{ site.author.based }}</strong>, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
+			{% render 'upcoming.liquid', lang: lang, activities: activities %}
+		</div>
+	</section>
+
+	<section class='one-third span-2-row'>
+		<div class='qsm red box'>
+			<h2 class='title'>I am not on social media</h2>
+			{% renderTemplate "md" %}
+				In 2021 **I deleted all my profiles** on social media—[with the exception of Linkedin](https://linkedin.com/in/tommasomarmo 'Tommaso Marmo on Linkedin') (need it for work…).
+
+				<u>I firmly believe that the reasons of my choice are not merely personal, but they are **universal**</u>! What is personal is the weight that each and everyone of us gives to the pro and cons of these platforms. After weighting all the factors on my personal weight, I would not stand the anxiety social media cause(d) me. I grew extremely intolerant to social media [enshittification](https://en.wikitionary.org/wiki/enshittification '“enshittification” on Wikitionary'), so I quit.
+
+				Still, I also wanted to push as many people as possible to at least learn more about this. Therefore, to foster questioning of social media starting from a unique—yet comprehensive and reliable—source, I created <cite>[quitsocialmedia.club](https://quitsocialmedia.club/home 'Quit Social Media!')</cite>. There, I gathered <u>all the worrisome issues of social media</u>, together with related articles, videos or even research.
+
+				For better or worse, a lot has changed since I created the website: its content and its arguments could be relatively obsolete or limited. In any case, I still think that exploring quitsocialmedia.club could be a great starting point to approach this critical topic.
+
+				At the same time, my thinking matured, too. Nurtured by readings, lectures, research, and dialogues my opinion matured. Essentially, I became more conscious of the **intersectionality of the fights** I support. [My thesis](/csss 'Computer Sciences are Social Sciences!') goes deeper, investigating the problem at the root of [all the ones tackled by <cite>Quit Social Media</cite>](https://quitsocialmedia.club), also by proposibg a new Socio-Philosophical approach to Computer Sciences. Recently, I conceived and I am taking around the world [a workshop]() to foster collective reflections and participatively theorize new solutions. I would love for you to invite me to do the workshop somewhere, but you could even do it by yourselves!
+
+				I am not a <a href='https://en.wikipedia.org/wiki/Neo-Luddism' title='Neo-Luddism on Wikipedia' hreflang='en'>Luddist</a>, condemning contemporary technology no matter what. I am not a mysanthrope out of the world, either. I proudly use **alternative, decentralized, and independent social networks**. [You can find me](https://pan.rent/@tommi 'Tommi on Pan') in the <cite><a href='/fediverse' title='About the Fediverse'>Fediverse</a></cite>, and I can’t wait for you to get in touch!
+			{% endrenderTemplate "md" %}
+			<div class='flex'>
+				<a class='blue written button' href='{% if lang == 'it' %}https://quitsocialmedia.club/it/home{% else %}https://quitsocialmedia.club/home{% endif %}' title='quitsocialmedia.club home'>{% if lang == 'it' %}Parti da qui{% else %}Start from here!{% endif %}</a>
+			</div>
+		</div>
+	</section>
+
+	{% render 'sconnesso.liquid', sconnesso: sconnesso, lang: lang %}
+	{% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
+
+	<section class='one-third'>
+		<div class='razzmatazz border box'>
+			<a href='/jam' title='The Jam'>
+				{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
+				<h2>The Jam</h2>
+			</a>
+			<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
+			<p>I take this things, I throw them into <cite><a href='/jam' title='The Jam'>The Jam</a></cite>.</p>
+			<p>I hope you’ll find it interesting!</p>
+			<div class='flex'>
+				<a class='razzmatazz written button' href='/jam' title='The Jam'>Dive in 🥄</a>
+			</div>
+		</div>
+	</section>
+
+	{% render 'webrings.html', lang: lang %}
+
+	<section id='changelog' class='wide center'>
+		<h2>Recently updated</h2>
+		<div class='grid'>
+			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
+			{% assign i = 0 %}
+			{% for entry in recently_updated %}
+				{% if entry.date and entry.data.date and i < 7 %}
+					{% capture i %}{% increment counter %}{% endcapture %}
+					<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+						<div class='little box'>
+							<h4>{{ entry.data.title }}</h4>
+							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}</time></p>
+						</div>
+					</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class='flex'>
+			<a class='green margin button' href='{{ site.changelog }}' title='tommi.space commits on giTMI'>code changelog</a>
+		</div>
+	</section>
+</main>
 

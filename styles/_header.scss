@@ -56,7 +56,7 @@ header {
 	}
 }
 
-nav {
+#mainNav {
 	display: flex;
 	padding: $regular-less $bigger;
 	height: min-content;
@@ -97,7 +97,7 @@ nav {
 	#navToggleBtn {
 		display: block;
 	}
-	nav {
+	#mainNav {
 		position: fixed;
 		bottom: calc(3vh + 4.5rem);
 		right: -15rem;
@@ -107,7 +107,7 @@ nav {
 }
 
 #navToggle:checked {
-	& ~ nav {
+	& ~ #mainNav {
 		right: calc(4vw + .3rem);
 	}
 }

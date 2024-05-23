@@ -152,8 +152,7 @@ module.exports = function(eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
-		ul: true,
-		wrapperClass: 'collapsible-element',
+		ul: true
 	});
 	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
 		sitemap: {

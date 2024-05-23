@@ -61,10 +61,8 @@ h4, h5, h6 {
 
 
 h1 {
-	font-size: $mega;
 	color: var(--text);
 	text-align: center;
-	margin: 8vh 3vw 0;
 	text-shadow: var(--tiny-shadow);
 	&:hover {
 		transform: rotate(-3deg);

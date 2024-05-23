@@ -117,7 +117,7 @@ lite-youtube {
 .box {
 	background: var(--background);
 	color: var(--text);
-	padding: 3vw;
+	padding: max(2vw, 3vh);
 	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	&.little {
@@ -177,16 +177,6 @@ lite-youtube {
 
 #toc {
 	z-index: 3;
-	h3 {
-		margin: $tiny 0 0;
-	}
-	li {
-		line-height: 1;
-	}
-	ul,
-	ol {
-		padding-left: $regular-more;
-	}
 }
 
 .qsm {
@@ -197,7 +187,7 @@ lite-youtube {
 }
 
 #sconnesso {
-	background: linear-gradient(-45deg,#884EE177,#884EE122);
+	background: linear-gradient(-45deg,#884EE177,#884EE122), var(--deep);
 	img {
 		aspect-ratio: 1/1;
 	}
@@ -231,8 +221,6 @@ lite-youtube {
 }
 
 .metadata {
-	line-height: 1.1;
-	opacity: .8;
 }
 
 .mastodon-embed {
@@ -271,9 +259,6 @@ lite-youtube {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	gap: $small;
-	h3 {
-		text-align: center;
-	}
 }
 
 .library {
@@ -308,14 +293,6 @@ body:not(.poetry) .p-author {
 	* {
 		color: var(--background);
 	}
-	h1 {
-		font-size: 8rem;
-		max-width: 100%;
-		hyphens: auto;
-		line-height: 1;
-		text-shadow: none;
-		margin: $regular-less auto;
-	}
 }
 
 .poetry {
@@ -334,11 +311,6 @@ body:not(.poetry) .p-author {
 	ul {
 		padding: 0;
 		list-style-type: none;
-	}
-	h1 {
-		text-shadow: none;
-		margin: 0;
-		text-align: left;
 	}
 	article {
 		margin: 0;

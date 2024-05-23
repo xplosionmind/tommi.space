@@ -6,12 +6,6 @@
 
 /*** Layout > global ***/
 
-.cantiere {
-	margin: 3vw 3vw 10rem;
-	border-radius: $radius-l;
-	box-shadow: 5px 5px 2.5vw #000C;
-}
-
 * {
 	transition: $trans, transform $trans-quick, box-shadow $trans-quick, text-shadow $trans-quick, border $trans-quick, grid-template-rows $trans;
 	scrollbar-color: var(--red) transparent;
@@ -21,26 +15,30 @@ main {
 	position: relative;
 	display: grid;
 	//grid-template-columns: repeat(auto-fit, minmax(min(100%, 30em), 1fr));
-
-	gap: 3vw 3%;
-	margin: 3vw;
-	padding-top: 5vw;
+	gap: max(2vw, 3vh);
+	padding: max(8vw, 10vh) max(2vw, 3vh) 0;
+	margin: 0 auto;
+	max-width: 100rem;
 }
 
 .subgrid {
 	display: grid;
 	grid-template-columns: subgrid;
+	gap: max(2vw, 3vh)
 }
 
 /*** Layout > elements ***/
 
 article {
-	position: relative;
 	font-size: $regular-more;
-	margin: $big 5vw;
-	> .box {
-		margin: $bigger 0;
-	}
+}
+
+dl {
+	margin: 0;
+}
+
+dt {
+	margin: $small auto $tiny;
 }
 
 a {
@@ -101,16 +99,11 @@ figure {
 	& + figure {
 		margin-top: $bigger;
 	}
-	& + figure.column {
-		margin: 0 0 0 $big;
-		width: calc(50% - 1.6rem);
-	}
 }
 
 figcaption {
-	font: $regular var(--font-serif);
-	margin: $regular-less 10% 0;
-	opacity: .8;
+	font-family: var(--font-serif);
+	margin: $regular 10% 0;
 	text-align: center;
 }
 
@@ -165,20 +158,11 @@ input {
 
 /* Responsive behavior */
 @media only screen and (max-width: 950px) {
-	#toc {
-		margin: $small 3vw;
-	}
 	.line {
 		width: 20%;
 	}
-	.toolbar {
-		bottom: 3vh;
-	}
 	.popup {
 		left: 5vw;
-	}
-	.newsletter {
-		margin: 2vh 0;
 	}
 	#help {
 		bottom: -15rem;
@@ -222,6 +206,10 @@ input {
 		grid-row: span 2;
 	}
 
+	.middle {
+		grid-column: 2/-2;
+	}
+
 	ul.two,
 	ol.two {
 		columns: 2;
@@ -230,17 +218,15 @@ input {
 	ol.three {
 		columns: 3;
 	}
-	#toc {
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		font-size: $regular-less;
-		background: var(--background);
-		box-shadow: var(--shadow);
-		border-radius: 0 $radius-l 0 0;
-		padding: $regular-less;
-	}
 	.wide {
 		grid-column: 1/-1;
+	}
+	article {
+		grid-column: 1 / span 4;
+		grid-row: 2 / span 2;
+	}
+	aside {
+		position: sticky;
+		top: max(8vw, 8vh);
 	}
 }
