@@ -10,6 +10,17 @@
 		]
 	},
 	{
+		"title": "p4p",
+		"start": "2024-05-24T11:00:00+02:00",
+		"end": "2024-05-26T22:00:00+02:00",
+		"url": "https://offline.place/events/2024/05/24/p4p-unconference/",
+		"tags": [
+			"geek",
+			"lab/ournet"
+		],
+		"location": "offline, Berlin"
+	},
+	{
 		"title": "Reclaim The Tech 2024",
 		"start": "2024-05-17T10:00:00+02:00",
 		"end": "2024-05-19T20:00:00+02:00",
