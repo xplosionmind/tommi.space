@@ -70,10 +70,6 @@ lite-youtube {
 		padding: .35rem;
 		background: var(--primary);
 	}
-	form & {
-		color: var(--text);
-		border: none;
-	}
 }
 
 .toolbar {
@@ -89,8 +85,7 @@ lite-youtube {
 		line-height: $height;
 		padding: 0 $small;
 		color: var(--text);
-		fill: var(--text);
-		background: var(--background) !important;
+		background: var(--background);
 		box-shadow: var(--tool-shadow);
 	}
 }
@@ -152,16 +147,10 @@ lite-youtube {
 	font-weight: bolder;
 	font-size: 8em;
 	margin: $small $small 0 0;
-	text-shadow: 2px 2px 0 var(--yellow);
+	text-shadow: 2px 2px 0 var(--primary);
 }
 
 .tags {
-	padding: $small $tiny;
-	h2 {
-		a {
-			color: var(--text);
-		}
-	}
 	.flex {
 		max-height: 30vh;
 		overflow: scroll;
@@ -176,7 +165,7 @@ lite-youtube {
 }
 
 #toc {
-	z-index: 3;
+	z-index: 1;
 }
 
 .qsm {
@@ -188,9 +177,6 @@ lite-youtube {
 
 #sconnesso {
 	background: linear-gradient(-45deg,#884EE177,#884EE122), var(--deep);
-	img {
-		aspect-ratio: 1/1;
-	}
 	.button {
 		background:var(--purple);
 		color:#FFF;
@@ -200,12 +186,6 @@ lite-youtube {
 		text-shadow: -15px -18px 2px #FFF, 8px 5px 1px #FFF, 60px -10px 5px #FFF, -40px -2px 3px #FFF;
 		margin-bottom: $regular;
 	}
-}
-
-#help {
-	position: fixed;
-	z-index: 7;
-	width: 20rem;
 }
 
 #latest-post {
@@ -233,23 +213,6 @@ lite-youtube {
 	box-shadow: var(--shadow);
 }
 
-.table {
-	max-height: 90vh;
-	overflow: scroll;
-	margin: $height 3vw;
-	border: 3px solid var(--text);
-	border-radius: $radius-l;
-	box-shadow: var(--shadow);
-	table {
-		width: 100%;
-	}
-}
-
-.invalid-wikilink {
-	opacity: .5;
-	cursor: url(/cursor-forbidden.svg) 16 16, not-allowed;
-}
-
 .vertical {
 	flex-direction: column;
 	height: 100%;
@@ -261,23 +224,6 @@ lite-youtube {
 	gap: $small;
 }
 
-.library {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-	grid-gap: $tiny;
-	img,
-	.book div {
-		font: .8em var(--font-serif);
-		text-align: center;
-		color: #E1DCC5;
-		background: linear-gradient(-30deg, #39281E, #4E3C2B);
-		margin-top: 15%;
-		border-radius: $radius-s;
-		box-shadow: var(--tiny-shadow);
-		min-height: 75%;
-	}
-}
-
 body:not(.poetry) .p-author {
 	display: none;
 }
@@ -287,9 +233,6 @@ body:not(.poetry) .p-author {
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
-	a:hover {
-		transform: none;
-	}
 	* {
 		color: var(--background);
 	}
@@ -315,13 +258,5 @@ body:not(.poetry) .p-author {
 	article {
 		margin: 0;
 	}
-}
-
-.dim {
-	opacity: .5;
-}
-
-.transparent {
-	opacity: 0;
 }
 
