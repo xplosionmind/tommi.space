@@ -11,11 +11,10 @@ location: Sanremo
 description: An introductory workshop on decentralized social media and the Fediverse
 image: https://tommi.space/fedilab-scambi.webp
 permalink: /fedilab/
+redirect_from:
+  - /ournet/
 ref: fediverse-lab
 ---
-
-SOUNDTRACK
-
 Carrying on with my mission of spreading the word about the [[Fediverse]], I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
 
 I conceived this workshop as an easy, comprehensive, interactive, and maybe even fun introduction to decentralized social networks, the Fediverse in particular.
