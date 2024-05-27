@@ -2,16 +2,16 @@
 layout: wrapper.liquid
 type: CollectionPage
 ---
-<main>
-	<section class='wide box'>
+<main class='writing'>
+	<hgroup class='no-background'>
 		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
-	</section>
+	</hgroup>
 	
-	<aside class='subgrid span-2'>
-		<section class='metadata span-2'>
+	<aside>
+		<article class='metadata'>
 			<div class='box'>
 				<dl>
 					{% if aliases %}
@@ -57,19 +57,19 @@ type: CollectionPage
 				</dl>
 				<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 			</div>
-		</section>
+		</article>
 
 		{% if toc %}
-			<section id='toc' class='span-2'>
-				<div class='box'>
-					<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+			<div id='toc'>
+				<details class='box' open>
+					<summary><h2>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h2></summary>
 					{{ content | toc }}
-				</div>
-			</section>
+				</details>
+			</div>
 		{% endif %}
 </aside>
 
-	<article class='box e-content note{% if serif %} serif{% endif %}' data-pagefind-body>
+	<article class='box an-2-row e-content{% if serif %} serif{% endif %}' data-pagefind-body>
 		{{ content }}
 	</article>
 

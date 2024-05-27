@@ -8,9 +8,9 @@
 }
 
 p {
-	max-width: max(50%, 50em);
+	max-width: 68ch;
 	line-height: 1.7;
-	margin: $regular-less auto;
+	margin: var(--space-s) auto;
 }
 
 strong,
@@ -30,26 +30,25 @@ mark {
 
 hr {
 	width: 30%;
+	height: 0;
+	color: inherit;
+}
+
+abbr[title] {
+	text-decoration: underline dotted;
 }
 
 address{
 	display: inline;
 }
 
-li {
-	line-height: 1.5;
-	margin-bottom: $small;
-	ol {
-		list-style-type: lower-alpha;
-		ol {
-			list-style-type: lower-latin;
-		}
-	}
-}
-
 h1, h2, h3 {
 	font-family: var(--font-heading);
 	line-height: 1;
+	.no-background & {
+		color: #FFF;
+		text-shadow: var(--shadow);
+	}
 }
 
 h4, h5, h6 {
@@ -61,6 +60,7 @@ h4, h5, h6 {
 
 
 h1 {
+	font-size: var(--size-5);
 	color: var(--text);
 	text-align: center;
 	text-shadow: var(--tiny-shadow);
@@ -70,35 +70,29 @@ h1 {
 }
 
 h2 {
-	font-size: 2.5rem;
-	.anchor::after {
-		content: '##';
-	}
+	font-size: var(--size-3);
 	&.shadow {
 		text-shadow: var(--tiny-shadow);
 	}
 }
 
 h3 {
-	font-size: 2rem;
-	.anchor::after {
-		content: '###';
-	}
+	font-size: var(--size-2);
 }
 
 h4 {
-	color: var(--slight);
+	font-size: var(--size-2);
 }
 
 pre,
 code,
 kbd,
 samp {
-	font: 400 1em var(--font-mono);
+	font-family: var(--font-mono);
 }
 
 pre {
-	padding: $regular;
+	padding: var(--space-m);
 	border-radius: $radius-m;
 	white-space: pre-wrap;
 	background: var(--dark-blue);
@@ -108,47 +102,44 @@ pre {
 blockquote {
 	margin: 0 3vw;
 	padding: 0;
-	font: 1em var(--font-serif);
+	font-family: var(--font-serif);
 	opacity: .9;
 	p {
 		line-height: 1.5;
 	}
 }
 
-td,
-th,
-tr {
-	border: none;
-	outline: solid .5px var(--slight);
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
-th {
-	padding: $small $regular-less;
-	position: sticky;
-	top: 0;
-	background: var(--background);
+sub {
+	bottom: -0.25em;
 }
 
-td {
-	font-size: .8em;
-	padding: $tiny $small;
+sup {
+	top: -0.5em;
 }
 
-table {
-	border-collapse: collapse;
+small {
+	font-size: 80%;
 }
 
 /*** Text > custom classes ***/
 
 .header-anchor {
-	color: var(--text);
+	text-align: left;
+	color: inherit;
 	&:hover {
 		border-bottom: 2px solid var(--primary);
-		&::before {
+		&::after {
 			content: '🔗';
-			position: absolute;
-			left: -($twice);
-			transform: scale(.8);
+			margin-left: var(--space-2xs);
+			font-size: .8em;
 		}
 	}
 }
@@ -190,7 +181,7 @@ table {
 
 .footnotes {
 	font-size: .8em;
-	margin-top: $height;
+	margin-top: var(--space-l);
 }
 
 .missing,
@@ -214,7 +205,7 @@ table {
 .cite {
 	text-align: right;
 	line-height: 1;
-	font-size: .9em;
+	font-size: 90%;
 	margin-left: 20%;
 	&::before {
 		content: '~ ';

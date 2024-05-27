@@ -41,7 +41,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@photogabble/eleventy-plugin-interlinker": "1.1.0-rc4",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "csv-parse": "^5.5.5",
+    "csv-parse": "^5.5.6",
     "eleventy-plugin-embed-everything": "^1.18.2",
     "eleventy-plugin-toc": "^1.1.5",
     "eleventy-sass": "^2.2.4",
@@ -52,6 +52,7 @@
     "markdown-it-mathjax3": "^4.3.2",
     "markdown-it-task-lists": "^2.1.1",
     "markdown-it-wikilinks": "^1.4.0",
-    "reurl": "1.0.0-rc.2"
+    "reurl": "1.0.0-rc.2",
+    "utopia-core-scss": "^1.0.1"
   }
 }

@@ -1,4 +1,4 @@
-<section class='h-card yellow wide box subgrid' id='about'>
+<article class='h-card yellow wide box subgrid' id='about'>
 	<figure class='span-2'>
 		<img src='/profile.webp' alt='Tommi on stage conducting a live show' width='800' height='800'>
 	</figure>
@@ -14,10 +14,10 @@ So che non vuol dire molto, ma sto cercando di imparare a presentarmi senza che 
 			{% endrenderTemplate %}
 
 <div class='flex'>
-	<a class='background written button u-url' href='/ora' title='Cosa sto facendo ora'>Ora</a>
-	<a lang='en' class='red written button' href='https://keyoxide.org/{{ site.author.email }}' hreflang='en' title='Tommi’s digital identity verification'>Digital ID</a>
-	<a class='dark-blue written button u-url' href='{{ site.author.cv }}' title='Il curriculum vitae di Tommaso Marmo, su Europass'>CV</a>
-	<address><a class='blue written button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Inviami un’email'>Scrivimi</a></address>
+	<a class='background button u-url' href='/ora' title='Cosa sto facendo ora'>Ora</a>
+	<a lang='en' class='red button' href='https://keyoxide.org/{{ site.author.email }}' hreflang='en' title='Tommi’s digital identity verification'>Digital ID</a>
+	<a class='dark-blue button u-url' href='{{ site.author.cv }}' title='Il curriculum vitae di Tommaso Marmo, su Europass'>CV</a>
+	<address><a class='blue button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Inviami un’email'>Scrivimi</a></address>
 </div>
 
 <p><small>Prego di usare <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>la mia chiave PGP</a></small></p>
@@ -35,13 +35,13 @@ I really do not know what else to write without ending up with a stream of blabb
 {% endrenderTemplate %}
 
 <div class='flex'>
-	<a class='red written button' href='https://keyoxide.org/{{ site.author.email }}' title='Tommi’s digital identity verification'>Digital ID</a>
-	<a class='dark-blue written button u-url' href='{{ site.author.cv }}' title='Tommaso Marmo’s Europass resume'>Resume</a>
-	<a class='background written button u-url' href='/now' title='What I am doing now'>Now</a>
-	<address><a class='blue written button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Write me an email'>Email me</a></address>
+	<a class='red button' href='https://keyoxide.org/{{ site.author.email }}' title='Tommi’s digital identity verification'>Digital ID</a>
+	<a class='dark-blue button u-url' href='{{ site.author.cv }}' title='Tommaso Marmo’s Europass resume'>Resume</a>
+	<a class='background button u-url' href='/now' title='What I am doing now'>Now</a>
+	<address><a class='blue button u-email' href='{{ site.encoded_mailto }}' rel='me' title='Write me an email'>Email me</a></address>
 </div>
 
 <p><small>Please use <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>my PGP key</a></small></p>
 		{% endif %}
 	</div>
-</section>
+</article>

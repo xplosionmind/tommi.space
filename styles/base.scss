@@ -1,21 +1,83 @@
 @forward 'root';
 @use 'root' as *;
-@use 'theme';
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	transition: $trans-quick;
+	scrollbar-color: var(--red) transparent;
+}
+
+body {
+	margin: 0;
+	color-scheme: dark;
+	color: var(--text);
+	font: var(--size-0) var(--font-sans);
+
+	--background: #000;
+	--alt-background: var(--black-ish);
+	--text: var(--white);
+	--deep: var(--dark-blue);
+	--link: var(--primary);
+	--primary: var(--yellow);
+	--secondary: var(--blue);
+	--slight: var(--light-blue);
+	--internal-link: var(--blue);
+	--transp-text: #FFF4;
+	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC15; 
+	--little-shadow: 4px 4px 15px #0009, -3px -3px 12px #FFF3CC18; 
+	--tiny-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
+	--tool-shadow: inset 1px 1px 5px #FFF6, inset -1px -1px 5px #0006;
+	--btn-shadow: inset 2px 2px 8px #FFF6, inset -2px -2px 8px #0006;
+	--focus-shadow: inset 2px 2px 3px #FFF2, inset -2px -2px 3px #0002;
+	--inner-shadow: inset 2px 2px 3px #0009, inset -2px -2px 3px #FFF7;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	.light {
+		filter: $invert-dark;
+		box-shadow: $shadow-dark-inverted;
+	}
+}
+
+/* LIGHT THEME */
+@media screen and (prefers-color-scheme: light) {
+	body {
+		color-scheme: light;
+		--background: #FFF;
+		--alt-background: var(--background);
+		--text: var(--black-ish);
+		--deep: #FFF;
+		--link: var(--primary);
+		--primary: var(--red);
+		--secondary: var(--blue);
+		--slight: var(--dark-blue);
+		--transp-text: #1113;
+		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
+		--little-shadow: 4px 4px 15px #11305B10, -3px -3px 10px #FFF3CC22;
+		--tiny-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
+		--inner-shadow: inset 2px 2px 3px #0009, inset -2px -2px 3px #FFF7;
+	}
+	.dark {
+		filter: $invert-light;
+		box-shadow: $shadow-dark-inverted;
+	}
+}
 
 /** Layout **/
 
 /*** Layout > global ***/
 
-* {
-	transition: $trans, transform $trans-quick, box-shadow $trans-quick, text-shadow $trans-quick, border $trans-quick, grid-template-rows $trans;
-	scrollbar-color: var(--red) transparent;
-}
-
 main {
-	position: relative;
 	display: grid;
-	//grid-template-columns: repeat(auto-fit, minmax(min(100%, 30em), 1fr));
-	gap: max(2vw, 3vh);
+	/*--grid-placement: auto-fit;
+	--grid-min-item-size: clamp(16rem, 50vw, 26rem);
+	grid-template-columns: repeat(
+		var(--grid-placement, auto-fill),
+		minmax(var(--grid-min-item-size, 16rem), 1fr)
+	);*/
+	gap: var(--space-s);
 	padding: max(8vw, 10vh) max(2vw, 3vh) 0;
 	margin: 0 auto;
 	max-width: 100rem;
@@ -28,10 +90,6 @@ main {
 }
 
 /*** Layout > elements ***/
-
-article {
-	font-size: $regular-more;
-}
 
 dl {
 	margin: 0;
@@ -110,8 +168,6 @@ figcaption {
 audio,
 .controlBar {
 	width: 100%;
-	box-shadow: var(--shadow);
-	border-radius: $radius-m;
 }
 
 iframe {
@@ -132,7 +188,6 @@ input {
 	border-radius: $radius-m;
 	padding: $small $regular;
 	box-shadow: var(--inner-shadow);
-	font-size: $bigger;
 	max-width: 100%;
 	&::placeholder {
 		opacity: .5;
@@ -153,7 +208,11 @@ input {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: $small;
+	gap: var(--space-xs);
+}
+
+.gap-2xs {
+	gap: var(--space-2xs);
 }
 
 /* Responsive behavior */
@@ -172,44 +231,51 @@ input {
 		right: -1rem;
 		transform: rotate(6deg);
 	}
-	.poetry {
-		h1 {
-			font-size: $bigger;
-		}
-	}
 }
 
 @media only screen and (min-width: 950px) {
 	main {
 		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: auto;
+		&.writing {
+			grid-template-areas:
+				'title title title title title title'
+				'text text text text aside aside';
+		}
 	}
 	.span-2,
 	.one-third {
 		grid-column: span 2;
 	}
-
 	.span-3,
 	.half{
 		grid-column: span 3;
 	}
-
 	.span-4,
 	.two-thirds {
 		grid-column: span 4;
 	}
-
 	.span-5 {
 		grid-column: span 5;
 	}
-
 	.span-2-row {
 		grid-row: span 2;
 	}
-
+	.span-3-row {
+		grid-row: span 3;
+	}
 	.middle {
 		grid-column: 2/-2;
 	}
-
+	hgroup {
+		grid-area: title;
+	}
+	.e-content {
+		grid-area: text;
+	}
+	aside {
+		grid-area: aside;
+	}
 	ul.two,
 	ol.two {
 		columns: 2;
@@ -221,12 +287,9 @@ input {
 	.wide {
 		grid-column: 1/-1;
 	}
-	article {
-		grid-column: 1 / span 4;
-		grid-row: 2 / span 2;
-	}
-	aside {
+	#toc {
+		margin-top: var(--space-m);
 		position: sticky;
-		top: max(8vw, 8vh);
+		top: var(--space-2xl);
 	}
 }

@@ -1,5 +1,3 @@
-@use 'root' as *;
-
 .background {
 	color: var(--text);
 	background: var(--background);
@@ -67,7 +65,7 @@
 .border {
 	color: var(--text) !important;
 	background: var(--background) !important;
-	border: $border solid var(--text);
+	border: .5rem solid var(--text);
 	--link: var(--primary) !important;
 }
 

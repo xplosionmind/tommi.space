@@ -18,9 +18,8 @@ header {
 }
 
 #tommiSpace {
-	padding: $small $big 0;
-	font-size: 2.5rem;
-	font-family: var(--font-heading);
+	padding: var(--space-3xs) var(--space-m) 0;
+	font: var(--size-2) var(--font-heading);
 	color: #000;
 	background: var(--yellow);
 	box-shadow: var(--shadow);
@@ -58,14 +57,14 @@ header {
 
 #mainNav {
 	display: flex;
-	padding: $regular-less $bigger;
+	padding: var(--space-2xs) var(--space-m);
 	height: min-content;
 	background: var(--background);
 	box-shadow: var(--shadow);
 	border-radius: $radius-l;
-	font-size: $regular-more;
+	font-size: var(--size-0);
 	align-items: center;
-	gap: $big;
+	gap: var(--space-s);
 	.current {
 		color: var(--slight);
 		transform: scale(1.3) rotate(-2deg);
@@ -87,11 +86,8 @@ header {
 }
 
 @media only screen and (max-width: 950px) {
-	#tommiSpace {
-		font-size: $bigger;
-	}
 	header {
-		top: 3vh;
+		top: var(--space-m);
 		justify-content: center;
 	}
 	#navToggleBtn {
