@@ -32,8 +32,8 @@ lite-youtube {
 
 .button {
 	line-height: var(--space-l);
-	color: var(--text);
-	background: var(--alt-background);
+	color: var(--background);
+	background: var(--primary);
 	padding: 0 var(--space-s);
 	font-size: var(--size-1);
 	font-weight: 700;
@@ -73,10 +73,11 @@ lite-youtube {
 	z-index: 2;
 	display: flex;
 	.button {
+		background: #FFF;
 		padding: 0;
 		width: var(--space-xl);
 		line-height: var(--space-xl);
-		font-size: var(--size-2);
+		font-size: var(--size-1);
 	}
 }
 
@@ -100,7 +101,7 @@ lite-youtube {
 }
 
 .box {
-	background: var(--background);
+	background: var(--alt-background);
 	color: var(--text);
 	padding: var(--space-m);
 	border-radius: $radius-l;
@@ -129,6 +130,8 @@ lite-youtube {
 		display: none;
 	}
 	.box {
+		color: var(--text);
+		background: var(--background);
 		padding: var(--space-2xs) var(--space-xs);
 		box-shadow: var(--little-shadow);
 		border-radius: $radius-m;
@@ -137,6 +140,16 @@ lite-youtube {
 		h4 {
 			font-size: var(--size-1);
 		}
+	}
+}
+
+.e-content {
+	background: var(--background);
+	border-radius: $radius-l;
+	box-shadow: var(--shadow);
+	padding: var(--space-m);
+	& > * + * {
+		margin: 1em auto 0;
 	}
 }
 
@@ -164,7 +177,31 @@ lite-youtube {
 }
 
 #toc {
+	margin-top: var(--space-m);
 	z-index: 1;
+}
+
+details {
+	h2 {
+		font-size: var(--size-2);
+		margin: 0 !important;
+		&::after {
+			margin-left: .5ch;
+			content: '⬇️';
+		}
+	}
+	summary {
+		&::marker {
+			content: '';
+		}	
+	}
+	&[open] {
+		h2 {
+			&::after {
+				content: '❌';
+			}
+		}
+	}
 }
 
 .qsm {

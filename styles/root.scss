@@ -1,26 +1,10 @@
-$tiny: .2rem;
-$small: .5rem;
-$regular-less: .9rem;
-$regular: 1rem;
-$regular-more: 1.1rem;
-$big: 1.6rem;
-$bigger: 1.8rem;
-$twice: 2.2rem;
-$height: 3.1rem;
-$mega: 4rem;
-
 $radius-s: .4rem;
 $radius-m: .8rem;
 $radius-l: 1.5rem;
-
 $border: 10px;
-
 $trans: .5s ease-out;
 $trans-quick: .1s ease-in-out;
 
-$shadow-light-inverted: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
-$shadow-dark-inverted: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
-	
 $invert-light: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
 $invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 
@@ -41,16 +25,13 @@ $invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 	));
 	@include utopia.generateSpaceScale((
     'minWidth': 320,
-    'maxWidth': 1240,
+    'maxWidth': 1350,
     'minSize': 16,
     'maxSize': 22,
-    'positiveSteps': (1.5, 2, 3, 4, 6),
+    'positiveSteps': (1.5, 2, 2.5, 4, 6),
     'negativeSteps': (0.75, 0.5, 0.25),
-    'customSizes': ('xl-l'),
     'prefix': 'space-',
   ));
-
-	color-scheme: light dark;
 
 	--black-ish: #001E15;
 	--white: #E3E3E3;
@@ -76,11 +57,11 @@ $invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 }
 
 html {
+	color-scheme: light dark;
 	tab-size: 2;
 	text-size-adjust: none;
 	overflow-wrap: break-word;
 	hyphens: auto;
-	transition: $trans;
 	scroll-behavior: smooth;
 	cursor: var(--cursor);
 	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDgwMCA4MDAiPjxwYXRoIGZpbGw9IiNGQ0M5MjAiIGQ9Im0wIDAgODAwIDgwMFY3MDBMMTAwIDB6bTIwMCAwIDYwMCA2MDBWNTAwTDMwMCAwem0yMDAgMCA0MDAgNDAwVjMwMEw1MDAgMHptMjAwIDAgMjAwIDIwMFYxMDBMNzAwIDB6TTAgMjAwbDYwMCA2MDBoMTAwTDAgMTAwem0wIDIwMCA0MDAgNDAwaDEwMEwwIDMwMHptMCAyMDAgMjAwIDIwMGgxMDBMMCA1MDB6bTAgMjAwaDEwMEwwIDcwMHoiLz48L3N2Zz4='), #000;

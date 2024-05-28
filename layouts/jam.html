@@ -3,7 +3,7 @@ layout: wrapper.liquid
 type: CollectionPage
 ---
 <main class='writing'>
-	<hgroup class='no-background'>
+	<hgroup class='wavyBackground no-background'>
 		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
@@ -13,49 +13,76 @@ type: CollectionPage
 	<aside>
 		<article class='metadata'>
 			<div class='box'>
-				<dl>
-					{% if aliases %}
-						<dt>
-							{% if lang == 'it' %}
-								o anche: 
-							{% else %}
-								or also: 
-							{% endif %}
-						</dt>
-						{% for alias in aliases %}
-							<dd><cite class='alias'>{{ alias }}</cite></dd>
-						{% endfor %}
-					{% endif %}
+				<details>
+					<summary><h2>ℹ️ Info</h2></summary>
+					<dl>
+						{% if aliases %}
+							<dt>💭 
+								{% if lang == 'it' %}
+									o anche:
+								{% else %}
+									or also:
+								{% endif %}
+							</dt>
+							{% for alias in aliases %}
+								<dd><cite class='alias'>{{ alias }}</cite></dd>
+							{% endfor %}
+						{% endif %}
 	
-					{% if tags %}
-						<dt>🏷️ Tags:</dt>
-						{% render 'page-tags.html', tags: tags, site: site, size: 'tiny' %}
-					{% endif %}
-
-					{% if location %}
-						<dt>📍 Location:</dt>
-						{% for place in places %}
-							{% if place.name contains location or place.aliases contains location %}
-								<dd>
-									{% if place.osm != '' %}
-										<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>,
-									{% else %}
-										<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+						{% if tags %}
+							<dt>🏷️ Tags:</dt>
+							{% render 'page-tags.html', tags: tags, site: site, size: 'tiny' %}
+						{% endif %}
+	
+						{% if location %}
+							<dt>📍
+								{% if lang == 'it' %}
+									Luogo:
+								{% else %}
+									Location:
+								{% endif %}
+							</dt>
+							<dd>
+								{% for place in places %}
+									{% if place.name contains location or place.aliases contains location %}
+										{%- if place.osm != '' -%}
+											<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+										{%- else -%}
+											<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+										{%- endif -%}
+										{%- if place.city -%}
+											, {{ place.city }}
+										{%- endif -%}
+										{% assign found = true %}
 									{% endif %}
-								</dd>
+								{% endfor %}
+								{% unless found %}
+									<a href='https://www.openstreetmap.org/search?query={{ location | url_encode }}'>{{ location }}</a>
+								{% endunless %}
+							</dd>
+						{% endif %}
+						{% if lang == 'it' %}
+							{% if date %}
+								<dt>🗓️ Data:</dt>
+								<dd><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: date %}</time></dd>
 							{% endif %}
-						{% endfor %}
-					{% endif %}
-					{% if date %}
-						<dt>🗓️ Date:</dt>
-						<dd><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: date %}</time></dd>
-					{% endif %}
-					{% if updated %}
-						<dt>🖋️ Ultima modifica:</dt>
-						<dd><time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: updated %}</time></dd>
-					{% endif %}
-				</dl>
-				<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+							{% if updated %}
+								<dt>🖋️ Ultima modifica:</dt>
+								<dd><time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: updated %}</time></dd>
+							{% endif %}
+						{% else %}
+							{% if date %}
+								<dt>🗓️ Date:</dt>
+								<dd><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%-d %B %Y' }}</time></dd>
+							{% endif %}
+							{% if updated %}
+								<dt>🖋️ Latest change:</dt>
+								<dd><time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%-d %B %Y' }}</time></dd>
+							{% endif %}
+						{% endif %}
+					</dl>
+					<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+				<details>
 			</div>
 		</article>
 
@@ -69,7 +96,7 @@ type: CollectionPage
 		{% endif %}
 </aside>
 
-	<article class='box an-2-row e-content{% if serif %} serif{% endif %}' data-pagefind-body>
+	<article class='e-content{% if serif %} serif{% endif %}' data-pagefind-body>
 		{{ content }}
 	</article>
 

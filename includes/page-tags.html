@@ -1,8 +1,5 @@
-	{% for tag in site.tags -%}
-		{% for rawtag in tags -%}
-			{% capture postag -%}{{ rawtag | replace: '/', ' ' }}{% endcapture %}
-			{% if postag contains tag.title -%}
-				<dd><a href='{%- if tag.url -%}{{ tag.url }}{%- else -%}/tags#{{ tag.title | slugify }}{%- endif -%}' rel='tag' class='{{ tag.title | slugify }} {{ size }} button p-category'>{{ tag.title }}</a></dd>
-			{% endif -%}
-		{% endfor -%}
-	{% endfor -%}
+{% for tag in tags -%}
+	<dd>
+		<a href='/tags/' rel='tag' class='{{ tag | slugify | replace: '-', ' ' }} {{ size }} button p-category'>{{ tag }}</a>
+	</dd>
+{% endfor -%}
