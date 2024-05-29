@@ -31,7 +31,7 @@ li {
 		&[href*='visioni' i],
 		&[href*='visions' i] {
 			&::before {
-				content: '🖼 ';
+				content: '🖼️ ';
 			}
 		}
 		&[href*='pixelfed.uno' i],
@@ -46,7 +46,7 @@ li {
 				content: '🐘 ';
 			}
 		}
-		&[href='/about' i],
+		&[href^='/about' i],
 		&[href*='about-it' i] {
 			&::before {
 				content: '🙋🏻‍♂️ ';
@@ -57,7 +57,6 @@ li {
 		&[href='/blog' i] {
 			&::before {
 				content: '📜 ';
-				/*content: '📖'; */
 			}
 		}
 		&[href*='unive.it' i] {
@@ -119,7 +118,7 @@ li {
 		&[href*='openstreetmap' i],
 		&[href*='osm.org' i] {
 			&::before {
-				content: '🗺 ';
+				content: '🗺️ ';
 			}
 		}
 		&[href^='/dev' i] {
@@ -212,11 +211,6 @@ li {
 		&[href*='/storage' i] {
 			&::before {
 				content: '💾 ';
-			}
-		}
-		&[href*='paDzrTfqL9PbkSX/starred'] {
-			&::before {
-				content: '❤️ ';
 			}
 		}
 	}

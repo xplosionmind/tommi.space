@@ -3,14 +3,16 @@
 header {
 	position: fixed;
 	top: 1.5vw;
-	left: 6vw;
-	right: 6vw;
-	z-index: 9;
+	margin: 0 var(--space-m);
+	z-index: 3;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	text-transform: uppercase;
 	font-weight: 700;
+	&.sticky {
+		position: sticky;
+	}
 }
 
 #navToggle {

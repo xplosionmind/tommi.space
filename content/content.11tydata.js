@@ -1,6 +1,8 @@
 module.exports = {
 	lang: 'en',
 	layout: 'wrapper.liquid',
+	header: true,
+	footer: true,
 	image: '/tommi.space.wip.webp',
 	eleventyComputed: {
 		title(data) {

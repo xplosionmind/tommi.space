@@ -1,17 +1,12 @@
 @use 'root' as *;
 
 .landing {
-	margin: 0;
-	height: 100vh;
 	overflow-x: hidden;
+	.vertical {
+		height: 100vh;
+	}
 	h1 {
-		color: #FFF;
-		text-shadow: 2px 2px 5px #11305B33;
-		background: var(--red);
-		border: 5px solid #FFF;
-		padding: 1vw 3vw;
-		box-shadow: var(--shadow);
-		border-radius: $radius-l;
+		padding: var(--space-m) var(--space-xl);
 		animation: pulse 1s infinite;
 	}
 }

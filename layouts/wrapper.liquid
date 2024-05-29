@@ -13,7 +13,9 @@
 
 	<body class='{% if class %}{{ class }}{% endif %}'>
 
-		{% render 'header.liquid', lang: lang, current: page.url %}
+		{% if header %}
+			{% render 'header.liquid', lang: lang, current: page.url %}
+		{% endif %}
 
 		{% if tags contains 'draft' or tags contains 'wip' %}
 			{% render 'draft.html', lang: lang %}
@@ -25,7 +27,9 @@
 
 		{{ content }}
 
-		{% render 'footer.html', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
+		{% if footer %}
+			{% render 'footer.html', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
+		{% endif %}
 	
 		{% render 'toolbar.liquid', lang: lang, alternate: alternate, url: page.url %}
 

@@ -2,13 +2,28 @@
 title: Dive in tommi.space
 lang: en
 ref: home
-permalink: /home/
+permalink: /
+redirect_from: /home/
 eleventyImport:
   collections: ['zibaldone', 'jam', 'poetry', 'sconnesso']
 sitemap:
   priority: 1.0
+header: false
 ---
-<main>
+<article class='landing'>
+	<div class='no-background vertical flex'>
+		<h1 class='wavyBackground'>T🤯mmi Space</h1>
+		<div class='flex'>
+			<a class='dark-blue button' href='/#main' title='English homepage'>⬇️ Dive in ⬇️</a>
+			or
+			<a class='it button' href='/tuffo/' title='Homepage in italiano'>Italiano</a>
+		</div>
+	</div>
+</article>
+
+{% render 'header.liquid', lang: 'en', current: '/' %}
+
+<main id='main'>
 	<article id='intro' class='middle center'>
 		<div class='box'>
 			<p>You just entered an overwhelming, mindblowing, and confused space inside the immense wonderland of the World Wide Web 🕸️. This place is 🚨 <strong>a perpetual work in progress</strong> 🏗️ populated by thoughts 💭, absurd visions 😵‍💫, silliness 🤡, hope 🌟, questions ⁉️, sort-of-answers 🤔, kinda-intuitions 💡, contraddictions 💢, disorderly attempts of reordering stuff 🎭, depictions of chaos 💥.</p>
