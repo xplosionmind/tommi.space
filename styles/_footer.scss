@@ -1,33 +1,26 @@
 @use 'root' as *;
 
 footer {
-	margin: 3vw;
-	padding: var(--space-m);
-	border-radius: $radius-l;
+	padding: var(--space-3xl) var(--space-l);
 	background: var(--background);
-	box-shadow: var(--shadow);
-	text-align: center;
 	justify-content: space-evenly;
-	* {
-		gap: inherit;
-	}
 	p {
 		font-size: var(--size--1);
 		line-height: 1.2;
-		margin: var(--space-2xs) auto;
-		max-width: 100%;
 	}
 }
 
-#social {
-	.button {
-		width: var(--space-l);
-		height: var(--space-l);
-		padding: var(--space-3xs);
-		svg {
-			height: 100%;
-			width: auto;
-		}
+#info {
+	grid-column: span 3;
+}
+
+.square.button {
+	width: var(--space-l);
+	height: var(--space-l);
+	padding: var(--space-3xs);
+	svg {
+		height: 100%;
+		width: auto;
 	}
 }
 
@@ -41,7 +34,6 @@ footer {
 
 #Telegram {
 	background: linear-gradient(#1D93D2, #38B0E3);
-	padding: 0;
 }
 
 #GitHub {
