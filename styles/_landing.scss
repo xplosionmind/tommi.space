@@ -1,12 +1,9 @@
 @use 'root' as *;
 
-.landing {
+#landing {
 	overflow-x: hidden;
-	.vertical {
-		height: 100vh;
-	}
+	height: calc(100vh + var(--space-l));
 	h1 {
-		padding: var(--space-m) var(--space-xl);
 		animation: pulse 1s infinite;
 	}
 }

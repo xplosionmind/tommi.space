@@ -14,106 +14,101 @@ sitemap:
 	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image, stylesheet: stylesheet %}
 <body>
 
-<a href='/home' class='button tool'>home</a>
-<div class='row'>
-	<div class='one column'>
+<main>
+<article class='middle'>
+	<hgroup>
 		<h1>Everyone</h1>
 		<h2>Love awakens</h2>
-		<p>
-			I had this story stuck in my head, and the only way to get it out was to tell it. So I wrote a short-movie about it. Somehow, I found a way to produce it, and, eventually, in 2019 I filmed it. It took several long, long months of hard work whith my friends, who where kind and crazy enough to trust and follow me in this adventure.<br>
-			I actually am someone who won’t take off his pajama no matter what. Filming <cite>Everyone</cite> made me think Everyone should wake up—and love.
-		</p>
-	</div>
-</div>
+	</hgroup>
+	<p>I had this story stuck in my head, and the only way to get it out was to tell it. So I wrote a short-movie about it. Somehow, I found a way to produce it, and, eventually, in 2019 I filmed it. It took several long, long months of hard work whith my friends, who where kind and crazy enough to trust and follow me in this adventure.<br>
+		I actually am someone who won’t take off his pajama no matter what. Filming <cite>Everyone</cite> made me think Everyone should wake up—and love.</p>
+</article>
 
-<div class='row'>
+<article class='wide'>
 	<div class='embed'>
 		<iframe src='https://player.vimeo.com/video/357217491' width='1200' height='675' allow='autoplay; fullscreen' allowfullscreen></iframe>	
 	</div>
-</div>
+</article>
 
-<div class='box row'>
-	<div class='half column vertical flex'>
+<article class='wide subgrid box'>
+	<figure class='half'>
 		{% img '2019-08-30-squali-consapevoli.jpg', 'a snaphot of of the final frames of the movie' %}
-	</div>
-	<div class='half column vertical flex'>
+	</figure>
+	<div class='half vertical flex'>
 		<h2>Some thoughts from the director</h2>
 		<p>Tommi wrote something on what he feels about the movie and about what he thinks it means to everyone.</p>
-		<a href='/squali-consapevoli' target='_blank' class='written button'>Read</a>
+		<a href='/squali-consapevoli/' class='button'>Read</a>
 	</div>
-</div>
+</article>
 
-<div class='row' id='themakingof'>
+<article class='wide' id='themakingof'>
 	<div class='embed'>
 		<iframe src='https://player.vimeo.com/video/357913891' width='1200' height='675' allow='autoplay; fullscreen' allowfullscreen></iframe>
 	</div>
-</div>
+</article>
 
-<div class='box row'>
-	<div class='one-third column vertical flex'>
+<article class='wide subgrid box'>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/48707603012_fe0d45e19c_h.jpg', 'a photo of a girl in Everyone shirt' %}
-	</div>
-	<div class='one-third column vertical flex'>
+	</figure>
+	<div class='one-third vertical flex'>
 		<h2>Everyone shirt</h2>
 		<p>Tommi wrote something on what he feels about the movie and about what he thinks it means to everyone.</p>
-		<a href='{{ site.encoded_mailto }}?subject=PURCHASE-EVERYONE-SHIRT' target='_blank' class='written button'>Order Now</a>
+		<a href='{{ site.encoded_mailto }}?subject=PURCHASE-EVERYONE-SHIRT' target='_blank' class='button'>Order Now</a>
 	</div>
-	<div class='one-third column vertical flex'>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/49863476997_7248e8202e_h.jpg', 'a photo of a girl in Everyone shirt' %}
-	</div>
-</div>
+	</figure>
+</article>
 
-<div id='celeb' class='row'>
-	<div class='one column'>
-		<h2>Famous people kind enough to listen to me while I was trying to tell them Everyone plot in few seconds</h2>
-	</div>
-</div>
-
-<div class='flex mosaic row'>
-	<figure>
+<article id='celeb' class='wide subgrid'>
+	<h2 class='middle'>Famous people kind enough to listen to me while I was trying to tell them Everyone plot in few seconds</h2>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/49863177766_dc6eff91aa_b.jpg', 'A photo of Luca Bizzarri holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/48743498842_9b7573b4a7_h.jpg', 'A photo of Guido Catalano holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/48743119228_58a188fde2_b.jpg', 'A photo of Mario Calabresi holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/48743382471_8e6b93a8e8_b.jpg', 'A photo of Alessandro Baricco holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/48743387051_e657e2ac5e_c.jpg', 'A photo of Beppe Severgnini holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/49863233411_899ec3f5ee_h.jpg', 'A photo of Massimo Giletti holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/48743563042_48fd8e57d1_b.jpg', 'A photo of Walter Veltroni holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/49863511427_1eed273bb5_b.jpg', 'A photo of Piergiorgio Odifreddi holding the shirt with the “I am Everyone” writing' %}
 	</figure>
-	<figure>
+	<figure class='one-third'>
 		{% img 'https://live.staticflickr.com/65535/49863508277_1385cb1d3d_b.jpg', 'A photo of Amleto De Silva holdin Everyone’s shirt' %}
 	</figure>
-</div>
+</article>
 
-<div class='row'>
-	<div class='one column flex'>
-		{% img '/everyone-on-set.jpg', 'a shot of the crew on set' %}
-	</div>
-</div>
+<figure class='middle'>
+	{% img '/everyone-on-set.jpg', 'a shot of the crew on set' %}
+</figure>
 
-<div id='imdb' class='box row'>
-	<div class='half column vertical flex'>
+<article id='imdb' class='wide subgrid box'>
+	<figure class='half'>
 		{% img '/everyone-imdb.webp', 'Everyone poster' %}
-	</div>
-	<div class='half column vertical flex'>
+	</figure>
+	<div class='half vertical flex'>
 		<h2>We’re not serious, but we try to look so</h2>
 		<p><cite>Everyone</cite> has its IMDb page, where you can find the complete list of the cast and crew and read some oddities about the production.<br>Check it out!</p>
-		<a href='https://imdb.com/title/tt10851718' target='_blank' title='Everyone on IMDb' class='written button'>IMDb Movie Page</a>
+		<a href='https://imdb.com/title/tt10851718' target='_blank' title='Everyone on IMDb' class='button'>IMDb Movie Page</a>
 	</div>
+</article>
+<div class='wide flex'>
+	<a href='/' class='button'>Go to home</a>
 </div>
+</main>
 </body>
 </html>

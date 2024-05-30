@@ -18,10 +18,6 @@ b {
 	font-weight: 800;
 }
 
-u {
-	text-decoration-color: var(--transp-text) !important;
-}
-
 mark {
 	background: var(--primary);
 	color: var(--background);
@@ -41,10 +37,6 @@ abbr[title] {
 h1, h2, h3 {
 	font-family: var(--font-heading);
 	line-height: 1;
-	.no-background & {
-		color: #FFF;
-		text-shadow: var(--shadow);
-	}
 }
 
 h4, h5, h6 {
@@ -56,10 +48,12 @@ h4, h5, h6 {
 
 
 h1 {
+	color: #FFF;
+	text-shadow: var(--shadow);
+	padding: var(--space-m) var(--space-xl);
+	margin: 0 auto;
 	font-size: var(--size-5);
-	color: var(--text);
 	text-align: center;
-	text-shadow: var(--tiny-shadow);
 	&:hover {
 		transform: rotate(-3deg);
 	}
