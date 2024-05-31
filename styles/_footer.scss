@@ -7,22 +7,14 @@ footer {
 	color: #EEE;
 	background: #000;
 	justify-content: space-evenly;
+	place-items: center;
 	p {
 		font-size: var(--size--1);
 		line-height: 1.2;
 	}
 	.h-card {
 		align-content: flex-start;
-	}
-}
-
-.square.button {
-	width: var(--space-l);
-	height: var(--space-l);
-	padding: var(--space-3xs);
-	svg {
-		height: 100%;
-		width: auto;
+		max-width: 15rem;
 	}
 }
 

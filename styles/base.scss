@@ -214,11 +214,12 @@ input {
 	main,
 	footer {
 		grid-template-columns: repeat(6, 1fr);
-		grid-template-rows: auto;
+		align-items: center;
 		&.writing {
 			grid-template-areas:
 				'title title title title title title'
 				'text text text text aside aside';
+			align-items: start;
 		}
 		&.list {
 			grid-template-areas:

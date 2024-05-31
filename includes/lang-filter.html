@@ -1,11 +1,11 @@
 <section id='lang-filter' class='box'>
-	<h3>
+	<h2>
 		{% if lang == 'it' -%}
 			Filtra per lingua
 		{% else -%}
 			Filter by language
 		{% endif -%}
-	</h3>
+	</h2>
 	<div class='flex'>
 		<button data-target-lang='en' title='{% if lang == 'it' -%}Mostra solo articoli in inglese{% else %}Show only posts in English{% endif -%}'>🇬🇧 </button>
 		<button data-target-lang='it' title='{% if lang == 'it' -%}Mostra solo articoli in italiano{% else %}Show only posts in Italian{% endif -%}'>🇮🇹 </button>
