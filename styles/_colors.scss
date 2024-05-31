@@ -10,14 +10,15 @@
 }
 
 .red {
-	--primary: var(--yellow);
+	--primary: #FFEFC0;
 	color: #FFF;
 	background: var(--red);
 	border-color: var(--red);
 }
 
 .blue {
-	color: #FFF;
+	--primary: #55008B;
+	color: #000;
 	background: var(--blue);
 	border-color: var(--blue);
 }
@@ -25,11 +26,11 @@
 .dark-blue {
 	color: #FFF;
 	background: var(--dark-blue);
-	border-color: var(--dark-blue) !important;
+	border-color: var(--dark-blue);
 }
 
 .yellow {
-	--primary: var(--red);
+	--primary: #7400BE;
 	color: #000;
 	background: var(--yellow);
 	border-color: var(--yellow) !important;

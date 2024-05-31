@@ -1,17 +1,19 @@
 @use 'root' as *;
 
 footer {
+	--primary: var(--yellow);
+	display: grid;
 	padding: var(--space-3xl) var(--space-l);
-	background: var(--background);
+	color: #EEE;
+	background: #000;
 	justify-content: space-evenly;
 	p {
 		font-size: var(--size--1);
 		line-height: 1.2;
 	}
-}
-
-#info {
-	grid-column: span 3;
+	.h-card {
+		align-content: flex-start;
+	}
 }
 
 .square.button {

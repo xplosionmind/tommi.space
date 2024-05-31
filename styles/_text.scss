@@ -90,12 +90,9 @@ pre {
 }
 
 blockquote {
-	margin: 0 3vw;
-	padding: 0;
 	font-family: var(--font-serif);
-	opacity: .9;
 	p {
-		line-height: 1.5;
+		max-width: 80%;
 	}
 }
 
