@@ -3,18 +3,20 @@ title: Fake poetry
 redirect_from: [/fake-poetry/,/fakepoetry/]
 lang: en
 ref: poetry
-layout: empty.html
-class: poetry
+layout: poem.html
+header: false
+toolbar: false
+class: poetry center
 description: A collection of wonderful failures of my foolish attempt at drawing images with my words you are invited to laugh at
 sitemap:
   changefreq: monthly
 	priority: 0.6
 ---
-<h1>{{ title }}</h1>
-<article class='serif'>
-	<p class='intro'>{{ description }}</p>
-	<ul>{% for poem in collections.poetry %}
+{{ description }}
+
+<ul>
+	{%- for poem in collections.poetry -%}
 		<li><a href='{{ poem.url }}' title='{{ poem.data.title }}'>{{ poem.data.title }}</a></li>
-	{% endfor %}</ul>
-</article>
-<a class='tool' href='/home' title='go back home'>Back</a>
+	{%- endfor -%}
+</ul>
+

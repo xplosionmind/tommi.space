@@ -21,18 +21,17 @@
 			{% render 'draft.html', lang: lang %}
 		{% endif %}
 
-		{% if tags contains 'help' %}
-			{% render 'help.html', lang: lang, lang: lang %}
-		{% endif %}
-
 		{{ content }}
 
 		{% if footer %}
 			{% render 'footer.html', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
 		{% endif %}
 	
-		{% render 'toolbar.liquid', lang: lang, alternate: alternate, url: page.url %}
+		{% if toolbar %}
+			{% render 'toolbar.liquid', lang: lang, alternate: alternate, url: page.url %}
+		{% endif %}
 
 		<script src='/index.js' type='text/javascript'></script>
 	</body>
 </html>
+

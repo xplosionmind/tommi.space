@@ -4,31 +4,32 @@
 }
 
 #langFilter-en:checked {
-	& ~ div[lang='en'] {
+	& ~ a[hreflang='en'] {
 		display: block
 	}
-	& ~ div[lang='it'],
-	& ~ div[lang='fr'] {
+	& ~ a[hreflang='it'],
+	& ~ a[hreflang='fr'] {
 		display: none;
 	}
 }
 
 #langFilter-it:checked {
-	& ~ div[lang='it'] {
+	& ~ a[hreflang='it'] {
 		display: block
 	}
-	& ~ [lang='en'],
-	& ~ [lang='fr'] {
+	& ~ a[hreflang='en'],
+	& ~ a[hreflang='fr'] {
 		display: none;
 	}
 }
 
 #langFilter-fr:checked {
-	& ~ div[lang='fr'] {
+	& ~ a[hreflang='fr'] {
 		display: block
 	}
-	& ~ [lang='en'],
-	& ~ [lang='it'] {
+	& ~ a[hreflang='en'],
+	& ~ a[hreflang='it'] {
 		display: none;
 	}
 }
+

@@ -5,7 +5,9 @@ tags:
   - writing/idea
   - todo
   - geek
-aliases: x11vnc, TeamViewer
+aliases:
+  - x11vnc
+  - TeamViewer
 description: Connecting visually to a remote device through SSH
 image: https://upload.wikimedia.org/wikipedia/en/5/51/Virtual_Network_Computing_%28logo%29.svg
 ---
@@ -14,9 +16,6 @@ image: https://upload.wikimedia.org/wikipedia/en/5/51/Virtual_Network_Computing_
 <div class='yellow box'>
 	Setting up a VNC properly is a mess, I am now relying on <a href='https://rustdesk.com' target='_blank' title='Rustdesk'>Rustdesk</a>, which seems a pretty solid <a href='https://teamviewer.com' target='_blank' title='TeamViewer'>TeamViewer</a> alternative.
 </div>
-
-<br>
-<br>
 
 ## x11vnc
 

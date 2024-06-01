@@ -4,15 +4,14 @@ updated: 2022-04-08T00:14:21+02:00
 tags:
   - knowledge
   - todo
-aliases: Learn, To learn
+aliases:
+  - Learn
+  - To learn
 description: |
   Directions to lead my curiosity towards, a.k.a. what I have to learn
 redirect_from: [/learn/, /to-learn/]
 ---
 {{ description }}
-
-<br>
-<br>
 
 ## University
 
@@ -20,15 +19,9 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 
 ![[missing]]
 
-<br>
-<br>
-
 <div class='blue box'>
 	Gaps in knowledge should be covered with the right [[Knowledge|Learning Resources]], and remembered with an effective [[Knowledge management]].
 </div>
-
-<br>
-<br>
 
 ## History
 
@@ -38,9 +31,6 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 - Iran history
 - Vietnam War
 
-<br>
-<br>
-
 ## Politics
 
 - Mattarellum
@@ -48,9 +38,6 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 - US Presidential timeline
 
 - [[2018-05-26 Madonna del Buon Consiglio|Madonna del Buon Consiglio]]
-
-<br>
-<br>
 
 ## Geek
 
@@ -89,9 +76,7 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 	- [Tania Rascia](https://taniarascia.com)'s [Overview of CSS concepts](https://www.taniarascia.com/overview-of-css-concepts/)
 13. [Learn EQ](https://youtu.be/e4C5DxOepsM)
 
-<br>
-<br>
-
 ## Music
 
 ![[Music#Learning]]
+

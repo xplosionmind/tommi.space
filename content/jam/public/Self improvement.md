@@ -3,10 +3,12 @@ date: 2020-12-08T01:00:00+01:00
 updated: 2022-05-19T18:47:38+02:00
 tags: zen
 title: Self improvement
-aliases: Zen, Lifestyle
+aliases:
+  - Zen
+  - Lifestyle
 permalink: /zen/
 redirect_from:
-  - /self-improvement
+  - /self-improvement/
   - /self-growth/
   - /improving/
   - /lifestyle/

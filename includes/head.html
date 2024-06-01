@@ -35,10 +35,9 @@
 	{% if date %}<meta property='og:article:published_time' content='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% endif %}
 	{% if updated %}<meta property='article:modified_time' content='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% endif %}
 	<meta property='og:image' content='{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}'>
-	<meta name='twitter:card' content='{% if layout == post %}summary_large_image{% else %}summary{% endif %}'>
+	<meta name='twitter:card' content='summary_large_image'>
 	{% if layout == post or layout == jam or layout == poem or layout == sconnesso %}<meta property='og:type' content='article'>{% endif %}
 	<link rel='canonical' href='{{ absoluteUrl }}'>
-	<meta property='og:author' content='{{ site.author.name }}'>
 	<meta property='og:locale' content='{{ lang }}'>
 	{% if alternate %}
 		<meta property='og:locale:alternate' content='{{ alternate.data.lang }}'>
@@ -156,3 +155,4 @@
 		<meta name='theme-color' content='#000000' media='(prefers-color-scheme: dark)'>
 	{% endif %}
 </head>
+

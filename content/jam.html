@@ -1,18 +1,24 @@
 ---
+title: The Jam
 date: 2020-02-01
 updated: 2024-04-13T22:14:28+02:00
 tags:
   - meta
   - tomminess
-aliases: The Jar, Jar, Marmelade
-layout: page.html
+aliases:
+  - The Jar
+  - Jar
+  - Marmelade
 permalink: /jam/
-redirect_from: /jar/
+redirect_from: ['/jar/', '/jam-whole/', '/jam/whole/']
 ref: jam
-toc: false
 image: /jam.webp
 ---
-<article class='wide'>
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundRazzmatazz'>The Jam</h1>
+	</hgroup>
+<article class='e-content'>
 {% renderTemplate 'md' %}
 I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <cite>[Zibaldone](/zibenglish)</cite>.
 
@@ -28,28 +34,28 @@ From this page, it is possible to start navigating in The Jam. There are two dif
 {% endrenderTemplate %}
 </article>
 
-{% render 'tags.html', site: site -%}
-{% render 'lang-filter.html', lang: lang -%}
+	<aside class='subgrid'>
+		<div class='two-thirds'>
+			{% render 'tags.html', site: site -%}
+		</div>
+		<div class='one-third'>
+			{% render 'lang-filter.html', lang: lang -%}
+		</div>
+	</aside>
 
-<div class='wide flex'>
-	<a class='red button' href='/jam/whole/' title='The Whole Jam'>The Whole Jam</a>
-</div>
-
-<div class='wide grid'>
-	{% for note in collections.jam %}
-		{% if note.data.main %}
-			<a class='little box' href='{{ note.url }}' hreflang='{{ note.data.lang }}' title='{{ note.data.title }}'>
-				<h3>{{ note.data.title }}</h3>
-				<p>{{ note.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
+	<div class='entries-list grid'>
+		<input type='checkbox' id='langFilter-en' class='langFilter'>
+		<input type='checkbox' id='langFilter-it' class='langFilter'>
+		<input type='checkbox' id='langFilter-fr' class='langFilter'>
+		{% for entry in collections.jam %}
+			<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}' {% if entry.data.main %}data-target-main{% endif %}>
+				<h2>{{ entry.data.title }}</h2>
+				{% if entry.data.description %}
+					<p>{{ entry.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
+				{% endif %}
+				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
-		{% endif %}
-	{% endfor %}
-</div>
+		{% endfor %}
+	</div>
+</main>
 
-<div class='flex'>
-	<a class='red margin button' href='/jam/whole/' title='The Whole Jam'>The Whole Jam</a>
-</div>
-
-<div class='yellow box'>
-	The key feature which makes The Jam so effective and powerful is the connection among different thoughts. For this reason, the same jar which where The Jam is stored contains also notes I chose to keep private. You may encounter links which look [[like this]], you cannot click on them, it is totally normal since they are only privately available to me.
-</div>

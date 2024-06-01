@@ -4,7 +4,10 @@ updated: 2022-12-09T16:59:19+01:00
 tags:
  - zen
  - topic
-aliases: Live, Vivere, Life Philosophy
+aliases:
+  - Live
+  - Vivere
+  - Life Philosophy
 redirect_from: ['/live/', '/vivere/', '/life/']
 todo:
   - Add Giovanni Paolo II tazza cit.

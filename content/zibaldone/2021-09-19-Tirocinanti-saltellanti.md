@@ -3,7 +3,9 @@ title: Tirocinanti Saltellanti
 date: 2021-09-20T16:05:45+02:00
 updated: 2021-09-20T19:05:32+02:00
 subtitle: e la magia dello scoutismo non banale
-aliases: CFT, Campo di Formazione Tirocinanti
+aliases:
+  - CFT
+  - Campo di Formazione Tirocinanti
 permalink: /cft/
 redirect_from: [/tirocinanti-saltellanti/]
 tags: scout

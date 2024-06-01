@@ -4,7 +4,11 @@ updated: 2022-10-11T00:30:23+02:00
 tag:
   - geek
   - zen
-aliases: Just quit, Choose the alternative, Go alternative, Make the switch
+aliases:
+  - Just quit
+  - Choose the alternative
+  - Go alternative
+  - Make the switch
 image: https://tommi.space/just-quit.jpg
 description: Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it is for the best, it is worth it. Below some of the things I am quitting.
 permalink: /switch/

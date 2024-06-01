@@ -1,10 +1,13 @@
 ---
 date: 2020-05-07T02:00:00+02:00
 updated: 2022-07-17T19:03:44+02:00
-tags: topic, knowledge
-aliases: Resources, Learning Resources
-description: |
-  An eternally incomplete yet continuously growing collection of the sources of my knowledge
+tags:
+  - topic
+  - knowledge
+aliases:
+  - Learning Resources
+  - Resources
+description: An eternally incomplete yet continuously growing collection of the sources of my knowledge
 redirect_from: [/learning-resources/,/resources/]
 main: true
 ---

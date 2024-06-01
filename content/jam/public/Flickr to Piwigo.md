@@ -2,10 +2,12 @@
 date: 2020-12-05T01:00:00+01:00
 updated: 2022-03-14T14:59:21+01:00
 tags: geek
-aliases: Quitting Flickr, Quit Flickr
+aliases:
+  - Quitting Flickr
+  - Quit Flickr
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo
 image: https://tommi.space/jar/quit-flickr.jpg
-redirect_from: [/flickr, /quitting-flickr, /switch-to-piwigo, /piwigo-switch]
+redirect_from: [/flickr/, /quitting-flickr/, /switch-to-piwigo/, /piwigo-switch/]
 ---
 The process of quitting [Flickr](https://flickr.com 'Flickr') and switching to [[Piwigo]] took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
 

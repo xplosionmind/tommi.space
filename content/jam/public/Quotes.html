@@ -1,6 +1,5 @@
 ---
 date: 2020-06-10
-updated: 2021-10-30T19:13:45+02:00
 tag:
   - quote
 toc: false
@@ -11,11 +10,6 @@ main: true
 todo:
   - add tags
 ---
-<style>
-	.cite {
-		margin-bottom: 4rem;
-	}
-</style>
 {% assign quotes = quotes | sort: 'date' | reverse %}
 {% for q in quotes %}
 	<p class='date' datetime='{{ q.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ q.date | date: '%d %B %Y' }}</p>
@@ -28,3 +22,4 @@ todo:
 		</p>
 	{% endif %}
 {% endfor %}
+

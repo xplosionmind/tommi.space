@@ -1,21 +1,16 @@
-<!DOCTYPE html>
-<html lang='{% if lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'>
+---
+layout: wrapper.liquid
+---
+<main class='yellow'>
+	<h1 class='wide'>{{ title }}</h1>
+	<article class='middle serif' data-pagefind-body>
+		{{ content }}
+		<p><a rel='author' class='p-author h-card' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/#about' title='Tommi'>T</a></p>
+	</article>
+	{% if lang == 'it' %}
+		<a class='tool' href='/pasticci' title='Tutte le poesie'>indietro</a>
+	{% else %}
+		<a class='tool' href='/poetry' title='All of the poems'>back</a>
+	{% endif %}
+</main>
 
-	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
-
-	<body class='{{ class }}'>
-		<main>
-			<h1>{{ title }}</h1>
-			<article class='serif' data-pagefind-body>
-				{{ content }}
-				<p><a rel='author' class='p-author h-card' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/#about' title='Tommi'>T</a></p>
-			</article>
-			<small><a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/deed{% if lang == 'it' %}.it{% endif %}'>Creative Commons Attribution-ShareAlike 4.0 International</a></small>
-			{% if lang == 'it' %}
-				<a class='tool' href='/pasticci' title='Tutte le poesie'>indietro</a>
-			{% else %}
-				<a class='tool' href='/poetry' title='All of the poems'>back</a>
-			{% endif %}
-		</main>
-	</body>
-</html>

@@ -2,7 +2,9 @@
 date: 2021-01-25T08:30:35+01:00
 updated: 2022-10-11T00:33:00+02:00
 tags: geek
-aliases: Quit Lightroom, Quit Lightroom and switch to Darktable
+aliases:
+  - Quit Lightroom
+  - Quit Lightroom and switch to Darktable
 permalink: /darktable/
 redirect_from:
   - /lightroom-to-darktable/

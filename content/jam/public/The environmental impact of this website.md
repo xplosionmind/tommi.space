@@ -4,7 +4,6 @@ tags:
   - geek/web
 location: xHain, Berlin
 description: Explaining the determining factors of the environmental impact of this website, and some reflections about its sustainability score.
-toc: false
 permalink: /environmental-impact/
 ref: environmental-impact
 ---

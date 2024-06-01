@@ -1,7 +1,9 @@
 ---
 date: 2021-10-01T11:28:00+02:00
 updated: 2022-10-15T10:04:30+02:00
-aliases: TMI Pics, tmi.pics
+aliases:
+  - TMI Pics
+  - tmi.pics
 permalink: /tmi.pics/
 redirect_from: /pixelfed/
 tags: geek/apps

@@ -2,7 +2,9 @@
 date: 2021-03-11T11:34:52+01:00
 updated: 2022-09-26T14:46:48+02:00
 tags: geek/web
-aliases: Website bloating, Making the web lighter
+aliases:
+  - Website bloating,
+  - Making the web lighter
 description: Notes about website bloating and thoughts about the need for a lighter, simpler web.
 toc: false
 permalink: /web-bloat/

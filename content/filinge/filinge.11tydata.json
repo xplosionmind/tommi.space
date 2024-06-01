@@ -1,6 +1,6 @@
 {
 	"tags": "filinge",
-	"layout": "post",
+	"layout": "page.html",
 	"lang": "it",
 	"sitemap": {
 		"chengefreq": "never",

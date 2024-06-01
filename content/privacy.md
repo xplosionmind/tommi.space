@@ -1,17 +1,16 @@
 ---
-updated: 2022-04-13T18:39:22+02:00
-title: Privacy
+updated: 2024-06-01T16:43:43+02:00
+title: Privacy Policy
 ref: privacy
-lang: en
 layout: page.html
 description: Privacy Policy of tommi.space
 sitemap:
   changefreq: yearly
 	priority: 0.3
 ---
-Visitors data concerning this website are handled by [Plausible](https://plausible.io 'Plausible'), whose Privacy Policy is [here](https://plausible.io/privacy 'Plausible Privacy Policy').  
-Furthermore, such data is [publicly available](https://plausible.io/tommi.space 'Visitors data for tommi.space')
+This website does not gather any data about its visitors. Since I am in full control of <cite>[[Nebuchadnezzar]]</cite>, the server where tommi.space is hosted, all I could know are the IP addresses that connect to it. Nevertheless, I don’t care about this information and I don’t really know how to gather this data.
 
-Whenever you write me an email or you subscribe to the newsletter by clicking the box at the end of every page, I get your name and email address. It is not being shared with anyone; the only scenario which would obligate me to hand out your data is the one where I am forced by a legal action. I am going to promptly delete your data from my database if you request it.
+By subscribing to my newsletter, you will be giving me your email address, and, optionally, your name. To send the newsletter I use [listmonk](https://listmonk.app 'listmonk official website'), which is installed on <cite>[[Nebuchadnezzar]]</cite>, too.
 
-The [newsletter](/newsletter) is managed with [listmonk](https://listmonk.app 'listmonk official website'), installed on [[Server|Xplosion Server]]. Therefore, I have complete control over any user’s data, and I can immediately delete them upon request.
+I will not share the data in my possession with anyoneə, nor will I use it for purposes other than sending newsletters. I will be forced to surrender such information only if I receive a warrant from judicial authorities. Upon request, I may permanently delete all data in my possession relating to any person who can prove his or her identity.
+

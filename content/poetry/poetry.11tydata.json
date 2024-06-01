@@ -1,6 +1,8 @@
 {
-	"layout": "poem",
+	"layout": "poem.html",
 	"class": "poetry",
+	"header": false,
+	"toolbar": false,
 	"lang": "it",
 	"sitemap": {
 		"changefreq": "never"

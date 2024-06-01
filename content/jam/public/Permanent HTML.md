@@ -5,7 +5,9 @@ tags:
   - geek/web
   - meta
 description: Building websites with an HTML structure which does not need to be changed when CSS changes
-aliases: ['Permanent IDs', 'CSS Changes']
+aliases:
+  - Permanent IDs
+  - CSS Changes
 toc: false
 ---
 Seldom websites’ style should be changed, since the identity of the owner and the message they want to give is built around it. Nevertheless, creative people often cannot help but being influenced by other websites’ design and graphical intuitions, so they are pushed to change, improve, tweak, experiment new appearances for their online creations.

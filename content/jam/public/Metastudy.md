@@ -15,7 +15,9 @@ tags:
   - wip
 toc: false
 description: The study of studying, or
-aliases: Study method, Metodo di studio
+aliases:
+  - Study method
+  - Metodo di studio
 ---
 Literally, *metastudy* should mean “studying study”; actually, it signifies deepening the knowledge of how understanding, learning and remembering something works. I collect here some thoughts concerning <u>how to study better</u>, while keeping in mind that my considerations are strictly personal.
 

@@ -4,7 +4,9 @@ updated: 2023-02-07T20:32:45+01:00
 redirect_from: [/server-configuration/,/nextcloud/]
 tags: geek/server
 description: A walktrough of the steps I executed to set up my server
-aliases: Server configuration, VPS configuration
+aliases:
+  - Server configuration
+  - VPS configuration
 ---
 <div class='red box'>
 	Everything in this page is not revised and out of date, since I am using <a href='https://yunohost.org' title='YunoHost'>YunoHost</a> to manage my server now. On <a href='https://server.tommi.space' title='Tommi’s server'>server.tommi.space</a> there is the public front-end of the administration panel.

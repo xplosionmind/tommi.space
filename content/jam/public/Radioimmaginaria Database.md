@@ -6,7 +6,9 @@ tags:
   - data
 lang: it
 title: Tutte le mie puntate su Radioimmaginaria
-aliases: Tutte le mie puntate su Radioimaginaria, Puntate Radioimmaginaria
+aliases:
+  - Radioimmaginaria database
+  - Puntate Radioimmaginaria
 permalink: /rimm-db/
 description: |
   Un database incompleto (mancano gli ultimi anni, alcuni eventi alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br>I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br>Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br><mark>&num;you2</mark> sono le puntate in inglese, <mark>&num;toiaussi</mark> quelle in francese, <mark>&num;tete</mark> quelle in spagnolo.

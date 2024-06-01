@@ -1,7 +1,9 @@
 ---
 date: 2021-12-06T11:39:18+01:00
 updated: 2023-06-23T03:34:59+02:00
-aliases: Thesis writing workflow with Pandoc, Long writing in Markdown
+aliases:
+  - Thesis writing workflow with Pandoc
+  - Long writing in Markdown
 tags: geek
 description: My workflow for academic writing, based on Pandoc, and using Markdown, Zotero, and Obsidian.
 image: https://s3.amazonaws.com/libapps/accounts/109251/Screen_Shot_2017-01-06_at_4.18.48_PM.png

@@ -3,6 +3,7 @@ date: 2023-01-14
 tags:
   - draft
   - epiphany
+  - zen
 location: Alexanderplatz, Berlin
 lang: it
 ---

@@ -2,11 +2,15 @@
 title: L’Arte del Procrastinare
 date: 2021-03-06T23:08:56+01:00
 updated: 2022-10-13T16:08:26+02:00
-tags: zen philosophy
+tags:
+  - zen
+  - philosophy
 subtitle: Nonché la mia filosofia di vita
 permalink: /procrastinazione/
 redirect_from: ['/structured-procrastination/', '/procrastinare/', '/LArte-del-procrastinare/']
-aliases: Procrastinazione Strutturata, Structured Procrastination
+aliases:
+  - Procrastinazione Strutturata
+  - Structured Procrastination
 toc: false
 description: La traduzione del breve articolo “Structured Procrastination” di John Perry, che esalta la magia e le qualità del procrastinare come arte e come filosofia di vita.
 excerpt: |

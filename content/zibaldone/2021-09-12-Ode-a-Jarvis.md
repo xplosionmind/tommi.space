@@ -3,7 +3,9 @@ title: Ode a Jarvis
 subtitle: e altre cose al volo perché non scrivo qui da un pezzo
 date: 2021-09-12T14:42:09+02:00
 updated: 2021-09-12T17:05:14+02:00
-aliases: Jarvis, Addio Jarvis
+aliases:
+  - Jarvis
+  - Addio Jarvis
 permalink: /ode-a-jarvis/
 tags: zen
 image: /2021-09-12-ode-a-jarvis.jpg

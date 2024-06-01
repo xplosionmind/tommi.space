@@ -98,6 +98,10 @@ lite-youtube {
 	}
 }
 
+#help {
+	margin-bottom: var(--space-s);
+}
+
 .feed {
 	h1,
 	& main h2 {
@@ -196,8 +200,14 @@ lite-youtube {
 }
 
 #toc {
-	margin-top: var(--space-m);
-	z-index: 1;
+	margin-top: var(--space-s);
+	z-index: 2;
+	li {
+		margin-top: 0;
+	}
+	a {
+		text-decoration: none;
+	}
 }
 
 details {
@@ -231,7 +241,7 @@ details {
 }
 
 #sconnesso {
-	background: linear-gradient(-45deg,#884EE177,#884EE122), var(--deep);
+	background: linear-gradient(-45deg,#884EE177,#884EE122), var(--background);
 	.button {
 		background:var(--purple);
 		color:#FFF;
@@ -271,21 +281,14 @@ body:not(.poetry) .p-author {
 }
 
 .poetry {
-	min-height: 100vh;
-	background: var(--yellow);
-	--text: var(--black-ish) !important;
-	--tiny-shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22 !important;
-	color: var(--black-ish);
-	padding: 5vw;
-	.intro {
-		max-width: 500px;
-	}
-	a {
-		color: var(--dark-blue) !important;
+	h1 {
+		color: var(--primary);
 	}
 	ul {
 		padding: 0;
-		list-style-type: none;
+		li {
+			list-style-type: none;
+		}
 	}
 }
 

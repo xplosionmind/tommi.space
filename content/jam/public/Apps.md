@@ -3,7 +3,9 @@ date: 2020-05-06
 tags: geek/apps
 image: https://www.tomshw.it/images/images/2021/03/foto-generiche-147818.jpg
 description: A comprehensive list of apps I use + interesting apps I have to keep record of.
-aliases: Software, Digital Tools
+aliases:
+  - Software
+  - Digital Tools
 redirect_from: [/uses/]
 todo:
   - print whether the app is open source or not
