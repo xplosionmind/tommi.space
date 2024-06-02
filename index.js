@@ -1,21 +1,5 @@
 const bodyEl = document.body;
 const scrollBtn = document.getElementById('scrollBtn');
-const homeBtn = document.getElementById('tommiSpace');
-const animBtn = document.getElementById('animationToggleBtn');
-let animationStatus = localStorage.getItem('animationStatus') || 'running';
-
-function tommiSpaceAnimation() {
-	if (animationStatus == 'running' ) {
-		homeBtn.style.animationPlayState = 'running';
-		animBtn.title='Pause animations';
-		animBtn.innerHTML = '⏸️';
-	} else {
-		homeBtn.style.animationPlayState = 'paused';
-		animBtn.title = 'Play animations';
-		animBtn.innerHTML = '▶️';
-	}
-	localStorage.setItem('animationStatus', animationStatus);
-}
 
 function changeBackground() {
 	if (backgroundStatus == 'wip') {
@@ -26,7 +10,7 @@ function changeBackground() {
 }
 
 function scrollBtnBehavior() {
-	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+	if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
 		scrollBtn.title='scroll to top';
 		scrollBtn.setAttribute('aria-label', 'scroll to top');
 		scrollBtn.innerHTML = '🔝';
@@ -38,7 +22,7 @@ function scrollBtnBehavior() {
 }
 
 function nowScroll() {
-	if (document.body.scrollTop > 1300) {
+	if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
 		window.scrollTo(0, 0);
 	} else {
 		window.scrollTo(0, document.body.scrollHeight);
@@ -46,15 +30,6 @@ function nowScroll() {
 }
 
 window.addEventListener('load', () => {	
-	tommiSpaceAnimation();
-	animBtn.addEventListener('click', () => {
-		if (animationStatus == 'running') {
-			animationStatus = 'paused';
-		} else {
-			animationStatus = 'running';
-		}
-		tommiSpaceAnimation();
-	});
 	scrollBtn.addEventListener('click', nowScroll);
 	scrollBtnBehavior();
 	window.onscroll = function() {

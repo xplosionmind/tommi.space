@@ -25,33 +25,11 @@ header {
 	box-shadow: var(--shadow);
 	border: 5px solid #000;
 	border-radius: 100px;
-	animation: crazy 5s infinite;
 	&:hover,
 	&:focus {
 		color: #FFF !important;
 		background: var(--red) !important;
 		border-color: #FFF !important;
-	}
-}
-
-@keyframes crazy {
-	0% {
-		transform: rotate(0deg) scale(1) skew(0deg);
-	}
-	20% {
-		transform: scale(1.1) skew(-8deg);
-	}
-	40% {
-		transform: rotate(12deg) scale(.4) skew(15deg);
-	}
-	60% {
-		transform: skew(-10deg) rotate(2deg) scale(.9);
-	}
-	80% {
-		transform: rotate(-5deg) scale(1.2) skew(6deg);
-	}
-	100% {
-		transform: rotate(0deg) scale(1) skew(0deg);
 	}
 }
 

@@ -28,7 +28,7 @@ $invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
     'maxWidth': 1350,
     'minSize': 16,
     'maxSize': 22,
-    'positiveSteps': (1.5, 2, 2.5, 4, 6),
+    'positiveSteps': (1.5, 2.2, 2.5, 4, 6, 18),
     'negativeSteps': (0.75, 0.5, 0.25),
     'prefix': 'space-',
   ));
