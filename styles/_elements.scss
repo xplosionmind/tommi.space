@@ -106,9 +106,10 @@ lite-youtube {
 		color: #FFF;
 		text-shadow: var(--shadow);
 	}
-	img {
-		border-radius: 100%;
-	}
+}
+
+.circle * {
+	border-radius: 100%;
 }
 
 .entries-list {

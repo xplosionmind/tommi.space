@@ -8,7 +8,7 @@ $trans-quick: .1s ease-in-out;
 $invert-light: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
 $invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
 
-@use 'fonts';
+@use 'fonts/keep-on-truckin';
 @use '../node_modules/utopia-core-scss/src/utopia' as utopia;
 
 :root {
