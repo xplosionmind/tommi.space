@@ -14,6 +14,8 @@ body {
 	min-height: 100vh;
 	color-scheme: dark;
 	color: var(--text);
+	overflow-wrap: break-word;
+	hyphens: auto;
 	font: var(--size-0) var(--font-sans);
 	background: 0 0 / var(--space-4xl) url("data:image/svg+xml;utf8,<svg width='200' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'><path d='m0 0 200 200v-100l-100-100zm0 200h100l-100-100z' fill='%23FCC920'/></svg>"), #000;
 
@@ -121,6 +123,7 @@ a {
 	text-decoration: none;
 	p &,
 	li & {
+		font-weight: 600;
 		text-decoration: underline;
 		&:hover {
 			text-decoration-color: var(--blue);
@@ -172,7 +175,7 @@ iframe {
 
 button {
 	margin: 0;
-	padding: none;
+	padding: 0;
 	border: none;
 	background: none;
 }
@@ -220,9 +223,7 @@ input {
 	main,
 	footer {
 		grid-template-columns: repeat(6, 1fr);
-		align-items: center;
 		&.writing {
-			align-items: unset;
 			grid-template-areas:
 				'title title title title title title'
 				'. tags tags tags tags .'

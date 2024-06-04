@@ -36,7 +36,7 @@ lite-youtube {
 	background: var(--primary);
 	padding: 0 var(--space-s);
 	font-size: var(--size-1);
-	font-weight: 700;
+	font-weight: 800;
 	text-transform: uppercase;
 	border-radius: $radius-m;
 	box-shadow: var(--btn-shadow);
@@ -178,7 +178,7 @@ lite-youtube {
 .post article > p:not(.cite):first-of-type::first-letter,
 .cite:first-of-type + p::first-letter {
 	-webkit-initial-letter: 4;
-	font-weight: bolder;
+	font-weight: 800;
 	font-size: 400%;
 	margin: var(--space-xs) var(--space-xs) 0 0;
 	text-shadow: 2px 2px 0 var(--primary);

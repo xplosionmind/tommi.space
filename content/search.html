@@ -3,15 +3,20 @@ title: Search
 description: look for anything in tommi.space
 type: SearchResultsPage
 sitemap:
-  changefreq: never
+	changefreq: never
 	priority: 0.4
 eleventyExcludeFromCollections: true
 ---
 <link href='/pagefind/pagefind-ui.css' rel='stylesheet'>
 <script src='/pagefind/pagefind-ui.js' type='text/javascript'></script>
-<div id='search'></div>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: '#search', showSubResults: true });
-    });
-</script>
+<main>
+	<article class='middle background box'>
+		<div id='search'></div>
+		<script>
+			window.addEventListener('DOMContentLoaded', (event) => {
+				new PagefindUI({ element: '#search', showSubResults: true });
+			});
+		</script>
+	</article>
+</main>
+

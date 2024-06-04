@@ -1,13 +1,13 @@
 p,
 li {
 	a {
-		&[href*='jam' i],
-		&[href*='marmellata' i] {
+		&[href*='jam'],
+		&[href*='marmellata'] {
 			&::before {
 				content: '🍯 ';
 			}
 		}
-		&[href*='mailto' i] {
+		&[href*='mailto'] {
 			&::before {
 				content: ' ✉️ ';
 			}
@@ -17,198 +17,198 @@ li {
 				content: '🔐 ';
 			}
 		}
-		&[href*='newsletter.tommi.space' i],
-		&[href*='/newsletter' i] {
+		&[href*='newsletter.tommi.space'],
+		&[href*='/newsletter'] {
 			&::before {
 				content: ' 💌 ';
 			}
 		}
-		&[href*='giri' i] {
+		&[href*='giri'] {
 			&::before {
 				content: '🧳 ';
 			}
 		}
-		&[href*='visioni' i],
-		&[href*='visions' i] {
+		&[href*='visioni'],
+		&[href*='visions'] {
 			&::before {
 				content: '🖼️ ';
 			}
 		}
-		&[href*='pixelfed.uno' i],
-		&[href*='pixelfed.social' i],
-		&[href*='tmi.pics' i] {
+		&[href*='pixelfed.uno'],
+		&[href*='pixelfed.social'],
+		&[href*='tmi.pics'] {
 			&::before {
 				content: '📷 ';
 			}
 		}
-		&[href*='mastodon' i] {
+		&[href*='mastodon'] {
 			&::before {
 				content: '🐘 ';
 			}
 		}
-		&[href^='/about' i],
-		&[href*='about-it' i] {
+		&[href^='/about'],
+		&[href*='about-it'] {
 			&::before {
 				content: '🙋🏻‍♂️ ';
 			}
 		}
-		&[href*='/zibaldone' i],
-		&[href*='/zibenglish' i],
-		&[href='/blog' i] {
+		&[href*='/zibaldone'],
+		&[href*='/zibenglish'],
+		&[href='/blog'] {
 			&::before {
 				content: '📜 ';
 			}
 		}
-		&[href*='unive.it' i] {
+		&[href*='unive.it'] {
 			&::before {
 				content: '🎓 ';
 			}
 		}
-		&[href*='cinema' i],
-		&[href*='film' i] {
+		&[href*='cinema'],
+		&[href*='film'] {
 			&::before {
 				content: '🎬 ';
 			}
 		}
-		&[href*='music' i],
-		&[href*='playlist' i] {
+		&[href*='music'],
+		&[href*='playlist'] {
 			&::before {
 				content: '🎧 ';
 			}
 		}
-		&[href*='server' i],
-		&[href*='linuxplosion' i] {
+		&[href*='server'],
+		&[href*='linuxplosion'] {
 			&::before {
 				content: '📟 ';
 			}
 		}
-		&[href^='/radio' i] {
+		&[href^='/radio'] {
 			&::before {
 				content: '📡 ';
 			}
 		}
-		&[href*='images.tommi.space' i],
-		&[href*='photography' i] {
+		&[href*='images.tommi.space'],
+		&[href*='photography'] {
 			&::before {
 				content: '📸 ';
 			}
 		}
-		&[href*='books' i] {
+		&[href*='books'] {
 			&::before {
 				content: '📚 ';
 			}
 		}
-		&[href*='leggere' i],
-		&[href^='/read' i] {
+		&[href*='leggere'],
+		&[href^='/read'] {
 			&::before {
 				content: '📖 ';
 			}
 		}
-		&[href*='zettelkasten' i],
-		&[href*='knowledge' i] {
+		&[href*='zettelkasten'],
+		&[href*='knowledge'] {
 			&::before {
 				content: '🧠 ';
 			}
 		}
-		&[href^='/places' i] {
+		&[href^='/places'] {
 			&::before {
 				content: '📍 ';
 			}
 		}
-		&[href*='openstreetmap' i],
-		&[href*='osm.org' i] {
+		&[href*='openstreetmap'],
+		&[href*='osm.org'] {
 			&::before {
 				content: '🗺️ ';
 			}
 		}
-		&[href^='/dev' i] {
+		&[href^='/dev'] {
 			&::before {
 				content: '💻 ';
 			}
 		}
-		&[href^='/tutto' i] {
+		&[href^='/tutto'] {
 			&::before {
 				content: '🤯 ';
 			}
 		}
-		&[href*='design' i] {
+		&[href*='design'] {
 			&::before {
 				content: '📐 ';
 			}
 		}
-		&[href^='/meta' i] {
+		&[href^='/meta'] {
 			&::before {
 				content: '👨🏻‍💻 ';
 			}
 		}
-		&[href*='quote' i] {
+		&[href*='quote'] {
 			&::before {
 				content: '💬 ';
 			}
 		}
-		&[href^='/self' i],
-		&[href^='/mind' i] {
+		&[href^='/self'],
+		&[href^='/mind'] {
 			&::before {
 				content: '🧘🏻‍♂️ ';
 			}
 		}
-		&[href*='people' i] {
+		&[href*='people'] {
 			&::before {
 				content: '🕺🏻 ';
 			}
 		}
-		&[href*='quit' i],
-		&[href*='switch' i] {
+		&[href*='quit'],
+		&[href*='switch'] {
 			&::before {
 				content: '🔄 ';
 			}
 		}
-		&[href*='blogroll' i],
-		&[href*='idea' i] {
+		&[href*='blogroll'],
+		&[href*='idea'] {
 			&::before {
 				content: '💡 ';
 			}
 		}
-		&[href*='wish' i] {
+		&[href*='wish'] {
 			&::before {
 				content: '🧞‍♂️ ';
 			}
 		}
-		&[href*='poetry' i],
-		&[href*='poem' i],
-		&[href*='/pasticci' i],
-		&[href*='poesi' i] {
+		&[href*='poetry'],
+		&[href*='poem'],
+		&[href*='/pasticci'],
+		&[href*='poesi'] {
 			&::before {
 				content: '🖋 ';
 			}
 		}
-		&[href*='/filinge' i],
-		&[href*='/filosofia' i],
-		&[href*='/philosophy' i] {
+		&[href*='/filinge'],
+		&[href*='/filosofia'],
+		&[href*='/philosophy'] {
 			&::before {
 				content: '💭 ';
 			}
 		}
-		&[href*='/ital' i] {
+		&[href*='/ital'] {
 			&::before {
 				content: '🇮🇹 ';
 			}
 		}
-		&[href*='/sconnesso' i] {
+		&[href*='/sconnesso'] {
 			&::before {
 				content: '🎙 ';
 			}
 		}
-		&[href*='thinktommi' i],
-		&[href*='thinkpad' i],
-		&[href*='macbook' i],
-		&[href^='/geek' i],
-		&[href^='/feeds/geek' i] {
+		&[href*='thinktommi'],
+		&[href*='thinkpad'],
+		&[href*='macbook'],
+		&[href^='/geek'],
+		&[href^='/feeds/geek'] {
 			&::before {
 				content: '💻 ';
 			}
 		}
-		&[href*='/storage' i] {
+		&[href*='/storage'] {
 			&::before {
 				content: '💾 ';
 			}
