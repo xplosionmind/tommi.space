@@ -1,5 +1,12 @@
 {% for tag in tags -%}
 	<dd>
-		<a href='/tags/' rel='tag' class='{{ tag | slugify | replace: '-', ' ' }} {{ size }} button p-category'>{{ tag }}</a>
+		<a
+			href='/tags/'
+			rel='tag'
+			class='{{ tag | slugify | replace: '-', ' ' }} {{ size }} button p-category'
+			data-pagefind-filter='tag'>
+				{{ tag }}
+		</a>
 	</dd>
 {% endfor -%}
+

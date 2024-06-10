@@ -125,6 +125,9 @@ lite-youtube {
 	padding: var(--space-m);
 	border-radius: $radius-l;
 	box-shadow: var(--shadow);
+	body > & {
+		margin: var(--space-m);
+	}
 	&.little {
 		border-radius: $radius-m;
 		padding: var(--space-xs);
@@ -136,7 +139,6 @@ lite-youtube {
 		}
 		p {
 			font-size: var(--size--1);
-			font-weight: 300;
 			line-height: 1;
 			margin: var(--space-3xs);
 		}

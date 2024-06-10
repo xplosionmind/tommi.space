@@ -6,7 +6,6 @@ tags:
 description: La mia scrivania da me costruita con bancali riciclati
 lang: it
 location: Xplosion Attic
-toc: false
 redirect_from:
   - /desk/
 image: /aida.webp

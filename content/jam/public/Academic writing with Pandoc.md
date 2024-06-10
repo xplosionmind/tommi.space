@@ -9,7 +9,7 @@ description: My workflow for academic writing, based on Pandoc, and using Markdo
 image: https://s3.amazonaws.com/libapps/accounts/109251/Screen_Shot_2017-01-06_at_4.18.48_PM.png
 permalink: /pandoc-workflow/
 redirect_from: [/academic-writing-with-pandoc/,/pandoc-paper/]
-toc: false
+toc: true
 ---
 I wrote [[Computer Sciences Are Social Sciences|my bachelor thesis]] in [Markdown](https://en.wikipedia.org/wiki/Markdown 'Markdown in Wikipedia'). I took advantage of [Zotero](https://zotero.org 'Zotero official website') to store and process citations, and I used [Obsidian](https://obsidian.md 'Obsidian official website') as the main editor (exploiting the great [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin 'obsidian-citation-plugin on GitHub') to ease the citing process).
 

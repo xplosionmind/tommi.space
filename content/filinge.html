@@ -4,12 +4,13 @@ permalink: /filinge/
 lang: it
 ref: filosofia
 primary: var(--green)
+class: filinge
 sitemap:
   changefreq: never
 ---
 <main class='list'>
 	<hgroup class='flex'>
-		<h1 class='wavyBackgroundRed'>{{ title }}</h1>
+		<h1 class='wavyBackgroundGreen'>{{ title }}</h1>
 	</hgroup>
 
 	<article class='e-content'>
@@ -18,13 +19,12 @@ sitemap:
 
 	<div class='entries-list subgrid'>
 		{% for entry in collections.filinge %}
-			<article class='one-third'>
-				<div class='box' href='{{ entry.url }}'>
-					<h2>{{ entry.data.title }}</h2>
-					<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.date %}</time></p>
-					{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
-				</div>
-			</article>
+			<a class='one-third box' href='{{ entry.url }}'>
+				<h2>{{ entry.data.title }}</h2>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.date %}</time></p>
+				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
+			</a>
 		{% endfor %}
 	</div>
 </main>
+

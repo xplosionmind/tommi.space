@@ -1,6 +1,5 @@
 {
-	"layout": "jam",
-	"toc": true,
+	"layout": "sidebar.html",
 	"isNote": true,
 	"sitemap": {
 		"changefreq": "yearly"

@@ -1,15 +1,14 @@
 ---
 date: 2020-07-17T02:00:00+02:00
 updated: 2022-11-26T10:36:55+01:00
+aliases:
+  - Playlist
 tags:
   - draft
   - music
   - tomminess
-  - csvfy
-image: https://tommi.space/tommis-head-exploding.png
 description: Soundtracks of my life. The songs which marked my existence and made me who I am.
-aliases:
-  - Playlist
+image: https://tommi.space/tommis-head-exploding.png
 redirect_from:
   - /canzoni/
   - /songs/
@@ -18,6 +17,7 @@ redirect_from:
 todo:
   - find a way to sync playlists and contents
   - write meaning, reasons and explanations for every song
+  - Use Listenbrainz/Musicbrainz as main
 main: true
 ---
 <div class='embed' style=''>

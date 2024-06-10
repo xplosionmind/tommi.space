@@ -2,10 +2,10 @@
 date: 2021-11-16T09:35:47+01:00
 updated: 2023-10-31T15:50:41+01:00
 tags:
-  - geek/neb
   - stale
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2022-11-27_Forgejo_by-David-Revoy.jpg/1280px-2022-11-27_Forgejo_by-David-Revoy.jpg
+  - geek/sysad
 description: Notes about moving out of GitHub and setting up a self-hosted Forgejo instance.
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2022-11-27_Forgejo_by-David-Revoy.jpg/1280px-2022-11-27_Forgejo_by-David-Revoy.jpg
 redirect_from:
   - /gitea/
   - /quit-github/

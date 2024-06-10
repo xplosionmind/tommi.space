@@ -1,9 +1,7 @@
 ---
 date: 2021-12-08T11:47:55+01:00
-updated: 2022-03-14T15:01:55+01:00
 tags:
   - geek
-toc: false
 description: Why it is important to work with simple and specific scripts rather than dealing with complex extensive software
 aliases:
   - Some scripts will do
@@ -23,6 +21,17 @@ The only, huge, drawback is that the extreme specificity of such scripts leads t
 
 Furthermore, while technical knowledge and skills to build local-first scripts in [[Bash]] or [[Python]] for [[Cheat sheets|CLI]] are quite accessible to a non-developer like I am, anything that involves [[Nebuchadnezzar|servers]] and [APIs](https://en.wikipedia.org/wiki/API 'API on Wikipedia') becomes too hard to handle. In any case, no solution would be perfect and completely future-proof, though.
 
-Update: c-base, 2023-11-06T19:42:00+01:00
+## Update: a collective perspective
 
-I subverted this way of thinking by [rethinking my approach to technology](/v2 'Rethinking my space'). What us is it if not as a collective endeavor, helping others while helping ourselves?
+<p class='date'>c-base, <time datetime='2023-11-06T19:42:00+01:00'>6 November 2023</time></p>
+
+I subverted this way of thinking by [rethinking my approach to technology](/v2/ 'Rethinking my space'). What us is it if not as a collective endeavor, helping others while helping ourselves?
+
+## Update: it’s not so simple
+
+<p class='date'>Riva Ligure, <time datetime='2024-06-05T15:07:39+02:00'>5 June 2024</time></p>
+
+A further reflection stems from realizing how complex my personal digital infrastructure is, and in noticing the level of mainteinance, time, and attention it requires.
+
+Therefore, I changed my mind: the more I can rely on stable, open, and sustainable software developed by others, the more I can truly take advantage of digital technology in my life.
+

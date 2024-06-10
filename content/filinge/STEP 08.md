@@ -24,7 +24,7 @@ Nella <cite>[Repubblica](https://www.treccani.it/enciclopedia/repubblica_%28Dizi
 	- caratteristica: saggezza (σοφία)
 	- parte dell’anima: “razionale” (λογιστική)
 
-Il grande tema attorno a cui ruotano i dieci libri che compongono l’opera è la  **giustizia**. Questa è affidata principalmente alla classe governativa, menzionata nell’elenco precedente, su cui mi concentrerò.
+Il grande tema attorno a cui ruotano i dieci libri che compongono l’opera è la **giustizia**. Questa è affidata principalmente alla classe governativa, menzionata nell’elenco precedente, su cui mi concentrerò.
 
 Le qualità fondamentali del governatore nella Polis platonica sono **saggezza**, **razionalità** e senso di giustizia. Come si rapportano queste al valore? Come l’uomo dimostra il suo valore applicandole?
 
@@ -34,8 +34,7 @@ Un passo in particolare, tratto dal II Libro, credo possa esprimere al meglio i 
 
 Il valore del governante filosofo sta dunque nell’essere giusto nei confronti dei più ingiusti, garantendo loro la massima oggettività nel giudizio, privandolo dunque di ogni aiuto che possa condizionare la sua condizione.
 
-<br>
-
 Ecco dunque come l’apoteosi dell’integrità del valore umano si mostra nella figura del filosofo, che antepone a ogni proprio desiderio e volontà personale la **razionalità** e la **giustizia**.
 
 Si può allora concludere che il valore platonico è strettamente determinato dall’oggettività e dall’onestà intellettuale dell’individuo nello svolgere il proprio compito all’interno della propria polis.
+

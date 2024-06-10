@@ -42,5 +42,5 @@ toc: false
 ## People
 
 - [Jamie Tanna](https://www.jvt.me 'Jamie Tanna')
-- [Max Böck](https://mxb.dev/blog/ ‘Max Böck’s blog’)
+- [Max Böck](https://mxb.dev/blog/ 'Max Böck’s blog')
 - [Adhoc Systems](https://adhoc.systems/ 'Adhoc Systems')

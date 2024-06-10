@@ -2,7 +2,13 @@
 	<a href='/tags'><h2>Tags</h2></a>
 	<div class='flex'>
 		{% for tag in site.tags -%}
-			<a href='{%- if tag.url -%}{{ tag.url }}{%- else -%}/tags#{{ tag.title | slugify }}{%- endif -%}' rel='tag' class='smaller button {{ tag.title | slugify }}' title='{{ tag.title }} tag'>{{ tag.title }}</a>
+			<a
+				href='{%- if tag.url -%}{{ tag.url }}{%- else -%}/tags#{{ tag.title | slugify }}{%- endif -%}'
+				rel='tag'
+				class='smaller button {{ tag.title | slugify }}'>
+					{{ tag.title }}
+			</a>
 		{% endfor -%}
 	</div>
 </section>
+

@@ -1,13 +1,13 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2024-05-10T15:37:50+02:00
+updated: 2024-06-09T10:28:33+02:00
 aliases:
   - Xplosion Server
   - Neb
   - Server
 tags:
   - todo
-  - geek/neb
+  - geek/sysad
 description: Information and insights concerning the configuration and maintenance of Tommi’s server
 permalink: /neb/
 redirect_from:
@@ -44,11 +44,9 @@ sudo systemctl restart nginx
 - [Custom 404 page](https://tecmint.com/create-custom-nginx-error-page 'How to Create Custom 404 Error Page in NGINX - Tecmint')
 - [Cache-Control Headers](https://howtogeek.com/devops/how-to-configure-cache-control-headers-in-nginx 'How to Configure Cache-Control Headers in NGINX')
 
-### gzip compression
+### Brotli compression
 
-- [Compression and Decompression | NGINX Documentation](https://docs.nginx.com/nginx/admin-guide/web-server/compression/)
-- [Module ngx\_http\_gzip\_module](https://nginx.org/en/docs/http/ngx_http_gzip_module.html)
-- [Configure gzip compression](https://techrepublic.com/article/how-to-configure-gzip-compression-with-nginx 'How to configure gzip compression with NGINX | TechRepublic')
+[Using brotli compression in NGINX (especially for my\_webapp) - YunoHost Forum](https://forum.yunohost.org/t/using-brotli-compression-in-nginx-especially-for-my-webapp/29867 'Using brotli compression in NGINX (especially for my\_webapp) - YunoHost Forum')
 
 ## Backup
 

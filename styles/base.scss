@@ -85,6 +85,10 @@ main {
 	gap: max(2vw, 3vh)
 }
 
+.filinge {
+	background: 0 0 / var(--space-4xl) url("data:image/svg+xml;utf8,<svg width='200' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'><path d='m0 0 200 200v-100l-100-100zm0 200h100l-100-100z' fill='%232EC27E'/></svg>"), #000;
+}
+
 /*** Layout > elements ***/
 
 .no-background {
@@ -220,27 +224,32 @@ input {
 }
 
 @media only screen and (min-width: 950px) {
-	main,
-	footer {
+	main {
 		grid-template-columns: repeat(6, 1fr);
-		&.writing {
+		align-items: start;
+		&.simple {
 			grid-template-areas:
 				'title title title title title title'
-				'. tags tags tags tags .'
-				'. text text text text .';
-			&:has(aside) {
-				grid-template-areas:
-					'title title title title title title'
-					'text text text text aside aside';
-			}
+				'. aside aside aside aside .'
+				'. content content content content .';
+		}
+		&.sidebar {
+			align-items: stretch;
+			grid-template-areas:
+				'title title title title title title'
+				'content content content content aside aside';
 		}
 		&.list {
 			grid-template-areas:
 				'title title title title title title'
-				'. text text text text .'
+				'. content content content content .'
 				'aside aside aside aside aside aside'
 				'entries entries entries entries entries entries'
 		}
+	}
+	footer {
+		grid-template-columns: repeat(6, 1fr);
+		align-items: start;
 	}
 	.span-2,
 	.one-third {
@@ -277,11 +286,11 @@ input {
 	#tags {
 		grid-area: tags;
 	}
-	.e-content {
-		grid-area: text;
-	}
 	aside {
 		grid-area: aside;
+	}
+	.e-content {
+		grid-area: content;
 	}
 	.entries-list {
 		grid-area: entries;

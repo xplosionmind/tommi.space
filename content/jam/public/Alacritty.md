@@ -1,7 +1,7 @@
 ---
 date: 2022-12-18T22:42:35+01:00
 updated: 2022-12-18T23:01:33+01:00
-location: home
+location: Xplosion Attic
 tags: geek/apps
 ---
 Since I am planning to [[Switch to Linux]], I am looking for a great terminal emulator to replace the awesome [iTerm2](https://iterm2.com 'iTerm2'), which is limited to MacOS. I found Alacritty to be a great candidate and I am testing it.

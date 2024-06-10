@@ -3,7 +3,6 @@ date: 2019-11-30T01:00:00+01:00
 updated: 2021-12-30T19:40:07+01:00
 tags: cinema/film
 lang: it
-toc: false
 image: https://64.media.tumblr.com/09edf71eae83c925638b4516275fa87f/b5240e0a7f17d0a1-83/s1280x1920/6740f023d98d251a46d7cc7b1ec97dafa3bed966.png
 description: Pensieri sul film bello favoloso intenso di Woody Allen, ma in realtà pensieri sui film di Woody Allen in generale.
 ---

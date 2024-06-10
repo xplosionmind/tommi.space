@@ -2,7 +2,7 @@
 date: 2023-09-26T15:20:00+02:00
 updated: 2023-10-14T20:49:20+02:00
 tags:
-  - geek/neb
+  - geek/sysad
 location: Biblioteca Salaborsa, Bologna
 permalink: /ynh-ds3-s3fs-bkp/
 ---

@@ -1,11 +1,11 @@
 ---
 date: 2023-09-27T17:41:04+02:00
 updated: 2023-10-14T21:51:19+02:00
+tags:
+  - geek/sysad
+  - wip
 location: Biblioteca Salaborsa, Bologna
 permalink: /ds3/
-tags:
-  - geek/server
-  - wip
 ---
 [[Storage]] is a big deal. After years experimenting many different options and attempting to circle down optimal solutions, I finally landed on a solution which is very promising and I believe it to be the definitive one.
 

@@ -2,7 +2,7 @@
 layout: wrapper.liquid
 type: CollectionPage
 ---
-<main class='h-entry writing'>
+<main class='h-entry sidebar'>
 	<hgroup class='flex'>
 		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name wavyBackgroundRed'>{{ title }}</h1></a>
 		{% if subtitle %}
@@ -11,6 +11,12 @@ type: CollectionPage
 	</hgroup>
 	
 	<aside>
+		{% if include %}
+			{% for box in include %}
+				{% render box, lang: lang %}
+			{% endfor %}
+		{% endif %}
+
 		{% if tags contains 'help' %}
 			{% render 'help.html', lang: lang %}
 		{% endif %}
@@ -53,9 +59,9 @@ type: CollectionPage
 							{% for place in places %}
 								{% if place.name contains location or place.aliases contains location %}
 									{%- if place.osm != '' -%}
-										<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+										<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap' data-pagefind-filter='location'>{{ place.name }}</a>
 									{%- else -%}
-										<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+										<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap' data-pagefind-filter='location'>{{ place.name }}</a>
 									{%- endif -%}
 									{%- if place.city -%}
 										, {{ place.city }}
@@ -64,7 +70,7 @@ type: CollectionPage
 								{% endif %}
 							{% endfor %}
 							{% unless found %}
-								<a href='https://www.openstreetmap.org/search?query={{ location | url_encode }}'>{{ location }}</a>
+								<a href='https://www.openstreetmap.org/search?query={{ location | url_encode }}' data-pagefind-filter='location'>{{ location }}</a>
 							{% endunless %}
 						</dd>
 					</div>

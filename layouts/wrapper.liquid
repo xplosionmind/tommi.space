@@ -11,7 +11,7 @@
 
 	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
 
-	<body class='{% if class %}{{ class }}{% endif %}'>
+	<body{% if class %} class='{{ class }}'{% endif %}>
 
 		{% if header %}
 			{% render 'header.liquid', lang: lang, current: page.url %}

@@ -1,13 +1,14 @@
 ---
 date: 2023-03-01T11:35:23+01:00
 updated: 2023-05-26T17:49:12+02:00
-location: home
+location: Casa Campo
 permalink: /internet-history/
 tags:
   - history
   - uni/PISE/thesis
   - reading/book
 description: Notes, citations, and thoughts about a greatly insightful work I am using for my bachelor’s thesis.
+toc: true
 ---
 Notes, citations, and thoughts about a greatly insightful work I am using to give an historical context to [[Thesis|my bachelor’s thesis]].
 

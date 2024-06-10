@@ -28,6 +28,9 @@ hr {
 	width: 30%;
 	height: 0;
 	color: inherit;
+	&.footnotes-sep {
+		display: none;
+	}
 }
 
 abbr[title] {
@@ -168,7 +171,11 @@ small {
 
 .footnotes {
 	font-size: .8em;
-	margin-top: var(--space-l);
+	background: var(--deep);
+	border-radius: $radius-m;
+	p {
+		margin: 0;
+	}
 }
 
 .missing,

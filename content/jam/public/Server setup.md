@@ -1,15 +1,18 @@
 ---
 date: 2020-03-21T01:00:00+01:00
 updated: 2023-02-07T20:32:45+01:00
-redirect_from: [/server-configuration/,/nextcloud/]
-tags: geek/server
-description: A walktrough of the steps I executed to set up my server
 aliases:
   - Server configuration
   - VPS configuration
+tags:
+  - geek/sysad
+description: A walktrough of the steps I executed to set up my server
+redirect_from:
+  - /server-configuration/
+  - /nextcloud/
 ---
 <div class='red box'>
-	Everything in this page is not revised and out of date, since I am using <a href='https://yunohost.org' title='YunoHost'>YunoHost</a> to manage my server now. On <a href='https://server.tommi.space' title='Tommi’s server'>server.tommi.space</a> there is the public front-end of the administration panel.
+	<p>Everything in this page is <strong>not revised and out of date</strong>, since I am using <a href='https://yunohost.org' title='YunoHost'>YunoHost</a> to manage my server now. On <a href='https://server.tommi.space' title='Tommi’s server'>server.tommi.space</a> there is the public front-end of the administration panel.</p>
 </div>
 
 <div class='box'>
@@ -565,7 +568,7 @@ My `whitelist.txt` file:
 
 ### Customization
 
-What’s the real issue, to my surprise, wasn't get RSS-Bridge up and running as much as <u>making it actually work</u>.
+What’s the real issue, to my surprise, wasn’t get RSS-Bridge up and running as much as <u>making it actually work</u>.
 
 Below I collected some articles useful to sort thing out.
 

@@ -1,10 +1,9 @@
 ---
 date: 2023-02-24T11:46:34+01:00
-updated: 2023-02-24T11:49:58+01:00
 tags:
-  - geek/server
-toc: false
+  - geek/sysad
 description: Notes and insights about running an amateur DYI server in my home
+toc: false
 ---
 Currently, [[Nebuchadnezzar|Xplosion Server]] is running in a VPS hosted by Contabo. I am exploring here various ideas, solutions and resources about running a server in my own house, instead.
 

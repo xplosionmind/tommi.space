@@ -64,8 +64,8 @@ module.exports = function(eleventyConfig) {
 			return b.date - a.date;
 		});
 	});
-	eleventyConfig.addCollection('scripts', function(collection) {
-		return collection.getFilteredByGlob('scripts/*.md').sort((a, b) => {
+	eleventyConfig.addCollection('filinge', function(collection) {
+		return collection.getFilteredByGlob('content/filinge/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
@@ -209,3 +209,4 @@ module.exports = function(eleventyConfig) {
 		}
 	}; // there should never be anything after the “return” function
 };
+
