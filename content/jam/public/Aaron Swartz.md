@@ -2,7 +2,6 @@
 date: 2022-01-15T18:46:12+01:00
 updated: 2022-01-15T19:06:07+01:00
 tags: people
-image: https://wikiless.org/media/wikipedia/commons/thumb/7/78/AaronSwartzPIPA.jpg/1280px-AaronSwartzPIPA.jpg
 toc: false
 description: My notes concerning the ideas of one of my idols
 ---
