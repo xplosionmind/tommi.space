@@ -68,8 +68,8 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 
 Occasions when I conducted the lab:
 
-<ul>{% for lab in tutto %}
-	{% if lab.tags contains 'lab/fedi' %}
+<ul>{% for lab in activities %}
+	{% if lab.tags contains 'lab/ournet' %}
 		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ lab.start | date: '%-d %B %Y' }}</time>. {{ lab.description | markdownify }}</li>
 	{% endif %}
 {% endfor %}</ul>
