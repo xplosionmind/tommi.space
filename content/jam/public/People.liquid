@@ -35,7 +35,7 @@ layout: wrapper.liquid
 			{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture %}
 			{% if idoltag contains 'people' %}
 				<a class='little box' href='{{ idol.url | url }}'>
-					{% img idol.data.image, idol.data.title %}
+					{% if idol.data.image %}{% img idol.data.image, idol.data.title %}{% endif %}
 					<h2 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
 					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
 				</a>

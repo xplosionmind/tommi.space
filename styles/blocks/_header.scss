@@ -1,30 +1,30 @@
-@use 'root' as *;
+@use '../variables' as *;
 
 header {
 	position: sticky;
 	top: 0;
-	padding: var(--space-m);
+	padding: var(--space-m) var(--space-m) 0 var(--space-m);
 	z-index: 3;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	text-transform: uppercase;
 	font-weight: 800;
-	overflow-x: hidden;
 }
 
-#navToggle {
+#navToggle,
+#navToggleBtn {
 	display: none;
 }
 
 #tommiSpace {
-	padding: var(--space-3xs) var(--space-m) 0;
-	font: var(--size-2) var(--font-heading);
+	padding: var(--space-3xs) var(--space-s) 0;
+	font: var(--size-1) var(--font-heading);
 	color: #000;
 	background: var(--yellow);
 	box-shadow: var(--shadow);
 	border: 5px solid #000;
-	border-radius: 100px;
+	border-radius: 99px;
 	&:hover,
 	&:focus {
 		color: #FFF !important;
@@ -37,14 +37,14 @@ header {
 	display: flex;
 	padding: var(--space-2xs) var(--space-m);
 	height: min-content;
-	background: var(--background);
+	background: var(--bg);
 	box-shadow: var(--shadow);
 	border-radius: $radius-l;
 	font-size: var(--size-0);
 	align-items: center;
 	gap: var(--space-s);
 	a {
-		color: var(--text);
+		color: var(--color);
 		&:hover,
 		&:focus{
 			transform: scale(1.5) rotate(3deg);
@@ -55,11 +55,7 @@ header {
 	}
 }
 
-#navToggleBtn {
-	display: none;
-}
-
-@media only screen and (max-width: 950px) {
+@media (max-width: 950px) {
 	header {
 		justify-content: center;
 	}
@@ -81,3 +77,4 @@ header {
 		right: calc(4vw + .3rem);
 	}
 }
+

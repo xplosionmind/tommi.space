@@ -47,10 +47,10 @@ The website is currently offline since our faculty supervisor asked me to close 
 <li><code style='background:#F3F7D9;color:#111'>#F3F7D9</code></li>
 <li><code style='background:#C8CBB2;color:#111'>#C8CBB2</code></li>
 <li><code style='background:#86BBD8;color:#111'>#86BBD8</code></li>
-<li><code style='background:#86BBD822;color:var(--text)'>#86BBD822</code></li>
+<li><code style='background:#86BBD822;color:var(--color)'>#86BBD822</code></li>
 <li><code style='background:#33658A;color:#FFF'>#33658A</code></li>
 <li><code style='background:#F26419;color:#FFF'>#F26419</code></li>
-<li><code style='background:#0002;color:var(--text)'>#0000022</code></li>
+<li><code style='background:#0002;color:var(--color)'>#0000022</code></li>
 <li><code style='background:#0009;color:#FFF'>#00000099</code></li>
 <li><code style='background:#371350;color:#FFF'>#371350</code></li>
 <li><code style='background:#222;color:#FFF'>#222222</code></li>

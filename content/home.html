@@ -13,7 +13,15 @@ header: false
 <article id='landing' class='no-background vertical flex'>
 	<h1 class='wavyBackgroundRed'>T🤯mmi Space</h1>
 	<div class='flex'>
-		<a class='dark-blue button' href='/#main' title='English homepage'>⬇️ Dive in ⬇️</a>
+		<button class='blue button' id='scrollToMain' onclick='document.getElementById("main").scrollIntoView();' title='English homepage'>⬇️ Dive in ⬇️</button>
+		<noscript>
+			<style>
+				#scrollToMain {
+					display: none;
+				}
+			</style>
+			<a class='blue button' href='#main' title='English homepage'>⬇️ Dive in ⬇️</a>
+		</noscript>
 		or
 		<a class='it button' href='/tuffo/' title='Homepage in italiano'>Italiano</a>
 	</div>
@@ -36,8 +44,8 @@ header: false
 		{% render 'upcoming.liquid', lang: lang, activities: activities %}
 	</article>
 
-	<article class='one-third span-3-row qsm red box'>
-		<h2 class='title'>I am not on social media</h2>
+	<article id='qsm' class='one-third span-3-row | red box'>
+		<h2>I am not on social media</h2>
 		{% renderTemplate "md" %}
 			In 2021 **I deleted all my profiles** on social media—[with the exception of Linkedin](https://linkedin.com/in/tommasomarmo 'Tommaso Marmo on Linkedin') (need it for work…).
 
@@ -52,17 +60,32 @@ header: false
 			I am not a <a href='https://en.wikipedia.org/wiki/Neo-Luddism' title='Neo-Luddism on Wikipedia' hreflang='en'>Luddist</a>, condemning contemporary technology no matter what. I am not a mysanthrope out of the world, either. I proudly use **alternative, decentralized, and independent social networks**. [You can find me](https://pan.rent/@tommi 'Tommi on Pan') in the <cite><a href='/fediverse' title='About the Fediverse'>Fediverse</a></cite>, and I can’t wait for you to get in touch!
 		{% endrenderTemplate "md" %}
 		<div class='flex'>
-			<a class='dark-blue button' href='{% if lang == 'it' %}https://quitsocialmedia.club/it/home{% else %}https://quitsocialmedia.club/home{% endif %}' title='quitsocialmedia.club home'>{% if lang == 'it' %}Parti da qui{% else %}Start from here!{% endif %}</a>
+			<a class='button' href='{% if lang == 'it' %}https://quitsocialmedia.club/it/home{% else %}https://quitsocialmedia.club/home{% endif %}' title='quitsocialmedia.club home'>{% if lang == 'it' %}Parti da qui{% else %}Start from here!{% endif %}</a>
 		</div>
 	</article>
 
-	{% render 'sconnesso.liquid', sconnesso: sconnesso, lang: lang %}
+	<article id='sconnesso' class='one-third box' lang='it'>
+		<a href='{{ sconnesso.link }}'>
+			<h2><cite>Sconnesso</cite></h2>
+			<figure>
+				{% img "sconnesso.webp", "Logo Sconnesso" %}
+			</figure>
+		</a>
+		<p>{{ sconnesso.description | markdownify }}</p>
+		<div class='flex row'>
+			<a class='button' hreflang='it' lang='en' href='{{ sconnesso.link }}'>Listen</a>
+		</div>
+	</article>
+
+
 	{% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
 
 	<article class='one-third razzmatazz border box'>
-		<a href='/jam' title='The Jam'>
-			{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
+		<a href='/jam/' title='The Jam'>
 			<h2>The Jam</h2>
+			<figure class='transp'>
+				{% img "jam.webp", "a picture of Tommi’s head exploding with a great mess inside it" %}
+			</figure>
 		</a>
 		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
 		<p>I take this things, I throw them into <cite><a href='/jam' title='The Jam'>The Jam</a></cite>.</p>
@@ -74,19 +97,17 @@ header: false
 
 	{% render 'webrings.html', lang: lang %}
 
-	<article id='changelog' class='wide center no-background'>
-		<h2>Recently updated</h2>
+	<article id='changelog' class='wide center'>
+		<h2 class='no-background'>Recently updated</h2>
 		<div class='grid'>
 			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
 			{% assign i = 0 %}
 			{% for entry in recently_updated %}
 				{% if entry.date and entry.data.date and i < 7 %}
 					{% capture i %}{% increment counter %}{% endcapture %}
-					<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-						<div class='little box'>
-							<h3>{{ entry.data.title }}</h3>
-							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}</time></p>
-						</div>
+					<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+						<h3>{{ entry.data.title }}</h3>
+						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}</time></p>
 					</a>
 				{% endif %}
 			{% endfor %}

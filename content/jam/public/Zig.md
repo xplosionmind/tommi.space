@@ -10,6 +10,7 @@ aliases:
   - Timeline development
   - Timeline
   - Aby
+toc: true
 redirect_from:
   - /timeline/
   - /timeline-development/

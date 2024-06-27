@@ -5,14 +5,9 @@ tags:
   - event/giffoni
   - questions
 lang: it
-toc: false
-description:  |
-  Appunti per il format più formattato della storia, ideato e realizzato a <a href='https://giffonifilmfestival.it' target='_blank' title='Giffoni Film Festival'>Giffoni Film Festival 2020</a>, ma mai andato in onda
+description: Appunti per il format più formattato della storia, ideato e realizzato a <a href='https://giffonifilmfestival.it' title='Giffoni Film Festival'>Giffoni Film Festival 2020</a>, ma mai andato in onda
 ---
 {{ description }}
-
-<br>
-<br>
 
 ## Intro
 
@@ -23,9 +18,6 @@ C’è un problema fondamentale che ci impedisce di fare ciò: domande sbagliate
 Ogni mente è una fonte inesauribile di ricchezza e profondità che noi sfrutteremo per risolvere le questioni veramente importanti.
 
 Questo è il Titolone Superlungo, e voi non sarete più gli stessi
-
-<br>
-<br>
 
 ## Domande
 
@@ -44,6 +36,9 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 13. Quanto dura un momento?
 14. Cosa c’è alla fine dell’universo?
 15. Telepaticamente, rispondi alla domanda più difficile che ti sia mai stata fatta
+
+---
+
 - Dove si trovano i sogni prima di essre sognati?
 - La canottiera serve veramente?
 - Quanto deve durare un abbraccio?
@@ -51,9 +46,7 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 - Siamo noi i padroni dei gatti o sono i gatti padroni di noi?
 - Come si fa lo screenshot di uno screensaver?
 
-<br>
-<br>
-
+---
 
 1. baciarsi con le mascherine vale come tradimento?
 1. in quale parte della testa si trovano i sogni
@@ -67,8 +60,7 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 1. Cosa pensi dei capelli di Donald Trump?
 1. Siamo noi i padroni dei nostri gatti o sono i gatti padroni di noi?
 
-<br>
-<br>
+---
 
 1. Dove sono le onde quando il mare è calmo?
 1. Qual è la durata perfetta di un abbraccio?
@@ -94,8 +86,7 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 1. perché disegnamo le stelle con cinque punte?
 1. perché passiamo così poco tempo ad essere bambini e così tanto tempo ad essere adulti?
 
-<br>
-<br>
+---
 
 1. si può svirgolare una virgola?
 1. lo sfondo del tuo telefono
@@ -108,21 +99,17 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 1. con quale mano tocchi ferro?
 1. Quanti GB pesa un sogno?
 
-<br>
-<br>
+---
 
 1. con il distanziamento sociale ha senso mettersi il profumo?
 1. quando bevi il cappucino, la schiuma la prendi subito oppure bevi tutto e poi la togli con il cucchiaino?
 
-<br>
-<br>
-
+---
 
 - un tramonto livido di sincerità
 - oggi troppo stanco, sognerò domani
 
-<br>
-<br>
+---
 
 - devi scrivere una telenovela, hai pronta la sceneggiatura ma ti mancano i nomi dei personaggi, come li chiami?
 - È più lunga la mattina o il pomeriggio?
@@ -130,3 +117,4 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 - cos’è un fiore in radio?
 - la memoria si misura in bit o in secondi?
 - quanto è tondo un quadrato?
+

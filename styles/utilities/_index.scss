@@ -1,0 +1,93 @@
+@use '../variables' as *;
+@use 'colors';
+
+.no-background {
+	color: #FFF;
+	text-shadow: var(--shadow);
+}
+
+.dim {
+	opacity: .6;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: var(--space-xs);
+}
+
+.gap-2xs {
+	gap: var(--space-2xs);
+}
+
+.vertical {
+	flex-direction: column;
+	height: 100%;
+}
+
+.double,
+.thick {
+	text-decoration-thickness: 5px !important;
+	text-decoration-skip-ink: none;
+	text-decoration-color: var(--primary) !important;
+}
+
+.wavy {
+	text-decoration-style: wavy;
+}
+
+.serif {
+	font-family: var(--font-serif);
+}
+
+.center {
+	text-align: center;
+}
+
+.right,
+.date,
+.cite {
+	text-align: right;
+}
+
+.citation {
+	color: var(--slight);
+}
+
+.footnotes {
+	font-size: .8em;
+	border-radius: $radius-m;
+	p {
+		margin: 0;
+	}
+}
+
+.missing,
+.bug,
+.wtf {
+	padding: 2px 5px;
+	border-radius: $radius-s;
+}
+
+.missing,
+.bug {
+	background: var(--red);
+	color: #FFF;
+}
+
+.wtf {
+	background: var(--yellow);
+	color: #000;
+}
+
+.cite {
+	line-height: 1;
+	font-size: 90%;
+	margin-left: 20%;
+	&::before {
+		content: '~';
+	}
+}
+

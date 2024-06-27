@@ -12,3 +12,4 @@ tags:
 - sconforto per questione corruzione Brx. Disorientamento ecc
 - Italiani maggiore sensibilità politica
 - CSV capofila, per ora unica regione e senza coordinamento regionale
+

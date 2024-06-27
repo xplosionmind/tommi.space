@@ -11,7 +11,7 @@ permalink: /boccio/
 lang: it
 toc: false
 ---
-Io e [Rebecca](https://instagram.com/bruschettaarebeccaa) siamo amici dalle medie (di quelle amicizie speciali che sono per sempre) e negli ultimi anni per forze più grandi di noi abbiamo istituito la tradizione di incontrarci quasi in una sola occasione all’anno, ma ogni volta finendo per combinare cose assurde insieme (l’ultima volta [ho perso](/occhiali-sole#l’ennesimo-smarrimento) un paio di occhiali che mi aveva regalato la nonna).
+Io e [Rebecca](https://instagram.com/bruschettaarebeccaa '@bruschettaarebeccaa su Instagram') siamo amici dalle medie (di quelle amicizie speciali che sono per sempre) e negli ultimi anni per forze più grandi di noi abbiamo istituito la tradizione di incontrarci quasi in una sola occasione all’anno, ma ogni volta finendo per combinare cose assurde insieme (l’ultima volta [ho perso](/occhiali-sole#l’ennesimo-smarrimento) un paio di occhiali che mi aveva regalato la nonna).
 
 Venerdì scorso ci siamo puntualmente ritrovati dopo molto tempo, ma io ho deciso di rompere la tradizione, andandola a trovare a Genova, anche per scoprire finalmente <q><cite>La Boccio</cite></q>, sempre menzionata nei suoi racconti.
 

@@ -11,3 +11,4 @@ tags:
 > È come Alice che insegue il Bianconiglio: non lo fa per diventare più intelligente, ma perché desidera vedere quanto è profonda la sua tana e cosa nasconde.
 >
 > Chi fa filosofia cerca di scardinare quei meccanismi del proprio pensiero che gli fanno ritenere ovvi dei fenomeni casuali, perché desidera eliminare tutti i filtri che separano i suoi occhi dalla visione della nuda realtà, e così facendo mette in dubbio anche sé stesso e la propria funzione nell’Universo. Cerca di non dimenticarsi mai di essere una minuscola porzione di coscienza in uno spazio sconosciuto e sterminato.
+

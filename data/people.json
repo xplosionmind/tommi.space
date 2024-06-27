@@ -3,10 +3,9 @@
 		"who": "Gale Boetticher",
 		"lang": "en",
 		"image": "https://www.cheatsheet.com/wp-content/uploads/2020/05/Gale-Boetticher.jpg",
-		"url": "https://youtu.be/o24g21iJmRM?t=3",
+		"url": "https://youtu.be/-eWQlg3vYlQ&t=10",
 		"real": false,
-		"sex": "m",
-		"met": false
+		"sex": "m"
 	},
 	{
 		"who": "Sir Baden Powell of Giwell",
@@ -14,8 +13,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Robert-baden-powell-on-my-honor.jpg",
 		"url": "https://en.wikipedia.org/wiki/Robert_Baden-Powell,_1st_Baron_Baden-Powell",
 		"real": true,
-		"sex": "m",
-		"met": false
+		"sex": "m"
 	},
 	{
 		"who": "Salvador Dalì",
@@ -23,13 +21,12 @@
 		"image": "https://exhibitions.salvador-dali.org/wp-content/uploads/2018/05/header-tablet_whitaker.jpg",
 		"url": "https://www.britannica.com/biography/Salvador-Dali",
 		"real": true,
-		"sex": "m",
-		"met": false
+		"sex": "m"
 	},
 	{
 		"who": "Federico Taddia",
 		"lang": "it",
-		"image": "https://tommi.space/federico-taddia.webp",
+		"image": "/federico-taddia.webp",
 		"url": "https://it.wikipedia.org/wiki/Federico_Taddia",
 		"added": "2021-08-26",
 		"real": true,
@@ -44,8 +41,7 @@
 		"url": "https://www.imdb.com/title/tt0289432/characters/nm0211144",
 		"added": "2017-09-20",
 		"real": false,
-		"sex": "m",
-		"met": false
+		"sex": "m"
 	},
 	{
 		"who": "Amélie Poulain",
@@ -54,8 +50,7 @@
 		"url": "https://www.imdb.com/title/tt0211915/characters/nm0851582",
 		"added": "2020-10-26",
 		"real": false,
-		"sex": "f",
-		"met": false
+		"sex": "f"
 	},
 	{
 		"who": "Marco Ponti",
@@ -75,7 +70,7 @@
 		"added": "2020-12-10",
 		"real": true,
 		"sex": "m",
-		"met": false
+		"met": true
 	},
 	{
 		"who": "Luca Bottura",
@@ -84,18 +79,16 @@
 		"url": "http://lucabottura.net",
 		"added": "2020-12-10",
 		"real": true,
-		"sex": "m",
-		"met": false
+		"sex": "m"
 	},
 	{
 		"who": "Aaron Shwartz",
 		"lang": "en",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/7/78/AaronSwartzPIPA.jpg",
-		"url": "https://tommi.space/aaron-swartz",
+		"url": "https://tommi.space/aaron-swartz/",
 		"added": "2021-06-16T13:06:38+02:00",
 		"real": true,
-		"sex": "m",
-		"met": false
+		"sex": "m"
 	},
 	{
 		"who": "Shoshana Zuboff",
@@ -104,8 +97,7 @@
 		"url": "https://shoshanazuboff.com/",
 		"added": "2021-11-30T23:06:38+02:00",
 		"real": true,
-		"sex": "f",
-		"met": false
+		"sex": "f"
 	},
 	{
 		"who": "Claire Underwood",
@@ -115,7 +107,6 @@
 		"added": "2021-12-08T22:55:48+01:00",
 		"real": false,
 		"sex": "f",
-		"met": false,
 		"exclude": "2024-05-11T15:35:49+02:00"
 	},
 	{
@@ -126,15 +117,14 @@
 		"url": "https://en.wikipedia.org/wiki/Jonathan_Larson",
 		"added": "2022-01-02T23:23:02+01:00",
 		"real": true,
-		"sex": "m",
-		"met": false
+		"sex": "m"
 	},
 	{
 		"who": "Libereso Guglielmi",
 		"note": "Il giardiniere di Italo Calvino, che mi ha affascinato sin dal giorno in cui è venuto a illustrare le favole che ci siamo inventati durante la mia terza elementare",
 		"lang": "it",
 		"image": "https://ilcinemadelcarbone.it/media/film/un-pomeriggio-con-libereso.jpg",
-		"url": "https://dustycloud.org/",
+		"url": "https://it.wikipedia.org/wiki/Libereso_Guglielmi",
 		"added": "2022-11-22T14:39:11+01:00",
 		"real": true,
 		"sex": "m",
@@ -142,12 +132,12 @@
 	},
 	{
 		"who": "Christine Lemmer-Webber",
-		"image": "https://tommi.space/cwebber.webp",
-		"url": "https://it.wikipedia.org/wiki/Libereso_Guglielmi",
+		"image": "/cwebber.webp",
+		"url": "https://dustycloud.org/",
 		"added": "2024-02-04T17:06:50+01:00",
 		"real": true,
 		"sex": "f",
-		"met": true
+		"met": "2023-06-23"
 	},
 	{
 		"who": "Cory Doctorow",
@@ -157,7 +147,7 @@
 		"added": "2021-12-03T23:57:50+01:00",
 		"real": true,
 		"sex": "m",
-		"met": true
+		"met": "2024-01-28T20:10:00+01:00"
 	},
 	{
 		"who": "Matthias Kirschner",
@@ -167,7 +157,7 @@
 		"added": "2024-04-23T09:16:50+02:00",
 		"real": true,
 		"sex": "m",
-		"met": true
+		"met": "2023-11-01T09:30:00+01:00"
 	},
 	{
 		"who": "Donnatella Moss",
@@ -176,7 +166,16 @@
 		"url": "https://en.wikipedia.org/wiki/Donna_Moss",
 		"added": "2024-05-11T15:30:26+02:00",
 		"real": false,
+		"sex": "f"
+	},
+	{
+		"who": "Kim van Sparrentak",
+		"lang": "en",
+		"image": "/kvs.webp",
+		"url": "https://en.wikipedia.org/wiki/Kim_van_Sparrentak",
+		"added": "2023-09-08T09:37:00+02:00",
+		"real": true,
 		"sex": "f",
-		"met": false
+		"met": "2024-06-13T16:58:00+02:00"
 	}
 ]

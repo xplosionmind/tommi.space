@@ -11,17 +11,17 @@ image: https://tommi.space/places.jpg
 main: true
 todo: Loop through all the notes and posts from each location
 layout: wrapper.liquid
-rel: places
+ref: places
 ---
 <main class='list'>
 	<hgroup class='flex'>
 		<h1 class='wavyBackgroundRazzmatazz'>Around The World</h1>
 	</hgroup>
 	<article class='e-content'>
-{% renderTemplate 'md' %}
+		{% renderTemplate 'md' %}
 This page does not merely a lists places I have been to, rather it is an ever growing and evolving record of corners of the world I carry in my heart.
 
-<cite>[Around the World](https://youtu.be/a9eNQZbjpJk 'Red Hot Chili Peppers - Around The World')</cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places that exist on our planet. It perfectly
+<cite>[Around the World](https://youtu.be/a9eNQZbjpJk 'Red Hot Chili Peppers - Around The World')</cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places that exist on our planet. It resonates perfectly with the spirit of this list.
 
 https://youtu.be/a9eNQZbjpJk
 
@@ -35,47 +35,47 @@ There are also some very nice non-mainstream online resources to discover non-ma
 
 - <cite>[The Treasure Map](https://the-treasure-map.herokuapp.com 'The Treasure Map')</cite>
 - <cite>[Atlas Obscura](https://www.atlasobscura.com 'Atlas Obscura')</cite>
-{% endrenderTemplate %}
-</article>
+		{% endrenderTemplate %}
+	</article>
 
-<iframe
-	class='wide dark'
-	allowfullscreen
-	style='width: 100%; min-height: 50vh'
-	src='https://umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'></iframe>
+	<iframe
+		class='wide light'
+		allowfullscreen
+		style='width: 100%; min-height: 50vh; box-shadow: var(--shadow); border-radius: 1.5rem;'
+			src='https://umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'>
+	</iframe>
 
 <div class='entries-list grid'>
-	{% for place in places %}
+	{% for place in places reversed %}
 		<div class='little center box'>
-				{% if place.img != '' %}<figure>{% img place.img, place.name %}</figure>{% endif %}
-				<h2>{{ place.name }}</h2>
-				{% if place.city != '' %}
-					<p><strong>{{ place.city }}</strong></p>
-				{% endif %}
-				{% if place.description %}
-					<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
-				{% endif %}
-				<div class='flex row'>
-					{% if place.plot != '' %}
-						<a
-							class='tiny yellow button'
-							href='{{ place.plot }}'
-							title='What I wrote about {{ place.name }}'>The story</a>
-					{% endif %}
-					{% if place.url != '' %}
-						<a
-							class='tiny red button'
-							href='{{ place.url }}'
-							title='{{ place.name }}’s website'>Website</a>
-					{% endif %}
+			{% if place.img != '' %}<figure>{% img place.img, place.name %}</figure>{% endif %}
+			<h2>{{ place.name }}</h2>
+			{% if place.city != '' %}
+				<p><strong>{{ place.city }}</strong></p>
+			{% endif %}
+			{% if place.description %}
+				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
+			{% endif %}
+			<div class='flex row'>
+				{% if place.plot != '' %}
 					<a
-						class='tiny green button'
-						href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
-						title='{{ place.name }} on the map'>View on map</a>
-				</div>
+						class='tiny yellow button'
+						href='{{ place.plot }}'
+						title='What I wrote about {{ place.name }}'>The story</a>
+				{% endif %}
+				{% if place.url != '' %}
+					<a
+						class='tiny red button'
+						href='{{ place.url }}'
+						title='{{ place.name }}’s website'>Website</a>
+				{% endif %}
+				<a
+					class='tiny green button'
+					href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
+					title='{{ place.name }} on the map'>View on map</a>
+			</div>
 		</div>
 	{% endfor %}
 </div>
-
 </main>
 

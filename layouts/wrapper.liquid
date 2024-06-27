@@ -17,10 +17,6 @@
 			{% render 'header.liquid', lang: lang, current: page.url %}
 		{% endif %}
 
-		{% if tags contains 'draft' or tags contains 'wip' %}
-			{% render 'draft.html', lang: lang %}
-		{% endif %}
-
 		{{ content }}
 
 		{% if footer %}
@@ -31,7 +27,6 @@
 			{% render 'toolbar.liquid', lang: lang, alternate: alternate, url: page.url %}
 		{% endif %}
 
-		<script src='/index.js' type='text/javascript'></script>
 	</body>
 </html>
 

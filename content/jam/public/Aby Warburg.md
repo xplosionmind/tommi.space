@@ -4,14 +4,15 @@ updated: 2022-11-14T20:57:13+01:00
 tags:
   - people
   - philosophy
+  - filinge
 lang: it
 description: Una personalità incredibile dal genio inimitabile
 image: https://www.warburg-haus.de/wp-content/uploads/aby-warburg-bio/010_1895_katchina-479x600.jpg
+include: |
+  <div class='yellow box'>
+    <p>Da questi appunti è nato <a href='/mnemosyne/' title='Mnemosyne – tommi.space'>questo articolo</a>.</p>
+  </div>
 ---
-<div class='yellow box'>
-	<p>Da questi appunti è nato [questo articolo](/mnemosyne/ 'Mnemosyne – tommi.space')</p>
-</div>
-
 Acquistava i libri in duplice copia: una veniva tenuta in biblioteca, dell’altra venivano scomposte le pagine e messe in relazione a quelle di altri volumi
 
 Le costanti non solo in scienza e matematica, ma anche nell’arte. Esistono delle persistenze? Questa domanda è trasversale alla vita e allo studio di Aby Warburg: cercava ricorrenze non solo nell’arte, ma anche nella pubblicità e addirittura nelle immagini dei francobolli.

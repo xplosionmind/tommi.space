@@ -11,6 +11,7 @@ permalink: /love/
 redirect_from:
   - /amore/
 location: Around the world
+toc: true
 ---
 Questa pagina raccoglie riflessioni e riferimenti sparsi sull’Amore. Non che io creda di saperne qualcosa, ma penso che esplorare l’amore e il modo in cui lo significa è anche un modo per amare e prendersi cura di sé, coltivando una persona più consapevole e sensibile.
 

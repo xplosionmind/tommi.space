@@ -4,7 +4,7 @@ type: CollectionPage
 ---
 <main class='h-entry sidebar'>
 	<hgroup class='flex'>
-		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name wavyBackgroundRed'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name wavyBackgroundRazzmatazz'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
@@ -12,9 +12,13 @@ type: CollectionPage
 	
 	<aside>
 		{% if include %}
-			{% for box in include %}
-				{% render box, lang: lang %}
-			{% endfor %}
+			{{ include }}
+		{% elsif include contains '.html' %}
+			{% render include %}
+		{% endif %}
+
+		{% if tags contains 'draft' or tags contains 'wip' %}
+			{% render 'draft.html', lang: lang %}
 		{% endif %}
 
 		{% if tags contains 'help' %}

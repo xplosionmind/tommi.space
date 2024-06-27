@@ -4,7 +4,6 @@ module.exports = {
 	header: true,
 	toolbar: true,
 	footer: true,
-	image: '/tommi.space.wip.webp',
 	eleventyComputed: {
 		title(data) {
 			return data.title || data.page?.fileSlug

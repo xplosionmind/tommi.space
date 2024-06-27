@@ -4,7 +4,6 @@ updated: 2022-04-01T18:52:07+02:00
 tags:
   - idea
   - geek/dev
-toc: false
 description: Concept of a social network in which the algorithm governing it is built and defined by its users as if it was a LEGO.
 ---
 <cite>Alan</cite> is a concept for a social network whose algorithmic bias is overcome by user empowerment, through the individual, conscious, informed personalization of algorithmic criteria.

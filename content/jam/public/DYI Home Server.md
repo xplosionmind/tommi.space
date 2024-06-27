@@ -3,7 +3,6 @@ date: 2023-02-24T11:46:34+01:00
 tags:
   - geek/sysad
 description: Notes and insights about running an amateur DYI server in my home
-toc: false
 ---
 Currently, [[Nebuchadnezzar|Xplosion Server]] is running in a VPS hosted by Contabo. I am exploring here various ideas, solutions and resources about running a server in my own house, instead.
 
@@ -18,3 +17,4 @@ Currently, [[Nebuchadnezzar|Xplosion Server]] is running in a VPS hosted by Cont
 - [Several guides](https://pimylifeup.com/category/projects/server/ 'Server - Pimpmylifeup')
 - [Nextcloud Server](https://lonewolfonline.net/raspberry-pi-personal-cloud-server/ 'Raspberry Pi Personal cloud server')
 - [Instructables](https://www.instructables.com/id/Ultimate-Pi-Based-Home-Server/ 'Ultimate Pi-Based Home Server')
+

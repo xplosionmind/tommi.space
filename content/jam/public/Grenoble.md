@@ -5,6 +5,7 @@ location: BDL
 tags:
   - places
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
+lang: fr
 ---
 Notes et réflexions de la cité ou j’ai vécu [[Erasmus à Grenoble|mon premier Erasmus]].
 
@@ -24,19 +25,20 @@ Par consequence, forcément je suis obligé à supprimer mes nombreux instincts 
 
 ## Mes endroits
 
-<a href='https://tommi.space/places' target='_blank' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
+<a href='/places/' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
 
 {% render 'city-places.liquid', places: places, city: 'Grenoble' %}
 
 ## Aller voire
 
-Tous les lieus ou j’aurais voulu
+Tous les lieus ou j’aurais voulu aller :
 
-- [ ] [Le bon label](https://lebonlabel.com), café brasserie
-- [ ] [L’Amperage](https://amperage.fr), local pour musiciens émergents locaux
-- [ ] <cite>[Antigone](https://www.bibliothequeantigone.org 'Antigone, café bibliothèque')</cite>, café bibliothèque
-- [ ] Marché de l’Estacade
-- [ ] <cite>La remise</cite>
-- [ ] <cite>Le 38, au lieu commun</cite>
-- [ ] <cite>Petit vélo dans la tête</cite> centre ville
-- [ ] Parc Karl Marx
+- [Le bon label](https://lebonlabel.com), café brasserie
+- [L’Amperage](https://amperage.fr), local pour musiciens émergents locaux
+- <cite>[Antigone](https://www.bibliothequeantigone.org 'Antigone, café bibliothèque')</cite>, café bibliothèque
+- Marché de l’Estacade
+- <cite>La remise</cite>
+- <cite>Le 38, au lieu commun</cite>
+- <cite>Petit vélo dans la tête</cite> centre ville
+- Parc Karl Marx
+

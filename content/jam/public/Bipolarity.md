@@ -7,4 +7,4 @@ tags:
 aliases: Bipolare
 image: https://cdn.britannica.com/20/97120-050-F87CD6E9/Dr-Jekyll-and-Mr-Hyde-Fredric-March.jpg
 ---
-- Modern Love, episode 3
+Modern Love, episode 3

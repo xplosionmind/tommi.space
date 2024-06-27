@@ -21,7 +21,9 @@ sitemap:
 		{% for episode in collections.sconnesso %}
 			<a class='one-third box' href='{{ episode.url }}'>
 				{% if episode.data.image %}
-					{% img episode.data.image, episode.data.title %}
+					<figure>
+						{% img episode.data.image, episode.data.title %}
+					</figure>
 				{% endif %}
 				<h2>{{ episode.data.title }}</h2>
 				<p class='date'>{% if episode.data.location %}{{ episode.data.location }}, {% endif %}<time class='dt-published' datetime='{{ episode.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: episode.date %}</time></p>

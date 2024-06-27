@@ -6,15 +6,15 @@ lang: en
 ref: Zibaldone
 description: Things getting out of Tommi’s head, in the form of articles
 type: CollectionPage
-eleventyImport:
-  collections: ['zibaldone']
 sitemap:
   priority: 0.8
   changefreq: monthly
+eleventyImport:
+  collections: ['zibaldone']
 ---
 <main class='list'>
 	<hgroup class='flex'>
-		<h1 class='wavyBackgroundRed'>Zibaldone</h1>
+		<h1 class='wavyBackgroundPurple'>Zibaldone</h1>
 	</hgroup>
 
 	<article class='e-content'>
@@ -38,11 +38,11 @@ sitemap:
 		<input type='checkbox' id='langFilter-all' class='langFilter'>
 		{% for entry in collections.zibaldone %}
 			<a class='one-third background box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
-				<figure>
-					{% img entry.data.image, entry.data.title %}
-				</figure>
 				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.date | date: '%-d %B %Y' }}</time></p>
+				<figure>
+					{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}
+				</figure>
+				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.date | date: '%-d %B %Y' }}</time></p>
 				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
 		{% endfor %}

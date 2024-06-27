@@ -3,8 +3,8 @@ date: 2023-06-07T07:38:05+02:00
 updated: 2023-10-03T13:12:38+02:00
 tags:
   - lab
-  - digitalrights
-  - draft
+  - outdated
+  - geek/fediverse
 location: Sanremo
 description: Un laboratorio di introduzione ai social network decentralizzati
 image: https://tommi.space/fedilab-scambi.webp
@@ -65,8 +65,8 @@ Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella ver
 
 Occasioni in cui ho svolto il laboratorio:
 
-<ul>{% for lab in tutto %}
+<ul>{% for lab in activities %}
 	{% if lab.tags contains 'lab/ournet' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>. {{ lab.description | markdownify }}</li>
+		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
 	{% endif %}
 {% endfor %}</ul>

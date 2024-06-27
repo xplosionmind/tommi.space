@@ -1,26 +1,35 @@
-@use 'root' as *;
+@use '../variables' as *;
 
 #webrings {
-	background: linear-gradient(70deg, rgba(255,0,0,0.3) 0%, rgba(255,165,0,0.3) 17%, rgba(255,255,0,0.3) 33%, rgba(0,128,0,0.3) 49%, rgba(0,0,255,0.3) 65%, rgba(75,0,130,0.3) 83%, rgba(238,130,238,0.3) 100%), var(--background);
+	background: linear-gradient(70deg, rgba(255,0,0,0.3) 0%, rgba(255,165,0,0.3) 17%, rgba(255,255,0,0.3) 33%, rgba(0,128,0,0.3) 49%, rgba(0,0,255,0.3) 65%, rgba(75,0,130,0.3) 83%, rgba(238,130,238,0.3) 100%), var(--bg);
+}
+
+#cssjoywebring {
+	background: hsl(170, 35%, 30%);
+	border: 5px solid hsl(325, 35%, 50%);
+	a {
+		color: #FFF;
+	}
+	.button {
+		background: #FFF;
+		color: hsl(170, 35%, 30%);
+	}
 }
 
 #hotlinewebring {
 	background: #FA9ABA;
-	color: #000;
 	border: 5px solid #BF0946;
 	a {
+		color: #000;
+	}
+	.button {
 		background: #BF0946;
 		color: #FFF;
-	}
-	h3 a {
-		color: #000;
-		background: none;
 	}
 }
 
 #indiewebring {
 	background: #FFB100;
-	color: #000;
 	border: 5px solid #FF5C00;
 	h3 a {
 		color: #000;
@@ -30,50 +39,31 @@
 
 #safontwebring {
 	background: #000;
-	color: #FFF;
 	border: 5px solid #2ECFCA;
 	a {
+		color: #2ECFCA;
+	}
+	.button {
 		background: #FFF;
 		color: #000;
-	}
-	h3 a {
-		color: #2ECFCA;
-		background: none;
-	}
-}
-
-#cssjoywebring {
-	background: hsl(170, 35%, 30%);
-	color: #FFF;
-	border: 5px solid hsl(325, 35%, 50%);
-	a {
-		background: #FFF;
-		color: hsl(170, 35%, 30%);
-	}
-	h3 a {
-		color: #FFF;
-		background: none;
 	}
 }
 
 #theclawwebring {
+	color: #7CA63E;
 	background: #653393;
 	border: 5px solid #48A1B9;
-	h3 a {
-		color: #7CA63E;
-	}
 }
 
 #fediring {
 	background: #FFF;
 	border: 5px solid var(--blue);
 	a {
+		color: var(--red);
+	}
+	.button {
 		background: var(--yellow);
 		color: #000;
-	}
-	h3 a {
-		color: var(--red);
-		background: none;
 	}
 }
 
@@ -81,12 +71,11 @@
 	background: #202020;
 	border: 5px solid #F8BF11;
 	a {
+		color: #FFF;
+	}
+	.button {
 		background: #F8BF11;
 		color: #202020;
-	}
-	h3 a {
-		color: #FFF;
-		background: none;
 	}
 }
 
@@ -94,12 +83,11 @@
 	background: #1F2123;
 	border: 5px solid #FFF;
 	a {
+		color: #FFF;
+	}
+	.button {
 		background: #FFF;
 		color: #1F2123;
-	}
-	h3 a {
-		color: #FFF;
-		background: none;
 	}
 }
 
@@ -107,20 +95,29 @@
 	background: linear-gradient(to right, #FFCACA 0%, #FFEDC1 20%, #FEFFB8 40%, #C4FFCB 60%, #ADD8FF 80%, #CCAFE9 100%);
 	border: 5px solid #FFF;
 	a {
+		color: #454545;
+	}
+	.button {
 		background: #FFF;
 		color: #1F2123;
-	}
-	h3 a {
-		color: #454545;
-		background: none;
 	}
 }
 
 #blogroll {
+	color: rgba(44, 62, 80, 1);
 	background: linear-gradient(rgb(245,255,196), rgb(237,229,116));
 	border: 5px solid #3EAF7C;
-	h3 a {
-		color: rgba(44, 62, 80, 1);
+}
+
+#htmlhobbyist {
+	background: linear-gradient(45deg, #95DEEF 0%, #00BFE0 50%, #0086B9 100%);
+	border: 5px solid #2AFF67;
+	a {
+		color: #000;
+	}
+	.button {
+		background: #2AFF67;
+		color: #000;
 	}
 }
 

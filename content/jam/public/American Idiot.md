@@ -7,3 +7,4 @@ tags:
 lang: it
 ---
 Come American Idiot è diventato il mio inno e la mia scintilla scatenante, ma inconsapevolmente; scopro solo dopo che condivido appieno le parole della canzone. Allo stesso modo, ho acquisito consapevolezza su Scambi e su altre cose…
+

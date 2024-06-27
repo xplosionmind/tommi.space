@@ -1,5 +1,4 @@
 <div class='toolbar gap-2xs'>
-	<button class='button' id='scrollBtn' aria-label='scroll to top' title='scroll to top'></button>
 	{% if alternate != null %}
 		<a class='button' rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='{% if alternate.data.lang == 'it' %}Visualizza questa pagina in italiano'>🇮🇹{% elsif alternate.data.lang == 'en' %}View this page in English'>🇬🇧{% else %}View this page in {{ alternate.data.lang }}'>{{ alternate.data.lang }}{% endif %}</a>
 	{% endif %}

@@ -17,7 +17,7 @@ eleventyImport:
 
 	<article class='e-content'>
 		<p>Poco a che vedere con la saggezza e la serietà dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
-		<p>Dall’enciclopedia Treccani, <a href='https://treccani.it/vocabolario/zibaldone/' target='_blank'>żibaldóne</a>:/<p>
+		<p>Dall’enciclopedia Treccani, <a href='https://treccani.it/vocabolario/zibaldone/' target='_blank'>żibaldóne</a>:<p>
 		<blockquote><p>[…] Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</p></blockquote>
 	</article>
 
@@ -36,13 +36,11 @@ eleventyImport:
 		<input type='checkbox' id='langFilter-fr' class='langFilter'>
 		{% for entry in collections.zibaldone %}
 			<a class='one-third box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
-				{% if image %}
-					<figure>
-						{% img entry.data.image, entry.data.title %}
-					</figure>
-				{% endif %}
 				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
+				<figure>
+					{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}
+				</figure>
+				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
 				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
 		{% endfor %}

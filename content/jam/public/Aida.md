@@ -16,7 +16,7 @@ Nel 2015 il mio sogno divenne realtà e grazie a mio nonno portai a casa una mon
 
 <figure>
 	{% img 'bancali-selfie.webp', 'Selfie con i primi bancali recuperati' %}
-	<figcaption>Ancora ero bello, simpatico e giovane. Come un <i>boomer</i> pubblicavo <i>selfie</i> su Instagram per commemorare qualunque momento</figcaption>
+	<figcaption>Ancora ero bello, simpatico e giovane. Come un boomer pubblicavo selfie su Instagram per commemorare qualunque momento</figcaption>
 </figure>
 
 La costruzione cominciò, ma rimase poi interrotta fino al lockdown del 2020, quando trovai il coraggio di salvare dalla cantina quel relitto abbandonato e riportarlo in vita per metterlo al suo posto, in [[Xplosion Attic]].
@@ -27,8 +27,9 @@ Terminai la levigazione della parte superiore e stesi due mani di impregnante:
 	{% img 'aida-wip.webp', 'Aida quasi completata' %}
 </figure>
 
-Per ottimizzare gli spazi, scelsi di appoggiare la scrivania a supporti angolari piegabili. Sciaguratamente, ragionai troppo da ligure e acquistai [i più economici](https://www.amazon.it/gp/product/B07GBVJBG9/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1 'Ewead.1PAIR 45,7 cm cattura di uscita supporto panca tavolo pieghevole scaffale staffa di montaggio con viti su Amazon'). Dopo appena un mese fui costretto a rimpiazzare i supporti con [altri più resistenti](https://www.amazon.it/gp/product/B07RJMH6DH/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1 'Supporti Ripiani Pieghevoli su Amazon').
+Per ottimizzare gli spazi, scelsi di appoggiare la scrivania a supporti angolari piegabili. Sciaguratamente, ragionai troppo da ligure e acquistai [i più economici](https://www.amazon.it/gp/product/B07GBVJBG9/ 'Ewead.1PAIR 45,7 cm cattura di uscita supporto panca tavolo pieghevole scaffale staffa di montaggio con viti su Amazon'). Dopo appena un mese fui costretto a rimpiazzare i supporti con [altri più resistenti](https://www.amazon.it/gp/product/B07RJMH6DH/ 'Supporti Ripiani Pieghevoli su Amazon').
 
 <figure>
 	{% img image, 'Un’immagine di Aida appena completata' %}
 </figure>
+

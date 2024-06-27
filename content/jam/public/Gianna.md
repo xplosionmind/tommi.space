@@ -5,7 +5,6 @@ tags: diy
 description: La mia libreria, costruita con bancali riciclati
 location: Xplosion Attic
 lang: it
-toc: false
 image: /gianna.webp
 ---
 Dopo aver concluso la costruzione di [[Aida]], mi sentivo orgoglioso del lavoro portato a termine, ma è cresciuto in me il desiderio di trovare una collocazione definitiva in [[Xplosion Attic]] per i miei libri che fino a quel momento erano rimasti appoggiati per terra, in fila.

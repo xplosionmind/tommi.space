@@ -11,7 +11,6 @@ description: Connecting the web through independent websites
 redirect_from:
   - /webmentions/
   - /indiewebify/
-toc: false
 ---
 <div>
 	I am still trying to figure out what the Indie Web actually is, how it works, and how to <i>make</i> it work. In the meanwhile, I am collecting below useful learning resources about it.

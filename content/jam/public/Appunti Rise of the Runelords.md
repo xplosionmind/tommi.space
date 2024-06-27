@@ -3,7 +3,6 @@ date: 2015-11-01
 updated: 2022-03-14T15:01:46+01:00
 tags:
   - archive/dnd
-toc: false
 lang: it
 location: Casa Gonella, Sanremo
 ---
@@ -13,7 +12,7 @@ location: Casa Gonella, Sanremo
 
 ### Evocazione
 
-- Un tipo seduto sul trono urla <q>Vraxeris, chi mi mandi stavolta?</q> <q>Ancora cloni?</q>
+Un tipo seduto sul trono urla: <q>Vraxeris, chi mi mandi stavolta?</q> <q>Ancora cloni?</q>
 
 <p class='date'>2019-11-02</p>
 

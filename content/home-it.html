@@ -24,17 +24,47 @@ sitemap:
 		{% render 'upcoming.liquid', lang: lang, activities: activities %}
 	</article>
 
-	<article class='one-third span-3-row'>
-		{% render 'quitsocialmedia.html', lang: lang %}
+	<article id='qsm' class='one-third span-3-row | red box'>
+		<h2>Non sono sui social</h2>
+{% renderTemplate "md" %}
+Da marzo 2021 **ho eliminato tutti i miei profili** dai social media [eccetto Linkedin](https://linkedin.com/in/tommasomarmo 'Tommaso Marmo su Linkedin') (per ora).
+
+<u>Penso fortemente le ragioni della mia scelta siano **universali** e **oggettive**, non soggettive e personali</u>. Ritengo invece che ad essere personale sia il peso che ognunə sceglie di attribuire ai pro e ai contro di queste piattaforme. Io, dopo aver messo tutti i fattori sulla bilancia, non sono riuscito a sopportare l’angoscia che i social media mi causa(va)no. Sempre più incapace di ignorare lo schifo che c’è alla loro base, sono scappato.
+
+Però, ho anche voluto spingere più persone possibili ad affrontare la questione. Per agevolare una valutazione completa e attendibile, ho creato <cite>[quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media!')</cite>, dove ho raccolto <u>tutti gli aspetti negativi che sono riuscito a trovare</u>, con ricerche ed articoli a supporto di ciascuno.
+
+Da quando ho creato il sito, molto è cambiato: le pagine e le argomentazioni possono essere relativamente obsolete e limitate. Tuttavia, ritengo che esplorare il sito possa essere un ottimo punto di partenza e <u>un’utile traccia per approcciarsi a questo tema cruciale</u>.
+
+Contemporaneamente, anche il mio pensiero è maturato, nutrendosi di letture e incontri che mi hanno portato a una maggiore consapevolezza sull’**intersezionalità delle lotte** in cui credo. <a href='/csss' title='Computer Sciences are Social Sciences!' hreflang='en'>La mia tesi</a> va più a fondo, investigando il problema alla radice di tutti [quelli elencati in <cite>Quit Social Media</cite>](https://quitsocialmedia.club/it/why 'Perché abbandonare i social?') e proponendo un nuovo approccio socio-filosofico all’informatica. Più recentemente, ho ideato e sto proponendo in giro [un laboratorio](/lab-fediverso 'laboratorio sul Fediverso') per riflettere collettivamente e concepire soluzioni in modo partecipativo. Sono felicissimo se voleste invitarmi a tenerlo, ma, volendo, potete farlo anche voi! Scrivetemi per qualunque cosa.
+
+Non sono un <a href='https://en.wikipedia.org/wiki/Neo-Luddism' title='Neo-Luddism on Wikipedia' hreflang='en'>luddista</a> che condanna a priori la tecnologia, né un misantropo fuori dal mondo, perciò utilizzo orgogliosamente **social network alternativi, decentralizzati e autogestiti**. [Mi trovate](https://pan.rent/@tommi 'Tommi su Pan') nel <cite><a href='/fediverse' hreflang='en' title='About the Fediverse'>Fediverso</a></cite> e non aspetto altro che qualcunə mi contatti per parlarne!
+{% endrenderTemplate %}
+	<div class='flex row'>
+		<a class='button' href='}https://quitsocialmedia.club/it/home' title='quitsocialmedia.club home'>Parti da qui</a>
+	</div>
+</article>
+
+	<article id='sconnesso' class='one-third box'>
+		<a href='{{ sconnesso.link }}'>
+			<h2>Il podcast <cite>Sconnesso</cite></h2>
+			<figure>
+				{% img "sconnesso.webp", "Logo Sconnesso" %}
+			</figure>
+		</a>
+		<p>{{ sconnesso.description | markdownify }}</p>
+		<div class='flex row'>
+			<a class='button' href='{{ sconnesso.link }}'>Ascolta</a>
+		</div>
 	</article>
 
-	{% render 'sconnesso.liquid', sconnesso: sconnesso, lang: lang %}
 
 	{% render 'latest-post.liquid', lang: lang, posts: collections.zibaldone %}
 
 	<article class='one-third razzmatazz border box'>
 		<a href='/marmellata/' title='La Marmellata'>
-			{% img 'jam.webp', 'Un disegno dell’esplosione della testa di Tommi con una grande confusione che ne esce, il tutto rinchiuso in un vasetto di marmellata' %}
+			<figure class='transp'>
+				{% img 'jam.webp', 'Un disegno dell’esplosione della testa di Tommi con una grande confusione che ne esce, il tutto rinchiuso in un vasetto di marmellata' %}
+			</figure>
 			<h2 class='title'>La Marmellata</h2>
 		</a>
 		<p>Ci sono cose che scopro e avrei voluto imparare prima, o cose che semplicemente non riesco a non condividere ma che non sono abbastanza corpose per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
@@ -46,19 +76,17 @@ sitemap:
 
 	{% render 'webrings.html', lang: lang %}
 
-	<article id='changelog' class='wide center no-background'>
-		<h2>Ultime modifiche</h2>
+	<article id='changelog' class='wide center'>
+		<h2 class='no-background'>Ultime modifiche</h2>
 		<div class='grid'>
 			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
 			{% assign i = 0 %}
 			{% for entry in recently_updated %}
 				{% if entry.date and entry.data.date and i < 7 %}
 					{% capture i %}{% increment counter %}{% endcapture %}
-					<a href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-						<div class='little box'>
-							<h3>{{ entry.data.title }}</h3>
-							<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.updated %}{% else %}<time class='dt-published' datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.date %}{% endif %}</time></p>
-						</div>
+					<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+						<h3>{{ entry.data.title }}</h3>
+						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.updated %}{% else %}<time class='dt-published' datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.date %}{% endif %}</time></p>
 					</a>
 				{% endif %}
 			{% endfor %}

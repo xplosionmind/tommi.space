@@ -1,20 +1,19 @@
-@use 'root' as *;
+@use '../variables' as *;
 
 footer {
 	--primary: var(--yellow);
-	display: grid;
-	padding: var(--space-3xl) var(--space-l);
+	padding: var(--space-l) var(--space-s);
 	color: #EEE;
 	background: #000;
-	justify-content: space-evenly;
-	place-items: center;
+	align-items: flex-start !important;
 	p {
 		font-size: var(--size--1);
+		margin-left: var(--space-s);
 		line-height: 1.2;
 	}
 	.h-card {
-		align-content: flex-start;
-		max-width: 20rem;
+		margin-top: 1em;
+		max-width: 15rem;
 	}
 }
 
@@ -44,6 +43,7 @@ footer {
 }
 
 #madeby {
+	margin-left: var(--space-s);
 	&:hover #madeby_shadow {
 		display: none;
 	}

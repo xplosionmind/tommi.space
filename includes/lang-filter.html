@@ -2,11 +2,14 @@
 	<h2>
 		{% if lang == 'it' -%}
 			Filtra per lingua
+		</h2>
+		<p>Clicca sulla bandiera della lingua in cui vuoi vedere i post, clicca di nuovo sulla stessa per disattivare il filtro.</p>
 		{% else -%}
 			Filter by language
-		{% endif -%}
-	</h2>
-	<p>Click on the flag of the language in which you want to see the posts, click again on the same flag to deactivate the filter.</p>
+		</h2>
+		<p>Click on the flag of the language in which you want to see the posts, click again on the same flag to deactivate the filter.</p>
+		{% endif %}
+	</p>
 	<div class='flex'>
 		<label id='en-langFilterlabel' for='langFilter-en' title='{% if lang == 'it' -%}Mostra solo i contenuti in inglese{% else %}Show only content in English{% endif -%}'>🇬🇧</label>&emsp;
 		<label id='it-langFilterlabel' for='langFilter-it' title='{% if lang == 'it' -%}Mostra solo i contenuti in italiano{% else %}Show only content in Italian{% endif -%}'>🇮🇹</label>&emsp;

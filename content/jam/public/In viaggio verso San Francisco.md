@@ -13,3 +13,4 @@ L’incredibilità dell’eterogeneità dei pensieri e dei campi affrontati, su 
 - Geograficamente: Beer Giving a Venezia, passaggio a Londra, atterraggio a San Francisco una ventina di ore dopo; prima volta fuori EU
 - psicologicamente: prima stressato e ossessionato dal liberarmi di un esame, poi di nuovo un altro, poi nel giro di poche ore proiettare il mio pensiero completamente sul mio futuro e cosa ne farò
 - persone: prima concentrato 24/7 con le PISE favolose, poi rivedendo, ritrovando e infine salutando tutte le persone bellissime di Venezia negli ultimi tre anni, infine lasciando tutto indietro e tuffandomi in un mondo sconosciuto di persone sconosciute
+

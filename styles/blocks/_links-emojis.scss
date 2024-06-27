@@ -131,11 +131,6 @@ li {
 				content: '🤯 ';
 			}
 		}
-		&[href*='design'] {
-			&::before {
-				content: '📐 ';
-			}
-		}
 		&[href^='/meta'] {
 			&::before {
 				content: '👨🏻‍💻 ';

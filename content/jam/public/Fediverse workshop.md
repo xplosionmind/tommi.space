@@ -5,17 +5,14 @@ aliases:
   - FediLab
 tags:
   - lab
-  - digitalrights
-  - draft
+  - outdated
+  - geek/fediverse
 location: Sanremo
 description: An introductory workshop on decentralized social media and the Fediverse
 image: https://tommi.space/fedilab-scambi.webp
 permalink: /fedilab/
 ref: fediverse-lab
 ---
-
-SOUNDTRACK
-
 Carrying on with my mission of spreading the word about the [[Fediverse]], I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
 
 I conceived this workshop as an easy, comprehensive, interactive, and maybe even fun introduction to decentralized social networks, the Fediverse in particular.
@@ -37,7 +34,7 @@ Ideally, all the participants sit in a circle. The workshop works best with a cr
 
 Not all the materials are essential. In its bare-bone version, the rope and the whiteboard are sufficient.
 
-- Red wool, twine, or any kind of rope, at least 5 meters long.
+- Red yarn, or any kind of rope, at least 5 meters long.
 - Paper poster or whiteboard
 - A hat worn by the workshop’s host, acting as the centralized social network
 - Objects or small cardboard pieces representing different Fediverse nodes or clients
@@ -69,8 +66,8 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 
 Occasions when I conducted the lab:
 
-<ul>{% for lab in tutto %}
-	{% if lab.tags contains 'lab/fedi' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ lab.start | date: '%-d %B %Y' }}</time>. {{ lab.description | markdownify }}</li>
+<ul>{% for lab in activities %}
+	{% if lab.tags contains 'lab/ournet' %}
+		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ lab.start | date: '%-d %B %Y' }}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
 	{% endif %}
 {% endfor %}</ul>

@@ -1,17 +1,24 @@
 ---
 layout: wrapper.liquid
 ---
-<main class='h-entry writing'>
+<main class='h-entry simple'>
 	<hgroup class='flex'>
-		<a class='u-uid u-url' href='{{ site.url }}{{ page.url }}'><h1 class='p-name'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ site.url }}{{ page.url }}'><h1 class='p-name wavyBackground{%- if page.inputPath contains 'zibaldone' -%}Purple{%- else -%}Red{%- endif -%}'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
 	</hgroup>
 
-	<dl id='tags' class='flex gap-2xs'>{% render 'page-tags.html', tags: tags, site: site, size: '' %}</dl>
+	<aside>
+		<dl id='tags' class='flex gap-2xs'>{% render 'page-tags.html', tags: tags, site: site, size: '' %}</dl>
+	</aside>
 
 	<article class='e-content{% if serif %} serif{% endif %}' data-pagefind-body>
+		{% if include %}
+			{{ include }}
+		{% elsif include contains '.html' %}
+			{% render include %}
+		{% endif %}
 		{{ content }}
 	</article>
 </main>

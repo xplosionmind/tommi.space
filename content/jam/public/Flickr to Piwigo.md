@@ -49,6 +49,7 @@ I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr
 8. ❌ Importing Collections as parent albums
 
 <p class='date'><time datetime='2024-01-04T11:26:22+01:00'>4<sup>th</sup> January 2024</time></p>
+
 In a couple of weeks my Piwigo hosted subscription is terminating. Possible options:
 
 - renew the subscription for 3 years at the same price

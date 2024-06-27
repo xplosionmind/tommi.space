@@ -1,12 +1,18 @@
 .background {
-	background: var(--background);
-	color: var(--text);
+	background: var(--bg);
+	color: var(--color);
 }
 
 .green {
 	background: var(--green);
-	color: var(--black-ish);
+	color: var(--green-dark);
 	border-color: var(--green);
+}
+
+.purple {
+	background: var(--purple);
+	color: #FFF;
+	border-color: var(--purple);
 }
 
 .red {
@@ -23,17 +29,11 @@
 	border-color: var(--blue);
 }
 
-.dark-blue {
-	color: #FFF;
-	background: var(--dark-blue);
-	border-color: var(--dark-blue);
-}
-
 .yellow {
 	--primary: #7400BE;
 	color: #000;
 	background: var(--yellow);
-	border-color: var(--yellow) !important;
+	border-color: var(--yellow);
 	::selection {
 		background: var(--red);
 		color: #FFF;
@@ -47,13 +47,13 @@
 }
 
 .it {
-	color: var(--dark-blue);
+	color: var(--blue-dark);
 	background: linear-gradient(90deg, #008C45 0%, #FFF 37%, #FFF 63%, #CD212A 100%);
 }
 
 .border {
-	color: var(--text);
-	background: var(--background);
+	color: var(--color);
+	background: var(--bg);
 	border-style: solid;
 	border-width: .5rem;
 }

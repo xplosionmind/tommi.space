@@ -10,9 +10,11 @@ layout: wrapper
 	</hgroup>
 	
 	<aside>
-		<figure>
-			{% img image, title %}
-		</figure>
+		{% if image %}
+			<figure>
+				{% img image, title %}
+			</figure>
+		{% endif %}
 
 		{% render 'listen-on.html', lang: lang %}
 
