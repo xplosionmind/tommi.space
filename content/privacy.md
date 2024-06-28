@@ -1,4 +1,5 @@
 ---
+date: 2020-03-30
 updated: 2024-06-01T16:43:43+02:00
 title: Privacy Policy
 ref: privacy

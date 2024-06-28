@@ -1,5 +1,6 @@
 ---
 title: Filosofia dell’Ingegneria
+date: 2020-03-16
 permalink: /filinge/
 lang: it
 ref: filosofia
@@ -21,7 +22,7 @@ sitemap:
 		{% for entry in collections.filinge %}
 			<a class='one-third box' href='{{ entry.url }}'>
 				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.date %}</time></p>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.date %}</time></p>
 				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
 		{% endfor %}

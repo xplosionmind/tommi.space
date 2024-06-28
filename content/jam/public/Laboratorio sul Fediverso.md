@@ -67,6 +67,6 @@ Occasioni in cui ho svolto il laboratorio:
 
 <ul>{% for lab in activities %}
 	{% if lab.tags contains 'lab/ournet' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
+		<li>{{ lab.location }}, <time datetime='{{ lab.start | date_to_xmlschema }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
 	{% endif %}
 {% endfor %}</ul>

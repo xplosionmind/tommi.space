@@ -76,26 +76,26 @@ layout: wrapper
 					{% if date %}
 						<div id='date'>
 							<dt>🗓️ Data:</dt>
-							<dd><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: date %}</time></dd>
+							<dd><time class='dt-published' datetime='{{ date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: date %}</time></dd>
 						</div>
 					{% endif %}
 					{% if updated %}
 						<div id='updated'>
 							<dt>🖋️ Ultima modifica:</dt>
-							<dd><time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: updated %}</time></dd>
+							<dd><time class='dt-updated' datetime='{{ updated | date_to_xmlschema }}'>{% render 'date-it.liquid', date: updated %}</time></dd>
 						</div>
 					{% endif %}
 				{% else %}
 					{% if date %}
 						<div id='date'>
 							<dt>🗓️ Date:</dt>
-							<dd><time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%-d %B %Y' }}</time></dd>
+							<dd><time class='dt-published' datetime='{{ date | date_to_xmlschema }}'>{{ date | date: '%-d %B %Y' }}</time></dd>
 						</div>
 					{% endif %}
 					{% if updated %}
 						<div id='updated'>
 							<dt>🖋️ Latest change:</dt>
-							<dd><time class='dt-updated' datetime='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ updated | date: '%-d %B %Y' }}</time></dd>
+							<dd><time class='dt-updated' datetime='{{ updated | date_to_xmlschema }}'>{{ updated | date: '%-d %B %Y' }}</time></dd>
 						</div>
 					{% endif %}
 				{% endif %}

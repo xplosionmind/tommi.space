@@ -9,7 +9,7 @@
 		{% endfor %}
 	{% endif %}
 
-	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image %}
+	{% render 'head.html', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image, type: type %}
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
 

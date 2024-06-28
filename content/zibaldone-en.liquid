@@ -42,7 +42,7 @@ eleventyImport:
 				<figure>
 					{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}
 				</figure>
-				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.date | date: '%-d %B %Y' }}</time></p>
+				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{{ entry.date | date: '%-d %B %Y' }}</time></p>
 				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
 		{% endfor %}

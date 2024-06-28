@@ -109,7 +109,7 @@ header: false
 					{% capture i %}{% increment counter %}{% endcapture %}
 					<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
 						<h3>{{ entry.data.title }}</h3>
-						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}</time></p>
+						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date_to_xmlschema }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date_to_xmlschema }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}</time></p>
 					</a>
 				{% endif %}
 			{% endfor %}

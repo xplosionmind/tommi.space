@@ -1,5 +1,6 @@
 ---
 title: Pasticci
+date: 2019-07-25
 permalink: /pasticci/
 redirect_from: [/poesia/,/it/poetry/]
 lang: it

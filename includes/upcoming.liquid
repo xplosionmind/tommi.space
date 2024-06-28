@@ -19,9 +19,9 @@
 					{% assign start_date = activity.start | date: '%Y%m%d' %}
 					{% assign end_date = activity.end | date: '%Y%m%d' %}
 					{% if activity.start and end_date != start_date %}
-						<time datetime='{{ activity.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: activity.start %}{% else %}{{ activity.start | date: '%-d %b' }}{% endif %} → 
+						<time datetime='{{ activity.start | date_to_xmlschema }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: activity.start %}{% else %}{{ activity.start | date: '%-d %b' }}{% endif %} → 
 					{% endif %}
-					<time datetime='{{ activity.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: activity.end %}{% else %}{{ activity.end | date: '%-d %b' }}{% endif %}</time></p>
+					<time datetime='{{ activity.end | date_to_xmlschema }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: activity.end %}{% else %}{{ activity.end | date: '%-d %b' }}{% endif %}</time></p>
 			</a>
 	{% endif %}
 	{% if forloop.last and introPrinted == '1' %}

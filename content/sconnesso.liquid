@@ -1,5 +1,6 @@
 ---
 title: Sconnesso
+date: 2021-01-27
 lang: it
 primary: var(--purple)
 image: /sconnesso.webp
@@ -27,7 +28,7 @@ sitemap:
 					</figure>
 				{% endif %}
 				<h2>{{ episode.data.title }}</h2>
-				<p class='date'>{% if episode.data.location %}{{ episode.data.location }}, {% endif %}<time class='dt-published' datetime='{{ episode.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: episode.date %}</time></p>
+				<p class='date'>{% if episode.data.location %}{{ episode.data.location }}, {% endif %}<time class='dt-published' datetime='{{ episode.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: episode.date %}</time></p>
 				{% render 'entry-tags.liquid', tags: episode.data.tags, site: site, size: 'tiny' %}
 			</a>
 		{% endfor %}

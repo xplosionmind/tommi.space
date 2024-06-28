@@ -1,5 +1,6 @@
 ---
 title: Zibaldone
+date: 2020-03-30
 lang: it
 ref: Zibaldone
 description: Cose che vengono fuori dala testa di Tommi, in forma di articoli
@@ -40,7 +41,7 @@ eleventyImport:
 				<figure>
 					{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}
 				</figure>
-				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
+				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
 				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
 		{% endfor %}

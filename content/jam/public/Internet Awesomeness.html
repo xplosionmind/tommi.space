@@ -23,7 +23,7 @@ todo:
 	{% assign awesomeness = internetawesomeness | sort: 'added' | reverse %}
 	{% for web in internetawesomeness %}
 		<li>
-			<a href='{{ web.url }}' title='{% if web.title %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>: {{ web.description | markdownify }} — <time datetime='{{ web.added | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ web.added | date: '%d %B %Y' }}</time>
+			<a href='{{ web.url }}' title='{% if web.title %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>: {{ web.description | markdownify }} — <time datetime='{{ web.added | date_to_xmlschema }}'>{{ web.added | date: '%d %B %Y' }}</time>
 		</li>
 	{% endfor %}
 </ul>

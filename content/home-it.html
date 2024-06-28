@@ -1,5 +1,6 @@
 ---
 title: Tuffo in tommi.space
+date: 2020-03-30
 permalink: /tuffo/
 redirect-from: ['/it/home/', '/it/bio/']
 lang: it
@@ -88,7 +89,7 @@ Non sono un <a href='https://en.wikipedia.org/wiki/Neo-Luddism' title='Neo-Luddi
 					{% capture i %}{% increment counter %}{% endcapture %}
 					<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
 						<h3>{{ entry.data.title }}</h3>
-						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.updated %}{% else %}<time class='dt-published' datetime='{{ entry.data.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.data.date %}{% endif %}</time></p>
+						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.updated %}{% else %}<time class='dt-published' datetime='{{ entry.data.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.date %}{% endif %}</time></p>
 					</a>
 				{% endif %}
 			{% endfor %}

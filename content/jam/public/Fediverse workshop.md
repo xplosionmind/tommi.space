@@ -68,6 +68,6 @@ Occasions when I conducted the lab:
 
 <ul>{% for lab in activities %}
 	{% if lab.tags contains 'lab/ournet' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ lab.start | date: '%-d %B %Y' }}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
+		<li>{{ lab.location }}, <time datetime='{{ lab.start | date_to_xmlschema }}'>{{ lab.start | date: '%-d %B %Y' }}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
 	{% endif %}
 {% endfor %}</ul>
