@@ -5,7 +5,7 @@ description: EVERYTHING from tommi.space
 permalink: /index.json
 layout: feed.json.liquid
 ---
-{% assign all = collections.jam | concat: collections.zibaldone| concat: collections.poetry | sort: 'date' | reverse %}
+{% assign all = collections.jam | concat: collections.zibaldone | concat: collections.poetry | sort: 'date' | reverse %}
 	"items": [{% for entry in all limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",

@@ -5,8 +5,8 @@ altUrl: https://tommi.space/tags/reading/
 permalink: /reading.xml
 layout: feed.xml.liquid
 ---
-{% assign jam = collections.jam | sort: 'date' | reverse %}
-{% for entry in jam limit: 10 %}
+{% assign reading = collections.reading | sort: 'date' | reverse %}
+{% for entry in reading limit: 10 %}
 	<item>
 		<title>{{ entry.data.title }}</title>
 		<link>{{ site.url }}{{ entry.url }}</link>

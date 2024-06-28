@@ -1,13 +1,12 @@
 ---
 title: Zibaldone
 description: Tutti gli articoli dal blog di tommi.space
-altUrl: https://tommi.space/zibaldone
+altUrl: https://tommi.space/zibaldone/
 permalink: /zibaldone.json
 layout: feed.json.liquid
 lang: it
 ---
-{% assign zib = collections.zibaldone | sort: 'date' | reverse %}
-	"items": [{% for entry in zib limit: 10 %}
+	"items": [{% for entry in collections.zibaldone limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",

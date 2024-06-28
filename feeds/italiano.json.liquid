@@ -1,12 +1,11 @@
 ---
-title: Pasticci Poetici
-description: Il flusso sconnesso e indecifrabile delle forsesensate poesie di Tommi
-altUrl: https://tommi.space/pasticci
-permalink: /poetry.json
-lang: it
+title: Flusso italiano
+description: Flusso dei contenuti in lingua italiana su tommi.space
+altUrl: https://tommi.space/tuffo/
+permalink: /it.json
 layout: feed.json.liquid
 ---
-	"items": [{% for entry in collections.poetry limit: 10 %}
+	"items": [{% for entry in collections.italian limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",
@@ -17,9 +16,10 @@ layout: feed.json.liquid
 		{% if entry.data.image %}"image": "{{ entry.data.image }}",{% endif %}
 		{% if entry.date %}"date_published": "{{ entry.date | date_to_xmlschema }}",{% endif %}
 		{% if entry.data.updated %}"date_modified": "{{ entry.data.updated | date_to_xmlschema }}",{% endif %}
-		"tags": [
-			"poetry"
-		],
+		{% if entry.data.tags %}"tags": [{% for tag in entry.data.tags -%}
+			"{{ tag }}"{% unless forloop.last %},{% endunless %}
+		{% endfor %}
+		],{% endif %}
 		"language": "{{ entry.data.lang }}"
 	}{% unless forloop.last %},{% endunless %}
 	{% endfor %}]

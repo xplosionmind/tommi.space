@@ -5,7 +5,7 @@ description: Updates on the most recent things Tommi did/is doing.
 permalink: /activities.json
 layout: feed.json.liquid
 ---
-	"items": [{% for entry in activities reversed limit: 10 %}
+	"items": [{% for entry in activities limit: 10 %}
 	{
 		"id": "{{ entry.title | slugify }}",
 		{% if entry.url %}"url": "{{ entry.url }}",{% endif %}

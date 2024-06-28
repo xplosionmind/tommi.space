@@ -5,8 +5,7 @@ altUrl: https://tommi.space/jam
 permalink: /jam.json
 layout: feed.json.liquid
 ---
-{% assign jam = collections.jam | sort: 'date' | reverse %}
-	"items": [{% for entry in jam limit: 10 %}
+	"items": [{% for entry in collections.jam limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",

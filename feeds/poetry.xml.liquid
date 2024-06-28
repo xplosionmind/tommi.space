@@ -6,8 +6,7 @@ permalink: /poetry.xml
 lang: it
 layout: feed.xml.liquid
 ---
-{% assign poetry = collections.poetry | sort: 'date' | reverse %}
-{% for entry in poetry limit: 10 %}
+{% for entry in collections.poetry limit: 10 %}
 	<item>
 		<title>{{ entry.data.title }}</title>
 		<link>{{ site.url }}{{ entry.url }}</link>
