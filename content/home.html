@@ -98,7 +98,9 @@ header: false
 	{% render 'webrings.html', lang: lang %}
 
 	<article id='changelog' class='wide center'>
-		<h2 class='no-background'>Recently updated</h2>
+		<div class='flex'>
+			<h2 class='wavyBackgroundGreen'>Recently updated</h2>
+		</div>
 		<div class='grid'>
 			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
 			{% assign i = 0 %}

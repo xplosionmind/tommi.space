@@ -31,19 +31,17 @@ Rock’n’roll!
   <input class='button' type='submit' value='Iscriviti'>
 </form>
 
-Per i più nerd: come indicato nella [Privacy Policy](/it/privacy-policy 'Privacy Policy'), il mio servizio di newsletter utilizza [listmonk](https://listmonk.app 'listmonk official website') ed è interamente <em lang='en'>self-hosted</em> su [[Server|Xplosion Server]]. Ergo, io e solamente io sono in completo controllo dei dati degli iscritti, che <a href='https://gdpr-info.eu/art-17-gdpr' title='Art. 17 GDPR' hreflang='en'>hanno diritto</a> a chiedermi di eliminarlo quando lo desiderano.{% endrenderTemplate %}</article>
+Per i più nerd: come indicato nella [Privacy Policy](/it/privacy-policy 'Privacy Policy'), il mio servizio di newsletter utilizza [listmonk](https://listmonk.app 'listmonk official website') ed è interamente <em lang='en'>self-hosted</em> su [[Nebuchadnezzar]]. Ergo, io e solamente io sono in completo controllo dei dati degli iscritti, che <a href='https://gdpr-info.eu/art-17-gdpr' title='Art. 17 GDPR' hreflang='en'>hanno diritto</a> a chiedermi di eliminarlo quando lo desiderano.{% endrenderTemplate %}</article>
 
-<h2 class='wide wavyBackgroundRed'>Archivio</h2>
-
-<div class='wide entries-list subgrid'>
+<div id='archivio' class='entries-list subgrid'>
 	{% for entry in collections.newsletter reversed %}
-		<article class='one-third'>
-			<div class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+		<a class='one-third box' href='{{ entry.url }}'>
+			<h2>{{ entry.data.title }}</h2>
+			<figure>
 				{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}
-				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}<time></p>
-			</div>
-		</article>
+			</figure>
+			<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
+		</a>
 	{% endfor %}
 </div>
 </main>

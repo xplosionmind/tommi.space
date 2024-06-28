@@ -1,5 +1,7 @@
 {
 	"layout": "sconnesso",
+	"class": "sconnesso",
+	"primary": "sconnesso",
 	"lang": "it",
 	"sitemap": {
 		"changefreq": "yearly"

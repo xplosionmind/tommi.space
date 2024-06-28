@@ -41,7 +41,9 @@ lang: it
 			<a class='red button' href='/internet-awesomeness.xml' lang='en' hreflang='en' title='Feed of the awesome things I stumble upon while surfing the ’net'>Internet Awesomeness</a>
 		</div>
 	</article>
-	<h2 class='wide center wavyBackgroundRed'>Le ultime cose pubblicate su tommi.space</h2>
+	<div class='wide center flex'>
+		<h2 class='wavyBackgroundRed'>Le ultime cose pubblicate su tommi.space</h2>
+	</div>
 	<div class='wide grid'>
 		<xsl:for-each select='/rss/channel/item'>
 			<a class='little box'><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>

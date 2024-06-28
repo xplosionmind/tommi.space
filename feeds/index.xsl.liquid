@@ -40,7 +40,9 @@ description: Stream of all the latest content published on tommi.space
 			<a class='red written button' href='/internet-awesomeness.xml' title='Feed of the awesome things I stumble upon while surfing the ’net'>Internet Awesomeness</a>
 		</div>
 	</article>
-	<h2 class='wide center wavyBackgroundRed'>The latest things published on tommi.space</h2>
+	<div class='wide center flex'>
+		<h2 class='wavyBackgroundRed'>The latest things published on tommi.space</h2>
+	</div>
 	<div class='wide grid'>
 		<xsl:for-each select='/rss/channel/item'>
 			<a><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>

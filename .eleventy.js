@@ -102,14 +102,14 @@ module.exports = function(eleventyConfig) {
 
 	// Plugins //
 	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-	eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
+	/*eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
 		url: 'https://tommi.space',
 		rel: ['noreferrer', 'noopener', 'external'],
 		overwrite: false,
 		excludedDomains:[
 			'https://tommasomarmo.com'
 		]
-	});
+	});*/
 	eleventyConfig.addPlugin(require('eleventy-plugin-embed-everything'), {
 		youtube: {
 			options: {

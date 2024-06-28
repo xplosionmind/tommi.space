@@ -25,21 +25,18 @@
     'prefix': 'space-',
   ));
 
-	--whiteish: #E3E3E3;
 	--yellow: #FCC920;
 	--blue: #53B9FF;
-	--blue-dark: #11305B;
-	--blue-light: #A6FFE5;
 	--red: #D00;
 	--green: #2EC27E;
-	--green-dark: #001E15;
+	--green-light: #C2FFE3;
 	--green-dark: #032B1E;
 	--razzmatazz: #EC0868;
 	--purple: #7400BE;
 	--orange: #FF6024;
 
 	--font-sans: 'Inter V', Inter, system-ui, -apple-system, sans-serif;
-	--font-heading: Basteleur, var(--font-sans);
+	--font-heading: Sniglet, Basteleur, var(--font-sans);
 	--font-serif: 'Garamond Libre', 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif;
 	--font-mono: 'Ubuntu Mono', ui-monospace, monospace;
 
@@ -52,7 +49,7 @@
 ::before,
 ::after {
 	box-sizing: border-box;
-	transition: $trans;
+	transition: $trans, transform $trans-quick, box-shadow $trans-quick, text-shadow $trans-quick, border $trans-quick;
 	scrollbar-color: var(--red) transparent;
 }
 
@@ -107,7 +104,7 @@ body {
 	body {
 		color-scheme: light;
 		--bg: #FFF;
-		--bg-alt: var(--bg);
+		--bg-alt: var(--green-light);
 		--color: var(--green-dark);
 		--link: var(--primary);
 		--primary: var(--red);
@@ -138,10 +135,6 @@ main {
 	grid-template-columns: subgrid;
 	grid-template-rows: masonry;
 	gap: max(2vw, 3vh)
-}
-
-.filinge {
-	background: 0 0 / var(--space-4xl) url("data:image/svg+xml;utf8,<svg width='200' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'><path d='m0 0 200 200v-100l-100-100zm0 200h100l-100-100z' fill='%232EC27E'/></svg>"), #000;
 }
 
 /*** Layout > elements ***/
@@ -229,7 +222,7 @@ figure {
 
 figcaption {
 	font-family: var(--font-serif);
-	margin: var(--space-s) 10% 0;
+	margin: var(--space-2xs) 10% 0;
 	text-align: center;
 }
 
@@ -322,8 +315,8 @@ h1 {
 
 h2 {
 	font-size: var(--size-3);
-	&.shadow {
-		text-shadow: var(--tiny-shadow);
+	.flex > & {
+		padding: var(--space-s) var(--space-m);
 	}
 }
 
@@ -344,7 +337,7 @@ samp,
 }
 
 pre {
-	background: var(--alt-bg);
+	background: var(--bg-alt);
 	padding: var(--space-m);
 	border-radius: $radius-m;
 	white-space: pre-wrap;

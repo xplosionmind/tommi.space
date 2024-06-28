@@ -23,7 +23,7 @@ Tornando all’annichilimento che i social ci provocano, ci sono centinaia di mi
 
 Mi sento però in dovere di condividere alcuni articoli invece non polemici che non solo mi hanno messo la pulce nell’orecchio fino a decidermi ad un periodo di pausa, ma danno una grandissima ispirazione ed espongono molto meglio di quanto io possa riuscire la gigantesca e preoccupante entità del problema.
 
-## ONE.
+## One
 
 Per prima condivido qui la breve lettera di Michele Ferrari, mio mentore e fondatore di Radioimmaginaria, su Avvenire dell’11 settembre 2018:
 
@@ -35,11 +35,11 @@ _Non so quanto sia corretto pubblicare uno screenshot, però Mic mi ha dato il p
 
 Io da poco, ahimé, ho deciso di abbandonare Radioimmaginaria per cominciare nuove avventure, ma sono cresciuto molto grazie al progetto e quello che dice Mic è troppo vero. Assolutamente bisogna ascoltare e girare un po’ su [Radioimmaginaria](https://radioimmaginaria.it) per capire quanto, anche senza social, si possa fare sul serio.
 
-## TWO.
+## Two
 
 Per secondo consiglio [questa guida](https://www.wired.com/story/wired-guide-to-internet-addiction/ '“Wired guide to internet addiction„') su Wired, che approfondisce con dati e testimonianze tutta la questione della <q><em lang='en'>Smartphone Addiction</em></q>; da leggere per vederci chiaro e comprendere come le compagnie ci studiano per ottenere da noi il massimo profitto. Giusto per dare un’idea, in una parte dell’articolo Steve Jobs dichiara di non permettere ai suoi figli di utilizzare gli iPad da lui stesso concepiti. **Mind-blowing**.
 
-## THREE.
+## Three
 
 <figure>
 	{% img '2018-09-23-che-palle-instagram-2.jpg', 'Una foto di me con Giuseppe Montesano' %}

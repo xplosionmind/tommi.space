@@ -48,7 +48,7 @@ From this page, it is possible to start navigating in The Jam. There are two dif
 		<input type='checkbox' id='langFilter-it' class='langFilter'>
 		<input type='checkbox' id='langFilter-fr' class='langFilter'>
 		{% for entry in collections.jam %}
-			<a class='little box {% if entry.data.main %}razzmatazz{% endif %}' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}' {% if entry.data.main %}data-target-main{% endif %}>
+			<a class='little box {% unless entry.data.main %}background{% endunless %}' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}' {% if entry.data.main %}data-target-main{% endif %}>
 				<h2>{{ entry.data.title }}</h2>
 				{% if entry.data.description %}
 					<p>{{ entry.data.description | markdownify | strip_html | truncatewords: 30 }}</p>

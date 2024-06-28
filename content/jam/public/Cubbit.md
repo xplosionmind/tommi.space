@@ -3,9 +3,9 @@ date: 2021-02-04T10:40:50+01:00
 updated: 2022-05-21T11:26:56+02:00
 tags: geek/apps
 description: Bugs, feature request and notes about Cubbit, the decentralized storage system I love and use everyday
-toc: false
+location: Bologna
 ---
-[Cubbit] is a brilliant and revolutionary decentralized cloud service.
+[Cubbit](https://cubbit.io) is a brilliant and revolutionary decentralized cloud service.
 
 On top of the awesomeness of the service, I am a fan of Cubbit also for several particular reasons:
 - I am among the first backers of the project

@@ -6,7 +6,6 @@ tags: philosophy
 permalink: /cfz/
 redirect_from: [/corsari/,/curiosi-corsari-consapevoli/,/zattere/]
 location: Ca’ Foscari Zattere
-toc: false
 image: /zattere.jpg
 description: |
   Cronache da una vita collettiva, ondeggiante in un Universo confuso ma magico.

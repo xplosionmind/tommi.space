@@ -77,7 +77,9 @@ Non sono un <a href='https://en.wikipedia.org/wiki/Neo-Luddism' title='Neo-Luddi
 	{% render 'webrings.html', lang: lang %}
 
 	<article id='changelog' class='wide center'>
-		<h2 class='no-background'>Ultime modifiche</h2>
+		<div class='flex'>
+			<h2 class='wavyBackgroundGreen'>Ultime modifiche</h2>
+		</div>
 		<div class='grid'>
 			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
 			{% assign i = 0 %}

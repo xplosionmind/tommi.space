@@ -35,7 +35,7 @@ eleventyImport:
 		<input type='checkbox' id='langFilter-it' class='langFilter'>
 		<input type='checkbox' id='langFilter-fr' class='langFilter'>
 		{% for entry in collections.zibaldone %}
-			<a class='one-third box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
+			<a class='one-third background box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
 				<h2>{{ entry.data.title }}</h2>
 				<figure>
 					{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}

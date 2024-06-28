@@ -1,11 +1,11 @@
 <section class='tags box'>
-	<a href='/tags'><h2>Tags</h2></a>
+	<h2>Tags</h2>
 	<div class='flex'>
 		{% for tag in site.tags -%}
 			<a
-				href='{%- if tag.url -%}{{ tag.url }}{%- else -%}/tags#{{ tag.title | slugify }}{%- endif -%}'
+				href='{%- if tag.url -%}{{ tag.url }}{%- else -%}/tag/{{ tag.title }}/{%- endif -%}'
 				rel='tag'
-				class='smaller button {{ tag.title | slugify }}'>
+				class='smaller button {{ tag.title | truncatewords: 1, '' }}'>
 					{{ tag.title }}
 			</a>
 		{% endfor -%}

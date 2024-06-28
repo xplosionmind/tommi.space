@@ -3,7 +3,6 @@
 @use 'header';
 @use 'footer';
 @use 'links-emojis';
-@use 'tags';
 @use 'webrings';
 @use 'search';
 @use 'interaction-buttons';
@@ -170,6 +169,14 @@ lite-youtube {
 			font-size: var(--size-0);
 		}
 	}
+}
+
+.sconnesso {
+	background: 0 0 / var(--space-4xl) url('/sconnesso-bg.svg'), #000;
+}
+
+.filinge {
+	background: 0 0 / var(--space-4xl) url('/filinge-bg.svg'), #000;
 }
 
 .e-content {

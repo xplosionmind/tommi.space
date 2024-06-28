@@ -4,13 +4,14 @@ lang: it
 primary: var(--purple)
 image: /sconnesso.webp
 description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso.
+class: sconnesso
 sitemap:
 	changefreq: monthly
 	priority: 0.7
 ---
 <main class='list'>
 	<hgroup class='flex'>
-		<h1>Sconnesso</h1>
+		<h1 class='wavyBackgroundPurple'>Sconnesso</h1>
 	</hgroup>
 
 	<article class='e-content'>
@@ -19,7 +20,7 @@ sitemap:
 
 	<div class='entries-list subgrid'>
 		{% for episode in collections.sconnesso %}
-			<a class='one-third box' href='{{ episode.url }}'>
+			<a class='one-third background box' href='{{ episode.url }}'>
 				{% if episode.data.image %}
 					<figure>
 						{% img episode.data.image, episode.data.title %}
