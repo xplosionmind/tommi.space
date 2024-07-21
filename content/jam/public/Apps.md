@@ -35,7 +35,7 @@ Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 
     {% if app.os contains 'terminal' and app.uninstalled == '' and app.remember == '' -%}
       <li>
         <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>,
-        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif --%}
+        {{ app.description | markdownify }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
       </li>
     {% endif -%}
   {% endfor -%}

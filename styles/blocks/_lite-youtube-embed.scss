@@ -6,10 +6,10 @@ lite-youtube {
 	background-position: center center;
 	background-size: cover;
 	cursor: var(--cursor-hover);
+	max-width: 100%;
 	article & {
 		border-radius: 1rem;
 	}
-	max-width: 100%;
 	&::before {
 		content: '';
 		display: block;

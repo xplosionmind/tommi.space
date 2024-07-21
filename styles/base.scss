@@ -150,11 +150,11 @@ main {
 
 dl {
 	margin: 0;
+	white-space: nowrap;
 	dt {
 		.simple aside & {
 			display: none;
 		}
-		white-space: nowrap;
 	}
 	dd {
 		margin: 0 0 0 var(--space-3xs);
