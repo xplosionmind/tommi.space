@@ -4,8 +4,13 @@
 	overflow-x: hidden;
 	height: calc(100vh + var(--space-l));
 	h1 {
-		animation: pulse 1s infinite;
 		padding: var(--space-l) var(--space-xl);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	#landing h1 {
+		animation: pulse 1s infinite;
 	}
 }
 

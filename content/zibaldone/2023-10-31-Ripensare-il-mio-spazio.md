@@ -5,6 +5,7 @@ tags: [newsletter, zen, geek, meta]
 location: xHain
 permalink: /ripensare-tommi.space/
 image: https://tommi.space/xhain-workspace.webp
+ref: v2
 ---
 Come mai prima d’ora, il mio ultimo anno è stato pieno di cose nuove, grosse e belle.
 

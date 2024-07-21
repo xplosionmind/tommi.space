@@ -49,8 +49,15 @@
 ::before,
 ::after {
 	box-sizing: border-box;
-	transition: $trans, transform $trans-quick, box-shadow $trans-quick, text-shadow $trans-quick, border $trans-quick;
 	scrollbar-color: var(--red) transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	*,
+	::before,
+	::after {
+		transition: $trans, transform $trans-quick, box-shadow $trans-quick, text-shadow $trans-quick, border $trans-quick;
+	}
 }
 
 ::selection {
@@ -72,6 +79,7 @@ body {
 	min-height: 100vh;
 	color-scheme: dark;
 	color: var(--color);
+	accent-color: var(--primary);
 	overflow-wrap: break-word;
 	hyphens: auto;
 	font: var(--size-0) var(--font-sans);
@@ -132,6 +140,7 @@ main {
 
 .subgrid {
 	display: grid;
+	align-items: center;
 	grid-template-columns: subgrid;
 	grid-template-rows: masonry;
 	gap: max(2vw, 3vh)
@@ -142,6 +151,9 @@ main {
 dl {
 	margin: 0;
 	dt {
+		.simple aside & {
+			display: none;
+		}
 		white-space: nowrap;
 	}
 	dd {
@@ -289,6 +301,7 @@ abbr[title] {
 
 h1, h2, h3 {
 	font-family: var(--font-heading);
+	text-wrap: balance;
 	line-height: 1;
 }
 
@@ -311,10 +324,16 @@ h1 {
 	&:hover {
 		transform: rotate(-3deg);
 	}
+	a {
+		color: inherit;
+	}
 }
 
 h2 {
 	font-size: var(--size-3);
+	aside & {
+		font-size: var(--size-2);
+	}
 	.flex > & {
 		padding: var(--space-s) var(--space-m);
 	}
@@ -392,6 +411,7 @@ aside {
 				'. content content content content .'
 				'aside aside aside aside aside aside'
 				'entries entries entries entries entries entries'
+				'entries-nd entries-nd entries-nd entries-nd entries-nd entries-nd'
 		}
 	}
 	footer {
@@ -413,11 +433,13 @@ aside {
 	.span-5 {
 		grid-column: span 5;
 	}
-	.span-2-row {
-		grid-row: span 2;
-	}
-	.span-3-row {
-		grid-row: span 3;
+	.span-row {
+		&-2 {
+			grid-row: span 2;
+		}
+		&-3 {
+			grid-row: span 3;
+		}
 	}
 	.middle {
 		grid-column: 2/-2;
@@ -434,6 +456,9 @@ aside {
 	.entries-list {
 		grid-area: entries;
 		align-items: start;
+		&.nd {
+			grid-area: entries-nd;
+		}
 	}
 	ul.two,
 	ol.two {

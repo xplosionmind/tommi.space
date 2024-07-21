@@ -1,0 +1,120 @@
+---
+layout: wrapper
+---
+<main class='h-entry sidebar'>
+	<hgroup class='flex'>
+		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name wavyBackgroundPurple'>{{ title }}</h1></a>
+		{% if subtitle %}
+			<h2>{{ subtitle }}</h2>
+		{% endif %}
+	</hgroup>
+	
+	<aside>
+		{% if image %}
+			<figure>
+				{% img image, title %}
+			</figure>
+		{% endif %}
+
+		{% render 'listen-on.liquid', lang: lang %}
+
+		<details class='metadata box' open>
+			<summary><h2>ℹ️ Info</h2></summary>
+			<dl>
+				{% if aliases %}
+					<div id='aliases'>
+						<dt>💭 
+							{% if lang == 'it' %}
+								o anche:
+							{% else %}
+								or also:
+							{% endif %}
+						</dt>
+						{% for alias in aliases %}
+							<dd><cite class='alias'>{{ alias }}</cite></dd>
+						{% endfor %}
+					</div>
+				{% endif %}
+
+				{% if tags %}
+					<div id='tags'>
+						<dt>🏷️ Tags:</dt>
+						{% render 'page-tags.liquid', tags: tags, site: site, size: 'tiny' %}
+					</div>
+				{% endif %}
+
+				{% if location %}
+					<div id='location'>
+						<dt>📍
+							{% if lang == 'it' %}
+								Luogo:
+							{% else %}
+								Location:
+							{% endif %}
+						</dt>
+						<dd>
+							{% for place in places %}
+								{% if place.name contains location or place.aliases contains location %}
+									{%- if place.osm != '' -%}
+										<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap' data-pagefind-filter='location'>{{ place.name }}</a>
+									{%- else -%}
+										<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap' data-pagefind-filter='location'>{{ place.name }}</a>
+									{%- endif -%}
+									{%- if place.city -%}
+										, {{ place.city }}
+									{%- endif -%}
+									{% assign found = true %}
+								{% endif %}
+							{% endfor %}
+							{% unless found %}
+								<a href='https://www.openstreetmap.org/search?query={{ location | url_encode }}' data-pagefind-filter='location'>{{ location }}</a>
+							{% endunless %}
+						</dd>
+					</div>
+				{% endif %}
+				{% if lang == 'it' %}
+					{% if date %}
+						<div id='date'>
+							<dt>🗓️ Data:</dt>
+							<dd><time class='dt-published' datetime='{{ date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: date %}</time></dd>
+						</div>
+					{% endif %}
+					{% if updated %}
+						<div id='updated'>
+							<dt>🖋️ Ultima modifica:</dt>
+							<dd><time class='dt-updated' datetime='{{ updated | date_to_xmlschema }}'>{% render 'date-it.liquid', date: updated %}</time></dd>
+						</div>
+					{% endif %}
+				{% else %}
+					{% if date %}
+						<div id='date'>
+							<dt>🗓️ Date:</dt>
+							<dd><time class='dt-published' datetime='{{ date | date_to_xmlschema }}'>{{ date | date: '%-d %B %Y' }}</time></dd>
+						</div>
+					{% endif %}
+					{% if updated %}
+						<div id='updated'>
+							<dt>🖋️ Latest change:</dt>
+							<dd><time class='dt-updated' datetime='{{ updated | date_to_xmlschema }}'>{{ updated | date: '%-d %B %Y' }}</time></dd>
+						</div>
+					{% endif %}
+				{% endif %}
+			</dl>
+			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+		</details>
+		{% if toc %}
+			<details id='toc' class='box' open>
+				<summary><h2>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h2></summary>
+				{{ content | toc }}
+			</details>
+		{% endif %}
+	</aside>
+
+	<article class='e-content' data-pagefind-body>
+		<audio controls preload='auto'>
+			<source src='/sconnesso/{{ audio }}.{{ format }}'>
+		</audio>
+		{{ content }}
+	</article>
+</main>
+

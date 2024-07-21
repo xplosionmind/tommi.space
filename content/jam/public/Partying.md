@@ -7,8 +7,8 @@ aliases:
 tags:
   - zen
 location: Casa Campo
-permalink: /party/
-toc: false
+permalink: /partying/
+redirect_from: [/party/]
 ---
 I have always underestimated and misconceived partying.
 

@@ -1,15 +1,14 @@
 ---
 date: 2021-09-26T18:23:45+02:00
 updated: 2023-01-09T23:01:13+01:00
+aliases:
+  - Timeline development
+  - Timeline
 tags:
   - help
   - geek/dev
   - idea
 description: A social network based on personal and historical events
-aliases:
-  - Timeline development
-  - Timeline
-  - Aby
 toc: true
 redirect_from:
   - /timeline/

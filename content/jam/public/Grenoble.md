@@ -1,9 +1,9 @@
 ---
 date: 2022-09-14T17:09:25+02:00
 updated: 2023-01-13T13:08:36+01:00
-location: BDL
 tags:
-  - places
+  - place
+location: BDL
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 lang: fr
 ---
@@ -41,4 +41,3 @@ Tous les lieus ou j’aurais voulu aller :
 - <cite>Le 38, au lieu commun</cite>
 - <cite>Petit vélo dans la tête</cite> centre ville
 - Parc Karl Marx
-

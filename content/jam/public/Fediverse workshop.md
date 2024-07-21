@@ -12,6 +12,12 @@ description: An introductory workshop on decentralized social media and the Fedi
 image: https://tommi.space/fedilab-scambi.webp
 permalink: /fedilab/
 ref: fediverse-lab
+include: |
+  <div class='red box' style='background: orangered'>
+    <h2>The workshop has its own website now!</h2>
+    <p>Thanks to the success this workshop got during its first year of life, I decided to properly structure and enrich it.</p>
+    <p>The new version is titled <strong><cite>Knitting Our Internet</cite></strong> and it has <a href='https://ourinternet.in/' title='🪡 Knitting Our Internet 🧶'>its own website</a>!</p>
+  </div>
 ---
 Carrying on with my mission of spreading the word about the [[Fediverse]], I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
 

@@ -1,4 +1,4 @@
-# ⚠️ Tommi’s mind 🤯
+<h1 align='center'>⚠️ Tommi’s mind 🤯</h1>
 
 This repository contains the virtual representation of the mess inside [Tommi](https://tommi.space/home/#about 'About Tommi')’s mind.
 

@@ -1,11 +1,13 @@
 ---
 date: 2021-02-02T11:00:18+01:00
 updated: 2023-05-07T18:37:41+02:00
-lang: it
+tags:
+  - place
 location: Il Cubo
+lang: it
 permalink: /cubo/
-redirect_from: /il-cubo/
-tags: places
+redirect_from:
+  - /il-cubo/
 toc: false
 todo:
   - Foto del Cubo

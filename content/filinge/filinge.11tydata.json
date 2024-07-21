@@ -1,6 +1,6 @@
 {
 	"class": "filinge",
-	"layout": "filinge.html",
+	"layout": "filinge.liquid",
 	"lang": "it",
 	"primary": "var(--green)",
 	"sitemap": {

@@ -1,7 +1,7 @@
 ---
 title: Borderlife
 date: 2017-07-10
-tags: archive/Radioimmaginaria
+tags: Radioimmaginaria
 image: /2017-07-10-borderlife-3.jpg
 ---
 <figure>

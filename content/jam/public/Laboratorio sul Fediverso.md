@@ -11,6 +11,13 @@ image: https://tommi.space/fedilab-scambi.webp
 lang: it
 permalink: /lab-fediverso/
 ref: fediverse-lab
+aliases: La Nostra Rete
+include: |
+  <div class='red box' style='background: orangered'>
+    <h2>Il lab ora ha un suo sito!</h2>
+    <p>Dato il gratificante successo che questo laboratorio ha ottenuto nel suo primo anno di vita, ho voluto strutturarlo meglio e arricchirlo.</p>
+    <p>La nuova versione s’intitola <strong><cite>La Nostra Rete</cite></strong> e ha <a href='https://ourinternet.in/it/' title='La Nostra Rete'>un sito dedicato</a>!</p>
+  </div>
 ---
 Proseguendo imperterrito nella mia missione di proselitismo per il [[Fediverse|Fediverso]], sempre più mi accorgo di quanto sia bello ed efficace utilizzare strumenti interattivi e partecipativi per decostruire l’apparente complessità di concetti informatici alternativi.
 

@@ -15,12 +15,12 @@ const md = markdownIt({
 		html: true,
 		typographer: true
 	})
-	.use(require('markdown-it-wikilinks')({
+	/*.use(require('markdown-it-wikilinks')({
 		uriSuffix: '',
 		makeAllLinksAbsolute: true,
 		class: 'wikilink',
 		postProcessPageName: wikilinkSlugifier,
-	}))
+	}))*/
 	.use(require('markdown-it-anchor'), {
 		permalink: require('markdown-it-anchor').permalink.headerLink(),
 	})
@@ -44,6 +44,11 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Collections //
+	eleventyConfig.addCollection('now', function(collection) {
+		return collection.getFilteredByGlob('now/**/*').sort((a, b) => {
+			return b.date - a.date; // sort by date - descending
+		});
+	});
 	eleventyConfig.addCollection('zibaldone', function(collection) {
 		return collection.getFilteredByGlob('content/zibaldone/**/*').sort((a, b) => {
 			return b.date - a.date; // sort by date - descending

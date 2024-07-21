@@ -1,11 +1,13 @@
 ---
 date: 2021-02-02T04:32:23+01:00
 updated: 2021-02-02T08:52:23+01:00
-aliases: Bar Santa Marta
-tags: places
+aliases:
+  - Bar Santa Marta
+tags:
+  - place
 location: Al Canton
 ---
-In Campo Santa Margherita, a Venezia, c’è un bar, **il** bar dello Spritz delle 17 per antonomasia. Tutti coloro che hanno almeno una volta bazzicato a Venezia possono capire molto facilmente a quale bar mi riferisco. La mia prof di *Logic and Philosophy of Science* lo utilizzava persino come soggetto delle proposizioni logiche di esempio.
+In Campo Santa Margherita, a Venezia, c’è un bar, **il** bar dello Spritz delle 17 per antonomasia. Tutti coloro che hanno almeno una volta bazzicato a Venezia possono capire molto facilmente a quale bar mi riferisco. La professoressa Montuschi lo utilizzava persino come soggetto delle proposizioni logiche di esempio durante il corso di <cite lang='en'>Logic and Philosophy of Science</cite>.
 
 Ecco, io non voglio dire che non ci si debba andare, anche perché in tutta sincerità sono un veneziano acquisito da molto poco tempo e, peraltro, per la metà di questo i locali sono stati chiusi; tuttavia, in questo posto i camerieri sono relativamente simpatici, lo uno Spritz Select costa 4,50€ e, soprattutto, <u>non danno nulla da mangiare</u>.
 

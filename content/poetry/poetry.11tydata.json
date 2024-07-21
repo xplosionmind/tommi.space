@@ -1,5 +1,5 @@
 {
-	"layout": "poem.html",
+	"layout": "poem.liquid",
 	"class": "poetry",
 	"header": false,
 	"toolbar": false,

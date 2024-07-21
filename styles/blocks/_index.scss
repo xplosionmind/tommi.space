@@ -200,6 +200,9 @@ lite-youtube {
 }
 
 #qsm {
+	h2 {
+		font-size: var(--size-2);
+	}
 	.button {
 		color: #FFF;
 		background: #1D3557;
@@ -269,7 +272,6 @@ lite-youtube {
 
 details {
 	h2 {
-		font-size: var(--size-2);
 		margin: 0 !important;
 		&::after {
 			margin-left: .5ch;

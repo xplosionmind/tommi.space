@@ -1,0 +1,18 @@
+---
+layout: tag.liquid
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+eleventyComputed:
+  title: 'Tagged “{{ tag }}”'
+permalink: /tag/{{ tag }}/
+eleventyExcludeFromCollections: true
+---
+{% assign taglist = collections[ tag ] %}
+{% for entry in taglist reversed %}
+	<a class='little background box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}'>
+		<h2>{{ entry.data.title }}</h2>
+	</a>
+{% endfor %}
+

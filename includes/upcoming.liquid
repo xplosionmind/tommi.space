@@ -7,11 +7,11 @@
 		{% if introPrinted == '0' %}
 		<p>{% if lang == 'it' %}Altrimenti, qui di seguito potrebbero esserci ottime occasioni per trovarsi. Batti un colpo se ci sarai anche tu!{% else %}Otherwise, the following activities could be great occasions to get together. Hit me up if you plan to attend any of them!{% endif %}</p>
 			<h3>{% if lang == 'it' %}Prossime attività{% else %}Upcoming activities{% endif %}</h3>
-			<div class='flex row'>
+			<div class='flex'>
 			{% assign introPrinted = '1' %}
 		{% endif %}
 			<a href='{{ activity.url }}' class='little box'>
-				<h4>{{ activity.title }}</h4>
+				<h4 class='center'>{{ activity.title }}</h4>
 				<p>
 					{% if activity.location %}
 						<strong>{{ activity.location }}</strong>, 
@@ -19,7 +19,7 @@
 					{% assign start_date = activity.start | date: '%Y%m%d' %}
 					{% assign end_date = activity.end | date: '%Y%m%d' %}
 					{% if activity.start and end_date != start_date %}
-						<time datetime='{{ activity.start | date_to_xmlschema }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: activity.start %}{% else %}{{ activity.start | date: '%-d %b' }}{% endif %} → 
+						<time datetime='{{ activity.start | date_to_xmlschema }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: activity.start %}{% else %}{{ activity.start | date: '%-d %b' }}{% endif %}</time> → 
 					{% endif %}
 					<time datetime='{{ activity.end | date_to_xmlschema }}'>{% if lang == 'it' %}{% render 'date-it.liquid', date: activity.end %}{% else %}{{ activity.end | date: '%-d %b' }}{% endif %}</time></p>
 			</a>

@@ -398,9 +398,7 @@ systemctl restart apache2
 
 - point the chosen domain and subdomain to the server IP address
 - wait for the domain to propagate (it could take up to 48 hours)
-- go to `cloud.example.com`, where you should get this page:
-
-<figure>{% img 'https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg', 'Nextcloud first setup page' %}<figcaption>Nextcloud first setup page</figcaption></figure>
+- go to `cloud.example.com`
 
 <div class='yelow box'>
 	<u><strong>Do not</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.

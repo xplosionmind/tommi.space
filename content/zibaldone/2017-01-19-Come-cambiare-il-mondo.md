@@ -1,7 +1,7 @@
 ---
 title: Come cambiare il mondo
 date: 2017-01-19
-tags: archive/Radioimmaginaria
+tags: Radioimmaginaria
 image: /2017-01-19-come-cambiare-il-mondo.jpg
 ---
 <figure>

@@ -6,6 +6,7 @@ location: xHain
 permalink: /v2/
 image: https://tommi.space/xhain-workspace.webp
 lang: en
+ref: v2
 ---
 My past year has been unprecedentedly full of novel opportunities, experiences, life accomplishments. Going back further, during the past *few* years I reckon I changed a lot. To boil it down to a single word, I would dare to say that I have matured.
 

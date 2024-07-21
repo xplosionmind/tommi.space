@@ -2,7 +2,7 @@
 date: 2021-12-15T22:39:41+01:00
 updated: 2022-03-14T14:51:16+01:00
 tags:
-  - archive/Radioimmaginaria
+  - Radioimmaginaria
   - data
 lang: it
 title: Tutte le mie puntate su Radioimmaginaria

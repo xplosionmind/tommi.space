@@ -3,7 +3,7 @@ date: 2024-04-04T17:47:00+01:00
 aliases:
   - La Boccio
 tags:
-  - places
+  - place
 location: La Boccio
 description: Un luogo antico trasformato in spazio di calcetto e amicizia da persone meravigliose
 image: /boccio.webp

@@ -111,39 +111,4 @@ Domain names I am using:
 
 ### <cite lang='it'>La Nostra Rete</cite>
 
-- **`ourinternet.in`**
-- `lanostrarete.net`
-- `lanostra.net`
-- `lanostrarete.boo`
-- `internet.boo` (700€)
-- `ourinternet.life` (60€)
-- `ourinternet.bo` (400€)
-- `ourinternet.living` (60€)
-- `ourinternet.case` (2000€)
-- `ourinternet.works` (60€)
-- `ourinternet.world` (60€)
-- `ourinternet.guru` (54€)
-- `ourinternet.monster`
-- `ourinternet.help` (60€)
-- `ourinternet.diy` (60€)
-- `ourinternet.cool` (60€)
-- `ourinternet.best` (45€)
-- `ourinternet.cool`
-- `ourinternet.is` (341€)
-- `ourinternet.solutions` (40€)
-- `ourinternet.wtf` (54€)
-- `ourinternet.run` (42€)
-- `ourinternet.today` (36€)
-- `ourinternet.lifestyle` (60€)
-- `ourinternet.community` (60€)
-- `ourinternet.ooo` (54€)
-- `ourinternet.observer`
-- `ourinternet.fashion`
-- `ourinternet.diet` (200€)
-- `ourinternet.care` (60€)
-- `ourinternet.pub` (39€)
-- `ourinternet.love` (54€)
-- `ourinternet.surf` (55€)
-- `ourinternet.party` (48€)
-- `ourinternet.bible` (100€)
-- `ourinternet.buzz`
+ See [the related issue](https://github.com/xplosionmind/ournet/issues/8 '🤔 Are we sure about the domain name? · Issue #8 · xplosionmind/ournet · GitHub')

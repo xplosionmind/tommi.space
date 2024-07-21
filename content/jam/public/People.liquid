@@ -13,12 +13,22 @@ layout: wrapper.liquid
 		<h1 class='wavyBackgroundRazzmatazz'>People</h1>
 	</hgroup>
 
+	<article class='e-content'>
+		{% renderTemplate 'md' %}
+These are real or fictional people I admire for many reasons ora very particular one.
+		{% endrenderTemplate %}
+	</article>
+
 <div class='entries-list grid'>
 	{% for idol in people %}
 		{% unless idol.url contains 'tommi.space' %}
 			<div class='little box'>
-				{% img idol.image, idol.who %}
-				<a href='{{ idol.url }}'><h2 id='{{ idol.who | slugify }}'>{{ idol.who }}</h2></a>
+				<a href='{{ idol.url }}'>
+					<h2 id='{{ idol.who | slugify }}'>{{ idol.who }}</h2>
+					<figure>
+						{% img idol.image, idol.who %}
+					</figure>
+				</a>
 				{% if idol.note %}
 					<p>{{ idol.note | markdownify }}</p>
 				{% endif %}
@@ -27,15 +37,18 @@ layout: wrapper.liquid
 	{% endfor %}
 </div>
 
-<h2 class='center wide'>People I also wrote about</h2>
-
-<div class='wide grid'>
+<div class='entries-list nd grid'>
+	<div class='center wide no-background flex'>
+		<h2 class='wavyBackgroundRazzmatazz'>People I also wrote about</h2>
+	</div>
 	{% for idol in collections.jam %}
 		{% for tag in idol.data.tags %}
 			{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture %}
 			{% if idoltag contains 'people' %}
 				<a class='little box' href='{{ idol.url | url }}'>
-					{% if idol.data.image %}{% img idol.data.image, idol.data.title %}{% endif %}
+					{% if idol.data.image %}
+						<figure>{% img idol.data.image, idol.data.title %}</figure>
+					{% endif %}
 					<h2 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
 					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
 				</a>

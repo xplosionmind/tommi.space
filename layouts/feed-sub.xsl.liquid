@@ -27,7 +27,7 @@
 						<h1	class='wavyBackgroundRed'><xsl:value-of select='/rss/channel/title'/></h1>
 					</hgroup>
 					<div class='half'>
-						{% render 'wtfeed.html', lang: lang %}
+						{% render 'wtfeed.liquid', lang: lang %}
 					</div>
 					<article class='half background box'>
 						<h2>
@@ -55,7 +55,7 @@
 						</xsl:for-each>
 					</div>
 				</main>
-				{% render 'footer.html', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
+				{% render 'footer.liquid', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
 			</body>
 		</html>
 	</xsl:template>

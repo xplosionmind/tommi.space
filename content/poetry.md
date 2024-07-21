@@ -3,7 +3,7 @@ title: Fake poetry
 redirect_from: [/fake-poetry/,/fakepoetry/]
 lang: en
 ref: poetry
-layout: poem.html
+layout: poem.liquid
 header: false
 toolbar: false
 class: poetry center
