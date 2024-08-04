@@ -15,12 +15,12 @@ const md = markdownIt({
 		html: true,
 		typographer: true
 	})
-	/*.use(require('markdown-it-wikilinks')({
+	.use(require('markdown-it-wikilinks')({
 		uriSuffix: '',
 		makeAllLinksAbsolute: true,
 		class: 'wikilink',
 		postProcessPageName: wikilinkSlugifier,
-	}))*/
+	}))
 	.use(require('markdown-it-anchor'), {
 		permalink: require('markdown-it-anchor').permalink.headerLink(),
 	})

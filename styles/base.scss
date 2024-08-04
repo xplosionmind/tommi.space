@@ -301,7 +301,6 @@ abbr[title] {
 
 h1, h2, h3 {
 	font-family: var(--font-heading);
-	text-wrap: balance;
 	line-height: 1;
 }
 
@@ -321,6 +320,7 @@ h1 {
 	text-align: center;
 	overflow-wrap: anywhere;
 	hyphens: none;
+	text-wrap: balance;
 	&:hover {
 		transform: rotate(-3deg);
 	}
