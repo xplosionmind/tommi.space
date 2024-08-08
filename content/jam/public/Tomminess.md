@@ -66,7 +66,7 @@ Occasionally, friends of mine I have not been in touch with for quite some time 
 	{% if p.name != '' -%}### {{ p.name }}{% endif -%}
 	<a href='{{ p.url }}'>
 			{% if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
-			{% if p.image != '' -%}<figure>{% img p.image, p.name %}</figure>{% endif -%}
+			{% comment %}{% if p.image != '' -%}<figure>{% img p.image, p.name %}</figure>{% endif -%}{% endcomment %}
 			{% if p.description != '' -%}<p>{{ p.description | markdownify }}</p>{% endif -%}
 	</a>
 {% endfor -%}

@@ -14,6 +14,6 @@ Sin da quando avevo 10 anni sognavo di trasferire la mia cameretta nella soffitt
 Purtroppo le immagini testimoni dell’evoluzione di <cite>Xplosion Attic</cite> negli anni si sono smarrite fra miriadi di files e traumatici [*data loss*](https://tommi.space/storage#data-loss 'Narrazione dei miei data loss').
 
 <figure>
-	{% img image, 'Un’immagine della soffitta in una giornata di Sole' %}
+	{% comment %}{% img image, 'Un’immagine della soffitta in una giornata di Sole' %}{% endcomment %}
 	<figcaption><cite>Xplosion Attic</cite> a seguito dell’ultima riorganizzazione in soffitta, a maggio 2020</figcaption>
 </figure>

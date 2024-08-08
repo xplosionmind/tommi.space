@@ -11,7 +11,7 @@ layout: page.liquid
 class: writing
 sitemap:
   changefreq: yearly
-	priority: 0.2
+  priority: 0.2
 ---
 Questo sito non raccoglie alcun dato sui visitatori. Essendo in totale controllo di <cite>[[Nebuchadnezzar]]</cite>, ovvero il server che ospita tommi.space, il massimo che posso sapere sono tutti gli indirizzi IP che si connettono. Non mi interessa analizzare questi dati e comunque non credo di essere capace a estrapolare queste informazioni.
 

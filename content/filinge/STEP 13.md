@@ -16,91 +16,91 @@ step: 13
 La prima macchina degna di questo nome fu probabilmente quella ideata da [James Watt](https://www.treccani.it/enciclopedia/james-watt) per rimuovere l’acqua provocata dagli allagamenti nelle miniere.
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Watt_steam_pumping_engine.JPG', 'La macchina a vapore di Watt' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Watt_steam_pumping_engine.JPG', 'La macchina a vapore di Watt' %}{% endcomment %}
 	<figcaption>La macchina a vapore di Watt</figcaption>
 </figure>
 
 Nel corso del tempo, la macchina ha sempre più spesso indicato il mezzo di trasporto, diventando sinonimo di automobile:
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/3/39/Flying_Scotsman_in_Doncaster.JPG', 'un treno a vapore' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/3/39/Flying_Scotsman_in_Doncaster.JPG', 'un treno a vapore' %}{% endcomment %}
 	<figcaption>Un treno a vapore</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/1/10/PresidentFirstCar.jpg', 'La prima Präsident, una delle prime automobili' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/1/10/PresidentFirstCar.jpg', 'La prima Präsident, una delle prime automobili' %}{% endcomment %}
 	<figcaption>La prima Präsident, una delle prime automobili (1897)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://silodrome.com/wp-content/uploads/2018/11/A-Brief-History-of-the-Model-T-Ford-20a-1600x1024.jpg', 'Ford Model T' %}
+	{% comment %}{% img 'https://silodrome.com/wp-content/uploads/2018/11/A-Brief-History-of-the-Model-T-Ford-20a-1600x1024.jpg', 'Ford Model T' %}{% endcomment %}
 	<figcaption>Ford Model T (1908)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/4/42/1929_Isotta_Fraschini_8A_Commodore_IMG_7260.jpg', 'Isotta Fraschini' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/4/42/1929_Isotta_Fraschini_8A_Commodore_IMG_7260.jpg', 'Isotta Fraschini' %}{% endcomment %}
 	<figcaption>Isotta Fraschini (1930)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://doyouremember.com/wp-content/uploads/2020/01/volkswagen-beetle.png', 'Wolkswagen Beetle' %}
+	{% comment %}{% img 'https://doyouremember.com/wp-content/uploads/2020/01/volkswagen-beetle.png', 'Wolkswagen Beetle' %}{% endcomment %}
 	<figcaption>Wolkswagen Beetle (1938)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fiat_Uno_%28front%29%2C_Jimbaran.jpg/1200px-Fiat_Uno_%28front%29%2C_Jimbaran.jpg', 'Fiat Uno' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fiat_Uno_%28front%29%2C_Jimbaran.jpg/1200px-Fiat_Uno_%28front%29%2C_Jimbaran.jpg', 'Fiat Uno' %}{% endcomment %}
 	<figcaption>Fiat Uno (1983)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/f/f1/2018_Toyota_Corolla_%28MZEA12R%29_Ascent_Sport_hatchback_%282018-11-02%29_01.jpg', 'Toyota Corolla' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/f/f1/2018_Toyota_Corolla_%28MZEA12R%29_Ascent_Sport_hatchback_%282018-11-02%29_01.jpg', 'Toyota Corolla' %}{% endcomment %}
 	<figcaption>Toyota Corolla (2020)</figcaption>
 </figure>
 
 A partire dalla metà del novecento, le macchine hanno assunto anche un significato differente: non erano più macchine solo quelle meccaniche, ma anche quelle elettroniche, fino a divenire calcolatori, dunque macchine informatiche, <a href='https://en.wikipedia.org/wiki/History_of_computing_hardware' hreflang='it'>computer</a>. Inizialmente il codice binario era trasmesso con valvole, poi con [transistor](https://it.wikipedia.org/wiki/Transistor) ed infine, come ora, con [circuiti integrati](https://it.wikipedia.org/wiki/Circuito_integrato).
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/6/6c/ENIAC_Penn1.jpg', 'ENIAC' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/6/6c/ENIAC_Penn1.jpg', 'ENIAC' %}{% endcomment %}
 	<figcaption><a href='https://it.wikipedia.org/wiki/ENIAC' title='ENIAC su Wikipedia'>ENIAC</a> (1945)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/2/22/EDSAC_%2819%29.jpg', 'EDSAC' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/2/22/EDSAC_%2819%29.jpg', 'EDSAC' %}{% endcomment %}
 	<figcaption>EDSAC (1949)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/d/d9/University_of_Manchester_Atlas%2C_January_1963.JPG', 'The University of Manchester Atlas in January 1963' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/d/d9/University_of_Manchester_Atlas%2C_January_1963.JPG', 'The University of Manchester Atlas in January 1963' %}{% endcomment %}
 	<figcaption><a href='https://en.wikipedia.org/wiki/Atlas_%28computer%29' title='Atlas su Wikipedia'>Atlas</a>, University of Manchester, 1963</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg', 'Altair 8800' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/0/01/Altair_8800_Computer.jpg', 'Altair 8800' %}{% endcomment %}
 	<figcaption><a href='https://en.wikipedia.org/wiki/Altair_8800' title='Altair 8800 su Wikipedia'>Altair 8800</a> (1974)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://c2.staticflickr.com/4/3508/3832154253_0b584654fa_b.jpg', 'iMac G3' %}
+	{% comment %}{% img 'https://c2.staticflickr.com/4/3508/3832154253_0b584654fa_b.jpg', 'iMac G3' %}{% endcomment %}
 	<figcaption>iMac G3 (1998)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://d2um6umu4gwssp.cloudfront.net/apple/wp-content/uploads/2017/03/imac-intel-plastic-2006.png', 'iMac Intel Plastic' %}
+	{% comment %}{% img 'https://d2um6umu4gwssp.cloudfront.net/apple/wp-content/uploads/2017/03/imac-intel-plastic-2006.png', 'iMac Intel Plastic' %}{% endcomment %}
 	<figcaption>iMac Intel Plastic (2006)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/7/76/MacBook_Pro.png', 'il primo MacBook Pro' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/7/76/MacBook_Pro.png', 'il primo MacBook Pro' %}{% endcomment %}
 	<figcaption>il primo MacBook Pro (2006)</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/MacBook_Pro%2C_Late-2008.jpg/1920px-MacBook_Pro%2C_Late-2008.jpg', 'MacBook Pro 2010' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/MacBook_Pro%2C_Late-2008.jpg/1920px-MacBook_Pro%2C_Late-2008.jpg', 'MacBook Pro 2010' %}{% endcomment %}
 	<figcaption>MacBook Pro 2010</figcaption>
 </figure>
 
 <figure>
-	{% img 'https://upload.wikimedia.org/wikipedia/commons/4/49/MacBook_Pro_Retina_001.jpg', 'Un MacBook Pro del 2016' %}
+	{% comment %}{% img 'https://upload.wikimedia.org/wikipedia/commons/4/49/MacBook_Pro_Retina_001.jpg', 'Un MacBook Pro del 2016' %}{% endcomment %}
 	<figcaption>MacBook Pro 2016</figcaption>
 </figure>
 

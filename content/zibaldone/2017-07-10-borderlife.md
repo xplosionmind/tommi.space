@@ -5,7 +5,7 @@ tags: Radioimmaginaria
 image: /2017-07-10-borderlife-3.jpg
 ---
 <figure>
-	{% img image, 'un migrante disegna a terra con un gesso', 'u-photo' %}
+	{% comment %}{% img image, 'un migrante disegna a terra con un gesso', 'u-photo' %}{% endcomment %}
 </figure>
 
 Ho 16 anni, quasi 17, è estate, sono contento di essere in vacanza e me la godo.
@@ -31,23 +31,23 @@ Noi siamo fortunati, noi possiamo fare qualcosa, dobbiamo farci sentire, **dobbi
 P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qualcosa di più profondo ed importante che dovete leggere, [qui](https://rivieratime.news/qual-futuro-dellumanita-vive-al-ponte/ 'Qual è il futuro dell’umanità che vive sotto al ponte?').
 
 <figure>
-{% img '/2017-07-10-borderlife-1.jpg', 'Migranti che pranzano' %}
+{% comment %}{% img '/2017-07-10-borderlife-1.jpg', 'Migranti che pranzano' %}{% endcomment %}
 </figure>
 <figure>
-{% img '/2017-07-10-borderlife-2.jpg', 'Un ragazzo che calcia un pallone verso una porta vuota' %}
+{% comment %}{% img '/2017-07-10-borderlife-2.jpg', 'Un ragazzo che calcia un pallone verso una porta vuota' %}{% endcomment %}
 </figure>
 <figure>
-{% img '/2017-07-10-borderlife-4.jpg', 'Un signore mi osserva mentre gli scatto una foto' %}
+{% comment %}{% img '/2017-07-10-borderlife-4.jpg', 'Un signore mi osserva mentre gli scatto una foto' %}{% endcomment %}
 </figure>
 <figure>
-{% img '/2017-07-10-borderlife-5.jpg', 'Vestiti stesi sulle transenne ai bordi del campo da calcio' %}
+{% comment %}{% img '/2017-07-10-borderlife-5.jpg', 'Vestiti stesi sulle transenne ai bordi del campo da calcio' %}{% endcomment %}
 </figure>
 <figure>
-{% img '/2017-07-10-borderlife-6.jpg', 'Un ragazzo mi fa un braccialetto colorato' %}
+{% comment %}{% img '/2017-07-10-borderlife-6.jpg', 'Un ragazzo mi fa un braccialetto colorato' %}{% endcomment %}
 </figure>
 <figure>
-{% img '/2017-07-10-borderlife-7.jpg', 'Dei ragazzi gonfiano un pallone da calcio con una pompetta' %}
+{% comment %}{% img '/2017-07-10-borderlife-7.jpg', 'Dei ragazzi gonfiano un pallone da calcio con una pompetta' %}{% endcomment %}
 </figure>
 <figure>
-{% img '/2017-07-10-borderlife-8.jpg', 'Un bambino gioca per terra' %}
+{% comment %}{% img '/2017-07-10-borderlife-8.jpg', 'Un bambino gioca per terra' %}{% endcomment %}
 </figure>

@@ -28,7 +28,7 @@ Mi limiterò dunque a condividere una immagine da [*TMI Pics*](https://tmi.pics 
 
 <a href='https://tmi.pics/p/tommi/364002011270435929' title='Vedi su TMI Pics'>
 	<figure>
-		{% img 'https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg', 'Foto di me che presento a tarda notte una esibizione del dopo-Tenco', 'u-photo' %}
+		{% comment %}{% img 'https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg', 'Foto di me che presento a tarda notte una esibizione del dopo-Tenco', 'u-photo' %}{% endcomment %}
 	</figure>
 </a>
 

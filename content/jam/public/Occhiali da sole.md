@@ -77,7 +77,7 @@ Per quanto ci impegniamo perché accada più spesso, io e [Rebecca](https://inst
 Come al mio solito ho perso e ritrovato i Ray-Ban Meteor un’infinità di volte. Il loro smarrimento definitivo corrisponde alla notte di pazza ebbrezza passata con Rebi il <time datetime='2022-08-09'>9 agosto 2022</time> a una serata ai bagni Manola di Arma di Taggia.
 
 <figure>
-	{% img 'rebi-smarrimento.webp', 'Un selfie con Rebecca e gli occhiali appesi alla camicia' %}
+	{% comment %}{% img 'rebi-smarrimento.webp', 'Un selfie con Rebecca e gli occhiali appesi alla camicia' %}{% endcomment %}
 	<figcaption>L’ultima foto in cui appaiono i miei amati occhialini, nonché ultima testimonianza della nostra sobrietà prima di una notte di tempesta</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Come al mio solito ho perso e ritrovato i Ray-Ban Meteor un’infinità di volte
 Al momento sto utilizzando dei Ray-Ban acquistati al volo su Amazon in una situazione di emergenza nell’estate 2019.
 
 <figure>
-	{% img image, 'Un mio selfie con la linguaccia e gli occhiali da sole attuali' %}
+	{% comment %}{% img image, 'Un mio selfie con la linguaccia e gli occhiali da sole attuali' %}{% endcomment %}
 </figure>
 
 ## Non ci vedo più

@@ -13,11 +13,11 @@ toc: false
 The original fundamental purpose of building <cite>Linuxplosion</cite> was editing [Everyone](https://tommi.space/everyone 'Everyone'). Some computerphiles friends joined me in finding the best components to use, as well as in assembling the computer. In particular, a huge shout-out to my friend Giorgio, who had the patience of bearing with me during all of the assembling process.
 
 <figure>
-	{% img '2019-08-05-linuxplosion-1.jpg', 'Giorgio inserting a component of the PC into the case' %}
+	{% comment %}{% img '2019-08-05-linuxplosion-1.jpg', 'Giorgio inserting a component of the PC into the case' %}{% endcomment %}
 </figure>
 
 <figure>
-	{% img image, 'The CPU cooler and the graphic card in evidence on the left side of the case' %}
+	{% comment %}{% img image, 'The CPU cooler and the graphic card in evidence on the left side of the case' %}{% endcomment %}
 	<figcaption>The CPU cooler and the graphic card in evidence on the left side of the case</figcaption>
 </figure>
 

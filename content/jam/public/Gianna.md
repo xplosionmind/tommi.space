@@ -16,33 +16,33 @@ https://youtu.be/laIH5AQqeH0
 ## Costruzione
 
 <figure>
-	{% img 'bancali-reperimento.webp', 'Immagine di me e il nonno che carichiamo i bancali in macchina' %}
+	{% comment %}{% img 'bancali-reperimento.webp', 'Immagine di me e il nonno che carichiamo i bancali in macchina' %}{% endcomment %}
 	<figcaption>Reperimento bancali</figcaption>
 </figure>
 <figure>
-	{% img 'bancali-smembramento.webp', 'Immagine delle assi smembrate' %}
+	{% comment %}{% img 'bancali-smembramento.webp', 'Immagine delle assi smembrate' %}{% endcomment %}
 	<figcaption>Smembramento dei bancali in singole assi</figcaption>
 </figure>
 <figure>
-	{% img 'bancali-levigazione.webp', 'Immagine delle assi in corso di levigazione' %}
+	{% comment %}{% img 'bancali-levigazione.webp', 'Immagine delle assi in corso di levigazione' %}{% endcomment %}
 	<figcaption>Levigazione delle singole assi</figcaption>
 </figure>
 <figure>
-	{% img 'bancali-impregnante.webp', 'Immagine delle assi e dei supporti in asciugatura' %}
+	{% comment %}{% img 'bancali-impregnante.webp', 'Immagine delle assi e dei supporti in asciugatura' %}{% endcomment %}
 	<figcaption>stendere due mani di impregnante su tutte le assi. Dato che la libreria non è esposta ad agenti atmosferici, non è fondamentale aggiungere l’impregnante: una mano sarebbe sufficiente</figcaption>
 </figure>
 <figure>
-	{% img 'bancali-asciugatura.webp', 'Assi appoggiate sul terrazzo in fase di asciugatura' %}
+	{% comment %}{% img 'bancali-asciugatura.webp', 'Assi appoggiate sul terrazzo in fase di asciugatura' %}{% endcomment %}
 	<figcaption>Asciugare le assi al sole</figcaption>
 </figure>
 <figure>
-	{% img 'gianna-supporti.webp', 'Immagine dei primi supporti attaccati alla parete' %}
+	{% comment %}{% img 'gianna-supporti.webp', 'Immagine dei primi supporti attaccati alla parete' %}{% endcomment %}
 	<figcaption>Applicatione dei supporti sulla parete</figcaption>
 </figure>
 
 Appoggiare le assi smembrate sui supporti, aggiungere i libri e ammirare il risultato finale:
 
 <figure>
-	{% img image, 'Gianna con i libri su di sé, in tutto il suo splendore' %}
+	{% comment %}{% img image, 'Gianna con i libri su di sé, in tutto il suo splendore' %}{% endcomment %}
 	<figcaption>Gianna, in tutto il suo splendore</figcaption>
 </figure>

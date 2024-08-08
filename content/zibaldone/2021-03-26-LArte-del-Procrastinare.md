@@ -22,7 +22,7 @@ image: /2020-03-30-desk.jpg
 L’articolo seguente è la mia traduzione di <cite><a href='http://structuredprocrastination.com' hreflang='en' lang='en' title='Structured Procrastination'>Structured Procrastination</a></cite>, ad opera del mitico [John Perry](https://it.wikipedia.org/wiki/John_Perry 'John Perry su Wikipedia'), professore emerito di Filosofia all’Università di Stanford. I diritti per la traduzione sono stati gentilmente concessi dall’autore che, con mia somma sorpresa, ha risposto ad una mia email colma di ammirazione, acconsentendo alla pubblicazione in italiano sul mio sito, purché ricordassi che da questo testo è poi nato un libro, <cite><a href='https://openlibrary.org/books/OL27141326M/The_art_of_procrastination' lang='en' hreflang='en' title='The Art of Procrastination in the Open Library'>The Art of Procrastination</a></cite>, tradotto anche in italiano e intitolato <cite>[La nobile arte del cazzeggio](https://openlibrary.org/books/OL32080362M/La_nobile_arte_del_cazzeggio 'La nobile arte del cazzeggio nella Open Library')</cite>, titolo di dubbio gusto sul quale soprassederò. 
 
 <figure>
-		{% img image, 'La mia scrivania il 30 Marzo 2020', 'u-photo' %}
+		{% comment %}{% img image, 'La mia scrivania il 30 Marzo 2020', 'u-photo' %}{% endcomment %}
 	<figcaption>Il livello di casino sulla mia scrivania è spesso indice del livello di procrastinazione in cui mi trovo.</figcaption>
 </figure>
 

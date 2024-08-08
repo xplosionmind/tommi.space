@@ -34,7 +34,7 @@ Chi mi conosce sa quanto io sia appassionato, quasi ossessionato, dalle storie: 
 	<div class='entries-list subgrid'>
 		{% for thing in collections.things %}
 	 		<a div class='one-third box' href='{{ thing.url }}' title='{{ thing.data.title }}' lang='{{ thing.data.lang }}' hreflang='{{ thing.data.lang }}'>
-				{% if thing.data.image %}{% img thing.data.image, thing.data.title %}{% endif %}
+				{% comment %}{% if thing.data.image %}{% img thing.data.image, thing.data.title %}{% endif %}{% endcomment %}
 				<h2>{{ thing.data.title }}</h2>
 				{% if thing.data.description %}
 					<p>{{ thing.data.description | markdownify | strip_html | truncatewords: 30 }}</p>

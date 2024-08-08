@@ -48,7 +48,7 @@ There are also some very nice non-mainstream online resources to discover non-ma
 <div class='entries-list grid'>
 	{% for place in places reversed %}
 		<div class='little center box'>
-			{% if place.img != '' %}<figure>{% img place.img, place.name %}</figure>{% endif %}
+			{% comment %}{% if place.img != '' %}<figure>{% img place.img, place.name %}</figure>{% endif %}{% endcomment %}
 			<h2>{{ place.name }}</h2>
 			{% if place.city != '' %}
 				<p><strong>{{ place.city }}</strong></p>

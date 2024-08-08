@@ -1,4 +1,4 @@
-const { EleventyRenderPlugin } = require('@11ty/eleventy');
+import { EleventyRenderPlugin } from '@11ty/eleventy';
 
 // Markdown //
 function wikilinkSlugifier(pageName) {
@@ -10,31 +10,51 @@ function wikilinkSlugifier(pageName) {
 	return pageName
 };
 
-const markdownIt = require('markdown-it');
+import markdownIt from 'markdown-it';
+
+import markdownItWikilinks from 'markdown-it-wikilinks';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItFootnote from 'markdown-it-footnote';
+import markdownItMark from 'markdown-it-mark';
+import markdownItTaskLists from 'markdown-it-task-lists';
+
 const md = markdownIt({
 		html: true,
+		linkify: true,
 		typographer: true
 	})
-	.use(require('markdown-it-wikilinks')({
+	.use(markdownItWikilinks, {
 		uriSuffix: '',
 		makeAllLinksAbsolute: true,
-		class: 'wikilink',
-		postProcessPageName: wikilinkSlugifier,
-	}))
-	.use(require('markdown-it-anchor'), {
-		permalink: require('markdown-it-anchor').permalink.headerLink(),
+		postProcessPageName: wikilinkSlugifier
 	})
-	.use(require('markdown-it-footnote'))
-	.use(require('markdown-it-mark'))
-	.use(require('markdown-it-task-lists'))
-	.use(require('markdown-it-mathjax3'));
+	.use(markdownItAnchor, {
+		permalink: markdownItAnchor.permalink.headerLink()
+	})
+	.use(markdownItFootnote)
+	.use(markdownItMark)
+	.use(markdownItTaskLists);
 
-const { default: slugify } = require('slugify');
+import slugify from 'slugify';
 
-module.exports = function(eleventyConfig) {
+import { parse } from 'csv-parse/sync';
+
+import pluginEmbed from 'eleventy-plugin-embed-everything';
+//import pluginSass from 'eleventy-sass';
+import pluginToc from 'eleventy-plugin-toc';
+import pluginSitemap from '@quasibit/eleventy-plugin-sitemap';
+//import pluginImg from '@11ty/eleventy-img';
+
+import htmlMinifier from 'html-minifier-terser';
+
+import childProcess from 'child_process';
+
+import eleventyUpgradeHelp from '@11ty/eleventy-upgrade-help';
+
+export default async function(eleventyConfig) {
 	// General //
 	eleventyConfig.setLibrary('md', md);
-	eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
+	eleventyConfig.addDataExtension('csv', contents => parse(contents, {columns: true, skip_empty_lines: true}));
 
 	eleventyConfig.addGlobalData('permalink', () => {
 		return (data) => slugify(`${data.page.fileSlug}`, {
@@ -80,7 +100,7 @@ module.exports = function(eleventyConfig) {
 		});
 	});
 	// Multilingual sitemap collection. See https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap
-	eleventyConfig.addCollection('sitemap', function(collectionApi) {
+	/*eleventyConfig.addCollection('sitemap', function(collectionApi) {
 		return collectionApi
 			.getAll()
 			.map((item, index, all) => {
@@ -104,23 +124,13 @@ module.exports = function(eleventyConfig) {
 					},
 				}
 			});
-	});
+	});*/
 
 	eleventyConfig.addPassthroughCopy({'svg': '/'});
 	eleventyConfig.addPassthroughCopy({'assets': '/'});
-	eleventyConfig.addPassthroughCopy('index.js');
 
 	// Plugins //
-	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-	/*eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
-		url: 'https://tommi.space',
-		rel: ['noreferrer', 'noopener', 'external'],
-		overwrite: false,
-		excludedDomains:[
-			'https://tommasomarmo.com'
-		]
-	});*/
-	eleventyConfig.addPlugin(require('eleventy-plugin-embed-everything'), {
+	eleventyConfig.addPlugin(pluginEmbed, {
 		youtube: {
 			options: {
 				embedClass: 'auto-embed',
@@ -143,15 +153,9 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 	});
-	eleventyConfig.addPlugin(require('./eleventy.config.images.js'));
-	/*eleventyConfig.addPlugin(
-		require('@photogabble/eleventy-plugin-interlinker'),
-		{
-			defaultLayout: 'layouts/wikilink-embed.liquid'
-		}
-	);*/
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
-	eleventyConfig.addPlugin(require('eleventy-sass'), {
+	//eleventyConfig.addPlugin(pluginImg);
+	/*eleventyConfig.addPlugin(pluginSass, {
 		compileOptions: {
 			permalink: function(contents, inputPath) {
 				return (data) => data.page.filePathStem.replace(/^\/styles\//, '/') + '.css';
@@ -160,11 +164,11 @@ module.exports = function(eleventyConfig) {
 		sass: {
 			style: 'compressed'
 		}
-	});
-	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
+	});*/
+	eleventyConfig.addPlugin(pluginToc, {
 		ul: true
 	});
-	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
+	eleventyConfig.addPlugin(pluginSitemap, {
 		sitemap: {
 			hostname: 'https://tommi.space'
 		},
@@ -183,9 +187,9 @@ module.exports = function(eleventyConfig) {
 	// Production-only //
 	if (process.env.ELEVENTY_ENV == 'production') {
 		// Minify output //
-		eleventyConfig.addTransform(require('html-minifier-terser'), function(content, outputPath) {
+		eleventyConfig.addTransform(htmlMinifier, function(content, outputPath) {
 			if( this.outputPath && this.outputPath.endsWith('.html') ) {
-				let minified = require('html-minifier-terser').minify(content, {
+				let minified = htmlMinifier.minify(content, {
 					useShortDoctype: true,
 					removeComments: true,
 					collapseWhitespace: true,
@@ -201,14 +205,13 @@ module.exports = function(eleventyConfig) {
 			}
 			return content;
 		});
-		//temporarily disabled since it removes Piwigo styling
-		//eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
 	}
 
 	eleventyConfig.on('eleventy.after', () => {
-		const execSync = require('child_process').execSync;
-		execSync(`bun x pagefind`, { encoding: 'utf-8' });
+		childProcess.execSync(`bun x pagefind`, { encoding: 'utf-8' });
 	})
+
+	eleventyConfig.addPlugin(eleventyUpgradeHelp);
 
 	return {
 		dir: {

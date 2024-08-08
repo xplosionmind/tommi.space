@@ -18,13 +18,13 @@ Venerdì scorso ci siamo puntualmente ritrovati dopo molto tempo, ma io ho decis
 Se ne sto scrivendo qui, superfluo dire che sono rimasto affascinato ed entusiasmato. Una vecchia bocciofila di vecchietti destinata all’abbandono, piano piano sempre più frequentata da studenti di medicina, di cui uno dei poli è a due passi. Ora è luogo del meraviglioso incontro-scontro generazionale che caratterizza le sfide sociali più belle e divertenti.
 
 <figure>
-	{% img image, 'Una vecchissima, rovinatissima, quasi illeggibile insegna in cima alle scale che portano alla Boccio' %}
+	{% comment %}{% img image, 'Una vecchissima, rovinatissima, quasi illeggibile insegna in cima alle scale che portano alla Boccio' %}{% endcomment %}
 </figure>
 
 Ora, sono onorato e orgoglioso di essere il socio numero 261 della Fratellanza San Fruttuoso ❤️
 
 <figure>
-	{% img 'boccio-tessera.webp', 'La mia tessera da socio della Fratellanza San Fruttuoso' %}
+	{% comment %}{% img 'boccio-tessera.webp', 'La mia tessera da socio della Fratellanza San Fruttuoso' %}{% endcomment %}
 </figure>
 
 ## Inno per <cite>La Boccio</cite>
@@ -51,5 +51,5 @@ La scintilla è scattata presenziando al rito di conteggio degli alcolici rimast
 > la boccio, un luogo Per l’anima.
 
 <figure>
-	{% img 'boccio-inno.webp', 'Foto del foglietto su cui è scritto l’inno il cui testo precede l’immagine'%}
+	{% comment %}{% img 'boccio-inno.webp', 'Foto del foglietto su cui è scritto l’inno il cui testo precede l’immagine'%}{% endcomment %}
 </figure>

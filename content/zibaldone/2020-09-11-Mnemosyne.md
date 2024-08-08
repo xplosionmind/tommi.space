@@ -43,7 +43,7 @@ e poi evito di andare avanti perché c’è il mio filosofo preferito [Aby Warbu
 Dopo l’ovvia risposta affermativa del fratello, quella mente geniale sfruttò fino in fondo l’accordo stipulato e cominciò a acquistare talmente tanti volumi che conte Monaldo spostati, per di più in duplice copia: una veniva riposta nell’immensa biblioteca di Amburgo ed un’altra scomposta e smembrata in modo che le sue pagine potessero essere accostate e collegate a quelle di altri volumi.
 
 <figure>
-  {% img image, 'André Malraux nel suo studio, mentre confronta e osserva diverse opere d’arte', 'u-photo' %}
+  {% comment %}{% img image, 'André Malraux nel suo studio, mentre confronta e osserva diverse opere d’arte', 'u-photo' %}{% endcomment %}
   <figcaption>Ho trascorso venti minuti per ritrovare quest’immagine bellissima che avevo intravisto tempo fa per poi scoprire che non si tratta di Aby Warburg, ma di <a href='https://it.wikipedia.org/wiki/Andr%C3%A9_Malraux'>André Malraux</a>, inventore del <em>Museo Immaginario</em></figcaption>
 </figure>
 

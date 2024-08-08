@@ -11,7 +11,7 @@ step: 16
 ---
 
 <figure>
- {% img 'https://www.americamagazine.org/sites/default/files/main_image/PopeBalcony.jpg', 'Papa Francesco, la sera della sua elezione' %}
+ {% comment %}{% img 'https://www.americamagazine.org/sites/default/files/main_image/PopeBalcony.jpg', 'Papa Francesco, la sera della sua elezione' %}{% endcomment %}
 	<figcaption>Papa Francesco, la sera della sua elezione, il 13 febbraio 2013 - © americamagazine.org</figcaption>
 </figure>
 

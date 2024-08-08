@@ -8,7 +8,7 @@ Non è solo adrenalina, scienza, scoperta, desiderio, speranza, orbita, è Vita.
 Il buon vecchio Paolo Nespoli ritorna sulla ISS (International Space Station): ha 60 anni, due figli e potrebbe dirsi soddisfatto.
 
 <figure>
-  {% img image, 'Un astronauta guarda fuori dal finestrino della Soyuz appena atterrata', 'u-photo' %}
+  {% comment %}{% img image, 'Un astronauta guarda fuori dal finestrino della Soyuz appena atterrata', 'u-photo' %}{% endcomment %}
   <figcaption>oltre - © NASA</figcaption>
 </figure>
 

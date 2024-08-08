@@ -42,7 +42,7 @@ Idealmente, tutte le persone partecipanti si siedono in cerchio. Il laboratorio 
 </div>
 
 <figure>
-	{% img image, 'Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro' %}
+	{% comment %}{% img image, 'Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro' %}{% endcomment %}
 	<figcaption>Il Lab tenuto durante <a href='https://scambi.org'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
 </figure>
 

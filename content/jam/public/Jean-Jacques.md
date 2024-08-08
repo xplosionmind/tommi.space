@@ -17,9 +17,9 @@ En plus de tous les problèmes que Jean-Jacques m’a créé, il risquait d’ê
 
 <div class='row'>
 	<figure class='half column'>
-		{% img 'jj-pedal.webp', 'Le pedal Jean-Jaques cassé' %}
+		{% comment %}{% img 'jj-pedal.webp', 'Le pedal Jean-Jaques cassé' %}{% endcomment %}
 	</figure>
 	<figure class='half column'>
-		{% img 'https://tommi.space/jj-frein.webp', 'Le frein de Jean-Jaques cassé' %}
+		{% comment %}{% img 'https://tommi.space/jj-frein.webp', 'Le frein de Jean-Jaques cassé' %}{% endcomment %}
 	</figure>
 </div>

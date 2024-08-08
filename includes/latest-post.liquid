@@ -11,7 +11,7 @@
 				<p>{{ post.data.description | markdownify | strip_html }}</p>
 			{% endif %}
 			<figure>
-				{% img post.data.image, post.data.title %}
+				{% comment %}{% img post.data.image, post.data.title %}{% endcomment %}
 			</figure>
 		</a>
 	</article>

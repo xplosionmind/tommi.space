@@ -47,7 +47,7 @@ Cara Berlino, il mio non è un addio, né un arrivederci. Da qui parto trasporta
 Però, mi hai insegnato soprattutto che <u>nessunə sarà veramente liberə finché non saremo tuttз liberз</u>.
 
 <figure>
-	{% img image, 'A sign at a protest: “Nobody is free until everyone is free' %}
+	{% comment %}{% img image, 'A sign at a protest: “Nobody is free until everyone is free' %}{% endcomment %}
 	<figcaption>Primo maggio 2024, Südstern.</figcaption>
 </figure>
 

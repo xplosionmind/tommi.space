@@ -10,7 +10,7 @@ Però non so se è perché la mamma ha ragione dicendo che se prendo un caffè a
 
 Sento di dover assolutamente scrivere quanto sia emozionato dopo aver visto questo programma. È epico.
 
-<figure>{% img '/2018-04-26-brunori-sa-1.jpg', 'Una foto di Darione che ho scattato all’Ariston durante il premio Tenco 2017', 'u-photo' %}<figcaption>Darione al premio Tenco 2017</figcaption></figure>
+<figure>{% comment %}{% img '/2018-04-26-brunori-sa-1.jpg', 'Una foto di Darione che ho scattato all’Ariston durante il premio Tenco 2017', 'u-photo' %}<figcaption>Darione al premio Tenco 2017</figcaption></figure>{% endcomment %}
 
 C’è da fare una piccola premessa, però, per chi proprio non sa un cavolo di quello di cui sto parlando: Brunori Sas è un cantautore calabrese fortissimo e mi vergogno nel dire che in effetti non saprei aggiungere altro, se non il fatto che la mia canzone preferita scritta da lui è [Italian Dandy](https://youtu.be/C5Ra3qHSF68). Ha fatto un programma su Rai Tre da tre puntate chiamato <cite>[**Brunori Sa**](https://raiplay.it/programmi/brunorisa/ '“Brunori Sa„ su RaiPlay')</cite>, che ho appena terminato e sono senza parole, è da guardare.
 
@@ -40,13 +40,13 @@ Domani all’Ariston ci sarà <cite>**Brunori a Teatro** - Canzoni e Dialoghi su
 
 *Dopo un’intera giornata di continui messaggi su instagram a Brunori ed email al suo manager, il manager mi ha risposto così:*
 
-<figure>{% img '/2018-04-26-brunori-sa-2.jpg', 'la risposta del manager di Brunori Sas', 'light' %}<figcaption>La risposta del manager di Brunori Sas</figcaption></figure>
+<figure>{% comment %}{% img '/2018-04-26-brunori-sa-2.jpg', 'la risposta del manager di Brunori Sas', 'light' %}<figcaption>La risposta del manager di Brunori Sas</figcaption></figure>{% endcomment %}
 
 *io, notando il numero di telefono nella firma, ho tentato una disperata chiamata, in cui Matteo, gentilissimo mi ha ribadito che se avesse detto a Brunori di un’intervista lo avrebbe <q>preso a male parole</q>… però, per farsi perdonare, mi ha chiesto quanti siamo in tutta la redazione di Radioimmaginaria, regalandomi tre biglietti per lo spettacolo, che è stato epico.*
 
 ## Brunori ti adoriamo tutti
 
-<figure>{% img '/2018-04-26-brunori-sa-1.jpg', 'Brunori Sas immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018' %}<figcaption>Ma che bello è Darione? Scatto immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018</figcaption></figure>
+<figure>{% comment %}{% img '/2018-04-26-brunori-sa-1.jpg', 'Brunori Sas immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018' %}<figcaption>Ma che bello è Darione? Scatto immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018</figcaption></figure>{% endcomment %}
 
 ## Aggiornamento
 

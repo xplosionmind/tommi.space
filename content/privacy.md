@@ -7,7 +7,7 @@ layout: page.liquid
 description: Privacy Policy of tommi.space
 sitemap:
   changefreq: yearly
-	priority: 0.3
+  priority: 0.3
 ---
 This website does not gather any data about its visitors. Since I am in full control of <cite>[[Nebuchadnezzar]]</cite>, the server where tommi.space is hosted, all I could know are the IP addresses that connect to it. Nevertheless, I don’t care about this information and I don’t really know how to gather this data.
 

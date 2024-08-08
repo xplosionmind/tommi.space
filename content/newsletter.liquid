@@ -6,7 +6,7 @@ lang: it
 description: Parole Sconnesse è la mia pseudo-newsletter in cui, ogni tot, condivido idee, racconto vicessitudini relativamente interessanti e pubblico aggiornamenti sulle varie questioni a cui mi sto dedicando.
 sitemap:
   changefreq: monthly
-	priority: 0.6
+  priority: 0.6
 ---
 <main class='list'>
 	<hgroup class='flex'>
@@ -39,7 +39,7 @@ Per i più nerd: come indicato nella [Privacy Policy](/it/privacy-policy 'Privac
 		<a class='one-third box' href='{{ entry.url }}'>
 			<h2>{{ entry.data.title }}</h2>
 			<figure>
-				{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}
+				{% comment %}{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}{% endcomment %}
 			</figure>
 			<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
 		</a>

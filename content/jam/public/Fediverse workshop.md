@@ -51,7 +51,7 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 </div>
 
 <figure>
-	{% img image, 'A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together' %}
+	{% comment %}{% img image, 'A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together' %}{% endcomment %}
 	<figcaption>The Lab held during <a href='https://scambi.org/en'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
 </figure>
 

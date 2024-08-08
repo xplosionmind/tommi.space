@@ -7,8 +7,8 @@ image: /sconnesso.webp
 description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso.
 class: sconnesso
 sitemap:
-	changefreq: monthly
-	priority: 0.7
+  changefreq: monthly
+  priority: 0.7
 ---
 <main class='list'>
 	<hgroup class='flex'>
@@ -24,7 +24,7 @@ sitemap:
 			<a class='one-third background box' href='{{ episode.url }}'>
 				{% if episode.data.image %}
 					<figure>
-						{% img episode.data.image, episode.data.title %}
+						{% comment %}{% img episode.data.image, episode.data.title %}{% endcomment %}
 					</figure>
 				{% endif %}
 				<h2>{{ episode.data.title }}</h2>

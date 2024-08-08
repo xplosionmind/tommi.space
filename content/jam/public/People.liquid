@@ -26,7 +26,7 @@ These are real or fictional people I admire for many reasons ora very particular
 				<a href='{{ idol.url }}'>
 					<h2 id='{{ idol.who | slugify }}'>{{ idol.who }}</h2>
 					<figure>
-						{% img idol.image, idol.who %}
+						{% comment %}{% img idol.image, idol.who %}{% endcomment %}
 					</figure>
 				</a>
 				{% if idol.note %}
@@ -47,7 +47,7 @@ These are real or fictional people I admire for many reasons ora very particular
 			{% if idoltag contains 'people' %}
 				<a class='little box' href='{{ idol.url | url }}'>
 					{% if idol.data.image %}
-						<figure>{% img idol.data.image, idol.data.title %}</figure>
+						<figure>{% comment %}{% img idol.data.image, idol.data.title %}</figure>{% endcomment %}
 					{% endif %}
 					<h2 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
 					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>

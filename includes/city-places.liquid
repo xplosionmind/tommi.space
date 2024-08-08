@@ -2,7 +2,7 @@
 	{% assign endroits = places | where: 'city', city -%}
 	{%- for place in endroits -%}
 		<div class='little center box'>
-			{% if place.img != '' %}<figure>{% img place.img, place.name %}</figure>{% endif %}
+			{% comment %}{% if place.img != '' %}<figure>{% img place.img, place.name %}</figure>{% endif %}{% endcomment %}
 			<h3>{{ place.name }}</h3>
 			{% if place.city != '' %}
 				<p><strong>{{ place.city }}</strong></p>

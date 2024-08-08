@@ -39,7 +39,7 @@ eleventyImport:
 			<a class='one-third background box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
 				<h2>{{ entry.data.title }}</h2>
 				<figure>
-					{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}
+					{% comment %}{% if entry.data.image %}{% img entry.data.image, entry.data.title %}{% endif %}{% endcomment %}
 				</figure>
 				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
 				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}

@@ -10,7 +10,7 @@ class: poetry center
 description: A collection of wonderful failures of my foolish attempt at drawing images with my words you are invited to laugh at
 sitemap:
   changefreq: monthly
-	priority: 0.6
+  priority: 0.6
 ---
 {{ description }}
 

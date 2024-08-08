@@ -15,5 +15,5 @@ image: /2022-occhiali.webp
 Nel 2022 ho cominciato a vedere piuttosto male da lontano e soprattutto al buio. La nonna, immancabilmente, mi ha regalato i miei primi occhiali da vista, la cui storia vivrà in parallelo a quella rocambolesca dei loro cugini [[Occhiali da sole]].
 
 <figure>
-	{% img image, 'Un mio selfie in macchina mentre guardo in alto, indossando gli occhiali da vista' %}
+	{% comment %}{% img image, 'Un mio selfie in macchina mentre guardo in alto, indossando gli occhiali da vista' %}{% endcomment %}
 </figure>

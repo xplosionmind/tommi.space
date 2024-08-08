@@ -12,7 +12,7 @@ layout: poem.liquid
 description: Pasticci poetici vari e confusi e scombussolati e scombussolanti.
 sitemap:
   changefreq: monthly
-	priority: 0.7
+  priority: 0.7
 ---
 Non è come mangiare un gelato, la scrittura: se la addenti, non ti assale quell’immobilismo per cui il tuo cervello si contrae e non sei in grado di pensare ad altro per cinque virgola due secondi. La scrittura, invece, scalda e dilata, estende e quieta.
 

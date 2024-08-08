@@ -32,7 +32,7 @@ I tirocinanti sono un manipolo di saltellanti ~ventunenni che adorano stare fra 
 In particolare, alcuni giorni fa, una ventina di loro, provenienti della [zona di Mestre](https://www.facebook.com/agescizonamestre/ 'Pagina Facebook della zona AGESCI Mestre') (e dintorni) si sono riuniti a San Lorenzo, la parrocchia del Duomo di Mestre.
 
 <figure>
-  {% img image, 'Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo', 'u-photo' %}
+  {% comment %}{% img image, 'Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo', 'u-photo' %}{% endcomment %}
   <figcaption>I partecipanti al CFT della zona di Mestre a settembre 2021</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Questi squinternati immortalati nella foto qui sopra, fra cui —per loro sventu
 Sono stato contento di avere stretto il rapporto con i mitici Fede ed Enrico, miei “omologhi” nel [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'pagina Facebook del gruppo Mira 1'), il gruppo la cui [<abbr title='Comunità Capi'>Co.Ca.</abbr>](https://it.wikipedia.org/wiki/Comunit%C3%A0_Capi '“Comunità Capi„ su Wikipedia') mi ha accolto alcuni mesi fa, dopo la mia partenza dal [*Costa Balenae*](https://m.facebook.com/Agesci-Costabalenae-484902901713104/ 'Pagina Facebook del gruppo Costa Balenae'), di conoscere Maria e Chiara, nostre “omologhe” nel [Mira 2](https://agescimiradue.altervista.org/ 'sito web del gruppo Mira 2'), ma soprattutto felice di condividere esperienze, dubbi e soddisfazioni con altri simpatici ragazzi molto più in gamba di me.
 
 <figure>
-  {% img '/2021-09-19-promesse.jpg', 'Foto dei nostri diversi fazzolettoni appesi tutti insieme' %}
+  {% comment %}{% img '/2021-09-19-promesse.jpg', 'Foto dei nostri diversi fazzolettoni appesi tutti insieme' %}{% endcomment %}
   <figcaption>Per tre giorni siamo stati una comunità: abbiamo appeso da una parte tutte le nostre diverse e colorate promesse e ne abbiamo indossato una nuova, che ci univa tutti sotto uno stesso colore, casualmente praticamente identico a quello della camicia.</figcaption>
 </figure>
 

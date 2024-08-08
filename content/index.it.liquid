@@ -33,7 +33,7 @@ sitemap:
 			<a class='yellow button' style='background: gold' href='https://ourinternet.in/'>Scopri!</a>
 		</div>
 		<figure>
-			{% img '/fedilab-scambi.webp', 'Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro' %}
+			{% comment %}{% img '/fedilab-scambi.webp', 'Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro' %}{% endcomment %}
 		</figure>
 	</article>
 
@@ -41,7 +41,7 @@ sitemap:
 		<a href='{{ sconnesso.link }}'>
 			<h2>Il podcast <cite>Sconnesso</cite></h2>
 			<figure>
-				{% img "sconnesso.webp", "Logo Sconnesso" %}
+				{% comment %}{% img "sconnesso.webp", "Logo Sconnesso" %}{% endcomment %}
 			</figure>
 		</a>
 		<p>{{ sconnesso.description | markdownify }}</p>
@@ -61,7 +61,7 @@ sitemap:
 					<p>{{ post.data.description | markdownify | strip_html }}</p>
 				{% endif %}
 				<figure>
-					{% img post.data.image, post.data.title %}
+					{% comment %}{% img post.data.image, post.data.title %}{% endcomment %}
 				</figure>
 			</a>
 		</article>
@@ -70,7 +70,7 @@ sitemap:
 	<article class='one-third razzmatazz border box'>
 		<a href='/marmellata/' title='La Marmellata'>
 			<figure class='transp'>
-				{% img 'jam.webp', 'Un disegno dell’esplosione della testa di Tommi con una grande confusione che ne esce, il tutto rinchiuso in un vasetto di marmellata' %}
+				{% comment %}{% img 'jam.webp', 'Un disegno dell’esplosione della testa di Tommi con una grande confusione che ne esce, il tutto rinchiuso in un vasetto di marmellata' %}{% endcomment %}
 			</figure>
 			<h2 class='title'>La Marmellata</h2>
 		</a>

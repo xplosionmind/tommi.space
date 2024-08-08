@@ -14,7 +14,7 @@ description: Triste addio ad un insostituibile compagno di viaggio, nonché acce
 <q>Il pensiero di un uomo nasce innanzitutto dalla sua nostalgia</q>, mi legge Valeria, mentre, accarezzati dai *Giardini raggio di Sole* a Verona esploriamo le genialità pensate da [Albert Camus](https://it.wikipedia.org/wiki/Albert_Camus 'Albert Camus su Wikipedia') e da lui conservate ne <cite><a href='https://it.wikipedia.org/wiki/Il_mito_di_Sisifo' target='_blank' title='“Il mito di Sisifo„ su Wikipedia'>Il mito di Sisifo</a></cite>.
 
 <figure>
-	{% img image, 'Valeria che legge, seduta su una panchina dei Giardini raggio di Sole, a Verona', 'u-photo' %}
+	{% comment %}{% img image, 'Valeria che legge, seduta su una panchina dei Giardini raggio di Sole, a Verona', 'u-photo' %}{% endcomment %}
 	<figcaption>Valeria immortalata mentre mi legge Camus con venerazione</figcaption>
 </figure>
 
@@ -34,13 +34,13 @@ Se <a href='/self-editor' target='_blank' title='Being a self editor — tommi.s
 *Jarvis* è fedele e paziente, nonostante talvolta soppiantato dall’attrattivo fascino del tuttavia (va riconosciuto) favoloso [Obsidian](https://obsidian.md 'Obsidian'), che uso per organizzare [*La Marmellata*](/marmellata), su cui registrai dieci mesi fa tutte le note in lui scritte, seppur nel titolo ma non nel contenuto.
 
 <figure>
-	{% img 'obsidian-graph.webp', 'Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni', 'u-photo' %}
+	{% comment %}{% img 'obsidian-graph.webp', 'Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni', 'u-photo' %}{% endcomment %}
 	<figcaption>
 		Il grafico che raccoglie tutte le mie note (Università + cose personali + poesie + scritti su carta + appunti veloci)
 	</figcaption>
 </figure>
 <figure>
-	{% img 'obsidian-graph-jarvis.webp', 'Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni', 'u-photo' %}
+	{% comment %}{% img 'obsidian-graph-jarvis.webp', 'Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni', 'u-photo' %}{% endcomment %}
 	<figcaption>
 		Sob, le note di <em>Jarvis</em> costituiscono una grande parte del <em>La Marmellata</em>
 	</figcaption>
@@ -65,9 +65,9 @@ Dato che domattina ricominciano le mie lezioni e mi sono ripromesso che non avre
 Mi sono rassegnato al fatto che Jarvis non tornerà più fra le mie mani. Con sofferenza, ho finalmente ricominciato a scrivere, comprando [[Compagni di viaggio#Jacala I]].
 
 <figure class='half column'>
-	{% img 'jacala-open.webp', 'Una foto della prima pagina di Jacala' %}
+	{% comment %}{% img 'jacala-open.webp', 'Una foto della prima pagina di Jacala' %}{% endcomment %}
 </figure>
 <figure class='half column'>
-	{% img 'jacala-closed.webp', 'Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' %}
+	{% comment %}{% img 'jacala-closed.webp', 'Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' %}{% endcomment %}
 </figure>
 
