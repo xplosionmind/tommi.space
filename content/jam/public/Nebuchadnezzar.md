@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2024-06-09T10:28:33+02:00
+updated: 2024-08-14T17:42:48+02:00
 aliases:
   - Xplosion Server
   - Neb
@@ -29,6 +29,7 @@ From this point on, this page collects various useful information about system a
 
 - Custom CSS
 - Changing the default shell to zsh requires [a different procedure](https://forum.yunohost.org/t/tuto-comment-installer-oh-my-zsh-how-to-install-oh-my-zsh '[Tuto] Comment installer Oh My Zsh / How to install Oh My Zsh | YunoHost Forum').
+- [Fix Contabo repository problems](https://forum.yunohost.org/t/solved-error-500-put-yunohost-api-update-all-repository-problems-in-contabo/29453/2 'Solved - Error 500. "PUT" /yunohost/api/update/all - Repository problems in Contabo? - #2 by leuros88 - Support - YunoHost Forum'); NOTE: the repository sources’ URLs change in Debian 12 (Bookworm), see the [`sources.list` example in Debian Wiki](https://wiki.debian.org/SourcesList#Example_sources.list)
 
 ## Nginx
 
@@ -46,7 +47,7 @@ sudo systemctl restart nginx
 
 ### Brotli compression
 
-[Using brotli compression in NGINX (especially for my\_webapp) - YunoHost Forum](https://forum.yunohost.org/t/using-brotli-compression-in-nginx-especially-for-my-webapp/29867 'Using brotli compression in NGINX (especially for my\_webapp) - YunoHost Forum')
+[It was a mess enabling Brotli compression in Debian/YunoHost 11](https://forum.yunohost.org/t/using-brotli-compression-in-nginx-especially-for-my-webapp/29867 'Using brotli compression in NGINX (especially for my\_webapp) - YunoHost Forum'). In Debian/YunoHost 12 (Bookworm) it is much easier, I followed [this guide](https://camillehdl.dev/nginx-brotli-debian/ 'Use Brotli compression with Nginx on Debian | Camille Hodoul') to do it.
 
 ## Backup
 
@@ -54,10 +55,9 @@ sudo systemctl restart nginx
 
 ## Nextcloud
 
-Using [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html '“Using the occ command” in Nextcloud Docs'): `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]`.
+Using [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html '“Using the occ command” in Nextcloud Docs'): `sudo -u nextcloud php8.3 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]`.
 
 ## To do
 
 - Set global and/or specific CORS Origin permissions
-- `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ stt_whisper:download-models medium`
-- Nextcloud changed config files: `/var/www/nextcloud/config/config.php`, old: `/var/cache/yunohost/appconfbackup//var/www/nextcloud/config/config.php.backup.11142`
+- `sudo -u nextcloud php8.3 --define apc.enable_cli=1 /var/www/nextcloud/occ stt_whisper:download-models medium`
