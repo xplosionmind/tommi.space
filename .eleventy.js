@@ -12,7 +12,7 @@ function wikilinkSlugifier(pageName) {
 
 import markdownIt from 'markdown-it';
 
-import markdownItWikilinks from 'markdown-it-wikilinks';
+//import markdownItWikilinks from 'markdown-it-wikilinks';
 import markdownItAnchor from 'markdown-it-anchor';
 import markdownItFootnote from 'markdown-it-footnote';
 import markdownItMark from 'markdown-it-mark';
@@ -23,11 +23,11 @@ const md = markdownIt({
 		linkify: true,
 		typographer: true
 	})
-	.use(markdownItWikilinks, {
+	/*.use(markdownItWikilinks, {
 		uriSuffix: '',
 		makeAllLinksAbsolute: true,
 		postProcessPageName: wikilinkSlugifier
-	})
+	})*/
 	.use(markdownItAnchor, {
 		permalink: markdownItAnchor.permalink.headerLink()
 	})
@@ -40,7 +40,7 @@ import slugify from 'slugify';
 import { parse } from 'csv-parse/sync';
 
 import pluginEmbed from 'eleventy-plugin-embed-everything';
-//import pluginSass from 'eleventy-sass';
+import pluginSass from 'eleventy-sass';
 import pluginToc from 'eleventy-plugin-toc';
 import pluginSitemap from '@quasibit/eleventy-plugin-sitemap';
 //import pluginImg from '@11ty/eleventy-img';
@@ -155,7 +155,7 @@ export default async function(eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	//eleventyConfig.addPlugin(pluginImg);
-	/*eleventyConfig.addPlugin(pluginSass, {
+	eleventyConfig.addPlugin(pluginSass, {
 		compileOptions: {
 			permalink: function(contents, inputPath) {
 				return (data) => data.page.filePathStem.replace(/^\/styles\//, '/') + '.css';
@@ -164,7 +164,7 @@ export default async function(eleventyConfig) {
 		sass: {
 			style: 'compressed'
 		}
-	});*/
+	});
 	eleventyConfig.addPlugin(pluginToc, {
 		ul: true
 	});
