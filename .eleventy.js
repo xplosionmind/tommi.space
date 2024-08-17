@@ -1,4 +1,4 @@
-import { EleventyRenderPlugin } from '@11ty/eleventy';
+import { EleventyRenderPlugin, InputPathToUrlTransformPlugin, IdAttributePlugin } from '@11ty/eleventy';
 
 // Markdown //
 function wikilinkSlugifier(pageName) {
@@ -13,7 +13,6 @@ function wikilinkSlugifier(pageName) {
 import markdownIt from 'markdown-it';
 
 //import markdownItWikilinks from 'markdown-it-wikilinks';
-import markdownItAnchor from 'markdown-it-anchor';
 import markdownItFootnote from 'markdown-it-footnote';
 import markdownItMark from 'markdown-it-mark';
 import markdownItTaskLists from 'markdown-it-task-lists';
@@ -28,16 +27,14 @@ const md = markdownIt({
 		makeAllLinksAbsolute: true,
 		postProcessPageName: wikilinkSlugifier
 	})*/
-	.use(markdownItAnchor, {
-		permalink: markdownItAnchor.permalink.headerLink()
-	})
 	.use(markdownItFootnote)
 	.use(markdownItMark)
 	.use(markdownItTaskLists);
 
 import slugify from 'slugify';
 
-import { parse } from 'csv-parse/sync';
+import yaml from 'js-yaml';
+import { parse as csvParse } from 'csv-parse/sync';
 
 import pluginEmbed from 'eleventy-plugin-embed-everything';
 import pluginSass from 'eleventy-sass';
@@ -51,10 +48,14 @@ import childProcess from 'child_process';
 
 import eleventyUpgradeHelp from '@11ty/eleventy-upgrade-help';
 
-export default async function(eleventyConfig) {
+export default function(eleventyConfig) {
 	// General //
 	eleventyConfig.setLibrary('md', md);
-	eleventyConfig.addDataExtension('csv', contents => parse(contents, {columns: true, skip_empty_lines: true}));
+	eleventyConfig.addDataExtension('yaml,yml', contents => yaml.load(contents));
+	eleventyConfig.addDataExtension('csv', contents => csvParse(contents, {
+		columns: true,
+		skip_empty_lines: true
+	}));
 
 	eleventyConfig.addGlobalData('permalink', () => {
 		return (data) => slugify(`${data.page.fileSlug}`, {
@@ -154,6 +155,10 @@ export default async function(eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
+	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
+		extensions: 'html,liquid,md'
+	});
+	eleventyConfig.addPlugin(IdAttributePlugin);
 	//eleventyConfig.addPlugin(pluginImg);
 	eleventyConfig.addPlugin(pluginSass, {
 		compileOptions: {
@@ -220,6 +225,6 @@ export default async function(eleventyConfig) {
 			data: 'data',
 			output: 'www'
 		}
-	}; // there should never be anything after the “return” function
+	};
 };
 

@@ -6,7 +6,7 @@ description: Things to know and remember about Brave
 toc: false
 images: https://tommi.space/brave.webp
 ---
-On the internet, the debate concerning Brave is firing up. Even if my main browser remains the great [[Firefox]], I think that Brave developers’ choices are clever and very promising. I have installed it and I use it occasionally.
+On the internet, the debate concerning Brave is firing up. Even if my main browser remains the great [Firefox](content/jam/public/Firefox.md), I think that Brave developers’ choices are clever and very promising. I have installed it and I use it occasionally.
 
 ## Resources
 
