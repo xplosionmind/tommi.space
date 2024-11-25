@@ -3,7 +3,9 @@ title: Tirocinanti Saltellanti
 date: 2021-09-20T16:05:45+02:00
 updated: 2021-09-20T19:05:32+02:00
 subtitle: e la magia dello scoutismo non banale
-aliases: CFT, Campo di Formazione Tirocinanti
+aliases:
+  - CFT
+  - Campo di Formazione Tirocinanti
 permalink: /cft/
 redirect_from: [/tirocinanti-saltellanti/]
 tags: scout
@@ -12,12 +14,12 @@ description: Ovvero perché lo scoutismo è molto più di quella cosa banale che
 excerpt: |
   C’è un’inevitabile quasirritante reazione di tristezza e delusione nelle conversazioni fra amici, nel momento in cui salta fuori un argomento, motivo di chiacchierata risate e prese per il culo come qualunque altro.<br>No.<br><u>Lo scoutismo non può e non deve essere ridotto</u> a quei simpatici bigotti in uniforme che aiutano le vecchiette ad attraversare la strada o, ancora peggio, a quell’associazione paramilitare che ti lava il cervello da quando sei piccolo.
 ---
-C’è un’inevitabile quasirritante reazione di tristezza e delusione nelle conversazioni fra amici, nel momento in cui salta fuori un argomento, motivo di chiacchierata risate e prese per il culo come qualunque altro.  
-No.  
+C’è un’inevitabile quasirritante reazione di tristezza e delusione nelle conversazioni fra amici, nel momento in cui salta fuori un argomento, motivo di chiacchierata risate e prese per il culo come qualunque altro.
+No.
 <u>Lo scoutismo non può e non deve essere ridotto</u> a quei simpatici bigotti in uniforme che aiutano le vecchiette ad attraversare la strada o, ancora peggio, a quell’associazione paramilitare che ti lava il cervello da quando sei piccolo.
 
 Sono sempre felice di essere al centro dell’attenzione, non solo quando si tratta di lodi e lusinghieri gesti, ma anche nelle situazioni imbarazzanti e per i più vergognose, nonché per qualunque cosa vada dal mio abbigliamento alle mie vane speranze di poter approcciare fanciulle decisamente troppo affascinanti per me, ma no.
-No.  
+No.
 Mi dispiace amici, ma mi rifiuto di proseguire oltre con questa tolleranza, che pur dovrebbe essere parte dei principi che mi appresto ora a difendere e lodare.
 
 Lo scoutismo, il movimento scout, l’[AGESCI](https://agesci.it 'sito web AGESCI') Associazione Guide E Scout Cattolici Italiani non è un gruppo di persone che perdono i loro sabati pomeriggio a costruire aggeggi inutili, non è un mucchio di ragazzi sorridenti che hanno le loro usanze strane, da osservare con diffidenza come fossero riti satanici, non è un sottoinsieme della popolazione italiana da studiare con antropo-sociologica curiosità per i loro modi particolari. Si tratta di un’organizzazione riconosciuta internazionalmente che <u>incarna i valori più nobili e autentici che io possa immaginare</u>.
@@ -26,19 +28,19 @@ Sono appena tornato dal <abbr title='Campo di Formazione Tirocinanti'>CFT</abbr>
 
 Prima di fermare con alcune parole, finalmente, la genialità, la potenza, l’estrema importanza che il movimento scout ha nella mia vita, come in quella di tutti gli associati, come in quella del territorio in cui operano, permettetemi di raccontare del mio favoloso weekend.
 
-I tirocinanti sono un manipolo di saltellanti ~ventunenni che adorano stare fra gli adolescenti che di saltare hanno troppa voglia, o l’hanno persa a forza di rimproveri dell propri prof. o maestr.  
+I tirocinanti sono un manipolo di saltellanti ~ventunenni che adorano stare fra gli adolescenti che di saltare hanno troppa voglia, o l’hanno persa a forza di rimproveri dell propri prof. o maestr.
 In particolare, alcuni giorni fa, una ventina di loro, provenienti della [zona di Mestre](https://www.facebook.com/agescizonamestre/ 'Pagina Facebook della zona AGESCI Mestre') (e dintorni) si sono riuniti a San Lorenzo, la parrocchia del Duomo di Mestre.
 
 <figure>
-  {% img image, 'Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo', 'u-photo' %}
+  <img src='{{ image }}' alt='Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo', 'u-photo'>
   <figcaption>I partecipanti al CFT della zona di Mestre a settembre 2021</figcaption>
 </figure>
 
-Questi squinternati immortalati nella foto qui sopra, fra cui —per loro sventura— sono capitato anche io, hanno seguito tre giorni di <i class='en'>full-immersion</i> sull’essere capi, la spiegazione dei concetti di base sull’associazione e sul suo funzionamento, riflessioni sul lavoro della comunità capi e sulla progettualità caratterizzante il nostro metodo.  
+Questi squinternati immortalati nella foto qui sopra, fra cui —per loro sventura— sono capitato anche io, hanno seguito tre giorni di <i class='en'>full-immersion</i> sull’essere capi, la spiegazione dei concetti di base sull’associazione e sul suo funzionamento, riflessioni sul lavoro della comunità capi e sulla progettualità caratterizzante il nostro metodo.
 Sono stato contento di avere stretto il rapporto con i mitici Fede ed Enrico, miei “omologhi” nel [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'pagina Facebook del gruppo Mira 1'), il gruppo la cui [<abbr title='Comunità Capi'>Co.Ca.</abbr>](https://it.wikipedia.org/wiki/Comunit%C3%A0_Capi '“Comunità Capi„ su Wikipedia') mi ha accolto alcuni mesi fa, dopo la mia partenza dal [*Costa Balenae*](https://m.facebook.com/Agesci-Costabalenae-484902901713104/ 'Pagina Facebook del gruppo Costa Balenae'), di conoscere Maria e Chiara, nostre “omologhe” nel [Mira 2](https://agescimiradue.altervista.org/ 'sito web del gruppo Mira 2'), ma soprattutto felice di condividere esperienze, dubbi e soddisfazioni con altri simpatici ragazzi molto più in gamba di me.
 
 <figure>
-  {% img '/2021-09-19-promesse.jpg', 'Foto dei nostri diversi fazzolettoni appesi tutti insieme' %}
+  <img src='/2021-09-19-promesse.jpg' alt='Foto dei nostri diversi fazzolettoni appesi tutti insieme'>
   <figcaption>Per tre giorni siamo stati una comunità: abbiamo appeso da una parte tutte le nostre diverse e colorate promesse e ne abbiamo indossato una nuova, che ci univa tutti sotto uno stesso colore, casualmente praticamente identico a quello della camicia.</figcaption>
 </figure>
 
@@ -74,7 +76,7 @@ Proprio per questo nuovo proposito, vi ricordo che potete iscrivervi ai [vari fe
 
 Come sempre vi ringrazio per le valanghe di lodi e di complimenti nei commenti in fondo alla pagina, che sono diventati ormai talmente tanti che non riesco più a leggerli tutti, ma non preoccupatevi che tengo bene a mente che sono il più bello e il più simpatico per ognuno di voi miei ama(n)ti lettori.
 
-Alla prossima!  
+Alla prossima!
 (che sarà presto!)
 {% comment %}
 <br>
@@ -94,7 +96,7 @@ C’è una palese, chiara ed estremamente funzionale gerarchia, nel mondo scout,
 
 > <u>Il ragazzo è protagonista</u>, anche se non l’unico responsabile, della propria crescita, secondo la sua maturazione psicologica e la sua età. Il capo, con intenzionalità educativa, fornisce mezzi e occasioni di scelta in <u>un clima di reciproca fiducia</u> e di serena testimonianza che <u>evita ogni imposizione</u>.
 
-Il modo in cui i ragazzi vengono formati, contemporaneamente, non viene deciso a tavolino da un <i lang='fr'>entourage</i> di alcuni vecchi capi, ma segue i principi promossi da Baden Powell cento anni fa e continuamente messi in discussione da una comunità di capi che punta ad educarsi reciprocamente. Il <abbr title='Campo di Formazione Tirocinanti'>CFT</abbr> che ho concluso ieri è stato condotto da capi, tutti i progetti e tutte le attività 
+Il modo in cui i ragazzi vengono formati, contemporaneamente, non viene deciso a tavolino da un <i lang='fr'>entourage</i> di alcuni vecchi capi, ma segue i principi promossi da Baden Powell cento anni fa e continuamente messi in discussione da una comunità di capi che punta ad educarsi reciprocamente. Il <abbr title='Campo di Formazione Tirocinanti'>CFT</abbr> che ho concluso ieri è stato condotto da capi, tutti i progetti e tutte le attività
 
 Mi sono permesso di estrapolare alcune parti del patto associativo e di [sottolinearne](/underline 'Stop highlighting, start underlining') i pa
 {% endcomment %}

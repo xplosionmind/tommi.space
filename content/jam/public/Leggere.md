@@ -4,8 +4,10 @@ updated: 2022-03-14T14:56:34+01:00
 tags:
   - reading
   - topic
-aliases: Reading, Lettura
-description: Insights about reading
+aliases:
+  - Reading
+  - Lettura
+description: Cose sulla lettura
 lang: it
 toc: false
 redirect_from: ['/lettura/', '/reading/']
@@ -17,6 +19,6 @@ Leggere è un investimento. L’appagamento che la lettura dà nel breve termine
 
 ![[Reading is enough]]
 
-## Resources
+## Risorse
 
 - [Read more effectively](https://aliabdaal.com/read-more-effectively/ 'Read more effectively'), by [Ali Abdaal](https://aliabdaal.com/about/ 'Ali Abdaal')

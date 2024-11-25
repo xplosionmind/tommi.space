@@ -22,3 +22,4 @@ Per valorizzare una promozione, per pubblicizzare un proprio prodotto, bisogna f
 Non guardo spesso la televisione e non sfoglio molte riviste, per questo temo che lo spot pubblicitario da me scelto non sia l’esempio migliore, ma il seguente è quello che più si avvicina a ciò che intendo dire.
 
 https://youtu.be/GS9bftGGYB8
+

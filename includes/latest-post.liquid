@@ -1,17 +1,18 @@
 {% for post in zibaldone limit:1 %}
-	<section id='latest-post' class='box row' title='{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}'>
-		<h2 id='latest-post-sign' class='red button'>{% if lang == 'it' %}Ultimo post{% else %}Latest post{% endif %}</h2>
-		<div class='half column vertical flex'>
-			<h2><a href='{{ post.url }}' hreflang='{{ post.data.lang }}'>{{ post.data.title }}</a></h2>
-			<p>
-				{{ post.content | markdownify | strip_html | truncatewords: 160 }}
-			</p>
-			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' class='written red button'>{% if lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
+	<article class='half subgrid'>
+		<div class='half flex' style='transform: translateY(1em)'>
+			<h2 style='color: #FFF; margin: 0' class='center wavyBackgroundPurple'>
+				{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}
+			</h2>
 		</div>
-		<div class='half column vertical flex'>
-			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}'>
-				{% img post.data.image, post.data.title %}
-			</a>
-		</div>
-	</section>
+		<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' class='half | box {% if post.data.tags contains 'newsletter' %}newsletter{% else %}purple{% endif %}' title='{{ post.data.title }}'>
+			<h3>{{ post.data.title }}</h3>
+			{% if post.data.description %}
+				<p>{{ post.data.description | markdownify | strip_html }}</p>
+			{% endif %}
+			<figure>
+				<img src='{{ img post.data.image }}' alt='{{ post.data.title }}'>
+			</figure>
+		</a>
+	</article>
 {% endfor %}

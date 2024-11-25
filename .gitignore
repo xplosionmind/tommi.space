@@ -1,5 +1,6 @@
 # Node stuff
 node_modules
+package-lock.json
 
 # Eleventy stuff
 .env
@@ -10,3 +11,9 @@ assets
 
 # Imported from Omnivore
 content/jam/Omnivore
+
+# University stuff
+content/jam/AISS
+
+# temporarily removed content
+removed

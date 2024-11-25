@@ -8,3 +8,4 @@ step: 3
 Un miniera di Bitcoin distrutta da un incendio.
 
 Bangkok, 14 ottobre 2014.
+

@@ -1,10 +1,11 @@
 ---
 date: 2021-05-15T15:32:12+02:00
 updated: 2022-03-14T15:01:32+01:00
-tags: places
+tags:
+  - place
 location: Brillo Parlante
-toc: false
 image: https://tommi.space/brillo-parlante.jpg
+toc: false
 ---
 The very place where *[[Drunch]]* was invented.
 

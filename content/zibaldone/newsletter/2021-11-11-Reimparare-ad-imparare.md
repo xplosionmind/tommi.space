@@ -28,7 +28,7 @@ Mi limiterò dunque a condividere una immagine da [*TMI Pics*](https://tmi.pics 
 
 <a href='https://tmi.pics/p/tommi/364002011270435929' title='Vedi su TMI Pics'>
 	<figure>
-		{% img 'https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg', 'Foto di me che presento a tarda notte una esibizione del dopo-Tenco', 'u-photo' %}
+		<img src='https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg', 'Foto di me che presento a tarda notte una esibizione del dopo-Tenco' alt='u-photo'>
 	</figure>
 </a>
 
@@ -53,11 +53,11 @@ L’evento sarà contemporaneamente a Roma, Venezia e Milano, il 13 novembre 202
 
 ## Mi è tornata la poesia
 
-Temevo di essere afflitto da un morbo che si è mostrato essere solo passeggero, come speravo.  
-Sono ancora capace a scrivere lettere poetiche romantiche di batticuori e fibrillazione,  
+Temevo di essere afflitto da un morbo che si è mostrato essere solo passeggero, come speravo.
+Sono ancora capace a scrivere lettere poetiche romantiche di batticuori e fibrillazione,
 capace di trovare emozioni e legami in emozioni del mondo e fra chi lo abita. Forse.
 
 Il mio inno era <cite>[Meccanica](https://youtu.be/93EfFwQ9qzo '“Meccanica„ su youTube')</cite>, ora è una combo fra <cite>[City of stars](https://en.wikipedia.org/wiki/City_of_Stars '“City of Stars„ su Wikipedia')</cite>, <cite>[Amarsi male](https://youtu.be/CAL58RPoeso '“Amarsi male„ official video')</cite> e <cite>[Can I Sleep in Your Brain](https://youtu.be/sFMHcTjGOdI '“Can I Sleep in Your Brain”, by Ezra Furman')</cite>.
 
-Ci vediamo nel mondo dei sogni.  
+Ci vediamo nel mondo dei sogni.
 T.

@@ -1,116 +1,87 @@
-const { EleventyRenderPlugin } = require('@11ty/eleventy');
+import { EleventyRenderPlugin, InputPathToUrlTransformPlugin, IdAttributePlugin } from '@11ty/eleventy';
 
-// Markdown //
-function wikilinkSlugifier(pageName) {
-	pageName = pageName.replace(/\s+/, '-');
-	pageName = slugify(pageName, {
-		remove: /'/g,
-		lower: true
-	});
-	return pageName
-};
+import markdownIt from 'markdown-it';
 
-const markdownIt = require('markdown-it');
-const md = markdownIt({
+import markdownItFootnote from 'markdown-it-footnote';
+import markdownItMark from 'markdown-it-mark';
+import markdownItTaskLists from 'markdown-it-task-lists';
+
+const md = markdownIt(
+	{
 		html: true,
+		linkify: true,
 		typographer: true
-	})
-	.use(require('markdown-it-wikilinks')({
-		uriSuffix: '',
-		makeAllLinksAbsolute: true,
-		class: 'wikilink',
-		postProcessPageName: wikilinkSlugifier,
-	}))
-	.use(require('markdown-it-anchor'), {
-		permalink: require('markdown-it-anchor').permalink.headerLink(),
-	})
-	.use(require('markdown-it-footnote'))
-	.use(require('markdown-it-mark'))
-	.use(require('markdown-it-task-lists'))
-	.use(require('markdown-it-mathjax3'));
+	}
+).use(markdownItFootnote).use(markdownItMark).use(markdownItTaskLists);
 
-const { default: slugify } = require('slugify');
+import slugify from '@sindresorhus/slugify';
 
-module.exports = function(eleventyConfig) {
+import yaml from 'js-yaml';
+import { parse as csvParse } from 'csv-parse/sync';
+
+//import pluginEmbed from 'eleventy-plugin-embed-everything';
+import pluginToc from 'eleventy-plugin-toc';
+//import pluginImg from '@11ty/eleventy-img';
+
+import htmlMinifier from 'html-minifier-terser';
+
+//import childProcess from 'child_process';
+
+export default function (eleventyConfig) {
 	// General //
-	eleventyConfig.setLibrary('md', md);
-	eleventyConfig.addDataExtension('csv', contents => require('csv-parse/sync').parse(contents, {columns: true, skip_empty_lines: true}));
+	//eleventyConfig.setLibrary('md', md);
+	eleventyConfig.addDataExtension('yaml,yml', contents => yaml.load(contents));
+	eleventyConfig.addDataExtension('csv', contents => csvParse(contents, {
+		columns: true,
+		skip_empty_lines: true
+	}));
 
 	eleventyConfig.addGlobalData('permalink', () => {
-		return (data) => slugify(`${data.page.fileSlug}`, {
-			remove: /'/g,
-			lower: true
-		}).concat('/');
+		return (data) => slugify(data.page.fileSlug).concat('/');
 	});
 
 	// Collections //
-	eleventyConfig.addCollection('zibaldone', function(collection) {
+	eleventyConfig.addCollection('now', function (collection) {
+		return collection.getFilteredByGlob('now/**/*').sort((a, b) => {
+			return b.date - a.date; // sort by date - descending
+		});
+	});
+	eleventyConfig.addCollection('zibaldone', function (collection) {
 		return collection.getFilteredByGlob('content/zibaldone/**/*').sort((a, b) => {
 			return b.date - a.date; // sort by date - descending
 		});
 	});
-	eleventyConfig.addCollection('jam', function(collection) {
+	eleventyConfig.addCollection('jam', function (collection) {
 		return collection.getFilteredByGlob('content/jam/public/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
-	eleventyConfig.addCollection('poetry', function(collection) {
+	eleventyConfig.addCollection('poetry', function (collection) {
 		return collection.getFilteredByGlob('content/poetry/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
-	eleventyConfig.addCollection('sconnesso', function(collection) {
+	eleventyConfig.addCollection('sconnesso', function (collection) {
 		return collection.getFilteredByGlob('content/sconnesso/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
-	eleventyConfig.addCollection('scripts', function(collection) {
-		return collection.getFilteredByGlob('scripts/*.md').sort((a, b) => {
+	eleventyConfig.addCollection('filinge', function (collection) {
+		return collection.getFilteredByGlob('content/filinge/*').sort((a, b) => {
 			return b.date - a.date;
 		});
 	});
-	// Multilingual sitemap collection. See https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap
-	eleventyConfig.addCollection('sitemap', function(collectionApi) {
-		return collectionApi
-			.getAll()
-			.map((item, index, all) => {
-				return {
-					url: item.url,
-					date: item.date,
-					data: {
-						...item.data,
-						sitemap: {
-							...item.data.sitemap,
-							links:
-								all
-									.filter(other => other.data.ref === item.data.ref)
-									.map(translation => {
-										return {
-											url: translation.url,
-											lang: translation.data.lang,
-										};
-									}),
-						},
-					},
-				}
-			});
+	eleventyConfig.addCollection('italian', function (collectionApi) {
+		return collectionApi.getAll().filter((item) => item.data.lang == 'it').sort((a, b) => {
+			return b.date - a.date;
+		});
 	});
 
-	eleventyConfig.addPassthroughCopy({'svg': '/'});
-	eleventyConfig.addPassthroughCopy({'assets': '/'});
-	eleventyConfig.addPassthroughCopy('index.js');
+	eleventyConfig.addPassthroughCopy({ 'svg': '/' });
+	eleventyConfig.addPassthroughCopy({ 'assets': '/' });
 
 	// Plugins //
-	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-	/*eleventyConfig.addPlugin(require('@aloskutov/eleventy-plugin-external-links'), {
-		url: 'https://tommi.space',
-		rel: ['noreferrer', 'noopener', 'external'],
-		overwrite: false,
-		excludedDomains:[
-			'https://tommasomarmo.com'
-		]
-	});*/
-	eleventyConfig.addPlugin(require('eleventy-plugin-embed-everything'), {
+	/*eleventyConfig.addPlugin(pluginEmbed, {
 		youtube: {
 			options: {
 				embedClass: 'auto-embed',
@@ -132,34 +103,15 @@ module.exports = function(eleventyConfig) {
 				embedClass: 'auto-embed'
 			}
 		}
-	});
-	eleventyConfig.addPlugin(require('./eleventy.config.images.js'));
-	/*eleventyConfig.addPlugin(
-		require('@photogabble/eleventy-plugin-interlinker'),
-		{
-			defaultLayout: 'layouts/wikilink-embed.liquid'
-		}
-	);*/
+	});*/
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
-	eleventyConfig.addPlugin(require('eleventy-sass'), {
-		compileOptions: {
-			permalink: function(contents, inputPath) {
-				return (data) => data.page.filePathStem.replace(/^\/styles\//, '/') + '.css';
-			}
-		},
-		sass: {
-			style: 'compressed'
-		}
+	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
+		extensions: 'md,html,liquid'
 	});
-	eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
-		ul: true,
-		wrapperClass: 'collapsible-element',
-	});
-	eleventyConfig.addPlugin(require('@quasibit/eleventy-plugin-sitemap'), {
-		sitemap: {
-			hostname: 'https://tommi.space'
-		},
-		lastModifiedProperty: 'updated'
+	//eleventyConfig.addPlugin(IdAttributePlugin); // BUG: says that there are duplicate IDs where there aren’t any
+	//eleventyConfig.addPlugin(pluginImg);
+	eleventyConfig.addPlugin(pluginToc, {
+		ul: true
 	});
 
 	// Filters //
@@ -172,11 +124,11 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Production-only //
-	if (process.env.ELEVENTY_ENV == 'production') {
+	/*if (process.env.ELEVENTY_ENV == 'production') {
 		// Minify output //
-		eleventyConfig.addTransform(require('html-minifier-terser'), function(content, outputPath) {
-			if( this.outputPath && this.outputPath.endsWith('.html') ) {
-				let minified = require('html-minifier-terser').minify(content, {
+		eleventyConfig.addTransform(htmlMinifier, function (content, outputPath) {
+			if (this.outputPath && this.outputPath.endsWith('.html')) {
+				let minified = htmlMinifier.minify(content, {
 					useShortDoctype: true,
 					removeComments: true,
 					collapseWhitespace: true,
@@ -192,14 +144,11 @@ module.exports = function(eleventyConfig) {
 			}
 			return content;
 		});
-		//temporarily disabled since it removes Piwigo styling
-		//eleventyConfig.addPlugin(require('eleventy-plugin-purgecss'));
-	}
+	}*/
 
-	eleventyConfig.on('eleventy.after', () => {
-		const execSync = require('child_process').execSync;
-		execSync(`bun x pagefind`, { encoding: 'utf-8' });
-	})
+	/*eleventyConfig.on('eleventy.after', () => {
+		childProcess.execSync(`bun x pagefind`, { encoding: 'utf-8' });
+	})*/
 
 	return {
 		dir: {
@@ -208,5 +157,5 @@ module.exports = function(eleventyConfig) {
 			data: 'data',
 			output: 'www'
 		}
-	}; // there should never be anything after the “return” function
+	};
 };

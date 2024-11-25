@@ -6,8 +6,7 @@ permalink: /poetry.json
 lang: it
 layout: feed.json.liquid
 ---
-{% assign poetry = collections.poetry | sort: 'date' | reverse %}
-	"items": [{% for entry in poetry limit: 10 %}
+	"items": [{% for entry in collections.poetry limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",
@@ -16,8 +15,8 @@ layout: feed.json.liquid
 		"content_text": "{{ entry.content | strip_html | replace: '\n', ' ' | replace: '	', ' ' | replace: '\\', '\\\\' | replace: '"', '\\"' | strip }}",
 		{% if entry.data.description %}"summary": "{{ entry.data.description | replace: '"', '\'' | replace: '\n', ' ' }}",{% endif -%}
 		{% if entry.data.image %}"image": "{{ entry.data.image }}",{% endif %}
-		{% if entry.date %}"date_published": "{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}",{% endif %}
-		{% if entry.data.updated %}"date_modified": "{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}",{% endif %}
+		{% if entry.date %}"date_published": "{{ entry.date | date_to_xmlschema }}",{% endif %}
+		{% if entry.data.updated %}"date_modified": "{{ entry.data.updated | date_to_xmlschema }}",{% endif %}
 		"tags": [
 			"poetry"
 		],

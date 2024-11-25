@@ -10,7 +10,7 @@ Perché facciamo scelte sbagliate?
 Esistono scelte sbagliate?
 
 <figure>
-	{% img image, 'un simpatico cartello che mostra che in qualunque direzione vai, arrivi a Salerno', 'u-photo' %}
+	<img src='{{ image }}' alt='un simpatico cartello che mostra che in qualunque direzione vai, arrivi a Salerno', 'u-photo'>
 	<figcaption>Non è difficile scegliere di andare a Salerno (cartello reale: ho scattato questa foto a Giffoni Valle Piana due anni fa)</figcaption>
 </figure>
 

@@ -2,7 +2,9 @@
 date: 2020-06-10T02:00:00+02:00
 updated: 2022-04-06T18:11:19+02:00
 permalink: /qsm/
-aliases: QSM, quitsocialmedia.club notes
+aliases:
+  - QSM
+  - quitsocialmedia.club notes
 description: |
   Random messed up multilingual notes about <a href='https://quitsocialmedia.club'  target='_blank' title='Quit Social Media'>quitsocialmedia.club</a>
 redirect_from:
@@ -19,8 +21,6 @@ redirect_from:
 - why the present website will not be updated
 - rebranding / renaming?
 - Setup [Crowdin](https://crowdin.com) for localization
-
-<br>
 
 ### Content
 
@@ -41,22 +41,13 @@ redirect_from:
 
 <p class='cite'>David Hume</p>
 
-<br>
-<br>
-
 ## Concept
 
 L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi e le questioni per cui i social network così come li conosciamo sono socialmente dannosi e successivamente spingere in ogni modo le persone a firmarlo. Utopisticamente, il fine sarebbe che tutte le persone che hanno firmato il manifesto, una volta raggiunto un (grande) numero stabilito, in massa escano dai social proprietari, creando un vero e proprio movimento indipendente che promuove l’abbandono delle piattaforme brutte, grosse e cattive.
 
-<br>
-<br>
-
 ## Notes from *Ten Arguments for your deleting Social Media accounts*
 
 [Here are](https://tommi.space/lanier-social-media-notes) the notes from the great book by [Jaron Lanier](http://www.jaronlanier.com/), [Ten Arguments for Your Deleting Social Media Accounts - Right Now](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey of writing the main [*quitsocialmedia.club*](https://quitsocialmedia.club/why) arguments, but it explains in a better and more detailed way what I have been thinking about for months now.
-
-<br>
-<br>
 
 ## Arguments
 
@@ -70,9 +61,6 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - tempo 'perso'
 - chi possiede i dati?
 
-<br>
-<br>
-
 ## Random thoughts
 
 - qualcuno si sta accorgendosi di qualcosa dev'essere trattata come una crisi, dovrebbe crescere la consapevolezza, come per l'ambiente
@@ -85,9 +73,6 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - decentralizzazione
 - non più solo mezzo, anche fine
 - Il problema del non avere i social è che necessariamente per forza ora diminuirebbe l'interazione. Sto vivendo molto meno l'umanità e le relazioni.
-
-<br>
-<br>
 
 ## Video spiegazione
 
@@ -119,9 +104,6 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 		- perché dobbiamo dare un forte segnale e rendere un contenuto virale, cosa difficile se non impossibile su altre piattaforme, poiché non hanno sufficienti utenti
  - non 'perché?', ma 'perché no?'
  - non più solo mezzo, anche fine
-
-<br>
-<br>
 
 ## Podcast
 
@@ -166,8 +148,6 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 	- distrazione
 	- monopolizzazione
 
-<br>
-
 ### Istruzioni
 
 ```
@@ -175,8 +155,6 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 Innanzitutto, ci terrei molto se riuscissi a leggere tutto il sito o almeno la pagina “Perché” (https://quitsocialmedia.club/perché), che è quella su cui faremo l’episodio del podcast. Ogni tipo di critica o feedback è per me di vitale importanza.   
 Il giorno prima o diverse ore prima di registrare, mandami i titoli di tre o quattro paragrafi che vorresti leggere, io ti dirò se vanno bene o te ne assegnerò altri.
-
-
 
 *Istruzioni per la registrazione*
 
@@ -186,8 +164,6 @@ Il giorno prima o diverse ore prima di registrare, mandami i titoli di tre o qua
 - Non inviarmi più registrazioni della stessa cosa, scegli tu la migliore
 - salta a pié pari tutte le parti “maggiori informazioni”
 
-
-
 *Istruzioni per l’invio*
 
 - Fai un file separato per ogni paragrafo
@@ -195,15 +171,10 @@ Il giorno prima o diverse ore prima di registrare, mandami i titoli di tre o qua
 - inviami tutto in un’email a tommi@sconnesso.link
 - invia entro lunedì sera al massimo, se avessi problemi e dovessi ritardare, scrivimi in privato
 
-
-
 L’episodio del podcast andrà in onda giovedì 11 febbraio, scrivimi qui di seguito se preferisci non essere nominato fra i ringraziamenti, alla fine.
 
 Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto darmi una mano ❤️
 ```
-
-<br>
-<br>
 
 ## Contact
 
@@ -234,14 +205,10 @@ Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto d
 - [x] [The Devs](https://thedevs.network/)
 - [x] Tlon
 
-<br>
-
 ## Collaborations (?)
 
 - Giffoni Film Festival
 - Radioimmaginaria
-
-<br>
 
 ## Press
 
@@ -257,9 +224,6 @@ Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto d
 - quando una persona che ha lavorato proprio a costruire i Social Media dice di uscire.
 - Associare a immagini di ex-lavoratori ed inserire loro citazioni
 
-<br>
-<br>
-
 ## Mail
 
 ```
@@ -271,9 +235,6 @@ Thank you very much for your time and your work.
 Best regards,
 Tommi
 ```
-
-<br>
-<br>
 
 ## Messaggi
 
@@ -296,8 +257,6 @@ Vi sarò eternamente riconoscente per qualunque vostro contributo.
 Un abbraccio
 ```
 
-<br>
-
 ```
 Dopo circa 150 interminabili ore di lavoro, ho completato https://quitsocialmedia.club. Sarei felicissimo se mi deste un feedback.
 
@@ -305,3 +264,4 @@ Se non avete voglia di leggere, ho dedicato una puntata del mio podcast, _Sconne
 
 Contemporaneamente, abbandonerò tutte le piatteforme Social annoverate lì sopra.
 ```
+

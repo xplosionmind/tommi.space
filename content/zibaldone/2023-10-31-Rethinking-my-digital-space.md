@@ -2,10 +2,11 @@
 title: Rethinking my digital space
 date: 2023-10-31T20:15:12+01:00
 tags: [zen, meta, geek]
-location: Berlin
+location: xHain
 permalink: /v2/
 image: https://tommi.space/xhain-workspace.webp
 lang: en
+ref: v2
 ---
 My past year has been unprecedentedly full of novel opportunities, experiences, life accomplishments. Going back further, during the past *few* years I reckon I changed a lot. To boil it down to a single word, I would dare to say that I have matured.
 
@@ -18,7 +19,7 @@ During the past few months, as I broke some life milestones such as graduating, 
 All the pieces got together a few days ago, <time datetime='2023-10-28T11:32:43+02:00'>in the morning of Saturday 28<sup>th</sup> November 2023</time>, while doing the [<q>Alternative Berlin</q> walking tour](https://freewalkingtour.com/berlin/alternative-berlin 'Alternative Berlin Tour | Free Walking Tour by Walkative!'), guided by the very fun and inspiring [Dara Gilroy](https://daragilroy.com 'Dara’s Tour - Tips and Suggestions for Berlin'). As we walked by some great Berlinese street art, a spark fired up in my mind. I cannot remember what it was, it was a matter of milliseconds. Besides, I had the dumb idea to drink a cappuccino before the tour and drink a beer during a pause. I was both caffeinated and tipsy at the same time. [Daniela](https://instagram.com/cappucciodaniela 'Daniela’s Instagram profile'), my lovely friend who I was so happy to meet again here in Berlin, had to bear yet another episode of Tommi getting crazy about complex, mysteriously cryptic nerdy things. I took my phone out of my pocket and started recording a frantic audio with impulsive thoughts and ideas.
 
 <figure>
-	{% img 'https://tommi.space/berlin-dani.webp', 'Photo of Daniela winking at the camera while mounting on a staircase full of stickers. On the wall, a sign says “No photo or video shootings on the staircase” (ooops)' %}
+	<img src='https://tommi.space/berlin-dani.webp' alt='Photo of Daniela winking at the camera while mounting on a staircase full of stickers. On the wall, a sign says “No photo or video shootings on the staircase” (ooops)'>
 	<figcaption>Daniela in a staircase full of stickers in a building I cannot remember the name of</figcaption>
 </figure>
 

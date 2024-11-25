@@ -15,7 +15,7 @@ During [[Portorož Youth Health Forum 2023]], while having a chat with [Batool](
 Thus, I am hereby founding the artistic political philosophical scientific transcendental current of Stickstory.
 
 <figure>
-	{% img image, 'A picture of my MacBook’s back, filled with stickers' %}
+	<img src='{{ image }}' alt='A picture of my MacBook’s back, filled with stickers'>
 	<figcaption>My laptop’s back as of the <time datetime='2023-03-04T10:57:37+01:00'>3 March 2023</time></figcaption>
 </figure>
 

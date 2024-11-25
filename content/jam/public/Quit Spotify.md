@@ -36,7 +36,7 @@ Reasons to quit Spotify:
 <br>
 
 <figure>
-	{% img 'Spotify-close-account.jpg', 'repercussions of closing Spotify account' %}
+	<img src='Spotify-close-account.jpg' alt='repercussions of closing Spotify account'>
 	<figcaption>
 		Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.
 	</figcaption>
@@ -85,7 +85,7 @@ One thing I am going to actually miss is the weekly email with new releases from
 
 ### On desktop
 
-Use a combination of the alternatives above, since none is as complete as Spotify.  
+Use a combination of the alternatives above, since none is as complete as Spotify.
 The purpose is to <u>differentiate</u> as much as possible all of the streaming services to value fair competition. The most promising software is [FreeTube](https://freetubeapp.io 'FreeTube').
 
 Ideally, the best way would be to download and store locally all of the music I listen to, as I did up to 3 years ago, but I have to admit it’s not convenient at all, from every point of view.

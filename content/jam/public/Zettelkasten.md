@@ -13,6 +13,7 @@ description: A wonderfully clever way to manage knowledge and ideas as well as m
 aliases:
   - Digital Garden
   - Wiki
+toc: true
 todo:
   - '[Zettelkasten overreach](https://t.me/c/1158323687/5078)'
 ---

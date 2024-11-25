@@ -2,7 +2,9 @@
 date: 2022-04-08T12:07:30+02:00
 updated: 2023-09-15T12:26:05+02:00
 tags:
-  - geek/neb
+  - geek/sysad
+  - todo
+  - geek/dev
 location: home
 description: Ideas about things it could help to automate.
 toc: false

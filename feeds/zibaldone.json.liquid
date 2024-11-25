@@ -1,13 +1,12 @@
 ---
 title: Zibaldone
 description: Tutti gli articoli dal blog di tommi.space
-altUrl: https://tommi.space/zibaldone
+altUrl: https://tommi.space/zibaldone/
 permalink: /zibaldone.json
 layout: feed.json.liquid
 lang: it
 ---
-{% assign zib = collections.zibaldone | sort: 'date' | reverse %}
-	"items": [{% for entry in zib limit: 10 %}
+	"items": [{% for entry in collections.zibaldone limit: 10 %}
 	{
 		"id": "{{ site.url }}{{ entry.url }}",
 		"url": "{{ site.url }}{{ entry.url }}",
@@ -16,8 +15,8 @@ lang: it
 		"content_text": "{{ entry.content | strip_html | replace: '\n', ' ' | replace: '	', ' ' | replace: '\\', '\\\\' | replace: '"', '\\"' | strip }}",
 		{% if entry.data.description %}"summary": "{{ entry.data.description | replace: '"', '\'' | replace: '\n', ' ' }}",{% endif -%}
 		{% if entry.data.image %}"image": "{{ entry.data.image }}",{% endif %}
-		{% if entry.date %}"date_published": "{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}",{% endif %}
-		{% if entry.data.updated %}"date_modified": "{{ entry.data.updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}",{% endif %}
+		{% if entry.date %}"date_published": "{{ entry.date | date_to_xmlschema }}",{% endif %}
+		{% if entry.data.updated %}"date_modified": "{{ entry.data.updated | date_to_xmlschema }}",{% endif %}
 		{% if entry.data.tags %}"tags": [{% for tag in entry.data.tags -%}
 			"{{ tag }}"{% unless forloop.last %},{% endunless %}
 		{% endfor %}

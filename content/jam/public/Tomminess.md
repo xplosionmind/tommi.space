@@ -12,6 +12,7 @@ image: /tomminess.jpg
 redirect_from:
   - /tommi-uguale/
 main: true
+toc: true
 ---
 Who Tommi is cannot exhaustively be defined merely by [his <cite>About page</cite>](https://tommi.space/about 'About Tommi'), [his resume](https://cv.tommi.space 'Tommi’s CV'), [what he is doing](https://tommi.space/now 'Now - tommi.space'), nor <a href='https://tommi.space/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what he did</a>.
 
@@ -64,11 +65,9 @@ Occasionally, friends of mine I have not been in touch with for quite some time 
 {% for p in tommi-uguale -%}
 	{% if p.name != '' -%}### {{ p.name }}{% endif -%}
 	<a href='{{ p.url }}'>
-		<figure>
 			{% if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
-			{% if p.image != '' -%}{% img p.image, p.name %}{% endif -%}
-			{% if p.description != '' -%}<figcaption>{{ p.description | markdownify }}</figcaption>{% endif -%}
-		</figure>
+			{% if p.image != '' -%}<figure><img src='{{ p.image }}' alt='{{ p.name }}'></figure>{% endif -%}
+			{% if p.description != '' -%}<p>{{ p.description | markdownify }}</p>{% endif -%}
 	</a>
 {% endfor -%}
 

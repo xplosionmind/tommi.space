@@ -1,7 +1,8 @@
 {
-	"tags": "filinge",
-	"layout": "post",
+	"class": "filinge",
+	"layout": "filinge.liquid",
 	"lang": "it",
+	"primary": "var(--green)",
 	"sitemap": {
 		"chengefreq": "never",
 		"priority": 0.3

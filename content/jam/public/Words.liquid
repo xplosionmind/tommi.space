@@ -9,7 +9,7 @@ description: My peronal collection of wonderful words—either ugly words with a
 <ul class='two'>
 	{% for p in parole %}
 		<li lang='{{ p.lang }}'>
-			<time datetime='{{ p.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>
+			<time datetime='{{ p.date | date_to_xmlschema }}'>
 				{{ p.date | date: '%Y-%m-%d' }}
 			</time>
 			{%- if p.url != '' -%}

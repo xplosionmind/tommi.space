@@ -4,9 +4,9 @@ updated: 2022-12-21T11:39:55+01:00
 tags:
   - geek
   - fediverse
-location: home
-description: Various Fediverse information, tips, and accounts worth following.
 image: https://blog.alexgleason.me/content/images/2019/11/fediverse.png
+description: Various Fediverse information, tips, and accounts worth following.
+location: home
 ---
 The Fediverse is a [[Decentralization|decentralized]] ensemble of social networking apps (more below).
 

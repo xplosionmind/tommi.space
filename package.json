@@ -1,57 +1,54 @@
 {
-  "name": "tommi.space",
-  "version": "2.0.0",
-  "description": "Tommi’s personal website",
-  "scripts": {
-    "start": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
-    "build": "ELEVENTY_ENV=production eleventy",
-    "debug": "DEBUG=Eleventy* bun run start",
-    "clean": "del-cli dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@codeberg.org:tommi/tommi.space.git"
-  },
-  "keywords": [
-    "11ty",
-    "blog",
-    "digital-garden",
-    "digital-humanities",
-    "indieweb",
-    "jam",
-    "life",
-    "notes",
-    "personal-website",
-    "poetry",
-    "resume",
-    "static-site",
-    "webrings",
-    "weird",
-    "zettelkasten"
-  ],
-  "author": "Tommi",
-  "license": "CC-BY-SA-4.0",
-  "bugs": {
-    "url": "https://github.com/xplosionmind/tommi.space/issues"
-  },
-  "homepage": "https://tommi.space",
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^3.1.8",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@photogabble/eleventy-plugin-interlinker": "1.1.0-rc4",
-    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "csv-parse": "^5.5.5",
-    "eleventy-plugin-embed-everything": "^1.18.2",
-    "eleventy-plugin-toc": "^1.1.5",
-    "eleventy-sass": "^2.2.4",
-    "html-minifier-terser": "^7.2.0",
-    "markdown-it-anchor": "^8.6.7",
-    "markdown-it-footnote": "^4.0.0",
-    "markdown-it-mark": "^4.0.0",
-    "markdown-it-mathjax3": "^4.3.2",
-    "markdown-it-task-lists": "^2.1.1",
-    "markdown-it-wikilinks": "^1.4.0",
-    "reurl": "1.0.0-rc.2"
-  }
+	"name": "tommi.space",
+	"version": "2.0.0",
+	"description": "Tommi’s personal website",
+	"scripts": {
+		"start": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
+		"build": "ELEVENTY_ENV=production eleventy",
+		"debug": "DEBUG=Eleventy* bun run start",
+		"clean": "del-cli dist"
+	},
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git@codeberg.org:tommi/tommi.space.git"
+	},
+	"keywords": [
+		"11ty",
+		"blog",
+		"digital-garden",
+		"digital-humanities",
+		"indieweb",
+		"jam",
+		"life",
+		"notes",
+		"personal-website",
+		"poetry",
+		"resume",
+		"static-site",
+		"webrings",
+		"weird",
+		"zettelkasten"
+	],
+	"author": "Tommi",
+	"license": "CC-BY-SA-4.0",
+	"bugs": {
+		"url": "https://github.com/xplosionmind/tommi.space/issues"
+	},
+	"homepage": "https://tommi.space",
+	"dependencies": {
+		"@11ty/eleventy": "^3.0.0",
+		"@11ty/eleventy-upgrade-help": "3",
+		"csv-parse": "^5.6.0",
+		"eleventy-plugin-embed-everything": "^1.19.0",
+		"eleventy-plugin-toc": "^1.1.5",
+		"eleventy-sass": "^2.2.6",
+		"html-minifier-terser": "^7.2.0",
+		"js-yaml": "^4.1.0",
+		"markdown-it-footnote": "^4.0.0",
+		"markdown-it-mark": "^4.0.0",
+		"markdown-it-task-lists": "^2.1.1",
+		"sass": "^1.81.0",
+		"utopia-core-scss": "^1.2.0"
+	}
 }

@@ -5,15 +5,19 @@ aliases:
   - FediLab
 tags:
   - lab
-  - digitalrights
-  - draft
+  - outdated
+  - geek/fediverse
 location: Sanremo
 description: An introductory workshop on decentralized social media and the Fediverse
 image: https://tommi.space/fedilab-scambi.webp
 permalink: /fedilab/
-redirect_from:
-  - /ournet/
 ref: fediverse-lab
+include: |
+  <div class='red box' style='background: orangered'>
+    <h2>The workshop has its own website now!</h2>
+    <p>Thanks to the success this workshop got during its first year of life, I decided to properly structure and enrich it.</p>
+    <p>The new version is titled <strong><cite>Knitting Our Internet</cite></strong> and it has <a href='https://ournet.rocks/' title='🪡 Knitting Our Internet 🧶'>its own website</a>!</p>
+  </div>
 ---
 Carrying on with my mission of spreading the word about the [[Fediverse]], I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
 
@@ -36,7 +40,7 @@ Ideally, all the participants sit in a circle. The workshop works best with a cr
 
 Not all the materials are essential. In its bare-bone version, the rope and the whiteboard are sufficient.
 
-- Red wool, twine, or any kind of rope, at least 5 meters long.
+- Red yarn, or any kind of rope, at least 5 meters long.
 - Paper poster or whiteboard
 - A hat worn by the workshop’s host, acting as the centralized social network
 - Objects or small cardboard pieces representing different Fediverse nodes or clients
@@ -47,7 +51,7 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 </div>
 
 <figure>
-	{% img image, 'A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together' %}
+	<img src='{{ image }}' alt='A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together'>
 	<figcaption>The Lab held during <a href='https://scambi.org/en'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
 </figure>
 
@@ -70,6 +74,6 @@ Occasions when I conducted the lab:
 
 <ul>{% for lab in activities %}
 	{% if lab.tags contains 'lab/ournet' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ lab.start | date: '%-d %B %Y' }}</time>. {% if lab.description %}{{ lab.description | markdownify }}{% endif %}</li>
+		<li>{{ lab.location }}, <time datetime='{{ lab.start | date_to_xmlschema }}'>{{ lab.start | date: '%-d %B %Y' }}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
 	{% endif %}
 {% endfor %}</ul>

@@ -2,10 +2,12 @@
 date: 2020-12-05T01:00:00+01:00
 updated: 2022-03-14T14:59:21+01:00
 tags: geek
-aliases: Quitting Flickr, Quit Flickr
+aliases:
+  - Quitting Flickr
+  - Quit Flickr
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo
 image: https://tommi.space/jar/quit-flickr.jpg
-redirect_from: [/flickr, /quitting-flickr, /switch-to-piwigo, /piwigo-switch]
+redirect_from: [/flickr/, /quitting-flickr/, /switch-to-piwigo/, /piwigo-switch/]
 ---
 The process of quitting [Flickr](https://flickr.com 'Flickr') and switching to [[Piwigo]] took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
 
@@ -47,6 +49,7 @@ I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr
 8. ❌ Importing Collections as parent albums
 
 <p class='date'><time datetime='2024-01-04T11:26:22+01:00'>4<sup>th</sup> January 2024</time></p>
+
 In a couple of weeks my Piwigo hosted subscription is terminating. Possible options:
 
 - renew the subscription for 3 years at the same price

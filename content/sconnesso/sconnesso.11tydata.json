@@ -1,6 +1,8 @@
 {
 	"layout": "sconnesso",
-	"image": "https://tommi.space/sconnesso.webp",
+	"class": "sconnesso",
+	"primary": "sconnesso",
+	"lang": "it",
 	"sitemap": {
 		"changefreq": "yearly"
 	}

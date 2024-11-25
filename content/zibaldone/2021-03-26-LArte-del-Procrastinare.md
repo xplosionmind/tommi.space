@@ -2,11 +2,15 @@
 title: L’Arte del Procrastinare
 date: 2021-03-06T23:08:56+01:00
 updated: 2022-10-13T16:08:26+02:00
-tags: zen philosophy
+tags:
+  - zen
+  - philosophy
 subtitle: Nonché la mia filosofia di vita
 permalink: /procrastinazione/
 redirect_from: ['/structured-procrastination/', '/procrastinare/', '/LArte-del-procrastinare/']
-aliases: Procrastinazione Strutturata, Structured Procrastination
+aliases:
+  - Procrastinazione Strutturata
+  - Structured Procrastination
 toc: false
 description: La traduzione del breve articolo “Structured Procrastination” di John Perry, che esalta la magia e le qualità del procrastinare come arte e come filosofia di vita.
 excerpt: |
@@ -15,10 +19,10 @@ image: /2020-03-30-desk.jpg
 ---
 ## Premessa
 
-L’articolo seguente è la mia traduzione di <cite><a href='http://structuredprocrastination.com' hreflang='en' lang='en' title='Structured Procrastination'>Structured Procrastination</a></cite>, ad opera del mitico [John Perry](https://it.wikipedia.org/wiki/John_Perry 'John Perry su Wikipedia'), professore emerito di Filosofia all’Università di Stanford. I diritti per la traduzione sono stati gentilmente concessi dall’autore che, con mia somma sorpresa, ha risposto ad una mia email colma di ammirazione, acconsentendo alla pubblicazione in italiano sul mio sito, purché ricordassi che da questo testo è poi nato un libro, <cite><a href='https://openlibrary.org/books/OL27141326M/The_art_of_procrastination' lang='en' hreflang='en' title='The Art of Procrastination in the Open Library'>The Art of Procrastination</a></cite>, tradotto anche in italiano e intitolato <cite>[La nobile arte del cazzeggio](https://openlibrary.org/books/OL32080362M/La_nobile_arte_del_cazzeggio 'La nobile arte del cazzeggio nella Open Library')</cite>, titolo di dubbio gusto sul quale soprassederò. 
+L’articolo seguente è la mia traduzione di <cite><a href='http://structuredprocrastination.com' hreflang='en' lang='en' title='Structured Procrastination'>Structured Procrastination</a></cite>, ad opera del mitico [John Perry](https://it.wikipedia.org/wiki/John_Perry 'John Perry su Wikipedia'), professore emerito di Filosofia all’Università di Stanford. I diritti per la traduzione sono stati gentilmente concessi dall’autore che, con mia somma sorpresa, ha risposto ad una mia email colma di ammirazione, acconsentendo alla pubblicazione in italiano sul mio sito, purché ricordassi che da questo testo è poi nato un libro, <cite><a href='https://openlibrary.org/books/OL27141326M/The_art_of_procrastination' lang='en' hreflang='en' title='The Art of Procrastination in the Open Library'>The Art of Procrastination</a></cite>, tradotto anche in italiano e intitolato <cite>[La nobile arte del cazzeggio](https://openlibrary.org/books/OL32080362M/La_nobile_arte_del_cazzeggio 'La nobile arte del cazzeggio nella Open Library')</cite>, titolo di dubbio gusto sul quale soprassederò.
 
 <figure>
-		{% img image, 'La mia scrivania il 30 Marzo 2020', 'u-photo' %}
+		<img src='{{ image }}' alt='La mia scrivania il 30 Marzo 2020', 'u-photo'>
 	<figcaption>Il livello di casino sulla mia scrivania è spesso indice del livello di procrastinazione in cui mi trovo.</figcaption>
 </figure>
 
@@ -58,5 +62,5 @@ A questo punto, il lettore attento potrebbe sentire che la <em lang='en'>structu
 
 Nove ore di lezione di [Introduction to Economics](https://unive.it/data/insegnamento/281395 'Ca’ Foscari - Introduction to Economics') in arretrato da recuperare, moltissimi amici che non vedo da un sacco da incontrare o almeno sentire, [una simulazione di una seduta parlamentare dell’UE](https://univiu.org/viu-life/veumeu-2021 'VeUMEU 2021 | Venice Universities’ Model European Union') a cui iscrivermi, [il sito di Scambi Festival](https://scambi.org 'Scambi') da concludere, [un’infinità di cosine](/dev 'Website Development') da sistemare su questo sito, il [Patto Associativo](https://it.wikipedia.org/wiki/Patto_Associativo 'Patto Associativo AGESCI su Wikipedia') dell’[AGESCI](https://agesci.it 'AGESCI') e il Progetto Educativo della mia [Co.Ca.](https://it.wikipedia.org/wiki/Comunit%C3%A0_Capi 'Comunità Capi su Wikipedia') da leggere, quattordici email da inviare (a persone che, diversamente dal prof. Perry, dubito mi risponderanno), [quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media') da aggiornare e sistemare secondo suggerimenti ricevuti negli ultimi mesi, lavare la macchina, finire di riordinare i 72GB di dati provenienti dai [miei account Instagram, Twitter e Facebook eliminati](/quit-and-switch 'Quit and Switch'), configurare l’accesso via [SSH](https://it.wikipedia.org/wiki/Secure_Shell 'SSH su Wikipedia') a <cite>[Linuxplosion](/linuxplosion 'Linuxplosion')</cite> (il mio adorabile PC fisso da me assemblato due anni fa), [<cite>Le notti bianche</cite>](+++), uno dei più semplici e brevi romanzi esistenti – che giace sul mio comodino da mesi – da finalmente concludere, cercare di capire cosa non va nel [mio server](/server 'Tommi’s Server') e risolvere i problemi di [Træfik](https://traefik.io 'Træfik'), gli appunti di [Introduction to Politics](https://www.unive.it/data/insegnamento/281391/programma) da aggiungere su [PISE Notes](https://pise-notes.club 'PISE Notes') sono <u>solamente la punta dell’iceberg</u> (circa un terzo) di tutto ciò che io dovrei fare in questo momento, ma, per non occuparmi di tutte queste più importanti, urgenti e pressanti faccende, ho deciso di scrivere questo.
 
-Il prof. Perry <u>omette il livello di pressione, fibrillazione, inquestudine e tormento che l’essere un procrastinatore comporta</u>; ispirandomi a Machiavelli, da buon <em lang='en'>deceiver</em> io ho imparato a <q>simulare e dissimulare</q> non solo con gli altri, ma anche con me stesso, riguardo quali sono le mie priorità.  
+Il prof. Perry <u>omette il livello di pressione, fibrillazione, inquestudine e tormento che l’essere un procrastinatore comporta</u>; ispirandomi a Machiavelli, da buon <em lang='en'>deceiver</em> io ho imparato a <q>simulare e dissimulare</q> non solo con gli altri, ma anche con me stesso, riguardo quali sono le mie priorità.
 Certo, l’Arte del procrastinare è un’arte nobile e una filosofia di vita eccezionale, ma, come tutte, comporta un prezzo piuttosto salato da pagare, tuttavia per me sicuramente minore rispetto ad altri modi di vivere.

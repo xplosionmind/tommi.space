@@ -1,0 +1,108 @@
+---
+title: Dive in tommi.space
+lang: en
+ref: home
+permalink: /
+redirect_from: ['/home/', '/tommi/', '/bio/', '/about/']
+eleventyImport:
+  collections: ['zibaldone', 'jam', 'poetry', 'sconnesso']
+sitemap:
+  priority: 1.0
+header: false
+head: '<noscript><style>#scrollToMain{display: none;}</style></noscript>'
+---
+<article id='landing' class='no-background vertical flex'>
+	<h1 class='wavyBackgroundRed'>T🤯mmi Space</h1>
+	<div class='flex'>
+		<button class='blue button' id='scrollToMain' onclick='document.getElementById("main").scrollIntoView();' title='English homepage'>⬇️ Dive in ⬇️</button>
+		<noscript>
+			<a class='blue button' href='#main' title='English homepage'>⬇️ Dive in ⬇️</a>
+		</noscript>
+		or
+		<a class='it button' href='/tuffo/' title='Homepage in italiano'>Italiano</a>
+	</div>
+</article>
+
+{% render 'header.liquid', lang: 'en', current: '/' %}
+
+<main id='main'>
+	<article class='middle center background box'>
+		<p>You just entered an overwhelming, mindblowing, and confused space inside the immense wonderland of the World Wide Web 🕸️. This place is 🚨 <strong>a perpetual work in progress</strong> 🏗️ populated by thoughts 💭, absurd visions 😵‍💫, silliness 🤡, hope 🌟, questions ⁉️, sort-of-answers 🤔, kinda-intuitions 💡, contraddictions 💢, disorderly attempts of reordering stuff 🎭, depictions of chaos 💥.</p>
+		<p>Welcome to <u>the virtual representation of Tommi’s mind</u>.</p>
+		<p>Have fun!</p>
+	</article>
+
+	{% render 'about.liquid', lang: lang, site: site %}
+
+	<article id='meet' class='half blue box'>
+		<h2>Let’s meet!</h2>
+		<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in <strong>{{ site.author.based }}</strong>, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around!</p>
+		{% render 'upcoming.liquid', lang: lang, activities: activities %}
+	</article>
+
+	<article id='qsm' class='half | red box'>
+		<h2>I am not on social media</h2>
+		{% renderTemplate 'md' %}
+			In 2021 **I deleted all my profiles** on mainstream centralized social media platforms—[with the exception of Linkedin](https://linkedin.com/in/tommasomarmo 'Tommaso Marmo on Linkedin') (need it for work…).
+
+			At the time I could not find any unique resource cataloguing *all* the reasons mainstream social media are terrible. Therefore, I created a website myself, explaining all the reasons why to quit social media, along with reliable informative material.
+		{% endrenderTemplate %}
+		<div class='flex'>
+			<a class='button' href='{% if lang == 'it' %}https://quitsocialmedia.club/it/home{% else %}https://quitsocialmedia.club/home{% endif %}' title='quitsocialmedia.club home'>{% if lang == 'it' %}Parti da qui{% else %}Start from here!{% endif %}</a>
+		</div>
+	</article>
+
+	<article style='background: orangered' class='half | red box'>
+		<h2>A workshop on the Internet!</h2>
+		<p>I created <strong>🪡 <cite>Knitting Our Internet</cite> 🧶</strong>, an <strong>interactive workshop</strong> travelling through the <strong>history of the Internet</strong>, and proposing a <strong>collective re-imagining</strong> of participatory, decentralised alternatives.</p>
+		<p>This experience aims at <strong>questioning</strong> the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.</p>
+		<div class='flex' style='margin-bottom: var(--space-s)'>
+			<a class='yellow button' style='background: gold' href='https://ournet.rocks/' title='Visit ournet.rocks'>Learn more</a>
+			<a class='purple button' style='background: purple' href='https://ournet.rocks/knit/' title='“Knit” page in ournet.rocks'>Host it!</a>
+		</div>
+		<figure>
+			<img src='/fedilab-scambi.webp' alt='A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together'>
+		</figure>
+	</article>
+
+	{% render 'latest-post.liquid', lang: lang, zibaldone: collections.zibaldone %}
+
+	<article class='one-third razzmatazz border box'>
+		<a href='/jam/' title='The Jam'>
+			<h2>The Jam</h2>
+			<figure class='transp'>
+				<img src='jam.webp' alt='A picture of Tommi’s head exploding with a great mess inside it'>
+			</figure>
+		</a>
+		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
+		<p>I take this things, I throw them into <cite><a href='/jam' title='The Jam'>The Jam</a></cite>.</p>
+		<p>I hope you’ll find it interesting!</p>
+		<div class='flex'>
+			<a class='razzmatazz button' href='/jam' title='The Jam'>Dive in 🥄</a>
+		</div>
+	</article>
+
+	{% render 'webrings.liquid', lang: lang %}
+
+	<article id='changelog' class='wide center'>
+		<div class='flex'>
+			<h2 class='wavyBackgroundGreen'>Recently updated</h2>
+		</div>
+		<div class='grid'>
+			{% assign recently_updated = collections.all | sort: 'updated' | reverse %}
+			{% assign i = 0 %}
+			{% for entry in recently_updated %}
+				{% if entry.date and entry.data.date and i < 7 %}
+					{% capture i %}{% increment counter %}{% endcapture %}
+					<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+						<h3>{{ entry.data.title }}</h3>
+						<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date_to_xmlschema }}'>{{ entry.data.updated | date: '%-d %B %Y' }}{% else %}<time datetime='{{ entry.data.date | date_to_xmlschema }}'>{{ entry.data.date | date: '%-d %B %Y' }}{% endif %}</time></p>
+					</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class='flex'>
+			<a class='green margin button' href='{{ site.changelog }}' title='tommi.space commits on giTMI'>code changelog</a>
+		</div>
+	</article>
+</main>

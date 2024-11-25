@@ -13,7 +13,7 @@ video: https://youtu.be/oa0bYZWOM1Q
 
 <cite>[Una Vita Spericolata](https://www.imdb.com/title/tt6917272/ '“Una Vita Spericolata„ su IMDb')</cite> è un film del 2018 di Marco Ponti. Un’originale pellicola caratterizzata dal paradossale alternarsi di momenti di estrema drammaticità e momenti di classica comicità.
 
-Sorprendente è l’autenticità del messaggio che si cela dietro una trama assurda e decisamente irrealistica: un furto compiuto per sbaglio, una fuga rocambolesca lungo tutta la penisola, un imprevedibile quanto improbabile trio di fuggiaschi. Per questo motivo, più di una scena mi ha ricordato il capolavoro [*Blues Brothers*](https://www.imdb.com/title/tt0080455/), in cui l’inseguimento da parte della polizia si trasforma in una vera e propria "caccia all’uomo" in cui viene coinvolto persino l’esercito.
+Sorprendente è l’autenticità del messaggio che si cela dietro una trama assurda e decisamente irrealistica: un furto compiuto per sbaglio, una fuga rocambolesca lungo tutta la penisola, un imprevedibile quanto improbabile trio di fuggiaschi. Per questo motivo, più di una scena mi ha ricordato il capolavoro <cite lang='en'><a hreflang='it' href='https://it.wikipedia.org/wiki/The_Blues_Brothers_-_I_fratelli_Blues' title='“The Blues Brothers” su Wikipedia'>The Blues Brothers</a></cite>, in cui l’inseguimento da parte della polizia si trasforma in una vera e propria "caccia all’uomo" in cui viene coinvolto persino l’esercito.
 
 > Siamo in missione per conto di Dio
 
@@ -30,3 +30,4 @@ In conclusione, credo che con i sorrisi e con episodi grotteschi e totalmente as
 Di seguito una delle scene più emblematiche del film.
 
 https://youtu.be/oa0bYZWOM1Q
+

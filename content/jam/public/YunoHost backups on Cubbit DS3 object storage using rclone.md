@@ -2,7 +2,7 @@
 date: 2024-05-10T15:00:00+02:00
 updated: 2024-05-10T15:34:39+02:00
 tags:
-  - geek/neb
+  - geek/sysad
 location: Circolo dei Lettori, Torino
 permalink: /ynh-ds3-bkp/
 ---

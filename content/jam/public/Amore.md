@@ -1,24 +1,25 @@
 ---
 date: 2021-10-28T19:11:57+02:00
 updated: 2022-12-24T21:10:41+01:00
-lang: it
-tags:
-  - topic
 aliases:
   - Love
+tags:
+  - topic
+location: Around the world
 description: Una raccolta di pensieri e riferimenti sparsi riguardo a quella cosa che muove tutto ma di cui nessunə capisce un belin
+lang: it
 permalink: /love/
 redirect_from:
   - /amore/
-location: Around the world
+toc: true
 ---
-Questa pagina raccoglie riflessioni e riferimenti sparsi sull’Amore. Non che io creda di saperne qualcosa, ma penso che esplorare l’amore e il modo in cui lo significa è anche un modo per amare e prendersi cura di sé, coltivando una persona più consapevole e sensibile.
+Questa pagina raccoglie riflessioni e riferimenti sparsi sull’Amore. Non che io creda di saperne qualcosa, ma penso che esplorare l’amore è anche un modo per amare e prendersi cura di sé, coltivando una persona più consapevole e sensibile.
 
-Io credo nell’Amore e come un povero illuso, ne sono proprio innamorato. Le parole che seguono sono una piccola parte di quello che significa per me.
+Io credo nell’Amore e come un povero illuso, ne sono proprio innamorato. Le parole che seguono sono una piccola parte di quello che significa per me, in quella che con il tempo ho realizzato essere una prospettiva piuttosto tossica di amore come dimensione di ricerca e fuga per l’incapacità di trovare risposte in sé stessз, ma vabbè, insomma, è sempre bello romanzare le cose.
 
 ## Romanticismo e comunicazione
 
-In <cite>Ecce Bombo</cite>, al minuto 40:22, c’è un riferimento a questa cosa che ho sempre percepito come limitante del sentimento amoroso: dialogare di emozioni romantiche, quasi a razionalizzare, cristallizare qualcosa che dovrebbe essere naturalmente confuso e oscuro. Dunque, credevo e sentivo che nel momento in cui i sentimenti fossero divenuti qualcosa di esplicito e palese, approfondito ad alta voce, invece che essere comunicato tramite gesti e empatia, allora la magia e il romanticismo sarebbero svaniti, lasciando spazio solo a meccanicità e imbarazzo.
+Al minuto 40:22 di <cite>Ecce Bombo</cite> c’è un riferimento a questa cosa che ho sempre percepito come limitante del sentimento amoroso: dialogare di emozioni romantiche, quasi a razionalizzare, cristallizzare qualcosa che dovrebbe essere naturalmente confuso e oscuro. Dunque, credevo e sentivo che nel momento in cui i sentimenti fossero divenuti qualcosa di esplicito e palese, approfondito ad alta voce, invece che essere comunicato tramite gesti e empatia, allora la magia e il romanticismo sarebbero svaniti, lasciando spazio solo a meccanicità e imbarazzo.
 
 Invece, sono riuscito a imparare a coltivare la **cultura del consenso**, che significa usare parole e definizioni, porre domande, comunicare, comunicare, comunicare, ma mai confinando questa pratica alla mera comprensione. Il consenso è un **gesto di cura**, che si mette in atto e fiorisce se in chiave di attenzione, delicatezza, affetto, amore verso le altre persone all’interno di una relazione.
 

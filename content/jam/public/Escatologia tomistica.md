@@ -1,7 +1,7 @@
 ---
 date: 2023-01-08T22:30:04+01:00
 updated: 2023-01-12T16:26:02+01:00
-location: home
+location: Xplosion Attic
 tags:
   - zen
   - draft
@@ -21,3 +21,4 @@ Or j’étais protégé contre le sérieux par ce que j’ai dit. Plutôt t
 <p class='cite'>Jean Paul Sartre, <cite lang='fr'>Carnets de la drôle de guerre</cite>, Carnet XIV</p>
 
 Paradossalmente, la mia percezione del mondo è invece opposta: da ingegnere sono meno serio e più giocoso.
+

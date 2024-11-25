@@ -5,7 +5,9 @@ tags:
   - zen
   - draft
 description: Gaining knowledge and awareness of ourselves by collecting any sort of data which concern us
-aliases: Quantified self, Life logging
+aliases:
+  - Quantified self
+  - Life logging
 redirect_from: [/quantified-self/,/life-logging/]
 todo:
   - rewrite

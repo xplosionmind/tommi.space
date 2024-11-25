@@ -1,15 +1,14 @@
 ---
 date: 2020-07-17T02:00:00+02:00
 updated: 2022-11-26T10:36:55+01:00
+aliases:
+  - Playlist
 tags:
   - draft
   - music
   - tomminess
-  - csvfy
-image: https://tommi.space/tommis-head-exploding.png
 description: Soundtracks of my life. The songs which marked my existence and made me who I am.
-aliases:
-  - Playlist
+image: https://tommi.space/tommis-head-exploding.png
 redirect_from:
   - /canzoni/
   - /songs/
@@ -18,29 +17,20 @@ redirect_from:
 todo:
   - find a way to sync playlists and contents
   - write meaning, reasons and explanations for every song
+  - Use Listenbrainz/Musicbrainz as main
 main: true
 ---
-[Classical Xplosion]: https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 ‘Classical Xplosion on Spotify’  
-[metamusic]: https://open.spotify.com/playlist/5I1sC0lvlsVTlh5jy12bms ‘metamusic on Spotify’  
-[Xplosion Music Extended]: https://open.spotify.com/playlist/2LLtQtDGNCIEe9tBMuVNg0 ‘Xplosion Music Extended on Spotify’
-
-<div class='row'>
-	<div class='half column' style='margin-bottom:1vh'>
-		<div class='embed' style='height:600px;width:97%'>
-			<iframe src='https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
-		</div>
-	</div>
-	<div class='half column'>
-		<div class='embed' style='height:600px'>
-			<iframe src='https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
-		</div>
-	</div>
+<div class='embed' style=''>
+	<iframe src='https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
+</div>
+<div class='embed' style=''>
+	<iframe src='https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
 </div>
 
 ## Others
 
-- <cite>[Classical Xplosion]</cite>, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
-- <cite>[metamusic]</cite>, music that talks about music.
+- <cite>[Classical Xplosion](https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 'Classical Xplosion on Spotify')</cite>, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
+- <cite>[metamusic](https://open.spotify.com/playlist/5I1sC0lvlsVTlh5jy12bms 'metamusic on Spotify')</cite>, music that talks about music.
 
 ## Technicalities
 

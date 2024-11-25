@@ -8,16 +8,16 @@ Le lettere, le parole mi scorrono davanti senza lasciare un segno. È tutto ugua
 
 Più penso a questo più l'effetto si accentua e diventa inevitabile. Più confido nella lettura e credo nella sua importanza, più mi rivelo incapace di valorizzarla leggendo.
 
-Più voglio leggere, meno so leggere.  
+Più voglio leggere, meno so leggere.
 O meglio: più voglio leggere, più provo a leggere, più penso di non saper leggere e meno so leggere.
 
 Questo problema è talmente grave ed alienante che persino rileggendo queste parole, che io stesso ho appena scritto, fatico a interiorizzarne il significato più profondo.
 
-Ancora più preoccupante è il fattore riguardante la memoria, l'acquisizione e conservazione di nozioni, ragionamenti, ogni sorta di conoscenza a lungo termine.  
+Ancora più preoccupante è il fattore riguardante la memoria, l'acquisizione e conservazione di nozioni, ragionamenti, ogni sorta di conoscenza a lungo termine.
 Penso —lasciandomi distrarre— che fra poche ore non sarò in grado di ricostruire quello che ho appena letto, né tantomeno di ripeterlo. Sono dilaniato da una crisi di cui io stesso sono causa, disperato da una pressante instancabile spinte verso l'ignoranza, che è la mia massima preoccupazione.
 
 <figure>
-	{% img image, 'Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018', 'u-photo' %}
+	<img src='{{ image }}' alt='Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018', 'u-photo'>
 	<figcaption>
 		Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018
 	</figcaption>
@@ -32,16 +32,16 @@ L’allarmante panorama finora descritto si aggrava ulteriormente, divenendo qua
 {% endcomment %}
 
 {% comment %}
-Sarebbe interessante scrivere un libro sull'incapacità di leggere. Il libro più inutile del mondo: il suo pubblico corrisponde esattamente ad una popolazione incapace di fruire del mezzo scelto.  
-Quasi più assurdo sarebbe farne un podcast, come per dire <q>tranquillo, se non sai più leggere, almeno sai ancora ascoltare</q>.  
-L’apoteosi dell'incredulità sarebbe però ricevere anche questa volta quei pochi messaggi che, dopo che pubblico qualcosa, mi fanno gioire il cuore per settimane; solitamente recitano: <q>Tommmiiiiiiii è davvero bello il tuo ultimo articolo, mi ci ritrovo un sacco</q>. Avete saputo leggere, e avete capito, allora è una gran cavolata. **Sfido** i due tre lettori di queste parole a farlo. Anzi, vi prego, fatelo, alla condizione che mi lasciate pubblicare la conversazione conseguente.  
+Sarebbe interessante scrivere un libro sull'incapacità di leggere. Il libro più inutile del mondo: il suo pubblico corrisponde esattamente ad una popolazione incapace di fruire del mezzo scelto.
+Quasi più assurdo sarebbe farne un podcast, come per dire <q>tranquillo, se non sai più leggere, almeno sai ancora ascoltare</q>.
+L’apoteosi dell'incredulità sarebbe però ricevere anche questa volta quei pochi messaggi che, dopo che pubblico qualcosa, mi fanno gioire il cuore per settimane; solitamente recitano: <q>Tommmiiiiiiii è davvero bello il tuo ultimo articolo, mi ci ritrovo un sacco</q>. Avete saputo leggere, e avete capito, allora è una gran cavolata. **Sfido** i due tre lettori di queste parole a farlo. Anzi, vi prego, fatelo, alla condizione che mi lasciate pubblicare la conversazione conseguente.
 Se avessi un campione di lettori più ampio potrei sperare di ricevere comunque un commento o un messaggio, non perché ho sfidato a farlo, ma perché veramente il mittente non ha capito dove sta l'assurdità della questione, dimostrando dunque di non saper leggere e aggregandosi insieme a me alla schiera infernale degli analfabeti.
 {% endcomment %}
 
 {% comment %}
-Come sempre, satiriche esagerate stupide elucubrazioni distraggono da quello che è realmente un serio problema, che con apprensione osservo avvenire solo in me.  
-D'altra parte, come potrei verificare se qualcun altro sa ancora leggere?  
-Dovrei chiedere di ripetermi *summa brevitate* alcuni passaggi relativamente specifici di qualcosa che sta leggendo, per esempio un topic di *Logic and Philosophy of Science I*, che sarebbe l'argomento dell'esame di cui sopra, ma del quale non saprò comprendere le domande; beh, tutti sanno spiegarmi di cosa si sta parlando, ma io non ne sono in grado.  
+Come sempre, satiriche esagerate stupide elucubrazioni distraggono da quello che è realmente un serio problema, che con apprensione osservo avvenire solo in me.
+D'altra parte, come potrei verificare se qualcun altro sa ancora leggere?
+Dovrei chiedere di ripetermi *summa brevitate* alcuni passaggi relativamente specifici di qualcosa che sta leggendo, per esempio un topic di *Logic and Philosophy of Science I*, che sarebbe l'argomento dell'esame di cui sopra, ma del quale non saprò comprendere le domande; beh, tutti sanno spiegarmi di cosa si sta parlando, ma io non ne sono in grado.
 Mi manca essere studente ingegnere, e lamentarmi del fatto che formule e calcoli non sono nella mia indole, ma conoscendo almeno il significato di numeri, formule, assiomi, dimostrazioni con cui avrei a che fare tutti i giorni.
 {% endcomment %}
 

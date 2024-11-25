@@ -1,7 +1,8 @@
 ---
 date: 2021-04-04T17:19:08+02:00
 updated: 2022-11-28T10:43:11+01:00
-tags: geek/server
+tags:
+  - geek/sysad
 description: What Cron Jobs are, how to set them up, what are the ones I use
 ---
 Cron Jobs essentially consist in running some command from the terminal at a predefined time, or every given interval.  
@@ -63,4 +64,4 @@ This Cron Job saves a list of predefined pages to [The Wayback Machine](https://
 	<a href='https://github.com/buren/wayback_archiver/issues/46' target='_blank' title='The issue I opened for this script not working'>I spent too much time</a> trying to make this script work on [[Server|Xplosion Server]] with [[YunoHost]]. Hence, I am not using this Cron Job anymore, but <a href='https://github.com/marketplace/actions/wayback-machine' target='_blank' title='“Wayback Machine„ GitHub Action'>this GitHub Action</a> instead
 </div>
 
-[crontab]: https://man.cx/crontab 'crontab’s man page'
+[crontab]: https://man.cx/crontab ‘crontab’s man page’

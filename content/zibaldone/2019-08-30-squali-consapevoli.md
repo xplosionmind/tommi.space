@@ -12,7 +12,7 @@ per realizzare i nostri sogni?
 Ho cercato per mesi e trovato solo in alcuni attimi parole finora sbagliate per riuscire a raccontare il mio piccolo, non definitivo, quasi raggiunto, sogno a cui lavoro da un’eternità, praticamente.
 
 <figure>
-  {% img image, 'Una fuga romantica in pigiama', 'u-photo' %}
+  <img src='{{ image }}' alt='Una fuga romantica in pigiama', 'u-photo'>
   <figcaption>la classica fuga romantica, in pigiama però (da un frame di <cite><a href='/everyone' target='_blank'><cite>Everyone</cite></a></cite>)</figcaption>
 </figure>
 

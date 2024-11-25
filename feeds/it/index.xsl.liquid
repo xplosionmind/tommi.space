@@ -4,69 +4,52 @@ permalink: /it/index.xsl
 layout: feed.xsl.liquid
 lang: it
 ---
-<div class='row'>
-	<div class='half column'>
-		<div class='row'>
-			{% render 'wtfeed.html', lang: lang %}
-		</div>
-		<div class='row'>
-			<div class='yellow box'>
-				<div class='row'>
-					<h2>Chi lo ha creato?</h2>
-				</div>
-				<div class='row'>
-					<div class='one-third column'>
-						{% img 'profile.webp', 'Tommi mentre presenta il Tenco Ascolta 2018 alla Pigna di Sanremo' %}</img>
-					</div>
-					<div class='two-thirds column'>
-						{% renderTemplate 'md' %}
-							Sono <span class='p-name'>Tommi</span>, è possibile vedermi campeggiare sul pianeta Terra, ma sono perennemente in viaggio in una dimensione parallela dominata da <strong class='p-category p-label'>curiosità</strong> e <strong class='p-category p-label'>entusiasmo</strong>, ma anche costellata di <strong class='p-category p-label'>ansia</strong> e <strong class='p-category p-label'>confusione</strong>.
-
-Faccio [tante cose](/tutto), e il mio ipercinetismo mi fa sentire come <a href='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz' title='Leibniz su Wikipedia'>Leibniz</a>, che ha detto: <q cite='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz'>nella mia vita ho cominciato tutto e concluso nulla</q>.
-						{% endrenderTemplate %}
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class='half column'>
-		<div class='row'>
-			<div class='box'>
-				<h2>Sottoflussi</h2>
-				<p>Clicca su questi pulsanti per aprire i flussi relativi a una specifica categoria, o a contenuti in una specifica lingua.</p>
-				<div class='flex'>
-					<a class='it written button' href='/it.xml' title='Feed dei contenuti esclusivamente in italiano'>Italiano</a>
-					<a class='blue written button' href='/zibaldone.xml' title='Feed da Zibaldone (il blog, principalmente in italiano)'>Zibaldone</a>
-					<a class='razzmatazz written button' href='/jam.xml' hreflang='en' title='Il flusso de “La Marmellata”, ovvero gli appunti di Tommi'>La Marmellata</a>
-					<a class='pasticci written button' href='/poetry.xml' title='Feed poetico'>Poesie</a>
-					<a class='idea written button' href='/ideas.xml' hreflang='en' title='Feed di idee e impromptu'>Idee</a>
-					<a class='reading written button' href='/reading.xml' hreflang='en' title='Appunti di lettura'>Letture</a>
-				</div>
-			</div>
-		</div>
-		<div class='row'>
-			<div class='blue box'>
-				<h2>Flussi di dati</h2>
-				<p>I flussi seguenti non sono generati da pagine o articoli pubblicati su questo sito, ma da aggiornamenti su insiemi di dati.</p>
-				<div class='flex'>
-					<a class='yellow written button' href='/activities.xml' hreflang='en' title='Feed delle attività che organizzo/a cui partecipo'>Attività</a>
-					<a class='red written button' href='/internet-awesomeness.xml' lang='en' hreflang='en' title='Feed of the awesome things I stumble upon while surfing the ’net'>Internet Awesomeness</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 <main>
-	<h2 class='center'>Le ultime cose pubblicate su tommi.space</h2>
-	<div class='grid'>
+	<div class='one-third'>
+		{% render 'wtfeed.liquid', lang: lang %}
+	</div>
+	<article class='two-thirds yellow box subgrid'>
+		<h2 class='span-4'>Chi lo ha creato?</h2>
+		<figure class='span-1 flex'>
+			<img src='profile.webp' alt='Tommi mentre presenta il Tenco Ascolta 2018 alla Pigna di Sanremo'></img>
+		</figure>
+		<div class='span-3'>
+			{% renderTemplate 'md' %}
+				Sono <span class='p-name'>Tommi</span>, è possibile vedermi campeggiare sul pianeta Terra, ma sono perennemente in viaggio in una dimensione parallela dominata da <strong class='p-category p-label'>curiosità</strong> e <strong class='p-category p-label'>entusiasmo</strong>, ma anche costellata di <strong class='p-category p-label'>ansia</strong> e <strong class='p-category p-label'>confusione</strong>.
+
+				Faccio [tante cose](/tutto), e il mio ipercinetismo mi fa sentire come <a href='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz' title='Leibniz su Wikipedia'>Leibniz</a>, che ha detto: <q cite='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz'>nella mia vita ho cominciato tutto e concluso nulla</q>.
+			{% endrenderTemplate %}
+		</div>
+	</article>
+	<article class='half box'>
+		<h2>Sottoflussi</h2>
+		<p>Clicca su questi pulsanti per aprire i flussi relativi a una specifica categoria, o a contenuti in una specifica lingua.</p>
+		<div class='flex'>
+			<a class='it button' href='/it.xml' title='Feed dei contenuti esclusivamente in italiano'>Italiano</a>
+			<a class='blue button' href='/zibaldone.xml' title='Feed da Zibaldone (il blog, principalmente in italiano)'>Zibaldone</a>
+			<a class='razzmatazz button' href='/jam.xml' hreflang='en' title='Il flusso de “La Marmellata”, ovvero gli appunti di Tommi'>La Marmellata</a>
+			<a class='pasticci button' href='/poetry.xml' title='Feed poetico'>Poesie</a>
+			<a class='idea button' href='/ideas.xml' hreflang='en' title='Feed di idee e impromptu'>Idee</a>
+			<a class='reading button' href='/reading.xml' hreflang='en' title='Appunti di lettura'>Letture</a>
+		</div>
+	</article>
+	<article class='half blue box'>
+		<h2>Flussi di dati</h2>
+		<p>I flussi seguenti non sono generati da pagine o articoli pubblicati su questo sito, ma da aggiornamenti su insiemi di dati.</p>
+		<div class='flex'>
+			<a class='yellow button' href='/activities.xml' hreflang='en' title='Feed delle attività che organizzo/a cui partecipo'>Attività</a>
+			<a class='red button' href='/internet-awesomeness.xml' lang='en' hreflang='en' title='Feed of the awesome things I stumble upon while surfing the ’net'>Internet Awesomeness</a>
+		</div>
+	</article>
+	<div class='wide center flex'>
+		<h2 class='wavyBackgroundRed'>Le ultime cose pubblicate su tommi.space</h2>
+	</div>
+	<div class='wide grid'>
 		<xsl:for-each select='/rss/channel/item'>
-			<a><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>
-				<div class='vertical flex box'>
-					<h4><xsl:value-of select='title'/></h4>
-					<p><time><xsl:value-of select='pubDate' /></time></p>
-				</div>
+			<a class='little box'><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>
+				<h3><xsl:value-of select='title'/></h3>
+				<p><time><xsl:value-of select='pubDate' /></time></p>
 			</a>
 		</xsl:for-each>
 	</div>
 </main>
-

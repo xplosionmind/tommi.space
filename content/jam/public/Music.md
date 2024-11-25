@@ -30,7 +30,7 @@ In an era of empty music driven by money, I hate to ultimately evaluate an album
 ## Playing
 
 <figure>
-	{% img image, 'An image of me playing the guitar' %}
+	<img src='{{ image }}' alt='An image of me playing the guitar'>
 	<figcaption>During my 18<sup>th</sup> birthday at [[Il Cubo]] I was pretending to know how to play a guitar in a very embarrassing situation</figcaption>
 </figure>
 

@@ -7,7 +7,7 @@ tags: archive
 image: /mars-ticket.webp
 ---
 <figure>
-	{% img image, 'My ticket to Mars' %}
+	<img src='{{ image }}' alt='My ticket to Mars'>
 </figure>
 
 That’s right, you read correctly. Last summer I filled a form to send my name on Mars, it has been recorded upon NASA’s <cite>Perseverance</cite> rover and it landed on Mars!

@@ -21,49 +21,41 @@
 				{% if related_page %}<link rel='canonical' href='{{ related_page.url }}'/>{% endif %}
 				<meta property='og:locale' content='{{ lang }}'/>
 			</head>
-			<body class='no-background feed'>
-				<h1><xsl:value-of select='/rss/channel/title'/></h1>
-				<div class='row'>
-					<div class='half column'>
-						{% render 'wtfeed.html', lang: lang %}
-					</div>
-					<div class='half column'>
-						<div class='row'>
-							<div class='box'>
-								<h2>
-									{% if lang == 'it' %}
-										Cosa c’è dentro?
-									{% else %}
-										What’s inside?
-									{% endif %}
-								</h2>
-								<p>{{ description | markdownify }}</p>
-							</div>
-							<div class='flex row'>
-								{% if related_page %}
-									<a class='red written button' href='{{ related_page.url }}' title='{{ related_page.description }}'>{{ related_page.title }}</a>
-								{% endif %}
-								<a class='blue written button' href='{{ page.url | replace: '.xsl', '.json' }}' title='{% if lang == 'it' %}Questo feed in formato JSON{% else %}This feed in JSON format{% endif %}'>JSON feed</a>
-							</div>
-						</div>
-					</div>
-				</div>
+			<body>
 				<main>
-					<h2 class='center'>{{ whatsinside }}</h2>
-					<div class='grid'>
+					<hgroup class='wide flex'>
+						<h1	class='wavyBackgroundRed'><xsl:value-of select='/rss/channel/title'/></h1>
+					</hgroup>
+					<div class='half'>
+						{% render 'wtfeed.liquid', lang: lang %}
+					</div>
+					<article class='half background box'>
+						<h2>
+							{% if lang == 'it' %}
+								Cosa c’è dentro?
+							{% else %}
+								What’s inside?
+							{% endif %}
+						</h2>
+						<p>{{ description | markdownify }}</p>
+					<div class='flex'>
+						{% if related_page %}
+							<a class='red button' href='{{ related_page.url }}' title='{{ related_page.description }}'>{{ related_page.title }}</a>
+						{% endif %}
+							<a class='blue button' href='{{ page.url | replace: '.xsl', '.json' }}' title='{% if lang == 'it' %}Questo feed in formato JSON{% else %}This feed in JSON format{% endif %}'>JSON feed</a>
+					</div>
+				</article>
+					<h2 class='wide center'>{{ whatsinside }}</h2>
+					<div class='wide grid'>
 						<xsl:for-each select='/rss/channel/item'>
-							<a><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>
-								<div class='vertical flex box'>
-									<h4><xsl:value-of select='title'/></h4>
-									<p><time><xsl:value-of select='pubDate' /></time></p>
-								</div>
+							<a class='little box'><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>
+								<h3><xsl:value-of select='title'/></h3>
+								<p><time><xsl:value-of select='pubDate' /></time></p>
 							</a>
 						</xsl:for-each>
 					</div>
 				</main>
-				<div class='row'>
-					{% render 'footer.html', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
-				</div>
+				{% render 'footer.liquid', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
 			</body>
 		</html>
 	</xsl:template>

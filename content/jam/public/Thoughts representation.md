@@ -11,5 +11,6 @@ lang: it
 Fino a giugno 2021, dal momento in cui l’ho scoperto, ho sempre visto [[Zettelkasten]] è il migliore sistema per rappresentare, riordinare e salvare le idee. Sbagliavo.
 
 Draft concepts:
-- really future-proof' Why do I keep thinking if this is really the best solution, then?
+- really future-proof? Why do I keep thinking if this is really the best solution, then?
 - digital vs analogical notes
+

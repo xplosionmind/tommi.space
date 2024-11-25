@@ -1,0 +1,50 @@
+---
+title: Zibaldone
+permalink: /zibenglish/
+redirect_from: [/blog/, /en/zibaldone/]
+lang: en
+ref: Zibaldone
+description: Things getting out of Tommi’s head, in the form of articles
+type: CollectionPage
+sitemap:
+  priority: 0.8
+  changefreq: monthly
+eleventyImport:
+  collections: ['zibaldone']
+---
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundPurple'>Zibaldone</h1>
+	</hgroup>
+
+	<article class='e-content'>
+		<p><em>Zibaldone di Pensieri</em> is a great collection of notes by the great Italian author <a href='https://en.wikipedia.org/wiki/Giacomo_Leopardi' title='Giacomo Leopardi on Wikipedia'>Giacomo Leopardi</a>. These writings don’t have even a tiny bit of profoundness, power and wit of the original collection. Just a touch of glee, craziness of my everyday life.</p>
+		<p>Translating literal the definition by <a href='https://treccani.it' target='_blank' hreflang='it' title='Enciclopedia Treccani'>Treccani</a> encyclopedia, <a href='https://treccani.it/vocabolario/zibaldone/' hreflang='it' lang='it' target='_blank'>żibaldóne</a>:</p> <blockquote><p>[…] Notebook where unordered news, notes, thoughts, quotes, schemes, sketches are noted</q>. Exactly that.</p></blockquote>
+	</article>
+
+	<aside class='subgrid'>
+		<div class='two-thirds'>
+			{% render 'tags.liquid', site: site %}
+		</div>
+		<div class='one-third'>
+			{% render 'lang-filter.liquid', lang: lang %}
+		</div>
+	</aside>
+
+	<div class='entries-list subgrid'>
+		<input type='checkbox' id='langFilter-en' class='langFilter'>
+		<input type='checkbox' id='langFilter-it' class='langFilter'>
+		<input type='checkbox' id='langFilter-fr' class='langFilter'>
+		<input type='checkbox' id='langFilter-all' class='langFilter'>
+		{% for entry in collections.zibaldone %}
+			<a class='one-third background box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
+				<h2>{{ entry.data.title }}</h2>
+				<figure>
+					{% if entry.data.image %}<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}'>{% endif %}
+				</figure>
+				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{{ entry.date | date: '%-d %B %Y' }}</time></p>
+				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
+			</a>
+		{% endfor %}
+	</div>
+</main>

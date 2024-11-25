@@ -1,17 +1,4 @@
-@forward 'root';
-@use 'root' as *;
 @use 'base';
-@use 'fonts';
-@use 'landing';
-@use 'nav';
-@use 'footer';
-@use 'elements';
-@use 'colors';
-@use 'text';
-@use 'links-emojis';
-@use 'tags';
-@use 'webrings';
-@use 'search';
-@use 'interaction-buttons';
-@use 'lite-youtube-embed';
-
+@use 'blocks';
+@use 'utilities';
+@use 'blocks/tags';
