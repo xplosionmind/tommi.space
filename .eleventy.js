@@ -108,7 +108,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
 		extensions: 'md,html,liquid'
 	});
-	//eleventyConfig.addPlugin(IdAttributePlugin); // BUG: says that there are duplicate IDs where there aren’t any
+	eleventyConfig.addPlugin(IdAttributePlugin); // BUG: says that there are duplicate IDs where there aren’t any
 	//eleventyConfig.addPlugin(pluginImg);
 	eleventyConfig.addPlugin(pluginToc, {
 		ul: true
