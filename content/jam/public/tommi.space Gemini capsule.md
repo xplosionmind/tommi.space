@@ -13,10 +13,10 @@ toc: false
 	<p>tommi.space is not on Gemini anymore. More information <a href='/meta#dropping-gemini' title='“Dropping Gemini” section in tommi.space development log'>here</a>.</p>
 </div>
 
-The [tommi.space Gemini capsule](gemini://tommi.space) uses the [YunoHost package](https://github.com/YunoHost-Apps/gemserv_ynh 'gemserv YunoHost package source on GitHub') of [gemserv](https://git.sr.ht/~int80h/gemserv 'gemserv repository on sourcehut'), installed on [[Nebuchadnezzar|Xplosion Server]].
+The [tommi.space Gemini capsule](gemini://tommi.space) uses the [YunoHost package](https://github.com/YunoHost-Apps/gemserv_ynh 'gemserv YunoHost package source on GitHub') of [gemserv](https://git.sr.ht/~int80h/gemserv 'gemserv repository on sourcehut'), installed on [Xplosion Server](Nebuchadnezzar.md).
 
 ```toml
-[[server]]
+[server](server)
 hostname = "tommi.space"
 dir = "/opt/yunohost/gemserv/tommi.space"
 key = "/etc/yunohost/certs/tommi.space/key.pem"
@@ -26,7 +26,7 @@ redirect = { "/" = "/index.gmi" }
 ```
 
 ```toml
-[[server]]
+[server](server)
 hostname = "yourdomain.org"
 dir = "/opt/yunohost/gemserv"
 key = "/etc/yunohost/certs/yourdomain.org/key.pem"

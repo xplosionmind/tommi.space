@@ -23,7 +23,7 @@ My intentions are to <u>avoid LaTeX the most I can</u>. I love Markdown, it is s
 - <cite><a href='https://tobi.oetiker.ch/lshort/lshort.pdf'  target='_blank' title='The Not So Short Introduction to LATEX2ε'>The Not So Short Introduction to LaTeX</a></cite>, by [Tobias Oetiker](https://tobi.oetiker.ch/hp/about/ 'Tobias Oetiker - About')
 - [LearnLaTeX.org](https://www.learnlatex.org/en/ 'Learn LaTeX')
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/latex/ 'Learn latex in Y Minutes')
-- [[Vim]] integration: [*Neovim, LaTeX and Zathura in perfect harmony*](https://www.preciouschicken.com/blog/posts/neovim-latex-zathura-in-perfect-harmony/ 'Neovim, LaTeX and Zathura in perfect harmony')
+- [Vim](Vim.md) integration: [*Neovim, LaTeX and Zathura in perfect harmony*](https://www.preciouschicken.com/blog/posts/neovim-latex-zathura-in-perfect-harmony/ 'Neovim, LaTeX and Zathura in perfect harmony')
 
 <br>
 <br>

@@ -1,5 +1,83 @@
 [
 	{
+		"title": "FOSDEM 2025",
+		"start": "2025-02-01T08:00:00+01:00",
+		"end": "2025-02-01T23:59:59+01:00",
+		"url": "https://fosdem.org",
+		"location": "Bruxelles, Belgium",
+		"tags": [
+			"geek"
+		]
+	},
+	{
+		"title": "OFFDEM 0x05",
+		"start": "2025-02-02T08:00:00+01:00",
+		"end": "2025-02-02T23:59:59+01:00",
+		"url": "https://offdem.net",
+		"location": "Bruxelles, Belgium",
+		"tags": [
+			"geek",
+			"lab/ournet"
+		],
+		"role": "host"
+	},
+	{
+		"title": "38C3",
+		"start": "2024-12-27T12:00:00+01:00",
+		"end": "2024-12-30T23:59:59+01:00",
+		"url": "https://events.ccc.de/congress/2024/infos/startpage.html",
+		"location": "Hamburg, Germany",
+		"tags": [
+			"geek"
+		]
+	},
+	{
+		"title": "Inter Alia Roots Winter School 2024",
+		"start": "2024-11-30T09:00:00+02:00",
+		"end": "2024-12-02T22:00:00+02:00",
+		"url": "https://interaliaproject.com/participation/roots-winter-school-2024-strategies-for-socio-ecological-transformations-in-times-of-uncertainty/",
+		"location": "Athens, Greece",
+		"tags": [
+			"europe",
+			"lab/ournet"
+		],
+		"role": "host"
+	},
+	{
+		"title": "SFSCon 2024",
+		"start": "2024-11-08T09:00:00+01:00",
+		"end": "2024-11-09T12:00:00+01:00",
+		"url": "https://sfscon.it",
+		"location": "Bolzano, Italy",
+		"tags": [
+			"geek",
+			"lab/ournet"
+		],
+		"role": "host"
+	},
+	{
+		"title": "Kin City 2024",
+		"start": "2024-10-17T09:00:00+01:00",
+		"end": "2024-10-19T20:00:00+01:00",
+		"url": "https://berlinergazette.de/projects/kin-city/",
+		"location": "Berlin, Germany",
+		"tags": [
+			"environment"
+		]
+	},
+	{
+		"title": "Alta Felicità 2024",
+		"start": "2024-07-26T09:00:00+02:00",
+		"end": "2024-07-28T24:00:00+02:00",
+		"url": "https://www.altafelicita.org/",
+		"location": "Venaus, Italy",
+		"tags": [
+			"music",
+			"camping",
+			"festival"
+		]
+	},
+	{
 		"title": "Mozilla Festival 2024",
 		"start": "2024-06-11T09:00:00+02:00",
 		"end": "2024-06-13T20:00:00+02:00",
@@ -10,17 +88,6 @@
 		]
 	},
 	{
-		"title": "p4p",
-		"start": "2024-05-24T11:00:00+02:00",
-		"end": "2024-05-26T22:00:00+02:00",
-		"url": "https://offline.place/events/2024/05/24/p4p-unconference/",
-		"tags": [
-			"geek",
-			"lab/ournet"
-		],
-		"location": "offline, Berlin"
-	},
-	{
 		"title": "Reclaim The Tech 2024",
 		"start": "2024-05-17T10:00:00+02:00",
 		"end": "2024-05-19T20:00:00+02:00",
@@ -29,7 +96,8 @@
 			"geek",
 			"lab/ournet"
 		],
-		"location": "TPO Bologna"
+		"location": "TPO Bologna",
+		"role": "host"
 	},
 	{
 		"title": "LibreItalia Conference",
@@ -41,6 +109,7 @@
 			"geek",
 			"lab/ournet"
 		],
+		"role": "host",
 		"description": "[LibreItalia](https://libreitalia.org)’s yearly conference",
 		"description-it": "La conferenza annuale di [LibreItalia](https://libreitalia.org)"
 	},
@@ -52,7 +121,13 @@
 		"tags": [
 			"festival"
 		],
-		"people": ["Pippo Civati", "Don Luigi Ciotti", "Andrea Valiati", "Marina Bozza", "Martina Miccichè"],
+		"people": [
+			"Pippo Civati",
+			"Don Luigi Ciotti",
+			"Andrea Valiati",
+			"Marina Bozza",
+			"Martina Miccichè"
+		],
 		"description-it": "La più grande fiera nazionale del consumo critico e degli stili di vita sostenibili",
 		"location": "Allianz MiCo, Milano"
 	},
@@ -121,6 +196,17 @@
 		"role": "member"
 	},
 	{
+		"title": "SFSCon 2023",
+		"start": "2023-11-10T09:00:00+01:00",
+		"end": "2023-11-11T12:00:00+01:00",
+		"url": "https://sfscon.it",
+		"location": "Bolzano, Italy",
+		"tags": [
+			"geek",
+			"FSFE"
+		]
+	},
+	{
 		"title": "I social network del futuro",
 		"start": "2023-10-20T08:45:00+02:00",
 		"end": "2023-10-20T12:30:00+02:00",
@@ -151,9 +237,9 @@
 	},
 	{
 		"title": "Direzione Fediverso!",
-		"start": "2023-06-11T09:30:00+02:00",
-		"end": "2023-06-11T13:30:00+02:00",
-		"url": "https://scambi.org/2023/lab/direzione-fediverso",
+		"start": "2023-08-27T18:00:00+02:00",
+		"end": "2023-08-27T13:00:00+02:00",
+		"url": "https://scambi.org/2023/lab/direzione-fediverso/",
 		"tags": [
 			"scambi",
 			"lab/ournet"
@@ -168,7 +254,7 @@
 		"title": "Laboratorio sul Fediverso al quarantennale del Mira 1",
 		"start": "2023-06-11T09:30:00+02:00",
 		"end": "2023-06-11T13:30:00+02:00",
-		"url": "https://tommi.space/lab-fediverso",
+		"url": "https://tommi.space/lab-fediverso/",
 		"tags": [
 			"scout",
 			"lab/ournet"
@@ -831,7 +917,7 @@
 		"tags": [
 			"scout"
 		],
-		"description": "Route durante cui divenni [[Stambecco Cinetico]]"
+		"description": "Route durante cui divenni Stambecco Cinetico"
 	},
 	{
 		"start": "2019-07-19",
@@ -901,7 +987,7 @@
 		},
 		"url": "https://lanuovacorrente.com",
 		"description": "<cite lang='it'>La Nuova Corrente</cite> is a school **journalism project** of <em lang='it'><a hreflang='it' href='https://www.liceogdcassini.it' title='Liceo G.D. Cassini'>Liceo G.D. Cassini</a></em> in Sanremo. We [shot videos](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg '“La Nuova Corrente„ YouTube Channel'), conducted interviews and did a ton of other cool stuff.",
-		"description-it": "<cite>La Nuova Corrente</cite> è una testata giornalistica creata da alcuni professori e studenti del [Liceo Cassini di Sanremo](https://www.liceogdcassini.edu.it 'Liceo G.D. Cassini di Sanremo - sito istituzionale'), di cui sono stato per un anno direttore. Per <cite>La Nuova Corrente</cite> ho scritto [alcuni articoli](/tags#inchiostro-digitale) e scritto e condotto svariati [video e interviste](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg/videos 'Il canale YouTube de “La Nuova Corrente„') insieme ai miei compagni.",
+		"description-it": "<cite>La Nuova Corrente</cite> è una testata giornalistica creata da alcuni professori e studenti del [Liceo Cassini di Sanremo](https://www.liceogdcassini.edu.it 'Liceo G.D. Cassini di Sanremo - sito istituzionale'), di cui sono stato per un anno direttore. Per <cite>La Nuova Corrente</cite> ho scritto [alcuni articoli](/tag/inchiostro-digitale/) e scritto e condotto svariati [video e interviste](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg/videos 'Il canale YouTube de “La Nuova Corrente„') insieme ai miei compagni.",
 		"personal": false
 	},
 	{

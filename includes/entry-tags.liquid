@@ -1,10 +1,6 @@
 <div class='flex'>
-	{% for tag in site.tags -%}
-		{% for rawtag in tags -%}
-			{% capture postag -%}{{ rawtag | replace: '/', ' ' }}{% endcapture %}
-			{% if postag contains tag.title -%}
-				<span rel='tag' class='{{ tag.title | slugify }} {{ size }} written button p-category'>{{ tag.title }}</span>
-			{% endif -%}
-		{% endfor -%}
+	{% for tag in tags %}
+		{% capture classtag -%}{{ tag | replace: '/', ' ' }}{% endcapture %}
+		<span rel='tag' class='{{ classtag }} {{ size }} button p-category'>{{ tag }}</span>
 	{% endfor -%}
 </div>

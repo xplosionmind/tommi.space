@@ -11,4 +11,4 @@ toc: false
 ---
 Ho un mio pensiero e un mio particolarissimo amore per il mitico Woody Allen ma non ha senso ne scriva perché ho riversato tutto tutto quello che pensavo e bla bla quanto è speciale scrivendo di <cite>[A Rainy Day in New York](https://tommi.space/a-rainy-day-in-new-york 'Pensieri su “A Rainy Day in New York„')</cite>
 
-![[A Rainy Day in New York]]
+![A Rainy Day in New York](A%20Rainy%20Day%20in%20New%20York.md)

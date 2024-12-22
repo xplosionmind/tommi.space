@@ -12,7 +12,7 @@ step: 1
 
 ---
 
-Cercando nel Vocabolario Treccani il vocabolo “valore„, si possono leggere molteplici significati e diverse connotazioni differenti contenute in ciascuno di essi. Per prime compaiono definizioni riguardanti la morale e l’uomo:
+Cercando nel Vocabolario Treccani il vocabolo “valore”, si possono leggere molteplici significati e diverse connotazioni differenti contenute in ciascuno di essi. Per prime compaiono definizioni riguardanti la morale e l’uomo:
 
 > Possesso di alte **doti** intellettuali e **morali**, o alto grado di capacità professionale,
 > […] Coraggio, ardimento dimostrati nell’affrontare i nemici in combattimento,
@@ -20,10 +20,10 @@ Cercando nel Vocabolario Treccani il vocabolo “valore„, si possono leggere m
 
 Successivamente, come più intuitivamente l’individuo comune nella società moderna pensa immediatamente, i significati nella sfera economica:
 
-> Nell’economia politica classica, con riferimento a un bene, si distingue tra il v. d’uso, cioè la capacità del bene di soddisfare un bisogno, e il v. di scambio, la proprietà del bene di acquistare altri beni, cioè il suo «**prezzo** relativo».
+> Nell’economia politica classica, con riferimento a un bene, si distingue tra il v. d’uso, cioè la capacità del bene di soddisfare un bisogno, e il v. di scambio, la proprietà del bene di acquistare altri beni, cioè il suo <q>**prezzo** relativo</q>.
 > […] Importanza che una cosa, materiale o astratta, ha, sia oggettivamente in sé stessa, sia **soggettivamente** nel giudizio dei singoli
 
-Più avanti, si possono trovare alcune parole più interesanti per le riflessioni su questo tema per il corso di _Filosofia e Ingegneria_:
+Più avanti, si possono trovare alcune parole più interesanti per le riflessioni su questo tema per il corso di <cite>Filosofia e Ingegneria</cite>:
 
 > In filosofia il termine **non ha un sign. unico e universalmente accolto**: è stato inteso come principio o idea di validità universale _(i supremi valori dello spirito)_, o come principio, soprattutto di vita morale, dipendente da una valutazione soggettiva e pratica (_tavola dei v._; _rovesciamento dei v._ o _capovolgimento di tutti i v._, espressioni di origine nietzschiana)
 
@@ -31,9 +31,6 @@ Infine, solamente raggiungendo le righe finali della lunga pagina web dedicata a
 
 > nelle scienze matematiche e fisiche, la **determinazione quantitativa** assunta da una variabile o da una funzione, ovvero la **misura** di una grandezza;
 > […] esprime in genere **equivalenza** tra due fatti, rispetto a singole qualità, o rispetto agli effetti, all’importanza, alla funzione.
-
-<br>
-<br>
 
 ## Considerazioni
 
@@ -47,42 +44,28 @@ Forse, un giorno, un computer saprà rispondere.
 
 Sarà curioso sviluppare, durante questi mesi di corso, alcuni pensieri al riguardo e tentare di trovare alcune risposte. Intanto, per avere alcuni spunti iniziali ed individuare un punto di partenza, qui di seguito è riportata l’etimologia di valore, tratta da [etimo.it](https://etimo.it/?term=valore).
 
-<br>
-<br>
-
 ## [Etimologia](https://etimo.it/?term=valore '“valore” sul Dizionario Etimologico')
 
-**valore**: _prov._ valors; _fr._ valeur; _sp._ e _port._ valor: == _b. lat._ VALÒREM da VALÈRE, _esser forte, gagliardo, avere merito e pregio_ (v. _Valere_), e suffisso -OREM indicante disposizione o stato.
+> **valore**: _prov._ valors; _fr._ <em lang='fr'>valeur</fr>; _sp._ e _port._ valor: == _b. lat._ VALÒREM da VALÈRE, _esser forte, gagliardo, avere merito e pregio_ (v. _Valere_), e suffisso -OREM indicante disposizione o stato.
+>
+> Virtù dell’animo, che fa l’uomo eccellente in ogni cosa, che egli imprende; più generalmente Gagliardia, Prodezza.
+>
+> Merito e prezzo d'ogni cosa, cioè tutto quello che vale: altrimenti Valuta, Costo.
+>
+> Deriv. _Valorare_, ant. per _Avvaloràre_; _Valoróso_.
 
-Virtù dell’animo, che fa l’uomo eccellente in ogni cosa, che egli imprende; più generalmente Gagliardia, Prodezza.
-
-<br>
-
-Merito e prezzo d'ogni cosa, cioè tutto quello che vale: altrimenti Valuta, Costo.
-
-<br>
-
-Deriv. _Valorare_, ant. per _Avvaloràre_; _Valoróso_.
-
-<br>
-<br>
-
-## STEP \#01 bis: traduzioni
+## STEP #01 bis: traduzioni
 
 [Consegna](https://filinge.blogspot.com/2020/03/step-01-bis.html):
 
-> A completamento dello STEP #1 si chiede di indicare la traduzione del termine "sotto inchiesta" in alcune lingue straniere conducendo anche per esse una prima indagine storico-etimologica, eventualmente scoprendo quando e dove il termine appare per la prima volta nella letteratura. Per fare ciò possono essere molto utili i dizionari storico-linguistici. Per l’italiano si ricorda che in internet esiste l’edizione on-line del "gigantesco" [*Grande Dizionario della Lingua Italiana*](https://www.gdli.it/) fondato da Salvatore Battaglia. 
+> A completamento dello STEP #1 si chiede di indicare la traduzione del termine “sotto inchiesta” in alcune lingue straniere conducendo anche per esse una prima indagine storico-etimologica, eventualmente scoprendo quando e dove il termine appare per la prima volta nella letteratura. Per fare ciò possono essere molto utili i dizionari storico-linguistici. Per l’italiano si ricorda che in internet esiste l’edizione on-line del <q>gigantesco</q> [*Grande Dizionario della Lingua Italiana*](https://www.gdli.it/) fondato da Salvatore Battaglia. 
 
-<br>
+la radice ***val-*** del termine valore è comune a tutte le lingue neolatine ed europee, poiché questo termine deriva dal verbo latino **<em lang='la'>valere</em>** o **<em lang='la'>valeo</em>**.
 
-la radice ***val-*** del termine valore è comune a tutte le lingue neolatine ed europee, poiché questo termine deriva dal verbo latino ***valere*** o ***valeo***.
+- **Inglese**: <em lang='en'>value</em> (v. tr. e sost.)
+- **Francese**: <em lang='fr'>valeur</em> (sost.), 
 
-* **Inglese**: _value_ (v. tr. e sost.)
-* **Francese**: _valeur_ (sost.), 
-
-<br>
-
-Ecco le traduzioni per _valeo_ proposte dal Dizionario Olivetti:
+Ecco le traduzioni per <em lang='la'>valeo</em> proposte dal Dizionario Olivetti:
 > 1. essere forte, gagliardo, vigoroso, avere forza
 > 2. godere di buona salute, essere sano, star bene
 > 3. (in senso figurato) avere potere, essere potente
@@ -93,4 +76,5 @@ Ecco le traduzioni per _valeo_ proposte dal Dizionario Olivetti:
 > 8. (di parole) significare, aver significato
 > 9. diritto essere valido, avere validità
 
-Come si può notare, il verbo latino _valeo_ ha i medesimi significati del sostantivo (_valore_) e del verbo (_valere_) italiani, anche se l’accezione a livello fisico e morale nel mondo antico sembrano avere più importanza e ricorrenza d'uso rispetto al significato economico.
+Come si può notare, il verbo latino <em lang='la'>valeo</em> ha i medesimi significati del sostantivo (_valore_) e del verbo (_valere_) italiani, anche se l’accezione a livello fisico e morale nel mondo antico sembrano avere più importanza e ricorrenza d'uso rispetto al significato economico.
+

@@ -4,31 +4,24 @@ updated: 2022-04-08T00:14:21+02:00
 tags:
   - knowledge
   - todo
-aliases: Learn, To learn
+aliases:
+  - Learn
+  - To learn
 description: |
   Directions to lead my curiosity towards, a.k.a. what I have to learn
 redirect_from: [/learn/, /to-learn/]
 ---
 {{ description }}
 
-<br>
-<br>
-
 ## University
 
-A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
+A private list of knowledge gaps in [](Now#Studying|exams%20I%20am%20studying%20for).
 
-![[missing]]
-
-<br>
-<br>
+![missing](missing)
 
 <div class='blue box'>
-	Gaps in knowledge should be covered with the right [[Knowledge|Learning Resources]], and remembered with an effective [[Knowledge management]].
+	Gaps in knowledge should be covered with the right [Learning Resources](Knowledge.md), and remembered with an effective [Knowledge management](Knowledge%20management.md).
 </div>
-
-<br>
-<br>
 
 ## History
 
@@ -38,19 +31,13 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 - Iran history
 - Vietnam War
 
-<br>
-<br>
-
 ## Politics
 
 - Mattarellum
 - Limits to Growth 1972 and 2004
 - US Presidential timeline
 
-- [[2018-05-26 Madonna del Buon Consiglio|Madonna del Buon Consiglio]]
-
-<br>
-<br>
+- [Madonna del Buon Consiglio](2018-05-26%20Madonna%20del%20Buon%20Consiglio)
 
 ## Geek
 
@@ -58,9 +45,9 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 1. [JSON-LD](https://json-ld.org/ 'JSON-LD')
 1. Learn and use [jq](https://github.com/stedolan/jq 'jq on GitHub')
 1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html 'Getting Started - Syncthing')
-1. [[LaTeX]]
-1. [[Vim#To learn]]
-1. [[Pandoc#To learn]]
+1. [LaTeX](LaTeX.md)
+1. [](Vim.md#To%20learn)
+1. [](Pandoc.md#To%20learn)
 2. Designing websites with Inkscape / Illustrator
 3. [git](https://git-scm.com 'git official website')
 	- [git credentials](https://git-scm.com/docs/gitcredentials)
@@ -71,7 +58,7 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 1. [Computer History](https://github.com/watson/awesome-computer-history 'awesome-computer-history on GitHub')
 2. Improve OpenStreetMap and OSMand knowledge
 1. [Rclone](https://rclone.org 'Rclone')
-3. [[JavaScript]]
+3. [JavaScript](JavaScript.md)
 1. Understanding WhatsApp and Signal backups
 	- format
 	- readability
@@ -83,15 +70,13 @@ A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 7. [The Missing Semester](https://missing.csail.mit.edu/)
 8. DigiKam
 9. Darktable
-10. [[Python]]
-11. [[Bash]]
+10. [Python](Python.md)
+11. [Bash](Bash)
 12. in-depth CSS learning
 	- [Tania Rascia](https://taniarascia.com)'s [Overview of CSS concepts](https://www.taniarascia.com/overview-of-css-concepts/)
 13. [Learn EQ](https://youtu.be/e4C5DxOepsM)
 
-<br>
-<br>
-
 ## Music
 
-![[Music#Learning]]
+![](Music.md#Learning)
+

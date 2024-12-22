@@ -1,15 +1,15 @@
 ---
 date: 2023-03-01T11:35:23+01:00
 updated: 2023-05-26T17:49:12+02:00
-location: home
-permalink: /internet-history/
 tags:
   - history
   - uni/PISE/thesis
   - reading/book
+location: Casa Campo
 description: Notes, citations, and thoughts about a greatly insightful work I am using for my bachelor’s thesis.
+permalink: /internet-history/
 ---
-Notes, citations, and thoughts about a greatly insightful work I am using to give an historical context to [[Thesis|my bachelor’s thesis]].
+Notes, citations, and thoughts about a greatly insightful work I am using to give an historical context to [my bachelor’s thesis](Computer%20Sciences%20Are%20Social%20Sciences.md).
 
 p. 15:
 
@@ -37,7 +37,7 @@ What in the 60s was strongly and <q>jealously guarded</q>, computing resources, 
 
 > Licklider’s influence was felt further afield through his support of large research programmes in universities that stimulated the early computer studies departments and <u>attracted the new generation of students</u> to the new field.
 
-Zott’s beer garden as one of the main locations part of the story of the internet. The recurring **[[Partying|partying]] factor** in the development of digital technologies, as with, [for example, Facebook](https://wired.com/story/sex-beer-and-coding-inside-facebooks-wild-early-days 'Sex, Beer, and Coding: Inside Facebook’s Wild Early Days in Palo Alto | WIRED') (page 34)
+Zott’s beer garden as one of the main locations part of the story of the internet. The recurring **[partying]() factor** in the development of digital technologies, as with, [for example, Facebook](https://wired.com/story/sex-beer-and-coding-inside-facebooks-wild-early-days 'Sex, Beer, and Coding: Inside Facebook’s Wild Early Days in Palo Alto | WIRED') (page 34)
 
 > The invention of the transistor at Bell Labs in 1947 liberated computing from the large, unreliable vacuum tubes on which the first digital computers were based.
 
@@ -71,7 +71,7 @@ In 1995 Netscape went public with the largest IPO ever.
 
 > The community that emerged from the wide collaboration on Linux was a loosely governed structure over which Torvalds watched as a benevolent dictator and moral authority.
 
-> This scale of collaboration was possible because of the Internet, much as Licklider and Roberts had envisaged in 1968 when they mooted that the <q>interconnection of separate communities</q> would <q>make available to all the members of all the communities the programs and data resources of the entire super community</q> The community that emerged from the wide collaboration on Linux was a loosely governed structure over which Torvalds watched as benevolent dictator and moral authority. His lieutenants have ownership of parts of the project.  
+> This scale of collaboration was possible because of the Internet, much as Licklider and Roberts had envisaged in 1968 when they mooted that the <q>interconnection of separate communities</q> would <q>make available to all the members of all the communities the programs and data resources of the entire super community</q> The community that emerged from the wide collaboration on Linux was a loosely governed structure over which Torvalds watched as benevolent dictator and moral authority. His lieutenants have ownership of parts of the project.
 They are, he claims, selected by the community according to merit:
 >
 > > The programmers are very good at selecting leaders. There’s no process for making somebody a lieutenant. But somebody who gets things done, shows good taste, and has good qualities - people just start sending them suggestions and patches. I didn’t design it this way. This happens because this is the way people work. It’s very natural.

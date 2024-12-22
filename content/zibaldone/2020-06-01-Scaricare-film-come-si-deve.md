@@ -2,7 +2,6 @@
 title: Scaricare film, come si deve
 date: 2020-06-01
 updated: 2021-03-12T11:43:17+01:00
-layout: jam.html
 permalink: /scaricare-film/
 toc: true
 image: https://crops.giga.de/1e/b5/dd/dbf063aee9a3e3f9e2a21ba6bd_YyAxMjAzeDY3NyszOCsyMgJyZSAxMDAwIDU2MwMxNWQwYTllOWFiYg==.jpg

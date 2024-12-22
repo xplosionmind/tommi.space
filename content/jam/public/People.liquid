@@ -1,53 +1,59 @@
 ---
 date: 2020-06-25
-updated: 2024-04-23
 tags:
   - log
 description: Real and fictional characters who left a mark in me
 redirect_from: [/characters/,/persone/,/personaggi/,/idols/,/idoli/]
 main: true
 toc: false
-layout: default.html
+layout: wrapper.liquid
 ---
-<div class='row'>
-	<div class='one column'>
-		<article>
-			<p>This page displays the people I admire the most, be them real or fictional. The list does not follow any particular order</p>
-		</article>
-	</div>
-</div>
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundRazzmatazz'>People</h1>
+	</hgroup>
 
-<div class='large grid'>
+	<article class='e-content'>
+		{% renderTemplate 'md' %}
+These are real or fictional people I admire for many reasons ora very particular one.
+		{% endrenderTemplate %}
+	</article>
+
+<div class='entries-list grid'>
 	{% for idol in people %}
 		{% unless idol.url contains 'tommi.space' %}
-			<div class='vertical flex'>
-				<div class='vertical flex box'>
-					{% img idol.image, idol.who %}
-					<a href='{{ idol.url }}'><h3 id='{{ idol.who | slugify }}'>{{ idol.who }}</h3></a>
-					{% if idol.note %}
-						<p>{{ idol.note | markdownify }}</p>
-					{% endif %}
-				</div>
+			<div class='little box'>
+				<a href='{{ idol.url }}'>
+					<h2 id='{{ idol.who | slugify }}'>{{ idol.who }}</h2>
+					<figure>
+						<img src='{{ idol.image }}' alt='{{ idol.who }}'>
+					</figure>
+				</a>
+				{% if idol.note %}
+					<p>{{ idol.note | markdownify }}</p>
+				{% endif %}
 			</div>
 		{% endunless %}
 	{% endfor %}
 </div>
 
-<h2 class='center'>People I also wrote about</h2>
-
-<div class='large grid'>
+<div class='entries-list nd grid'>
+	<div class='center wide no-background flex'>
+		<h2 class='wavyBackgroundRazzmatazz'>People I also wrote about</h2>
+	</div>
 	{% for idol in collections.jam %}
 		{% for tag in idol.data.tags %}
 			{% capture idoltag -%}{{ tag | replace: '/', ' ' }}{% endcapture %}
 			{% if idoltag contains 'people' %}
-				<div class='vertical flex'>
-					<a class='vertical flex box' href='{{ idol.url | url }}'>
-						{% img idol.data.image, idol.data.title %}
-						<h3 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h3>
-						<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
-					</a>
-				</div>
+				<a class='little box' href='{{ idol.url | url }}'>
+					{% if idol.data.image %}
+						<figure><img src='{{ idol.data.image }}' alt='{{ idol.data.title }}'></figure>
+					{% endif %}
+					<h2 id='{{ idol.data.title | slugify }}'>{{ idol.data.title }}</h2>
+					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
+				</a>
 			{% endif %}
 		{% endfor %}
 	{% endfor %}
 </div>
+</main>

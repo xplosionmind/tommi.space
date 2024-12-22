@@ -1,22 +1,22 @@
 ---
 date: 2022-04-26T10:02:11+02:00
 updated: 2023-01-15T15:50:11+01:00
-location: Grenoble
-lang: fr
-description: Un journal de ma vie, mes études et mes découvertes à Grenoble pendant le premier semestre de l’année 2022/2023
-permalink: /erasmus-grenoble/
-redirect_from:
-  - /erasmus/
-  - /erasmus2022/
 aliases:
   - Erasmus
   - Erasmus 2022-2023
 tags:
   - uni/Grenoble
+location: Grenoble
+description: Un journal de ma vie, mes études et mes découvertes à Grenoble pendant le premier semestre de l’année 2022/2023
+lang: fr
+permalink: /erasmus-grenoble/
+redirect_from:
+  - /erasmus/
+  - /erasmus-a-grenoble/
 ---
-Cette page a été créée pour prendre des notes rapides sur mon premier Erasmus, que j’ai fait pendant le premier semestre de l’année 2022-2023, à [[Grenoble]].
+Cette page a été créée pour prendre des notes rapides sur mon premier Erasmus, que j’ai fait pendant le premier semestre de l’année 2022-2023, à [Grenoble](Grenoble.md).
 
-Je vai essayer à écrire un journal de ma vie et de mes découvertes ici et je vais le faire en Français, probablement avec beaucoup des erreurs. Tous ce que regardes spécifiquement la cité est dans la page [[Grenoble]].
+Je vai essayer à écrire un journal de ma vie et de mes découvertes ici et je vais le faire en Français, probablement avec beaucoup des erreurs. Tous ce que regardes spécifiquement la cité est dans la page [Grenoble](Grenoble.md).
 
 <div class='blue box' lang='en'>
 	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://pan.rent' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://pan.rent/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
@@ -28,35 +28,28 @@ Je vai essayer à écrire un journal de ma vie et de mes découvertes ici et je 
 
 <div class='embed'><iframe title='Inno all’Erasmus' src='https://p.lu/videos/embed/f7ac82f2-db06-4607-be41-b100cbae6b55' allowfullscreen='' sandbox='allow-same-origin allow-scripts allow-popups' frameborder='0'></iframe></div>
 
-<blockquote lang='it'><p>Un brindisi per esaltare questa celebrazione<br>
-e sottolineare l’emozione</p>
-
-<p>tripudio di gioia inimitabile<br>
-un calore patriottico inestinguibile</p>
-
-<p>con trasporto questo Erasmus festeggiamo<br>
-e la sua finalità fondamentale ricordiamo</p>
-
-<p>conoscere nuove italiane e nuovi italiani<br>
-e cosa vogliono saperne i babbani</p>
-
-<p>di vivere in mezzo alle montagne<br>
-dei francesi sopportare le magagne</p>
-
-<p>di rubare <a href='https://tommi.space/grenoble-carelli.jpg' target='_blank' title='Un’immagine di noi mentre rubiamo dei carrelli in un supermercato a Grenoble'>carrelli nei supermercati</a><br>
-dei vini in confezioni in plastica, sottovalutati</p>
-
-<p>Del <cite lang='fr'><a href='https://tommi.space/notabeer#poisson-rouge' hreflang='fr' title='Il Poisson Rouge'>Poisson Rouge</a></cite> mille volte meglio del <cite lang='fr'>Moulin Rouge</cite><br>
-del neologismo concepito per fare rima: <q lang='fr'>ufffifidicdkeouge</q></p>
-
-<p>e quando un giorno ricorderemo questo trionfo<br>
-dall’emozione sverremo con un tonfo</p>
-
-<p>i legami più speciali nascono in questi momenti<br>
-in cui siamo i più vivi di tutti gli esseri viventi</p>
-
-<p>viva noi, viva il sesso, viva l’orgasmo internazionale<br>
-viva l’Erasmus a Grenoble, durante cui ogni sbronza vale.</p></blockquote>
+<blockquote lang='it'>
+	<p>Un brindisi per esaltare questa celebrazione<br>
+		e sottolineare l’emozione</p>
+	<p>tripudio di gioia inimitabile<br>
+		un calore patriottico inestinguibile</p>
+	<p>con trasporto questo Erasmus festeggiamo<br>
+		e la sua finalità fondamentale ricordiamo</p>
+	<p>conoscere nuove italiane e nuovi italiani<br>
+		e cosa vogliono saperne i babbani</p>
+	<p>di vivere in mezzo alle montagne<br>
+		dei francesi sopportare le magagne</p>
+	<p>di rubare <a href='https://tommi.space/grenoble-carelli.jpg' target='_blank' title='Un’immagine di noi mentre rubiamo dei carrelli in un supermercato a Grenoble'>carrelli nei supermercati</a><br>
+		dei vini in confezioni in plastica, sottovalutati</p>
+	<p>Del <cite lang='fr'><a href='https://tommi.space/notabeer#poisson-rouge' hreflang='fr' title='Il Poisson Rouge'>Poisson Rouge</a></cite> mille volte meglio del <cite lang='fr'>Moulin Rouge</cite><br>
+		del neologismo concepito per fare rima: <q lang='fr'>ufffifidicdkeouge</q></p>
+	<p>e quando un giorno ricorderemo questo trionfo<br>
+		dall’emozione sverremo con un tonfo</p>
+	<p>i legami più speciali nascono in questi momenti<br>
+		in cui siamo i più vivi di tutti gli esseri viventi</p>
+	<p>viva noi, viva il sesso, viva l’orgasmo internazionale<br>
+		viva l’Erasmus a Grenoble, durante cui ogni sbronza vale.</p>
+</blockquote>
 
 ## Contrat d’etudes
 

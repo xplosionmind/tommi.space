@@ -19,7 +19,7 @@ todo:
 Quitting Spotify is hard. It is **very** hard, not only because it is convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn't enough: it’s necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
 
 <div class='blue box'>
-	Quitting Spotify is one of the steps of the path to [[Internet Freedom]], and it follows the “[[Quit and switch]]” philosophy.
+	Quitting Spotify is one of the steps of the path to [Internet Freedom](Internet%20Freedom.md), and it follows the “[Quit and switch](Quit%20and%20switch.md)” philosophy.
 </div>
 
 ## Why
@@ -36,7 +36,7 @@ Reasons to quit Spotify:
 <br>
 
 <figure>
-	{% img 'Spotify-close-account.jpg', 'repercussions of closing Spotify account' %}
+	<img src='/Spotify-close-account.jpg' alt='repercussions of closing Spotify account'>
 	<figcaption>
 		Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.
 	</figcaption>
@@ -85,7 +85,7 @@ One thing I am going to actually miss is the weekly email with new releases from
 
 ### On desktop
 
-Use a combination of the alternatives above, since none is as complete as Spotify.  
+Use a combination of the alternatives above, since none is as complete as Spotify.
 The purpose is to <u>differentiate</u> as much as possible all of the streaming services to value fair competition. The most promising software is [FreeTube](https://freetubeapp.io 'FreeTube').
 
 Ideally, the best way would be to download and store locally all of the music I listen to, as I did up to 3 years ago, but I have to admit it’s not convenient at all, from every point of view.

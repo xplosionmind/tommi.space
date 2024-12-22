@@ -4,11 +4,11 @@ updated: 2022-12-21T11:39:55+01:00
 tags:
   - geek
   - fediverse
-location: home
-description: Various Fediverse information, tips, and accounts worth following.
 image: https://blog.alexgleason.me/content/images/2019/11/fediverse.png
+description: Various Fediverse information, tips, and accounts worth following.
+location: home
 ---
-The Fediverse is a [[Decentralization|decentralized]] ensemble of social networking apps (more below).
+The Fediverse is a [decentralized](Decentralization) ensemble of social networking apps (more below).
 
 I am extremely happy many of my friends are finally joining the Fediverse, therefore I am collecting here several info, so that they can easily retrieve it and feel at home in this new awesome platform.
 
@@ -71,7 +71,7 @@ Some random links I need to select, sort and analyze
 
 ## <cite>Pan</cite>
 
-<cite>[Pan](https://pan.rent 'Pan')</cite> is the Fediverse community I am the admin of. I am noting everything about it on [[Pan|the dedicated page]].
+<cite>[Pan](https://pan.rent 'Pan')</cite> is the Fediverse community I am the admin of. I am noting everything about it on [the dedicated page](Pan.md).
 
 ## Accounts worth following
 
@@ -85,7 +85,7 @@ My accounts on the Fediverse:
 
 - [`@tommi@pan.rent`](https://pan.rent/@tommi 'Tommi on Pan'), my main account, on <cite>[Pan](https://pan.rent/about 'About Pan')</cite>
 - [`@tommi@stream.tommi.space`](https://stream.tommi.space), a flow of consciousness (unstable, experimental, work-in-progress instance)
-- [`@tommi@tmi.pics`](https://tmi.pics/tommi 'Tommi on TMI Pics'), my account on [[Pixelfed]], an Instagram-like platform
+- [`@tommi@tmi.pics`](https://tmi.pics/tommi 'Tommi on TMI Pics'), my account on [Pixelfed](Pixelfed), an Instagram-like platform
 - [`@tommi@bookwyrm.social`](https://bookwyrm.social/user/tommi 'Tommi on BookWyrm'), my account on [Bookwyrm](https://bookwyrm.social), a platform to share readings and books
 - [`@tommi@lemmy.ml`](https://lemmy.ml/u/tommi 'Tommi on Lemmy.ml'), my account on [Lemmy](https://join-lemmy.org 'Join Lemmy'), a Reddit-like platform
 

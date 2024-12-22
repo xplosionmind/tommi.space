@@ -5,7 +5,9 @@ tags:
   - zen
   - draft
 description: Gaining knowledge and awareness of ourselves by collecting any sort of data which concern us
-aliases: Quantified self, Life logging
+aliases:
+  - Quantified self
+  - Life logging
 redirect_from: [/quantified-self/,/life-logging/]
 todo:
   - rewrite
@@ -28,19 +30,19 @@ The basic idea is trying to pinpoint daily events and feelings which could be re
 - **Sun Salutation**: checking if every morning I perform [<cite>Sūrya Namaskāra</cite>](https://en.wikipedia.org/wiki/Surya_Namaskar '“Surya Namaskar” on Wikipedia')
 - **Dreams logging**: write down summaries of dreams
 - **Wallet**: logging expenses, earnings, and savings
-- *[[Esame di coscienza]]*: every night, revise the events of the day to check what could be improved and what shouldn't be repeated.
+- *[Esame di coscienza](Esame%20di%20coscienza.md)*: every night, revise the events of the day to check what could be improved and what shouldn't be repeated.
 
 ## Workflow
 
-Since I do not have the proper [[Automations|automations]] in place, every time I do something I need to perform a set of actions to properly log it.
+Since I do not have the proper [automations](Automations.md) in place, every time I do something I need to perform a set of actions to properly log it.
 
 - Add to <cite lang='it'><a href='https://tommi.space/tutto' hreflang='it' title='Tutto quello che io abbia mai fatto'>Tutto</a></cite>
 - Toot about it?
-- Post it on [[Pixelfed|TMI Pics]]?
+- Post it on [TMI Pics](Pixelfed)?
 - Is it worth being on the curriculum?
 	- add it on LinkedIn
 	- add it on Europass
-- long term? Add it on [[Now]]?
+- long term? Add it on [Now](Now)?
 
 ## Resources
 

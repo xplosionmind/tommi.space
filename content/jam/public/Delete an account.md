@@ -3,8 +3,8 @@ date: 2020-08-05
 updated: 2022-11-14T19:27:50+01:00
 tags:
   - geek
-permalink: /delete/
 description: Walkthrough and refernece documentation for deleting an account or quitting an online service in the most effective way possible.
+permalink: /delete/
 ---
 The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though:
 

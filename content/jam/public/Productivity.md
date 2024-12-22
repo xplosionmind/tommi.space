@@ -7,7 +7,7 @@ tags: zen
 toc: false
 desctiption: Thoughts and insights about productivity, and about how I perceive it
 ---
-The problem with productivity is that it supposes the right mindset. I do not have it. I expect I could rely on automation, with some sort of [[Nolan|Life dashboard]], but the problem is the fundamental, personal approach.
+The problem with productivity is that it supposes the right mindset. I do not have it. I expect I could rely on automation, with some sort of [Life dashboard](Nolan.md), but the problem is the fundamental, personal approach.
 
 ## Epiphanies
 

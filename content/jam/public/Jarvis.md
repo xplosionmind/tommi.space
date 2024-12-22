@@ -7,5 +7,5 @@ tags:
 todo:
   - add missing pictures
 ---
-Una volta terminato [[John]], alla Feltrinelli di Genova comprai, nel marzo 2019, <cite>Jarvis</cite>.  
+Una volta terminato [John](John.md), alla Feltrinelli di Genova comprai, nel marzo 2019, <cite>Jarvis</cite>.  
 Ricordare <cite>Jarvis</cite> è doloroso, perché è stato brutalmente smarrito nel corso di [Scambi 2021](https://scambi.org 'Scambi Festival'); per metabolizzare la sua scomparsa, gli ho dedicato [questa ode](https://tommi.space/jarvis 'Ode a Jarvis').

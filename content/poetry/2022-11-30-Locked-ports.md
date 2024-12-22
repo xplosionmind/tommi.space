@@ -2,7 +2,8 @@
 title: Locked ports
 date: 2022-11-30T19:30:02+01:00
 updated: 2022-12-09T17:30:02+01:00
-location: Bâtiment Stendhal
+location: Bâtiment Stendhal, Grenoble
+lang: en
 ---
 I was restlessly clashing  
 `22` `22` `22` `22` `22` `22`  

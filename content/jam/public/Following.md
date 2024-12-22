@@ -5,7 +5,7 @@ tags:
   - wip
 redirect_from: [/telegram-following/,/telegram-channels/,/subscriptions/,/newsletters/]
 todo:
-  - 'integrate with [[Webrings]], [[People]], and [[Blogroll]]'
+  - 'integrate with [Webrings](Webrings.md), [People](People), and [Blogroll](Blogroll)'
 ---
 In our world, especially on the web, there is **a lot** of content, maybe too much, and it’s very easy for me to get anxious because I can’t keep up with everything and I can’t know or learn what I wanted.  
 For this reason, it’s important to be very selective and aware of who I follow and what are the knowledge and news sources I’m subscribed to, in order to find the right equilibrium.
@@ -20,7 +20,7 @@ Stuff means: Newsletters by people, newsletters by magazines, newsletters by com
 ## RSS
 
 Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS 'RSS on Wikipedia'). I think the whole world should use it. It’s such a clever, useful, simple, neat, old but solid technology that I believe it could [replace social media](https://quitsocialmedia.club/solution#rss 'RSS as a Solution on Quit Social Media').  
-I’m working hard to build an independent infrastructure on my [[Nebuchadnezzar|server]] capable of gettings social media feeds and making them RSS feeds I can subscribe to. In the meanwhile, I’m slowly and steadily transitioning to use exclusively it, and below there’s a link to my feed subscriptions.
+I’m working hard to build an independent infrastructure on my [server](Nebuchadnezzar.md) capable of gettings social media feeds and making them RSS feeds I can subscribe to. In the meanwhile, I’m slowly and steadily transitioning to use exclusively it, and below there’s a link to my feed subscriptions.
 
 [**My Feed Subscriptions**](https://tommi.space/subscriptions.xml) - last updated on Jan 18<sup>th</sup>, 2022
 

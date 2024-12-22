@@ -12,7 +12,7 @@ toc: false
 
 ## Batch metadata append
 
-Modifying metadata in bulk with [the dedicated CLI tool](https://archive.org/developers/internetarchive/cli.html 'Command-Line Interface — Internet Archive Developer Portal') means applying values to one or more fields at a time, or also to multiple items at a time (in bulk) by using spreadsheets as an input. The problem is that for bulk metadata changing, values cannot be appended, but they can only be edited/substituted/removed. In order to batch append collections, I wrote a tiny [[Scripts|script]]:
+Modifying metadata in bulk with [the dedicated CLI tool](https://archive.org/developers/internetarchive/cli.html 'Command-Line Interface — Internet Archive Developer Portal') means applying values to one or more fields at a time, or also to multiple items at a time (in bulk) by using spreadsheets as an input. The problem is that for bulk metadata changing, values cannot be appended, but they can only be edited/substituted/removed. In order to batch append collections, I wrote a tiny [script](Scripts):
 
 ```sh
 #!/bin/bash

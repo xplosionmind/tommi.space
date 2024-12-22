@@ -43,4 +43,4 @@ description: A science, an art. Insights, definitions, quotes, and ideas about P
 
 ## Ideas
 
-![[Politics ideas]]
+![Politics ideas](Politics%20ideas.md)

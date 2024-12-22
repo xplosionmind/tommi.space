@@ -4,14 +4,51 @@ description: look for anything in tommi.space
 type: SearchResultsPage
 sitemap:
   changefreq: never
-	priority: 0.4
+  priority: 0.4
 eleventyExcludeFromCollections: true
 ---
 <link href='/pagefind/pagefind-ui.css' rel='stylesheet'>
 <script src='/pagefind/pagefind-ui.js' type='text/javascript'></script>
-<div id='search'></div>
+<main>
+	<article class='middle background box'>
+		<div id='search'></div>
+	</article>
+</main>
+
 <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: '#search', showSubResults: true });
-    });
+	window.addEventListener('DOMContentLoaded', (event) => {
+		const search_ui = new PagefindUI(
+			{
+				element: '#search',
+				autofocus: true,
+				pageSize: 10,
+				showEmptyFilters: false,
+				excerptLength: 50,
+				showImages: true,
+				showSubResults: true,
+				resetStyles: false,
+				translations: {
+					placeholder: 'Type your search…',
+					clear_search: 'Clear',
+					load_more: 'Load more results',
+					search_label: 'Search this site',
+					filters_label: 'Filters',
+					zero_results: 'No result found for “[SEARCH_TERM]”.',
+					many_results: '[COUNT] results found for “[SEARCH_TERM]”:',
+					one_result: '[COUNT] result found for “[SEARCH_TERM]”:',
+					alt_search: 'No result found for “[SEARCH_TERM]”. Showing results for “[DIFFERENT_TERM]” instead:',
+					search_suggestion: 'No result found for “[SEARCH_TERM]”. Try one of the following searches:',
+					searching: 'Searching for “[SEARCH_TERM]”…'
+				},
+				processTerm: function (term) {
+					history.replaceState({}, '', `?q=${encodeURIComponent(term)}`);
+					return term;
+				},
+			});
+
+			const params = new URLSearchParams(window.location.search);
+			if (params.has('q')) {
+				search_ui.triggerSearch(params.get('q'));
+			}
+	});
 </script>

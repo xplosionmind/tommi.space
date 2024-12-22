@@ -1,13 +1,18 @@
 ---
 date: 2020-03-21T01:00:00+01:00
 updated: 2023-02-07T20:32:45+01:00
-redirect_from: [/server-configuration/,/nextcloud/]
-tags: geek/server
+aliases:
+  - Server configuration
+  - VPS configuration
+tags:
+  - geek/sysad
 description: A walktrough of the steps I executed to set up my server
-aliases: Server configuration, VPS configuration
+redirect_from:
+  - /server-configuration/
+  - /nextcloud/
 ---
 <div class='red box'>
-	Everything in this page is not revised and out of date, since I am using <a href='https://yunohost.org' title='YunoHost'>YunoHost</a> to manage my server now. On <a href='https://server.tommi.space' title='Tommi’s server'>server.tommi.space</a> there is the public front-end of the administration panel.
+	<p>Everything in this page is <strong>not revised and out of date</strong>, since I am using <a href='https://yunohost.org' title='YunoHost'>YunoHost</a> to manage my server now. On <a href='https://server.tommi.space' title='Tommi’s server'>server.tommi.space</a> there is the public front-end of the administration panel.</p>
 </div>
 
 <div class='box'>
@@ -16,11 +21,11 @@ aliases: Server configuration, VPS configuration
 
 ## General knowledge
 
-Resources, apps, tutorials and several knowledge sources are mentioned in the [[Nebuchadnezzar]] page.
+Resources, apps, tutorials and several knowledge sources are mentioned in the [Nebuchadnezzar](Nebuchadnezzar.md) page.
 
 ## Docker
 
-Please refer to [[Docker]] to see how I re-deployed everything on my server through [Docker](https://docker.com 'Docker').
+Please refer to [Docker](Docker) to see how I re-deployed everything on my server through [Docker](https://docker.com 'Docker').
 
 ## Good practices
 
@@ -393,7 +398,7 @@ systemctl restart apache2
 
 - point the chosen domain and subdomain to the server IP address
 - wait for the domain to propagate (it could take up to 48 hours)
-- go to `cloud.example.com`, where you should get this page:
+- go to `cloud.example.com`
 
 <div class='yelow box'>
 	<u><strong>Do not</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
@@ -561,7 +566,7 @@ My `whitelist.txt` file:
 
 ### Customization
 
-What’s the real issue, to my surprise, wasn't get RSS-Bridge up and running as much as <u>making it actually work</u>.
+What’s the real issue, to my surprise, wasn’t get RSS-Bridge up and running as much as <u>making it actually work</u>.
 
 Below I collected some articles useful to sort thing out.
 

@@ -13,6 +13,7 @@ description: A wonderfully clever way to manage knowledge and ideas as well as m
 aliases:
   - Digital Garden
   - Wiki
+toc: true
 todo:
   - '[Zettelkasten overreach](https://t.me/c/1158323687/5078)'
 ---
@@ -26,7 +27,7 @@ The problem of Zettlekasten is that there is a worrying risk (at least, for me) 
 
 Either one can find an equilibrium among the two—but it requires very strong self-awareness and intelligence—,or she is better off dropping this knowledge management system.
 
-The most suited—yet exaggerated—example to express my feeling is what happened to [[Aby Warburg]]. Enthusiastic and psyched about his plan to create <cite>[Atlas Mnemosyne](https://warburg.library.cornell.edu/about '“About the Mnemosyne Atlas„ - Warburg Library')</cite>, he got overwhelmed with a tremendous amount of inputs, and [he ended up schizophrenic](https://en.wikipedia.org/wiki/Aby_Warburg#Return_to_Hamburg 'Final moments of Aby Warburg’s life on Wikipedia').
+The most suited—yet exaggerated—example to express my feeling is what happened to [Aby Warburg](Aby%20Warburg.md). Enthusiastic and psyched about his plan to create <cite>[Atlas Mnemosyne](https://warburg.library.cornell.edu/about '“About the Mnemosyne Atlas„ - Warburg Library')</cite>, he got overwhelmed with a tremendous amount of inputs, and [he ended up schizophrenic](https://en.wikipedia.org/wiki/Aby_Warburg#Return_to_Hamburg 'Final moments of Aby Warburg’s life on Wikipedia').
 
 [Zettelkasten overreach](https://t.me/c/1158323687/5078)
 

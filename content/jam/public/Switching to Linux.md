@@ -7,7 +7,7 @@ tags:
 ---
 ## Before the switch
 
-- [[Mobile backup checklist]]
+- [Mobile backup checklist](Mobile%20backup%20checklist.md)
 - Manually copy
 	- Obsidian config files
 	- Firefox profile
@@ -19,7 +19,7 @@ tags:
 1. [Disable fast boot](https://debian.org/releases/stable/amd64/ch03s06.en.html)
 1. Handle partitions correctly
 2. <b class='missing'>+++</b> [Debian installation guide from chapter 5](https://debian.org/releases/stable/amd64/index.en.html)
-3. First setup steps, specifically needed for [[Vanilla OS]]
+3. First setup steps, specifically needed for [Vanilla OS](Vanilla%20OS.md)
 4. Install Firefox
 
 ## Firefox

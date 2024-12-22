@@ -1,17 +1,22 @@
 ---
 date: 2021-12-06T11:39:18+01:00
 updated: 2023-06-23T03:34:59+02:00
-aliases: Thesis writing workflow with Pandoc, Long writing in Markdown
-tags: geek
-description: My workflow for academic writing, based on Pandoc, and using Markdown, Zotero, and Obsidian.
+aliases:
+  - Thesis writing workflow with Pandoc
+  - Long writing in Markdown
+tags:
+  - geek
+description: My workflow for academic writing that I uses for my thesis, based on Pandoc, and using Markdown, Zotero, and Obsidian.
 image: https://s3.amazonaws.com/libapps/accounts/109251/Screen_Shot_2017-01-06_at_4.18.48_PM.png
 permalink: /pandoc-workflow/
-redirect_from: [/academic-writing-with-pandoc/,/pandoc-paper/]
-toc: false
+redirect_from:
+  - /academic-writing-with-pandoc/
+  - /pandoc-paper/
+toc: true
 ---
-I wrote [[Computer Sciences Are Social Sciences|my bachelor thesis]] in [Markdown](https://en.wikipedia.org/wiki/Markdown 'Markdown in Wikipedia'). I took advantage of [Zotero](https://zotero.org 'Zotero official website') to store and process citations, and I used [Obsidian](https://obsidian.md 'Obsidian official website') as the main editor (exploiting the great [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin 'obsidian-citation-plugin on GitHub') to ease the citing process).
+I wrote [my bachelor thesis](Computer%20Sciences%20Are%20Social%20Sciences.md) in [Markdown](https://en.wikipedia.org/wiki/Markdown 'Markdown in Wikipedia'). I took advantage of [Zotero](https://zotero.org 'Zotero official website') to store and process citations, and I used [Obsidian](https://obsidian.md 'Obsidian official website') as the main editor (exploiting the great [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin 'obsidian-citation-plugin on GitHub') to ease the citing process).
 
-Finally, a simple and wonderful [[Pandoc]] command compiles the whole thesis.
+Finally, a simple and wonderful [Pandoc](Pandoc.md) command compiles the whole thesis.
 
 ## Pandoc
 

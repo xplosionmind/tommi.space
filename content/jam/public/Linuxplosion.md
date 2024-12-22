@@ -13,17 +13,17 @@ toc: false
 The original fundamental purpose of building <cite>Linuxplosion</cite> was editing [Everyone](https://tommi.space/everyone 'Everyone'). Some computerphiles friends joined me in finding the best components to use, as well as in assembling the computer. In particular, a huge shout-out to my friend Giorgio, who had the patience of bearing with me during all of the assembling process.
 
 <figure>
-	{% img '2019-08-05-linuxplosion-1.jpg', 'Giorgio inserting a component of the PC into the case' %}
+	<img src='/2019-08-05-linuxplosion-1.jpg' alt='Giorgio inserting a component of the PC into the case'>
 </figure>
 
 <figure>
-	{% img image, 'The CPU cooler and the graphic card in evidence on the left side of the case' %}
+	<img src='{{ image }}' alt='The CPU cooler and the graphic card in evidence on the left side of the case'>
 	<figcaption>The CPU cooler and the graphic card in evidence on the left side of the case</figcaption>
 </figure>
 
 I worked as a plumber all of August 2019 to buy it, and it has definitely been worth it. We finished assembling it the 5<sup>th</sup> of August.
 
-Originally, the computer run Windows, but in 2020 I switched to Ubuntu. The only program which I miss is Lightroom (that runs in a <abbr title='Virtual Machine'>VM</abbr>, anyways), everything else works beautifully.  
+Originally, the computer run Windows, but in 2020 I switched to Ubuntu. The only program which I miss is Lightroom (that runs in a <abbr title='Virtual Machine'>VM</abbr>, anyways), everything else works beautifully.
 I do not use <cite>Linuxplosion</cite> much since it is not physically in the same city I live in.
 
 ## Components

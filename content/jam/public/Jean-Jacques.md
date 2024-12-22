@@ -4,7 +4,7 @@ updated: 2022-11-13T13:08:36+01:00
 lang: fr
 location: BDL
 tags: things
-description: mon magnifique vélo acheté et utilisé pendant mon [[Erasmus à Grenoble|Erasmus]] à [[Grenoble]]. 
+description: mon magnifique vélo acheté et utilisé pendant mon [Erasmus](Erasmus%20à%20Grenoble.md) à [Grenoble](Grenoble.md).
 toc: false
 ---
 {{ title }} est {{ description }}
@@ -17,9 +17,9 @@ En plus de tous les problèmes que Jean-Jacques m’a créé, il risquait d’ê
 
 <div class='row'>
 	<figure class='half column'>
-		{% img 'jj-pedal.webp', 'Le pedal Jean-Jaques cassé' %}
+		<img src='/jj-pedal.webp' alt='Le pedal Jean-Jaques cassé'>
 	</figure>
 	<figure class='half column'>
-		{% img 'https://tommi.space/jj-frein.webp', 'Le frein de Jean-Jaques cassé' %}
+		<img src='https://tommi.space/jj-frein.webp' alt='Le frein de Jean-Jaques cassé'>
 	</figure>
 </div>

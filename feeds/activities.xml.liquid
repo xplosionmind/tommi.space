@@ -9,7 +9,7 @@ layout: feed.xml.liquid
 	<item>
 		<title>{{ entry.title }}</title>
 		{% if entry.url %}<link>{{ entry.url }}</link>{% endif %}
-		<description><![CDATA[{% if entry.location %}📍 <strong>Location</strong>: {{ entry.location }}<br />{% endif %}🗓️ <strong>Start</strong>: <time datetime='{{ entry.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.start | date: '%-d %b %Y' }}</time><br />{% if entry.end %}🗓️ <strong>End</strong>: <time datetime='{{ entry.end | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ entry.end | date: '%-d %b %Y' }}</time>{% endif %}<br /><br />{% if entry.description %}{{ entry.description | markdownify | replace: '"/', '"https://tommi.space/' | replace: '\'/', '\'https://tommi.space/' }}{% endif %}]]></description>
+		<description><![CDATA[{% if entry.location %}📍 <strong>Location</strong>: {{ entry.location }}<br />{% endif %}🗓️ <strong>Start</strong>: <time datetime='{{ entry.start | date_to_xmlschema }}'>{{ entry.start | date: '%-d %b %Y' }}</time><br />{% if entry.end %}🗓️ <strong>End</strong>: <time datetime='{{ entry.end | date_to_xmlschema }}'>{{ entry.end | date: '%-d %b %Y' }}</time>{% endif %}<br /><br />{% if entry.description %}{{ entry.description | markdownify | replace: '"/', '"https://tommi.space/' | replace: '\'/', '\'https://tommi.space/' }}{% endif %}]]></description>
 		<author>{{ site.author.email }} ({{ site.author.name }})</author>
 		<category>{{ tags | replace: ' ', '</category><category>' }}</category>
 		<guid>{{ entry.title | slugify }}</guid>

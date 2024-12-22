@@ -36,7 +36,7 @@ Most information about why and how to prefer and write plain text emails is coll
 
 > \[…\] HTML emails are a security nightmare, are mostly used for advertising to you and tracking you, are less accessible for many users, and don’t offer anything especially great for it.
 
-It would be great if there existed a client that could send and receive emails in plain text, but with Markdown syntax. By doing so, Markdown could be rendered by the client, even though the original email is in pure plain text. [[Plain text Markdown email client|here is my proposition]]
+It would be great if there existed a client that could send and receive emails in plain text, but with Markdown syntax. By doing so, Markdown could be rendered by the client, even though the original email is in pure plain text. [here is my proposition](Plain%20text%20Markdown%20email%20client.md)
 
 ## Limits
 

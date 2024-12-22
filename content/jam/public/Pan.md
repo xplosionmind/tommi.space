@@ -7,7 +7,7 @@ image: https://x.scambi.org/illustrations/pan.webp
 description: Notes and thoughts on Pan administration
 location: BDL
 ---
-<cite>[Pan](https://pan.rent)</cite> is the [[Fediverse]] node I am the admin of. I conceived it, but it is formally owned and managed by <cite>[APS Oltre](https://scambi.org/oltre 'APS Oltre — scambi.org')</cite>.
+<cite>[Pan](https://pan.rent)</cite> is the [Fediverse](Fediverse.md) node I am the admin of. I conceived it, but it is formally owned and managed by <cite>[APS Oltre](https://scambi.org/oltre 'APS Oltre — scambi.org')</cite>.
 
 Here I take notes concerning the milestones of its history, as well as ideas, insights, and things to figure out.
 
@@ -22,7 +22,7 @@ Here I take notes concerning the milestones of its history, as well as ideas, in
 
 <p class='date'><time datetime='2022-08-27T09:50:40+02:00'>Saturday 27 August 2022</time></p>
 
-<cite>Pan</cite> was born as an experimental [[Fediverse]] instance coming out of the [Lab on the topic](https://scambi.org/en/2022/lab/6 'Fediverse: Social Network Umani') during [Scambi Festival 2022](https://scambi.org/2022 'Scambi Festival’s II edition').
+<cite>Pan</cite> was born as an experimental [Fediverse](Fediverse.md) instance coming out of the [Lab on the topic](https://scambi.org/en/2022/lab/6 'Fediverse: Social Network Umani') during [Scambi Festival 2022](https://scambi.org/2022 'Scambi Festival’s II edition').
 
 The server [pan.rent](https://web.archive.org/https://pan.rent 'Snapshot of pan.rent') was hosted on was owned and maintained by by [<cite lang='it'>APS Oltre</cite>](https://manuale.scambi.org/en/association 'About APS Oltre'), the same association organizing the festival.
 
@@ -46,9 +46,9 @@ Pan has been set up, but in the first few days of its life it proved to have som
 
 ## Name
 
-While looking for affordable domains with `pan.*`, I stumbled upon `pan.rent`, and it immediately clicked. <q>Pan</q>, the original name, matched with <q>rent</q> would make a great homage to my beloved <cite>[[Rent]]</cite>!
+While looking for affordable domains with `pan.*`, I stumbled upon `pan.rent`, and it immediately clicked. <q>Pan</q>, the original name, matched with <q>rent</q> would make a great homage to my beloved <cite>[Rent](Rent.md)</cite>!
 
-![[Rent#Everything is rent!]]
+![](Rent.md#Everything%20is%20rent!)
 
 <q>Pan</q> means <q>everything</q>, therefore <cite>Pan</cite>’s domain would be a semi-quote from the musical lyrics. Furthermore, the instance’s values would perfectly match the spirit of the festival.
 

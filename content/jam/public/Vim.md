@@ -1,20 +1,15 @@
 ---
 date: 2021-03-22T12:19:14+01:00
-updated: 2023-05-06T22:07:17+02:00
+updated: 2024-11-24T18:38:41+02:00
+aliases:
+  - Neovim
 tags:
   - geek/apps
   - knowledge
-aliases:
-  - Neovim
-description: Insights about the best text editor in the world
+description: Insights personal notes about the best text editor in the world
 image: https://tommi.space/vim.webp
+toc: true
 ---
-## To do
-
-- Track config file within a dotfiles repository
-- Publish here Vim config file
-- [firenvim](https://github.com/glacambre/firenvim): embed Neovim in browser
-
 ## To learn
 
 - buffers management
@@ -29,9 +24,9 @@ image: https://tommi.space/vim.webp
 - Use **`:retab`** to convert the buffer to your setup for indentation. For instance, if you configured vim to have 4 spaces for indentation, it will convert the tabs to 4 spaces.
 - [Time travel](https://vimtricks.com/p/vimtrick-time-travel-in-vim/ 'Time travel in Vim')
 ```vim
-:earlier 3 'undo the last three changes
-:earlier 5m 'Go back to the state of the file 5 minutes ago
-:later 1h 'Travel forward through the change history 1 hour
+:earlier 3 "undo the last three changes
+:earlier 5m "Go back to the state of the file 5 minutes ago
+:later 1h "Travel forward through the change history 1 hour
 ```
 
 ### Cheat Sheets
@@ -49,9 +44,5 @@ image: https://tommi.space/vim.webp
 - [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ 'Practical Vim, Second Edition') a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](https://drewneil.com/).
 - [Vim subreddit](https://www.reddit.com/r/vim/ 'r/vim')
 - [Vim intermediate guide](https://thevaluable.dev/vim-intermediate/ 'A Vim Guide for Intermediate Users')
-- [Vim as an IDE](https://blog.jez.io/vim-as-an-ide 'Vim as an IDE'), a ==workshop== by [Jake Zimmerman](https://jez.io 'Jake Zimmerman')
+- [Vim as an IDE](https://blog.jez.io/vim-as-an-ide 'Vim as an IDE'), a workshop by [Jake Zimmerman](https://jez.io 'Jake Zimmerman')
 - [Obsidian](https://obsidian.md 'Obsidian official website') is awesome, nevertheless it is not the best performance-wise. Even if it becomes way harder and complicated to manage, it is worth keeping note of [personal notetaking in Vim](https://vimways.org/2019/personal-notetaking-in-vim/ 'Personal Notetaking in Vim')
-
-## .vimrc
-
-`.vimrc` is the file containing the Vim configuration. For the ones using Neovim, it is `~/.config/nvim/init.vim`.

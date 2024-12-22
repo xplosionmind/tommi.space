@@ -33,7 +33,7 @@ Noi, che alcuni sono ingegneri e dovrebbero capire il mondo ed essere i primi a 
 
 E come treni, come <a href='https://youtu.be/5bW7m--WiWE' target='_blank'>SQUALI</a> non ci fermiamo, mai, solo per fare la spesa.
 
-<figure>{% img image, 'alberi capillari in Corso Racconigi a Torino', 'u-photo' %}<figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
+<figure><img src='{{ image }}' alt='alberi capillari in Corso Racconigi a Torino' class='u-photo'><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
 
 ## Alcune note
 

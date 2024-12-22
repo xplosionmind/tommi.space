@@ -34,6 +34,7 @@ This website’s code snippets use a custom made syntax highlight; its source is
 [The main colors](https://come.scambi.org/design#colori 'I colori di Scambi') of [Scambi Festival’s website](https://scambi.org 'Scambi')
 
 {% comment %}
+
 ## pise-notes.club
 
 [pise-notes.club]’s theme colors. Source [SCSS file](https://github.com/xplosionmind/PISE-notes/blob/e53b09b7eb391ac17f1c3a97a005a19412c3d397/style.scss#L13 'PISE Notes SCSS color variables').
@@ -47,10 +48,10 @@ The website is currently offline since our faculty supervisor asked me to close 
 <li><code style='background:#F3F7D9;color:#111'>#F3F7D9</code></li>
 <li><code style='background:#C8CBB2;color:#111'>#C8CBB2</code></li>
 <li><code style='background:#86BBD8;color:#111'>#86BBD8</code></li>
-<li><code style='background:#86BBD822;color:var(--text)'>#86BBD822</code></li>
+<li><code style='background:#86BBD822;color:var(--color)'>#86BBD822</code></li>
 <li><code style='background:#33658A;color:#FFF'>#33658A</code></li>
 <li><code style='background:#F26419;color:#FFF'>#F26419</code></li>
-<li><code style='background:#0002;color:var(--text)'>#0000022</code></li>
+<li><code style='background:#0002;color:var(--color)'>#0000022</code></li>
 <li><code style='background:#0009;color:#FFF'>#00000099</code></li>
 <li><code style='background:#371350;color:#FFF'>#371350</code></li>
 <li><code style='background:#222;color:#FFF'>#222222</code></li>
@@ -96,7 +97,7 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 <li><code style='background:#DF2935;color:#FFF'>#DF2935</code>, Rose Madder</li>
 <li><code style='background:#D7263D;color:#FFF'>#D7263D</code>, Crimson</li>
 <li><code style='background:#E63946;color:#FFF'>#E63946</code>, <a href='#quitsocialmediaclub' title='quitsocialmedia.club palette'>Quit Social Media</a>) red</li>
-<li><code style='background:#AC0033;color:#FFF'>#AC0033</code>, always <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, but <a href='view-source:https://www.unive.it/#line32'  target='_blank' title='Link to Ca’Foscari website source code'>picked from the university website’s source code</a></li>
+<li><code style='background:#AC0033;color:#FFF'>#AC0033</code>, always <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, but <a href='view-source:https://www.unive.it/#line32' target='_blank' title='Link to Ca’Foscari website source code'>picked from the university website’s source code</a></li>
 <li><code style='background:#AF0539;color:#FFF'>#AF0539</code>, <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, picked from the SVG of <a href="https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a></li>
 </ul>
 
@@ -146,4 +147,4 @@ Color palettes generators
 - [Colormind](http://colormind.io 'Colormind')
 - [Coolors](https://coolors.co 'Coolors')
 
-[pise-notes.club]: https://pise-notes.club 'PISE Notes'
+[pise-notes.club]: https://pise-notes.club ‘PISE Notes’

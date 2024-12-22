@@ -39,9 +39,9 @@ I get it. I “wasted” hours, days, reading articles and watching videos conce
 
 Just complaining, waiting for things to get better, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.
 
-To change something and to make things better we need to [[Quit and switch|switch]] to healthier, more ethical, often even cooler alternatives.
+To change something and to make things better we need to [switch](Quit%20and%20switch.md) to healthier, more ethical, often even cooler alternatives.
 
-![[Quit and switch]]
+![Quit and switch](Quit%20and%20switch.md)
 
 ## Resources
 

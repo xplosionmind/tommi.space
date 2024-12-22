@@ -6,7 +6,7 @@ image: https://live.staticflickr.com/65535/49066858996_f9e4c2f1bd_k.jpg
 Vabbè, insomma, sono qui sul treno e mi sono accorto che non scrivo qui da un po’. Però, a dire la verità, avrei molto da raccontare, ma ben poco su cui riflettere, o almeno, nulla di particolarmente profondo ed interessante (per quanto interessante possa essere ciò che scrivo in generale).
 
 <figure>
-	{% img image, 'un carrugio con bandierine gialle', 'u-photo' %}
+	<img src='{{ image }}' alt='un carrugio con bandierine gialle' class='u-photo'>
 	<figcaption>Pezzetti di carta gialli in un carrugio - Genova, 13 novembre 2019</figcaption>
 </figure>
 

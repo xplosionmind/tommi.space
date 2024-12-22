@@ -6,9 +6,9 @@ redirect_from: [/datasets/,/data-sets,/public-data/,/dati/]
 permalink: /data/
 todo:
   - Where to find reliable poll results? Official raw data, but simple?
-  - 'Integrate with [[Knowledge]]?'
+  - 'Integrate with [Knowledge](Knowledge.md)?'
 ---
-There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I have come across, but there are many, many more in many different niches.
+There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them. Below is a list of some of the most globally interesting I have come across, but there are many, many more in many different niches.
 
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets 'awesome-public-datasets on GitHub')
 - [Awesome Italian Public Datasets](https://github.com/italia/awesome-italian-public-datasets 'Awesome Italian Public Datasets on GitHub')
@@ -19,14 +19,14 @@ There are hundreds (if not thousands) of free data sets available, ready to be u
 - [Data.gov.uk](https://data.gov.uk/) Data from the UK Government, including the British National Bibliography – metadata on all UK books and publications since 1950.
 - [Datacatalogs.org](https://opengovernmentdata.org/data/) offers open government data from US, EU, Canada, CKAN, and more.
 - [The CIA World Factbook](https://www.cia.gov/the-world-factbook/) Information on history, population, economy, government, infrastructure and military of 267 countries.
-- [Healthdata.gov](https://www.healthdata.gov/) 1- years of US healthcare data including claim-level Medicare data, epidemiology and population statistics.
+- [Healthdata.gov](https://www.healthdata.gov/) 1years of US healthcare data including claim-level Medicare data, epidemiology and population statistics.
 - [NHS Health](https://www.forbes.com/health/) and [Social Care Information Centre](https://www.hscic.gov.uk/home) Health data sets from the UK National Health Service.
 - [UNICEF](https://www.unicef.org/statistics/) offers statistics on the situation of women and children worldwide.
 - [World Health Organization](https://www.who.int/en/) offers world hunger, health, and disease statistics.
 - [Amazon Web Services public datasets](https://aws.amazon.com/datasets) Huge resource of public data, including the 1000 Genome Project, an attempt to build the most comprehensive database of human genetic information and [NASA](https://www.nasa.gov)’s database of satellite imagery of Earth.
 - [Facebook Graph](https://developers.facebook.com/docs/graph-api) Although much of the information on users’ Facebook profile is private, a lot isn’t – Facebook provide the Graph API as a way of querying the huge amount of information that its users are happy to share with the world (or can’t hide because they haven’t worked out how the privacy settings work).
 - [UCLA](https://www.stat.ucla.edu/data/) makes some of the data from its courses public.
-- [Data Market](https://datamarket.com/) is a place to check out  data related to economics, healthcare, food and agriculture, and the automotive industry.
+- [Data Market](https://datamarket.com/) is a place to check out data related to economics, healthcare, food and agriculture, and the automotive industry.
 - [Google Public data explorer](https://www.google.com/publicdata/directory) includes data from world development indicators, OECD, and human development indicators, mostly related to economics data and the world.
 - [Junar](https://www.junar.com/) is a data scraping service that also includes data feeds.
 - [Gapminder](https://www.gapminder.org/data/) Compilation of data from sources including the World Health Organization and World Bank covering economic, medical and social statistics from around the world.
@@ -50,14 +50,13 @@ There are hundreds (if not thousands) of free data sets available, ready to be u
 - [ESA images archive](https://imagearchives.esac.esa.int)
 - [Minor Planet Center](https://www.minorplanetcenter.net), the single worldwide location for receipt and distribution of positional measurements of minor planets, comets and outer irregular natural satellites of the major planets. The MPC is responsible for the identification, designation and orbit computation for all of these objects. This involves maintaining the master files of observations and orbits, keeping track of the discoverer of each object, and announcing discoveries to the rest of the world via electronic circulars and an extensive website. The MPC operates at the Smithsonian Astrophysical Observatory, under the auspices of Division F of the International Astronomical Union ([IAU](https://www.iau.org/)).
 - [ESA Sky](https://sky.esa.int), a Universe Map
-- [Nasa Space Science Data Coordinated Archive](https://nssdc.gsfc.nasa.gov), NASA's archive for space science mission data
+- [Nasa Space Science Data Coordinated Archive](https://nssdc.gsfc.nasa.gov), NASA’s archive for space science mission data
 - [Moon map and data](https://www.oarval.org/MoonMapen.htm), by [Observatorio ARVAL](https://www.oarval.org)
 - [Planetary nomenclature](https://planetarynames.wr.usgs.gov) by [IAU](https://www.iau.org/)
 - [SOHO data](https://sohowww.nascom.nasa.gov), data from [Solar and Heliospheric Observatory](https://en.wikipedia.org/wiki/Solar_and_Heliospheric_Observatory)
 - [various NASA images](https://services.swpc.noaa.gov)
 - [Chronology of Lunar and Planetary Exploration](https://nssdc.gsfc.nasa.gov/planetary/chrono.html)
 - [ESA Missions list](https://www.esa.int/ESA/Our_Missions)
-
 
 This is really just the tip of the iceberg. Many websites, apps, and companies that offer an API provide access to the data they collect through that API.
 

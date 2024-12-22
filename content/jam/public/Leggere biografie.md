@@ -10,8 +10,8 @@ toc: false
 description: L’effetto ed il valore di godere della lettura di una biografia.
 image: https://cdn.pixabay.com/photo/2014/07/24/21/35/mortality-401222_1280.jpg
 ---
-Leggere [[Biografie]] significa contemplare la variopinta potenzialità intrinseca nell’esistenza.  
-[[Leggere]] biografie significa riconoscere il valore del tempo e la crucialità della *consecutio tempori* nel corso di una vita.
+Leggere [Biografie](Biografie.md) significa contemplare la variopinta potenzialità intrinseca nell’esistenza.  
+[Leggere](Leggere.md) biografie significa riconoscere il valore del tempo e la crucialità della *consecutio tempori* nel corso di una vita.
 
 Leggendo biografie si scorge una prospettiva che trascende l’*hit et nunc* e ricorda quanto sia venefica la concezione dell’<cite><a lang='en' href='https://it.wikipedia.org/wiki/I_Want_It_All' target='_blank' title='“I Want It All„ su Wikipedia'>I Want It All</a></cite>, <i lang='en'>and I want it now</i>.
 

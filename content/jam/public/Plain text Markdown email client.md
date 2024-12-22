@@ -11,7 +11,7 @@ permalink: /txt-md-email-client/
 redirect_from:
   - /plain-text-markdown-email-client/
 ---
-[[Ode to plain text#Email|Plain text emails are to be preferred]]. Nevertheless, not to abandon formatting altogether, it would be great to have an email client that supports Markdown formatting: emails are sent in plaintext format, but their Markdown syntax is rendered on-device by the client. To my knowledge, such a client (or such a client extension) does not exist, yet.
+[](Ode%20to%20plain%20text.md#Email|Plain%20text%20emails%20are%20to%20be%20preferred). Nevertheless, not to abandon formatting altogether, it would be great to have an email client that supports Markdown formatting: emails are sent in plaintext format, but their Markdown syntax is rendered on-device by the client. To my knowledge, such a client (or such a client extension) does not exist, yet.
 
 ## +++ Missing
 

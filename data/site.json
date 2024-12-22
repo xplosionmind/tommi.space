@@ -2,7 +2,7 @@
 	"title": "Tommi’s mind",
 	"url": "https://tommi.space",
 	"domain": "tommi.space",
-	"author":{
+	"author": {
 		"name": "Tommi",
 		"email": "surfing@tommi.space",
 		"fediverse": "https://pan.rent/@tommi",
@@ -11,7 +11,7 @@
 		"cv": "https://tommi.space/cv.pdf",
 		"keyoxide": "https://keyoxide.org/surfing@tommi.space",
 		"meet": "https://cal.com/tommi",
-		"based": "Berlin"
+		"based": "Riva Ligure/Sanremo (Italy)"
 	},
 	"encoded_mailto": "ma&#105;&#108;to&#58;%&#55;&#51;u%72f&#37;&#54;9&#110;&#37;67&#64;t%6F&#109;&#109;&#37;69%2&#69;sp&#97;ce",
 	"primary": "#FCC920",
@@ -22,7 +22,7 @@
 	"source": "https://codeberg.org/tommi/tommi.space",
 	"changelog": "https://codeberg.org/tommi/tommi.space/commits/branch/main",
 	"issues": "https://github.com/xplosionmind/tommi.space/issues",
-	"tags":[
+	"tags": [
 		{
 			"title": "newsletter",
 			"color": "#FFF",

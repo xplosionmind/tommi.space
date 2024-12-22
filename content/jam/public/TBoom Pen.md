@@ -16,7 +16,7 @@ Fu un regalo della mamma nel 2014, e sopra mi fece incidere questa scritta:
 
 Da quel momento, la penna è sempre con me.
 
-<q>Sempre</q> è un eufemismo. L’ho smarrita più e più volte, sempre ritrovandola, dopo ore o dopo giorni. A volte, settimane. Faccio sempre questo doloroso confronto: ho perso e riperso e riperso, ma ogni volta ritrovato, la mia amata <cite>TBoom Pen</cite>, mentre [ho perso solamente una volta](https://tommi.space/ode) il mitico <cite>[[Jarvis]]</cite>, che però non ho mai più trovato.
+<q>Sempre</q> è un eufemismo. L’ho smarrita più e più volte, sempre ritrovandola, dopo ore o dopo giorni. A volte, settimane. Faccio sempre questo doloroso confronto: ho perso e riperso e riperso, ma ogni volta ritrovato, la mia amata <cite>TBoom Pen</cite>, mentre [ho perso solamente una volta](https://tommi.space/ode) il mitico <cite>[Jarvis](Jarvis.md)</cite>, che però non ho mai più trovato.
 
 Si sono succedute varie TBoom pen, sempre simili fra loro, ma alla fine le ho perse tutte e è sempre tornata da me lei, l’originale, la prima.
 

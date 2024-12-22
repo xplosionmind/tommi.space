@@ -5,7 +5,7 @@ tags: design
 description: Little insights about the design world
 main: true
 todo:
-  - 'Integrate websites with [[Webrings]] and [[Blogroll]] and [[Internet Awesomeness]]'
+  - 'Integrate websites with [Webrings](Webrings.md) and [Blogroll](Blogroll) and [Internet Awesomeness](Internet%20Awesomeness)'
   - refactor
 ---
 <div class='yellow box'>
@@ -18,11 +18,11 @@ todo:
 
 ## Typography
 
-![[Typography]]
+![Typography](Typography.md)
 
 ## Colors
 
-![[Colors]]
+![Colors](Colors.md)
 
 ## Web Design
 

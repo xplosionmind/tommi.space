@@ -8,8 +8,8 @@ Premetto che segue un articolo estremamente personale, oserei quasi dire egoista
 Forse nemmeno è un articolo, è più il flusso di pensieri che sta tormentando me e condizionando la mia stessa esistenza {posso sembrare esagerato e temo di esserlo effettivamente, ma non sto enfatizzando: è così} non solo durante questo viaggio in bus interminabile, con meraviglioso bianco panorama bavarese, ascoltando musica africana (<cite>[Expensive Shit](https://youtu.be/bmXvpuseXWU)</cite> di Fela Kuti in questo momento), ma da qualche mese a questa parte.
 
 <figure>
-  {% img image, 'Foto di un paesaggio con pala eolica e casa con comignolo fumante', 'u-photo' %}
-  <figcaption>Uno scorcio del paesaggio tedesco</figcaption>
+	<img src='{{ image }}' alt='Foto di un paesaggio con pala eolica e casa con comignolo fumante' class='u-photo'>
+	<figcaption>Uno scorcio del paesaggio tedesco</figcaption>
 </figure>
 
 È un periodo in cui non so più cosa voglio e, forse, non dovrei chiedermelo per peggiorare le cose, quando ho un'idea -seppur vaga- di ciò a cui aspiro mi chiedo **perché** lo voglio e non so rispondere. Il problema a monte è l'insoddisfazione che innegabilmente mi perseguita nonostante abbia infinite opportunità e fortune per le quali non dovrei mai smettere di ringraziare Dio ed i miei genitori, figure paterne peraltro non così distinte come abbiamo l'impressione siano, ma questo è un altro discorso.

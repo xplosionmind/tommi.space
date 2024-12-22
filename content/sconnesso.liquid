@@ -1,62 +1,40 @@
 ---
 title: Sconnesso
+date: 2021-01-27
 lang: it
 primary: var(--purple)
 image: /sconnesso.webp
 description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso.
+class: sconnesso
 sitemap:
   changefreq: monthly
   priority: 0.7
 ---
-<main>
-  <section class='row'>
-    <div class='center one column'>
-      <h1>Sconnesso</h1>
-      <p>{{ description }}</p>
-    </div>
-  </section>
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundPurple'>Sconnesso</h1>
+	</hgroup>
 
-  <section class='box row'>
-    <div class='half column'>
-			{% img image, 'Un cartello di segnalazione con la scritta “pavimento sconnesso”' %}
-    </div>
-    <div class='half column'>
-      <h3>Stagione 2</h3>
-      <ul>
-        {% for episode in collections.sconnesso %}
-          {% if episode.data.season == 2 %}
-            <li>
-              <a href='{{ episode.url }}'>{{ episode.data.title }}</a>,
-              <time dateTime='{{ episode.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ episode.date | date: '%d %B %Y' }}</time>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
+	<article class='e-content'>
+		<p>{{ description }}</p>
+	</article>
 
-  <section class='box row'>
-    <div class='half column'>
-			{% img image, 'Un cartello di segnalazione con la scritta “pavimento sconnesso”' %}
-    </div>
-    <div class='half column'>
-      <h3>Stagione 1</h3>
-      <ul>
-        {% for episode in collections.sconnesso %}
-          {% if episode.data.season == 1 %}
-            <li>
-              <a href='{{ episode.url }}'>{{ episode.data.title }}</a>,
-              <time dateTime='{{ episode.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ episode.date | date: '%d %B %Y' }}</time>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
+	<div class='entries-list subgrid'>
+		{% for episode in collections.sconnesso %}
+			<a class='one-third background box' href='{{ episode.url }}'>
+				{% if episode.data.image %}
+					<figure>
+						<img src='{{ episode.data.image }}' alt='{{ episode.data.title }}'>
+					</figure>
+				{% endif %}
+				<h2>{{ episode.data.title }}</h2>
+				<p class='date'>{% if episode.data.location %}{{ episode.data.location }}, {% endif %}<time class='dt-published' datetime='{{ episode.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: episode.date %}</time></p>
+				{% render 'entry-tags.liquid', tags: episode.data.tags, site: site, size: 'tiny' %}
+			</a>
+		{% endfor %}
+	</div>
 
-  <section class='row'>
-    <div class='one column'>
-      {% render 'listen-on.html', lang: lang %}
-    </div>
-  </section>
+	<aside>
+		{% render 'listen-on.liquid', lang: lang %}
+	</aside>
 </main>

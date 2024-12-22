@@ -24,6 +24,6 @@ description: Debugging the self as if it was a malfunctioning software.
 
 ## Notes
 
-A great [[Loops|habit]] would be to perform self debugging even when there is nothing relevant bothering or pressing us. <u>Addressing the cause of some suffering while not suffering for it</u> could open a new, brighter and helpful new perspective on a possible solution — or, to stay in the Computer Sciences vocabulary, a possible *fix*.
+A great [habit](Loops.md) would be to perform self debugging even when there is nothing relevant bothering or pressing us. <u>Addressing the cause of some suffering while not suffering for it</u> could open a new, brighter and helpful new perspective on a possible solution — or, to stay in the Computer Sciences vocabulary, a possible *fix*.
 
 I <time datetime='2022-01-17T10:51:20+01:00'>just</time> found out that [Casey Watts](https://caseywatts.com 'Casey Watts’ personal website') had my same idea and wrote a book that explores my same concept: <cite>[Debugging Your Brain](https://www.debuggingyourbrain.com 'Website for “Debugging Your Brain„')</cite>. I added it to my [Books wishlist](https://tommi.space/books#wishlist 'Books wishlist').

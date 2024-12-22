@@ -10,10 +10,10 @@ image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfind
 
 ## Risorse utili
 
-- [[Appunti Rise of the Runelords]]
-- [[Lingualunga - Storia del personaggio]]
-- [[Storia della Gilda degli Esplosivi]]
-- [[Inventario da vendere]]
+- [Appunti Rise of the Runelords](Appunti%20Rise%20of%20the%20Runelords.md)
+- [Lingualunga - Storia del personaggio](Lingualunga%20-%20Storia%20del%20personaggio.md)
+- [Storia della Gilda degli Esplosivi](Storia%20della%20Gilda%20degli%20Esplosivi.md)
+- [Inventario da vendere](Inventario%20da%20vendere.md)
 
 ## PE
 

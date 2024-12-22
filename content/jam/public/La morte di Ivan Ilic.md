@@ -25,7 +25,7 @@ decoroso e <i lang='fr'>bon enfant</i>, come dicevano di lui il suo capo e la mo
 
 <p class='cite'>Tolstoj, <cite>La morte di Ivan Il’ič</cite></p>
 
-…come in [[House of Cards]]
+…come in [House of Cards](House%20of%20Cards.md)
 
 ## Compartimentalizzazione
 
@@ -137,7 +137,7 @@ dài, colpisci! Ma perché? Cosa ti ho fatto, perché? </q>
 
 <p class='cite'>Lev Tolstoj, <cite>La morte di Ivan Il’ič</cite>, p. 84</p>
 
-[[Giacomo Leopardi]]:
+[Giacomo Leopardi](Giacomo%20Leopardi.md):
 
 > Ma, cosa strana, tutti questi momenti migliori della sua vita piacevole, adesso non gli sembravano affatto come gli erano sembrati allora. Tutti, tranne i primi ricordi dell’infanzia. Lì, nell’infanzia, c’era stato qualcosa di effettivamente piacevole, che si poteva rivivere, se fosse stato possibile tornare indietro. Ma quella persona che aveva sperimentato quei momenti piacevoli non c’era ormai più: era come il ricordo di qualcun altro.
 

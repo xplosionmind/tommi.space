@@ -1,10 +1,13 @@
 ---
 date: 2020-05-07T02:00:00+02:00
 updated: 2022-07-17T19:03:44+02:00
-tags: topic, knowledge
-aliases: Resources, Learning Resources
-description: |
-  An eternally incomplete yet continuously growing collection of the sources of my knowledge
+tags:
+  - topic
+  - knowledge
+aliases:
+  - Learning Resources
+  - Resources
+description: An eternally incomplete yet continuously growing collection of the sources of my knowledge
 redirect_from: [/learning-resources/,/resources/]
 main: true
 ---
@@ -14,7 +17,7 @@ Almost every single portion of this website is a more or less organized collecti
 
 Managing knowledge, as well as picturing it, is a very complex, subjective and oversimplified matter. Productivity and effectiveness are the anthems with which the matter of personal and non-personal knowledge management end up being addressed with toxic capitalistic ineffective solutions. Some thoughts about this below.
 
-![[Knowledge management]]
+![Knowledge management](Knowledge%20management.md)
 
 ## University
 
@@ -61,15 +64,15 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Awesome Computer Sciences courses](https://github.com/prakhar1989/awesome-courses 'awesome-courses on GitHub')
 - [Learn to program](https://github.com/karlhorky/learn-to-program 'learn-to-program on GitHub'), a curated set of high quality educational resources.
 
-![[Vim#Resources]]
+![](Vim.md#Resources)
 
-![[JavaScript#Resources]]
+![](JavaScript.md#Resources)
 
-![[Python#Resources]]
+![](Python.md#Resources)
 
-![[Bash#Resources]]
+![](Bash#Resources)
 
-![[LaTeX#Resources]]
+![](LaTeX.md#Resources)
 
 ### C
 
@@ -80,11 +83,11 @@ Where and how to learn about Computer Sciences topics and anything technology re
 
 ### Open Street Map
 
-![[OpenStreetMap#Resources|OSM]]
+![](OpenStreetMap.md#Resources|OSM)
 
 ## git
 
-![[git#Resources]]
+![](git.md#Resources)
 
 ## Culture
 
@@ -128,6 +131,6 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [AvaxHome](https://avxhm.is)
 - [Books Depository](https://www.bookdepository.com/publishers/T-N-T-Books)
 
-![[Design#Resources]]
+![](Design.md#Resources)
 
-![[Data Sources]]
+![Data Sources](Data%20Sources.md)

@@ -1,0 +1,48 @@
+---
+title: Parole Sconnesse
+date: 2021-03-26
+redirect_from: [/parole-sconnesse/]
+lang: it
+description: Parole Sconnesse è la mia pseudo-newsletter in cui, ogni tot, condivido idee, racconto vicessitudini relativamente interessanti e pubblico aggiornamenti sulle varie questioni a cui mi sto dedicando.
+sitemap:
+  changefreq: monthly
+  priority: 0.6
+---
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundRed'>Parole Sconnesse</h1>
+	</hgroup>
+<div lang='en' class='middle yellow box'>
+	<p><strong>For English speakers</strong>: as of right now, the newsletter is sent in Italian only. Please stay tuned <a href='/feeds' title='tommi.space feeds'>via RSS</a> since I may be starting a newsletter in English, too!</p>
+</div>
+
+<article class='e-content'>{% renderTemplate 'md' %}**<cite>Parole Sconnesse</cite>** è la mia pseudo-newsletter in cui, ogni tot, condivido idee, racconto vicessitudini relativamente interessanti e pubblico aggiornamenti sulle varie questioni a cui mi sto dedicando.
+
+Se fossi così impavido da volerti iscrivere, basta compilare il modulo qui di seguito.
+Rock’n’roll!
+
+<form method='post' action='https://newsletter.tommi.space/subscription/form' target='popupwindow' class='flex listmonk-form'>
+  <input type='hidden' name='nonce'>
+  <input type='email' name='email' required placeholder='scrivi qui la tua email' autocomplete='email'>
+  <input type='text' name='name' placeholder='Nome (facoltativo)'>
+  <label style='display:none'>
+		Parole Sconnesse
+  	<input style='display:none' type='checkbox' name='l' checked value='8ccad8ec-d1d3-425e-a8db-14fa3b2518e8'>
+	</label>
+  <input class='button' type='submit' value='Iscriviti'>
+</form>
+
+Per i più nerd: come indicato nella [Privacy Policy](/it/privacy-policy 'Privacy Policy'), il mio servizio di newsletter utilizza [listmonk](https://listmonk.app 'listmonk official website') ed è interamente <em lang='en'>self-hosted</em> su [Nebuchadnezzar](jam/public/Nebuchadnezzar.md). Ergo, io e solamente io sono in completo controllo dei dati degli iscritti, che <a href='https://gdpr-info.eu/art-17-gdpr' title='Art. 17 GDPR' hreflang='en'>hanno diritto</a> a chiedermi di eliminarlo quando lo desiderano.{% endrenderTemplate %}</article>
+
+<div id='archivio' class='entries-list subgrid'>
+	{% for entry in collections.newsletter reversed %}
+		<a class='one-third box' href='{{ entry.url }}'>
+			<h2>{{ entry.data.title }}</h2>
+			<figure>
+				{% if entry.data.image %}<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}'>{% endif %}
+			</figure>
+			<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
+		</a>
+	{% endfor %}
+</div>
+</main>

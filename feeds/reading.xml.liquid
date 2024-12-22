@@ -1,12 +1,12 @@
 ---
 title: Reading notes feed
 description: The feed of my notes from my latest reads
-altUrl: https://tommi.space/tags#reading
+altUrl: https://tommi.space/tags/reading/
 permalink: /reading.xml
 layout: feed.xml.liquid
 ---
-{% assign jam = collections.jam | sort: 'date' | reverse %}
-{% for entry in jam limit: 10 %}
+{% assign reading = collections.reading | sort: 'date' | reverse %}
+{% for entry in reading limit: 10 %}
 	<item>
 		<title>{{ entry.data.title }}</title>
 		<link>{{ site.url }}{{ entry.url }}</link>
@@ -16,7 +16,7 @@ layout: feed.xml.liquid
 			<category>{{ tag }}</category>
 		{% endfor %}
 		<guid>{{ site.url }}{{ entry.url }}</guid>
-		<pubDate>{{ entry.date | date: '%a, %-d %b %Y %H:%m:%S %z' }}</pubDate>
+		<pubDate>{{ entry.date | date_to_rfc822 }}</pubDate>
 	</item>
 {% endfor %}
 

@@ -4,7 +4,6 @@ tags:
   - geek/web
 location: xHain, Berlin
 description: Spiegazione dei fattori che determinano l’impatto ambientale di questo sito e alcune riflessioni riguardo il suo “sustainability score”.
-toc: false
 permalink: /impatto-ambientale/
 ref: environmental-impact
 lang: it
@@ -13,7 +12,7 @@ lang: it
 
 Un falso mito molto comune è ritenere <q>il cloud</q> (ovvero Internet) come un’entità astratta e remota, senza legami tangibili con il mondo reale. Tuttavia, come dice intelligentemente [lo slogan della the <abbr title='Free Software Foundation Europe'>FSFE</abbr>](https://fsfe.org/contribute/spreadtheword.html#nocloud-sticker-bw), <q cite='https://fsfe.org/contribute/spreadtheword.html#nocloud-sticker-bw' lang='en'>there is NO CLOUD, just other people’s computers</q> (tradotto: <q>IL CLOUD ESISTE, esistono solo i computer di altre persone</q>). Questo concetto non ha implicazioni meramente etiche e di privacy, ma ha anche un significativo peso materiale. Internet è *letteralmente* costituito da computer perennemente accesi e connessi alla rete (ovvero i server).
 
-Come ogni altro sito web, tommi.space è ospitato su server. In particolare, la sua casa è <cite>[[Nebuchadnezzar]]</cite>, il mio <abbr title='Virtual Private Server'>VPS</abbr>, che si trova a Dusseldorf (DE). Io ([Tommi](https://tommi.space/home#about 'About Tommi')) pago un affitto per utilizzare il VPS poiché [Contabo](https://contabo.com), l’azienda che lo possiede, si occupa della sua manutenzione e di pagare la bolletta per l’elettricità che consuma (fra le altre, tante, cose).
+Come ogni altro sito web, tommi.space è ospitato su server. In particolare, la sua casa è <cite>[Nebuchadnezzar](Nebuchadnezzar.md)</cite>, il mio <abbr title='Virtual Private Server'>VPS</abbr>, che si trova a Dusseldorf (DE). Io ([Tommi](https://tommi.space/home#about 'About Tommi')) pago un affitto per utilizzare il VPS poiché [Contabo](https://contabo.com), l’azienda che lo possiede, si occupa della sua manutenzione e di pagare la bolletta per l’elettricità che consuma (fra le altre, tante, cose).
 
 Consumando elettricità, anche questo sito ha dunque un impatto ambientale.
 
@@ -37,7 +36,7 @@ Perché mostro questa valutazione se non è la migliore possibile, se non c’è
 
 Perché tommi.space non ha la migliore valutazione possibile (A+)?
 
-- L’energia che alimenta <cite>[[Nebuchadnezzar]]</cite> non proviene da fonti rinnovabili. VPS “sostenibili” con le stesse caratteristiche tecniche sono troppo costose per me, per ora.
+- L’energia che alimenta <cite>[Nebuchadnezzar](Nebuchadnezzar.md)</cite> non proviene da fonti rinnovabili. VPS “sostenibili” con le stesse caratteristiche tecniche sono troppo costose per me, per ora.
 - Parte della valutazione è determinata dal miglioramento del codice per rendere la pagina più leggera e efficiente. Non c’è molto di meglio che io posso fare con le mie capacità tecniche limitate.
 
 ### La responsabilità non è meramente individuale!

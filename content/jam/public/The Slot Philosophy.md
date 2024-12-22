@@ -14,7 +14,7 @@ Slots are simply **time slots**: half or full hours which to be entirely dedicat
 
 <p class='cite'>Nir Eyal, <cite><a href='https://www.nirandfar.com/indistractable/' target='_blank' title='Indistractable'>Indistractable</a></cite>, Chapter 6</p>
 
-The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [[Self tracking]] [apps](#Tools).
+The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [Self tracking](Self%20tracking.md) [apps](#Tools).
 
 The Slot Philosophy is a powerful tool to contrast <strong class='missing'>+++</strong> (that thing where you always start something and you drop it to start some sub-thing to do).
 
@@ -49,5 +49,5 @@ The Slot Philosophy is a powerful tool to contrast <strong class='missing'>+++</
 
 ## Tools
 
-- [Timelines](https://timelines.app/ 'Timelines App'), an iOS only app for time tracking. It is incredibly similar to my concept of [[Nolan|Timeline]], but it has a pro subscription which is not worth it.
+- [Timelines](https://timelines.app/ 'Timelines App'), an iOS only app for time tracking. It is incredibly similar to my concept of [Timeline](Nolan.md), but it has a pro subscription which is not worth it.
 - [Monofocus](https://monofocus.app/ 'Monofocus'), setting WIP short-term tasks and get periodical reminders to focus specifically on one single task only

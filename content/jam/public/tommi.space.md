@@ -50,7 +50,7 @@ As with the analytics, I realized that the share section is quite useless, and t
 
 ## Dropping Gemini
 
-I did not log it here, but in late 2022 [[tommi.space Gemini capsule|I set up a Gemini capsule for tommi.space]], meaning a modified, minimalist version of this website was made available via the [Gemini protocol](https://geminiprotocol.net 'Gemini protocol in the standard web'). I developed [a script to build and deploy the capsule](https://tommi.space/scripts/titan 'Titan, the script that launches tommi.space in the Geminispace'), and I configured [a Gemini server](https://github.com/YunoHost-Apps/gemserv_ynh 'gemserv YunoHost package') in [YunoHost](https://yunohost.org) to publish it.
+I did not log it here, but in late 2022 [I set up a Gemini capsule for tommi.space](tommi.space%20Gemini%20capsule.md), meaning a modified, minimalist version of this website was made available via the [Gemini protocol](https://geminiprotocol.net 'Gemini protocol in the standard web'). I developed [a script to build and deploy the capsule](https://tommi.space/scripts/titan 'Titan, the script that launches tommi.space in the Geminispace'), and I configured [a Gemini server](https://github.com/YunoHost-Apps/gemserv_ynh 'gemserv YunoHost package') in [YunoHost](https://yunohost.org) to publish it.
 
 As time passed by, something in the workflow broke, and I did not have enough time to fix it. This made me realize that <u>geek stuff such as Gemini should be fun experiments rather than growing maintenance burden of an amateur self-hoster</u> like me.
 
@@ -78,9 +78,9 @@ Finally, after three years since rewriting this website from scratch, I found [P
 
 ## Self-hosting
 
-By migrating [[Nebuchadnezzar]] to a slightly more performant machine, I ended up messing up some configurations, and I also realized that my website publishing workflow was not really independent and stable. Therefore, I decided it was time to self host tommi.space.
+By migrating [Nebuchadnezzar](Nebuchadnezzar.md) to a slightly more performant machine, I ended up messing up some configurations, and I also realized that my website publishing workflow was not really independent and stable. Therefore, I decided it was time to self host tommi.space.
 
-Details on ![[Self-hosting tommi.space]]
+Details on ![Self-hosting tommi.space](Self-hosting%20tommi.space.md)
 
 <p class='date'><time datetime='2022-06-19T23:04:30+02:00'>Sunday, June 19<sup>th</sup> 2022</time></p>
 
@@ -108,7 +108,7 @@ Being Google Analytics definitely out of consideration, finding a simple, free, 
 - [Matomo](https://matomo.org 'Matomo') is the go-to Google Analytics alternative, but, as such, it has many features that I do not need and that make it quite heavy.
 - [Plausible](https://plausible.io 'Plausible Analytics') is the analytics service I have been using in the last two years, even though it does not feel 100% right, even if it nicely does the work I require. Probably, it is because it costs me a little more than 30€ a year, and I would like to avoid such expense.
 
-Of course, I prefer to self-host analytics, but as of right now Matomo is the only analytics platform packaged for YunoHost (the OS I am using on [[Nebuchadnezzar|Xplosion Server]]). As soon as any light analytics software will get packaged for YunoHost, I will switch to it.
+Of course, I prefer to self-host analytics, but as of right now Matomo is the only analytics platform packaged for YunoHost (the OS I am using on [Xplosion Server](Nebuchadnezzar.md)). As soon as any light analytics software will get packaged for YunoHost, I will switch to it.
 
 <p class='date'><time datetime='2022-03-23T16:21:06+01:00'>Wednesday, March 23<sup>rd</sup> 2022</time></p>
 
@@ -122,7 +122,7 @@ I never gave too much attention to the size of the repository of tommi.space, un
 
 ## Switching to Eleventy
 
-My switching from [Jekyll](https://jekyllrb.com 'Jekyll official website') to [Eleventy](https://11ty.dev 'Eleventy’s official website') is one of those things that was not strictly necessary, yet I kept thinking about it every time I coded something, even minimal, on Jekyll. So I switched. It has been very stressful and intense, but I am now thoroughly proud of the fundamental structure of my website, even if [[Website development|it still lacks some features]] it had with Jekyll.
+My switching from [Jekyll](https://jekyllrb.com 'Jekyll official website') to [Eleventy](https://11ty.dev 'Eleventy’s official website') is one of those things that was not strictly necessary, yet I kept thinking about it every time I coded something, even minimal, on Jekyll. So I switched. It has been very stressful and intense, but I am now thoroughly proud of the fundamental structure of my website, even if [it still lacks some features](Website%20development) it had with Jekyll.
 
 There are plenty of step-by-step guides to switch from Jekyll to Eleventy. Even though tutorials have been of little use for me, since tommi.space is heavily customized and tailored, I saved (and I am still continuing to save) [insightful articles about Eleventy](https://inputs.tommi.space/tag/list/11ty 'Pages saved in Tommi’s inputs tagged “11ty”').
 
@@ -140,7 +140,7 @@ Equally, there are a ton of blog posts comparing the two static site generators,
 Sidenotes are awesome, and after taking a look at [Koos Loijesteijn post](https://www.kooslooijesteijn.net/blog/sidenotes-without-js 'Sidenotes without JavaScript') about them, I figured it would be great to implement them on here, too.
 
 I decided not to, for now, for three main reasons:
-1. They are impossible to be implemented in Markdown, they need **a lot** of HTML and I don’t have the skills for making a Jekyll plugin to transform footnotes in sidenotes (but it may be [[Website log#Sidenotes|a great idea]] to create one)
+1. They are impossible to be implemented in Markdown, they need **a lot** of HTML and I don’t have the skills for making a Jekyll plugin to transform footnotes in sidenotes (but it may be [](Website%20log#Sidenotes|a%20great%20idea) to create one)
 2. I could easily create an {% raw %}`{% render sidenotes.html %}`{% endraw %} where I could pass as arguments both the note content and the word linked to it, but it wouldn’t satisfy me for two reasons:
 	1. In the case of printing, it would be a great mess.
 	2. On other readers or Markdown parsers outside of Jekyll I’d have a massive chunk of unrendered ugly text
@@ -156,7 +156,7 @@ I decided not to, for now, for three main reasons:
 
 ## Minimalizing
 
-![[Minimalizing]]
+![Minimalizing](Minimalizing.md)
 
 <p class='date'><time datetime='2021-12-16T00:10:28+01:00'>Thursday 16 December 2021</time></p>
 
@@ -170,7 +170,7 @@ Following [these instructions](https://algolia.com/doc/tools/crawler/netlify-plu
 
 ## Typography and layout
 
-Even though I love [[Typography]], I am never fully convinced about this website layout and design. My concern is not much about coloring, and typesetting, but about layouting, spacing and positioning. I am trying to understand the core of how layouting works by reading at a tremendously slow pace Richard Rutter’s <cite>[[Web Typography]]</cite>.
+Even though I love [Typography](Typography.md), I am never fully convinced about this website layout and design. My concern is not much about coloring, and typesetting, but about layouting, spacing and positioning. I am trying to understand the core of how layouting works by reading at a tremendously slow pace Richard Rutter’s <cite>[Web Typography](Web%20Typography.md)</cite>.
 
 I will be noting below my doubts and, if solved, my conclusions.
 

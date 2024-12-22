@@ -1,5 +1,6 @@
 ---
 date: 2024-04-03T16:50:00+01:00
+updated: 2024-07-08T11:30:27+02:00
 aliases:
   - Rave
   - Techno
@@ -9,25 +10,24 @@ tags:
   - music
   - draft
 location: Berlin
-toc: false
 redirect_from:
   - /rave/
   - /techno/
   - /dancing/
 ---
-Before moving to [[Berlin]], I misconceived and misunderstood true Clubbing. I could not really see nor understand its differences from [[Partying|partying]].
+Before moving to [Berlin](Berlin.md), I misconceived and misunderstood true Clubbing. I could not really see nor understand its differences from mere [Partying](Partying.md).
 
-I am not afraid of partying anymore. I know myself better, as well as I am more aware of my limits and my energies.
+I am not afraid of partying anymore. I know myself (a bit) better, and I am more aware of my limits and my energies.
 
 As I grew more conscious about myself, new doors and perspectives opened up in front of me, displaying new unexplored territories, novel boundaries.
 
-Clubbing is the true thing. Clubbing requires me to know, remember, and <u>keep clear in my mind **who I am**</u>, what are my desires and my feelings. Going clubbing and actually enjoying it means sexually, emotionally, physically, even politically aware.
+Clubbing is the true thing. Clubbing requires me to know, remember, and <u>keep clear in my mind **who I am**</u>, what are my desires and my feelings. Going clubbing and actually enjoying it means being fully sexually, emotionally, physically, even politically aware.
 
-My fear of clubbing mostly comes from my not feeling at sul pezzo about these things, so far.
+My fear of clubbing mostly comes from my not feeling at all <em lang='it'>sul pezzo</em> about these things, so far.
 
-<cite>[Future Ethics]()</cite>
+It was eyes-opening to read <cite>[Future Ethics](https://futureethics.net/)</cite>, gifted to me by Char while I was hosting [a <cite>Rent</cite> movie night](https://events.aachen.social/events/5fba6c6f-fafb-4666-821a-e548582b78ed 'Rent on Mobilizon').
 
-Clubbing is a philosophy. I have many friends I envy because of their capability to pause anything else and dive into it, coming out devastated or exhausted, but—in some whimsical inexplicable way—anew. I consider this ritual a very peculiar and heretical kind of [[Mindfulness]], as it is for Claudia, the main character of <cite lang='en'><a href='https://it.wikipedia.org/wiki/Spatriati' hreflang='it' title='Spatriati on Wikipedia'>Spatriati</a></cite>:
+Clubbing is a philosophy. I have many friends I envy because of their capability to pause anything else and dive into it, coming out devastated or exhausted, but—in some whimsical inexplicable way—anew. I consider this ritual a very peculiar and heretical kind of [Mindfulness](Mindfulness.md), as it is for Claudia, the main character of <cite lang='en'><a href='https://it.wikipedia.org/wiki/Spatriati' hreflang='it' title='Spatriati on Wikipedia'>Spatriati</a></cite>:
 
 <blockquote lang='it'><p><q>Se non ballo esco matta</q> aggiunse. Non aveva avuto il tempo, o forse l’umore, per esplorare la Berlino dei club. Ma ora quell’esigenza naturale si riproponeva prepotente. Ballare per noi era qualcosa di sacro, venivamo da una terra in cui il ballo è un rito più antico della religione. […]</p>
 <p>Il Berghain, un tempo centrale elettrica, conservava l’aria severa delle fabbriche comuniste. Era conosciuto come «il tempio» o «la chiesa».<br>

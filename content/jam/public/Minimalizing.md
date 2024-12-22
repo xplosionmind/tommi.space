@@ -15,7 +15,7 @@ I am personally trying to fine-tune this website’s design in order to get to t
 I would love to make this website strictly minimal, by using little or no CSS, no webfonts, few super-tiny images; but, unfortunately, this is not who I am and it would not express my actual character.   
 On the other hand, I absolutely do not want this website to be a burden more than an enjoyment to navigate: loading times should not be too long and the user experience needs to be smooth and pleasant.
 
-Below, I gather some quotes, links, thoughts and resources about this topic. I log in the [[Website log]] all of the decisions I make about what features this website should or should not have, and why.
+Below, I gather some quotes, links, thoughts and resources about this topic. I log in the [Website log](Website%20log) all of the decisions I make about what features this website should or should not have, and why.
 
 <br>
 <br>

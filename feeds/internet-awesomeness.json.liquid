@@ -10,7 +10,7 @@ layout: feed.json.liquid
 	{
 		"id": "{{ entry.url }}",
 		"url": "{{ entry.url }}",
-		{% if entry.added %}"date_published": "{{ entry.added | date: '%Y-%m-%dT%H:%M:%S%:z' }}",{% endif %}
+		{% if entry.added %}"date_published": "{{ entry.added | date_to_xmlschema }}",{% endif %}
 		"content_html": "{{ entry.description | markdownify | replace: '\\', '\\\\' | replace: '"', '\'' | replace: '\n', ' ' | replace: '	', ' ' | strip }}",
 		"content_text": "{{ entry.description | markdownify | strip_html | replace: '\n', ' ' | replace: '	', ' ' | replace: '\\', '\\\\' | replace: '"', '\\"' | strip }}",
 		{% if entry.data.tags %}"tags": ["{{ tags | replace: ' ', '","' }}"],{% endif %}

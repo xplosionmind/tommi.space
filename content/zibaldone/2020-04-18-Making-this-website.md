@@ -3,7 +3,6 @@ title: Making this website
 date: 2020-04-18
 tags:
   - unfinished
-  - draft
   - geek
 image: /2020-04-18-making-this-website.jpg
 lang: en
@@ -15,15 +14,15 @@ Building a website from scratch can be challenging. It took me several months of
 
 I wanted to learn by doing and **do it in the best possible way**.
 
-Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a <a href='https://www.staticgen.com/about' target='_blank'>Static Site Generator</a>, which doesn’t necessarily make things heavier but for sure it makes them simpler and **way quicker**. We’ll get there.
+Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a [Static Site Generator](https://en.wikipedia.org/wiki/Static_site_generator 'Static Site Generator on Wikipedia'), which doesn’t necessarily make things heavier but for sure it makes them simpler and **way quicker**. We’ll get there.
 
 One last thing before diving in: this article is not intended to be a guide or a tutorial. Since I’ve been struggling **a lot** to get here, I feel like it may be useful to someone to know the path I followed (or, better, traced) to obtain what I was aiming at. Not having any clue of the right next step is **so** stressful, I’ve been on the edge of giving up multiple times.
 
-Eventually, another point it’s worth making is that web develpement is **ridicolously cheap**: you just need a laptop (not even a powerful one), everything else is for **free** (actually, I bought <a href='http://www.htmlandcssbook.com/' target='_blank'>this book</a>, but online there are a few great alternatives). The only, **huge** price you need to pay is **time**. I spent handful of restless hours fighting with the urgency and the desire of getting things done, and trying to have paticence of going on by gradual steps. 
+Eventually, another point it’s worth making is that web develpement is **ridicolously cheap**: you just need a laptop (not even a powerful one), everything else is for **free** (actually, I bought [this book](https://www.htmlandcssbook.com/ 'Learn HTML and CSS - a book that teaches you in a nicer way'), but online there are a few great alternatives). The only, **huge** price you need to pay is **time**. I spent handful of restless hours fighting with the urgency and the desire of getting things done, and trying to have paticence of going on by gradual steps. 
 
 ## The Beginning
 
-I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My <a href='https://web.archive.org/web/20210101144927/https://xplosionmind.wixsite.com/xplosionmind' target='_blank' title='xplosionmind on Wix'>previous website</a> was created on <a href='https://wix.com' target='_blank' title='Wix'>Wix</a> with a drag-and-drop <abbr title='Graphical User Interface'>GUI</abbr> to build anything.
+I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My [previous website](https://web.archive.org/https://xplosionmind.wixsite.com/xplosionmind 'Archived version of xplosionmind on Wix') was created on [Wix](https://wix.com) with a drag-and-drop <abbr title='Graphical User Interface'>GUI</abbr> to build anything.
 
 So, the first question I asked myself was:
 
@@ -41,13 +40,13 @@ As I wrote before, since I was so lost and I had no idea of the best starting po
 
 I chose the about page to be my test page. At first, it wasn't a section of the homepage, but a standalone one. I struggled to make it look like the one on the Wix website (I won’t link it anymore, you can browse around using the first one I gave) and I couldn’t make it appear nicely, until I discovered the `object-fit` CSS property, which changed my game.
 
-To be honest, even after finishing the book I knew nothing about <a href='https://en.wikipedia.org/wiki/Web_framework' target='_blank'>frameworks</a> but after reading <a href='https://www.taniarascia.com/you-dont-need-a-framework/' target='_blank'>this article</a> I told myself I wouldn't need one. Even after completing the website, I still don't know if I made the right choice. Without a doubt, <a href='https://github.com/xplosionmind/xplosionmind/blob/master/style.css' target='_blank'>my <code>style.css</code></a> file is a huge mess. Nevertheless, I get things done pretty easily by searching classes' names in the file and I have only a stylesheet, so it’s good.
+To be honest, even after finishing the book I knew nothing about [frameworks](https://en.wikipedia.org/wiki/Web_framework 'Web framework on Wikipedia') but after reading [this article](https://www.taniarascia.com/you-dont-need-a-framework/ 'Understanding the Fundamentals of Responsive Design') I told myself I wouldn't need one. Even after completing the website, I still don't know if I made the right choice. Without a doubt, [`style.css`](https://github.com/xplosionmind/old.tommi.space/blob/8d4064dbd3c7a6812a0ee816ae1172a60b586420/style.css 'style.css in old.tommi.space archived repository on GitHub') file is a huge mess. Nevertheless, I get things done pretty easily by searching classes' names in the file and I have only a stylesheet, so it’s good.
 
 ## Navigation bar, Header and footer
 
 I decided to use the `include` php function to have only a header and a footer file. 
 
-## STEPS
+## Steps
 
 - learning HTML and CSS from the book
 - creating a test page
@@ -64,7 +63,7 @@ I decided to use the `include` php function to have only a header and a footer f
 - implementing Jekyll
 	- Giraffe Academy tutorials + documentation
 	- converting php includes to Jejyll YAML front matter includes
-	- importing all of my older posts (it took me quite some time...)
+	- importing all of my older posts (it took me quite some time…)
 		- fetching, resizing and resampling post pictures
 		- resetting links as `<a href='blablabla' target=_'blank'`
 - blog landing page
@@ -89,12 +88,12 @@ I decided to use the `include` php function to have only a header and a footer f
 ### useful websites
 
 - [Tania Rascia](https://www.taniarascia.com/)’s blog, great for learning grasp the most important aspects of front-end web programming;
-- brick.im
-- http://webtypography.net/intro/
+- <https://brick.im>
+- <http://webtypography.net/intro/>
 
 ### specific articles
 
-- [`em` vs `rem`](https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984), choosing the right one to build a responsive website;
-- <a href='https://www.sylvaindurand.org/making-jekyll-multilingual/' target='_blank'>Making Jekyll Multilingual</a> by Sylvain Durand
-- <a href='https://gist.github.com/Eeemil/e93ad054a73037f5bea3#file-post-html' target='_blank'>edit on GitHub button</a>
-- about [Internet Freedom](/internet-freedom)
+- [`em` vs `rem`](https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984 'Comprehensive Guide: When to Use Em vs. Rem'), choosing the right one to build a responsive website;
+- <cite>[Making Jekyll Multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/)</cite> by Sylvain Durand
+- [edit on GitHub button](https://gist.github.com/Eeemil/e93ad054a73037f5bea3#file-post-html 'Jekyll - adding edit on GitHub button to your site | GitHub Gist')
+- about [Internet Freedom](/internet-freedom/)

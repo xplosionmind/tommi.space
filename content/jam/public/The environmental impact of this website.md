@@ -4,7 +4,6 @@ tags:
   - geek/web
 location: xHain, Berlin
 description: Explaining the determining factors of the environmental impact of this website, and some reflections about its sustainability score.
-toc: false
 permalink: /environmental-impact/
 ref: environmental-impact
 ---
@@ -14,7 +13,7 @@ A common misconception is the belief that <q>the cloud</q> (a.k.a. the Internet)
 
 What does this mean, and what does this have to do with the environmental impact of this website?
 
-Like any other website, tommi.space is hosted on a server. In particular, its home is <cite>[[Nebuchadnezzar]]</cite>, my <abbr title='Virtual Private Server'>VPS</abbr> located in Dusseldorf. I ([Tommi](https://tommi.space/home#about 'About Tommi')) pay a fee to rent the VPS because [Contabo](https://contabo.com), the company that owns it, takes care of its maintenance and of the bill for the electricity it consumes.
+Like any other website, tommi.space is hosted on a server. In particular, its home is <cite>[Nebuchadnezzar](Nebuchadnezzar.md)</cite>, my <abbr title='Virtual Private Server'>VPS</abbr> located in Dusseldorf. I ([Tommi](https://tommi.space/home#about 'About Tommi')) pay a fee to rent the VPS because [Contabo](https://contabo.com), the company that owns it, takes care of its maintenance and of the bill for the electricity it consumes.
 
 By consuming electricity, this website has an environmental impact too.
 
@@ -36,7 +35,7 @@ The sustainability score of my website is **B**. I am displaying it in the foote
 
 Why doesn’t tommi.space have the best possible score (A+)?
 
-- The energy <cite>[[Nebuchadnezzar]]</cite> runs on does not come from renewable sources. “Sustainable” VPSs with the same specifications are too costly for me right now.
+- The energy <cite>[Nebuchadnezzar](Nebuchadnezzar.md)</cite> runs on does not come from renewable sources. “Sustainable” VPSs with the same specifications are too costly for me right now.
 - Part of the score is given by making the code better, to make each web page lighter and more efficient. There is only so much I can improve with my limited technical skills.
 
 ### The responsibility is not merely individual

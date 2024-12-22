@@ -7,7 +7,7 @@ tags:
   - geek
   - meta
 ---
-By migrating [[Nebuchadnezzar]] to a slightly more performant machine, I ended up messing up some configurations, and I also realized that my [Netlify](https://netlify.com)-based website publishing workflow was not really independent and stable. Therefore, I decided it was time to self-host tommi.space.
+By migrating [Nebuchadnezzar](Nebuchadnezzar.md) to a slightly more performant machine, I ended up messing up some configurations, and I also realized that my [Netlify](https://netlify.com)-based website publishing workflow was not really independent and stable. Therefore, I decided it was time to self-host tommi.space.
 
 It has been pretty straightforward:
 

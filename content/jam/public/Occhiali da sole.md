@@ -36,12 +36,12 @@ C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [B
 
 Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://facebook.com/elena.sandre.9 'Profilo Facebook di Elena Sandrè'), allo stand Blackfin.
 
-T: <q>Ciao! Stavate cercando un modello affascinante come me?</q>  
-E: <q>Ecco! Proprio uno come te stavamo cercando!</q>  
-<q>Scegli un paio di occhiali</q>  
-*Io, credendo mi facessero fare delle foto e basta, mi entusiasmai e scelsi un bel paio.*  
-T: <q>ah, davvero? Wow, ok…non credevo qualcuno mi avrebbe mai preso sul serio</q>  
-*Una volta scelto un paio favoloso, che così belli la Blackfin per me mai ne ha più fatti, già stavo pensando a tutte le pose stupide da fare con quegli occhiali, quando mi accorsi che Elena stava mettendo gli occhiali in una scatola.*  
+T: <q>Ciao! Stavate cercando un modello affascinante come me?</q>
+E: <q>Ecco! Proprio uno come te stavamo cercando!</q>
+<q>Scegli un paio di occhiali</q>
+*Io, credendo mi facessero fare delle foto e basta, mi entusiasmai e scelsi un bel paio.*
+T: <q>ah, davvero? Wow, ok…non credevo qualcuno mi avrebbe mai preso sul serio</q>
+*Una volta scelto un paio favoloso, che così belli la Blackfin per me mai ne ha più fatti, già stavo pensando a tutte le pose stupide da fare con quegli occhiali, quando mi accorsi che Elena stava mettendo gli occhiali in una scatola.*
 E: <q>Ecco qua, sono tuoi!</q>
 
 Risparmio le mie urla di esaltazione e non potrei comunque esprimere i salti di gioia e la mia faccia dopo aver ricevuto quell’enorme confezione.
@@ -77,7 +77,7 @@ Per quanto ci impegniamo perché accada più spesso, io e [Rebecca](https://inst
 Come al mio solito ho perso e ritrovato i Ray-Ban Meteor un’infinità di volte. Il loro smarrimento definitivo corrisponde alla notte di pazza ebbrezza passata con Rebi il <time datetime='2022-08-09'>9 agosto 2022</time> a una serata ai bagni Manola di Arma di Taggia.
 
 <figure>
-	{% img 'rebi-smarrimento.webp', 'Un selfie con Rebecca e gli occhiali appesi alla camicia' %}
+	<img src='/rebi-smarrimento.webp' alt='Un selfie con Rebecca e gli occhiali appesi alla camicia'>
 	<figcaption>L’ultima foto in cui appaiono i miei amati occhialini, nonché ultima testimonianza della nostra sobrietà prima di una notte di tempesta</figcaption>
 </figure>
 
@@ -86,9 +86,9 @@ Come al mio solito ho perso e ritrovato i Ray-Ban Meteor un’infinità di volte
 Al momento sto utilizzando dei Ray-Ban acquistati al volo su Amazon in una situazione di emergenza nell’estate 2019.
 
 <figure>
-	{% img image, 'Un mio selfie con la linguaccia e gli occhiali da sole attuali' %}
+	<img src='{{ image }}' alt='Un mio selfie con la linguaccia e gli occhiali da sole attuali'>
 </figure>
 
 ## Non ci vedo più
 
-Ad agosto 2022 ho dovuto prendere (la nonna mi ha regalato) degli [[Occhiali da vista]].
+Ad agosto 2022 ho dovuto prendere (la nonna mi ha regalato) degli [Occhiali da vista](Occhiali%20da%20vista.md).

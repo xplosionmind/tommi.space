@@ -5,7 +5,9 @@ tags:
   - todo
   - idea
 description: Cose per cui dovrei trovare un nome migliore
-aliases: Titles, Names
+aliases:
+  - Titles
+  - Names
 redirect_from: ['/names/', '/titoli/', '/titles/']
 lang: it
 toc: false

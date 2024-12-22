@@ -11,7 +11,7 @@ description: |
 
 ## Campagna <cite>Rise of the Runelords</cite>
 
-![[Rise of the Runelords]]
+![Rise of the Runelords](Rise%20of%20the%20Runelords.md)
 
 ## Link utili
 

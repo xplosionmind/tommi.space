@@ -11,7 +11,7 @@ descriptions: Reflecting on definitions and ways to improve relationships with t
 ---
 Relations, especially if human, are hard but wonderful; they are what makes life great and worth living. I am collecting here thoughts and insights about this.
 
-- [emotional.codes](https://emotional.codes 'a collection of tools that I’ve found useful for processing emotions and having interpersonal interactions.') is some sort of a [[Self debugging]], but taking place by talking with other people outside of yourself
+- [emotional.codes](https://emotional.codes 'a collection of tools that I’ve found useful for processing emotions and having interpersonal interactions.') is some sort of a [Self debugging](Self%20debugging.md), but taking place by talking with other people outside of yourself
 
 ### Meta
 
@@ -34,4 +34,4 @@ About the importance of reciprocal openness and explicitness concerning relation
 
 ---
 
-![[Relationship with technology]]
+![Relationship with technology](Relationship%20with%20technology.md)

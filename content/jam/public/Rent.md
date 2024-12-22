@@ -6,7 +6,7 @@ image: https://static.onecms.io/wp-content/uploads/sites/6/2019/01/rent-6-2000.j
 description: About the awesome wonderful genius Musical by the awesome wonderful genius <a href='https://tommi.space/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>
 ---
 
-<cite>[Rent](https://en.wikipedia.org/wiki/Rent_(musical) '“Rent” on Wikipedia')</cite> is one of the things I love the most, and, of course, its [2005 representation in movie](https://en.wikipedia.org/wiki/Rent_(film) '“Rent”, the movie on Wikipedia') is one of my [[Cinema#Favorites|favorite films]].
+<cite>[Rent](https://en.wikipedia.org/wiki/Rent_(musical) '“Rent” on Wikipedia')</cite> is one of the things I love the most, and, of course, its [2005 representation in movie](https://en.wikipedia.org/wiki/Rent_(film) '“Rent”, the movie on Wikipedia') is one of my [](Cinema.md#Favorites|favorite%20films).
 
 How can a musical be so inspiring and true I really cannot understand.  
 I just know I deeply love [Jonathan Larson](https://tommi.space/people#jonathan-larson 'Jonathan Larson among my favorite people — tommi.space').
@@ -21,7 +21,7 @@ I just know I deeply love [Jonathan Larson](https://tommi.space/people#jonathan-
 > Next year's rent  
 > Rent rent rent rent rent  
 > We're not gonna pay rent  
-> 'Cause **[[Pan#Name|everything is rent]]**
+> 'Cause **[](Pan.md#Name|everything%20is%20rent)**
 
 ## La vie bohème
 
@@ -48,7 +48,7 @@ I just know I deeply love [Jonathan Larson](https://tommi.space/people#jonathan-
 > To any passing fad  
 > **To being an us**-for once-, **instead of a them**
 
-At 1:23:44, like [[Pier Paolo Pasolini]]:
+At 1:23:44, like [Pier Paolo Pasolini](Pier%20Paolo%20Pasolini.md):
 
 > Anyone out of the mainstream  
 > Is anyone in the mainstream?  
@@ -62,7 +62,7 @@ What the Pope underscored in <a href='https://www.raiplay.it/video/2022/02/Sua-S
 
 ## It was before I met you
 
-Mimi and Roger (1:40:40) as Dolores and Andrea in <cite lang='it'>[[Santa Maradona]]</cite>
+Mimi and Roger (1:40:40) as Dolores and Andrea in <cite lang='it'>[Santa Maradona](Santa%20Maradona.md)</cite>
 
 > <q>Roger…nothing happened. Benny and me, it’s over. We had a thing once, but it was two years ago</q>  
 > <q>It doesn’t matter</q>  

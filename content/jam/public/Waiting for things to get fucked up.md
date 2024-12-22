@@ -11,4 +11,4 @@ I have this thing, especially when I watch movies or series, that I just can’t
 
 It also happens when I see things that are high risk and over which I have no control at all. I don’t as much fear as I feel *embarassment*, and I am restlessly on edge.
 
-The only thing I could think of while watching the last episodes of the second season of [[The Bear]] was just <q>somebody is going to screw up</q> (and I felt it would be Carmen with Claire).
+The only thing I could think of while watching the last episodes of the second season of [The Bear](The%20Bear.md) was just <q>somebody is going to screw up</q> (and I felt it would be Carmen with Claire).

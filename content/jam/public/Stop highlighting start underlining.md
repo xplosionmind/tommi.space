@@ -21,7 +21,7 @@ While ==highlighting screams==: <q>LOOK AT ME COME ON!</q>, <u>underlining</u> r
 Underlining lets you focus on the content, which is what actually matters.
 
 What about <span style='color:limegreen'>colored text</span> or **bold text**?\
-This is more a matter of [[Design]]. In general, I prefer when there are less colors; it enhances focus.
+This is more a matter of [Design](Design.md). In general, I prefer when there are less colors; it enhances focus.
 
 ## Styling
 

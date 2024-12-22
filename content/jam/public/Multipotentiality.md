@@ -6,7 +6,9 @@ tags:
   - knowledge
   - topic
   - wip
-aliases: Multipotenzialità, Multipotentialite
+aliases:
+  - Multipotenzialità
+  - Multipotentialite
 description: Exploring the idea of moving across different interests and fields without never sticking to one only — essentially, me.
 toc: false
 image: https://tommi.space/tommi-exploding.webp

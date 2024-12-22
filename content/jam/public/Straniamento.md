@@ -7,4 +7,4 @@ tags:
 lang: it
 description: L’atto di ripensare da capo un concetto già conosciuto
 ---
-![[La morte di Ivan Ilic#Straniamento]]
+![](La%20morte%20di%20Ivan%20Ilic.md#Straniamento)

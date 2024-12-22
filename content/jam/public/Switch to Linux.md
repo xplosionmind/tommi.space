@@ -11,7 +11,7 @@ redirect_from:
 description: Insights, guides, notes and ideas about my ongoing attempt at fully switching to Linux.
 aliases: Linux
 ---
-Even though [[Linuxplosion]] runs Linux, specifically Ubuntu, 99,9% of my computer time is spent on a MacBook Pro 13' 2019 running, guess what, MacOS.
+Even though [Linuxplosion](Linuxplosion.md) runs Linux, specifically Ubuntu, 99,9% of my computer time is spent on a MacBook Pro 13' 2019 running, guess what, MacOS.
 
 Even though I hate everything about the capitalist premises of the company who owns and develops it, **I love MacOS** and to be honest most of my life *depends* on it. Nevertheless, since I hate proprietary software, especially if coming from a huge ugly corporation like Apple, I hope that the day where I will have the strength drop everything and exclusively use Linux will come soon. I would love to avoid consumerism, capitalism and monopolies as much as possible, without compromising stability, performance and reliability.
 
@@ -50,4 +50,4 @@ Some notes concerning stuff I do on MacOS that I need to find an alternative for
 - [ ] keyboard shortcuts to rearrange windows ([Rectangle](https://rectangleapp.com 'Rectangle official website'))
 - [ ] Automatically switch between light and dark themes, according to the brightness of the environment, using light sensor info ([DarkModeBuddy](https://darkmodebuddy.app 'DarkModeBuddy'))
 - [ ] remember, store and synchronize WiFi passwords
-- [ ] Find alternatives for the [[Apps]] in use
+- [ ] Find alternatives for the [Apps](Apps) in use

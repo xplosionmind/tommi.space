@@ -1,10 +1,10 @@
 ---
 date: 2021-04-13T14:03:40+02:00
 updated: 2021-04-13T14:03:40+02:00
+aliases: OSM
 tags: geek
 description: Info and nice stuff about OpenStreetMap
 redirect_from: [/osm/,/maps/]
-aliases: OSM
 ---
 ## Favorites
 
