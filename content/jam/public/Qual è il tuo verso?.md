@@ -4,7 +4,7 @@ updated: 2023-09-15T12:35:00+02:00
 lang: it
 location: Campo San Barnaba
 permalink: /verso/
-description: Un breve gioco/laboratorio per scoprire sé stess3 tramite versi poetici
+description: Un breve gioco/laboratorio per scoprire sé stessз tramite versi poetici
 tags:
   - poetry
   - lab

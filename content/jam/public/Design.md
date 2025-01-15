@@ -5,7 +5,7 @@ tags: design
 description: Little insights about the design world
 main: true
 todo:
-  - 'Integrate websites with [[Webrings]] and [[Blogroll]] and [[Internet Awesomeness]]'
+  - 'Integrate websites with [Webrings](/webrings/) and [Blogroll](/blogroll/) and [Internet Awesomeness](/internet-awesomeness/)'
   - refactor
 ---
 <div class='yellow box'>
@@ -14,15 +14,15 @@ todo:
 
 ## 101
 
-- [Good Design Understanding](https://dwarves.foundation/n/good-design-understanding/ 'Good Design Understanding by Dwarves Foundation'), by the [Dwarves Foundation](https://dwarves.foundation 'The Dwarves Foundation website')
+- [Good Design Manifesto](https://dwarves.foundation/manifesto/ 'Good Design Understanding by Dwarves Foundation'), by the [Dwarves Foundation](https://dwarves.foundation 'The Dwarves Foundation website')
 
 ## Typography
 
-![[Typography]]
+[Typography](Typography.md)
 
 ## Colors
 
-![[Colors]]
+[Colors](Colors.md)
 
 ## Web Design
 
@@ -34,8 +34,8 @@ todo:
 
 - [Born Free Generation](https://www.bornfreegeneration.com 'Born Free Generation')
 - [187com.fr](https://187com.fr)
-- [Once Upon a Time Magazine](https://www.onceuponatimemag.com 'Once Upon a Time Magazine')
-- [Amsterdam Canals](https://canals-amsterdam.nl 'Amsterdam Canals')
+- [Once Upon a Time Magazine](https://web.archive.org/web/20191124160928/https://www.onceuponatimemag.com/ 'Once Upon a Time Magazine – Archived version')
+- [Amsterdam Canals](https://web.archive.org/web/20200201120447/https://canals-amsterdam.nl/ 'Amsterdam Canals – Archived version')
 
 ## Brand identities
 

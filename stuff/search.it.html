@@ -1,0 +1,57 @@
+---
+title: Cerca
+description: Cerca qualcosa in tommi.space
+type: SearchResultsPage
+sitemap:
+  changefreq: never
+  priority: 0.3
+eleventyExcludeFromCollections: true
+permalink: /cerca/
+lang: it
+layout: wrapper.liquid
+---
+<link href='/pagefind/pagefind-ui.css' rel='stylesheet'>
+<script src='/pagefind/pagefind-ui.js' type='text/javascript'></script>
+<main>
+	<article class='middle background box'>
+		<div id='search'></div>
+	</article>
+</main>
+
+<script>
+	window.addEventListener('DOMContentLoaded', (event) => {
+		const search_ui = new PagefindUI(
+			{
+				element: '#search',
+				autofocus: true,
+				pageSize: 10,
+				showEmptyFilters: false,
+				excerptLength: 25,
+				showImages: true,
+				showSubResults: true,
+				resetStyles: false,
+				translations: {
+					placeholder: 'Digita ciò che vuoi cercare…',
+					clear_search: 'Cancella',
+					load_more: 'Carica più risultati',
+					search_label: 'Cerca in tommi.space',
+					filters_label: 'Filtri',
+					zero_results: 'Nessun risultato trovato per “[SEARCH_TERM]”.',
+					many_results: '[COUNT] risultati per “[SEARCH_TERM]”:',
+					one_result: '[COUNT] risultato per “[SEARCH_TERM]”:',
+					alt_search: 'Nessun risultato trovato cercando “[SEARCH_TERM]”. Ecco invece i risultati per “[DIFFERENT_TERM]”:',
+					search_suggestion: 'Nessun risultato trovato per “[SEARCH_TERM]”. Alternativamente, potresti provare con una di queste voci di ricerca:',
+					searching: 'Cercando “[SEARCH_TERM]”…'
+				},
+				processTerm: function (term) {
+					history.replaceState({}, '', `?q=${encodeURIComponent(term)}`);
+					return term;
+				},
+			});
+
+			const params = new URLSearchParams(window.location.search);
+			if (params.has('q')) {
+				search_ui.triggerSearch(params.get('q'));
+			}
+	});
+</script>

@@ -1,15 +1,15 @@
 ---
 date: 2021-09-26T18:23:45+02:00
 updated: 2023-01-09T23:01:13+01:00
+aliases:
+  - Timeline development
+  - Timeline
 tags:
   - help
   - geek/dev
   - idea
 description: A social network based on personal and historical events
-aliases:
-  - Timeline development
-  - Timeline
-  - Aby
+toc: true
 redirect_from:
   - /timeline/
   - /timeline-development/
@@ -23,7 +23,7 @@ A profile is made by the important milestones in both his/her life and in histor
 - share dates of both historical and personal events
 - integrate with [ActivityPub](https://activitypub.rocks 'ActivityPub') and therefore join the [Fediverse](https://en.wikipedia.org/wiki/Fediverse '“Fediverse„ on Wikipedia')
 - collect other
-- integrate with [[Nolan]], and be its “public front-end”
+- integrate with [Nolan](Nolan.md), and be its “public front-end”
 
 ## mine
 
@@ -54,7 +54,7 @@ Add a timeline like [Jeremy Gordon's](https://jgordon.io "Jeremy Gordon") or [ja
 
 Alternative name ideas:
 
-- *Aby*, in honor of [[Aby Warburg]] (see [*Mnemosyne*](https://tommi.space/mnemosyne '“Mnemosyne„ article on tommi.space'))
+- *Aby*, in honor of [Aby Warburg](Aby%20Warburg.md) (see [*Mnemosyne*](https://tommi.space/mnemosyne '“Mnemosyne„ article on tommi.space'))
 
 ## Elsewhere
 

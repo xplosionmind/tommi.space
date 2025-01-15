@@ -1,15 +1,15 @@
 ---
 date: 2023-09-27T17:41:04+02:00
 updated: 2023-10-14T21:51:19+02:00
+tags:
+  - geek/sysad
+  - wip
 location: Biblioteca Salaborsa, Bologna
 permalink: /ds3/
-tags:
-  - geek/server
-  - wip
 ---
-[[Storage]] is a big deal. After years experimenting many different options and attempting to circle down optimal solutions, I finally landed on a solution which is very promising and I believe it to be the definitive one.
+[Storage](Storage.md) is a big deal. After years experimenting many different options and attempting to circle down optimal solutions, I finally landed on a solution which is very promising and I believe it to be the definitive one.
 
-I am migrating all of my storage system to the S3 filesystem, based on Cubbit decentralized object storage, or Cubbit DS3. I am doing this major switch as I believe this is the system that better satisfies the most the majority of my [[Storage#Needs]].
+I am migrating all of my storage system to the S3 filesystem, based on Cubbit decentralized object storage, or Cubbit DS3. I am doing this major switch as I believe this is the system that better satisfies the most the majority of my [](Storage.md#Needs).
 
 - **Durability**: it has been a while since Amazon introduced its S3 standard for object storage, and it seems that it is not going to go anywhere soon. Even though Cubbit is a company and could possibly fail, I could easily migrate to a different provider.
 - **Reliability**: Cubbit ensures that it is almost impossible to lose data because of the redundancy by design of its infrastructure.
@@ -22,11 +22,11 @@ I am migrating all of my storage system to the S3 filesystem, based on Cubbit de
 
 ## Xplosion Server Backup
 
-Currently, [[Nebuchadnezzar]] has a 200GB SSD, which is more than enough for what I need. To back it up, though, I need some more storage.
+Currently, [Nebuchadnezzar](Nebuchadnezzar.md) has a 200GB SSD, which is more than enough for what I need. To back it up, though, I need some more storage.
 
 The first step in my migration to Cubbit DS3 has been to offload on its infrastructure the backup of Xplosion Server.
 
-![[YunoHost backups on Cubbit DS3 object storage using s3fs]]
+[YunoHost backups on Cubbit DS3 object storage using s3fs](YunoHost%20backups%20on%20Cubbit%20DS3%20object%20storage%20using%20s3fs.md)
 
 ## Nextcloud External Storage
 

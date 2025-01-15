@@ -1,58 +1,55 @@
+---js
+{
+	title: 'Zibaldone',
+	lang: 'it',
+	ref: 'Zibaldone',
+	description: 'Cose che vengono fuori dala testa di Tommi, in forma di articoli',
+	type: 'CollectionPage',
+	sitemap: {
+		priority: 0.8,
+		changefreq: 'monthly',
+	},
+	eleventyImport: {
+		collections: ['zibaldone'],
+	},
+	updated: function (data) {
+		return this.collections.zibaldone[0].data.date
+	}
+}
 ---
-title: Zibaldone
-lang: it
-ref: Zibaldone
-description: Cose che vengono fuori dala testa di Tommi, in forma di articoli
-type: CollectionPage
-sitemap:
-  priority: 0.8
-  changefreq: monthly
-eleventyImport:
-  collections: ['zibaldone']
----
-<section class='center row'>
-	<h1>{{ title }}</h1>
-	<p class='one column'>Poco a che vedere con la saggezza e la serietà dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.<br>
-	Dall’enciclopedia Treccani, <a href='https://treccani.it/vocabolario/zibaldone/' target='_blank'>żibaldóne</a>: […] <q>Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</q><br>
-	Esattamente quello.</p>
-</section>
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundPurple'>Zibaldone</h1>
+	</hgroup>
 
-<div class='row'>
-	<div class='two-thirds column'>
-		{% render 'tags.html', site: site %}
-	</div>
-	<div class='one-third column'>
-		<section id='lang-filter' class='box'>
-			<h3>
-				{% if lang == 'it' -%}
-					Filtra per lingua
-				{% else -%}
-					Filter by language
-				{% endif -%}
-			</h3>
-			<p>Clicca sulla bandiera della lingua in cui vuoi visualizzare i post, clicca nuovamente sulla stessa bandiera per disattivare il filtro.</p>
-			<div class='flex'>
-				<label id='en-langFilterButton' for='langFilter-en' title='{% if lang == 'it' -%}Mostra solo i contenuti in inglese{% else %}Show only content in English{% endif -%}'>🇬🇧</label>&emsp;
-				<label id='it-langFilterButton' for='langFilter-it' title='{% if lang == 'it' -%}Mostra solo i contenuti in italiano{% else %}Show only content in Italian{% endif -%}'>🇮🇹</label>&emsp;
-				<label id='fr-langFilterButton' for='langFilter-fr' title='{% if lang == 'it' -%}Mostra solo i contenuti in francese{% else %}Show only content in French{% endif -%}'>🇫🇷</label>
-			</div>
-		</section>
-	</div>
-</div>
-	
-<div class='zibaldone flex row'>
-	<input type='checkbox' id='langFilter-en' class='langFilter'>
-	<input type='checkbox' id='langFilter-it' class='langFilter'>
-	<input type='checkbox' id='langFilter-fr' class='langFilter'>
-	<input type='checkbox' id='langFilter-all' class='langFilter'>
-	{% for entry in collections.zibaldone %}
-		<div class='one-third' lang='{{ entry.data.lang }}'>
-			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
-				{% img entry.data.image, entry.data.title %}
+	<article class='e-content'>
+		<p>Poco a che vedere con la saggezza e lo spessore letterario dell’omonimo leopardiano, ma uguali concupiscenza, smarrimento, profondità emotiva, disordine.</p>
+		<p>Dall’enciclopedia Treccani:</p>
+		<blockquote><p><a href='https://treccani.it/vocabolario/zibaldone/' target='_blank'>Żibaldóne</a>, […] scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</p></blockquote>
+	</article>
+
+	<aside class='subgrid'>
+		<div class='two-thirds'>
+			{% render 'tags.liquid', site: site %}
+		</div>
+		<div class='one-third'>
+			{% render 'lang-filter.liquid', lang: lang %}
+		</div>
+	</aside>
+
+	<div class='entries-list subgrid'>
+		<input type='checkbox' id='langFilter-en' class='langFilter'>
+		<input type='checkbox' id='langFilter-it' class='langFilter'>
+		<input type='checkbox' id='langFilter-fr' class='langFilter'>
+		{% for entry in collections.zibaldone %}
+			<a class='one-third background box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}'>
 				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
+				<figure>
+					{% if entry.data.image %}<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}'>{% endif %}
+				</figure>
+				<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
 				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
-		</div>
-	{% endfor %}
-</div>
+		{% endfor %}
+	</div>
+</main>

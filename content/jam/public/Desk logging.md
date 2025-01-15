@@ -5,9 +5,7 @@ tags:
   - photography
   - idea
   - wip
-toc: false
 description: monthly pictures of my desk, wherever I am
-image: https://tommi.space/2020-03-30-desk.jpg
 todo:
   - find a more creative name
   - create a photo gallery as with Living Art

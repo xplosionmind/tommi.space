@@ -6,10 +6,12 @@ tags:
   - knowledge
   - topic
   - wip
-aliases: Multipotenzialità, Multipotentialite
+aliases:
+  - Multipotenzialità
+  - Multipotentialite
 description: Exploring the idea of moving across different interests and fields without never sticking to one only — essentially, me.
 toc: false
-image: https://tommi.space/tommi-exploding.webp
+image: /assets/tommi-exploding.webp
 ---
 I wrote to Martina on <time datetime='2022-01-29T12:13:37+01:00'>29 January 2022</time>:
 

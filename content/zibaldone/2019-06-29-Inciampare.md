@@ -1,7 +1,7 @@
 ---
 title: Inciampare
 date: 2019-06-29
-image: /2019-06-29-inciampare.jpg
+image: /assets/2019-06-29-inciampare.jpg
 ---
 Chi non sarò sarà sempre l’ombra di chi sono.
 
@@ -10,7 +10,7 @@ Un’ombra, è sempre più leggera, più veloce, più allegra, più dolce, meno 
 <q>**Chi striscia non inciampa**</q>
 
 <figure>
-  {% img image, 'una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)', 'u-photo' %}
+	<img src='{{ image }}' alt='una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)' class='u-photo'>
 </figure>
 
 ho imparato da chi inciampando ha saputo creare un mondo unico e magico.

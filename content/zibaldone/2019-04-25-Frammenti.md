@@ -1,12 +1,12 @@
 ---
 title: Frammenti
 date: 2019-04-25
-image: /barcelona-montjuic-pose.webp
+image: /assets/barcelona-montjuic-pose.webp
 ---
 Alla fine mi trovo sempre a scrivere, fra l’altro di cose di poco conto e riflessioni personalissime prive di fondamento concreto o oggettivo, nei momenti in cui ciò di cui tratto più mi manca. Meglio: scrivo di tutto quello che vorrei sistemare nella mia bellissima, fortunata, peraltro confusa, scombussolata ed incerta vita solo nei periodi in cui la sua confusione è massima. In pratica, butto giù due parole per me, per confortarmi, per dimostrarmi che anche se non combino un fico secco a **blaterare** e fare bella figura sono ancora in grado.
 
 <figure>
-	{% img image, 'Una persona che fa una foto a un’altra persona da un punto lontano', 'u-photo' %}
+	<img src='{{ image }}' alt='Una persona che fa una foto a un’altra persona da un punto lontano' class='u-photo'>
 	<figcaption>Non c’è nulla di più frammentato di due persone che fanno una foto allo stesso tipo in posa. Montjuic Castle, Barcellona, aprile 2019</figcaption>
 </figure>
 
@@ -45,4 +45,4 @@ Concludo con Mirko, che ha capito tutto e con questa canzone trasmette questo me
 
 (Ci sono alcuni mondi che sono rimasti protetti e resistono alla frammentazione, ma ora si era fatta troppo lunga e vado a sentire Giancarlo Caselli che parla qui a Riva per il 25 aprile e sono in ritardo, alla prossima, dunque.)
 
-https://youtu.be/hGRjoBY7DkU
+https://youtube-nocookie.com/embed/hGRjoBY7DkU

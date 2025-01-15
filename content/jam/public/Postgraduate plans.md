@@ -9,7 +9,7 @@ tags:
 toc: false
 description: Insights about what to do after my bachelor graduation
 ---
-I am unsure about my life plans after graduation, but I am quite certain that academic life is not for me. Still, I feel and I know that there is a lot to study and to advocate concerning the topics I tackle in [[Thesis|my thesis]]. Therefore, even though too late and guided by curiosity rather than actual interest, I am exploring potential masters. The ones I believe would suit me best are **one year masters**, since they would be the perfect balance between [[Metastudy#Conflict|my two conflicting souls]]: properly concluding my academic education, and getting out of university as soon as possible.
+I am unsure about my life plans after graduation, but I am quite certain that academic life is not for me. Still, I feel and I know that there is a lot to study and to advocate concerning the topics I tackle in [my thesis](Computer%20Sciences%20Are%20Social%20Sciences.md). Therefore, even though too late and guided by curiosity rather than actual interest, I am exploring potential masters. The ones I believe would suit me best are **one year masters**, since they would be the perfect balance between [my two conflicting souls](Metastudy.md#Conflict): properly concluding my academic education, and getting out of university as soon as possible.
 
 My personal intention is to go as far as possible, start working and discover the world (it is cliché, but it is what I need)
 

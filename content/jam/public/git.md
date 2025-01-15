@@ -13,7 +13,6 @@ I share common people struggles when using it, but I also love it and try to exp
 
 - [Oh shit, git!](https://dangitgit.com), bare-bones insights to get things done in git
 - [git official documentation](https://git-scm.com/doc)
-- [escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
 - [git interactive **Cheat Sheet**](https://ndpsoftware.com/git-cheatsheet.html)
 - [ohmygit.org](https://ohmygit.org 'Oh My Git!'), a game to learn git
 
@@ -24,4 +23,4 @@ I share common people struggles when using it, but I also love it and try to exp
 
 ## GiTMI
 
-I am the admin of [[GiTMI]], [a forge](https://en.wikipedia.org/wiki/Forge_(software) 'Forge on Wikipedia') I self-host on [[Nebuchadnezzar|Xplosion Server]].
+I am the admin of [giTMI](giTMI.md), [a forge](https://en.wikipedia.org/wiki/Forge_(software) 'Forge on Wikipedia') I self-host on [Xplosion Server](Nebuchadnezzar.md).

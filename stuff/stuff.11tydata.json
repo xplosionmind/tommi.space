@@ -1,0 +1,6 @@
+{
+	"lang": "en",
+	"header": true,
+	"footer": true,
+	"eleventyExcludeFromCollections": true
+}

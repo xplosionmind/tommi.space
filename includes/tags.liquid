@@ -1,0 +1,14 @@
+<section class='tags box'>
+	<h2>Tags</h2>
+	<div class='flex'>
+		{% for tag in site.tags -%}
+			<a
+				href='{%- if tag.url -%}{{ tag.url }}{%- else -%}/tag/{{ tag.title }}/{%- endif -%}'
+				rel='tag'
+				class='smaller button {{ tag.title | truncatewords: 1, '' }}'>
+					{{ tag.title }}
+			</a>
+		{% endfor -%}
+	</div>
+</section>
+

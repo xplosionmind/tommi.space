@@ -9,3 +9,7 @@ content/jam/.obsidian
 
 # private content
 content/jam/private
+private
+
+# Scss handled separately
+styles

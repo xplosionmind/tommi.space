@@ -1,6 +1,6 @@
 ---
 title: Sconnesso
-image: https://tommi.space/sconnesso.webp
+image: /assets/sconnesso.webp
 permalink: /sconnesso.xml
 altUrl: https://tommi.space/sconnesso/
 lang: it
@@ -34,13 +34,12 @@ lang: it
 				<itunes:author>{{ site.author.name }}</itunes:author>
 				<itunes:season>{{ episode.data.season }}</itunes:season>
 				<itunes:episode>{{ episode.data.episode }}</itunes:episode>
-				{%- comment %}<itunes:order>{% increment counter %}</itunes:order>{% endcomment -%}
 				<itunes:episodeType>full</itunes:episodeType>
 				<itunes:explicit>{%- if episode.data.explicit -%}yes{%- else -%}no{%- endif -%}</itunes:explicit>
 				{% if episode.data.image %}<itunes:image href='{{ episode.data.image }}' />{% endif %}
 				<link>{{ site.url }}{{ episode.url }}</link>
 				<guid isPermaLink='true'>{{ site.url }}{{ episode.url }}</guid>
-				<pubDate>{{ episode.date | date: '%a, %-d %b %Y %H:%M:%S %z' }}</pubDate>
+				<pubDate>{{ episode.data.date | date: '%a, %-d %b %Y %H:%M:%S %z' }}</pubDate>
 				<itunes:keywords>
 					{%- if episode.tags %}{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}{% endif -%}
 				</itunes:keywords>

@@ -51,4 +51,4 @@ Bye
 
 I found another great launcher, but it’s very minimal and it makes it so hard to search for anything which isn’t an app.
 
-It’s [Last Launcher](https://f-droid.org/en/packages/io.github.subhamtyagi.lastlauncher/ 'Last Launcher on F-Droid') and it’s free and open source.
+It’s [Last Launcher](https://github.com/SubhamTyagi/Last-Launcher 'Last Launcher’s source code on GitHub') and it’s free and open source.

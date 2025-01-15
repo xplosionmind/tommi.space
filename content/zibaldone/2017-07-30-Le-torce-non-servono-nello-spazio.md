@@ -2,14 +2,14 @@
 title: Le torce non servono nello spazio
 date: 2017-07-30
 tags: 'Inchiostro Digitale'
-image: /2017-07-30-le-torce-non-servono-nello-spazio.jpg
+image: /assets/2017-07-30-le-torce-non-servono-nello-spazio.jpg
 ---
 Non è solo adrenalina, scienza, scoperta, desiderio, speranza, orbita, è Vita.
 Il buon vecchio Paolo Nespoli ritorna sulla ISS (International Space Station): ha 60 anni, due figli e potrebbe dirsi soddisfatto.
 
 <figure>
-  {% img image, 'Un astronauta guarda fuori dal finestrino della Soyuz appena atterrata', 'u-photo' %}
-  <figcaption>oltre - © NASA</figcaption>
+	<img src='{{ image }}' alt='Un astronauta guarda fuori dal finestrino della Soyuz appena atterrata' class='u-photo'>
+	<figcaption>oltre - © NASA</figcaption>
 </figure>
 
 No, risposta sbagliata, anzi, una risposta incresciosa se sei un astronauta; Paolo infatti non solo si dice, ma si dimostra assetato, energico e curioso, avendo appena cominciato la missione europea VITA (Vitality, Innovation, Technology, Ability) orbitando a 400.000 metri dal suolo terrestre. Tutti i dettagli di ciò che farà e che ha in testa l’astronauta italiano più anziano sono esaustivamente contemplati nell’indimenticabile [questa intervista](https://wired.it/scienza/spazio/2017/07/27/intervista-paolo-nespoli-astronauta 'intervista a Paolo Nespoli') su Wired.

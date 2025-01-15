@@ -2,14 +2,14 @@
 title: Sogno ad occhi aperti
 date: 2018-04-14
 tags: Inchiostro Digitale
-image: /2018-04-14-sogno-ad-occhi-aperti.jpg
+image: /assets/2018-04-14-sogno-ad-occhi-aperti.jpg
 ---
 Qui nel letto in camera mia si sta bene.
 
 Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.<!--more-->
 
 <figure>
-  {% img image, 'La Luna sospesa sul picco di una montagna', 'u-photo' %}
+  <img src='{{ image }}' alt='La Luna sospesa sul picco di una montagna' class='u-photo'>
   <figcaption>fleeting floating evening</figcaption>
 </figure>
 

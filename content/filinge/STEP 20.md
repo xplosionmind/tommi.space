@@ -18,3 +18,4 @@ Il valore reale più grande che un uomo possa ottenere è quello inaspettato: no
 Con un approccio tutto leopardiano, si può giungere alla conclusione che se l’esistenza stessa di un individuo venisse vissuta dallo stesso con prospettive moderate, egli avrebbe molte più possibilità di vivere felicemente rispetto a colui che brama di ottenere sempre di più. Tuttavia, se da una parte chi limita il proprio desiderio può trascorrere un esistenza più lieta, perde altresì innumerevoli possibilità di crescita e miglioramento personali, in quanto non spera in conseguenze positive. Colui che invece vive con il turbamento di poter e dover giungere a mete ambiziose e remote, otterrà sicuramente maggiori soddisfazioni, ma non possiederà la capacità di apprezzarli.
 
 Ancora una volta, il valore si rivela essere l’equilibrio fra due estremi *modi vivendi*, la cui ricerca corrisponde al compimento dell’individuo.
+

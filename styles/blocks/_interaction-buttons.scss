@@ -1,0 +1,35 @@
+#menutoggle,
+.langFilter {
+	display: none;
+}
+
+#langFilter-en:checked {
+	& ~ a[hreflang='en'] {
+		display: block
+	}
+	& ~ a[hreflang='it'],
+	& ~ a[hreflang='fr'] {
+		display: none;
+	}
+}
+
+#langFilter-it:checked {
+	& ~ a[hreflang='it'] {
+		display: block
+	}
+	& ~ a[hreflang='en'],
+	& ~ a[hreflang='fr'] {
+		display: none;
+	}
+}
+
+#langFilter-fr:checked {
+	& ~ a[hreflang='fr'] {
+		display: block
+	}
+	& ~ a[hreflang='en'],
+	& ~ a[hreflang='it'] {
+		display: none;
+	}
+}
+

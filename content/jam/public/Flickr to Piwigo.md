@@ -2,16 +2,18 @@
 date: 2020-12-05T01:00:00+01:00
 updated: 2022-03-14T14:59:21+01:00
 tags: geek
-aliases: Quitting Flickr, Quit Flickr
+aliases:
+  - Quitting Flickr
+  - Quit Flickr
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo
-image: https://tommi.space/jar/quit-flickr.jpg
-redirect_from: [/flickr, /quitting-flickr, /switch-to-piwigo, /piwigo-switch]
+image: /assets/quit-flickr.jpg
+redirect_from: [/flickr/, /quitting-flickr/, /switch-to-piwigo/, /piwigo-switch/]
 ---
-The process of quitting [Flickr](https://flickr.com 'Flickr') and switching to [[Piwigo]] took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
+The process of quitting [Flickr](https://flickr.com 'Flickr') and switching to [Piwigo](Piwigo.md) took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
 
 ## Why quitting Flickr
 
-Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [[Piwigo]] instead:
+Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [Piwigo](Piwigo.md) instead:
 
 - Flickr is hosted on Amazon’s servers
 - [Piwigo is open source](https://github.com/piwigo 'Piwigo on GitHub') and ethical, while Flickr is proprietary software.
@@ -33,20 +35,21 @@ Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [[Piwigo]] i
 	There are some very important features which are missing in Piwigo. I track them <a href='#bugs' title='Piwigo bugs and feature requests'>here</a>
 </div>
 
-I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo in Piwigo Extensions Marketplace'), a plugin to [[Flickr to Piwigo|import pictures from Flickr]].
+I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo in Piwigo Extensions Marketplace'), a plugin to [import pictures from Flickr](Flickr%20to%20Piwigo.md).
 
 1. Since importing photos from Flickr is very effective and most of the metadata is preserved, there is almost no configuration to be done, for what concerns the pictures.
 	1. For some reason, the albums’ cover images do not always correspond, so they must be updated.
 	2. I imported a lot of tags, which are meaningful in Flickr to improve SEO and public posts popularity, but in Piwigo they should have a practical focus. I deleted most of them and I kept the essential meaningful ones
 2. Evaluate which plugins are **actually** useful and which should be installed.
-3. **Customizing the CSS**: for a greater ease of use, I created [this stylesheet](https://github.com/xplosionmind/tommi.space/blob/main/piwigo.scss 'Source of the stylesheet on GitHub') which contains all of the rules I need, and I `@import` it in Piwigo’s custom CSS field. I customized everything on top on the dark version of the default theme, by making it match the design of tommi.space.
-4. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several redirections such as <https://visions.tommi.space> or <https://gallery.tommi.space>, and they all point to the domain I wrote in the email
+3. **Customizing the CSS**: for a greater ease of use, I created [this stylesheet](https://codeberg.org/tommi/tommi.space/src/branch/main/styles/piwigo.scss 'Source of the stylesheet on Codeberg') which contains all of the rules I need, and I `@import` it in Piwigo’s custom CSS field. I customized everything on top on the dark version of the default theme, by making it match the design of tommi.space.
+4. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match `https://images.tommi.space`, then, from my DNS records, I created several redirections such as `https://visions.tommi.space` or <https://gallery.tommi.space>, and they all point to the domain I wrote in the email
 5. Improve private albums sharing, with [ShareAlbum plugin](https://github.com/petitssuisses/piwigo-ShareAlbum/ 'piwigo-ShareAlbum on GitHub')
 6. Read Piwigo privacy policy to check reliability for private pictures
 7. ❌ Importing album descriptions
 8. ❌ Importing Collections as parent albums
 
 <p class='date'><time datetime='2024-01-04T11:26:22+01:00'>4<sup>th</sup> January 2024</time></p>
+
 In a couple of weeks my Piwigo hosted subscription is terminating. Possible options:
 
 - renew the subscription for 3 years at the same price

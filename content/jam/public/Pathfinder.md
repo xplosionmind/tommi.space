@@ -5,13 +5,15 @@ tags: archive/dnd
 aliases: Dungeons & Dragons
 redirect_from: [/dnd/,/dungeons-and-dragons/,/dungeons-&-dragons/,/d&d/]
 description: |
-  Appunti e risorse per giocare a <a href='https://it.wikipedia.org/wiki/Pathfinder_gioco_di_ruolo' target='_blank' title='“Pathfinder„ su Wikipedia'>Pathfinder</a>/<a href='https://it.wikipedia.org/wiki/Dungeons_%26_Dragons' target='_blank' title='Dungeons & Dragons on Wikipedia'>Dungeons & Dragons</a>
+  Appunti e risorse per giocare a [Pathfinder](https://it.wikipedia.org/wiki/Pathfinder_(gioco_di_ruolo) '“Pathfinder” su Wikipedia').
 ---
 {{ description }}
 
 ## Campagna <cite>Rise of the Runelords</cite>
 
-![[Rise of the Runelords]]
+[Rise of the Runelords](Rise%20of%20the%20Runelords.md)
+
+## Campagna <cite>Il Fato dei Dannati</cite>
 
 ## Link utili
 

@@ -1,7 +1,7 @@
 ---
 title: L’avanguardia
 date: 2020-02-07
-image: /2020-02-07-avanguardia.jpg
+image: /assets/2020-02-07-avanguardia.jpg
 permalink: /avanguardia/
 ---
 Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerebbe la felpa, quella pesante che mantiene in quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su [exercise.polito.it](https://exercise.polito.it 'Esercizi - Politecnico di Torino') nella speranza di osservare un’ispirazione per risolvere un equazione.
@@ -17,7 +17,7 @@ Quella nell’aula verde del Politecnico di Torino è l’avanguardia dell’uma
 Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazza al suo fianco si è addormentata. Così. Ha chiuso il portatile, incrociato le braccia sul tavolo, e ci ha sprofondato la fronte in mezzo. Quello a sinistra di lei impreca. Non dice nulla ma uno che lo sta guardando può dirlo osservando i suoi occhi roteare con furia e le sue labbra stringersi, probabilmente per un esercizio che sta svolgendo da mezz’ora ma continua a risultare errato, con una piccolissima discrepanza nella radice. Dietro sta un cinese che se fosse in qualunque altro posto indosserebbe una mascherina e verrebbe guardato un po’ male, ora. Nell’aula verde, però, sono tutti troppo impegnati a superare gli esami per pensare di poterlo guardare storto. Più in là una ragazza sta guardando un video su YoTube, beh, una pausa concediamogliela. Un tipo decisamente nerd, dall’altra parte del tavolo, con un accento napoletano scambia alcune parole un po’ in francese, un po’ in inglese con un negretto dal volto ingenuo che non si è mai tolto quel cappellino con cui è entrato questa mattina alle sette.
 
 <figure>
-	{% img image, 'l’aula verde', 'u-photo' %}
+	<img src='{{ image }}' alt='L’aula verde' class='u-photo'>
 	<figcaption>pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ else {
 
 Poi uno va a fare la pipì. Probabilmente, della sua giornata tipo in aula studio, che comincia alle 7:30 per assicurarsi il posto quello bello e finisce alle 19:30 con un numero di neuroni attivi a malapena sufficiente per portarsi a casa intero, il momento più rilassante. Scende le scale e va nel bagno. Si concede un lavaggio di mani lungo e con abbondante sapone. Per viziarsi proprio e concedersi una pausa di qualità, uno schiaccia due volte il pulsante dell’asciuga mani, lasciandosi coccolare dal calore rassicurante del suo unico vero consolatore in tutto il Politecnico. Successivamente, risale le scale e se proprio gli va di culo (potevo dire “se gli va bene”. La parolaccia l’ho messa per te, nonna. Un bacio) incontra uno o due arabi che lo salutano sorridendo, altrimenti si trascina nuovamente in aula verde per tornare a studiare.
 
-Se scoppiasse una qualunque catastrofe e fossero tutti costretti a rimanere bloccati ed isolati lì, uno è sicuro che potrebbe sopravvivere almeno un anno in tutta pace. A giudicare dalle dimensioni delle macchinette, i viveri sarebbero sufficienti. Al resto penserebbero i cervelli dell’aula verde e dove non sarebbero in grado di arrivare, potrebbero occuparsene le braccia di quelli che se usciti dall’aula verde non fanno un salto in palestra, potrebbero andare in crisi d’astinenza. 
+Se scoppiasse una qualunque catastrofe e fossero tutti costretti a rimanere bloccati ed isolati lì, uno è sicuro che potrebbe sopravvivere almeno un anno in tutta pace. A giudicare dalle dimensioni delle macchinette, i viveri sarebbero sufficienti. Al resto penserebbero i cervelli dell’aula verde e dove non sarebbero in grado di arrivare, potrebbero occuparsene le braccia di quelli che se usciti dall’aula verde non fanno un salto in palestra, potrebbero andare in crisi d’astinenza.
 
 Insomma.
 
@@ -67,7 +67,7 @@ C’è bisogno accada molto peggio perché due ingegneri sconosciuti si parlino.
 ### Alcune note
 
 - Sono molto migliorato, con le parentesi! Che gioia, sono molte meno e più brevi! La seconda gioia più bella di oggi dopo l'asciuga mani.
-- Su Spotify ho aggiunto alcune playlist di genere: [colonne sonore](https://open.spotify.com/playlist/3qDRvzxctHpIJHkQkfh4iw 'Playlist “Soundtracks Xplosion„ su Spotify'), [classica](https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 'Playlist “Classical Xplosion„ su Spotify'), [jazz](https://open.spotify.com/playlist/5RLKmuPGMLXNEYjsiX1jcQ 'Playlist “Jazz Xplosion„ su Spotify') (ancora un po' scarna) e poi [**È USCITO L’ALBUM DEI GREEN DAY**](https://youtu.be/18EmOXEsmlw).
+- Su Spotify ho aggiunto alcune playlist di genere: [colonne sonore](https://open.spotify.com/playlist/3qDRvzxctHpIJHkQkfh4iw 'Playlist “Soundtracks Xplosion„ su Spotify'), [classica](https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 'Playlist “Classical Xplosion„ su Spotify'), [jazz](https://open.spotify.com/playlist/5RLKmuPGMLXNEYjsiX1jcQ 'Playlist “Jazz Xplosion„ su Spotify') (ancora un po' scarna) e poi [**È USCITO L’ALBUM DEI GREEN DAY**](https://youtube-nocookie.com/embed/18EmOXEsmlw).
 - Sto preparando un articolo di quelli seri, che per scriverli ci si mette un po' e sono anche dettagliati e precisi. Riguarda la tecnologia e come senza rendercene conto regaliamo la nostra identità digitale in cambio di servizi gratuiti che salvano ogni nostra azione, in particolare Google.
 - Dall'ultima volta che ho scritto è passato meno tempo della media. Mi dispiace. Scusate prometto che cerco di essere meno assillante e più cose che scrivo tenerle per me senza pubblicarle.
 

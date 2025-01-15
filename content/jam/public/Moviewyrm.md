@@ -5,8 +5,7 @@ tags:
   - help
   - idea
   - geek/dev
-description: |
-  A concept for an IMDb/TMDb alternative, a fork of [Bookwyrm](https:"//joinbookwyrm.com 'Bookwyrm') made for movies."
+description: 'A concept for an IMDb/TMDb alternative, a fork of [Bookwyrm](https://joinbookwyrm.com "Bookwyrm") made for movies.'
 toc: false
 ---
 <cite>**Moviewyrm**</cite> is {{ description }}

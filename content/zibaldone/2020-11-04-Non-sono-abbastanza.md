@@ -1,7 +1,7 @@
 ---
 title: Non sono abbastanza
 date: 2020-11-04
-image: /2020-11-04-non-sono-abbastanza.jpg
+image: /assets/2020-11-04-non-sono-abbastanza.jpg
 tags: zen
 ---
 Sono agitato.
@@ -16,7 +16,7 @@ Il mondo è tanto, io non sono abbastanza.
 
 Vorrei { segue solipsistico flusso di coscienza. Se voleste saltarlo, capirei. }
 
-poter studiare senza interrompermi ogni istante perché un’idea di [David Hume](https://www.treccani.it/enciclopedia/david-hume) mi ricorda quella utilizzata da [Pippo Civati](https://www.treccani.it/enciclopedia/pippo-civati) nell’ultimo post sul [suo blog](https://www.ciwati.it), o perché non riesco a trattenermi dal confrontare le dinamiche colonialiste che hanno reso il Regno Unito così potente con il fenomeno opposto dell’uscita dall’Unione Europea, che lo sta trasicnando verso il fondo. E pensando a *Brexit* non riesco a non pensare al grande immenso subdolo problema di cui è sintomo: [la manipolazione politica attraverso i Social Media](https://www.ted.com/talks/carole_cadwalladr_facebook_s_role_in_brexit_and_the_threat_to_democracy). Ragionando sui Social Media, inevitabilmente finisco per leggere [qualche articolo sui casini dei colossi monopolistici del web](https://udm.branchable.com/tags/Internet_Feudalism/); dopo averlo terminato (sempre che non mi sia interrotto a metà per una suggestione che non potevo permettermi di tenere a mente fino a fine lettura), mi catapulto a cercare delle [alternative](https://alternativeto.net) [etiche](https://ethical.net) ai venefici [software proprietari](https://it.wikipedia.org/wiki/Software_proprietario) che popolano silenziosamente la nostra quotidianità. Allora automaticamente mi perdo nella ricerca e scoperta su GitHub di [favolosi e geniali tool](https://github.com/xplosionmind?tab=stars) per avere una più [libera e aperta](/internet-freedom) esperienza online. Però porca puzzola dando uno sguardo all’orologio mi rendo conto che sono trascorse decine di decine di minuti fondamentali che, essenzialmente, sono stati rubati allo studio. È quasi ora di pranzo: mangio sconsolatamente ripromettendomi che nel pomeriggio sarò più “[produttivo](https://nymag.com/strategist/article/best-productivity-books.html)”. Dopo aver lavato i piatti penso che prima di studiare sarebbe giusto leggere [qualcosa](https://zenhabits.net/unoptimizing/) su questa famigerata, tanto celebrata e onnipresente “produttività”. Molto produttivamente, finisco le mie ricerche dopo almeno un’ora di girovagare e letture online, finendo per chiedermi se accidenti non sia il caso di salvare questi articoli per dopo. Salvo uno o due o tre o dieci articoli interessanti su [Pocket](https://getpocket.com); mi chiedo però: è questo il metodo più efficace per [organizzare la conoscenza](/knowledge)? Non so. Altri innumerevoli giri di lancette dopo, sto sistemando un problema nel codice di questo sito e mannaggia però ci sono [un sacco di altre cose che dovrei sistemare](/development#roadmap), ma è tardi! Un ultimo, disperato tentativo può essere una mezz’ora di corsa catartica sul lungomare. Le mie cuffiette sono rotte, vado senza musica: ascolto il mio respiro, mi concentro sull’aria che entra ed esce dai miei polmoni, il movimento del mio petto e il ritmo soave delle mie falcate. Forse sono più tranquillo. Doccia. Stasera ho una riunione dell’associazione belin non è possibile che in una settimana non sia riuscito a preparare nulla porca paletta non ci posso credere. Scrivo l’ordine del giorno in dieci minuti. Videochiamata. Sono troppo distrutto non ce la faccio a leggere. Almeno una poesia di Gozzano, dai. E poi buio, che si sposa con l’incapacità di dormire dovuta al pensare come domani potrebbe essere una giornata migliore e a come fare tutte le cose bene. Mi sveglio e faccio [l’unica cosa che ho imparato in cinque anni di educazione fisica](https://it.wikipedia.org/wiki/Surya_Namaskara), fiducioso che sarà una giornata migliore.
+poter studiare senza interrompermi ogni istante perché un’idea di [David Hume](https://www.treccani.it/enciclopedia/david-hume) mi ricorda quella utilizzata da [Pippo Civati](https://www.treccani.it/enciclopedia/pippo-civati) nell’ultimo post sul [suo blog](https://www.ciwati.it), o perché non riesco a trattenermi dal confrontare le dinamiche colonialiste che hanno reso il Regno Unito così potente con il fenomeno opposto dell’uscita dall’Unione Europea, che lo sta trasicnando verso il fondo. E pensando a *Brexit* non riesco a non pensare al grande immenso subdolo problema di cui è sintomo: [la manipolazione politica attraverso i Social Media](https://www.ted.com/talks/carole_cadwalladr_facebook_s_role_in_brexit_and_the_threat_to_democracy). Ragionando sui Social Media, inevitabilmente finisco per leggere [qualche articolo sui casini dei colossi monopolistici del web](http://udm.branchable.com/tags/Internet_Feudalism/); dopo averlo terminato (sempre che non mi sia interrotto a metà per una suggestione che non potevo permettermi di tenere a mente fino a fine lettura), mi catapulto a cercare delle [alternative](https://alternativeto.net) [etiche](https://ethical.net) ai venefici [software proprietari](https://it.wikipedia.org/wiki/Software_proprietario) che popolano silenziosamente la nostra quotidianità. Allora automaticamente mi perdo nella ricerca e scoperta su GitHub di [favolosi e geniali tool](https://github.com/xplosionmind?tab=stars) per avere una più [libera e aperta](/internet-freedom) esperienza online. Però porca puzzola dando uno sguardo all’orologio mi rendo conto che sono trascorse decine di decine di minuti fondamentali che, essenzialmente, sono stati rubati allo studio. È quasi ora di pranzo: mangio sconsolatamente ripromettendomi che nel pomeriggio sarò più “[produttivo](https://nymag.com/strategist/article/best-productivity-books.html)”. Dopo aver lavato i piatti penso che prima di studiare sarebbe giusto leggere [qualcosa](https://zenhabits.net/unoptimizing/) su questa famigerata, tanto celebrata e onnipresente “produttività”. Molto produttivamente, finisco le mie ricerche dopo almeno un’ora di girovagare e letture online, finendo per chiedermi se accidenti non sia il caso di salvare questi articoli per dopo. Salvo uno o due o tre o dieci articoli interessanti su [Pocket](https://getpocket.com); mi chiedo però: è questo il metodo più efficace per [organizzare la conoscenza](/knowledge)? Non so. Altri innumerevoli giri di lancette dopo, sto sistemando un problema nel codice di questo sito e mannaggia però ci sono [un sacco di altre cose che dovrei sistemare](/development#roadmap), ma è tardi! Un ultimo, disperato tentativo può essere una mezz’ora di corsa catartica sul lungomare. Le mie cuffiette sono rotte, vado senza musica: ascolto il mio respiro, mi concentro sull’aria che entra ed esce dai miei polmoni, il movimento del mio petto e il ritmo soave delle mie falcate. Forse sono più tranquillo. Doccia. Stasera ho una riunione dell’associazione belin non è possibile che in una settimana non sia riuscito a preparare nulla porca paletta non ci posso credere. Scrivo l’ordine del giorno in dieci minuti. Videochiamata. Sono troppo distrutto non ce la faccio a leggere. Almeno una poesia di Gozzano, dai. E poi buio, che si sposa con l’incapacità di dormire dovuta al pensare come domani potrebbe essere una giornata migliore e a come fare tutte le cose bene. Mi sveglio e faccio [l’unica cosa che ho imparato in cinque anni di educazione fisica](https://it.wikipedia.org/wiki/Surya_Namaskara), fiducioso che sarà una giornata migliore.
 
 Invece, rimango intrappolato in questo [loop](https://www.yewtu.be/watch?v=RDNVheFtZKc) (lo so lo so mi lamento delle distrazioni e poi riempio di link. Se ne volete cliccare solo uno, è sicuramente questo[^1]) infernale che mi fa innamorare della bellezza e delle scoperte e di quante cose pazzesche favolose sbalorditive esistono sul nostro pianeta e nella mia vita, ma tutto questo mi si ritorce contro e diventa come una [freccia ricercante](https://golarion.altervista.org/wiki/Armi_Magiche#Ricercante) dalla quale non riesco a fuggire.
 
@@ -26,12 +26,12 @@ Sono troppo piccolo, sono spaventato dall’infinità di conoscenza ed esperienz
 
 Né [il determinismo](https://www.treccani.it/enciclopedia/determinismo) né [l’occasionalismo](https://www.treccani.it/enciclopedia/occasionalismo/) né [il mio amato Leibnitz](https://www.treccani.it/enciclopedia/gottfried-wilhelm-von-leibniz) sanno salvarmi, in questo caso.
 
-Mi trovo allora a camminare avanti e indietro per la casa con il mio taccuino in mano scrivendo febbrilmente di meta-conoscenza: la conoscenza della conoscenza. Succube di questa irrequietezza non riesco a liberarmi dell’ansia di infinito e perdo tempo a preoccuparmi di stare perdendo tempo. [Come dice Edipo](https://youtu.be/m0XJianXNPU):
+Mi trovo allora a camminare avanti e indietro per la casa con il mio taccuino in mano scrivendo febbrilmente di meta-conoscenza: la conoscenza della conoscenza. Succube di questa irrequietezza non riesco a liberarmi dell’ansia di infinito e perdo tempo a preoccuparmi di stare perdendo tempo. [Come dice Edipo](https://youtube-nocookie.com/embed/m0XJianXNPU):
 
-> che la notte la perdo   
-> a pensar che di giorno   
-> sarei molto più bello   
-> se sognassi di più   
+> che la notte la perdo
+> a pensar che di giorno
+> sarei molto più bello
+> se sognassi di più
 
 e poi?
 
@@ -49,7 +49,7 @@ Nevertheless, per usare una similitudine poco bella in questo periodo: come per 
 - le persone belle (tutti i miei amici, unici e insostituibili)
     - ~~i loro abbracci~~ (rimandati causa COVID)
     - le chiacchierate con loro \|\| le lunghe telefonate con loro
-    - guardarli negli occhi e [dire loro quanto gli si vuole bene](https://youtu.be/dDW6FYdIoYE?t=2388)
+    - guardarli negli occhi e [dire loro quanto gli si vuole bene](https://youtube-nocookie.com/embed/dDW6FYdIoYE?t=2388)
 - la più completa e rigorosa **assenza di caffeina**
 - correre senza musica
 - scrivere
@@ -70,29 +70,27 @@ Mi dedico queste parole:
 
 https://youtu.be/o4FS5Qi6HF0
 
-<br>
-
-> Mi spiace mio caro intelletto   
-> vattene a letto e dormici su   
-> che forse il tuo mondo perfetto   
-> non è perfetto come dici tu   
+> Mi spiace mio caro intelletto
+> vattene a letto e dormici su
+> che forse il tuo mondo perfetto
+> non è perfetto come dici tu
 >
-> Scusa mio caro cervello,   
-> sei come un fratello,   
-> ma adesso anche tu   
-> levami questo fardello   
+> Scusa mio caro cervello,
+> sei come un fratello,
+> ma adesso anche tu
+> levami questo fardello
 > che voglio provare a volare lassù
 >
-> milioni di libri non servono a niente   
-> se servono solo a nutrire una mente che mente   
-> scusa mia cara ragione,   
-> passerò per coglione,   
-> ma è meglio così   
-> forse in virtù del tuo nome   
-> vuoi avere ragione   
-> ma stammi a sentir…   
+> milioni di libri non servono a niente
+> se servono solo a nutrire una mente che mente
+> scusa mia cara ragione,
+> passerò per coglione,
+> ma è meglio così
+> forse in virtù del tuo nome
+> vuoi avere ragione
+> ma stammi a sentir…
 >
-> Assiomi e teoremi non valgono a niente   
+> Assiomi e teoremi non valgono a niente
 > se l’occhio non vede e il cuore non sente
 
 ---

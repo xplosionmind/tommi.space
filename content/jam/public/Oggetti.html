@@ -7,8 +7,8 @@ tags:
 lang: it
 toc: false
 main: true
-layout: default.html
-image: /oggetti.webp
+layout: wrapper.liquid
+image: /assets/oggetti.webp
 description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
 aliases:
   - Compagni di viaggio
@@ -18,26 +18,28 @@ redirect_from: [/things/,/compagni-di-viaggio/,/inventario/]
 todo:
   - finish refactoring, by moving each thing in its own page
 ---
-<div class='row'><div class='one column'><article>{% renderTemplate 'md' %}
-Sembra esagerato, ma sono così affezionato loro che alcuni fra gli oggetti che uso quotidianamente sono diventati come dei compagni nel viaggio della mia vita.</p>
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundRazzmatazz'>{{ title }}</h1>
+	</hgroup>
+	<article class='e-content'>{% renderTemplate "md" %}
+Sembra esagerato, ma sono così affezionato loro che alcuni fra gli oggetti che uso quotidianamente sono diventati come dei compagni nel viaggio della mia vita.
 
 Ciascuno di essi ha una storia e talvolta diverse generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
-	
-Chi mi conosce sa quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
-{% endrenderTemplate %}</div></div></article>
 
-<div class='row'>
-	<div class='large grid'>
+Chi mi conosce sa quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
+{% endrenderTemplate %}
+</article>
+
+	<div class='entries-list subgrid'>
 		{% for thing in collections.things %}
-	 		<a href='{{ thing.url }}' title='{{ thing.data.title }}' lang='{{ thing.data.lang }}' hreflang='{{ thing.data.lang }}'>
-				<div class='box'>
-					{% if thing.data.image != '/tommi.space.wip.webp' %}{% img thing.data.image, thing.data.title %}{% endif %}
-					<h3>{{ thing.data.title }}</h3>
-					{% if thing.data.description %}
-						<p>{{ thing.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
-					{% endif %}
-				</div>
+	 		<a div class='one-third box' href='{{ thing.url }}' title='{{ thing.data.title }}' lang='{{ thing.data.lang }}' hreflang='{{ thing.data.lang }}'>
+				{% if thing.data.image %}<img src='{{ thing.data.image }}' alt='{{ thing.data.title }}'>{% endif %}
+				<h2>{{ thing.data.title }}</h2>
+				{% if thing.data.description %}
+					<p>{{ thing.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
+				{% endif %}
 			</a>
 		{% endfor %}
 	</div>
-</div>
+</main>

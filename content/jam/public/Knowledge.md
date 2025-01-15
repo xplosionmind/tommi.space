@@ -1,10 +1,13 @@
 ---
 date: 2020-05-07T02:00:00+02:00
 updated: 2022-07-17T19:03:44+02:00
-tags: topic, knowledge
-aliases: Resources, Learning Resources
-description: |
-  An eternally incomplete yet continuously growing collection of the sources of my knowledge
+tags:
+  - topic
+  - knowledge
+aliases:
+  - Learning Resources
+  - Resources
+description: An eternally incomplete yet continuously growing collection of the sources of my knowledge
 redirect_from: [/learning-resources/,/resources/]
 main: true
 ---
@@ -14,11 +17,11 @@ Almost every single portion of this website is a more or less organized collecti
 
 Managing knowledge, as well as picturing it, is a very complex, subjective and oversimplified matter. Productivity and effectiveness are the anthems with which the matter of personal and non-personal knowledge management end up being addressed with toxic capitalistic ineffective solutions. Some thoughts about this below.
 
-![[Knowledge management]]
+[Knowledge management](Knowledge%20management.md)
 
 ## University
 
-On this website there is very little concerning what I study for university and my notes, that I am forced to keep private for copyright reasons. I spent a lot of time and efforts to develop [pise-notes.club](https://web.archive.org/web/20210521084059/https://pise-notes.club/ 'Snapshot of the website'), a website where I collected all of my university notes, but the [PISE](https://unive.it/pise 'Philosophy, International Studies and Economics') head professor made me take it down.
+On this website there is very little concerning what I study for university and my notes, that I am forced to keep private for copyright reasons. I spent a lot of time and efforts to develop [pise-notes.club](https://web.archive.org/web/20210521084059/https://web.archive.org/web/20210521084059/https://pise-notes.club/ 'Snapshot of the website'), a website where I collected all of my university notes, but the [PISE](https://unive.it/pise 'Philosophy, International Studies and Economics') head professor made me take it down.
 
 ## Geek
 
@@ -48,7 +51,6 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia
 - [SoloLearn](https://www.sololearn.com/ 'SoloLearn')
 - [Dataninja School](https://school.dataninja.it/)
-- [Suggestions by Victoria Drake](https://victoria.dev/blog/top-free-resources-for-developing-coding-superpowers/ 'Top Free resources for Developing Coding Superpowers - victoria.dev')
 - [Project-based learning](https://github.com/tuvtran/project-based-learning 'project-based-learning on GitHub')
 - [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners 'Web Development for Beginners on GitHub') by Microsoft
 - [SSH tunnels](https://robotmoon.com/ssh-tunnels/ 'A visual guide to SSH tunnels'), a visual guide to SSH tunnels
@@ -61,15 +63,10 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Awesome Computer Sciences courses](https://github.com/prakhar1989/awesome-courses 'awesome-courses on GitHub')
 - [Learn to program](https://github.com/karlhorky/learn-to-program 'learn-to-program on GitHub'), a curated set of high quality educational resources.
 
-![[Vim#Resources]]
-
-![[JavaScript#Resources]]
-
-![[Python#Resources]]
-
-![[Bash#Resources]]
-
-![[LaTeX#Resources]]
+- [Vim resources](Vim.md#Resources)
+- [JavaScript resources](JavaScript.md#Resources)
+- [Python resources](Python.md#Resources)
+- [LaTeX resources](LaTeX.md#Resources)
 
 ### C
 
@@ -80,11 +77,11 @@ Where and how to learn about Computer Sciences topics and anything technology re
 
 ### Open Street Map
 
-![[OpenStreetMap#Resources|OSM]]
+[OpenStreetMap resources](OpenStreetMap.md#Resources)
 
 ## git
 
-![[git#Resources]]
+[git resources](git.md#Resources)
 
 ## Culture
 
@@ -123,11 +120,10 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Academic Torrents](https://academictorrents.com/ 'Academic Torrents')
 - [Textbook Nova](https://textbooknova.com 'Textbook Nova')
 - [Manybooks](http://www.manybooks.net 'Manybooks')
-- [Online Self Education](https://onlineselfeducation.com/) (registrations number is limited and access is allowed only to logged users)
 - [Online Library of Liberty](http://oll.libertyfund.org)
 - [AvaxHome](https://avxhm.is)
 - [Books Depository](https://www.bookdepository.com/publishers/T-N-T-Books)
 
-![[Design#Resources]]
+[Design resources](Design.md#Resources)
 
-![[Data Sources]]
+[Data Sources](Data%20Sources.md)

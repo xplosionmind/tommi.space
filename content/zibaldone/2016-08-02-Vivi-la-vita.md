@@ -1,8 +1,8 @@
 ---
 title: Vivi la vita
 date: 2016-08-02
-tags: archive/Radioimmaginaria
-image: /2017-01-19-come-cambiare-il-mondo.jpg
+tags: Radioimmaginaria
+image: /assets/2017-01-19-come-cambiare-il-mondo.jpg
 ---
 Vivi la vita. Quante volte si sente questa frase! Quante volte l’adrenalina, la carica dei nostri 16 anni ci fa dire <q>si vive una volta sola</q>. Vivere non vuol dire nulla, da solo non comunica emozioni.
 

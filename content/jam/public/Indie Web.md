@@ -11,7 +11,6 @@ description: Connecting the web through independent websites
 redirect_from:
   - /webmentions/
   - /indiewebify/
-toc: false
 ---
 <div>
 	I am still trying to figure out what the Indie Web actually is, how it works, and how to <i>make</i> it work. In the meanwhile, I am collecting below useful learning resources about it.
@@ -27,7 +26,7 @@ toc: false
 - [<cite>Meet the Hackers Who Want to Jailbreak the Internet</cite>](https://www.wired.com/2013/08/indie-web/ 'Meet the Hackers Who Want to Jailbreak the Internet - WIRED'), by [Klint Finley](https://www.wired.com/author/klint-finley) on [WIRED](https://www.wired.com/ 'WIRED')
 - [*Make your own independent website*](https://victoria.dev/blog/make-your-own-independent-website/ 'Make your own independent website'), by [Victoria Drake](https://victoria.dev 'Victoria Drake')
 - [IndieWeb Thoughts: POSSE](https://notebook.wesleyac.com/indieweb-thoughts-posse/ 'IndieWeb Thoughts: POSSE'), by [Wesley Aptekar-Cassels](https://wesleyac.com 'Wesley’s personal website')
-- [Microblogging](https://paulrobertlloyd.com/2018/01/microblogging/ 'Microblogging by Paul Robert Lloyd') by [Paul Robert Lloyd](https://paulrobertlloyd.com 'Paul Robert Lloyd')
+- [Microblogging](https://paulrobertlloyd.com/2018/023/a1/microblogging/ 'Microblogging by Paul Robert Lloyd') by [Paul Robert Lloyd](https://paulrobertlloyd.com 'Paul Robert Lloyd')
 - [Webmention.rocks](https://webmention.rocks 'Webmention.rocks')
 
 ## Implementation
@@ -42,5 +41,5 @@ toc: false
 ## People
 
 - [Jamie Tanna](https://www.jvt.me 'Jamie Tanna')
-- [Max Böck](https://mxb.dev/blog/ ‘Max Böck’s blog’)
+- [Max Böck](https://mxb.dev/blog/ 'Max Böck’s blog')
 - [Adhoc Systems](https://adhoc.systems/ 'Adhoc Systems')

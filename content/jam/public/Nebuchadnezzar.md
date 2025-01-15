@@ -1,13 +1,13 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2024-05-10T15:37:50+02:00
+updated: 2024-08-20T14:27:48+02:00
 aliases:
   - Xplosion Server
   - Neb
   - Server
 tags:
   - todo
-  - geek/neb
+  - geek/sysad
 description: Information and insights concerning the configuration and maintenance of Tommi’s server
 permalink: /neb/
 redirect_from:
@@ -21,7 +21,7 @@ The name of this server is inspired by [the homonymous ship](https://en.wikipedi
 
 ## Environmental impact
 
-As tommi.space is hosted on Nebuchadnezzar, any point in [[The environmental impact of this website|the page about the environmental impact of this website]] is valid for the server, too.
+As tommi.space is hosted on Nebuchadnezzar, any point in [the page about the environmental impact of this website](The%20environmental%20impact%20of%20this%20website.md) is valid for the server, too.
 
 ## Customizations
 
@@ -29,6 +29,7 @@ From this point on, this page collects various useful information about system a
 
 - Custom CSS
 - Changing the default shell to zsh requires [a different procedure](https://forum.yunohost.org/t/tuto-comment-installer-oh-my-zsh-how-to-install-oh-my-zsh '[Tuto] Comment installer Oh My Zsh / How to install Oh My Zsh | YunoHost Forum').
+- [Fix Contabo repository problems](https://forum.yunohost.org/t/solved-error-500-put-yunohost-api-update-all-repository-problems-in-contabo/29453/2 'Solved - Error 500. "PUT" /yunohost/api/update/all - Repository problems in Contabo? - #2 by leuros88 - Support - YunoHost Forum'); NOTE: the repository sources’ URLs change in Debian 12 (Bookworm), see the [`sources.list` example in Debian Wiki](https://wiki.debian.org/SourcesList#Example_sources.list)
 
 ## Nginx
 
@@ -44,22 +45,20 @@ sudo systemctl restart nginx
 - [Custom 404 page](https://tecmint.com/create-custom-nginx-error-page 'How to Create Custom 404 Error Page in NGINX - Tecmint')
 - [Cache-Control Headers](https://howtogeek.com/devops/how-to-configure-cache-control-headers-in-nginx 'How to Configure Cache-Control Headers in NGINX')
 
-### gzip compression
+### Brotli compression
 
-- [Compression and Decompression | NGINX Documentation](https://docs.nginx.com/nginx/admin-guide/web-server/compression/)
-- [Module ngx\_http\_gzip\_module](https://nginx.org/en/docs/http/ngx_http_gzip_module.html)
-- [Configure gzip compression](https://techrepublic.com/article/how-to-configure-gzip-compression-with-nginx 'How to configure gzip compression with NGINX | TechRepublic')
+[It was a mess enabling Brotli compression in Debian/YunoHost 11](https://forum.yunohost.org/t/using-brotli-compression-in-nginx-especially-for-my-webapp/29867 'Using brotli compression in NGINX (especially for my\_webapp) - YunoHost Forum'). In Debian/YunoHost 12 (Bookworm) it is much easier, I followed [this guide](https://camillehdl.dev/nginx-brotli-debian/ 'Use Brotli compression with Nginx on Debian | Camille Hodoul') to do it.
 
 ## Backup
 
-![[YunoHost backups on Cubbit DS3 object storage using rclone]]
+[YunoHost backups on Cubbit DS3 object storage using rclone](YunoHost%20backups%20on%20Cubbit%20DS3%20object%20storage%20using%20rclone.md)
 
 ## Nextcloud
 
-Using [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html '“Using the occ command” in Nextcloud Docs'): `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]`.
+Using [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html '“Using the occ command” in Nextcloud Docs'): `sudo -u nextcloud php8.3 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]`.
 
-## To do
+## Pixelfed
 
-- Set global and/or specific CORS Origin permissions
-- `sudo -u nextcloud php8.2 --define apc.enable_cli=1 /var/www/nextcloud/occ stt_whisper:download-models medium`
-- Nextcloud changed config files: `/var/www/nextcloud/config/config.php`, old: `/var/cache/yunohost/appconfbackup//var/www/nextcloud/config/config.php.backup.11142`
+- Favicon
+	- `/var/www/pixelfed/public/favicon.ico`
+	- `/var/www/pixelfed/public/img/favicon.png`

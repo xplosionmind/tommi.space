@@ -6,8 +6,9 @@ tags:
   - zen
   - log
 location: CFZ
+toc: false
 ---
-Up to this morning I was completely lost, confused, and bummed up by my total inability of figuring out my [[Thesis]]: I knew the general topics I intended to address, but I was totally clueless about the framework within which I should have placed all of this stuff.
+Up to this morning I was completely lost, confused, and bummed up by my total inability of figuring out my [Thesis](Computer%20Sciences%20Are%20Social%20Sciences.md): I knew the general topics I intended to address, but I was totally clueless about the framework within which I should have placed all of this stuff.
 
 This morning I woke up with a slight but persistent and itchy headache, typical of a light kindahangover. Yet, I grabbed my marker and started to fill the poster-sized blank paper I proudly bought for this purpose.
 

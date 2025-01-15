@@ -1,0 +1,128 @@
+---
+title: Tuffo in tommi.space
+permalink: /tuffo/
+redirect-from: ['/it/home/', '/it/bio/', '/it/']
+lang: it
+ref: home
+eleventyImport:
+  collections: ['zibaldone', 'jam', 'poetry', 'sconnesso']
+sitemap:
+  priority: 0.9
+---
+<main id='main'>
+	<article class='middle center background box'>
+		<p>Sei appena entrato in un confuso spazio fluttuante nello sterminato Universo del World Wide Web 🕸️. Questo luogo è 🚨 <strong>un perpetuo cantiere</strong> 🏗️ popolato da pensieri 💭, visioni 😵‍💫, domande ⁉️, pseudo-risposte 🤔, pseudo-intuizioni 💡, pseudo-podcast 🎙️, contraddizioni 💢, rappresentazioni di caos 💥 e sconclusionati tentativi di riordinarlo.</p>
+		<p>Benvenuto nella <u>rappresentazione virtuale della testa di Tommi</u>.</p>
+		<p>Buon divertimento.</p>
+	</article>
+
+	<article class='h-card yellow wide box subgrid' id='about'>
+		<figure class='span-2'>
+			<img src=/assets/profile.webp alt='Tommi on stage conducting a live show' loading=eager>
+		</figure>
+		<div class='span-4'>
+			<h2 class='title'>Chi è questo tipo</h2>
+			<p>Sono <span class='p-name'>Tommi</span>,</p>
+			<p>è possibile vedermi campeggiare sul pianeta Terra, ma sono perennemente in viaggio in una dimensione parallela dominata da <strong class='p-category p-label'>curiosità</strong> e <strong class='p-category p-label'>entusiasmo</strong>, ma anche costellata di <strong class='p-category p-label'>ansia</strong> e <strong class='p-category p-label'>confusione</strong>. L’essenza della mia personalità è la <cite lang='en'><a href='/tomminess/'>Tomminess</a></cite>.</p>
+			<p>So che non vuol dire molto, ma sto cercando di imparare a presentarmi senza che sia <em>ciò che faccio</em> a definire <em>chi sono</em>. Però, se vogliamo parlare di cose, condivido le parole di <a href='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz' title='Leibniz su Wikipedia'>Leibniz</a>: <q cite='https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz'>nella mia vita ho cominciato tutto e concluso nulla</q>.</p>
+			<div class='flex'>
+				<a class='purple button u-url' href='/ora/' title='Cosa sto facendo ora'>Ora</a>
+				<a lang='en' class='red button' href='https://keyoxide.org/{{ site.author.email }}' hreflang='en' title='Tommi’s digital identity verification'>Digital ID</a>
+				<a class='blue button u-email' href='mailto:{{ site.author.email | obfuscateEmail }}' rel='me' title='Inviami un’email'>Scrivimi</a>
+			</div>
+			<p><small>Prego di usare <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>la mia chiave PGP</a></small>.</p>
+		</div>
+	</article>
+
+	<article id='meet' class='half blue box'>
+		<h2>Incontriamoci!</h2>
+		<p>Sono sempre molto felice di conoscere persone nuove, soprattutto se trasformando un contatto virtuale in un incontro. In questo periodo sono di base a <strong>{{ site.author.based }}</strong>, non esitare a <a href='{{ site.author.meet }}' title='Pianifica un appuntamento con Tommi' hreflang='en'>progammare un incontro</a> se fossi nei paraggi, o anche online!</p>
+		{% render 'upcoming.liquid', lang: lang, activities: activities %}
+	</article>
+
+	<article style='background: mediumspringgreen; color: black' class='half box'>
+		<h2>Un laboratorio su Internet!</h2>
+		<p>Ho creato <strong>🪡 <cite>La Nostra Rete</cite> 🧶</strong>, un <strong>viaggio interattivo</strong> nella <strong>storia di Internet</strong> proponendone <strong>reinvenzione collettiva</strong> partendo da tecnologie decentralizzate e partecipative.</p>
+		<p>Questo laboratorio vuol <strong>mettere in questione</strong> l’essenza dei social network contemporanei, mettendo in luce i limiti problematici dati da centralizzazione, monopolio, e capitalismo della sorveglianza.</p>
+		<div class='flex' style='margin-bottom: var(--space-s)'>
+			<a class='button' style='background: black; color: mediumspringgreen' href='https://ournet.rocks/it/' title='Visita ournet.rocks'>Scopri 👀</a>
+		</div>
+		<figure>
+			<img src='https://ournet.rocks/ournet-sfscon.webp' alt='Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro'>
+		</figure>
+	</article>
+
+	<article id='sconnesso' class='one-third box'>
+		<a href='{{ sconnesso.link }}'>
+			<h2>Il podcast <cite>Sconnesso</cite></h2>
+			<figure>
+				<img src='/assets/sconnesso.webp' alt='Logo Sconnesso'>
+			</figure>
+		</a>
+		<p>{{ sconnesso.description | markdownify }}</p>
+		<div class='flex row'>
+			<a class='button' href='{{ sconnesso.link }}'>Ascolta</a>
+		</div>
+	</article>
+
+	{% for post in collections.zibaldone limit:1 %}
+		<article class='one-third'>
+			<div class='flex'>
+				<h2 style='color: #FFF; margin: 0' class='center wavyBackgroundPurple'>Ultimo articolo</h2>
+			</div>
+			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' style='display: block' class='box {% if post.data.tags contains 'newsletter' %}newsletter{% else %}purple{% endif %}' title='{{ post.data.title }}'>
+				<h3>{{ post.data.title }}</h3>
+				{% if post.data.description %}
+					<p>{{ post.data.description | markdownify | strip_html }}</p>
+				{% endif %}
+				<figure>
+					<img src='{{ post.data.image }}' alt='Immagine di copertina di “{{ post.data.title }}”'>
+				</figure>
+			</a>
+		</article>
+	{% endfor %}
+
+	<article class='one-third razzmatazz border box'>
+		<a href='/marmellata/' title='La Marmellata'>
+			<figure class='transp'>
+				<img src='/assets/jam.webp' alt='Un disegno dell’esplosione della testa di Tommi con una grande confusione che ne esce, il tutto rinchiuso in un vasetto di marmellata'>
+			</figure>
+			<h2 class='title'>La Marmellata</h2>
+		</a>
+		<p>Ci sono cose che scopro e avrei voluto imparare prima, o cose che semplicemente non riesco a non condividere ma che non sono abbastanza corpose per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
+		<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <cite><a href='/marmellata'>La Marmellata</a></cite>.</p>
+		<div class='flex row'>
+			<a class='razzmatazz button' href='/marmellata/'>Assaggia 🥄</a>
+		</div>
+	</article>
+
+	<article id='qsm' class='one-third | red box'>
+		<h2>Non sono sui social</h2>
+			<p>Da marzo 2021 <strong>ho eliminato tutti i miei profili</strong> dai social media <a href=https://linkedin.com/in/tommasomarmo title='Tommaso Marmo su Linkedin'>eccetto Linkedin</a> (per ora, purtroppo è troppo essenziale per lavoro…).</p>
+			<p>Ho creato un sito che raccoglie le diverse ma complementari ragioni che mi hanno portato a questa scelta.</p>
+	<div class='flex row'>
+		<a class='button' href='https://quitsocialmedia.club/it/' title='quitsocialmedia.club home'>Parti da qui</a>
+	</div>
+</article>
+
+	{% render 'webrings.liquid', lang: lang %}
+
+	{% comment %}Blocked by #BUG #130
+	<article id='changelog' class='wide center'>
+		<div class='flex'>
+			<h2 class='wavyBackgroundGreen'>Ultime modifiche</h2>
+		</div>
+		<div class='grid'>
+			{% for entry in collections.lastUpdated limit: 8 %}
+				<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+					<h3>{{ entry.data.title }}</h3>
+					<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.updated %}{% else %}<time class='dt-published' datetime='{{ entry.data.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.date %}{% endif %}</time></p>
+				</a>
+			{% endfor %}
+		</div>
+		<div class='flex'>
+			<a class='green margin button' href='{{ site.changelog }}' title='Modifiche al codice di tommi.space'>Modifiche al codice</a>
+		</div>
+	</article>
+	{% endcomment %}
+</main>

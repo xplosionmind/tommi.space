@@ -13,6 +13,7 @@ description: A wonderfully clever way to manage knowledge and ideas as well as m
 aliases:
   - Digital Garden
   - Wiki
+toc: true
 todo:
   - '[Zettelkasten overreach](https://t.me/c/1158323687/5078)'
 ---
@@ -26,18 +27,18 @@ The problem of Zettlekasten is that there is a worrying risk (at least, for me) 
 
 Either one can find an equilibrium among the two—but it requires very strong self-awareness and intelligence—,or she is better off dropping this knowledge management system.
 
-The most suited—yet exaggerated—example to express my feeling is what happened to [[Aby Warburg]]. Enthusiastic and psyched about his plan to create <cite>[Atlas Mnemosyne](https://warburg.library.cornell.edu/about '“About the Mnemosyne Atlas„ - Warburg Library')</cite>, he got overwhelmed with a tremendous amount of inputs, and [he ended up schizophrenic](https://en.wikipedia.org/wiki/Aby_Warburg#Return_to_Hamburg 'Final moments of Aby Warburg’s life on Wikipedia').
+The most suited—yet exaggerated—example to express my feeling is what happened to [Aby Warburg](Aby%20Warburg.md). Enthusiastic and psyched about his plan to create <cite>[Atlas Mnemosyne](https://warburg.library.cornell.edu/about '“About the Mnemosyne Atlas„ - Warburg Library')</cite>, he got overwhelmed with a tremendous amount of inputs, and [he ended up schizophrenic](https://en.wikipedia.org/wiki/Aby_Warburg#Return_to_Hamburg 'Final moments of Aby Warburg’s life on Wikipedia').
 
 [Zettelkasten overreach](https://t.me/c/1158323687/5078)
 
 ## Resources
 
-- [The Zettelkasten Manifesto](https://youtu.be/c5Tst3-zcWI 'The Zettelkasten Manifesto')
+- [The Zettelkasten Manifesto](https://youtube-nocookie.com/embed/c5Tst3-zcWI 'The Zettelkasten Manifesto')
 - My highlights on [Wtf is a Zettelkasten?](https://via.hypothes.is/https://www.zettlr.com/post/what-is-a-zettelkasten 'What is a Zettelkasten?')
 - [Zettelkasten on Wikipedia](https://en.wikipedia.org/wiki/Zettelkasten 'Zettelkasten on Wikipedia')
 - [The Zettelkasten Philosophy](https://neuron.zettel.page/philosophy.html), based on the principles of [autonomy and atomicity](https://neuron.zettel.page/atomic.html)
 - [Zettelkasten.de](https://zettelkasten.de 'Zettelkasten')
-- [A great explanation video](https://youtu.be/XUltI4v_UU4)
+- [A great explanation video](https://youtube-nocookie.com/embed/XUltI4v_UU4)
 
 ### Articles
 
@@ -48,7 +49,7 @@ The most suited—yet exaggerated—example to express my feeling is what happen
 
 - [Obsidian](https://obsidian.md 'Obsidian'), a fresh, recent, powerful and intriguing Zettlekasten-centered app.
 It’s not open source, there have been a lot of discussions about this, yet it’s arguably the best.
-	- [Zettelkasten with Obsidian, a video](https://youtu.be/hGLVu4ODs0w 'Zettelkasten with Obsidian')
+	- [Zettelkasten with Obsidian, a video](https://youtube-nocookie.com/embed/hGLVu4ODs0w 'Zettelkasten with Obsidian')
 	- [A Zettelkasten about Zettelkasten in Obsidian](https://forum.obsidian.md/t/obsidian-zettelkasten/)
 - [Neuron](https://neuron.zettel.page), a great open-source app to manage Zettelkasten notes from CLI.
 - [Quartz](https://quartz.jzhao.xyz/ 'Quartz official website'), the best implementation of a digital garden I found on the web up to now

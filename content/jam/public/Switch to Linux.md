@@ -11,15 +11,13 @@ redirect_from:
 description: Insights, guides, notes and ideas about my ongoing attempt at fully switching to Linux.
 aliases: Linux
 ---
-Even though [[Linuxplosion]] runs Linux, specifically Ubuntu, 99,9% of my computer time is spent on a MacBook Pro 13' 2019 running, guess what, MacOS.
+Even though [Linuxplosion](Linuxplosion.md) runs Linux, specifically Ubuntu, 99,9% of my computer time is spent on a MacBook Pro 13' 2019 running, guess what, MacOS.
 
 Even though I hate everything about the capitalist premises of the company who owns and develops it, **I love MacOS** and to be honest most of my life *depends* on it. Nevertheless, since I hate proprietary software, especially if coming from a huge ugly corporation like Apple, I hope that the day where I will have the strength drop everything and exclusively use Linux will come soon. I would love to avoid consumerism, capitalism and monopolies as much as possible, without compromising stability, performance and reliability.
 
 For this purpose, I am gathering here resources for when I will be ready.
 
 - [Why I Switched to Arch Linux](https://luxagraf.net/src/why-i-switched-arch-linux 'Why I Switched to Arch Linux'), by Scott Gilbertson on [Luxagraf `/src/`](https://luxagraf.net/src/ '/src/')
-- [A Newbie’s Guide To Wine](https://thekernalblog.github.io/A-Newbie’s-Guide-To-Wine/ 'A Newbie’s Guide To Wine'), by [The Kernal](https://thekernalblog.github.io/about/ 'About The Kernal')
-- [Site Unreachable](https://b00merang.weebly.com/desktop-themes.html)
 
 ## Linux on my MacBook Pro
 
@@ -33,7 +31,7 @@ When my MacBook’s life is getting close to an end, I will start looging for a 
 
 ### ThinkPad
 
-- [Used ThinkPad Buyer's Guide](https://bobble.tech/free-stuff/used-thinkpad-buyers-guide)
+- [Used ThinkPad Buyer's Guide](https://web.archive.org/web/20241128063249/https://bobble.tech/free-stuff/used-thinkpad-buyers-guide)
 - [ThinkWiki](https://thinkwiki.org)
 - [logaze](https://ackerleytng.github.io/logaze) - watching laptops on Lenovo outlet
 - [Reware](https://reware.it)
@@ -50,4 +48,4 @@ Some notes concerning stuff I do on MacOS that I need to find an alternative for
 - [ ] keyboard shortcuts to rearrange windows ([Rectangle](https://rectangleapp.com 'Rectangle official website'))
 - [ ] Automatically switch between light and dark themes, according to the brightness of the environment, using light sensor info ([DarkModeBuddy](https://darkmodebuddy.app 'DarkModeBuddy'))
 - [ ] remember, store and synchronize WiFi passwords
-- [ ] Find alternatives for the [[Apps]] in use
+- [ ] Find alternatives for the apps in use

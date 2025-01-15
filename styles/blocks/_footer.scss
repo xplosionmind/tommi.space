@@ -1,0 +1,52 @@
+@use '../variables' as *;
+
+footer {
+	--primary: var(--yellow);
+	padding: var(--space-l) var(--space-s);
+	color: #EEE;
+	background: #000;
+	align-items: flex-start !important;
+	p {
+		font-size: var(--size--1);
+		margin-left: var(--space-s);
+		line-height: 1.2;
+	}
+	.h-card {
+		margin-top: 1em;
+		max-width: 15rem;
+	}
+}
+
+#Fediverse {
+	line-height: 100%;
+	background: var(--yellow);
+	color: #000;
+}
+
+#Matrix {
+ background: #000;
+}
+
+#Telegram {
+	background: linear-gradient(#1D93D2, #38B0E3);
+}
+
+#Signal {
+	background: #3B45FD;
+}
+
+#feedBtn {
+	color: #FFF;
+	background: linear-gradient(-18deg, #E3702DFF 0%, #EA7D31FF 11%, #F69537FF 35%, #fB9E3AFF 50%, #EA7C31ff 70%, #DE642BFF 89%, #D95B29FF 100%);
+	svg {
+		height: var(--space-s);
+		width: auto;
+	}
+}
+
+#madeby {
+	margin-left: var(--space-s);
+	&:hover #madeby_shadow {
+		display: none;
+	}
+}

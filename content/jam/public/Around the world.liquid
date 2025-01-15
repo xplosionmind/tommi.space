@@ -1,90 +1,73 @@
+---js
+{
+	date: '2020-07-20T02:00:00+02:00',
+	tags: ['places', 'travel'],
+	aliases: ['Places'],
+	permalink: '/places/',
+	redirect_from: ['/around-the-world/'],
+	description: 'Places I love around the world',
+	image: '/places.jpg',
+	main: true,
+	todo: 'Loop through all the notes and posts from each location.',
+	layout: 'wrapper.liquid',
+	ref: 'places',
+	updated: function (data) {
+		return this.places.reduce((latest, item) => {
+			const itemDate = new Date(item.date)
+			return itemDate > latest ? itemDate : latest
+		}, new Date(0)).toISOString()
+	}
+}
 ---
-date: 2020-07-20T02:00:00+02:00
-updated: 2022-09-25T21:21:58+02:00
-tags:
-  - places
-  - travel
-aliases: Places
-permalink: /places/
-redirect_from: [/around-the-world/]
-description: Places I love around the world
-image: https://tommi.space/places.jpg
-main: true
-toc: false
-todo: loop through all the notes and posts from each location
-layout: default.html
-rel: places
----
-<div class='row'>
-	<div class='one column'>
-		<article>
-			{% renderTemplate 'md' %}
-				This page does not merely a lists places I have been to, rather it is an ever growing and evolving record of corners of the world I carry in my heart.
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundRazzmatazz'>Around The World</h1>
+	</hgroup>
+	<article class='e-content'>
+		<p>This page does not merely a lists places I have been to, rather it is an ever growing and evolving record of corners of the world I carry in my heart.</p>
+		<p><cite><a href=https://youtube-nocookie.com/embed/a9eNQZbjpJk title='Red Hot Chili Peppers - Around The World'>Around The World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places that exist on our planet. It resonates perfectly with the spirit of this list.</p>
+		{% renderTemplate 'md' %}https://youtu.be/a9eNQZbjpJk{% endrenderTemplate %}
+		<h2>More</h2>
+		<p>More info on how I manage my location data in the <a href=OpenStreetMap.md>OpenStreetMap page</a>.</p>
+	</article>
 
-				<cite>[Around the World](https://youtube.com/watch?v=a9eNQZbjpJk 'Red Hot Chili Peppers - Around The World')</cite>
-				is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places that exist on our planet. It perfectly
+	<iframe
+		class='wide light'
+		allowfullscreen
+		style='width: 100%; min-height: 50vh; box-shadow: var(--shadow); border-radius: 1.5rem;'
+			src='https://umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'>
+	</iframe>
 
-			{% endrenderTemplate %}
-		</article>
-	</div>
-</div>
-
-<iframe
-	class='dark'
-	allowfullscreen
-	style='width: 100%; height: 30vh'
-	src='https://umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'></iframe>
-
-<div class='large grid'>
-	{% for place in places %}
-		<div class='vertical flex'>
-			<div class='vertical flex box'>
-				{% if place.img != '' %}{% img place.img, place.name %}{% endif %}
-				<h3>{{ place.name }}</h3>
-				{% if place.city != '' %}
-					<h4>{{ place.city }}</h4>
-				{% endif %}
-				{% if place.description %}
-					<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
-				{% endif %}
-				<div class='flex row'>
-					{% if place.plot != '' %}
-						<a
-							class='tiny yellow button'
-							href='{{ place.plot }}'
-							target='_blank'
-							title='What I wrote about {{ place.name }}'>My story</a>
-					{% endif %}
-					{% if place.url != '' %}
-						<a
-							class='tiny red button'
-							href='{{ place.url }}'
-							title='{{ place.name }}’s website'>Website</a>
-					{% endif %}
+<div class='entries-list grid'>
+	{% for place in places reversed %}
+		<div class='little center box'>
+			{% if place.img != '' %}<figure><img src='{{ place.img }}' alt='{{ place.name }}'></figure>{% endif %}
+			<h2>{{ place.name }}</h2>
+			{% if place.city != '' %}
+				<p><strong>{{ place.city }}</strong></p>
+			{% endif %}
+			{% if place.description %}
+				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
+			{% endif %}
+			<div class='flex row'>
+				{% if place.plot != '' %}
 					<a
-						class='tiny green button'
-						href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
-						title='{{ place.name }} on the map'>View on map</a>
-				</div>
+						class='tiny yellow button'
+						href='{{ place.plot }}'
+						title='What I wrote about {{ place.name }}'>The story</a>
+				{% endif %}
+				{% if place.url != '' %}
+					<a
+						class='tiny red button'
+						href='{{ place.url }}'
+						title='{{ place.name }}’s website'>Website</a>
+				{% endif %}
+				<a
+					class='tiny green button'
+					href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
+					title='{{ place.name }} on the map'>View on map</a>
 			</div>
 		</div>
 	{% endfor %}
 </div>
-
-<div class='row'><div class='one column'><article>
-{% renderTemplate 'md' %}
-
-https://youtu.be/a9eNQZbjpJk
-
-## More
-
-More info on how I manage my location data in the [[OpenStreetMap]] page.
-
-### Resources
-
-There are also some very nice non-mainstream online resources to discover non-mainstream places:
-
-- <cite>[The Treasure Map](https://the-treasure-map.herokuapp.com 'The Treasure Map')</cite>
-- <cite>[Atlas Obscura](https://www.atlasobscura.com 'Atlas Obscura')</cite>
-{% endrenderTemplate %}
-</article></div></div>
+</main>

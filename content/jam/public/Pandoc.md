@@ -26,7 +26,7 @@ convert all files in a folder
 for f in *.docx; do pandoc "$f" -f docx -t commonmark --wrap=none -s -o "$f".md; done
 ```
 
-![[Academic writing with Pandoc]]
+[Academic writing with Pandoc](Academic%20writing%20with%20Pandoc.md)
 
 ## To learn
 

@@ -1,0 +1,32 @@
+---
+title: Filosofia dell’Ingegneria
+date: 2020-03-16
+updated: 2020-06-14
+permalink: /filinge/
+lang: it
+ref: filosofia
+primary: var(--green)
+class: filinge
+sitemap:
+  changefreq: never
+---
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundGreen'>{{ title }}</h1>
+	</hgroup>
+
+	<article class='e-content'>
+		<p>Nei primi mesi del 2020, ho seguito il corso di <a href='https://filinge.blogspot.com'>Filosofia dell’ingegneria</a> al Politecnico di Torino. Gran parte del programma consisteva nel creare un blog <a href='https://filinge.blogspot.com/search/label/ABC'>su un tema specifico, diverso per ciascunə</a>.</p>
+		<p>Questi sono gli articoli del blog che scrissi io, a tema <em><strong>valore</strong></em>.</p>
+	</article>
+
+	<div class='entries-list subgrid'>
+		{% for entry in collections.filinge %}
+			<a class='one-third box' href='{{ entry.url }}'>
+				<h2>{{ entry.data.title }}</h2>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.date %}</time></p>
+				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
+			</a>
+		{% endfor %}
+	</div>
+</main>

@@ -3,6 +3,8 @@ date: 2017-06-22
 location: Oratorio di San Siro, Sanremo
 description: Proverbi dalla mostra “Africa. Immagini e voci”
 lang: it
+tags:
+  - wit
 ---
 1. Noi parliamo con i proverbi, chi è intelligente capirà
 
@@ -30,7 +32,7 @@ lang: it
 20. Un cieco sente più cose di quante tu ne possa vedere
 21. La penna di Dio si è asciugata dopo aver scritto il tuo destino
 22. Non è oggi che il mondo è stato fatto, non è oggi che ﬁnirà
-23. Nessuno sa dove va, ma solo da dove Viene  
+23. Nessuno sa dove va, ma solo da dove Viene
 24. Conosciamo chi amiamo, non chi ci ama
 25. È meglio che ridano di voi, quando vi piangeranno avrete perso la vita
 26. Si nasce, si muore, la terra cresce

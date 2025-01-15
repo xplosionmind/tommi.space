@@ -2,7 +2,7 @@
 date: 2020-04-26
 title: 'Nella pandemia: il valore del tempo'
 permalink: /filinge/tempo/
-step: 10
+step: 11
 ---
 [Consegna](https://filinge.blogspot.com/2020/04/step-11-nella-pandemia.html)
 
@@ -18,4 +18,4 @@ Quanto riusciamo a stare soli, quanto sappiamo resistere all’isolamento spirit
 
 La risposta a queste domande secondo me sta nella filosofia del grande [Blaise Pascal](https://it.wikipedia.org/wiki/Blaise_Pascal 'Blaise Pascal su Wikipedia'), il quale riconobbe quanto l’uomo rifugga l’ozio e la totale assenza di occupazioni poiché rifiuta di mettersi a confronto con la propria **miseria**. Nonostante i secoli che ci separano dall’epoca del filosofo francese, possiamo riconoscere che l’essenza dell’uomo non è mutata. Se prima il *divertissement* era principalmente caratterizzato dal gioco d’azzardo e dalle partite di biliardo, ora è connotato dalle serie tv, dalle consecutive, incessanti, interminabili videochiamate e dal continuo scrollare del *feed* di qualche social network.
 
-L’essere umano in quanto tale deve saper cercare valore prima in sè stesso e nel proprio silenzio per riuscire successivamente a coglierlo  nel mondo e nelle persone che lo circondano, vicine o lontane che siano.
+L’essere umano in quanto tale deve saper cercare valore prima in sè stesso e nel proprio silenzio per riuscire successivamente a coglierlo nel mondo e nelle persone che lo circondano, vicine o lontane che siano.

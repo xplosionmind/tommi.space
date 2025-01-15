@@ -7,7 +7,7 @@ tags:
 permalink: /mobile-backup/
 redirect_from:
   - /backup-checklist/
-image: https://tommi.space/backup.jpg
+image: /assets/backup.jpg
 description: To keep the phone rolling smoothly, from time to time a classic data backup and factory reset are necessary, but it’s important not to forget what to save before hitting the red button. These are my checklist and importing workflow.
 toc: false
 ---

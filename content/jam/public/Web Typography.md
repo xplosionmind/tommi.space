@@ -4,8 +4,7 @@ updated: 2022-06-18T14:17:29+02:00
 tags: reading/book
 toc: false
 image: https://webtypography.net/i/web-typography-book.png
-description: |
-  Notes on a great book on Web Typography by <a href='https:"//clagnut.com/' target='_blank' title='Richard Rutter'>Richard Rutter</a>."
+description: Notes on a great book on Web Typography by [Richard Rutter](https://clagnut.com)
 ---
 {{ description }}
 

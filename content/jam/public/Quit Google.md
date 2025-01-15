@@ -2,14 +2,15 @@
 date: 2020-12-23
 updated: 2022-07-17T19:03:52+02:00
 tags: geek
-aliases: Delete Google, DeGoogle
+aliases:
+  - Delete Google
+  - DeGoogle
 redirect_from:
   - /delete-google/
   - /quit-google/
   - /google/
   - /ungoogle/
 permalink: /degoogle/
-image: https://tommi.space/jar/quit-google.jpg
 toc: false
 description: Stop depending on unethical Google services and start using healthier, often even better, alternatives
 ---

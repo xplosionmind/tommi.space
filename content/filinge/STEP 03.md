@@ -4,7 +4,9 @@ title: Un’immagine
 permalink: /filinge/immagine/
 step: 3
 ---
-![Un miniera di Bitcoin distrutta da un incendio](https://1.bp.blogspot.com/-445SclTskmw/XoTPmF4w9kI/AAAAAAABJQI/dHxj7eqgVZoJOuwkndIYaK66NpEhuKNRACNcBGAsYHQ/s1600/Bitcoin%2BMine%2Bon%2Bfire%2Bedit.jpg)
-Un miniera di Bitcoin distrutta da un incendio.
+<figure>
+	<img src='https://eu-images.contentstack.com/v3/assets/blt8eb3cdfc1fce5194/bltc987a0da7dc92733/66210ecfd561850c52d5a799/bitcoinfire-e1417038713932.jpg' alt='Una miniera di Bitcoin distrutta in un incendio'>
+	<figcaption>Un miniera di Bitcoin distrutta da un incendio.<figcaption>
+</figure>
 
 Bangkok, 14 ottobre 2014.

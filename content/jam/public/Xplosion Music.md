@@ -1,15 +1,14 @@
 ---
 date: 2020-07-17T02:00:00+02:00
 updated: 2022-11-26T10:36:55+01:00
+aliases:
+  - Playlist
 tags:
   - draft
   - music
   - tomminess
-  - csvfy
-image: https://tommi.space/tommis-head-exploding.png
 description: Soundtracks of my life. The songs which marked my existence and made me who I am.
-aliases:
-  - Playlist
+image: /assets/tommi-exploding.png
 redirect_from:
   - /canzoni/
   - /songs/
@@ -18,29 +17,20 @@ redirect_from:
 todo:
   - find a way to sync playlists and contents
   - write meaning, reasons and explanations for every song
+  - Use Listenbrainz/Musicbrainz as main
 main: true
 ---
-[Classical Xplosion]: https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 ‘Classical Xplosion on Spotify’  
-[metamusic]: https://open.spotify.com/playlist/5I1sC0lvlsVTlh5jy12bms ‘metamusic on Spotify’  
-[Xplosion Music Extended]: https://open.spotify.com/playlist/2LLtQtDGNCIEe9tBMuVNg0 ‘Xplosion Music Extended on Spotify’
-
-<div class='row'>
-	<div class='half column' style='margin-bottom:1vh'>
-		<div class='embed' style='height:600px;width:97%'>
-			<iframe src='https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
-		</div>
-	</div>
-	<div class='half column'>
-		<div class='embed' style='height:600px'>
-			<iframe src='https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
-		</div>
-	</div>
+<div class='embed' style=''>
+	<iframe src='https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
+</div>
+<div class='embed' style=''>
+	<iframe src='https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
 </div>
 
 ## Others
 
-- <cite>[Classical Xplosion]</cite>, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
-- <cite>[metamusic]</cite>, music that talks about music.
+- <cite>[Classical Xplosion](https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 'Classical Xplosion on Spotify')</cite>, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
+- <cite>[metamusic](https://open.spotify.com/playlist/5I1sC0lvlsVTlh5jy12bms 'metamusic on Spotify')</cite>, music that talks about music.
 
 ## Technicalities
 
@@ -54,7 +44,7 @@ Since I could never choose a song over another, the following list follows the a
 
 ## Alicia Keys, <cite>Empire State of Mind</cite>
 
-Do you remember [those old-looking mp3 players](https://cdn.pixabay.com/photo/2013/07/12/12/49/mp3-player-146314_1280.png 'a picture of an old-looking mp3 player') with an integrated USB?\  
+Do you remember [those old-looking mp3 players](https://cdn.pixabay.com/photo/2013/07/12/12/49/mp3-player-146314_1280.png 'a picture of an old-looking mp3 player') with an integrated USB?\
 Well, when my aunt gave me my first one as a gift, there was only this song inside.
 
 ## Alan Silvestri, <cite>The Avengers</cite>
@@ -63,7 +53,7 @@ I love Marvel movies. I actually get crazy before watching any new one. Avengers
 
 ## Amélie No, <cite>Where Did You Sleep Last Night</cite>
 
-This is [a folk American song](https://en.wikipedia.org/wiki/In_the_Pines), famous all over the world because of [the great performance by Nirvana](https://youtu.be/hEMm7gxBYSc). I love this one in particular because it’s part of the soundtrack of a wonderful movie I watched as a juror at [Giffoni Film Festival 2018](https://tommi.space/tutto#gff2018): [<cite>Les Faux Tatouages</cite>](https://www.giffonifilmfestival.it/sezioni-film-2018/4267-fake-tattoos.html 'Les Faux Tatouages in Giffoni Film Festival’s catalogue').
+This is [a folk American song](https://en.wikipedia.org/wiki/In_the_Pines), famous all over the world because of [the great performance by Nirvana](https://youtube-nocookie.com/embed/hEMm7gxBYSc). I love this one in particular because it’s part of the soundtrack of a wonderful movie I watched as a juror at [Giffoni Film Festival 2018](https://tommi.space/tutto#gff2018): [<cite>Les Faux Tatouages</cite>](https://www.giffonifilmfestival.it/sezioni-film-2018/4267-fake-tattoos.html 'Les Faux Tatouages in Giffoni Film Festival’s catalogue').
 
 ## America, <cite>A Horse with No Name</cite>
 
@@ -71,7 +61,7 @@ While I was in middle school, most of my nerdy afternoons were wasted by playing
 
 ## Avenged Sevenfold, <cite>Welcome to the Family</cite>
 
-I practiced windsurf from my 12s to my 17s. I remember vividly the day me and my team went with my coach’s van to buy our first wet suits. Once in the shop, while I was trying on my wet suit, this song was playing.  
+I practiced windsurf from my 12s to my 17s. I remember vividly the day me and my team went with my coach’s van to buy our first wet suits. Once in the shop, while I was trying on my wet suit, this song was playing.
 It will forever be my **windsurfing anthem**.
 
 ## Bandabardò, <cite lang='it'>Se Mi Rilasso Collasso</cite>
@@ -80,7 +70,7 @@ It will forever be my **windsurfing anthem**.
 
 ## The Beatles, <cite>Yellow Submarine</cite>
 
-A hot day of April during my last year of elementary school, we spent a day to visit what the following year would become my middle school.  
+A hot day of April during my last year of elementary school, we spent a day to visit what the following year would become my middle school.
 My soon-to-be English professor, to welcome us, held a class only on this song. In that moment I realized how brilliant The Beatles are and how much I loved English.
 
 ## Ben E. King, <cite>Stand by Me</cite>
@@ -105,12 +95,12 @@ The day I met my friend [Fabio](https://fabiobarbero.eu/ 'Fabio Barbero’s pers
 
 ## Cage The Elephant, <cite>There Ain’t No Rest For The Wicked</cite>
 
-I was in my car, driving home. This song popped out from the stereo, it pumped me so much I listened to it in loop for the whole journey; after a few hours I found out that [Virgin Radio](https://www.virginradio.it/ 'Virgin Radio') opened a contest to win to tickets for their show, in Milan. I applied, but, even if I did not win, the day before the concert it was canceled, because of the outbreak of the pandemic.  
-[Matt Shultz](https://en.wikipedia.org/wiki/Matt_Shultz '“Matt Shultz” on Wikipedia') worked as a plumber, as I did (for one month), and I do not know why I feel kind of a connection with him.  
+I was in my car, driving home. This song popped out from the stereo, it pumped me so much I listened to it in loop for the whole journey; after a few hours I found out that [Virgin Radio](https://www.virginradio.it/ 'Virgin Radio') opened a contest to win to tickets for their show, in Milan. I applied, but, even if I did not win, the day before the concert it was canceled, because of the outbreak of the pandemic.
+[Matt Shultz](https://en.wikipedia.org/wiki/Matt_Shultz '“Matt Shultz” on Wikipedia') worked as a plumber, as I did (for one month), and I do not know why I feel kind of a connection with him.
 
 ## Cantiere 164, <cite>Stella Cometa</cite>
 
-<p lang='it'>I <a href='https://www.facebook.com/Cantiere164' target='_blank' title='Pagina Facebook dei Cantiere 164'>Cantiere 164</a> sono dei grandi. Ci siamo conosciuti il 30 aprile 2017, quando sono venuti a Sanremo per essere <a href='https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo' target='_blank' title='L’intervista ai Cantiere 164'>intervistati da Radioimmaginaria</a>. Da quel giorno, abbiamo stretto un grande legame di amicizia e stima reciproca, del quale sono molto orgoglioso. Li ho portati a suonare alla Teen Parade e sono stati i protagonisti del primo <cite>Il mio CUBO Suona il Rock</cite>.  
-<cite><a href='https://youtu.be/N1S_QhjhqdY' target='_blank' title='Il videoclip di Stella Cometa'>Stella Cometa</a></cite> è il brano che stavano promuovendo quando ci siamo incontrati e, per quando anche gli altri pezzi siano una forza, per me questo resterà sempre il numero uno.</p>
+<p lang='it'>I <a href='https://www.facebook.com/Cantiere164' target='_blank' title='Pagina Facebook dei Cantiere 164'>Cantiere 164</a> sono dei grandi. Ci siamo conosciuti il 30 aprile 2017, quando sono venuti a Sanremo per essere <a href='https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo' target='_blank' title='L’intervista ai Cantiere 164'>intervistati da Radioimmaginaria</a>. Da quel giorno, abbiamo stretto un grande legame di amicizia e stima reciproca, del quale sono molto orgoglioso. Li ho portati a suonare alla Teen Parade e sono stati i protagonisti del primo <cite>Il mio CUBO Suona il Rock</cite>.
+<cite><a href='https://youtube-nocookie.com/embed/N1S_QhjhqdY' target='_blank' title='Il videoclip di Stella Cometa'>Stella Cometa</a></cite> è il brano che stavano promuovendo quando ci siamo incontrati e, per quando anche gli altri pezzi siano una forza, per me questo resterà sempre il numero uno.</p>
 
 <strong class='missing'>+++</strong> — *to be continued…*

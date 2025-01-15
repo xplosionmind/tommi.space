@@ -1,15 +1,22 @@
+---js
+{
+	date: '2020-04-10',
+	tags: 'log',
+	lang: 'it',
+	ref: 'parole',
+	description: 'Le parole belle che incontro—che siano parole brutte ma con un bel significato, o parole che suonano favolosamente nonostante un brutto significato.',
+	updated: function (data) {
+		return this.parole.reduce((latest, item) => {
+			const itemDate = new Date(item.date)
+			return itemDate > latest ? itemDate : latest
+		}, new Date(0)).toISOString()
+	}
+}
 ---
-tags: log
-lang: it
-ref: parole
-toc: false
-description: Le parole belle che incontro—che siano parole brutte ma con un bel significato, o parole che suonano favolosamente nonostante un brutto significato.
----
-{% assign parole = parole | sort: date | reverse %}
 <ul class='two'>
 	{% for p in parole %}
 		<li lang='{{ p.lang }}'>
-			<time datetime='{{ p.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>
+			<time datetime='{{ p.date | date_to_xmlschema }}'>
 				{{ p.date | date: '%Y-%m-%d' }}
 			</time>
 			{%- if p.url != '' -%}

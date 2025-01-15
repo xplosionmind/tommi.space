@@ -5,7 +5,6 @@ tags:
   - geek
   - knowledge
 description: Insights about JavaScript, a great tool but also a nightmare.
-created: 2021-12-15T13:03:38+01:00
 ---
 I am stacking here everything I find out on the web which might be useful for when I am finally going to get into the magical universe of JavaScript.
 
@@ -64,5 +63,3 @@ fs.writeFile('example.json', jsonData, err => {
 console.log('Data written to file')
 })
 ```
-
-[JavaScript]: https://en.wikipedia.org/wiki/JavaScript ‘JavaScript on Wikipedia’

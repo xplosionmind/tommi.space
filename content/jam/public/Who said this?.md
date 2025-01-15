@@ -11,4 +11,4 @@ description: Idea for a search engine optimized for quotes
 toc: false
 ---
 - the user types a quote and the software prints from which work it comes from, or who said it
-- (it somewhat already exists) a [[Zettelkasten]] for quotes: indexing portions of works and categorizing them by topic, putting quotes in relation
+- (it somewhat already exists) a [Zettelkasten](Zettelkasten.md) for quotes: indexing portions of works and categorizing them by topic, putting quotes in relation

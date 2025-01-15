@@ -4,11 +4,9 @@ updated: 2022-12-21T11:39:55+01:00
 tags:
   - geek
   - fediverse
-location: home
 description: Various Fediverse information, tips, and accounts worth following.
-image: https://blog.alexgleason.me/content/images/2019/11/fediverse.png
 ---
-The Fediverse is a [[Decentralization|decentralized]] ensemble of social networking apps (more below).
+The Fediverse is a decentralized ensemble of social networking apps (more below).
 
 I am extremely happy many of my friends are finally joining the Fediverse, therefore I am collecting here several info, so that they can easily retrieve it and feel at home in this new awesome platform.
 
@@ -21,7 +19,7 @@ I am extremely happy many of my friends are finally joining the Fediverse, there
 
 ### Tutorials and general info
 
-Need some clarifications on how this whole crazy thing works?  
+Need some clarifications on how this whole crazy thing works?
 First of all, the good old Wikipedia never lest us down, let’s start from the definition it gives:
 
 > The **fediverse** \[…\] is an ensemble of [federated](https://en.wikipedia.org/wiki/Federation_(information_technology) 'Federation (information technology)') (i.e. interconnected) servers that are used for [web publishing](https://en.wikipedia.org/wiki/Web_publishing 'Web publishing') (i.e. [social networking](https://en.wikipedia.org/wiki/Social_networking 'Social networking'), [microblogging](https://en.wikipedia.org/wiki/Microblogging 'Microblogging'), [blogging](https://en.wikipedia.org/wiki/Blogging 'Blogging'), or [websites](https://en.wikipedia.org/wiki/Websites 'Websites')) and file hosting, but which, while independently hosted, can communicate with each other. On different servers (instances), users can create so-called identities. These identities are able to communicate over the boundaries of the instances because the software running on the servers supports one or more [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol 'Communication protocol') that follow an [open standard](https://en.wikipedia.org/wiki/Open_standard 'Open standard').
@@ -64,14 +62,13 @@ Some random links I need to select, sort and analyze
 - [Mastodon WTF timeline](https://ansuz.sooke.bc.ca/entry/335) - Ansuz - mskala’s home page
 - [GuideToMastodon](https://github.com/joyeusenoelle/GuideToMastodon): An increasingly less-brief guide to Mastodon
 - [Why I’m excited about decentralized social networks](https://tinysubversions.com/notes/decentralized-social-networks), by [Darius Kazemi](https://friend.camp/@darius 'Darius on friend.camp')
-- [Debirdify](https://debirdify.pruvisto.org)
 - [Mastodon’s Moment – The Markup](https://themarkup.org/newsletter/hello-world/mastodons-moment)
 - Using iOS and looking for the best app? Check out [this comparison spreadsheet](https://docs.google.com/spreadsheets/d/1De5KRwqMIdwEryfoeBLARgxF7QgKkeOQBCilKuIdAXE/htmlview# 'Mastodon apps feature comparison - Google Drive')
 - [Making ActivityPub Your Social Media Hub for Mastodon and Other Decentralized Services](https://www.macstories.net/stories/making-activitypub-your-social-media-hub-for-mastodon-and-other-decentralized-services) - MacStories
 
 ## <cite>Pan</cite>
 
-<cite>[Pan](https://pan.rent 'Pan')</cite> is the Fediverse community I am the admin of. I am noting everything about it on [[Pan|the dedicated page]].
+<cite>[Pan](https://pan.rent 'Pan')</cite> is the Fediverse community I am the admin of. I am noting everything about it on [the dedicated page](Pan.md).
 
 ## Accounts worth following
 
@@ -85,7 +82,7 @@ My accounts on the Fediverse:
 
 - [`@tommi@pan.rent`](https://pan.rent/@tommi 'Tommi on Pan'), my main account, on <cite>[Pan](https://pan.rent/about 'About Pan')</cite>
 - [`@tommi@stream.tommi.space`](https://stream.tommi.space), a flow of consciousness (unstable, experimental, work-in-progress instance)
-- [`@tommi@tmi.pics`](https://tmi.pics/tommi 'Tommi on TMI Pics'), my account on [[Pixelfed]], an Instagram-like platform
+- [`@tommi@tmi.pics`](https://tmi.pics/tommi 'Tommi on TMI Pics'), my account on [Pixelfed](https://pixelfed.org), an Instagram-like platform
 - [`@tommi@bookwyrm.social`](https://bookwyrm.social/user/tommi 'Tommi on BookWyrm'), my account on [Bookwyrm](https://bookwyrm.social), a platform to share readings and books
 - [`@tommi@lemmy.ml`](https://lemmy.ml/u/tommi 'Tommi on Lemmy.ml'), my account on [Lemmy](https://join-lemmy.org 'Join Lemmy'), a Reddit-like platform
 

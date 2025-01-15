@@ -1,7 +1,7 @@
 ---
 title: Maturandi
 date: 2019-06-16
-image: /2019-06-16-maturandi.jpg
+image: /assets/2019-06-16-maturandi.jpg
 redirect_from: [/maturità/, /maturita/]
 ---
 Questo è proprio il momento chiave, QUEL momento.
@@ -11,7 +11,7 @@ Questo è proprio il momento chiave, QUEL momento.
 Adesso cominciano a scorrere quelle ore che tutti ricordano per tutta la loro vita.
 
 <figure>
-	{% img image, 'una classe al lavoro', 'u-photo' %}
+	<img src='{{ image }}' alt='una classe al lavoro' class='u-photo'>
 	<figcaption>Un’inquadratura di una scena in classe del mio corto <cite><a href='https://tommi.space/it/everyone' title='“Everyone - Love Awakens„'>Everyone</a></cite>, che dovremmo finire di girare appena conclusa la maturità</figcaption>
 </figure>
 

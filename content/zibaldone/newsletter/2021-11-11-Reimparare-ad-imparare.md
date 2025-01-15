@@ -28,7 +28,7 @@ Mi limiterò dunque a condividere una immagine da [*TMI Pics*](https://tmi.pics 
 
 <a href='https://tmi.pics/p/tommi/364002011270435929' title='Vedi su TMI Pics'>
 	<figure>
-		{% img 'https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg', 'Foto di me che presento a tarda notte una esibizione del dopo-Tenco', 'u-photo' %}
+		<img src='https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg' alt='Foto di me che presento a tarda notte una esibizione del dopo-Tenco' class='u-photo'>
 	</figure>
 </a>
 
@@ -38,8 +38,7 @@ Come potevo dimenticare! Ho anche avuto l’onore di intervistare per [*Il Canta
 
 Abbiamo appena pubblicato il video che racconta l’edizione 2021 di [Scambi](https://scambi.org 'Scambi Festival'), il festival dei laboratori paneuretici, che ormai sicuramente conoscete— non ancora per fama, ma perché ne parlo incessantemente. Siamo già al lavoro per la prossima edizione, che si terrà dal 25 al 28 agosto 2022, nel solito luogo, che amiamo; vi aggiorneremo presto con più dettagli e informazioni, nel frattempo seguiteci sui [social](https://instagram.com/scambifestival 'Scambi Festival su Instagram') e/o [iscrivetevi alla newsletter](https://epistulae.scambi.org 'Scambi Epistolari').
 
-**Il video che racconta l’edizione 2021**:
-[![Scambi 2021 Preview](https://buttondown.s3.amazonaws.com/images/c91c0d89-e0b7-4096-9673-e5128d68c60c.jpg)](https://www.instagram.com/tv/CWIqT69A4k8)
+[**Il video che racconta l’edizione 2021**](https://www.instagram.com/tv/CWIqT69A4k8)
 
 In arrivo tante tante novità, fra cui un evento natalizio 👀!
 
@@ -53,11 +52,11 @@ L’evento sarà contemporaneamente a Roma, Venezia e Milano, il 13 novembre 202
 
 ## Mi è tornata la poesia
 
-Temevo di essere afflitto da un morbo che si è mostrato essere solo passeggero, come speravo.  
-Sono ancora capace a scrivere lettere poetiche romantiche di batticuori e fibrillazione,  
+Temevo di essere afflitto da un morbo che si è mostrato essere solo passeggero, come speravo.
+Sono ancora capace a scrivere lettere poetiche romantiche di batticuori e fibrillazione,
 capace di trovare emozioni e legami in emozioni del mondo e fra chi lo abita. Forse.
 
-Il mio inno era <cite>[Meccanica](https://youtu.be/93EfFwQ9qzo '“Meccanica„ su youTube')</cite>, ora è una combo fra <cite>[City of stars](https://en.wikipedia.org/wiki/City_of_Stars '“City of Stars„ su Wikipedia')</cite>, <cite>[Amarsi male](https://youtu.be/CAL58RPoeso '“Amarsi male„ official video')</cite> e <cite>[Can I Sleep in Your Brain](https://youtu.be/sFMHcTjGOdI '“Can I Sleep in Your Brain”, by Ezra Furman')</cite>.
+Il mio inno era <cite>[Meccanica](https://youtube-nocookie.com/embed/93EfFwQ9qzo '“Meccanica„ su youTube')</cite>, ora è una combo fra <cite>[City of stars](https://en.wikipedia.org/wiki/City_of_Stars '“City of Stars„ su Wikipedia')</cite>, <cite>[Amarsi male](https://youtube-nocookie.com/embed/CAL58RPoeso '“Amarsi male„ official video')</cite> e <cite>[Can I Sleep in Your Brain](https://youtube-nocookie.com/embed/sFMHcTjGOdI '“Can I Sleep in Your Brain”, by Ezra Furman')</cite>.
 
-Ci vediamo nel mondo dei sogni.  
+Ci vediamo nel mondo dei sogni.
 T.

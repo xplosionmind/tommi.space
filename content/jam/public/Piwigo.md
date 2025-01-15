@@ -2,23 +2,16 @@
 date: 2021-12-17T10:55:25+01:00
 updated: 2022-06-22T17:01:57+02:00
 tags: geek
-image: https://piwigo.org/plugins/piwigo-piwigodotorg/piwigo.org.svg
 description: |
   Some notes about [Piwigo](https://piwigo.org 'Piwigo'), a great solution for hosting and storing images. I use it on [images.tommi.space](https://images.tommi.space 'Tommi’s visions').
 ---
 {{ description }}
-
-<br>
-<br>
 
 ## The problem
 
 Piwigo is wonderful and it has great potential. Nevertheless,  its problem is that it is [developed quite slowly](https://github.com/Piwigo/Piwigo/commits/master 'History of commits to Piwigo on GitHub') and by few people. Some parts of the interface are obsolete and very old looking, documentation is not straightforward and simple.
 
 Fundamentally, it is not as popular as it deserves to be.
-
-<br>
-<br>
 
 ## Embedding
 
@@ -33,14 +26,9 @@ Useful info:
 - [API settings](https://images.tommi.space/tools/ws.htm 'images.tommi.space API')
 - [My post](https://piwigo.org/forum/viewtopic.php?id=31165 'Embedding images and galleries in HTML - Piwigo Forum') on Piwigo’s forum
 
-<br>
-
 ### Galleries
 
 Still looking for a solution.
-
-<br>
-<br>
 
 ## Notes
 

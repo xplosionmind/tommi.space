@@ -5,17 +5,21 @@ aliases:
   - FediLab
 tags:
   - lab
-  - digitalrights
-  - draft
+  - outdated
+  - geek/fediverse
 location: Sanremo
 description: An introductory workshop on decentralized social media and the Fediverse
-image: https://tommi.space/fedilab-scambi.webp
+image: /assets/fedilab-scambi.webp
 permalink: /fedilab/
-redirect_from:
-  - /ournet/
 ref: fediverse-lab
+include: |
+  <div class='blue box' style='background: mediumspringgreen; color: black'>
+    <h2>The workshop has its own website now!</h2>
+    <p>Thanks to the success this workshop got during its first year of life, I decided to properly structure and enrich it.</p>
+    <p>The new version is titled <strong><cite>Knitting Our Internet</cite></strong> and it has <a href='https://ournet.rocks/' title='🪡 Knitting Our Internet 🧶'>its own website</a>!</p>
+  </div>
 ---
-Carrying on with my mission of spreading the word about the [[Fediverse]], I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
+Carrying on with my mission of spreading the word about the [Fediverse](Fediverse.md), I am gaining consciousness about how interactive and participatory tools are great to deconstruct the ostensible complexity of alternative technological concepts.
 
 I conceived this workshop as an easy, comprehensive, interactive, and maybe even fun introduction to decentralized social networks, the Fediverse in particular.
 
@@ -24,7 +28,7 @@ I conceived this workshop as an easy, comprehensive, interactive, and maybe even
 	<p>Please, feel free to comment below or to get in touch, if you believe it could help you. I appreciate everyone sharing any kind of thoughts. If you do the lab yourselves, tell me! I would be super happy.</p>
 </div>
 
-As I do with everything concerning this topic, I am dedicating this workshop to [[Aaron Swartz]]. If you want to do this lab, please do underscore this, and tell Aaron’s story.
+As I do with everything concerning this topic, I am dedicating this workshop to [Aaron Swartz](Aaron%20Swartz.md). If you want to do this lab, please do underscore this, and tell Aaron’s story.
 
 ## Info
 
@@ -36,7 +40,7 @@ Ideally, all the participants sit in a circle. The workshop works best with a cr
 
 Not all the materials are essential. In its bare-bone version, the rope and the whiteboard are sufficient.
 
-- Red wool, twine, or any kind of rope, at least 5 meters long.
+- Red yarn, or any kind of rope, at least 5 meters long.
 - Paper poster or whiteboard
 - A hat worn by the workshop’s host, acting as the centralized social network
 - Objects or small cardboard pieces representing different Fediverse nodes or clients
@@ -47,8 +51,8 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 </div>
 
 <figure>
-	{% img image, 'A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together' %}
-	<figcaption>The Lab held during <a href='https://scambi.org/en'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
+	<img src='{{ image }}' alt='A group of ten people sitting in a circle on the ground, holding ends of a red rope that connects them all together'>
+	<figcaption>The Lab held during <a href='https://scambi.org/en/'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
 </figure>
 
 ## Script
@@ -68,8 +72,10 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 
 Occasions when I conducted the lab:
 
-<ul>{% for lab in activities %}
-	{% if lab.tags contains 'lab/ournet' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ lab.start | date: '%-d %B %Y' }}</time>. {% if lab.description %}{{ lab.description | markdownify }}{% endif %}</li>
-	{% endif %}
-{% endfor %}</ul>
+<ul>
+	{%- for lab in activities -%}
+		{%- if lab.tags contains 'lab/ournet' -%}
+			<li>{{ lab.location }}, <time datetime='{{ lab.start | date_to_xmlschema }}'>{{ lab.start | date: '%-d %B %Y' }}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
+		{%- endif -%}
+	{%- endfor -%}
+</ul>

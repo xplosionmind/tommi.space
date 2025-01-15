@@ -3,16 +3,23 @@ date: 2023-06-07T07:38:05+02:00
 updated: 2023-10-03T13:12:38+02:00
 tags:
   - lab
-  - digitalrights
-  - draft
+  - outdated
+  - geek/fediverse
 location: Sanremo
 description: Un laboratorio di introduzione ai social network decentralizzati
-image: https://tommi.space/fedilab-scambi.webp
+image: /assets/fedilab-scambi.webp
 lang: it
 permalink: /lab-fediverso/
 ref: fediverse-lab
+aliases: La Nostra Rete
+include: |
+  <div class='blue box' style='background: mediumspringgreen; color: black;'>
+    <h2>Il lab ora ha un suo sito!</h2>
+    <p>Dato il gratificante successo che questo laboratorio ha ottenuto nel suo primo anno di vita, ho voluto strutturarlo meglio e arricchirlo.</p>
+    <p>La nuova versione s’intitola <strong><cite>La Nostra Rete</cite></strong> e ha <a href='https://ournet.rocks/it/' title='La Nostra Rete'>un sito dedicato</a>!</p>
+  </div>
 ---
-Proseguendo imperterrito nella mia missione di proselitismo per il [[Fediverse|Fediverso]], sempre più mi accorgo di quanto sia bello ed efficace utilizzare strumenti interattivi e partecipativi per decostruire l’apparente complessità di concetti informatici alternativi.
+Proseguendo imperterrito nella mia missione di proselitismo per il [Fediverso](Fediverse.md), sempre più mi accorgo di quanto sia bello ed efficace utilizzare strumenti interattivi e partecipativi per decostruire l’apparente complessità di concetti informatici alternativi.
 
 Ho ideato questo laboratorio per realizzare <u>un’introduzione facile, completa e interattiva ai social network decentralizzati</u>.
 
@@ -21,7 +28,7 @@ Ho ideato questo laboratorio per realizzare <u>un’introduzione facile, complet
 	<p>Sentitevi liberi di commentare qui sotto o di contattarmi se pensate possa aiutarvi, o anche solo per condividere i vostri pensieri, che sono i benvenuti! Se fate il lab, ditemelo, ne sarei felicissimo.</p>
 </div>
 
-Come tutto quello che faccio relativamente a questi temi, dedico il laboratorio a [[Aaron Swartz]]. Nel replicare il laboratorio, prego questo sia sottolineato e la storia di Aaron raccontata.
+Come tutto quello che faccio relativamente a questi temi, dedico il laboratorio a [Aaron Swartz](Aaron%20Swartz.md). Nel replicare il laboratorio, prego questo sia sottolineato e la storia di Aaron raccontata.
 
 ## Informazioni generali
 
@@ -35,7 +42,7 @@ Idealmente, tutte le persone partecipanti si siedono in cerchio. Il laboratorio 
 </div>
 
 <figure>
-	{% img image, 'Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro' %}
+	<img src='{{ image }}' alt='Un gruppo di dieci persone sedute per terra in cerchio, tenendo in mano gli estremi di un gomitolo rosso che le connette fra loro'>
 	<figcaption>Il Lab tenuto durante <a href='https://scambi.org'>Scambi Festival</a> 2023 (© Andrea Marchi x Scambi Festival)</figcaption>
 </figure>
 
@@ -65,8 +72,10 @@ Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella ver
 
 Occasioni in cui ho svolto il laboratorio:
 
-<ul>{% for lab in activities %}
-	{% if lab.tags contains 'lab/ournet' %}
-		<li>{{ lab.location }}, <time datetime='{{ lab.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>. {% if lab.description %}{{ lab.description | markdownify }}{% endif %}</li>
-	{% endif %}
-{% endfor %}</ul>
+<ul>
+	{%- for lab in activities -%}
+		{%- if lab.tags contains 'lab/ournet' -%}
+			<li>{{ lab.location }}, <time datetime='{{ lab.start | date_to_xmlschema }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
+		{%- endif -%}
+	{%- endfor -%}
+</ul>

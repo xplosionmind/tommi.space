@@ -1,8 +1,8 @@
 ---
 date: 2021-11-08T15:01:16+01:00
 updated: 2022-07-17T19:05:21+02:00
-location: VIU
 tags: uni/VIU
+location: VIU
 permalink: /veale-lecture/
 ---
 By [Michael Veale](https://michae.lv 'Michael Veale’s personal website')

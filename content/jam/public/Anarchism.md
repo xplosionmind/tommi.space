@@ -3,10 +3,9 @@ date: 2023-10-06T13:25:28+01:00
 updated: 2023-10-31T13:25:28+01:00
 tags: [topic, politics]
 location: MayDay Rooms, London
-toc: false
 description: Thoughts, insights, and ideas about Anarchism
 ---
-Lately, I’ve had many thoughts on Anarchism and anarchist practice. At a recent [Introduction to Anarchism](https://2023.antiuniversity.org/events/introduction-to-anarchism 'Introduction to Anarchism | AntiUniversity 2023') session I attended at [AntiUniversity 2023](https://2023.antiuniversity.org 'AntiUniversity x Anarchist Bookfair 2023') in London, I was taken aback when I shared my personal definition of Anarchist practice, which I now commit to as my most fundamental value.
+Lately, I’ve had many thoughts on Anarchism and anarchist practice. At a recent <cite>[Introduction to Anarchism](https://web.archive.org/web/20240223140716/https://2023.antiuniversity.org/events/introduction-to-anarchism 'Introduction to Anarchism | AntiUniversity 2023')</cite> session I attended at [AntiUniversity 2023](https://web.archive.org/web/20231004222426/https://2023.antiuniversity.org/ 'AntiUniversity x Anarchist Bookfair 2023') in London, I was taken aback when I shared my personal definition of Anarchist practice, which I now commit to as my most fundamental value.
 
 ## Self, not Ego
 

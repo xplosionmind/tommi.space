@@ -1,14 +1,15 @@
 ---
 date: 2021-12-13T16:06:18+01:00
 updated: 2021-12-13T16:06:18+01:00
-tags: questions
-aliases: Questions
-redirect_from: [/questions,/q]
+aliases:
+  - Questions
+tags:
+  - questions
 description: Domande, risposte e affermazioni fuori di testa.
 lang: it
 toc: false
 ---
-Format ispirato da <cite>[[Il Titolone Superlungo]]</cite>
+Format ispirato da <cite>[Il Titolone Superlungo](Il%20Titolone%20Superlungo.md)</cite>
 
 - la domanda più difficile la cui risposta è <q>intercapedine</q>
 - Pillola rossa o pillola blu
@@ -39,7 +40,7 @@ Format ispirato da <cite>[[Il Titolone Superlungo]]</cite>
 - quanto è alta una persona bassa?
 - qual è il colore della velocità?
 - come si lava il sapone?
-- l'autoconvinzione è un superpotere? 
+- l’autoconvinzione è un superpotere?
 - Si può amare l’amore?
 - le stelle hanno cinque punte?
 - perché passiamo così poco tempo ad essere bambini e così tanto tempo ad essere adulti?

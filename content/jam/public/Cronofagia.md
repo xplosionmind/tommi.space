@@ -4,11 +4,11 @@ updated: 2022-11-14T20:54:29+01:00
 tags:
   - reading/book
 ---
-> in realtà l’innovazione tecnologica non riduce la quantità di lavoro ma innalza  standard qualitativi della produzione come spiega con efficacia il giornalista Oliver Burkeman
+> in realtà l’innovazione tecnologica non riduce la quantità di lavoro ma innalza standard qualitativi della produzione come spiega con efficacia il giornalista Oliver Burkeman
 
 p. 61
 
-> la migrazione  contenuto analogico finito a un contenuto digitale infinito e ricco di collegamenti ipertestuali ha moltiplicato a dismisura il tempo spendibile nella fruizione dei contenuti.
+> la migrazione contenuto analogico finito a un contenuto digitale infinito e ricco di collegamenti ipertestuali ha moltiplicato a dismisura il tempo spendibile nella fruizione dei contenuti.
 
 p. 69
 

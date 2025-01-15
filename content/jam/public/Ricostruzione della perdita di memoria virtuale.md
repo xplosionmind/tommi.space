@@ -5,13 +5,12 @@ tags: log
 description:
   <em>Frammenti ritrovati nella scatola nera del mio cervello, per ricostruire il sorprendente reset automatico compiuto dal mio telefono senza miei interventi il 15 febbraio 2021</em>.
 aliases: Ricostruzione di una tragedia
-toc: false
 ---
 Campo Santa Margherita, Bar Orange. L’indossare dei guanti di lana enormi, insieme ad un particolarmente affascinante tramonto, mi portatono a ostentare la mia perizia nello scattare una foto premendo con il naso il tasto dell’otturatore sullo schermo del mio telefono.
 
 Il precedente fu l’ultimo ricordo del mio telefono in quanto tale. Circa venti minuti dopo, facendo la pipì nel terzo bagno della toilette di Venezia Santa Lucia, sento uno squillo insoluto e nuovo provenire dalla mia tasca.
 
-Il mio [OnePlus 6T][device] si era completamente resettato. Senza alcun mio intervento, senza che cadesse o che un tempo particolarmente lungo fosse trascorso.  
+Il mio [OnePlus 6T][device] si era completamente resettato. Senza alcun mio intervento, senza che cadesse o che un tempo particolarmente lungo fosse trascorso.
 In un minuscolo arco temporale, solo e al sicuro nella mia tasca, il mio telefono decise, ad onta del suo attento ed amorevole proprietario, di tornare come nuovo; a tale scelta conseguì la perdita totale delle sole cose che ancora non ero stato in grado di sincronizzare e salvare con backup, da ottobre (cinque mesi): tutte le mie foto ed i miei video.
 
 I miei primi giorni a Venezia, così come la mia quarantena per coronavirus, il Natale 2020… tutto perduto per un repentino, inspiegabile ed assurdo gesto del mio stronzo dispositivo mobile.
@@ -22,11 +21,11 @@ Impegnandomi con tutto me stesso per non pensare all’accaduto ed a quanto comp
 
 Tornato a casa, qualche ora dopo, ancora sconvolto ma ormai consapevole dell’irreversibilità del danno, sfruttai l’occasione per fare ciò che da tempo speravo di poter fare, ma che richiedeva decisamente troppo tempo, lavoro e studio.
 
-Sedutomi al computer, nel giro di tre ore riuscii ad installare con permessi di root, supporto [Magisk](https://github.com/topjohnwu/Magisk 'Magisk on GitHub') e, soprattutto, **nessuna applicazione Google** (grazie al favoloso [MicroG Project](https://microg.org 'MicroG Project')), [LineageOS](https://lineageos.org 'LineageOS'). Più dettagli al riguardo in [[Switch to LineageOS]].
+Sedutomi al computer, nel giro di tre ore riuscii ad installare con permessi di root, supporto [Magisk](https://github.com/topjohnwu/Magisk 'Magisk on GitHub') e, soprattutto, **nessuna applicazione Google** (grazie al favoloso [MicroG Project](https://microg.org 'MicroG Project')), [LineageOS](https://lineageos.org 'LineageOS'). Più dettagli al riguardo in [Switch to LineageOS](Switch%20to%20LineageOS.md).
 
-Ora nulla resta da fare se non contemplare con disperazione la cartella vuota delle foto di fine 2020 ed inizio 2021. Centinaia di gigabytes persi, senza sapere come né perché. Un segno divino che mi ha costretto ad una riflessione verso la quale precedentemente ero stato chiuso e scettico; forse la soluzione non sono backup, complessi sistemi di *[[Storage|storage]]* e sincronizzazione dati, [[Apps|app perfette]] per ogni specifico compito, [[Cheat sheets|script]] ad-hoc per essere più efficienti ed efficaci. Forse, il mio perdere tutto fu un monito, che non seppe funzionare [le due volte percedenti](https://tommi.space/storage#data-loss) (per quanto profondamente diverse da questa), ad impegnarsi per non avere nulla da perdere. Per saper valorizzare l’*hic et nunc*, per cogliere le sottili e dolci qualità di ogni istante, e per tutte le altre solite cose *cliché* verso cui è chiaro stessi tendendo con i due precedenti esempi.
+Ora nulla resta da fare se non contemplare con disperazione la cartella vuota delle foto di fine 2020 ed inizio 2021. Centinaia di gigabytes persi, senza sapere come né perché. Un segno divino che mi ha costretto ad una riflessione verso la quale precedentemente ero stato chiuso e scettico; forse la soluzione non sono backup, complessi sistemi di *[storage](Storage.md)* e sincronizzazione dati, app perfette per ogni specifico compito, [script](Cheat%20sheets.md) ad-hoc per essere più efficienti ed efficaci. Forse, il mio perdere tutto fu un monito, che non seppe funzionare [le due volte percedenti](/storage#data-loss) (per quanto profondamente diverse da questa), ad impegnarsi per non avere nulla da perdere. Per saper valorizzare l’*hic et nunc*, per cogliere le sottili e dolci qualità di ogni istante, e per tutte le altre solite cose *cliché* verso cui è chiaro stessi tendendo con i due precedenti esempi.
 
-Per quanto possa valere un ricordo, o meglio, per quanto inestimabile possa essere un ricordo, [la memoria](https://tommi.space/mnemosyne 'Mnemosyne') non sarà mai in grado di competere con il pensiero.
+Per quanto possa valere un ricordo, o meglio, per quanto inestimabile possa essere un ricordo, [la memoria](/mnemosyne/ 'Mnemosyne') non sarà mai in grado di competere con il pensiero.
 
 Se la complementarietà del ricordare e del pensare viene meno, soccombe alla gioia di vivere una materialistica, ingiustificata, <i lang='en'>dull</i> e limitante preoccupazione verso ciò che si può perdere, invece di un desiderio inestinguibile ciò che si può accogliere nel proprio cuore.
 

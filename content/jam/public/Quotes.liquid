@@ -1,0 +1,32 @@
+---js
+{
+	date: '2020-06-10',
+	tags: ['quote'],
+	description: 'This page collects remarkable quotes from my life, be it for their meaning, of for the contextual value around them. Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public.',
+	image: '/assets/quotes.gif',
+	main: true,
+	ref: 'quotes',
+	updated: function (data) {
+		return this.quotes.reduce((latest, item) => {
+			const itemDate = new Date(item.date)
+			return itemDate > latest ? itemDate : latest
+		}, new Date(0)).toISOString()
+	}
+}
+---
+<p>{{ description | markdownify }}</p>
+
+<hr>
+
+{% assign quotes = quotes | sort: 'date' | reverse %}
+{% for q in quotes %}
+	<p class='date' datetime='{{ q.date | date_to_xmlschema }}'>{{ q.date | date: '%d %B %Y' }}</p>
+	<blockquote lang='{{ q.lang }}'{% if q.id %}id='{{ q.id }}'{% endif %}>
+		<p>{{ q.quote | markdownify }}</p>
+	</blockquote>
+	{% if q.author != '' or q.work != '' %}
+		<p class='cite'>
+			{{ q.author }}{%- if q.work != '' and q.author != '' -%}, {% endif -%}<cite>{% if q.url != '' %}<a href='{{ q.url }}' lang='{{ q.lang }}' hreflang='{{ q.lang }}' target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{% else %}{{ q.work }}{% endif %}</cite>{% if q.note != '' %} — {{ q.note | markdownify }}{% endif %}
+		</p>
+	{% endif %}
+{% endfor %}

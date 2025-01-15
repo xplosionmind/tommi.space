@@ -2,10 +2,9 @@
 date: 2019-11-30T01:00:00+01:00
 updated: 2021-12-30T19:40:07+01:00
 tags: cinema/film
-lang: it
-toc: false
-image: https://64.media.tumblr.com/09edf71eae83c925638b4516275fa87f/b5240e0a7f17d0a1-83/s1280x1920/6740f023d98d251a46d7cc7b1ec97dafa3bed966.png
 description: Pensieri sul film bello favoloso intenso di Woody Allen, ma in realtà pensieri sui film di Woody Allen in generale.
+image: https://64.media.tumblr.com/09edf71eae83c925638b4516275fa87f/b5240e0a7f17d0a1-83/s1280x1920/6740f023d98d251a46d7cc7b1ec97dafa3bed966.png
+lang: it
 ---
 Il film è quel luogo, quel tempo, quel sogno in cui tutto è naturale. La luce, i volti, le dita che si incrociano, le gocce che percorrono tutto il finestrino seguendo una traiettoria imprevedibile e, nella sua tremenda semplicità, emozionante.
 
@@ -15,9 +14,9 @@ Woody il nostro caro vituperato Woody con le sue perversioni più o meno scandal
 
 Così come quando non è <cite>[Niente di Speciale](https://musicbrainz.org/recording/5c5ae448-7be9-4247-87a9-9bfd77fa96e0 '“Niente di Speciale„ su Musicbrainz')</cite>:
 
-> E cammino al telefono su un giro di Do,
-> anche adesso che un po’ ho imparato a suonare
-> Perché sei come me
+> E cammino al telefono su un giro di Do,  
+> anche adesso che un po’ ho imparato a suonare  
+> Perché sei come me  
 > Più sei leggera meno sei superficiale
 
 Così quel pazzo di Woody quell’esagerato pedofilo stronzo mi insegna che <u>si può <del>essere</del> sembrare impegnati senza impegnarsi</u> e che tutte le cose vanno viste tramite quel filtro di dolcezza e colori ovattati e tranquillo stiamo facendo una cosa normale anche se sono qui di fianco al mio regista preferito e aaaargh.

@@ -1,0 +1,36 @@
+@use '../variables' as *;
+
+#landing {
+	overflow-x: hidden;
+	height: calc(100vh + var(--space-l));
+	h1 {
+		padding: var(--space-l) var(--space-xl);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	#landing h1 {
+		animation: pulse 1s infinite;
+	}
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	20% {
+		transform: scale(1.1);
+	}
+	40% {
+		transform: scale(1);
+	}
+	60% {
+		transform: scale(1.1);
+	}
+	80% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

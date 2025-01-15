@@ -2,9 +2,10 @@
 title: Ripensare il mio spazio
 date: 2023-10-31T20:13:44+01:00
 tags: [newsletter, zen, geek, meta]
-location: Berlin
+location: xHain
 permalink: /ripensare-tommi.space/
-image: https://tommi.space/xhain-workspace.webp
+image: /assets/xhain-workspace.webp
+ref: v2
 ---
 Come mai prima d’ora, il mio ultimo anno è stato pieno di cose nuove, grosse e belle.
 

@@ -7,8 +7,8 @@ aliases:
 tags:
   - zen
 location: Casa Campo
-permalink: /party/
-toc: false
+permalink: /partying/
+redirect_from: [/party/]
 ---
 I have always underestimated and misconceived partying.
 
@@ -16,7 +16,7 @@ I have always lived and envisioned parties as ephemeral moments of freedom, pare
 
 It is much needed a sharp change of perspective. By learning to overlook stress and doubtfulness, I need to embrace partying and value it for what it really is.
 
-Only after having lived in Berlin I can admit I confused partying with [[Clubbing]]/rave/techno/dancing. They are not the same.
+Only after having lived in Berlin I realized I was confusing partying with [Clubbing](Clubbing.md)/rave/techno/dancing. They are not the same.
 
 ## House partying
 

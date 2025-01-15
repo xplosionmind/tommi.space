@@ -1,0 +1,55 @@
+#searchFilters {
+	--search-top-margin: calc(var(--space-m) + var(--size-1) + 10px + 2 * var(--space-3xs) + var(--space-s));
+	top: var(--search-top-margin);
+	position: sticky;
+	max-height: calc(100vh - var(--search-top-margin) - var(--space-s));
+	overflow-y: scroll;
+	& > div {
+		margin-top: var(--space-2xs);
+	}
+	.countries, .cities {
+		justify-content: left;
+		align-items: start;
+		flex-wrap: nowrap;
+		& > div {
+			justify-content: space-between;
+			gap: 0;
+		}
+	}
+	.period {
+		justify-content: left;
+	}
+	summary {
+		font-weight: 900;
+		text-align: center;
+		list-style: none;
+		&::before {
+			content: 'Show ';
+		}
+		&::after {
+			content: ' ⬇️';
+		}
+		&::-webkit-details-marker {
+			display: none;
+		}
+	}
+	&[open] {
+		summary {
+			&::before {
+				content: 'Hide '
+			}
+			&::after {
+				content: ' ❌'
+			}
+		}
+	}
+}
+
+.search {
+	dl {
+		white-space: initial;
+		div {
+			margin-top: var(--space-3xs);
+		}
+	}
+}

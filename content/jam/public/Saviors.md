@@ -3,13 +3,11 @@ date: 2024-01-19T09:45:00+01:00
 updated: 2024-01-19T14:01:19+01:00
 tags:
   - music
-  - draft
-toc: false
 description: My thoughts on <cite>Saviors</cite>, Green Day’s latest album
 image: https://www.newsic.it/wp-content/uploads/2023/10/Green-Day-Saviors-album-2024.jpg
 location: On the train from Berlin to Warszawa
 ---
-Here, I collected some impressions and reflections while listening to <cite>[Saviors](https://musicbrainz.org/release/9bcfed5b-260a-46e7-bbfd-be537a60a544 'Saviors on MusicBrainz')</cite> [Green Day](https://musicbrainz.org/artist/084308bd-1654-436f-ba03-df6697104e19 'Green Day on MusicBrainz')’s latest album.
+Here are my impressions while listening to <cite>[Saviors](https://musicbrainz.org/release/9bcfed5b-260a-46e7-bbfd-be537a60a544 'Saviors on MusicBrainz')</cite> [Green Day](https://musicbrainz.org/artist/084308bd-1654-436f-ba03-df6697104e19 'Green Day on MusicBrainz')’s latest album.
 
 <div class='blue box'>
 	<p>This note is a unified and revised version of <a href='https://pan.rent/@tommi/111781764194357948' title='Tommi’s live reaction thread while listening to Saviors, on pan.rent'>this Fediverse thread</a>.</p>
@@ -37,6 +35,6 @@ Then there is *that thing*. I feel like an insensitive prick writing *that thing
 
 The only reason why I don’t feel like destroying this album is that <u>it wants to say something</u>, and that something is a **political message** that is worth spreading and reflecting upon. Not that the lyrics contain any radically meaningful concept worth of note, but I believe they are what make this album salvageable. From every other point of view, though, I do not spot anything new, *anything at all*.
 
-In an era of empty [[Music|music]] driven by money, I hate to ultimately evaluate an album based on the fact that it says *something*, rather than doing it on the basis of *how well* it says it. Having a message should be the natural, quintessential, feature of a music production. It is not anymore.
+In an era of empty [music](Music.md) driven by money, I hate to ultimately evaluate an album based on the fact that it says *something*, rather than doing it on the basis of *how well* it says it. Having a message should be the natural, quintessential, feature of a music production. It is not anymore.
 
 In my mental admiration scale, Green Day sit at barely one inch from failure and oblivion. That inch is only made of political commitment, focused anger, and of course affection to their legacy. I hope they cling to that, or I will not devote to Green Day’s next album as much time as I wasted with this one.

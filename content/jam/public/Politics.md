@@ -11,17 +11,11 @@ description: A science, an art. Insights, definitions, quotes, and ideas about P
 
 <p class='cite'><cite>Political Science, an Introduction</cite> (Global Edition, 2017), page 17</p>
 
-<br>
-
 > We might see politics as <u>a combination of goals or policies plus the power necessary to achieve them</u>.
-
-<br>
 
 > who gets what
 
-<br>
-
-### Socialism
+## Socialism
 
 > a movement centered on uncompromising opposition to capitalism, giving pre-eminence to the economic aspect of life, convinced that the end of capitalism will usher in an era of permanent prosperity, peace, and progress; aimed at achieving an egalitarian and brotherly society through the abolition of most or all individual ownership of property; strengthened by the certainty of possessing the truth and the key to happiness for all.
 
@@ -31,16 +25,6 @@ description: A science, an art. Insights, definitions, quotes, and ideas about P
 
 <p class='cite'>Massimo Salvadori, <cite>Modern Socialism</cite> (1968), p. 10</p>
 
-<br>
-<br>
-
 ## Articles
 
 - [<cite>The edge of our existence: A particle physicist examines the architecture of society</cite>](https://thebulletin.org/premium/2020-12/the-edge-of-our-existence-a-particle-physicist-examines-the-architecture-of-society/ 'The edge of our existence: A particle physicist examines the architecture of society'), by @yangyang_cheng
-
-<br>
-<br>
-
-## Ideas
-
-![[Politics ideas]]

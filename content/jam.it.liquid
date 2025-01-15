@@ -1,0 +1,51 @@
+---
+title: La Marmellata
+date: 2020-02-01
+tags: meta
+redirect_from: /marmellata/tutta/
+permalink: /marmellata/
+lang: it
+ref: jam
+image: /assets/jam.webp
+type: CollectionPage
+---
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundRazzmatazz'>La Marmellata</h1>
+	</hgroup>
+<article class='e-content'>
+	<p>Ci sono curiose scoperte e piccoli pensieri che voglio salvare prima che finiscano nel dimenticatoio, o nell’attesa che vengano riformulati in maniera migliore e raccontati nello <cite><a href='zibaldone.liquid'>Zibaldone</a></cite>.</p>
+	<p>Prendo tutte queste cose e ne faccio <cite>La Marmellata</cite>.</a>
+	<h2>Cos’è <cite>La Marmellata</cite>?</h2>
+	<p>La chiamano anche <q><a href='https://dev.to/jbranchaud/the-digital-garden-l10' hreflang='en' title='The Digital Garden su DEV.to'>giardino digitale</a></q>, o anche <q>sistema <cite><a lang='de' href='/zettelkasten' hreflang='en' title='Zettelkasten — tommi.space'>Zettelkasten</a></cite></q>. Per me si tratta di un esperimento molto meno altisonante e ambizioso, ma frullato e gustoso: è <cite>La Marmellata</cite>.</p>
+	<p>Da questa pagina è possibile partire per navigare all’interno de <cite>La Marmellata</cite>. Ci sono diversi modi per farlo:</p>
+	<ul>
+		<li>per tematica o argomento, scegliendo un tag</li>
+		<li>partendo da una delle macro-note elencate di seguito e proseguendo verso altre note, sempre più ramificate.</li>
+	</ul>
+</article>
+
+	<aside class='subgrid'>
+		<div class='two-thirds'>
+			{% render 'tags.liquid', site: site -%}
+		</div>
+		<div class='one-third'>
+			{% render 'lang-filter.liquid', lang: lang -%}
+		</div>
+	</aside>
+
+	<div class='entries-list grid'>
+		<input type='checkbox' id='langFilter-en' class='langFilter'>
+		<input type='checkbox' id='langFilter-it' class='langFilter'>
+		<input type='checkbox' id='langFilter-fr' class='langFilter'>
+		{% for entry in collections.jam %}
+			<a class='little box {% unless entry.data.main %}background{% endunless %}' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}' {% if entry.data.main %}data-target-main{% endif %}>
+				<h2>{{ entry.data.title }}</h2>
+				{% if entry.data.description %}
+					<p>{{ entry.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
+				{% endif %}
+				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
+			</a>
+		{% endfor %}
+	</div>
+</main>

@@ -7,6 +7,6 @@ toc: false
 ---
 A set of 
 
-- The [[Zettelkasten]] approach
-- About[selective ignorance](https://nesslabs.com/selective-ignorance 'Selective ignorance on Ness Labs'), being careful in what to [[Following|follow]]
+- The [Zettelkasten](Zettelkasten.md) approach
+- About[selective ignorance](https://nesslabs.com/selective-ignorance 'Selective ignorance on Ness Labs'), being careful in what to [follow](Following.md)
 - [TLDR as a knowledge compression algorithm](https://www.manunam.me/post/72ce736f6e/ 'Unpacking TLDR - manumam.me'), compared to a video codec

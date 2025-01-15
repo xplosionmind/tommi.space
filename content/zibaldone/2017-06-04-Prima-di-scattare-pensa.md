@@ -2,12 +2,12 @@
 title: Prima di scattare pensa
 date: 2017-06-04
 tags: ['Inchiostro Digitale', 'photography']
-image: /2017-06-04-prima-di-scattare-pensa.jpg
+image: /assets/2017-06-04-prima-di-scattare-pensa.jpg
 ---
 È un attimo, un istante fulmineo che può passare alla storia o può essere dimenticato 0.1 secondi dopo averlo scattato. È quell’immagine che hai rincorso per tutta la vita, è la perfezione, oppure è l’ennesima, sfocata e -forse- senza senso.
 
 <figure>
-	{% img image, 'a streetlamp lit by sunlight', 'u-photo' %}
+	<img src='{{ image }}' alt='a streetlamp lit by sunlight' class='u-photo'>
 </figure>
 
 È il mondo della fotografia, dell’inquinamento visivo, come sarebbe opportuno chiamarlo. È molto, molto difficile -oggi- trovare uno scatto che impressioni, che ricorderemo sempre con le stesse emozioni o che ce ne susciterà di nuove ogni volta che la rivedremo.

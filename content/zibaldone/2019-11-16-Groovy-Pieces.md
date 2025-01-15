@@ -6,7 +6,7 @@ image: https://live.staticflickr.com/65535/49066858996_f9e4c2f1bd_k.jpg
 Vabbè, insomma, sono qui sul treno e mi sono accorto che non scrivo qui da un po’. Però, a dire la verità, avrei molto da raccontare, ma ben poco su cui riflettere, o almeno, nulla di particolarmente profondo ed interessante (per quanto interessante possa essere ciò che scrivo in generale).
 
 <figure>
-	{% img image, 'un carrugio con bandierine gialle', 'u-photo' %}
+	<img src='{{ image }}' alt='un carrugio con bandierine gialle' class='u-photo'>
 	<figcaption>Pezzetti di carta gialli in un carrugio - Genova, 13 novembre 2019</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Sono rimasto affascinato dall'incontro con [Stefano Zamagni](https://it.wikipedi
 
 ## Pezzetto tre
 
-Sono in treno perché sto tornando dalla [Teen Parade](https://radioimmaginaria.it/teenparade2019) di [Radioimmaginaria](https://radioimmaginaria.it), quest’anno tenutasi a Genova. Oltre alla felicità di incontrare di nuovo tutti i fantastici tipi immaginari, ho comprato e letto stanotte tutto d’un fiato <cite><a href='http://www.marcosymarcos.com/libri/noi-abbiamo-futuro/' title='“Noi Abbiamo Futuro„ su Marcos y Marcos' target='_blank'>**Noi Abbiamo Futuro**</a>z/cite>, il romanzo che racconta l’incredibile viaggio **in Ape** di una decina di adolescenti **da Bologna a Stoccolma**. È una storia bellissima, emozionante, realmente accaduta ma quasi verosimile. Dentro questo libro non c’è solo il viaggio, anche la filosofia e un po’ della storia di Radioimmaginaria. Potete <a href='https://www.ibs.it/noi-abbiamo-futuro-libro-michele-ferrari/e/9788871689067' target='_blank' title='“Noi Abbiamo Futuro„ su Ibs'>preordinarlo</a> oppure scrivetemi che ve lo presto. Va letto per capire chi è questa gente che dice <q>siamo in missione per conto del futuro</q>.
+Sono in treno perché sto tornando dalla [Teen Parade](https://radioimmaginaria.it/teenparade) di [Radioimmaginaria](https://radioimmaginaria.it), quest’anno tenutasi a Genova. Oltre alla felicità di incontrare di nuovo tutti i fantastici tipi immaginari, ho comprato e letto stanotte tutto d’un fiato <cite>[**Noi Abbiamo Futuro**](https://marcosymarcos.com/libri/marcosultra/noi-abbiamo-futuro/ '“Noi Abbiamo Futuro” – Marcos y Marcos')</cite>, il romanzo che racconta l’incredibile viaggio **in Ape** di una decina di adolescenti **da Bologna a Stoccolma**. È una storia bellissima, emozionante, realmente accaduta ma quasi verosimile. Dentro questo libro non c’è solo il viaggio, anche la filosofia e un po’ della storia di Radioimmaginaria. [Potete preordinarlo](https://www.ibs.it/noi-abbiamo-futuro-libro-michele-ferrari/e/9788871689067 '“Noi Abbiamo Futuro” su IBS') oppure scrivetemi che ve lo presto. Va letto per capire chi è questa gente che dice <q>siamo in missione per conto del futuro</q>.
 
 ## Pezzetto quattro
 

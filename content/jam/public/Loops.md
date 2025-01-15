@@ -8,4 +8,4 @@ aliases: Habits
 redirect_from: [/habits/,/routine/]
 toc: false
 ---
-Getting new healthy habits is the best way to accomplish a healthier lifestyle and accomplish an ever greater [[Self improvement]].
+Getting new healthy habits is the best way to accomplish a healthier lifestyle and accomplish an ever greater [Self improvement](Self%20improvement.md).

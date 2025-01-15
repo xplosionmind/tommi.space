@@ -10,12 +10,12 @@ redirect_from:
   - /backups/
   - /images/
 ---
-In the 21<sup>st</sup> century, storing information storage a major challenge. It is difficult to properly preserve personal data and memories, especially given the privacy and ethical concerns surrounding potential solutions. Although I am not an expert with enough time to devote to these issues, I am still quite interested in them and will share some thoughts here. I still carry the anxiety of two traumatic [[Data loss|data losses]], which makes everything more difficult, but more important.
+In the 21<sup>st</sup> century, storing information storage a major challenge. It is difficult to properly preserve personal data and memories, especially given the privacy and ethical concerns surrounding potential solutions. Although I am not an expert with enough time to devote to these issues, I am still quite interested in them and will share some thoughts here. I still carry the anxiety of two traumatic [data losses](Data%20loss.md), which makes everything more difficult, but more important.
 
 ## Needs
 
 1. **Durability**: I want to be able to effortlessly access all of my data now as 30 years from now.
-2. **Reliability**: my storage system has to be <u>absolutely **fail-proof**</u> (of course, no system is. I need to achieve the best reliability I can afford). [[Data loss|I cannot lose any of my data again]].
+2. **Reliability**: my storage system has to be <u>absolutely **fail-proof**</u> (of course, no system is. I need to achieve the best reliability I can afford). [I cannot lose any of my data again](Data%20loss.md).
 3. **Scalability**: the amount of pictures collected and stored by everyone in the world is [growing at a tremendously fast pace](https://piwigo.com/blog/2020/12/04/flickr-google-photos-the-end-of-free-photo-hosting/ 'Flickr, Google Photos… The end of free photo hosting?'), my pictures are no exception. I would prefer not to end up stuck in a resources consuming framework which is great with 2TB of pictures, but makes 10TB of pictures unmanageable.
 4. **Affordability**: I should not spend too much on this. In the end, shooting pictures is not my job.
 5. **Sustainability**: the solution should have the minimum impact possible on the environment, already plagued by the heavy consumption of resources the tech industry causes.
@@ -25,20 +25,20 @@ In the 21<sup>st</sup> century, storing information storage a major challenge. I
 
 ## Doubts
 
-- Can I rely on [[Flickr to Piwigo]] alone to host all of my JPGs, even my private ones? *No*
+- Can I rely on [Flickr to Piwigo](Flickr%20to%20Piwigo.md) alone to host all of my JPGs, even my private ones? *No*
 	- is it reliable? How much do I risk of losing my data? *Not too much. Not more reliable than any server around the world*.
 	- is it secure? Are my private pictures somehow server-side encrypted? *[**No encryption**](https://piwigo.org/forum/viewtopic.php?id=31166 'How much can I trust Piwigo with my private pictures?'). Not the best option to backup pictures*
-- Does it make sense to use my [[Cubbit]]‘s 4TB for long-term picture storage? *It does, as long as [[Cubbit#Feature requests|some features]] will be included*
-- Should I use portable Hard Disks, as the ones I already have, or internal hard disks to plug to [[Linuxplosion]]? *None of the two, if the Cubbit solution works*
+- Does it make sense to use my [Cubbit](Cubbit.md)‘s 4TB for long-term picture storage? *It does, as long as [some features](Cubbit.md#Feature%20requests) will be included*
+- Should I use portable Hard Disks, as the ones I already have, or internal hard disks to plug to [Linuxplosion](Linuxplosion.md)? *None of the two, if the Cubbit solution works*
 
 ## Laptop backup
 
-![[No backup]]
+[No backup](No%20backup.md)
 
 ## Solution
 
-![[Using Cubbit DS3, or decentralized object storage]]
+[Using Cubbit DS3, or decentralized object storage](Using%20Cubbit%20DS3,%20or%20decentralized%20object%20storage.md)
 
-![[Personal storage management notes]]
+[Personal storage management notes](Personal%20storage%20management%20notes.md)
 
-![[Mobile backup checklist]]
+[Mobile backup checklist](Mobile%20backup%20checklist.md)

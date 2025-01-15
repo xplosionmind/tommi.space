@@ -1,7 +1,7 @@
 ---
 title: Domodossola
 date: 2020-01-14
-image: /2020-01-14-domodossola.jpg
+image: /assets/2020-01-14-domodossola.jpg
 ---
 Ciò che di più bello c’è a Torino, il quattordici gennaio duemilaventi come un giorno qualunque di gennaio come un giorno qualunque di inverno, sono i rami intirizziti stropicciati rinsecchiti che per tutto corso Racconigi si ramificano nel cielo piatto, come neri capillari che lo alimentano del grigiore di cui sembra non riuscire a liberarsi mai.
 
@@ -31,9 +31,9 @@ Noi ora adesso non è che ci possiamo fare molto insomma, possiamo solo fare cos
 
 Noi, che alcuni sono ingegneri e dovrebbero capire il mondo ed essere i primi a spingerlo avanti nel senso più letterale un domani, noi non ci stiamo capendo un belin. Eppure siamo come dei treni, a cui non interessa se la ferrovia fra 100 200 5000 metri venti kilometri finisce, che vanno a fuoco (non che bruciano: “a fuego”, “a tuono”, “a tavoletta”, perché scrivere velocissimo è troppo poco adatto alla mia discontinua e pressoché completamente scorretta scrittura) tanto di rotaie ci sono solo quelle e molte alternative non si vedono.
 
-E come treni, come <a href='https://youtu.be/5bW7m--WiWE' target='_blank'>SQUALI</a> non ci fermiamo, mai, solo per fare la spesa.
+E come treni, come <a href='https://youtube-nocookie.com/embed/5bW7m--WiWE' target='_blank'>SQUALI</a> non ci fermiamo, mai, solo per fare la spesa.
 
-<figure>{% img image, 'alberi capillari in Corso Racconigi a Torino', 'u-photo' %}<figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
+<figure><img src='{{ image }}' alt='alberi capillari in Corso Racconigi a Torino' class='u-photo'><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
 
 ## Alcune note
 

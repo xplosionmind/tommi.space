@@ -1,15 +1,16 @@
 ---
 date: 2022-09-14T17:09:25+02:00
 updated: 2023-01-13T13:08:36+01:00
-location: BDL
 tags:
-  - places
+  - place
+location: BDL
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
+lang: fr
 ---
-Notes et réflexions de la cité ou j’ai vécu [[Erasmus à Grenoble|mon premier Erasmus]].
+Notes et réflexions de la cité ou j’ai vécu [mon premier Erasmus](Erasmus%20à%20Grenoble.md).
 
 <div class='blue box' lang='en'>
-	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://pan.rent' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://pan.rent/web/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
+	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://pan.rent' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://pan.rent/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
 </div>
 
 ## La vie
@@ -24,19 +25,19 @@ Par consequence, forcément je suis obligé à supprimer mes nombreux instincts 
 
 ## Mes endroits
 
-<a href='https://tommi.space/places' target='_blank' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
+<a href='/places/' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
 
 {% render 'city-places.liquid', places: places, city: 'Grenoble' %}
 
 ## Aller voire
 
-Tous les lieus ou j’aurais voulu
+Tous les lieus ou j’aurais voulu aller :
 
-- [ ] [Le bon label](https://lebonlabel.com), café brasserie
-- [ ] [L’Amperage](https://amperage.fr), local pour musiciens émergents locaux
-- [ ] <cite>[Antigone](https://www.bibliothequeantigone.org 'Antigone, café bibliothèque')</cite>, café bibliothèque
-- [ ] Marché de l’Estacade
-- [ ] <cite>La remise</cite>
-- [ ] <cite>Le 38, au lieu commun</cite>
-- [ ] <cite>Petit vélo dans la tête</cite> centre ville
-- [ ] Parc Karl Marx
+- [Le bon label](https://lebonlabel.com), café brasserie
+- [L’Amperage](https://amperage.fr), local pour musiciens émergents locaux
+- <cite>[Antigone](https://www.bibliothequeantigone.org 'Antigone, café bibliothèque')</cite>, café bibliothèque
+- Marché de l’Estacade
+- <cite>La remise</cite>
+- <cite>Le 38, au lieu commun</cite>
+- <cite>Petit vélo dans la tête</cite> centre ville
+- Parc Karl Marx

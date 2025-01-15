@@ -1,0 +1,36 @@
+---js
+{
+	title: 'Now',
+	location: function (data) {
+		return this.site.author.based
+	},
+	description: 'An incomplete and superficial summary of what I am doing',
+	layout: 'sidebar.liquid',
+	ref: 'now',
+	permalink: '/now/',
+	include: "<div class='blue box'>This page is part of <a href='https://sive.rs/nowff' title='Now page - Derek Sivers'>a super cool movement</a> started by <a href='https://sive.rs' title='Derek Sivers’ personal website'>Derek Sivers</a> in 2015. To learn more, visit <a href='https://nownownow.com/about' title='About NowNowNow'>nownownow.com</a>, a <a href='https://en.wikipedia.org/wiki/Webring' title='Webring on Wikipedia'>webring</a> collecting sites that contain a <code>/now</code> page.</div>",
+	updated: function (data) {
+		return this.collections.now[0].data.date
+	},
+	eleventyExcludeFromCollections: false,
+}
+---
+<p>{{ description }}:</p>
+
+{% for now in collections.now %}
+		{% if forloop.first %}
+			<div id='{{ now.fileSlug }}'>
+			{{ now.content | markdownify }}
+		{% elsif forloop.index == 2 %}
+			<h2>🔙 Previously doing</h2>
+			<div id='{{ now.fileSlug }}' class='box'>
+				<h3>{{ now.data.date | date_to_long_string }}</h3>
+				{{ now.content | markdownify | replace: 'h2', 'h4' }}
+			</div>
+		{% else %}
+			<div id='{{ now.fileSlug }}' class='box'>
+				<h3>{{ now.data.date | date_to_long_string }}</h3>
+				{{ now.content | markdownify | replace: 'h2', 'h4' }}
+			</div>
+		{% endif %}
+{% endfor %}

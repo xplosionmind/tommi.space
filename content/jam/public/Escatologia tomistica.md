@@ -1,17 +1,17 @@
 ---
 date: 2023-01-08T22:30:04+01:00
 updated: 2023-01-12T16:26:02+01:00
-location: home
 tags:
   - zen
   - draft
+location: Xplosion Attic
 lang: it
 ---
 Fino al termine del mio unico semestre da ingegnere in erba presso il Politecnico di Torino, percepivo una sensibilità ed una poesia in qualunque angolo della mia quotidianità, stranamente molto maggiormente rispetto alla mia successiva iscrizione al [PISE](https://unive.it/pise 'Philosophy, International Studies and Economics — Ca’ Foscari University of Venice'), che è invece una laurea umanistica, sicuramente più direttamente in connessione a ciò che era stato oggetto di puro anelito non-accademico.
 
-Studiando materie puramente scientifiche attribuivo a qualunque elemento poetico, letterario, filosofico o, più in generale, umanistico una sorta di valore fortemente **escatologico**, mentre studiando *direttamente* queste cose con [[Tomminess|la classica superficialità tomistica]] mi sento oppresso da una quantità infinita di nozioni e collegamenti che invece mi schiacciano in un’[[Anxiety]] limitante e paralizzante.
+Studiando materie puramente scientifiche attribuivo a qualunque elemento poetico, letterario, filosofico o, più in generale, umanistico una sorta di valore fortemente **escatologico**, mentre studiando *direttamente* queste cose con [la classica superficialità tomistica](Tomminess.md) mi sento oppresso da una quantità infinita di nozioni e collegamenti che invece mi schiacciano in un’ansia limitante e paralizzante.
 
-Lo spazio libero di “ignoranza umanistica” donato da un approccio tecnico-teorico al mondo mi permetteva di vedere in tutto ciò che trascendeva la tecnica un magico potere escatologico, una fuga dai limiti dei modelli numerici o, ancora meglio, partire da questi per elaborare pensieri filosofici, come, ad esempio, <cite lang='en'>[[Life Functions]]</cite>.
+Lo spazio libero di “ignoranza umanistica” donato da un approccio tecnico-teorico al mondo mi permetteva di vedere in tutto ciò che trascendeva la tecnica un magico potere escatologico, una fuga dai limiti dei modelli numerici o, ancora meglio, partire da questi per elaborare pensieri filosofici, come, ad esempio, <cite lang='en'>Life Functions</cite>.
 
 ## <em lang='fr'>L’homme serieux</em>
 

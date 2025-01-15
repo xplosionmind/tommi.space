@@ -1,5 +1,5 @@
 ---
-date: 2022-02-02T08:57:44+01:00
+date: 2022-02-01T10:05+01:00
 updated: 2023-03-29T05:29:18+02:00
 location: home
 tags:
@@ -17,8 +17,6 @@ Currently, a [Baserow](https://baserow.io 'Baserow official website') instance i
 
 Furthermore, I also envisioned to expand the usage of <cite lang='it'>Pino</cite> and turn it into a platform to share event ideas. I get into this in the audio that I originally sent on *Scambi*’s ideas’ group chat:
 
-<audio controls
-	lang='it'>
-	<source src='https://tommi.space/pino-concept.ogg' type='audio/ogg'>
-	<source src='https://tommi.space/pino-concept.mp3' type='audio/mp3'>
+<audio controls lang='it'>
+	<source src='/pino-concept.ogg' type='audio/ogg'>
 </audio>

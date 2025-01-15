@@ -25,5 +25,3 @@ Per questo io annovero _Il Conte di Montecristo_ tra i miei romanzi preferiti e 
 > L’uomo propone, Dio dispone
 
 Tutta la durezza e l’ostilità del mondo moderno stanno forse nelle spropositate esigenze dell’uomo rispetto a quanto Dio può disporre?
-
-![Un’inquadratura del Conte di Montecristo dall’adattamento in film](https://www.mistermovie.it/wp-content/uploads/2016/06/il-conte-di-montecristo-film-William-Eubank-2.jpg)

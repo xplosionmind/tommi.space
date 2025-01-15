@@ -1,4 +1,4 @@
-# ⚠️ Tommi’s mind 🤯
+<h1 align='center'>⚠️ Tommi’s mind 🤯</h1>
 
 This repository contains the virtual representation of the mess inside [Tommi](https://tommi.space/home/#about 'About Tommi')’s mind.
 
@@ -14,7 +14,6 @@ This website is proudly built with [Eleventy](https://11ty.dev 'Eleventy officia
 
 This website is self-hosted on [*Nebuchadnezzar*](https://tommi.space/neb/ 'Nebuchadnezzar’s page on tommi.space'), Tommi’s server.
 
-## ℹ️  Info
+## ℹ️ Info
 
 Go to the [website development page](https://tommi.space/meta/ 'Website development - tommi.space').
-

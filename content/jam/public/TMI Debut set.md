@@ -6,11 +6,11 @@ tags:
   - log
 location: Casa R19
 description: Playlist of the first DJ set by TMI
-image: /tmi1.webp
+image: /assets/tmi1.webp
 permalink: /tmi/1/
 toc: false
 ---
-My debut as pseudo-DJ took place during a party we hosted at <cite>[Casa R19](https://r19.casa)</cite>. It went surprisingly well. These are the songs I played[^1].
+My debut as pseudo-DJ took place during a party we hosted at <cite>Casa R19</cite>. It went surprisingly well. These are the songs I played[^1].
 
 1. Mozart – <cite>[Eine kleine Nachtmusik](https://musicbrainz.org/recording/3f167002-0ede-43bc-895a-6ed84cfe3e3b 'Recording “Serenade Nr 13 G-dur, KV 525 "Eine kleine Nachtmusik": 1. Allegro” by Berliner Philharmoniker, Herbert von Karajan - MusicBrainz')</cite>
 2. Caparezza – <cite>[Non me lo posso permettere](https://musicbrainz.org/recording/9e70df2e-c1a0-4fb2-b178-58a161aababb 'Recording “Non me lo posso permettere” by Caparezza - MusicBrainz')</cite>

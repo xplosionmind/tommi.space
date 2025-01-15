@@ -1,7 +1,7 @@
 ---
 title: Squali Consapevoli
 date: 2019-08-30
-image: /2019-08-30-squali-consapevoli.jpg
+image: /assets/2019-08-30-squali-consapevoli.jpg
 tags:
   - everyone
 ---
@@ -12,8 +12,8 @@ per realizzare i nostri sogni?
 Ho cercato per mesi e trovato solo in alcuni attimi parole finora sbagliate per riuscire a raccontare il mio piccolo, non definitivo, quasi raggiunto, sogno a cui lavoro da un’eternità, praticamente.
 
 <figure>
-  {% img image, 'Una fuga romantica in pigiama', 'u-photo' %}
-  <figcaption>la classica fuga romantica, in pigiama però (da un frame di <cite><a href='/everyone' target='_blank'><cite>Everyone</cite></a></cite>)</figcaption>
+	<img src='{{ image }}' alt='Una fuga romantica in pigiama' class='u-photo'>
+	<figcaption>la classica fuga romantica, in pigiama però (da un frame di <cite><a href='/everyone' target='_blank'><cite>Everyone</cite></a></cite>)</figcaption>
 </figure>
 
 Scrivo fiumi di parole senza senso, frutto del delirio causato dal più intenso entusiasmo e dalla più devastante agitazione trovano ora un perché ed una forma, nella notte insonne che precede per ogni creatore il debutto della sua opera.
@@ -78,6 +78,6 @@ Consapevoli che il traguardo finale, passando per tutte le tappe che vogliamo e 
 
 e non vuole più muoversi, né uscire.
 
-[Qui](https://tommi.space/it/everyone) il sito ufficiale del corto.
+[Qui](/it/everyone/) il sito ufficiale del corto.
 
-(Squalo Consapevole è anche sinonimo di [[Stambecco Cinetico]], che è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout)) (è davvero bello e ne sono orgoglioso))
+(Squalo Consapevole è anche sinonimo di [Stambecco Cinetico](../jam/public/Stambecco%20Cinetico.md), che è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout)) (è davvero bello e ne sono orgoglioso))

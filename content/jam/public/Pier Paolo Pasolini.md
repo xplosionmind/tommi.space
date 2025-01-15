@@ -7,7 +7,8 @@ tags:
   - people
 permalink: /pasolini/
 ---
-> l’idea cioè che qualcuno, per scrivere qualcosa, debba possedere <q>autorevolezza</q>. Io non capisco sinceramente come possa venire in mente una cosa simile. Ho sempre pensato, come qualsiasi persona normale, che dietro a chi scrive ci debba essere necessità di scrivere, libertà, autenticità, rischio. Pensare che ci debba essere qualcosa di sociale e di ufficiale che «fissi» l’autorevolezza di qualcuno, è un pensiero, appunto aberrante, dovuto evidentemente alla deformazione di chi non sappia più concepire verità al di fuori dell’autorità.  
+> l’idea cioè che qualcuno, per scrivere qualcosa, debba possedere <q>autorevolezza</q>. Io non capisco sinceramente come possa venire in mente una cosa simile. Ho sempre pensato, come qualsiasi persona normale, che dietro a chi scrive ci debba essere necessità di scrivere, libertà, autenticità, rischio. Pensare che ci debba essere qualcosa di sociale e di ufficiale che «fissi» l’autorevolezza di qualcuno, è un pensiero, appunto aberrante, dovuto evidentemente alla deformazione di chi non sappia più concepire verità al di fuori dell’autorità.
+>
 > Io non ho alle mie spalle nessuna autorevolezza: se non quella che mi proviene paradossalmente dal non averla e dal non averla voluta; dall’essermi messo in condizione di non aver niente da perdere, e quindi di non essere fedele a nessun patto che non sia quello con un lettore che io considero degno di ogni più scandalosa ricerca
 
 <p class='cite'><cite>Chiesa e Potere</cite>, Corriere della Sera del <time datetime='1974-10-06'>6 ottobre 1974</time></p>
@@ -25,7 +26,7 @@ permalink: /pasolini/
 
 - Come si sposa con Pasolini la comunque oggettiva (dati?) diminuzione della miseria in Italia?
 - Perché il proletariato non è omologato?
-- La sottocultura che determina il modo in cui si esprime una posizione. Capelli lunghi: sinistra; linguaggio non verbale: destra.  
+- La sottocultura che determina il modo in cui si esprime una posizione. Capelli lunghi: sinistra; linguaggio non verbale: destra.
 Scelta **esteriore**, non autentica perché standard. -> **provocazione** trans-partitica: fusione destra-sinistra.
 - Condannando l’omologazione, non sanno di essere omologati essi stessi.
 - Volgarità e servilità nel seguire la moda.

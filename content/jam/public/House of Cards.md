@@ -5,6 +5,6 @@ tags:
   - politics
   - cinema
 ---
-The concept of doing what one has to do, explained in [[La morte di Ivan Ilic]]:
+The concept of doing what one has to do, explained in [La morte di Ivan Ilic](La%20morte%20di%20Ivan%20Ilic.md):
 
-![[La morte di Ivan Ilic#Il faut que jeunesse se passe]]
+[La Morte di Ivan Ilic \> <em lang='fr'>Il faut que jeunesse se passe</em>](La%20morte%20di%20Ivan%20Ilic.md#Il%20faut%20que%20jeunesse%20se%20passe)

@@ -10,7 +10,7 @@ Notes on <cite><a href='https://www.nirandfar.com/indistractable'>Indistractable
 
 p.7
 
-From Plato’s <cite><a href='https://classics.mit.edu/Plato/phaedrus.html'>Phaedrus</a></cite>: Socrates points out that the written word <q cite="Socrates">forgetfulness in the learners’ soul</q>
+From Plato’s <cite><a href='https://classics.mit.edu/Plato/phaedrus.html'>Phaedrus</a></cite>: Socrates points out that the written word <q>forgetfulness in the learners’ soul</q>
 
 The first, main and primary cause of distraction is not the more immediate one, the one intuitively linked to our activity, but it’s much deeper, and it lies in our response:\
 > Distraction, it turns out, isn’t about the distraction itself; rather, it’s about how we respond to it.
@@ -25,7 +25,7 @@ p.26
 >
 > *Only by understanding our pain can we begin to control it and find better ways to deal with negative urges.*
 
-Therefore, dealing with distractions starts from dealing with the internal cause prior to the contingent events. We need to narrow it down to internal triggers which start everything.  
+Therefore, dealing with distractions starts from dealing with the internal cause prior to the contingent events. We need to narrow it down to internal triggers which start everything.
 Without doing so we’d be going from one distraction to another Blaise Pascal.
 
 p.27

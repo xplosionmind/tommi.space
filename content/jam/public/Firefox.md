@@ -2,8 +2,8 @@
 date: 2020-07-03T02:00:00+02:00
 updated: 2022-10-14T10:53:59+02:00
 tags: geek/apps
-description: |
-  I consider myself a Firefox power user: I love it and I try to take full advantage of its features. Here’s how I do it.
+description: 'I consider myself a Firefox power user: I love it and I try to take full advantage of its features. Here’s how I do it.'
+toc: true
 todo:
   - general update
   - check `about:config` settings
@@ -16,17 +16,11 @@ Three different add-ons configurations can be found in my [Firefox Collections](
 - [main](https://addons.mozilla.org/en-US/firefox/collections/13538650/main/ '“main” extensions collection') configuration: the main extensions I use + integrated tools to take advantage of the services I use in the best way possible.
 - [extra](https://addons.mozilla.org/en-US/firefox/collections/13538650/extra/ '“extra” extensions collection - Firefox AddOns') configuration, extra add-ons to enjoy all the bells and whistles extensions can offer
 
-## Shortcuts
-
-Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly 'Keyboard Shortcuts - Mozilla Support').
-
-[Developer toolbox shortcuts](https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts 'Keyboard shortcuts - MDN')
-
 ## Missing
 
 Even though Firefox is my go-to browser and I absolutely love it, it lacks some features which I really miss. I keep track of them below:
 
-- Easy and quick site-specific tracking, fingerprinting and cookies settings (Like in [[Brave]])
+- Easy and quick site-specific tracking, fingerprinting and cookies settings (Like in [Brave](https://brave.com))
 
 ## Monoline
 
@@ -64,6 +58,4 @@ A record of all the tweaks I made in Firefox `about:config` page
 
 ## Resources
 
-- [PrivacyTools](https://www.privacytools.io/browsers/#about_config "about:config section on PrivacyTools")
 - [Mikaela Suomalainen](https://mikaela.info/browser-extensions.html "Browser extensions on mikaela.info")
-- [PrivacyTools Community post](https://forum.privacytools.io/t/changing-the-firefox-tweaks-recommendation/4752 "Changing the Firefox Tweaks Reccomendation")

@@ -6,7 +6,7 @@ tags:
   - event
 description: Random notes from VeUMEU 2022
 link: https://univiu.org/viu-life/veumeu-2022-venice-universities-model-european-union
-image: https://tommi.space/veumeu.webp
+image: /assets/veumeu.webp
 ---
 This page contains random notes and points from [VeUMEU 2022](https://univiu.org/viu-life/veumeu-2022-venice-universities-model-european-union 'Venice Universities’ Model European Union 2022').
 
@@ -24,7 +24,7 @@ Aiming at evenly distributing the cost to sustain in order to carry out the <q>g
 
 ### Fidesz’s points
 
-- we already have our [Climate Protection Law](https://hungarytoday.hu/parlt-passes-climate-protection-law/ 'Parliament Passes Climate Protection Law - Hungary Today'), proving that Europe is strong-arming its own terms on a regulatory change that states originally intend to pursue in the first place
+- we already have our [Climate Protection Law](https://web.archive.org/web/20230201091629/https://hungarytoday.hu/parlt-passes-climate-protection-law/ 'Parliament Passes Climate Protection Law - Hungary Today'), proving that Europe is strong-arming its own terms on a regulatory change that states originally intend to pursue in the first place
 - how to redistribute and how to make polluters pay should be up to member states alone
 - the institution of the Fund as a complementary tool means that EU is building a house of cards of regulations on top of regulations and each one should fix the problems of the other
 - Article 8: member states are left with the legislative burden of enacting regulations whose terms that they did not choose. They should have the liberty of modifying the terms themselves. The regulation should have a greater flexibility.

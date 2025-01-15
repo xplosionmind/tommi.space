@@ -5,7 +5,7 @@ altUrl: https://tommi.space/internet-awesomeness/
 permalink: /internet-awesomeness.xml
 layout: feed.xml.liquid
 ---
-{% assign ia = internetawesomeness | sort: 'added' | reverse %}
+{% assign ia = internetAwesomeness | where: 'down', '' | sort: 'added' | reverse %}
 {% for entry in ia limit: 10 %}
 	<item>
 		<title>{{ entry.title }}</title>
@@ -14,6 +14,6 @@ layout: feed.xml.liquid
 		<author>{{ site.author.email }} ({{ site.author.name }})</author>
 		<category>{{ tags | replace: ' ', '</category><category>' }}</category>
 		<guid>{{ entry.url }}</guid>
-		<pubDate>{{ entry.added | date: '%a, %-d %b %Y %H:%m:%S %z' }}</pubDate>
+		<pubDate>{{ entry.added | date_to_rfc822 }}</pubDate>
 	</item>
 {% endfor %}

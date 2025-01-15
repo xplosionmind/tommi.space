@@ -6,7 +6,6 @@ tags:
   - draft
 lang: it
 description: Cos’è l’Hebertismo
-toc: false
 ---
 L’Hebertismo è la filosofia di vita secondo cui la forma fisica deve essere mantenuta e allenata attraverso strumenti naturali, ideata ad inizio XX secolo da Georges Hébert.
 
@@ -21,5 +20,5 @@ Ho deciso di approfondire un po’ più il significato del termine, le sue origi
 - [Hebertisme Wikipedia page](https://fr.wikipedia.org/wiki/Hébertisme) 🇫🇷
 - [Hebertismo su Wikipedia](https://it.wikipedia.org/wiki/Hébertismo)
 - [Hebert on Wikipedia](https://en.wikipedia.org/wiki/Georges_Hébert) 🇬🇧
-- <http://www.etrefort.it>
+- [Êtrefort](https://web.archive.org/web/20240625162129/https://www.etrefort.it/ 'Êtrefort, archived version')
 - <https://hebertismo.wordpress.com>

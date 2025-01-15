@@ -2,7 +2,6 @@
 title: Scaricare film, come si deve
 date: 2020-06-01
 updated: 2021-03-12T11:43:17+01:00
-layout: jam.html
 permalink: /scaricare-film/
 toc: true
 image: https://crops.giga.de/1e/b5/dd/dbf063aee9a3e3f9e2a21ba6bd_YyAxMjAzeDY3NyszOCsyMgJyZSAxMDAwIDU2MwMxNWQwYTllOWFiYg==.jpg
@@ -10,7 +9,7 @@ redirect_from: [/torrent/]
 ---
 ## Premessa
 
-Questo articolo contiene le istruzioni step-by-step per scaricare contenuti multimediali online. Se avessi bisogno di aiuto [scrivimi]({{ site.encoded_mailto }} 'Scrivimi un’email').
+Questo articolo contiene le istruzioni step-by-step per scaricare contenuti multimediali online. Se avessi bisogno di aiuto [scrivimi](mailto:{{ site.author.email | obfuscateEmail }} 'Scrivimi un’email').
 
 <div class='yellow box'>
 	<strong>Nota</strong>: queste istruzioni vanno eseguite da computer, da telefono è molto più complicato e noioso, per cui conviene scaricare il film da computer e poi trasferirlo su telefono con il cloud o via cavo.
@@ -52,7 +51,9 @@ Una volta entrati nel sito, basta individuare la barra di ricerca ed inserire il
 
 È assolutamente normale dover cliccare diverse volte sul tasto di ricerca, prima di vedere i risultati della ricerca e non dei siti poco ortodossi con pubblicità invadenti. Basta chiudere le pagine inopportune senza cliccare nulla, e continuare a cliccare sul tasto desiderato; prima o poi funzionerà.
 
-![A Pirate Bay results page](/piratebay-search.jpg)
+<figure>
+	<img src='/assets/piratebay-search.jpg' alt='Screenshot of a search result on Piratebay'>
+</figure>
 
 <div class='yellow box'>
 	I nomi dei risultati della ricerca sono sempre lunghissimi e contengono sigle che rivelano informazioni estremamente importanti sul file che contegono. Elencherò di seguito le sigle più importanti; una lista completa può esser cosultataa<a href='https://ildottoredeicomputer.it/il-significato-delle-sigle-di-torrent-cam-ts-fs-ws-md' title='Il Significato delle sigle Torrent'>qui</a>) oa<a href='https://en.wikipedia.org/wiki/Pirated_movie_release_types' title='Pirated movie release types'>qui</a>.
@@ -69,7 +70,9 @@ Una volta entrati nel sito, basta individuare la barra di ricerca ed inserire il
 
 Una volta che si è selezionato il film, cliccando comparirà una pagina, in cui bisogna cercare questa piccola icona, che indica il magnet link. Alternativamente, si può cliccare su “download torrent”. Su The Pirate Bay è così:
 
-![A torrent file page on The Pirate Bay](/magnet-link.jpg)
+<figure>
+	<img alt='A torrent file page on The Pirate Bay' src='/assets/magnet-link.jpg'>
+</figure>
 
 <div class='red box'>
 	<strong>ATTENZIONE</strong>: in moltissimi casi, la scritta “download torrent” è una pubblicità; cliccarci può portare a risultati sipacevoli. Individuare con criterio il pulsante giusto. Di solito, la scritta che funziona è quella più sobria e meno grande, come quella nell’immagine sopra.
@@ -81,7 +84,9 @@ Il grosso, ora è fatto. Se tutto ha funzionato, dopo aver cliccato sul magnete 
 
 Successivamente, si aprirà qBittorrent e vi mostrerà una finestra simile a questa:
 
-![qBittorrnt dialogue page](/qbittorrent-import.jpg)
+<figure>
+	<img alt='qBittorrnt dialogue page' src='/assets/qbittorrent-import.jpg'>
+</figure>
 
 In caso aveste intenzione di cominciare a guardare il film immediatamente, basta spuntare “download in sequential order”, o il corrispettivo in italiano che non mi ricordo.
 
@@ -93,7 +98,9 @@ Per scaricarli, basta digitare il titolo del film e selezionare la lingua deside
 
 I risultati possono essere ordinati per numero di download. Di solito, più download significa maggiore accuratezza e affidabilità.
 
-![An Open Subtitles window](/opensubtitles-download.jpg)
+<figure>
+	<img alt='An Open Subtitles window' src='/assets/opensubtitles-download.jpg'>
+</figure>
 
 <div class='yellow box'>
 	<strong>NOTA</strong>: i sottotitoli potrebbero essere basati su file di film diversi da quello da voi scaricato, dalla durata lievemente differente. In questo caso ci sono due alternative: o si traslano i sottotitoli già scaricati, oppure si scarica un altro file, finchè non si trova quello giusto.

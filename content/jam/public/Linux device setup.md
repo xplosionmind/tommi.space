@@ -23,7 +23,7 @@ Albeit my personal impulse would be to burn each step of this list as quickly as
 	- NerdFont for CLI
 	- Inter
 	- EB Garamond
-5. Install and configure [Oh My Zsh](https://ohmyzsh.org)
+5. Install and configure [Oh My Zsh](https://ohmyz.sh)
 6. Install and configure [neovim](https://neovim.io)
 	- Configure and install [sensible.vim](https://github.com/tpope/vim-sensible 'sensible.vim on GitHub'), to associate keybindings to commands on Vim
 7. Configure [SSH](https://en.wikipedia.org/wiki/SSH 'Secure Shell on Wikipedia')

@@ -8,3 +8,4 @@ tags:
   - dumped
 ---
 Unpopular opinion. It is about the 1% and the toxic ideal of the American dream in which you always need to be one step ahead (ish). Quelli che benpensano Frankie Hi NRG
+

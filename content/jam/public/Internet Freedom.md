@@ -30,7 +30,7 @@ Avoid [Neo-Luddism](https://en.wikipedia.org/wiki/Neo-Luddism 'Neo-Luddism on Wi
 
 ## Time
 
-**Digital awareness is time consuming**.  
+**Digital awareness is time consuming**.
 The only excuse I accept from people refusing to inform themselves about how we are being sucked into a worryingly inescapable and uncontrollable ecosystem is that <u>they don’t have time</u>.
 
 I get it. I “wasted” hours, days, reading articles and watching videos concerning the internet, its functioning and its governance. I wish this matter could be simpler and more clear, but understanding internet monopoly both requires a fair amount of technical knowledge and it is a subtle matter.
@@ -39,9 +39,9 @@ I get it. I “wasted” hours, days, reading articles and watching videos conce
 
 Just complaining, waiting for things to get better, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.
 
-To change something and to make things better we need to [[Quit and switch|switch]] to healthier, more ethical, often even cooler alternatives.
+To change something and to make things better we need to [switch](Quit%20and%20switch.md) to healthier, more ethical, often even cooler alternatives.
 
-![[Quit and switch]]
+[Quit and switch](Quit%20and%20switch.md)
 
 ## Resources
 
@@ -54,7 +54,6 @@ Random links about privacy online
 - [Richard Stallman’s website](http://stallman.org "Richard Stallman personal website")
 - [Privacy Guides](https://privacyguides.org)
 - [Why Privacy Matters - TED Talk](https://ted.com/talks/glenn_greenwald_why_privacy_matters '“Why Privacy Matters” on TED Talks')
-- [CryptoPaper](https://github.com/cryptoseb/CryptoPaper)
 - [Andy Yen (ProtonMail CEO) TED Talk](https://ted.com/talks/andy_yen_think_your_email_s_private_think_again)
 - [Nothing to hide argument](https://en.wikipedia.org/wiki/Nothing_to_hide_argument)
 	- [How to counter it - 1](https://reddit.com/r/privacy/comments/3hynvp/how_do_you_counter_the_i_have_nothing_to_hide/)
@@ -70,7 +69,7 @@ Random links about privacy online
 - [Presa Diretta "riprendiamoci i nostri dati"](https://www.raiplay.it/video/2020/03/speciale-tg1-ad78f734-b4af-443b-ad3f-08bf9194b9fb.html)
 - [Luke Smith’s stuff](https://lukesmith.xyz)
 	- [internet independence playlist](https://youtube.com/playlist?list=PL-p5XmQHB_JRRnoQyjOfioJdDmu87DIJc)
-	- [replace social media with RSS](https://lukesmith.xyz/blog/a-guide-to-using-rss-to-replace-social-media)
+	- [replace social media with RSS](https://web.archive.org/web/20211210163301/https://lukesmith.xyz/blog/a-guide-to-using-rss-to-replace-social-media 'A Guide on using RSS to replace Social Media (Archived version)')
 - [Open Media Codecs](https://research.mozilla.org/av1-media-codecs/)
 - [Google Watches You](https://mobile.reuters.com/article/idUSKCN24F2N4)
 - [Movim](https://movim.eu/), social network and XMPP messaging app
@@ -81,8 +80,7 @@ Random links about privacy online
 - [Do not track Documentary](https://donottrack-doc.com) (2015)
 - [donttrack.us](https://donttrack.us/)
 - [PrivacySpy](https://privacyspy.org/)
-- [PriBot](https://pribot.org)
-- [The Social Dilemma creators interview](https://youtu.be/rOL35bOCDWU)
+- [The Social Dilemma creators interview](https://youtube-nocookie.com/embed/rOL35bOCDWU)
 - [Switching Software](https://switching.software)
 - [Take Control](https://humanetech.com/take-control) of your tech life in seven moves
 - [WhatsApp vs Telegram vs Signal](https://beebom.com/whatsapp-vs-telegram-vs-signal/)
