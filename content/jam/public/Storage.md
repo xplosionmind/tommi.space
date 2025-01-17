@@ -33,12 +33,10 @@ In the 21<sup>st</sup> century, storing information storage a major challenge. I
 
 ## Laptop backup
 
-[No backup](No%20backup.md)
+[I do not use any traditional “backup”](No%20backup.md). All I need are [tdm](tdm.md) and [Sam](Sam.md).
 
 ## Solution
 
-[Using Cubbit DS3, or decentralized object storage](Using%20Cubbit%20DS3,%20or%20decentralized%20object%20storage.md)
-
-[Personal storage management notes](Personal%20storage%20management%20notes.md)
-
-[Mobile backup checklist](Mobile%20backup%20checklist.md)
+- [Using Cubbit DS3, or decentralized object storage](Using%20Cubbit%20DS3,%20or%20decentralized%20object%20storage.md)
+- [Personal storage management notes](Personal%20storage%20management%20notes.md)
+- [Mobile backup checklist](Mobile%20backup%20checklist.md)

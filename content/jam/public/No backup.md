@@ -1,9 +1,10 @@
 ---
-title: I don’t need a backup
 date: 2023-11-27T20:44:00+01:00
-location: xHain
+updated: 2025-01-17T10:49:00
+title: I don’t need a backup
 tags:
   - geek
+location: xHain
 ---
 After *a lot* of thinking about [backup solutions](Storage.md) and how to implement them, I realized that actually a full backup of my main device (my laptop) is useless for me. What I have on my device either…
 
@@ -12,3 +13,7 @@ After *a lot* of thinking about [backup solutions](Storage.md) and how to implem
 - …is **already on the cloud**: usually, most of my work resides on some cloud platform, and the files are merely synchronized on my laptop. Losing my copy is not of any damage, since data are already safe online (and cloud solutions I use have their own reliable backup strategies)
 
 Therefore, the only thing I have to save are [my configuration files](https://codeberg.org/tommi/dotfiles 'Tommi’s dotfiles on Codeberg'), commonly nicknamed as [dotfiles](https://wiki.archlinux.org/title/Dotfiles '“Dotfiles” in Arch Linux wiki'). To do so, I use [tdm](tdm.md).
+
+## Update
+
+As I am [migrating from Fedora 41 to Debian Trixie (Testing)](Migrating%20from%20Fedora%2041%20to%20Debian%20Trixie%20(Testing).md), I am also realizing that there is a set of files containing sensitive data, or not worth
