@@ -2,6 +2,7 @@
 title: One Resolution, One Revolution
 started: 2025-01-10T19:50:00+01:00
 date: 2025-01-15T11:57:00+01:00
+location: Xplosion Attic
 image: /assets/open-wounds.webp
 description: 'Thoughts and aspirations for 2025: a resolution, a revolution, and further reflections.'
 lang: en

@@ -1,11 +1,13 @@
 ---
 date: 2022-05-19T18:47:12+02:00
 updated: 2022-11-03T11:41:56+01:00
+aliases:
+  - Time
+tags:
+  - zen
 location: Zattere
-aliases: Time
-tags: zen
+description: Thoughts and insights about productivity, and about how I perceive it
 toc: false
-desctiption: Thoughts and insights about productivity, and about how I perceive it
 ---
 The problem with productivity is that it supposes the right mindset. I do not have it. I expect I could rely on automation, with some sort of [Life dashboard](Nolan.md), but the problem is the fundamental, personal approach.
 

@@ -45,13 +45,13 @@ While this table is kept up to date, the following sections are records of the d
 	This page follows a reverse chronological order. Sections are marked by date.
 </div>
 
-<p class='date'><time datetime='2025-01-15T12:00:00+01:00'>13<sup>th</sup> January 2025</time></p>
+<p class='date'><time datetime='2025-01-15T14:46:16+01:000'>15<sup>th</sup> January 2025</time></p>
 
 ## Version 3 🫣
 
 As opposed to [version 2](#version-2), that mainly signified a change in perspective and left most of the code as it was, this version marks <u>strong changes at the technical level</u>.
 
-To share the modifications applied I should be pointing to the source code’s changelog, but I am so terrible at committing to git regularly that in the end all that has changed for version 3 is grouped in *one* commit 😬. Therefore, I am listing the most notable reworkings manually, following my memory of what I have insonsistently edited in the past eight months—as I have been working on this on and off since May 2024.
+To share the modifications applied I should be pointing to the source code’s changelog, but I am so terrible at committing to git regularly that in the end all that has changed for version 3 is grouped in *one* commit 😬. Therefore, I am listing the most notable reworkings manually, following my memory of what I have inconsistently edited in the past eight months—as I have been working on this on and off since May 2024.
 
 - The most remarkable transformation is the migration to the mighty [Eleventy version 3](https://www.11ty.dev/blog/eleventy-v3/ '“Eleventy v3.0.0 is now available!” in Eleventy’s blog'), which forced me to better understand the way Eleventy and JavaScript work, as I transitioned the whole project to <abbr title='ECMAScript Modules'>ESM</abbr>.
 	- I updated the [eleventy-img plugin](https://www.11ty.dev/docs/plugins/image/ 'Image Plugin – 11ty Docs'), finally replacing Liquid’s {% raw %}`{% img %}`{% endraw %} shortcodes with regular `<img>` HTML tags.
@@ -59,7 +59,7 @@ To share the modifications applied I should be pointing to the source code’s c
 	- Taking advantage of the [InputPath to URL plugin](https://www.11ty.dev/docs/plugins/inputpath-to-url/ 'InputPath to URL – 11ty Docs'), I removed the [markdown-it-wikilinks](https://www.npmjs.com/package/markdown-it-wikilinks 'markdown-it-wikilinks by jsepia – NPM') extension, so that now internal links can be regular and interoperable Markdown links.
 - I completely refactored the CSS, adopting the [CUBE methodology](https://cube.fyi/ 'Composition Utility Block Exception') (I still have to refine this, though), and basing the whole layout on [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid 'grid CSS Reference on MDN').
 - I completely refactored the code generating this website’s [RSS feeds](/index.xml 'tommi.space’s main Stream'), and I styled their pages, inspired by [Simone Silvestroni’s post](https://minutestomidnight.co.uk/blog/build-a-human-readable-rss-with-jekyll/ 'A human-readable RSS feed with Jekyll – Minutes to Midnight')
-- After [a brief conversation with friends](content/jam/public/Editing%20tommi.space.md '“Editing tommi.space”'), I decided to adopt a more radical approach with respect to old content I changed my mind about or I would not want to share anymore, by simply **removing it**.
+- After [a brief conversation with friends](content/jam/public/Editing%20tommi.space.md '“Editing tommi.space”'), I decided to adopt a more radical approach with respect to old content I changed my mind about, or I would not want to share anymore, by simply **removing it**.
 - I finally figured out how to meddle with the data cascade using JavaScript, and the code is now a bit leaner, simpler, more efficient, and more organized.
 - I moved the automatically generated templates (with no content of their own) to the `stuff` directory, to declutter the `content` directory, and follow a clearer structure—even though the source code is still a nightmare to navigate 🤯.
 - At last, I created the first prototype of the [<cite>Activities</cite> page](/activities/), with advanced search and filtering functionality, that I plan to extend to the whole website, in addition to the existing [search page](/search/).
