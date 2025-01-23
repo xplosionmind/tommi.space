@@ -104,7 +104,6 @@ export default function (eleventyConfig) {
 			}
 		}
 	});
-	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
 		extensions: 'md,html,liquid'
 	});
