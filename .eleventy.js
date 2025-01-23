@@ -115,6 +115,7 @@ export default function (eleventyConfig) {
 		defaultAttributes: {
 			loading: 'lazy',
 			decoding: 'async',
+			sizes: 'auto',
 		},
 		outputDir: './www/img/'
 	});
@@ -149,11 +150,11 @@ export default function (eleventyConfig) {
 					minifyJS: true,
 					noNewlinesBeforeTagClose: true,
 					quoteCharacter: "'",
-					removeAttributeQuotes: true,
+					//removeAttributeQuotes: true,
 					removeComments: true,
 					removeEmptyAttributes: true,
 					removeEmptyElements: true,
-					removeOptionalTags: true,
+					//removeOptionalTags: true,
 					removeRedundantAttributes: true,
 					sortAttributes: true,
 					sortClassName: true,
