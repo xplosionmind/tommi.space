@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2024-08-20T14:27:48+02:00
+updated: 2025-01-20T12:20:55+01:00
 aliases:
   - Xplosion Server
   - Neb
@@ -8,7 +8,7 @@ aliases:
 tags:
   - todo
   - geek/sysad
-description: Information and insights concerning the configuration and maintenance of Tommi’s server
+description: Information and insights concerning the configuration and maintenance of Tommi’s server.
 permalink: /neb/
 redirect_from:
   - /server/
@@ -55,7 +55,12 @@ sudo systemctl restart nginx
 
 ## Nextcloud
 
-Using [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html '“Using the occ command” in Nextcloud Docs'): `sudo -u nextcloud php8.3 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]`.
+To use [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/occ_command.html '“Using the occ command” in Nextcloud Docs') in YunoHost requires to first [get in the Nextcloud app’s shell](), then perform the command:
+
+```
+sudo yunohost app shell nextcloud
+php8.3 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]
+```
 
 ## Pixelfed
 
