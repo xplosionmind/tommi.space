@@ -22,14 +22,11 @@ todo:
 	<hgroup class='flex'>
 		<h1 class='wavyBackgroundRazzmatazz'>{{ title }}</h1>
 	</hgroup>
-	<article class='e-content'>{% renderTemplate "md" %}
-Sembra esagerato, ma sono così affezionato loro che alcuni fra gli oggetti che uso quotidianamente sono diventati come dei compagni nel viaggio della mia vita.
-
-Ciascuno di essi ha una storia e talvolta diverse generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
-
-Chi mi conosce sa quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
-{% endrenderTemplate %}
-</article>
+	<article class='e-content'>
+		<p>Sembra esagerato, ma sono così affezionato loro che alcuni fra gli oggetti che uso quotidianamente sono diventati come dei compagni nel viaggio della mia vita.</p>
+		<p>Ciascuno di essi ha una storia e talvolta diverse generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.</p>
+		<p>Chi mi conosce sa quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.</p>
+	</article>
 
 	<div class='entries-list subgrid'>
 		{% for thing in collections.things %}
