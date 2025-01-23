@@ -6,10 +6,7 @@
 		"eleventy:watch": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
 		"eleventy:build": "ELEVENTY_ENV=production eleventy",
 		"sass:watch": "sass --watch --style=compressed styles:www",
-		"sass:build": "sass --style=compressed styles/:www",
-		"start": "npm run eleventy:watch & npm run sass:watch",
-		"build": "npm run eleventy:build && npm run sass:build",
-		"debug": "DEBUG='Eleventy*' npm run build"
+		"sass:build": "sass --style=compressed styles/:www"
 	},
 	"type": "module",
 	"repository": {

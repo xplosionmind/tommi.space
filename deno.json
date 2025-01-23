@@ -1,0 +1,7 @@
+{
+	"tasks": {
+		"start": "deno task eleventy:watch & deno task sass:watch",
+		"build": "deno task eleventy:build && deno task sass:build",
+		"debug": "DEBUG='Eleventy*' deno run build"
+	}
+}

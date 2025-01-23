@@ -1,20 +1,20 @@
-import { EleventyRenderPlugin, InputPathToUrlTransformPlugin } from '@11ty/eleventy';
-import htmlMinifier from 'html-minifier-terser';
-import child_process from 'child_process';
+import { InputPathToUrlTransformPlugin } from 'npm:@11ty/eleventy';
+import htmlMinifier from 'npm:html-minifier-terser';
+import child_process from 'node:child_process';
 
-import markdownIt from 'markdown-it';
-import markdownItAnchor from 'markdown-it-anchor';
-import markdownItFootnote from 'markdown-it-footnote';
-import markdownItMark from 'markdown-it-mark';
-import markdownItTaskLists from 'markdown-it-task-lists';
+import markdownIt from 'npm:markdown-it';
+import markdownItAnchor from 'npm:markdown-it-anchor';
+import markdownItFootnote from 'npm:markdown-it-footnote';
+import markdownItMark from 'npm:markdown-it-mark';
+import markdownItTaskLists from 'npm:markdown-it-task-lists';
 
-import yaml from 'js-yaml';
+import yaml from 'npm:js-yaml';
 import { parse as csvParse } from 'csv-parse/sync';
 
-import pluginEmbed from 'eleventy-plugin-embed-everything';
-import pluginToc from '@uncenter/eleventy-plugin-toc';
-import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
-import EleventyPluginRobotsTxt from 'eleventy-plugin-robotstxt';
+import pluginEmbed from 'npm:eleventy-plugin-embed-everything';
+import pluginToc from 'npm:@uncenter/eleventy-plugin-toc';
+import { eleventyImageTransformPlugin } from 'npm:@11ty/eleventy-img';
+import EleventyPluginRobotsTxt from 'npm:eleventy-plugin-robotstxt';
 
 export default function (eleventyConfig) {
 
@@ -116,7 +116,6 @@ export default function (eleventyConfig) {
 		defaultAttributes: {
 			loading: 'lazy',
 			decoding: 'async',
-			sizes: 'auto'
 		},
 		outputDir: './www/img/'
 	});
