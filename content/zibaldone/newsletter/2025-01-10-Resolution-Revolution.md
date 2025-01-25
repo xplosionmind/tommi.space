@@ -92,3 +92,11 @@ I am still not completely satisfied with the current status, but I think I will 
 Even though the workshop was ready since September 2024, and its website’s development was almost complete, I soft-launched the project without any big announcement or press release, because there were a few little details that I wanted to fix first.
 
 Thankfully, I now have a bit more time to address these remaining issues, and I plan to fully launch Knitting Our Internet by (or at) [FOSDEM](https://2025.fosdem.org 'FOSDEM 2025’s website') and [OFFDEM](https://offdem.net 'OFFDEM’s website').
+
+<p class=date datetime=2025-01-15T17:39:00+01:00>15<sup>th</sup> January 2025</p>
+
+## Yearly or Seasonal Themes
+
+After reading this article, [Sofía](https://sofiaritz.com/ 'sofi web') shared with me the following video, and I think it could be a nice experiment for the future!
+
+https://youtu.be/NVGuFdX5guE
