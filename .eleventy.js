@@ -1,5 +1,6 @@
 import { InputPathToUrlTransformPlugin } from 'npm:@11ty/eleventy';
 import htmlMinifier from 'npm:html-minifier-terser';
+import process from 'node:process';
 import child_process from 'node:child_process';
 
 import markdownIt from 'npm:markdown-it';
@@ -64,8 +65,8 @@ export default function (eleventyConfig) {
 	});
 	eleventyConfig.addCollection('lastUpdated', function (collectionApi) {
 		return collectionApi.getAll().sort((a, b) => {
-			let aUpdated = a.data.updated || a.date || 0;
-			let bUpdated = b.data.updated || b.date || 0;
+			const aUpdated = a.data.updated || a.date || 0;
+			const bUpdated = b.data.updated || b.date || 0;
 			// #BUG: Sorting is not accurate, and sort order changes every build?
 			// https://github.com/xplosionmind/tommi.space/issues/130
 			return bUpdated - aUpdated;
@@ -140,7 +141,7 @@ export default function (eleventyConfig) {
 	// Production-only //
 	if (process.env.ELEVENTY_ENV != 'development') {
 		// Minify output //
-		eleventyConfig.addTransform(htmlMinifier, async function (content) {
+		eleventyConfig.addTransform(htmlMinifier, function (content) {
 			if ((this.page.outputPath || '').endsWith('.html')) {
 				const minified = htmlMinifier.minify(content, {
 					collapseBooleanAttributes: true,
