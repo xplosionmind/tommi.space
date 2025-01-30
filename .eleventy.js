@@ -108,9 +108,6 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
 		extensions: 'md,html,liquid'
 	});
-	eleventyConfig.addPlugin(EleventyPluginRobotsTxt, {
-		shouldBlockAIRobots: true
-	});
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		extensions: 'html',
 		defaultAttributes: {
@@ -164,6 +161,10 @@ export default function (eleventyConfig) {
 				return minified;
 			}
 			return content;
+		});
+		// Fetch and parse robots.txt //
+		eleventyConfig.addPlugin(EleventyPluginRobotsTxt, {
+			shouldBlockAIRobots: true
 		});
 	}
 
