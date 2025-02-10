@@ -106,9 +106,9 @@ export default function (eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin),
-	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
-		extensions: 'md,html,liquid'
-	});
+		eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
+			extensions: 'md,html,liquid'
+		});
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		extensions: 'html',
 		defaultAttributes: {
@@ -152,7 +152,7 @@ export default function (eleventyConfig) {
 					//removeAttributeQuotes: true,
 					removeComments: true,
 					removeEmptyAttributes: true,
-					removeEmptyElements: true,
+					//removeEmptyElements: true,
 					//removeOptionalTags: true,
 					removeRedundantAttributes: true,
 					sortAttributes: true,
