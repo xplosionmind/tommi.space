@@ -1,0 +1,3 @@
+[submodule "cv"]
+	path = cv
+	url = git@codeberg.org:tommi/cv.git

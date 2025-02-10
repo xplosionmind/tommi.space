@@ -13,3 +13,6 @@ private
 
 # Scss handled separately
 styles
+
+# cv submodule, imported from other pages
+cv
