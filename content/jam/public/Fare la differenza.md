@@ -1,9 +1,9 @@
 ---
 date: 2023-11-24T09:34:20+01:00
-location: Berlin
 tags:
   - epiphany
   - draft
+location: Berlin
 ---
 Perché non mi piace Berlino?
 

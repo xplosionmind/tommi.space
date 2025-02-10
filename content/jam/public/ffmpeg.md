@@ -1,8 +1,9 @@
 ---
 date: 2021-04-27T08:21:53+02:00
 updated: 2022-11-28T10:44:01+01:00
-tags: geek/apps
-description: Swiss army knife for video and audio editing from command line
+tags:
+  - geek/apps
+description: Swiss army knife for video and audio editing from command line.
 ---
 ## Cheat sheet
 
@@ -58,8 +59,6 @@ ffmpeg -framerate 4 -pattern_type glob -i '*.png' quotes.gif
 
 ## Resources
 
-- [FFMPEG examples](https://dev.to/sleeplessbyte/ffmpeg-examples-51l7) by [Derk-Jan Karrenbeld](https://derk-jan.com 'Derk-Jan Karrenbeld') on [DEV]
+- [FFMPEG examples](https://dev.to/sleeplessbyte/ffmpeg-examples-51l7) by [Derk-Jan Karrenbeld](https://derk-jan.com 'Derk-Jan Karrenbeld') on [DEV](https://dev.to 'DEV')
 - [Using Command Line To Cut Out Media Files](https://dev.to/nabbisen/ffmpeg-using-command-line-to-cut-out-video-files-1o3a 'ffmpeg: Using Command Line To Cut Out Media Files')
 - [Automated video editing](https://dev.to/dak425/cut-up-video-and-audio-with-just-ffmpeg-4l4m 'Cut up video and audio with just ffmpeg!')
-
-[DEV]: https://dev.to 'DEV'

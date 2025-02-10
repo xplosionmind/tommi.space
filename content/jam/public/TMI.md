@@ -7,12 +7,9 @@ aliases:
   - Trust My Instinct
 tags:
   - topic
-location: Ca’ Foscari Zattere
 description: Too Much Information, an acronym which perfectly defines my tomminess
-toc: false
-permalink: /tmi/
 ---
-Wikitionary entry for [too much information][tmi]:
+Wikitionary entry for [too much information](https://en.wiktionary.org/wiki/too_much_information '“too much information” on Wikitionary'):
 
 > An expression indicating that someone has revealed information that is too personal and made the listener or reader uncomfortable.
 
@@ -33,5 +30,3 @@ Getting ready for the first pseudo-DJ set of my life, I was testing out the equi
 I forgot the name of the friend, but we chatted for a while and I found out he DJs too, and he gave me a few basic tips (it was the first time I talked about DJing techniques to someone). Among the things he told me, <q>trust your instincts</q>, he said.
 
 Only some hours later it flashed in my mind: TMI could mean <q>Trust My Instinct</q>, too.
-
-[tmi]: https://en.wiktionary.org/wiki/too_much_information ‘“too much information” on Wikitionary’

@@ -1,10 +1,10 @@
 ---
 date: 2021-02-24T15:53:07+01:00
 updated: 2021-02-27T15:53:07+01:00
+location: Zattere
 tags:
   - idea
   - geek/dev
-description: An app which allows voluntaries to share their screen and show what they do to the world
-toc: false
+description: A social media app where people voluntarily share their screen and show what they do to the world.
 ---
-An app which allows voluntaries to share their screen and show what they do to the world, when it is not private
+{{ description }}

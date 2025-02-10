@@ -26,7 +26,7 @@ todo: update and refactor
 - ✅ [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club)
 - ✅ [Quit Google](Quit%20Google.md)
 - ~~[Quit Spotify](Quit%20Spotify.md)~~: it is hard to live without it.
-- ✅ Quit [Flickr](https://flickr.com 'Flickr') and [Switch to Piwigo](Flickr%20to%20Piwigo.md) 2020.12.23 - 2021.01.18
+- ✅ Quit [Flickr](https://flickr.com 'Flickr') and [Switch to Piwigo](Migrating%20from%20Flickr%20to%20Piwigo.md) 2020.12.23 - 2021.01.18
 - 😵‍💫 [Quit listing](Quit%20listing.md)
 - ⏸/❌ [Switch to LineageOS](Switch%20to%20LineageOS.md)
 - ✅ [Quit Netflix](Quit%20Netflix.md)

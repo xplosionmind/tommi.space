@@ -46,7 +46,7 @@ Replace `foo` with `bar` in all files in the <em title='present working director
 
 ## ffmpeg
 
-[ffmpeg Cheat Sheet](FFMPEG.md#Cheat%20Sheet)
+[ffmpeg Cheat Sheet](ffmpeg.md#Cheat%20Sheet)
 
 ## Resources
 

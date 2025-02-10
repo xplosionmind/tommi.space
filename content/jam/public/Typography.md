@@ -45,8 +45,8 @@ In order to make pages load faster, there are ways to drastically reduce a font 
 
 ```bash
 pyftsubset Inter.ttf \
-  --unicodes='U+0020-007F,U+00A0-00FF,U+2013-204A,U+2150-215F,U+2190-2199,U+21A9,U+21AF,U+2200,U+2203-2209,U+2211,U+221A,U+2325,U+232B,U+2318,U+237A,U+25E6' \
-  --layout-features='' \
-  --flavor='woff2' \
-  --output-file='inter.woff2'
+	--unicodes='U+0020-007F,U+00A0-00FF,U+2013-204A,U+2150-215F,U+2190-2199,U+21A9,U+21AF,U+2200,U+2203-2209,U+2211,U+221A,U+2325,U+232B,U+2318,U+237A,U+25E6' \
+	--layout-features='' \
+	--flavor='woff2' \
+	--output-file='inter.woff2'
 ```

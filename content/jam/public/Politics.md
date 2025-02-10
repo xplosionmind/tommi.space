@@ -28,3 +28,4 @@ description: A science, an art. Insights, definitions, quotes, and ideas about P
 ## Articles
 
 - [<cite>The edge of our existence: A particle physicist examines the architecture of society</cite>](https://thebulletin.org/premium/2020-12/the-edge-of-our-existence-a-particle-physicist-examines-the-architecture-of-society/ 'The edge of our existence: A particle physicist examines the architecture of society'), by @yangyang_cheng
+- [\<nettime\> A Necessary New Alternative Progressive-Pragmatist US Renaissance](https://nettime.org/Lists-Archives/nettime-l-2409/msg00013.html)

@@ -8,4 +8,3 @@ It starts like a punch in the chest. I put up a battle with myself not to close 
 
 Noope.  
 I cannot make it. It makes me feel to bad. Oh gosh I really need to watch something else to get my mind off it.
-

@@ -25,7 +25,7 @@ In the 21<sup>st</sup> century, storing information storage a major challenge. I
 
 ## Doubts
 
-- Can I rely on [Flickr to Piwigo](Flickr%20to%20Piwigo.md) alone to host all of my JPGs, even my private ones? *No*
+- Can I rely on [Migrating from Flickr to Piwigo](Migrating%20from%20Flickr%20to%20Piwigo.md) alone to host all of my JPGs, even my private ones? *No*
 	- is it reliable? How much do I risk of losing my data? *Not too much. Not more reliable than any server around the world*.
 	- is it secure? Are my private pictures somehow server-side encrypted? *[**No encryption**](https://piwigo.org/forum/viewtopic.php?id=31166 'How much can I trust Piwigo with my private pictures?'). Not the best option to backup pictures*
 - Does it make sense to use my [Cubbit](Cubbit.md)‘s 4TB for long-term picture storage? *It does, as long as [some features](Cubbit.md#Feature%20requests) will be included*

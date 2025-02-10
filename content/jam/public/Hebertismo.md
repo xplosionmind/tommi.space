@@ -4,8 +4,8 @@ updated: 2022-03-14T14:58:14+01:00
 tags:
   - zen
   - draft
+description: Cos’è l’Hebertismo.
 lang: it
-description: Cos’è l’Hebertismo
 ---
 L’Hebertismo è la filosofia di vita secondo cui la forma fisica deve essere mantenuta e allenata attraverso strumenti naturali, ideata ad inizio XX secolo da Georges Hébert.
 

@@ -4,6 +4,8 @@ updated: 2022-12-21T11:39:55+01:00
 tags:
   - geek
   - fediverse
+  - draft
+  - todo
 description: Various Fediverse information, tips, and accounts worth following.
 ---
 The Fediverse is a decentralized ensemble of social networking apps (more below).
@@ -19,7 +21,7 @@ I am extremely happy many of my friends are finally joining the Fediverse, there
 
 ### Tutorials and general info
 
-Need some clarifications on how this whole crazy thing works?
+Need some clarifications on how this whole crazy thing works?  
 First of all, the good old Wikipedia never lest us down, let’s start from the definition it gives:
 
 > The **fediverse** \[…\] is an ensemble of [federated](https://en.wikipedia.org/wiki/Federation_(information_technology) 'Federation (information technology)') (i.e. interconnected) servers that are used for [web publishing](https://en.wikipedia.org/wiki/Web_publishing 'Web publishing') (i.e. [social networking](https://en.wikipedia.org/wiki/Social_networking 'Social networking'), [microblogging](https://en.wikipedia.org/wiki/Microblogging 'Microblogging'), [blogging](https://en.wikipedia.org/wiki/Blogging 'Blogging'), or [websites](https://en.wikipedia.org/wiki/Websites 'Websites')) and file hosting, but which, while independently hosted, can communicate with each other. On different servers (instances), users can create so-called identities. These identities are able to communicate over the boundaries of the instances because the software running on the servers supports one or more [communication protocols](https://en.wikipedia.org/wiki/Communication_protocol 'Communication protocol') that follow an [open standard](https://en.wikipedia.org/wiki/Open_standard 'Open standard').

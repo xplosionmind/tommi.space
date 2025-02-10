@@ -7,7 +7,7 @@ location: BDL
 description: Flux de conscience sur ma vie à Grenoble pendant mon Erasmus.
 lang: fr
 ---
-Notes et réflexions de la cité ou j’ai vécu [mon premier Erasmus](Erasmus%20à%20Grenoble.md).
+Cette page est un collection de notes et réflexions de la cité ou j’ai vécu [mon premier Erasmus](Erasmus%20à%20Grenoble.md).
 
 <div class='blue box' lang='en'>
 	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://pan.rent' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://pan.rent/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.

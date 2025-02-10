@@ -12,7 +12,7 @@ description: Cheat sheet and useful information to use ExifTool
 exiftool -s -G filename.jpg
 ```
 
-where: 
+where:
 - **`-s`** is used to show the names in ExifTool commands format. *e.g.: instead of <q>Create Date</q> you see `CreateDate`*
 - **`-G`** is used to show the metadata Group to which the metadata tag belongs.
 
@@ -58,7 +58,7 @@ exiftool "-AllDates+=6:11:26 21:20:0" ./* # years:months:days hours:minutes:seco
 ## Geotagging
 
 ```bash
-exiftool -GPSLatitude=43.819027 -GPSLatitudeRef=43.819027 -GPSLongitude=7.774179  -GPSLongitudeRef=7.774179 -overwrite_original
+exiftool -GPSLatitude=43.819027 -GPSLatitudeRef=43.819027 -GPSLongitude=7.774179 -GPSLongitudeRef=7.774179 -overwrite_original
 ```
 
 ## Directories

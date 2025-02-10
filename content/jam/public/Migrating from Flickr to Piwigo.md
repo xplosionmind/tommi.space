@@ -1,13 +1,19 @@
 ---
 date: 2020-12-05T01:00:00+01:00
 updated: 2022-03-14T14:59:21+01:00
-tags: geek
 aliases:
   - Quitting Flickr
   - Quit Flickr
+  - Flickr to Piwigo
+tags:
+  - geek
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo
 image: /assets/quit-flickr.jpg
-redirect_from: [/flickr/, /quitting-flickr/, /switch-to-piwigo/, /piwigo-switch/]
+redirect_from:
+  - /flickr/
+  - /piwigo-switch/
+  - /flickr-to-piwigo/
+permalink: /flickr-piwigo/
 ---
 The process of quitting [Flickr](https://flickr.com 'Flickr') and switching to [Piwigo](Piwigo.md) took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
 
@@ -18,7 +24,7 @@ Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [Piwigo](Piw
 - Flickr is hosted on Amazon’s servers
 - [Piwigo is open source](https://github.com/piwigo 'Piwigo on GitHub') and ethical, while Flickr is proprietary software.
 - Piwigo [costs (**only**!) 39€](https://piwigo.com/pricing 'Piwigo pricing page') per year (and 94€/3y), while [the price of Flickr](https://help.flickr.com/pricing-faq-r1qHsTEbU 'Flickr Pricing FAQ') changes too often and it has risen considerably over the last few years (as of the time of writing, it is 65,88€ per year).
-- Flickr was founded in Canada and now it is <u>based in the US</u>, while Piwigo <u>was founded and it is based in France</u>. It is not that what is in the US is bad; but since the vast majority of the most common web services is American, using an European based service not only is nice, but it gives me a sense of being somewhat closer. Furthermore, being in Europe means <u>complying with strict European internet governance and privacy directives</u>.
+- Flickr was founded in Canada and now it is <u>based in the US</u>, while Piwigo <u>was founded and it is based in France</u>. It is not just that what is in the US is bad; but since the vast majority of the most common web services is American, using an European based service not only is nice, but it gives me a sense of being somewhat closer. Furthermore, being in Europe means <u>complying with strict European internet governance and privacy directives</u>.
 - since Flickr was the precursor of Instagram, it still has most of the “social” features which now can be found on every other platform; for this reason, the social activity and interaction among users has dropped considerably in the last decade, making it quite useless. Piwigo is <u>focused on storage, speed and durability</u>.
 
 ## Making the switch
@@ -35,7 +41,7 @@ Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [Piwigo](Piw
 	There are some very important features which are missing in Piwigo. I track them <a href='#bugs' title='Piwigo bugs and feature requests'>here</a>
 </div>
 
-I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo in Piwigo Extensions Marketplace'), a plugin to [import pictures from Flickr](Flickr%20to%20Piwigo.md).
+I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo in Piwigo Extensions Marketplace'), a plugin to [import pictures from Flickr](Migrating%20from%20Flickr%20to%20Piwigo.md).
 
 1. Since importing photos from Flickr is very effective and most of the metadata is preserved, there is almost no configuration to be done, for what concerns the pictures.
 	1. For some reason, the albums’ cover images do not always correspond, so they must be updated.
