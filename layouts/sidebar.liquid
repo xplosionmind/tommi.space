@@ -108,6 +108,11 @@ type: CollectionPage
 						</div>
 					{% endif %}
 				{% endif %}
+				{% if license %}
+					<div id='license'>
+						<dt>License:</dt>
+						<dd><a rel='license' href='{{ license.url }}'>{{ license.name }}</a></dd>
+				{% endif %}
 			</dl>
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 		</details>
