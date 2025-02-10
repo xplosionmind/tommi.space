@@ -1,6 +1,12 @@
 @use '../variables' as *;
 @use 'colors';
 
+@media only screen {
+	.just-print {
+		display: none;
+	}
+}
+
 .no-background {
 	color: #FFF;
 	text-shadow: var(--shadow);
@@ -90,4 +96,3 @@
 		content: '~';
 	}
 }
-
