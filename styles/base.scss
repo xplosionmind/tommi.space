@@ -297,8 +297,9 @@ b {
 }
 
 mark {
-	background: var(--primary);
-	color: var(--bg);
+	padding: .1em .3em;
+	background: var(--yellow);
+	color: #000;
 	font-weight: 600;
 }
 
