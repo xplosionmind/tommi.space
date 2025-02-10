@@ -1,4 +1,4 @@
-import { InputPathToUrlTransformPlugin } from 'npm:@11ty/eleventy';
+import { InputPathToUrlTransformPlugin, EleventyRenderPlugin } from 'npm:@11ty/eleventy';
 import htmlMinifier from 'npm:html-minifier-terser';
 import process from 'node:process';
 import child_process from 'node:child_process';
@@ -105,6 +105,7 @@ export default function (eleventyConfig) {
 			}
 		}
 	});
+	eleventyConfig.addPlugin(EleventyRenderPlugin),
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
 		extensions: 'md,html,liquid'
 	});
