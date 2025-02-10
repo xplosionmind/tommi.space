@@ -24,9 +24,9 @@
 	<blockquote lang='{{ q.lang }}'{% if q.id %}id='{{ q.id }}'{% endif %}>
 		<p>{{ q.quote | markdownify }}</p>
 	</blockquote>
-	{% if q.author != '' or q.work != '' %}
+	{% if q.author != blank or q.work != blank %}
 		<p class='cite'>
-			{{ q.author }}{%- if q.work != '' and q.author != '' -%}, {% endif -%}<cite>{% if q.url != '' %}<a href='{{ q.url }}' lang='{{ q.lang }}' hreflang='{{ q.lang }}' target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{% else %}{{ q.work }}{% endif %}</cite>{% if q.note != '' %} — {{ q.note | markdownify }}{% endif %}
+			{{ q.author }}{%- if q.work != blank and q.author != blank -%}, {% endif -%}<cite>{% if q.url != blank %}<a href='{{ q.url }}' lang='{{ q.lang }}' hreflang='{{ q.lang }}' target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{% else %}{{ q.work }}{% endif %}</cite>{% if q.note != blank %} — {{ q.note | markdownify }}{% endif %}
 		</p>
 	{% endif %}
 {% endfor %}

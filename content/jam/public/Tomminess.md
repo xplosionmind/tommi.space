@@ -63,11 +63,11 @@ Tommi is [Tomminess](Tomminess.md). In other words, <cite>Tomminess</cite> is To
 Occasionally, friends of mine I have not been in touch with for quite some time pop up with a message telling me that I remind them so much of some public figure. Below a list:
 
 {% for p in tommiUguale -%}
-	{% if p.name != '' -%}### {{ p.name }}{% endif -%}
+	{% if p.name != blank -%}### {{ p.name }}{% endif -%}
 	<a href='{{ p.url }}'>
-			{% if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
-			{% if p.image != '' -%}<figure><img src='{{ p.image }}' alt='{{ p.name }}'></figure>{% endif -%}
-			{% if p.description != '' -%}<p>{{ p.description | markdownify }}</p>{% endif -%}
+			{% if p.audio != blank -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
+			{% if p.image != blank -%}<figure><img src='{{ p.image }}' alt='{{ p.name }}'></figure>{% endif -%}
+			{% if p.description != blank -%}<p>{{ p.description | markdownify }}</p>{% endif -%}
 	</a>
 {% endfor -%}
 

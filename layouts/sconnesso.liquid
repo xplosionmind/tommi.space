@@ -55,7 +55,7 @@ layout: wrapper
 						<dd>
 							{% for place in places %}
 								{% if place.name contains location or place.aliases contains location %}
-									{%- if place.osm != '' -%}
+									{%- if place.osm != blank -%}
 										<a href='{{ place.osm }}' title='{{ place.name }} su OpenStreetMap' data-pagefind-filter='location'>{{ place.name }}</a>
 									{%- else -%}
 										<a href='https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap' data-pagefind-filter='location'>{{ place.name }}</a>

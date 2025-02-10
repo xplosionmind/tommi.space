@@ -37,22 +37,22 @@
 <div class='entries-list grid'>
 	{% for place in places reversed %}
 		<div class='little center box'>
-			{% if place.img != '' %}<figure><img src='{{ place.img }}' alt='{{ place.name }}'></figure>{% endif %}
+			{% if place.img != blank %}<figure><img src='{{ place.img }}' alt='{{ place.name }}'></figure>{% endif %}
 			<h2>{{ place.name }}</h2>
-			{% if place.city != '' %}
+			{% if place.city != blank %}
 				<p><strong>{{ place.city }}</strong></p>
 			{% endif %}
 			{% if place.description %}
 				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
 			{% endif %}
 			<div class='flex row'>
-				{% if place.plot != '' %}
+				{% if place.plot != blank %}
 					<a
 						class='tiny yellow button'
 						href='{{ place.plot }}'
 						title='Aneddoti da {{ place.name }}'>La storia</a>
 				{% endif %}
-				{% if place.url != '' %}
+				{% if place.url != blank %}
 					<a
 						class='tiny red button'
 						href='{{ place.url }}'
@@ -60,7 +60,7 @@
 				{% endif %}
 				<a
 					class='tiny green button'
-					href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
+					href='{%- if place.osm != blank -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
 					title='Vedi {{ place.name }} su OpenStreetMap'>Vedi sulla mappa</a>
 			</div>
 		</div>

@@ -32,7 +32,7 @@ A raw, impulsive, unexplained list of my all-time favorite movies and series:
 	{% assign favs = watchlog | where: 'favorite', 'true' %}
 	{%- for fav in favs -%}
 		<li>
-			<cite><a href='{%- if fav.tommi == '' -%}https://en.wikipedia.org/wiki/{{ fav.title | replace: ' ', '_' | url_encode }}{%- else -%}{{ fav.tommi }}{%- endif -%}' title='“{{ fav.title }}”'>{{ fav.title }}</a></cite>
+			<cite><a href='{%- if fav.tommi == blank -%}https://en.wikipedia.org/wiki/{{ fav.title | replace: ' ', '_' | url_encode }}{%- else -%}{{ fav.tommi }}{%- endif -%}' title='“{{ fav.title }}”'>{{ fav.title }}</a></cite>
 		</li>
 	{%- endfor -%}
 </ul>

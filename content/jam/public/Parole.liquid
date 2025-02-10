@@ -19,7 +19,7 @@
 			<time datetime='{{ p.date | date_to_xmlschema }}'>
 				{{ p.date | date: '%Y-%m-%d' }}
 			</time>
-			{%- if p.url != '' -%}
+			{%- if p.url != blank -%}
 				<a href='{{ p.url }}' title='{{ p.word }}'>{{ p.word }}</a>
 			{%- else -%}
 				{%- if p.lang == 'it' -%}
@@ -30,7 +30,7 @@
 					{{ p.word }}
 				{%- endif -%}
 			{%- endif -%}
-			{%- if p.note != '' -%}
+			{%- if p.note != blank -%}
 				, {{ p.note | markdownify }}
 			{%- endif -%}
 		</li>

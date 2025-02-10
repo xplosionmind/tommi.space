@@ -25,10 +25,10 @@
 	{% assign awesomeness = internetAwesomeness | sort: 'added' | reverse %}
 	{% for web in awesomeness %}
 		<li>
-			{%- if web.down == '' -%}
-				<a href='{{ web.url }}' title='{% if web.title != '' %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>
+			{%- if web.down == blank -%}
+				<a href='{{ web.url }}' title='{% if web.title != blank %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>
 			{%- else -%}
-				{% if web.title != '' %}{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}{% endif %}
+				{% if web.title != blank %}{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}{% endif %}
 			{%- endif -%}
 			: {{ web.description | markdownify }} — <time datetime='{{ web.added | date_to_xmlschema }}'>{{ web.added | date: '%d %B %Y' }}</time>
 		</li>

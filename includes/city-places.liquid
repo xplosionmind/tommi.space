@@ -2,22 +2,22 @@
 	{% assign endroits = places | where: 'city', city -%}
 	{%- for place in endroits -%}
 		<div class='little center box'>
-			{% if place.img != '' %}<figure><img src='{{ place.img }}' alt='{{ place.name }}'></figure>{% endif %}
+			{% if place.img != blank %}<figure><img src='{{ place.img }}' alt='{{ place.name }}'></figure>{% endif %}
 			<h3>{{ place.name }}</h3>
-			{% if place.city != '' %}
+			{% if place.city != blank %}
 				<p><strong>{{ place.city }}</strong></p>
 			{% endif %}
 			{% if place.description %}
 				<p>{{ place.description | markdownify | truncatewords: 30 }}</p>
 			{% endif %}
 			<div class='flex row'>
-				{% if place.plot != '' %}
+				{% if place.plot != blank %}
 					<a
 						class='tiny yellow button'
 						href='{{ place.plot }}'
 						title='What I wrote about {{ place.name }}'>The story</a>
 				{% endif %}
-				{% if place.url != '' %}
+				{% if place.url != blank %}
 					<a
 						class='tiny red button'
 						href='{{ place.url }}'
@@ -25,7 +25,7 @@
 				{% endif %}
 				<a
 					class='tiny green button'
-					href='{%- if place.osm != '' -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
+					href='{%- if place.osm != blank -%}{{ place.osm }}{%- else -%}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{%- endif -%}'
 					title='{{ place.name }} on the map'>View on map</a>
 			</div>
 		</div>
