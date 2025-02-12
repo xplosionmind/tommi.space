@@ -27,6 +27,10 @@ export default function (eleventyConfig) {
 		return (data) => eleventyConfig.getFilter('slugify')(data.page.fileSlug).concat('/');
 	});
 
+	// Parse Curriculum vitae output PDF //
+	eleventyConfig.addPassthroughCopy({ 'cv/cv.pdf': '/Tommaso Marmo – Curriculum vitae.pdf' });
+	eleventyConfig.addPassthroughCopy({ 'cv/cv.it.pdf': '/it/Tommaso Marmo – Curriculum vitae.pdf' });
+
 	// Markdown //
 	const md = markdownIt({
 		html: true,
