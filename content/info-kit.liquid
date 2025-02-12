@@ -1,7 +1,7 @@
 ---
 title: Info kit
 description: Tommaso Marmo’s information, biography, pictures, and resume.
-updated: 2025-02-10T17:30+01:00
+updated: 2025-02-12:18:00+01:00
 aliases:
   - Biography
   - Press kit
@@ -26,11 +26,12 @@ include: |
 
 <h1 class=just-print>Tommaso Marmo’s info kit</h1>
 
-<p class=dont-print>This page collects information about Tommi.</p>
 <p class=dont-print>This page is made to provide information, texts, and images about Tommi, ready to be copied and pasted.</p>
 
-<div class=flex>
-	<button id=print class=button>Save as PDF</button>
+<p class='just-print center'>Last update: {{ updated | date_to_long_string }}.</p>
+
+<div class='dont-print flex'>
+	<button id=print class='red button'>Save as PDF</button>
 	<a class='yellow button' href='{{ site.author.cv }}' title='Tommaso Marmo’s curriculum vitae'>Resume</a>
 	<a class='blue button' href='https://images.tommi.space/index?/tags/445-profilepicture'>Profile pics</a>
 </div>
