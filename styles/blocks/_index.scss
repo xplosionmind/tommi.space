@@ -237,7 +237,10 @@ lite-youtube {
 
 .poetry {
 	h1 {
-		color: var(--primary);
+		font: 900 var(--size-3) var(--font-heading);
+		color: #000;
+		text-shadow: none;
+		padding: var(--space-s) 0;
 	}
 	ul {
 		padding: 0;
