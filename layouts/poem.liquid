@@ -4,12 +4,14 @@ layout: wrapper.liquid
 <main class='yellow'>
 	<h1 class='wide'>{{ title }}</h1>
 		<article class='middle serif' data-pagefind-body>
-		{{ content }}
-		<p><a rel='author' class='p-author h-card' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/#about' title='Tommi'>T</a></p>
-	</article>
+			{{ content }}
+			{% if page.inputPath contains 'poetry/' %}
+				<p><a rel='author' class='p-author h-card' href='/{% if lang == 'it' %}tuffo{% else %}home{% endif %}/#about' title='Tommi'>T</a></p>
+			{% endif %}
+		</article>
 	{% if lang == 'it' %}
-		<a class='tool' href='/pasticci' title='Tutte le poesie'>indietro</a>
+		<a class='toolbar' href='/pasticci/' title='Tutte le poesie'>indietro</a>
 	{% else %}
-		<a class='tool' href='/poetry' title='All of the poems'>back</a>
+		<a class='toolbar' href='/poetry/' title='All of the poems'>back</a>
 	{% endif %}
 </main>
