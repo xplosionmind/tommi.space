@@ -2,6 +2,7 @@
 date: 2025-02-16T16:30:00+01:00
 title: Ciò che non cambia
 location: Venezia
+image: /cio-che-non-cambia.png
 ---
 Sciabordar melmoso se soave  
 <span lang=en>longing peaks of wonder and loss</span>  
