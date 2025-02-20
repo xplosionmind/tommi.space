@@ -5,7 +5,7 @@
     "npm:@11ty/eleventy@^3.0.1-alpha.4": "3.0.1-alpha.4_chokidar@3.6.0_posthtml@0.16.6",
     "npm:@uncenter/eleventy-plugin-toc@^1.0.3": "1.0.3",
     "npm:csv-parse@^5.6.0": "5.6.0",
-    "npm:eleventy-plugin-embed-everything@^1.19.0": "1.19.0",
+    "npm:eleventy-plugin-embed-everything@^1.20.0": "1.20.0",
     "npm:eleventy-plugin-robotstxt@1": "1.0.0",
     "npm:html-minifier-terser@^7.2.0": "7.2.0",
     "npm:js-yaml@^4.1.0": "4.1.0",
@@ -779,11 +779,12 @@
     "ee-first@1.1.1": {
       "integrity": "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="
     },
-    "eleventy-plugin-embed-everything@1.19.0": {
-      "integrity": "sha512-mW4vB7w0EI47vmdZLpnraHhcwqo8P8Wfpp1NOCg+0ixROvwK5/Cdx28nrs12hAtIgVesp6YJ9jQcS6UOSBbRWQ==",
+    "eleventy-plugin-embed-everything@1.20.0": {
+      "integrity": "sha512-6rHrQSqZctfRsaLpi6ax0yAkklEGhePjC14HagoPqAzL0nklitqmGCbea1VWjR9wYl2fCGTAlasnsb/w2nl/Og==",
       "dependencies": [
         "deepmerge",
         "eleventy-plugin-embed-instagram",
+        "eleventy-plugin-embed-mastodon",
         "eleventy-plugin-embed-openstreetmap",
         "eleventy-plugin-embed-soundcloud",
         "eleventy-plugin-embed-spotify",
@@ -795,8 +796,17 @@
         "eleventy-plugin-youtube-embed"
       ]
     },
-    "eleventy-plugin-embed-instagram@1.2.7": {
-      "integrity": "sha512-v6uSqeZiZU5L40lr4NTGBr+2Wbc81SqbNIllESEBQDFhS68g253WqkLaNs7gGh0k5hxhNuMt7ZZEBfous7jksw=="
+    "eleventy-plugin-embed-instagram@1.3.0": {
+      "integrity": "sha512-uF63snWEViwLQzr85ZAbKRXlWcLdPwepxuy7gERQVPzTNYWiPU1ruyf8H40qmznWPo7kWHa9Nnb5p4tM2Ilcjg=="
+    },
+    "eleventy-plugin-embed-mastodon@1.0.0": {
+      "integrity": "sha512-wro7321Hp6YomLrDJ0vkY6UYDr33bY4+wVZ7Y+GlmmrQGtV6eS6HAIf3pE2J0NMu0CCo65KAD2Lpyxujo/6bpw==",
+      "dependencies": [
+        "@11ty/eleventy-fetch@4.0.1",
+        "deepmerge",
+        "regex",
+        "string-replace-async"
+      ]
     },
     "eleventy-plugin-embed-openstreetmap@1.0.0": {
       "integrity": "sha512-9nIXegmOACo9tMmbabdfJRCjhhI45eoYxuur0jTTKz1p4XD+x42yps4pniwDDKmwFw/WkY2emlCGozrC0Hk9XQ==",
@@ -835,8 +845,8 @@
     "eleventy-plugin-vimeo-embed@1.3.8": {
       "integrity": "sha512-XU/XH/lrx9slUifFiRCsFh8XiDsZxCBh5MnFU8wAz8u8rCFX9PpmyveJ2oeDtDZjEINqaDC+YFSPsxoq59S3cQ=="
     },
-    "eleventy-plugin-youtube-embed@1.11.0": {
-      "integrity": "sha512-02HRfQqE7LtD3HQlt+EhvKi4umvFBWppJEFwTfr/EC7kV/aIiLegAMoDlH+atK4KoZu6vcLJvCrciCa9IwJ7dQ==",
+    "eleventy-plugin-youtube-embed@1.12.0": {
+      "integrity": "sha512-HNZ4rw0GICCMOcpRh0C1N6sTX6zdbaEO9cRPCbOPG8cDeu7AbfFD6iSeZib6hu+JoJf79Kg6ScMGtheA6kiZyg==",
       "dependencies": [
         "@11ty/eleventy-fetch@4.0.1",
         "deepmerge",
@@ -1500,6 +1510,15 @@
     "readdirp@4.1.2": {
       "integrity": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
     },
+    "regex-utilities@2.3.0": {
+      "integrity": "sha512-8VhliFJAWRaUiVvREIiW2NXXTmHs4vMNnSzuJVhscgmGav3g9VDxLrQndI3dZZVVdp0ZO/5v0xmX516/7M9cng=="
+    },
+    "regex@5.1.1": {
+      "integrity": "sha512-dN5I359AVGPnwzJm2jN1k0W9LPZ+ePvoOeVMMfqIMFz53sSwXkxaJoxr50ptnsC771lK95BnTrVSZxq0b9yCGw==",
+      "dependencies": [
+        "regex-utilities"
+      ]
+    },
     "relateurl@0.2.7": {
       "integrity": "sha512-G08Dxvm4iDN3MLM0EsP62EDV9IuhXPR6blNz6Utcp7zyV3tr4HVNINt6MpaRWbxoOHT3Q7YN2P+jaHX8vUbgog=="
     },
@@ -1758,7 +1777,7 @@
         "npm:@11ty/eleventy@^3.0.1-alpha.4",
         "npm:@uncenter/eleventy-plugin-toc@^1.0.3",
         "npm:csv-parse@^5.6.0",
-        "npm:eleventy-plugin-embed-everything@^1.19.0",
+        "npm:eleventy-plugin-embed-everything@^1.20.0",
         "npm:eleventy-plugin-robotstxt@1",
         "npm:html-minifier-terser@^7.2.0",
         "npm:js-yaml@^4.1.0",
