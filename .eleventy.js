@@ -99,6 +99,7 @@ export default function (eleventyConfig) {
 
 	// Plugins //
 	eleventyConfig.addPlugin(pluginEmbed, {
+		add: ['mastodon'],
 		youtube: {
 			options: {
 				lite: {
@@ -107,7 +108,12 @@ export default function (eleventyConfig) {
 					}
 				}
 			}
-		}
+		},
+		mastodon: {
+			options: {
+				server: 'pan.rent'
+			}
+		},
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin),
 		eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
