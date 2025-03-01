@@ -17,19 +17,14 @@ header {
 	display: none;
 }
 
-#tommiSpace {
-	padding: var(--space-3xs) var(--space-s) 0;
+#tommi {
+	padding: var(--space-2xs);
 	font: var(--size-1) var(--font-heading);
-	color: #000;
-	background: var(--yellow);
-	box-shadow: var(--shadow);
-	border: 5px solid #000;
-	border-radius: 99px;
+	color: #FFF;
+	text-transform: initial;
 	&:hover,
 	&:focus {
-		color: #FFF !important;
-		background: var(--red) !important;
-		border-color: #FFF !important;
+		transform: matrix(6, 0, 0, 6, 0, 350) rotate(78deg);
 	}
 }
 
@@ -77,4 +72,3 @@ header {
 		right: calc(4vw + .3rem);
 	}
 }
-

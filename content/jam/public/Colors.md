@@ -9,7 +9,7 @@ toc: true
 ---
 ## tommi.space
 
-[tommi.space](https://tommi.space 'Tommi Space') [palette](https://codeberg.org/tommi/tommi.space/src/branch/main/styles/root.scss#L37-L49 'tommi.space main colors in a CSS file')
+[tommi.space](https://tommi.space 'Tommi 🤯') [palette](https://codeberg.org/tommi/tommi.space/src/branch/main/styles/root.scss#L37-L49 'tommi.space main colors in a CSS file')
 
 <ul class='three'>
 	<li><code style='background:#111;color:#FFF'>#111</code> deep</li>
