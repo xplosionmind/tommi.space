@@ -15,6 +15,7 @@
 	},
 	"primary": "#FCC920",
 	"description": "The virtual representation of the mess inside Tommi’s mind",
+	"description-it": "La rappresentazione virtuale del caos nella mente di Tommi",
 	"favicon": "https://tommi.space/favicon.ico",
 	"image": "/tommi.space.wip.png",
 	"forge": "https://codeberg.org/tommi",

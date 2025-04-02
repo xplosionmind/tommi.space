@@ -19,6 +19,13 @@
 	<!-- Metadata -->
 	<title>{{ title | default: site.title }}</title>
 	<meta property='og:title' content='{{ title | default: site.title }}'>
+	{% unless description %}
+		{% if lang == 'it' %}
+			{% assign description = site.description-it %}
+		{% else %}
+			{% assign description = site.description %}
+		{% endif %}
+	{% endunless %}
 	<meta name='description' content='{{ description | default: site.description | markdownify | strip_html | remove: "'" }}' data-pagefind-meta='description[content]'>
 	<meta property='og:description' content='{{ description | default: site.description | markdownify | strip_html | remove: "'" }}'>
 	<meta property='og:author' content='{{ site.author.name }}'>
