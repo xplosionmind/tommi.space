@@ -3,6 +3,7 @@ date: 2020-08-05
 updated: 2022-11-14T19:27:50+01:00
 tags:
   - geek
+  - wip
 description: Walkthrough and refernece documentation for deleting an account or quitting an online service in the most effective way possible.
 permalink: /delete/
 ---
@@ -16,6 +17,10 @@ Below, I reported how I attempt to overcome this itchy obstacles.
 ## Base knowledge
 
 To get this itchy thing done in the quickest and most painless way possible, just [check JustDeleteMe](https://justdeleteme.xyz/ 'Just Delete Me'). To first retrieve your data, visit [JustGetMyData](https://justgetmydata.com 'Just Get My Data'). It might be possible that on those great websites the service you intend to quit is not present. This is how stuff get tricky.
+
+<p class=date>Update, <time datetime=2025-03-28T16:25:00+01:00>28 March 2025</time></p>
+
+**Just visit [datarequests.org](https://www.datarequests.org/generator/ 'Data Requests Generator')**
 
 Firstly, you gotta find the Privacy Policy page of the provider and look for an email address that looks like `privacy@<nameoftheprovider>.com`. Secondly, you have to write to this address the message which follows, claiming our [GDPR rights](https://gdpr-info.eu 'Information on GDPR').
 
