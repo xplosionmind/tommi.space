@@ -1,7 +1,7 @@
 {% assign buildTime = 'now' | date: '%Y%m%d%H%M' %}
 {% assign introPrinted = '0' %}
 
-{% for activity in activities reversed limit:6 %}
+{% for activity in activities reversed limit:10 %}
 	{% assign activityEnd = activity.end | date: '%Y%m%d%H%M' %}
 	{% if activityEnd >= buildTime %}
 		{% if introPrinted == '0' %}
@@ -10,7 +10,7 @@
 			<div class='flex'>
 			{% assign introPrinted = '1' %}
 		{% endif %}
-			<a href='{{ activity.url }}' class='little box center'>
+			<a href='{{ activity.url }}' class='little box center{% if activity.tags contains 'highlight' %} highlight{% endif %}'>
 				<h4>{{ activity.title }}</h4>
 				<p>
 					{% if activity.city %}

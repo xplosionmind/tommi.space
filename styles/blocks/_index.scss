@@ -163,6 +163,9 @@ lite-youtube {
 		padding: var(--space-2xs) var(--space-xs);
 		box-shadow: var(--little-shadow);
 		border-radius: $radius-m;
+		&.highlight {
+			border: 5px solid var(--razzmatazz);
+		}
 		h2,
 		h3 {
 			font-size: var(--size-1);
