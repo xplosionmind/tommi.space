@@ -22,15 +22,15 @@
 			<div id='{{ now.fileSlug }}'>
 			{{ now.content | markdownify }}
 		{% elsif forloop.index == 2 %}
-			<h2>🔙 Previously doing</h2>
-			<div id='{{ now.fileSlug }}' class='box'>
-				<h3>{{ now.data.date | date_to_long_string }}</h3>
-				{{ now.content | markdownify | replace: 'h2', 'h4' }}
+			<h2 id='previously'>🔙 Previously doing</h2>
+			<div class='box'>
+				<h3 id='{{ now.fileSlug }}'>{{ now.data.date | date_to_long_string }}</h3>
+				{{ now.content | replace: 'h2', 'h4' }}
 			</div>
 		{% else %}
-			<div id='{{ now.fileSlug }}' class='box'>
-				<h3>{{ now.data.date | date_to_long_string }}</h3>
-				{{ now.content | markdownify | replace: 'h2', 'h4' }}
+			<div class='box'>
+				<h3 id='{{ now.fileSlug }}'>{{ now.data.date | date_to_long_string }}</h3>
+				{{ now.content | replace: 'h2', 'h4' }}
 			</div>
 		{% endif %}
 {% endfor %}
