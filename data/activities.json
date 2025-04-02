@@ -1,5 +1,148 @@
 [
 	{
+		"title": "What Hackers Yearn (WHY2025)",
+		"start": "2025-08-08",
+		"end": "2025-08-12",
+		"url": "https://why2025.org",
+		"location": "Làbas",
+		"city": "Amsterdam",
+		"country": "Netherlands",
+		"tags": [
+			"camp",
+			"geek",
+			"RTT"
+		],
+		"role": "host"
+	},
+	{
+		"title": "FediForum Roundtable",
+		"start": "2025-04-01T17:00:00+02:00",
+		"end": "2025-04-01T18:30:00+02:00",
+		"url": "https://fediforum.org",
+		"location": "Làbas",
+		"city": "Bologna",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"unconference",
+			"geek",
+			"RTT"
+		]
+	},
+	{
+		"title": "La Nostra Rete × SCIFT",
+		"start": "2025-03-29T15:30:00+01:00",
+		"end": "2025-03-29T17:00:00+01:00",
+		"url": "https://municipiozero.it/scift/",
+		"location": "Làbas",
+		"city": "Bologna",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"lab/ournet",
+			"geek",
+			"RTT"
+		],
+		"role": "host"
+	},
+	{
+		"title": "Bambole di Pezza",
+		"start": "2025-03-27T20:00:00+01:00",
+		"end": "2025-03-27T23:59:59+01:00",
+		"url": "https://dice.fm/partner/dice/event/9288n6-bambole-di-pezza-27th-mar-largo-venue-roma-tickets",
+		"location": "Largo Venue",
+		"city": "Roma",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"concert"
+		]
+	},
+	{
+		"title": "La Nostra Rete",
+		"start": "2025-03-25T17:00:00+01:00",
+		"end": "2025-03-25T19:00:00+01:00",
+		"location": "Villa Bernabei",
+		"city": "Velletri",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"lab/ournet"
+		],
+		"role": "host"
+	},
+	{
+		"title": "Incontro Nazionale GenEtica",
+		"start": "2025-03-21T14:00:00+01:00",
+		"end": "2025-03-23T15:00:00+01:00",
+		"url": "https://bancaetica.it/genetica/",
+		"location": "Casa Don Diana",
+		"city": "Casal di Principe",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"GenEtica",
+			"BancaEtica"
+		]
+	},
+	{
+		"title": "La Nostra Rete × Demand",
+		"start": "2025-03-18T18:30:00+01:00",
+		"end": "2025-03-18T20:30:00+01:00",
+		"url": "+++",
+		"location": "Zero81",
+		"city": "Napoli",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"lab/ournet",
+			"geek",
+			"RTT"
+		],
+		"role": "host"
+	},
+	{
+		"title": "Uomini e Topi",
+		"start": "2025-03-14T20:00:00+01:00",
+		"end": "2025-03-14T22:00:00+01:00",
+		"url": "https://teatrosanbabilamilano.it/event/uomini-e-topi/",
+		"location": "Teatro San Babila",
+		"city": "Milano",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"theatre"
+		]
+	},
+	{
+		"title": "Fa’ la cosa giusta!",
+		"start": "2025-03-14T08:00:00+01:00",
+		"end": "2025-03-16T18:00:00+01:00",
+		"url": "https://falacosagiusta.org",
+		"location": "RHO Milano Fiere",
+		"city": "Milano",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"lab/ournet",
+			"fair"
+		],
+		"role": "host"
+	},
+	{
+		"title": "La Nostra Rete Tour",
+		"start": "2025-03-13T08:00:00+01:00",
+		"end": "2025-04-03T18:00:00+02:00",
+		"url": "https://ournet.rocks/it/it-tour/",
+		"country": "Italy",
+		"lang": "it",
+		"tags": [
+			"lab/ournet",
+			"highlight"
+		],
+		"role": "host"
+	},
+	{
 		"title": "OFFDEM 0x05",
 		"start": "2025-02-02T08:00:00+01:00",
 		"end": "2025-02-02T23:59:59+01:00",
