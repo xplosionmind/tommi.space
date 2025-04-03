@@ -9,9 +9,11 @@
 	<meta name='robots' content='noml, noai, noimageai'>
 
 	<!-- Assets -->
-	<link rel='stylesheet' href='/style.css' type='text/css'>
-	{% if stylesheet %}<link rel='stylesheet' type='text/css' href='{{ stylesheet }}'>{% endif %}
-	<link rel='stylesheet' href='/print.css' type='text/css' media='print'>
+	{% unless cssNaked %}
+		<link rel='stylesheet' href='/style.css' type='text/css'>
+		{% if stylesheet %}<link rel='stylesheet' type='text/css' href='{{ stylesheet }}'>{% endif %}
+		<link rel='stylesheet' href='/print.css' type='text/css' media='print'>
+	{% endunless %}
 
 	<!-- Favicon -->
 	<link rel='icon' sizes='16x16 32x32 48x48' href='/favicon.ico'>

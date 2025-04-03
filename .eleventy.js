@@ -179,6 +179,10 @@ export default function (eleventyConfig) {
 		});
 	}
 
+	if (process.env.CSS_NAKED) {
+		eleventyConfig.addGlobalData('cssNaked', true);
+	};
+
 	eleventyConfig.on('eleventy.after', () => {
 		// Search indexing
 		child_process.execSync(`npx -y pagefind`, { encoding: 'utf-8' });

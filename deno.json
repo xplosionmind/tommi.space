@@ -2,6 +2,8 @@
 	"tasks": {
 		"start": "deno task eleventy:watch & deno task sass:watch",
 		"build": "deno task eleventy:build && deno task sass:build",
+		"start-naked": "CSS_NAKED=true deno run start",
+		"build-naked": "CSS_NAKED=true deno run build",
 		"debug": "DEBUG='Eleventy*' deno run build"
 	}
 }

@@ -9,9 +9,13 @@
 		{% endfor %}
 	{% endif %}
 
-	{% render 'head.liquid', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image, type: type, head: head %}
+	{% render 'head.liquid', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image, type: type, head: head, cssNaked: cssNaked %}
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
+
+		{% if cssNaked %}
+			{% render 'css-naked.liquid', lang: lang %}
+		{% endif %}
 
 		{% if header %}
 			{% render 'header.liquid', lang: lang, current: page.url %}
