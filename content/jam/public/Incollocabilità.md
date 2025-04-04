@@ -18,7 +18,7 @@ Ascoltandolo in [un piccolo soave concerto al Tenco](https://p.lu/w/tqbCk5fr4CDj
 
 <figure>
 	<audio controls>
-		<source src='/assets/incollocabilita.m4a'>
+		<source src='/incollocabilita.m4a'>
 	</audio>
 	<figcaption>
 		<blockquote><p>L’incollocabilità è quella condizione che fa un po’ parte di chi fa un certo tipo di vita, quindi si muove incessantemente, è quella sensazione di appartenere a tanti luoghi contemporaneamente ma di non appartenere completamente a nessuno di essi.</p>
