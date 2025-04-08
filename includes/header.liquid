@@ -1,6 +1,8 @@
 <header>
 	<a id=tommi class=wavyBackgroundRed {% if lang == 'it' %}href=/tuffo/ title='Vai alla pagina iniziale'{% else %}href=/#main title='Go to the homepage'{% endif %}>T🤯mmi</a>
-	<input type='checkbox' id='navToggle'>
+	{% unless cssNaked %}
+		<input type='checkbox' id='navToggle'>
+	{% endunless %}
 	<nav id='mainNav' aria-label='Main'>
 		<a href={% if lang == 'it' %}'/tuffo/'{% else %}'/#main'{% endif %} title='Homepage' {% if current == '/tuffo/' or current == '/' %}class='dim'{% endif %}>Intro</a>
 		<a {% if current == '/ora/' or current == '/now/' %}class='dim'{% endif %}{% if lang == 'it' %}href='/ora/' title='Ciò che sto facendo'>Ora{% else %}href='/now/' title='What I am doing'>Now{% endif %}</a>

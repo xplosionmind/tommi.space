@@ -3,5 +3,7 @@
 		<a class='button' rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='{% if alternate.data.lang == 'it' %}Visualizza questa pagina in italiano'>🇮🇹{% elsif alternate.data.lang == 'en' %}View this page in English'>🇬🇧{% else %}View this page in {{ alternate.data.lang }}'>{{ alternate.data.lang }}{% endif %}</a>
 	{% endif %}
 	<a class='button' {% if lang == 'it'%}href='/cerca/' title='Cerca qualcosa in tommi.space'{% else %} href='/search/' title='Search for something in tommi.space'{% endif %}>🔎</a>
-	<label id='navToggleBtn' for='navToggle' aria-label='toggle-navigation' class='button'>🍔</label>
+	{% unless cssNaked %}
+		<label id='navToggleBtn' for='navToggle' aria-label='toggle-navigation' class='button'>🍔</label>
+	{% endunless %}
 </div>

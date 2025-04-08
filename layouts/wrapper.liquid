@@ -18,7 +18,7 @@
 		{% endif %}
 
 		{% if header %}
-			{% render 'header.liquid', lang: lang, current: page.url %}
+			{% render 'header.liquid', lang: lang, current: page.url, cssNaked: cssNaked %}
 		{% endif %}
 
 		{{ content }}
@@ -28,7 +28,7 @@
 		{% endif %}
 
 		{% if toolbar %}
-			{% render 'toolbar.liquid', lang: lang, alternate: alternate, url: page.url %}
+			{% render 'toolbar.liquid', lang: lang, alternate: alternate, url: page.url, cssNaked: cssNaked %}
 		{% endif %}
 
 	</body>
