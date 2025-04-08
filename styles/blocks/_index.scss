@@ -226,6 +226,18 @@ lite-youtube {
 	}
 }
 
+#ournet {
+	background: mediumspringgreen;
+	color: black;
+	.flex {
+		margin-bottom: var(--space-s);
+	}
+	.button {
+		background: black;
+		color: mediumspringgreen;
+	}
+}
+
 .p-author {
 	body:not(.poetry) & {
 		display: none;
