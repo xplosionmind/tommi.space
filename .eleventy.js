@@ -123,8 +123,7 @@ export default function (eleventyConfig) {
 		extensions: 'html',
 		defaultAttributes: {
 			loading: 'lazy',
-			decoding: 'async',
-			sizes: 'auto',
+			decoding: 'async'
 		},
 		outputDir: './www/img/'
 	});
