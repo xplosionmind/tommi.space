@@ -38,7 +38,7 @@
 	"homepage": "https://tommi.space",
 	"dependencies": {
 		"@11ty/eleventy": "^3.0.1-alpha.5",
-		"@11ty/eleventy-img": "^6.0.0",
+		"@11ty/eleventy-img": "^6.0.2",
 		"@uncenter/eleventy-plugin-toc": "^1.0.3",
 		"csv-parse": "^5.6.0",
 		"eleventy-plugin-embed-everything": "^1.20.0",
