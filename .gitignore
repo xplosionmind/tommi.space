@@ -1,16 +1,16 @@
 # Node stuff
 node_modules
-package-lock.json
 
 # Eleventy stuff
+.cache
 .env
 www
 
 # heavy assets
 assets
 
-# Imported from Obsidian
-content/jam/Clippings
+# Inputs (https://inputs.tommi.space)
+content/jam/inputs
 
 # University stuff
 content/jam/AISS
