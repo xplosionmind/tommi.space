@@ -1,5 +1,25 @@
 [
 	{
+		"who": "Wendy Hanamura",
+		"lang": "en",
+		"image": "/assets/tommi-wendy-toast.jpg",
+		"url": "https://blog.archive.org/2023/10/05/celebrating-wendy-hanamura-internet-archives-storyteller-in-chief/",
+		"added": "2025-06-07T09:22:00+02:00",
+		"real": true,
+		"sex": "f",
+		"met": "2022-04-22T19:00:00+02:00"
+	},
+	{
+		"who": "Valerio Bozzolan",
+		"lang": "it",
+		"image": "/assets/selfie-sfscon-2024.webp",
+		"url": "https://boz.reyboz.it/",
+		"added": "2025-06-04T23:00:00+02:00",
+		"real": true,
+		"sex": "m",
+		"met": "2022-08-27T14:00:00+02:00"
+	},
+	{
 		"who": "Robyn Brooks",
 		"lang": "en",
 		"image": "https://www.pogdesign.co.uk/cat/imgs/episodes/High-Fidelity/High-Fidelity-S01E09-219dde4f9f79104a68a3e832ef5dd4c4-full.jpg",

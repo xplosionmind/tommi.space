@@ -5,7 +5,6 @@ tags: cinema/film
 description: "About the awesome wonderful genius Musical by the awesome wonderful genius <a href='https://tommi.space/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>"
 image: https://static.onecms.io/wp-content/uploads/sites/6/2019/01/rent-6-2000.jpg
 ---
-
 <cite>[Rent](https://en.wikipedia.org/wiki/Rent_(musical) '“Rent” on Wikipedia')</cite> is one of the things I love the most, and, of course, its [2005 representation in movie](https://en.wikipedia.org/wiki/Rent_(film) '“Rent”, the movie on Wikipedia') is one of my [favorite films](Cinema.md#Favorites).
 
 How can a musical be so inspiring and true I really cannot understand.  

@@ -21,6 +21,7 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 
 ## Domande
 
+1. Cosa vuol dire normale?
 1. Cosa ti rende triste?
 1. Abbiamo trovato la risposta a una delle più grandi domande della vita. Tu la conosci la risposta?
 2. Qual è la tua parola preferita?

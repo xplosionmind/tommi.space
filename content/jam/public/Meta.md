@@ -211,6 +211,8 @@ Following [these instructions](https://algolia.com/doc/tools/crawler/netlify-plu
 
 Even though I love [Typography](Typography.md), I am never fully convinced about this website layout and design. My concern is not much about coloring, and typesetting, but about layouting, spacing and positioning. I am trying to understand the core of how layouting works by reading at a tremendously slow pace Richard Rutter’s <cite>[Web Typography](Web%20Typography.md)</cite>.
 
+## Page-related feature ideas
+
 I will be noting below my doubts and, if solved, my conclusions.
 
 <ul>

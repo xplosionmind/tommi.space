@@ -3,6 +3,7 @@ date: 2021-10-14T17:20:13+02:00
 updated: 2022-04-01T18:56:13+02:00
 tags:
   - geek/apps
+  - wip
 description: A powerful knowledge management software, in early development
 image: https://avatars.githubusercontent.com/u/50837219
 include: |-
@@ -32,6 +33,14 @@ On the other hand, using Anytype I would be tied to a system that, apart from la
 
 I am sticking with my beloved plain text, Markdown and good old front matter. We will see what is coming up next, and I might change my mind.
 
-<p class='date'><time datetime='2022-04-01T18:34:20+02:00'>Friday 1 April 2022</time></p>
+<p class='date'><time datetime='2022-04-01T18:34:20+02:00'>Friday, 1<sup>st</sup> April 2022</time></p>
 
 **Update**: I found out about [JSON-LD](https://json-ld.org 'JSON-LD') only recently. I have far more to learn about it and its functioning, yet I believe it would be the best way to achieve most of the points I was doubtful about before. I think that an effective implementation of JSON-LD would actually fully empower Anytype.
+
+<p class=date><time datetime=2025-05-11T20:42:44+02:00>11<sup>th</sup> May 2025</time></p>
+
+## Starting to use AnyType again
+
+I am starting to use AnyType again, essentially because it’s the only true alternative for **collaborative** knowledge writing/sharing.
+
+For local collectives/organizations **DOCX/PDF** styled exporting (pandoc) integration is CRUCIAL to have a truly integrated and global workflow. Open APIs/plugins to have a wholesome <q>everything</q> app. The true everythingness is to adapt to the outer world’s needs.

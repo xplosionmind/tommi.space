@@ -6,14 +6,17 @@ aliases:
   - Neb
   - Server
 tags:
-  - todo
   - geek/sysad
 description: Information and insights concerning the configuration and maintenance of Tommi’s server.
 permalink: /neb/
 redirect_from:
   - /server/
 ---
-<cite>Nebuchadnezzar</cite> (<q>Neb</q> for friends) is the <abbr title='Virtual Private Server'>VPS</abbr> located in Dusseldorf (DE) I rent from [Contabo](). It is running [YunoHost](https://yunohost.org 'YunoHost').
+<cite>Nebuchadnezzar</cite> (<q>Neb</q> for friends) is my main server, where I host most of my software and services, plus a few community apps, all thanks to the sublime [YunoHost](https://yunohost.org 'YunoHost'). It’s a <abbr title='Virtual Private Server'>VPS</abbr> located in Dusseldorf (DE) I rent from [Contabo](https://contabo.com).
+
+Years ago, I started self-hosting to pursue the mission of a quite utopistic and clueless mission of personal digital liberation. I now see that, as [Boris Mann](https://cosocial.ca/@bmann) puts it, <q>self-hosting is selfish</q>, and I am shifting my perspective towards a more collective, communal, choral, and, above all, **politically aware** mission.
+
+This page mostly focuses on technical aspects and quick sparse notes, as I am devoting most of my energy towards more in-person, participatory, and somewhat intimate practices and endeavours, mainly [XPUB Projects](Research%20project%20ideas.md) and <cite>[Knitting Our Internet](https://ournet.rocks)</cite>.
 
 ## Name
 
@@ -21,15 +24,15 @@ The name of this server is inspired by [the homonymous ship](https://en.wikipedi
 
 ## Environmental impact
 
-As tommi.space is hosted on Nebuchadnezzar, any point in [the page about the environmental impact of this website](The%20environmental%20impact%20of%20this%20website.md) is valid for the server, too.
+As tommi.space is hosted on Nebuchadnezzar, all arguments made in [the page about the environmental impact of this website](The%20environmental%20impact%20of%20this%20website.md) are valid for the server, too.
 
 ## Customizations
 
-From this point on, this page collects various useful information about system administration in general, as well as Neb-specific configurations and customisations. I apologize for data to be cryptic and mostly random, but these are the personal notes of an amateur <abbr title='system administrator'>sysad</abbr>: there’s nothing particularly insightful for the rest of the world.
+- [Changing the default shell to zsh](https://forum.yunohost.org/t/tuto-comment-installer-oh-my-zsh-how-to-install-oh-my-zsh '[Tuto] Comment installer Oh My Zsh / How to install Oh My Zsh | YunoHost Forum'). **Note:** YunoHost requires a different procedure than a regular Debian server.
 
-- Custom CSS
-- Changing the default shell to zsh requires [a different procedure](https://forum.yunohost.org/t/tuto-comment-installer-oh-my-zsh-how-to-install-oh-my-zsh '[Tuto] Comment installer Oh My Zsh / How to install Oh My Zsh | YunoHost Forum').
-- [Fix Contabo repository problems](https://forum.yunohost.org/t/solved-error-500-put-yunohost-api-update-all-repository-problems-in-contabo/29453/2 'Solved - Error 500. "PUT" /yunohost/api/update/all - Repository problems in Contabo? - #2 by leuros88 - Support - YunoHost Forum'); NOTE: the repository sources’ URLs change in Debian 12 (Bookworm), see the [`sources.list` example in Debian Wiki](https://wiki.debian.org/SourcesList#Example_sources.list)
+## Tweaks and fixes
+
+- [Fix Contabo repository problems](https://forum.yunohost.org/t/solved-error-500-put-yunohost-api-update-all-repository-problems-in-contabo/29453/2 'Solved - Error 500. "PUT" /yunohost/api/update/all - Repository problems in Contabo? - #2 by leuros88 - Support - YunoHost Forum'). **Note:** the repository sources’ URLs change in Debian 12 (Bookworm), see the [`sources.list` example in Debian Wiki](https://wiki.debian.org/SourcesList#Example_sources.list)
 
 ## Nginx
 
