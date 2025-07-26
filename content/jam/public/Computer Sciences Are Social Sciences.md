@@ -17,7 +17,7 @@ redirect_from:
 [This repository](https://codeberg.org/tommi/csss 'csss repository on Codeberg') contains all the source files and resources related to the thesis.
 
 <div class='flex row'>
-	<a class='red button' href='https://csss.tommi.space' title='Computer Sciences Are Social Sciences – Tommaso Marmo’s Bachelor’s thesis'>Download the thesis</a>
+	<a class='red button' href='https://codeberg.org/tommi/csss/raw/branch/main/Computer%20Sciences%20are%20Social%20Sciences%20%E2%80%94%20Tommaso%20Marmo%E2%80%99s%20bachelor%20thesis.pdf' title='Computer Sciences Are Social Sciences – Tommaso Marmo’s Bachelor’s thesis'>Download the thesis</a>
 	<a class='yellow button' href='https://codeberg.org/tommi/csss' title='csss repository on Codeberg'>Source and resources</a>
 	<a class='blue button' href='/ournet/' title='“Knitting Our Internet”, tommi.space'>Workshop</a>
 </div>

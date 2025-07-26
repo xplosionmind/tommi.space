@@ -28,8 +28,8 @@
 			{% assign description = site.description %}
 		{% endif %}
 	{% endunless %}
-	<meta name='description' content='{{ description | default: site.description | markdownify | strip_html | remove: "'" }}' data-pagefind-meta='description[content]'>
-	<meta property='og:description' content='{{ description | default: site.description | markdownify | strip_html | remove: "'" }}'>
+	<meta name='description' content='{{ description | markdownify | strip_html | remove: "'" }}' data-pagefind-meta='description[content]'>
+	<meta property='og:description' content='{{ description | markdownify | strip_html | remove: "'" }}'>
 	<meta property='og:author' content='{{ site.author.name }}'>
 	<meta name='fediverse:creator' content='@tommi@pan.rent'>
 	<meta name='author' content='{{ site.author.name }}'>

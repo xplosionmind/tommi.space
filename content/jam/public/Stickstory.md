@@ -1,14 +1,14 @@
 ---
 date: 2023-02-27T10:57:07+01:00
 updated: 2023-03-04T11:01:39+01:00
-location: Portorož
-permalink: /stickstory/
+aliases: Stickers on laptops
 tags:
   - topic
-toc: false
+location: Portorož
 description: The stickers sticked on your laptop should tell the story of your life.
-aliases: Stickers on laptops
 image: /assets/stickers-mac.webp
+permalink: /stickstory/
+toc: false
 todo:
   - add ThinkTommi
   - add tfw

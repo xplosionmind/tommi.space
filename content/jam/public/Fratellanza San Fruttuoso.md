@@ -50,5 +50,5 @@ La scintilla è scattata presenziando al rito di conteggio degli alcolici rimast
 > la boccio, un luogo Per l’anima.
 
 <figure>
-	<img title='boccio-inno.webp' alt='Foto del foglietto su cui è scritto l’inno il cui testo precede l’immagine'>
+	<img src='/assets/boccio-inno.webp' alt='Foto del foglietto su cui è scritto l’inno il cui testo precede l’immagine'>
 </figure>

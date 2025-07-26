@@ -1,17 +1,17 @@
 ---
 date: 2021-12-15T22:39:41+01:00
 updated: 2022-03-14T14:51:16+01:00
-tags:
-  - Radioimmaginaria
-  - data
-lang: it
 title: Tutte le mie puntate su Radioimmaginaria
 aliases:
   - Radioimmaginaria database
   - Puntate Radioimmaginaria
-permalink: /rimm-db/
+tags:
+  - Radioimmaginaria
+  - data
 description: |
   Un database incompleto (mancano gli ultimi anni, alcuni eventi alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br>I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br>Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br><mark>&num;you2</mark> sono le puntate in inglese, <mark>&num;toiaussi</mark> quelle in francese, <mark>&num;tete</mark> quelle in spagnolo.
+lang: it
+permalink: /rimm-db/
 todo:
   - convert to a CSV or JSON file
   - refactor

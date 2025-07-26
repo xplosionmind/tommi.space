@@ -18,20 +18,20 @@
 ---
 <p>{{ description }}:</p>
 
-{% assign ora = collections.now | where: 'data.lang', 'it' %}
-{% for now in ora %}
+{% assign things = collections.now | where: 'data.lang', lang %}
+{% for now in things %}
 		{% if forloop.first %}
-			<div id='{{ now.fileSlug }}'>
+			<div id={{ now.fileSlug }}>
 				{{ now.content | markdownify }}
 			</div>
 		{% elsif forloop.index == 2 %}
-			<h2 id='previously'>🔙 Precedentemente</h2>
-			<div id='{{ now.fileSlug }}' class='box'>
+			<h2 id=previously>🔙 Precedentemente</h2>
+			<div id={{ now.fileSlug }} class=box>
 				<h3>{{ now.data.date | date_to_long_string }}</h3>
 				{{ now.content | replace: 'h2', 'h4' }}
 			</div>
 		{% else %}
-			<div id='{{ now.fileSlug }}' class='box'>
+			<div id={{ now.fileSlug }} class=box>
 				<h3>{{ now.data.date | date_to_long_string }}</h3>
 				{{ now.content | replace: 'h2', 'h4' }}
 			</div>

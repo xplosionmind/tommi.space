@@ -23,7 +23,7 @@ The original fundamental purpose of building <cite>Linuxplosion</cite> was editi
 
 I worked as a plumber all of August 2019 to buy it, and it has definitely been worth it. We finished assembling it the 5<sup>th</sup> of August.
 
-Originally, the computer run Windows, but in 2020 I switched to Ubuntu. The only program which I miss is Lightroom (that runs in a <abbr title='Virtual Machine'>VM</abbr>, anyways), everything else works beautifully.
+Originally, the computer run Windows, but in 2020 I switched to Ubuntu. The only program which I miss is Lightroom (that runs in a <abbr title='Virtual Machine'>VM</abbr>, anyways), everything else works beautifully.  
 I do not use <cite>Linuxplosion</cite> much since it is not physically in the same city I live in.
 
 ## Components
