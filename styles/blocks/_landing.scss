@@ -10,27 +10,27 @@
 
 @media (prefers-reduced-motion: no-preference) {
 	#landing h1 {
-		animation: pulse 1s infinite;
+		animation: font-animation 4s infinite;
 	}
 }
 
-@keyframes pulse {
+@keyframes font-animation {
 	0% {
-		transform: scale(1);
+		font-feature-settings: 'ss01';
 	}
 	20% {
-		transform: scale(1.1);
+		font-feature-settings: 'ss02';
 	}
 	40% {
-		transform: scale(1);
+		font-feature-settings: 'ss03';
 	}
 	60% {
-		transform: scale(1.1);
+		font-feature-settings: 'ss04';
 	}
 	80% {
-		transform: scale(1);
+		font-feature-settings: 'ss05';
 	}
 	100% {
-		transform: scale(1);
+		font-feature-settings: 'ss01';
 	}
 }

@@ -1,5 +1,5 @@
 @use 'variables' as *;
-@use 'fonts/basteleur';
+@use 'fonts/adaxi';
 
 @use '../node_modules/utopia-core-scss/src/utopia' as utopia;
 
@@ -36,7 +36,7 @@
 	--orange: #FF6024;
 
 	--font-sans: 'Inter V', Inter, system-ui, -apple-system, sans-serif;
-	--font-heading: Basteleur, var(--font-sans);
+	--font-heading: ADAXI, var(--font-sans);
 	--font-serif: 'Garamond Libre', 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif;
 	--font-mono: 'Ubuntu Mono', ui-monospace, monospace;
 
@@ -317,30 +317,24 @@ abbr[title] {
 	text-decoration: var(--secondary) underline dotted .125em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
 	font-family: var(--font-heading);
 	line-height: 1;
-}
-
-h4, h5, h6 {
-	text-transform: uppercase;
-	line-height: 1;
-	hyphens: none;
-	margin: 0;
+	margin: 0 auto;
 }
 
 h1 {
 	color: #FFF;
 	text-shadow: var(--shadow);
 	padding: var(--space-l) var(--space-s);
-	margin: 0 auto;
 	font-size: var(--size-5);
 	text-align: center;
 	overflow-wrap: anywhere;
 	hyphens: none;
 	text-wrap: balance;
+	font-feature-settings: 'ss01';
 	&:hover {
-		transform: rotate(-3deg);
+		font-feature-settings: 'ss02';
 	}
 	a {
 		color: inherit;
@@ -348,6 +342,7 @@ h1 {
 }
 
 h2 {
+	font-feature-settings: 'ss02';
 	font-size: var(--size-3);
 	aside & {
 		font-size: var(--size-2);
@@ -358,6 +353,7 @@ h2 {
 }
 
 h3 {
+	font-feature-settings: 'ss04';
 	font-size: var(--size-2);
 }
 
