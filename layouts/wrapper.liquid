@@ -13,6 +13,8 @@
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
 
+		{% render 'free-palestine.liquid' %}
+
 		{% if cssNaked %}
 			{% render 'css-naked.liquid', lang: lang %}
 		{% endif %}
