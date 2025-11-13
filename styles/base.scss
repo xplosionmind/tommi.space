@@ -143,7 +143,7 @@ main {
 	align-items: center;
 	grid-template-columns: subgrid;
 	grid-template-rows: masonry;
-	gap: max(2vw, 3vh)
+	gap: max(2vw, 3vh);
 }
 
 /*** Layout > elements ***/
@@ -159,7 +159,7 @@ th, td {
 
 dl {
 	margin: 0;
-	white-space: nowrap;
+	//white-space: nowrap;
 	dt {
 		.simple aside & {
 			display: none;
@@ -438,7 +438,7 @@ aside {
 		grid-column: span 2;
 	}
 	.span-3,
-	.half{
+	.half {
 		grid-column: span 3;
 	}
 	.span-4,

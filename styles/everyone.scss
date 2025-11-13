@@ -5,7 +5,7 @@
 body {
 	--background: #ECECEC;
 	--text: #FFF;
-	font-family: Helvetica, 'Helvetica Neue', 'Inter V', sans-serif;
+	font-family: Helvetica, 'Helvetica Neue', Inter, sans-serif;
 	line-break: loose;
 	cursor: auto;
 	background: linear-gradient(135deg, #9DB5C1, #415462);
@@ -43,4 +43,3 @@ h1, h2, h3 {
 p {
 	text-align: center;
 }
-

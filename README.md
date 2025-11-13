@@ -1,4 +1,4 @@
-<h1 align='center'>⚠️ Tommi’s mind 🤯</h1>
+<h1 align=center>⚠️ Tommi’s mind 🤯</h1>
 
 This repository contains the virtual representation of the mess inside [Tommi](https://tommi.space/home/#about 'About Tommi')’s mind.
 
@@ -8,7 +8,7 @@ The main repository is [hosted on Codeberg](https://codeberg.org/tommi/tommi.spa
 
 ## 📟 Software
 
-This website is proudly built with [Eleventy](https://11ty.dev 'Eleventy official website').
+This website is proudly built with [Eleventy](https://11ty.dev/ 'Eleventy official website').
 
 ## 🏠 Hosting
 
