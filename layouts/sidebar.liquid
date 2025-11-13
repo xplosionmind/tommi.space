@@ -4,14 +4,16 @@ type: CollectionPage
 ---
 <main class='h-entry sidebar'>
 	<hgroup class='flex'>
-		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name wavyBackgroundRazzmatazz'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name {{ headerBackground | default: 'wavyBackgroundRazzmatazz' }}'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
 	</hgroup>
 
 	<aside>
-		{% if include %}
+		{% if include contains '.liquid' or include contains '.html' or include contains '.md' %}
+			{% render include, title: title, wiki_title: wiki_title, wiki_exclude: wiki_exclude %}
+		{% elsif include %}
 			{{ include }}
 		{% endif %}
 

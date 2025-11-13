@@ -46,6 +46,14 @@
 	border-color: var(--razzmatazz);
 }
 
+.xpub {
+	color: #FFF;
+	background: radial-gradient(circle, hsl(210 98% 19.6%) 0%, hsl(251 47.6% 38.8%) 50%, hsl(300 47.6% 38.8%) 100%);
+	a {
+		color: var(--razzmatazz);
+	}
+}
+
 .it {
 	color: #1E2B6A;
 	background: linear-gradient(90deg, #008C45 0%, #FFF 37%, #FFF 63%, #CD212A 100%);
