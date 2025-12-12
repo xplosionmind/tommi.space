@@ -11,7 +11,8 @@ footer {
 		margin-left: var(--space-s);
 		line-height: 1.2;
 	}
-	.h-card {
+	.h-card,
+	#labels {
 		margin-top: 1em;
 		max-width: 15rem;
 	}
@@ -27,7 +28,7 @@ footer {
 }
 
 #Matrix {
- background: #000;
+	background: #000;
 }
 
 #Telegram {
@@ -47,9 +48,34 @@ footer {
 	}
 }
 
-#madeby {
-	margin-left: var(--space-s);
-	&:hover #madeby_shadow {
-		display: none;
+#labels {
+	justify-content: start;
+	a {
+		border: outset 3px var(--background);
+		&:hover {
+			border: inset 3px var(--background);
+		}
 	}
+}
+
+#madeby {
+	--background: #FFF;
+	background: var(--background);
+}
+
+#html-energy {
+	--background: #222;
+	background: var(--background);
+	color: #FFF;
+	padding: 0 var(--space-2xs);
+	font: var(--size--1) var(--font-serif);
+	gap: 0;
+	img {
+		height: var(--size-1);
+		width: auto;
+	}
+}
+
+#eleventy {
+
 }
