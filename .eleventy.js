@@ -1,5 +1,5 @@
 import { InputPathToUrlTransformPlugin, EleventyRenderPlugin } from 'npm:@11ty/eleventy';
-import htmlMinifier from 'npm:html-minifier-terser';
+import htmlMinifier from 'npm:html-minifier-next';
 import process from 'node:process';
 import child_process from 'node:child_process';
 
@@ -148,9 +148,9 @@ export default function (eleventyConfig) {
 	// Production-only //
 	if (process.env.ELEVENTY_ENV != 'development') {
 		// Minify output //
-		eleventyConfig.addTransform(htmlMinifier, function (content) {
+		eleventyConfig.addTransform(htmlMinifier, async function (content) {
 			if ((this.page.outputPath || '').endsWith('.html')) {
-				const minified = htmlMinifier.minify(content, {
+				const minified = await htmlMinifier.minify(content, {
 					collapseBooleanAttributes: true,
 					collapseWhitespace: true,
 					decodeEntities: true,
@@ -165,7 +165,6 @@ export default function (eleventyConfig) {
 					//removeOptionalTags: true,
 					removeRedundantAttributes: true,
 					sortAttributes: true,
-					sortClassName: true,
 					useShortDoctype: true,
 				});
 				return minified;
