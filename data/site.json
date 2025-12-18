@@ -17,7 +17,7 @@
 	"description": "The virtual representation of the mess inside Tommi’s mind",
 	"description-it": "La rappresentazione virtuale del caos nella mente di Tommi",
 	"favicon": "https://tommi.space/favicon.ico",
-	"image": "/tommi.space.wip.png",
+	"image": "/tommi.space.png",
 	"forge": "https://codeberg.org/tommi",
 	"source": "https://codeberg.org/tommi/tommi.space",
 	"changelog": "https://codeberg.org/tommi/tommi.space/commits/branch/main",

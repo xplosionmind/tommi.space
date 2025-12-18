@@ -102,7 +102,7 @@
 				]
 			},
 			"url": "{{ site.url }}",
-			"image": "{{ image | default: site.image }}",
+			"image": "{{ site.url }}{{ image | default: site.image }}",
 			"sameAs": "{{ source }}",
 			"breadcrumb": {
 				"@type": "BreadcrumbList",
