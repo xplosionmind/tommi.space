@@ -82,7 +82,7 @@ body {
 	overflow-wrap: break-word;
 	hyphens: auto;
 	font: var(--size-0) var(--font-sans);
-	background: 0 0 / var(--space-4xl) url("data:image/svg+xml;utf8,<svg width='200' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'><path d='m0 0 200 200v-100l-100-100zm0 200h100l-100-100z' fill='%23FCC920'/></svg>"), #000;
+	background: repeating-linear-gradient(45deg, #FCC920, #FCC920 7rem, #000 7rem, #000 14rem);
 
 	--bg: #000;
 	--bg-alt: var(--green-dark);
