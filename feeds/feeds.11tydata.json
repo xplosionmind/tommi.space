@@ -1,5 +1,5 @@
 {
 	"eleventyExcludeFromCollections": true,
-	"lang": "en"
+	"lang": "en",
+	"xmlfooter": true
 }
-
