@@ -78,7 +78,7 @@ Come sempre vi ringrazio per le valanghe di lodi e di complimenti nei commenti i
 
 Alla prossima!
 (che sarà presto!)
-{% comment %}
+{{#
 <br>
 
 ## La diarchia
@@ -99,4 +99,4 @@ C’è una palese, chiara ed estremamente funzionale gerarchia, nel mondo scout,
 Il modo in cui i ragazzi vengono formati, contemporaneamente, non viene deciso a tavolino da un <i lang='fr'>entourage</i> di alcuni vecchi capi, ma segue i principi promossi da Baden Powell cento anni fa e continuamente messi in discussione da una comunità di capi che punta ad educarsi reciprocamente. Il <abbr title='Campo di Formazione Tirocinanti'>CFT</abbr> che ho concluso ieri è stato condotto da capi, tutti i progetti e tutte le attività
 
 Mi sono permesso di estrapolare alcune parti del patto associativo e di [sottolinearne](/underline 'Stop highlighting, start underlining') i pa
-{% endcomment %}
+#}}

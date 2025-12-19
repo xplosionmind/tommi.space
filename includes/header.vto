@@ -1,0 +1,12 @@
+<header>
+	<a id=tommi class=wavyBackgroundRed {{ if lang == 'it' }}href=/tuffo/ title='Vai alla pagina iniziale'{{ else }}href=/#main title='Go to the homepage'{{ /if }}>T🤯mmi</a>
+	{{ if !cssNaked }}
+		<input type=checkbox id=navToggle>
+	{{ /if }}
+	<nav id=mainNav aria-label=Main>
+		<a href={{- lang == 'it' ? '/tuffo/' : '/#main' }} title='Homepage' {{ if current == '/tuffo/' || current == '/' }}class=dim{{ /if }}>Intro</a>
+		<a {{ if current == '/ora/' || current == '/now/' }}class=dim{{ /if }}{{ lang == 'it' ? "href=/ora/ title='Ciò che sto facendo'>Ora" : "href=/now/ title='What I am doing'>Now" }}</a>
+		<a {{ if current == '/zibaldone/' || current == '/zibenglish/' }}class=dim{{ /if }} {{ lang == 'it' ? "href='/zibaldone/' title='Blog'>Zibaldone" : "href='/zibenglish/' title='Zibaldone'>Blog" }}</a>
+		<a {{ if current == '/marmellata/' || current == '/jam/' }}class=dim{{ /if }} {{ lang == 'it' ? "href='/marmellata/' title='La Marmellata'>Marmellata" : "href='/jam/' title='The Jam'>The Jam" }}</a>
+	</nav>
+</header>

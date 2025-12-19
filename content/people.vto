@@ -1,0 +1,65 @@
+---js
+{
+	title: 'People',
+	aliases: ['Characters', 'Idols'],
+	tags: ['log'],
+	description: 'A collection of real and fictional characters who left a mark in me.',
+	redirect_from: ['/characters/','/idols/'],
+	ref: 'people',
+	layout: 'wrapper.liquid',
+	updated: function (data) {
+		return this.people.reduce((latest, item) => {
+			const itemDate = new Date(item.added)
+			return itemDate > latest ? itemDate : latest
+		}, new Date(0)).toISOString()
+	}
+}
+---
+<main class=list>
+<hgroup class=flex>
+	<h1 class=wavyBackgroundRazzmatazz>People</h1>
+</hgroup>
+
+<article class=e-content>
+	<p>I met some of them while surfing the ’net, others are idols who I wish were real but are just fictional characters, some others are friends who I admire beyond our friendship…</p>
+	<p>This page collects incredible humans who left a mark in me.</p>
+</article>
+
+<div class='entries-list grid'>
+	{{ for idol of people }}
+		{{ if !idol.url.includes('tommi.space') || !idol.exclude }}
+			<div class='little box'>
+				<a href='{{ idol.url }}'>
+					<h2 id='{{ idol.who |> slugify }}'>{{ idol.who }}</h2>
+					<figure>
+						<img src='{{ idol.image }}' alt='{{ idol.who }}'>
+					</figure>
+				</a>
+				{{ if idol.note }}
+					<p>{{ idol.note |> markdownify }}</p>
+				{{ /if }}
+			</div>
+		{{ /if }}
+	{{ /for }}
+</div>
+
+<div class='entries-list nd grid'>
+	<div class='center wide no-background flex'>
+		<h2 class=wavyBackgroundRazzmatazz>People I also wrote about</h2>
+	</div>
+	{{ for idol of collections.jam }}
+		{{ for tag of idol.data.tags %}
+			{{ set idoltag = tag.replace('/', ' ') }}
+			{{ if idoltag.includes('people') }}
+				<a class='little box' href='{{ idol.url |> url }}'>
+					{{ if idol.data.image }}
+						<figure><img src='{{ idol.data.image }}' alt='{{ idol.data.title }}'></figure>
+					{{ /if }}
+					<h2 id='{{ idol.data.title |> slugify }}'>{{ idol.data.title }}</h2>
+					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
+				</a>
+			{{ /if }}
+		{{ /for }}
+	{{ /for }}
+</div>
+</main>

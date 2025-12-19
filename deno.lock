@@ -9,6 +9,7 @@
     "npm:csv-parse@^6.1.0": "6.1.0",
     "npm:eleventy-plugin-embed-everything@^1.21.1": "1.21.1",
     "npm:eleventy-plugin-robotstxt@^1.0.2": "1.0.2_@11ty+eleventy@3.1.2__chokidar@3.6.0__posthtml@0.16.6",
+    "npm:eleventy-plugin-vento@^5.2.1": "5.2.1",
     "npm:html-minifier-next@^4.12.2": "4.12.2",
     "npm:js-yaml@^4.1.1": "4.1.1",
     "npm:markdown-it-anchor@^9.2.0": "9.2.0_@types+markdown-it@14.1.2_markdown-it@14.1.0",
@@ -895,6 +896,13 @@
         "@11ty/eleventy"
       ]
     },
+    "eleventy-plugin-vento@5.2.1": {
+      "integrity": "sha512-Vme5flvgw/MCZgYMdIi/F1A4d7yZ8775sOhgP7Qy1SlF0jurD1/ih6AQsIHbUtt9uawsnLLz84UWzuhpb8hF9w==",
+      "dependencies": [
+        "debug@4.4.3",
+        "ventojs"
+      ]
+    },
     "eleventy-plugin-vimeo-embed@1.4.0": {
       "integrity": "sha512-GaDCi3b4gFx+TSzTEPjHlcGPqDBc8tQwJIQqkFMfkFBEnwMpC8fYLh8x31DLJ9C7R7Qh1FGVrb+A6qgKt//IqA=="
     },
@@ -1736,6 +1744,9 @@
     "utopia-core-scss@1.3.0": {
       "integrity": "sha512-I0E9rOXthQHog3WY3Z8jjIj/owKyDIhmim1LS+ZnQPYEOZC+hzqJoiSLyW8i5OPzI/yoS4W7p1YmMBIZU9snAA=="
     },
+    "ventojs@2.2.0": {
+      "integrity": "sha512-i3nGAgn+dc+mTfsEplGHCbgA9QNdGchSI3GRF55TWdHHjz2WcHIHH8pQtjpiVP74ZjmqdccO3bC71xpxuwBWgg=="
+    },
     "ws@8.18.3": {
       "integrity": "sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg=="
     }
@@ -1751,6 +1762,7 @@
         "npm:csv-parse@^6.1.0",
         "npm:eleventy-plugin-embed-everything@^1.21.1",
         "npm:eleventy-plugin-robotstxt@^1.0.2",
+        "npm:eleventy-plugin-vento@^5.2.1",
         "npm:html-minifier-next@^4.12.2",
         "npm:js-yaml@^4.1.1",
         "npm:markdown-it-anchor@^9.2.0",

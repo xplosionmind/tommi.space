@@ -1,0 +1,25 @@
+---
+date: 2021-05-25T17:26:38+02:00
+updated: 2022-03-14T12:32:27+01:00
+tags: geek
+description: Webrings this website belongs to
+toc: false
+image: /assets/webrings.webp
+---
+<p>Webrings this website belongs to:</p>
+
+<ul>
+	{{ for w of webrings }}
+		{{ if w.joined }}
+			<li><a href='{{ w.url }}' title='{{ w.name }}'>{{ w.name }}</a>, joined on {{#<time datetime='{{ w.joined | date_to_xmlschema }}'>{{ w.joined | date: '%d %B %Y' }}</time>#}}</li>
+		{{ /if }}
+	{{ /for }}
+</ul>
+
+<p>Webrings I am interested in:</p>
+
+<ul>
+	{{ for w of webrings }}
+		<li><a href='{{ w.url }}' title='{{ w.name }}'>{{ w.name }}</a>, joined on {{#<time datetime='{{ w.joined | date_to_xmlschema }}'>{{ w.joined | date: '%d %B %Y' }}</time>#}}</li>
+	{{ /for }}
+</ul>

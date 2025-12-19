@@ -14,19 +14,22 @@
 	}
 }
 ---
-<p>{{ description | markdownify }}</p>
+<p>{{ description |> markdownify }}</p>
 
 <hr>
 
-{% assign quotes = quotes | sort: 'date' | reverse %}
-{% for q in quotes %}
-	<p class='date' datetime='{{ q.date | date_to_xmlschema }}'>{{ q.date | date: '%d %B %Y' }}</p>
-	<blockquote lang='{{ q.lang }}'{% if q.id %}id='{{ q.id }}'{% endif %}>
-		<p>{{ q.quote | markdownify }}</p>
+{{>
+	const awesomeness = internetAwesomeness.toSorted((a, b) => b.date - a.date)
+}}
+
+{{ for q of quotes }}
+	{{#<p class=date datetime='{{ q.date | date_to_xmlschema }}'>{{ q.date | date: '%d %B %Y' }}</p>#}}
+	<blockquote lang={{ q.lang }} {{ if q.id }}id='{{ q.id }}'{{ /if }}>
+		<p>{{ q.quote |> markdownify }}</p>
 	</blockquote>
-	{% if q.author != blank or q.work != blank %}
-		<p class='cite'>
-			{{ q.author }}{%- if q.work != blank and q.author != blank -%}, {% endif -%}<cite>{% if q.url != blank %}<a href='{{ q.url }}' lang='{{ q.lang }}' hreflang='{{ q.lang }}' target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{% else %}{{ q.work }}{% endif %}</cite>{% if q.note != blank %} — {{ q.note | markdownify }}{% endif %}
+	{{ if q.author != '' || q.work != '' }}
+		<p class=cite>
+			{{ q.author }}{{- if q.work != '' && q.author != '' -}}, {{ /if -}}<cite>{{ if q.url != '' }}<a href='{{ q.url }}' lang={{ q.lang }} hreflang={{ q.lang }} target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{{ else }}{{ q.work }}{{ /if }}</cite>{{ if q.note != '' }} — {{ q.note |> markdownify }}{{ /if }}
 		</p>
-	{% endif %}
-{% endfor %}
+	{{ /if }}
+{{ /for }}

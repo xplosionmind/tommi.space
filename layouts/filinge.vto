@@ -1,0 +1,17 @@
+---
+layout: wrapper.vto
+---
+<main class='simple h-entry'>
+	<hgroup class='flex'>
+		<a class='u-uid u-url' href='{{ site.url + page.url }}'><h1 class='p-name wavyBackgroundGreen'>{{ title }}</h1></a>
+	</hgroup>
+
+	<aside class='box'>
+		<p>Nei primi mesi del 2020, ho seguito il corso di <a href='https://filinge.blogspot.com'>Filosofia dell’ingegneria</a> al Politecnico di Torino. Gran parte del programma consisteva nel creare un blog <a href='https://filinge.blogspot.com/search/label/ABC'>su un tema specifico, diverso per ciascunə</a>.</p>
+		<p>Questo è un articolo del <a href='/filinge/'>mio blog</a>, a tema <em><strong>valore</strong></em>.</p>
+	</aside>
+
+	<article class='e-content{{ if serif }} serif{{ /if }}' data-pagefind-body>
+		{{ content }}
+	</article>
+</main>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xsl:stylesheet version='3.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' xmlns:atom='http://www.w3.org/2005/Atom' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'>
+	<xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
+	<xsl:template match='/'>
+		<html xmlns='http://www.w3.org/1999/xhtml'>
+			<head>
+				<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+				<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+				<meta charset='UTF-8'/>
+				<meta name='color-scheme' content='dark light'/>
+				<link rel='stylesheet' href='/style.css'/>
+				<link rel='icon' href='/favicon.ico'/>
+				<title><xsl:value-of select='/rss/channel/title'/></title>
+				<meta property='og:title' content='{{ title }}'/>
+				<meta name='description' content='{{ description |> markdownify |> strip_html |> replace("'", " ") }}'/>
+				<meta property='og:description' content='{{ description |> markdownify |> strip_html |> replace("'", " ") }}'/>
+				<meta property='og:author' content='{{ site.author.name }}'/>
+				<meta name='author' content='{{ site.author.name }}'/>
+				<meta property='og:site_name' content='{{ site.title }}'/>
+				<meta name='generator' content='Eleventy'/>
+				{{ if related_page }}<link rel='canonical' href='{{ related_page.url }}'/>{{ /if }}
+				<meta property='og:locale' content='{{ lang }}'/>
+			</head>
+			<body>
+				<main>
+					<hgroup class='wide flex'>
+						<h1	class='wavyBackgroundRed'><xsl:value-of select='/rss/channel/title'/></h1>
+					</hgroup>
+					<div class='half'>
+						{{ include 'wtfeed.vto' }}
+					</div>
+					<article class='half background box'>
+						<h2>
+							{{ if lang == 'it' }}
+								Cosa c’è dentro?
+							{{ else }}
+								What’s inside?
+							{{ /if }}
+						</h2>
+						<p>{{ description |> markdownify }}</p>
+					<div class='flex'>
+						{{ if related_page }}
+							<a class='red button' href='{{ related_page.url }}' title='{{ related_page.description }}'>{{ related_page.title }}</a>
+						{{ /if }}
+							<a class='blue button' href='{{ page.url |> replace('.xsl', '.json') }}' title='{{ lang == 'it' ? 'Questo feed in formato JSON' : 'This feed in JSON format' }}'>JSON feed</a>
+					</div>
+				</article>
+					<h2 class='wide center'>{{ whatsinside }}</h2>
+					<div class='wide grid'>
+						<xsl:for-each select='/rss/channel/item'>
+							<a class='little box'><xsl:attribute name='href'><xsl:value-of select='link'/></xsl:attribute>
+								<h3><xsl:value-of select='title'/></h3>
+								<p><time><xsl:value-of select='pubDate' /></time></p>
+							</a>
+						</xsl:for-each>
+					</div>
+				</main>
+				{{ include 'footer.vto' }}
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>

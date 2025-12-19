@@ -1,5 +1,6 @@
 ---
 date: 2025-12-18T15:54:14+01:00
+updated: 2025-12-20T00:30:00+01:00
 tags:
   - meta
   - dev/web/11ty
@@ -43,9 +44,23 @@ To recreate [LiquidJS’ `date_to_xmlschema`](https://liquidjs.com/filters/date_
 
 
 ```vto
-{% raw %}{{ somedatevariable |> toISOString() }}{% endraw %}
+{{ echo }}{{ somedatevariable |> toISOString() }}{{ /echo }}
 ```
 
 <div class='yellow box'>
-	<strong>Note</strong>: this filter automatically converts the time to UTC+0 timezone. I have to figure out how to preserve the original timezone.
+	<strong>Note</strong>: this filter automatically converts the time to UTC+0 timezone. I should figure out what function to use to preserve the original timezone.
 </div>
+
+### `url_encode`
+
+[encodeURIComponent() - JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)
+
+### `contains`
+
+[String.prototype.includes() - JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+
+`includes()` also for arrays!
+
+### `truncate`
+
+[String.prototype.slice() - JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)

@@ -1,0 +1,19 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+layout: tag.vto
+permalink: /tag/{{ tag }}/
+eleventyComputed:
+  title: 'Tagged “{{ tag }}”'
+---
+{{ set taglist = collections[tag] }}
+{{ for entry of taglist }}
+	<a class='little background box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}'>
+		<h2>{{ entry.data.title }}</h2>
+		{{ if entry.data.description }}
+			<p>{{ entry.data.description |> markdownify |> strip_html |> slice(0, 100) }}</p>
+		{{ /if }}
+	</a>
+{{ /for }}

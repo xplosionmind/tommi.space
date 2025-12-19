@@ -1,0 +1,18 @@
+<div id=lang-filter class=box>
+	<h2>
+		{{ if lang == 'it' -}}
+			Filtra per lingua
+		</h2>
+		<p>Clicca sulla bandiera della lingua in cui vuoi vedere i post, clicca di nuovo sulla stessa per disattivare il filtro.</p>
+		{{ else -}}
+			Filter by language
+		</h2>
+		<p>Click on the flag of the language in which you want to see the posts, click again on the same flag to deactivate the filter.</p>
+		{{ /if }}
+	</p>
+	<div class=flex>
+		<label id='en-langFilterlabel' for='langFilter-en' title='{{ lang == 'it' ? 'Mostra solo i contenuti in inglese' : 'Show only content in English' }}'>🇬🇧</label>&emsp;
+		<label id='it-langFilterlabel' for='langFilter-it' title='{{ lang == 'it' ? 'Mostra solo i contenuti in italiano' : 'Show only content in Italian' }}'>🇮🇹</label>&emsp;
+		<label id='fr-langFilterlabel' for='langFilter-fr' title='{{ lang == 'it' ? 'Mostra solo i contenuti in francese' : 'Show only content in French' }}'>🇫🇷</label>
+	</div>
+</div>

@@ -14,15 +14,15 @@ redirect_from: ['/jar/', '/jam-whole/', '/jam/whole/']
 ref: jam
 image: /assets/jam.webp
 ---
-<main class='list'>
-	<hgroup class='flex'>
-		<h1 class='wavyBackgroundRazzmatazz'>The Jam</h1>
+<main class=list>
+	<hgroup class=flex>
+		<h1 class=wavyBackgroundRazzmatazz>The Jam</h1>
 	</hgroup>
-<article class='e-content'>
+<article class=e-content>
 	<p>I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <cite><a href='zibaldone.en.liquid' lang=it hreflang=en>Zibaldone</a></cite>.</p>
 	<p>I take all of these things and I throw them here.</p>
 	<h2>What is <cite>The Jam</cite>?</h2>
-	<p>In the wild, things like this are generally called <q><a href=https://dev.to/jbranchaud/the-digital-garden-l10 title='The Digital Garden on DEV.to'>Digital Gardens</a></q>, or <q><cite><a lang='de' hreflang='en' href='jam/public/Zettelkasten.md' title='Zettelkasten - tommi.space'>Zettelkasten</a></cite> system</q>. In my case, it is a definitely less ambitious experiment: it is mixed, heterogeneous, juicy, and sweet. I call it <cite>The Jam</cite>.</p>
+	<p>In the wild, things like this are generally called <q><a href=https://dev.to/jbranchaud/the-digital-garden-l10 title='The Digital Garden on DEV.to'>Digital Gardens</a></q>, or <q><cite><a lang=de hreflang=en href='jam/public/Zettelkasten.md' title='Zettelkasten - tommi.space'>Zettelkasten</a></cite> system</q>. In my case, it is a definitely less ambitious experiment: it is mixed, heterogeneous, juicy, and sweet. I call it <cite>The Jam</cite>.</p>
 	<p>From this page, it is possible to start navigating in The Jam. There are two different ways to do this:</p>
 	<ul>
 		<li>by choosing a tag</li>
@@ -30,27 +30,27 @@ image: /assets/jam.webp
 	</ul>
 </article>
 
-	<aside class='subgrid'>
-		<div class='two-thirds'>
-			{% render 'tags.liquid', site: site -%}
+<aside class=subgrid>
+		<div class=two-thirds>
+			{{ include 'tags.vto' -}}
 		</div>
-		<div class='one-third'>
-			{% render 'lang-filter.liquid', lang: lang -%}
+		<div class=one-third>
+			{{ include 'lang-filter.vto' -}}
 		</div>
 	</aside>
 
-	<div class='entries-list grid'>
-		<input type='checkbox' id='langFilter-en' class='langFilter'>
-		<input type='checkbox' id='langFilter-it' class='langFilter'>
-		<input type='checkbox' id='langFilter-fr' class='langFilter'>
-		{% for entry in collections.jam %}
-			<a class='little box{% unless entry.data.main %} background{% endunless %}' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}' {% if entry.data.main %}data-target-main{% endif %}>
+	<div class=entries-list grid'>
+		<input type=checkbox id=langFilter-en class=langFilter>
+		<input type=checkbox id=langFilter-it class=langFilter>
+		<input type=checkbox id=langFilter-fr class=langFilter>
+		{{ for entry of collections.jam }}
+			<a class='little box {{ if !entry.data.main }}background{{ /if }}' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' title='{{ entry.data.title }}' {{ if entry.data.main }}data-target-main{{ endif }}>
 				<h2>{{ entry.data.title }}</h2>
 				{% if entry.data.description %}
-					<p>{{ entry.data.description | markdownify | strip_html | truncatewords: 30 }}</p>
-				{% endif %}
-				{% render 'entry-tags.liquid', tags: entry.data.tags, site: site, size: 'tiny' %}
+					<p>{{ entry.data.description |> markdownify |> strip_html |> slice(0, 300) }}</p>
+				{{ /if }}
+				{{ include 'entry-tags.vto', { size: 'tiny' } }}
 			</a>
-		{% endfor %}
+		{{ /for }}
 	</div>
 </main>

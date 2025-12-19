@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='{{ lang || site.lang }}' prefix='og: http://ogp.me/ns#' dir='ltr'>
+
+	{{ if ref }}
+		{{ for entry of collections.all }}
+			{{ if entry.data.ref == ref && entry.data.lang != lang }}
+				{{ set alternate = entry }}
+			{{ /if }}
+		{{ /for }}
+	{{ /if }}
+
+	{{ include 'head.vto' }}
+
+	<body{{ if class }} class='{{ class }}'{{ /if }}>
+
+		{{ include 'free-palestine.vto' }}
+
+		{{ if cssNaked }}
+			{{ include 'css-naked.vto' }}
+		{{ /if }}
+
+		{{ if header }}
+			{{ include 'header.vto' }}
+		{{ /if }}
+
+		{{ content }}
+
+		{{ if footer }}
+			{{ include 'footer.vto' }}
+		{{ /if }}
+
+		{{ if toolbar }}
+			{{ include 'toolbar.liquid' }}
+		{{ /if }}
+
+	</body>
+</html>

@@ -1,0 +1,12 @@
+{{ if wiki_title }}
+	{{ set title = wiki_title }}
+{{ /if }}
+{{ set wiki_link = title |> replace(' ', '_') }}
+
+<article class='xpub box'>
+	<p>This page is intertwined with my research and practice at <a href=https://xpub.nl/>XPUB</a> 👾.</p>
+	{{ if !wiki_exclude }}
+		<p>Therefore, it is <a href='https://pzwiki.wdka.nl/mediadesign/{{ encodeURIComponent(wiki_link) }}' title='{{ title }} on the XPUB wiki'>cross-published on the XPUB Wiki</a>.</p>
+	{{ /if }}
+	<p>Learn more by reading <a href=https://pzwiki.wdka.nl/mediadesign/User:Tommi/PaJamas>PaJamas</a> 👀.
+</article>

@@ -165,7 +165,7 @@ To do everything in Eleventy we are writing custom JavaScript functions that use
 	```
 8. Finally, let’s generate the actual pages on the website. Even though we have *fetched* the pages from the wiki, we have not told Eleventy to parse them and effectively *generate* them, so they are not part of the output. To do it, we will be generating templates using pagination. It suffices to create a Liquid file for each category/collection:
 	```yaml
-	---{% raw %}
+	---{{ echo }}
 	pagination:
 	  data: collections.SI28
 	  size: 1
@@ -178,7 +178,7 @@ To do everything in Eleventy we are writing custom JavaScript functions that use
 	<h1>{{ wikipage.title }}</h1>
 	<article>
 		{{ wikipage.content }}
-	</article>{% endraw %}
+	</article>{{ /echo }}
 	```
 
 ## Open challenges

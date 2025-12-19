@@ -27,23 +27,19 @@ Scrivo, ma non so leggere. Scrivo, ma non so rileggere e capire quello che ho sc
 
 L’allarmante panorama finora descritto si aggrava ulteriormente, divenendo quasi catastrofico, quando si tratta di inglese, che *dovrebbe essere* la lingua che più utilizzo (leggendo, scrivendo, ascoltando) tutti i giorni. Mi perdo a rileggere per svariati minuti proposizioni che non so *scegliere* di capire. Mind you: non è un problema della lingua in sé, né una questione di complessità dei periodi, né tantomeno di contenuti. Si tratta lettura. (punto).
 
-{% comment %}
-	Vorrei quasi presentarmi all'esame che fra sei giorni dovrei sostenere e assistere al triste e grottesco episodio che conseguirebbe al mio scrivere sul foglio d'esame <q>I couldn't study because I don't know how to read anymore</q>. Sarei curioso di scoprire cosa accadrebbe se istituissi un collettivo universitario —dato che ce n'è troppo pochi (senza alcuna critica ai miei adorabili amici che fanno parte di collettivi, vvb)— dedicato al ri-apprendimento dell'antica, fuori moda, complicata arte della lettura.
-{% endcomment %}
+{{#
+Vorrei quasi presentarmi all'esame che fra sei giorni dovrei sostenere e assistere al triste e grottesco episodio che conseguirebbe al mio scrivere sul foglio d'esame <q>I couldn't study because I don't know how to read anymore</q>. Sarei curioso di scoprire cosa accadrebbe se istituissi un collettivo universitario —dato che ce n'è troppo pochi (senza alcuna critica ai miei adorabili amici che fanno parte di collettivi, vvb)— dedicato al ri-apprendimento dell'antica, fuori moda, complicata arte della lettura.
 
-{% comment %}
 Sarebbe interessante scrivere un libro sull'incapacità di leggere. Il libro più inutile del mondo: il suo pubblico corrisponde esattamente ad una popolazione incapace di fruire del mezzo scelto.
 Quasi più assurdo sarebbe farne un podcast, come per dire <q>tranquillo, se non sai più leggere, almeno sai ancora ascoltare</q>.
 L’apoteosi dell'incredulità sarebbe però ricevere anche questa volta quei pochi messaggi che, dopo che pubblico qualcosa, mi fanno gioire il cuore per settimane; solitamente recitano: <q>Tommmiiiiiiii è davvero bello il tuo ultimo articolo, mi ci ritrovo un sacco</q>. Avete saputo leggere, e avete capito, allora è una gran cavolata. **Sfido** i due tre lettori di queste parole a farlo. Anzi, vi prego, fatelo, alla condizione che mi lasciate pubblicare la conversazione conseguente.
 Se avessi un campione di lettori più ampio potrei sperare di ricevere comunque un commento o un messaggio, non perché ho sfidato a farlo, ma perché veramente il mittente non ha capito dove sta l'assurdità della questione, dimostrando dunque di non saper leggere e aggregandosi insieme a me alla schiera infernale degli analfabeti.
-{% endcomment %}
 
-{% comment %}
 Come sempre, satiriche esagerate stupide elucubrazioni distraggono da quello che è realmente un serio problema, che con apprensione osservo avvenire solo in me.
 D'altra parte, come potrei verificare se qualcun altro sa ancora leggere?
 Dovrei chiedere di ripetermi *summa brevitate* alcuni passaggi relativamente specifici di qualcosa che sta leggendo, per esempio un topic di *Logic and Philosophy of Science I*, che sarebbe l'argomento dell'esame di cui sopra, ma del quale non saprò comprendere le domande; beh, tutti sanno spiegarmi di cosa si sta parlando, ma io non ne sono in grado.
 Mi manca essere studente ingegnere, e lamentarmi del fatto che formule e calcoli non sono nella mia indole, ma conoscendo almeno il significato di numeri, formule, assiomi, dimostrazioni con cui avrei a che fare tutti i giorni.
-{% endcomment %}
+#}}
 
 L’ultimo mezzo freddo e macchinoso che ho per capire ciò che leggo sono gli elenchi puntati. La loro schematicità supera la mia incapacità di elaborare espressioni prosaiche e arrivano dritti alla mia testa, salvandomi dalla privazione di conoscenza alla quale tanto incoerentemente aspiro. Peccato che gli elenchi puntati siano il primo passo [verso il più vacuo analfabetismo](/quit-listing).
 

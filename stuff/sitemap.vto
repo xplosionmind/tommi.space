@@ -1,0 +1,26 @@
+---
+permalink: /sitemap.xml
+---
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9' xmlns:xhtml='http://www.w3.org/1999/xhtml'>
+	{{- for page of collections.all -}}
+		<url><loc>{{ site.url + page.url }}</loc>
+			{{- if page.data.updated -}}
+				<lastmod>{{ page.data.updated |> toISOString() }}</lastmod>
+			{{- /if -}}
+			{{- if page.data.sitemap.changefreq -}}
+				<changefreq>{{ page.data.sitemap.changefreq }}</changefreq>
+			{{- /if -}}
+			{{- if page.data.sitemap.priority -}}
+				<priority>{{ page.data.sitemap.priority }}</priority>
+			{{- /if -}}
+			{{- if page.data.ref -}}
+				{{- for entry of collections.all -}}
+					{{- if entry.data.ref == page.data.ref && entry.data.lang != page.data.lang -}}
+						<xhtml:link rel='alternate' hreflang='{{ entry.data.lang }}' href='{{ entry.url }}' />
+					{{- /if -}}
+				{{- /for -}}
+			{{- /if -}}
+		</url>
+	{{- /for -}}
+</urlset>

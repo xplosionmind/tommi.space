@@ -67,15 +67,3 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 	- Migrating to another instance
 	- Defederating another instance
 6. As the conclusion, go back to what was written on the poster/whiteboard at the beginning of the workshop, and reason collectively on if and how the pros and cons of centralized social media relate to the Fediverse.
-
-## When
-
-Occasions when I conducted the lab:
-
-<ul>
-	{%- for lab in activities -%}
-		{%- if lab.tags contains 'lab/ournet' -%}
-			<li>{{ lab.location }}, <time datetime='{{ lab.start | date_to_xmlschema }}'>{{ lab.start | date: '%-d %B %Y' }}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
-		{%- endif -%}
-	{%- endfor -%}
-</ul>

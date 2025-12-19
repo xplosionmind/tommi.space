@@ -1,0 +1,13 @@
+<section class='tags box'>
+	<h2>Tags</h2>
+	<div class='flex gap-2xs'>
+		{{ for tag of site.tags -}}
+			<a
+				href='{{- if tag.url -}}{{ tag.url }}{{- else -}}/tag/{{ tag.title }}/{{- /if -}}'
+				rel=tag
+				class='smaller button {{ tag.title | truncatewords: 1, '' }}'>
+					{{ tag.title }}
+			</a>
+		{{ /for -}}
+	</div>
+</section>

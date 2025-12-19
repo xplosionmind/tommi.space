@@ -1,0 +1,72 @@
+---js
+{
+	date: '2020-07-20T02:00:00+02:00',
+	tags: ['places', 'travel'],
+	aliases: ['Places'],
+	permalink: '/places/',
+	redirect_from: ['/around-the-world/'],
+	description: 'Places I love around the world',
+	image: '/places.jpg',
+	main: true,
+	todo: 'Loop through all the notes and posts from each location.',
+	layout: 'wrapper.vto',
+	ref: 'places',
+	updated: function (data) {
+		return this.places.reduce((latest, item) => {
+			const itemDate = new Date(item.date)
+			return itemDate > latest ? itemDate : latest
+		}, new Date(0)).toISOString()
+	}
+}
+---
+<main class='list'>
+	<hgroup class='flex'>
+		<h1 class='wavyBackgroundRazzmatazz'>Around The World</h1>
+	</hgroup>
+	<article class='e-content'>
+		<p>This page does not merely a lists places I have been to, rather it is an ever growing and evolving record of corners of the world I carry in my heart.</p>
+		<p><cite><a href=https://youtube-nocookie.com/embed/a9eNQZbjpJk title='Red Hot Chili Peppers - Around The World'>Around The World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places that exist on our planet. It resonates perfectly with the spirit of this list.</p>
+		<h2>More</h2>
+		<p>More info on how I manage my location data in the <a href=OpenStreetMap.md>OpenStreetMap page</a>.</p>
+	</article>
+
+	<iframe
+		class='wide light'
+		allowfullscreen
+		style='width: 100%; min-height: 50vh; box-shadow: var(--shadow); border-radius: 1.5rem;'
+			src='https://umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'>
+	</iframe>
+
+<div class='entries-list grid'>
+	{{ for place of places }}
+		<div class='little center box'>
+			{{ if place.img != '' }}<figure><img src='{{ place.img }}' alt='{{ place.name }}'></figure>{{ /if }}
+			<h2>{{ place.name }}</h2>
+			{{ if place.city != '' }}
+				<p><strong>{{ place.city }}</strong></p>
+			{{ /if }}
+			{{ if place.description }}
+				<p>{{ place.description |> markdownify | slice(0, 250) }}</p>
+			{{ /if }}
+			<div class='flex row'>
+				{{ if place.plot != '' }}
+					<a
+						class='tiny yellow button'
+						href='{{ place.plot }}'
+						title='What I wrote about {{ place.name }}'>The story</a>
+				{{ /if }}
+				{{ if place.url != '' }}
+					<a
+						class='tiny red button'
+						href='{{ place.url }}'
+						title='{{ place.name }}’s website'>Website</a>
+				{{ /if }}
+				<a
+					class='tiny green button'
+					href='{{- if place.osm != blank -}}{{ place.osm }}{{- else -}}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{{- /if -}}'
+					title='{{ place.name }} on the map'>View on map</a>
+			</div>
+		</div>
+	{{ /for }}
+</div>
+</main>

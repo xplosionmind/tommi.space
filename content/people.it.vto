@@ -1,0 +1,67 @@
+---js
+{
+	title: 'Persone',
+	aliases: ['Idoli','Personaggi'],
+	tags: ['log'],
+	description: 'Personaggi reali o di fantasia che hanno lasciato un segno in me',
+	permalink: '/persone/',
+	redirect_from: ['/personaggi/','/idoli/'],
+	layout: 'wrapper.liquid',
+	ref: 'people',
+	lang: 'it',
+	updated: function (data) {
+		return this.people.reduce((latest, item) => {
+			const itemDate = new Date(item.added)
+			return itemDate > latest ? itemDate : latest
+		}, new Date(0)).toISOString()
+	}
+}
+---
+<main class=list>
+<hgroup class=flex>
+	<h1 class=wavyBackgroundRazzmatazz>Persone</h1>
+</hgroup>
+
+<article class=e-content>
+	<p>Fra loro, ho conosciuto alcune girovagando per Internet, altre sono idoli che sogno fossero reali, ma sono solo personaggi di fantasia, altre sono amicizie che valorizzo oltre il nostro legame personale…</p>
+	<p>Questa pagina condivide le persone che hanno lasciato un segno in me.</p>
+</article>
+
+<div class='entries-list grid'>
+	{{ for idol of people }}
+		{{ if !idol.url.includes('tommi.space') || !idol.exclude }}
+			<div class='little box'>
+				<a href='{{ idol.url }}'>
+					<h2 id='{{ idol.who |> slugify }}'>{{ idol.who }}</h2>
+					<figure>
+						<img src='{{ idol.image }}' alt='{{ idol.who }}'>
+					</figure>
+				</a>
+				{{ if idol.note }}
+					<p>{{ idol.note |> markdownify }}</p>
+				{{ /if }}
+			</div>
+		{{ /if }}
+	{{ /for }}
+</div>
+
+<div class='entries-list nd grid'>
+	<div class='center wide no-background flex'>
+		<h2 class=wavyBackgroundRazzmatazz>People I also wrote about</h2>
+	</div>
+	{{ for idol of collections.jam }}
+		{{ for tag of idol.data.tags %}
+			{{ set idoltag = tag.replace('/', ' ') }}
+			{{ if idoltag.includes('people') }}
+				<a class='little box' href='{{ idol.url |> url }}'>
+					{{ if idol.data.image }}
+						<figure><img src='{{ idol.data.image }}' alt='{{ idol.data.title }}'></figure>
+					{{ /if }}
+					<h2 id='{{ idol.data.title |> slugify }}'>{{ idol.data.title }}</h2>
+					<p lang='{{ idol.data.lang }}'>{{ idol.data.description }}</p>
+				</a>
+			{{ /if }}
+		{{ /for }}
+	{{ /for }}
+</div>
+</main>

@@ -13,5 +13,5 @@ image: /assets/mars-ticket.webp
 That’s right, you read correctly. Last summer I filled a form to send my name on Mars, it has been recorded upon NASA’s <cite>Perseverance</cite> rover and it landed on Mars!
 
 <div class='flex row'>
-	<a class='red written button' href='https://mars.nasa.gov/participate/send-your-name/mars2020/certificate/249520420534' target='_blank' title='Send your name to Mars - NASA'>{% if lang == 'it' %}Scopri di più{% else %}Find out more{% endif %}</a>
+	<a class='red written button' href='https://mars.nasa.gov/participate/send-your-name/mars2020/certificate/249520420534' target='_blank' title='Send your name to Mars - NASA'>{{ lang == 'it' ? 'Scopri di più' : 'Find out more' }}</a>
 </div>

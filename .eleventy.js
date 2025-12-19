@@ -1,5 +1,6 @@
 import { InputPathToUrlTransformPlugin, EleventyRenderPlugin } from 'npm:@11ty/eleventy';
 import syntaxHighlight from 'npm:@11ty/eleventy-plugin-syntaxhighlight';
+import { VentoPlugin } from 'npm:eleventy-plugin-vento';
 import htmlMinifier from 'npm:html-minifier-next';
 import process from 'node:process';
 import child_process from 'node:child_process';
@@ -118,7 +119,7 @@ export default function (eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin),
 		eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
-			extensions: 'md,html,liquid'
+			extensions: 'md,html,vto'
 		});
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		extensions: 'html',
@@ -132,6 +133,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginToc, {
 		ul: true
 	});
+	eleventyConfig.addPlugin(VentoPlugin);
 
 	// Filters //
 	eleventyConfig.addFilter('reverse', (collection) => {
@@ -145,6 +147,9 @@ export default function (eleventyConfig) {
 		return email.split('').map(function (char) {
 			return `&#${char.charCodeAt(0)};`;
 		}).join('');
+	});
+	eleventyConfig.addFilter('strip_html', (str) => {
+		return str.replace(/(<([^>]+)>)/gi, '');
 	});
 
 	// Production-only //

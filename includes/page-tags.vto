@@ -1,0 +1,11 @@
+{{ for tag of tags -}}
+	<dd>
+		<a
+			href='/tag/{{ tag }}/'
+			rel='tag'
+			class='{{ tag |> replace('/', ' ') }} {{ size }} button p-category'
+			data-pagefind-filter='tag'>
+				{{ tag }}
+		</a>
+	</dd>
+{{ /for -}}

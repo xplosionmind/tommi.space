@@ -1,6 +1,0 @@
-<div class='flex gap-2xs'>
-	{% for tag in tags %}
-		{% capture classtag -%}{{ tag | replace: '/', ' ' }}{% endcapture %}
-		<span rel='tag' class='{{ classtag }} {{ size }} button p-category'>{{ tag }}</span>
-	{% endfor -%}
-</div>

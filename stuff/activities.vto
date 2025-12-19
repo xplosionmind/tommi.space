@@ -1,0 +1,136 @@
+---
+title: Activities
+aliases:
+  - Everything I do
+  - Events
+description: 'An experimental and incomplete archive of everything I have ever done, what I am doing, and what I will do.'
+parmalink: /activities/
+redirect_from: [/tutto/, /everything/, /cose/, /stuff/, /giri/]
+tags:
+  - log
+  - wip
+layout: wrapper.vto
+header: true
+footer: true
+---
+<main class='search list'>
+	<hgroup class=flex>
+	<h1 class=wavyBackgroundRazzmatazz>{{ title }}</h1>
+	</hgroup>
+	<article class=e-content>
+		<p>This is a <mark><em>very</em> experimental</mark> and incomplete page aimed at collecting <em>all</em> the activities I was involved in my life so far. It provides filtering options to refine the search.</p>
+		<noscript>
+			<div class='red box'>
+				⚠️ The search and filters functionality <strong>will <em>not</em> work</strong> unless you <strong>enable JavaScript</strong>
+			</div>
+		</noscript>
+	</article>
+
+			<details id=searchFilters class='middle background box' open>
+				<summary>search filters</summary>
+				<div>
+					<strong>Keyword: </strong>
+					<input type=search id='searchTerm' placeholder='Search…' />
+				</div>
+				<div class='period flex'>
+					<strong>Period:</strong>
+					<div>
+						<label for=startDate>from</label>
+						<input type=date id=startDate />
+					</div>
+					<div>
+						<label for=endDate>until</label>
+						<input type=date id=endDate />
+					</div>
+				</div>
+				<div class='countries flex'>
+					<strong>Countries:</strong>
+					<div id=countriesList class=flex></div>
+				</div>
+				<div class='cities flex'>
+					<strong>Cities:</strong>
+					<div id=citiesList class=flex></div>
+				</div>
+				<div class=flex>
+					<button class='small green button' id=applyFiltersBtn>Apply Filters</button>
+					<button class='small blue button' id=clearFiltersBtn>🧹 Clear Filters</button>
+				</div>
+			</details>
+
+	<div class='entries-list grid'>
+	{{ for item of activities }}
+		<div
+			id='{{ item.title |> slugify }}-{{ item.end | date: '%Y' }}'
+			class='little center box'
+			lang='{{ item.lang || 'en' }}'
+			data-date='{{ item.start | default: item.end }}'
+			{{ if item.ongoing }}data-ongoing{{ /if }}
+			{{ if item.long }}data-long{{ /if }}
+			>
+			{{ if item.url }}
+				<a href='{{ item.url }}'><h3>{{ item.title }}</h3></a>
+			{{ else }}
+				<h3>{{ item.title }}</h3>
+			{{ /if }}
+			{{ if item.description }}
+				<p>{{ item.description | markdownify }}</p>
+			{{ /if }}
+			<dl>
+				{{#{{ if item.start }}
+					<div class=start>
+						<dt>Start:</dt>
+						<dd>{{ item.start | date_to_string }} at {{ item.start | date: '%H:%M' }}</dd>
+					</div>
+				{{ /if }}
+				{{ if item.end }}
+					<div class=end>
+						<dt>End:</dt>
+						<dd>{{ item.end | date_to_string }} at {{ item.end | date: '%H:%M' }}</dd>
+					</div>
+				{{ /if }}#}}
+				<div class=location>
+					<dt>Location:</dt>
+					<dd>
+						{{ if item.osm }}
+							<a href='{{ item.osm }}' title='{{ item.location }} on OpenStreetMap'>{{ item.location }}</a>
+						{{ else if item.latitude }}
+							<a href='https://osm.org?mlat={{ item.latitude }}&mlon={{ item.longitude }}&zoom=18' title='{{ item.location }} on OpenStreetMap'>{{ item.location }}</a>
+						{{ else if item.url && item.location == 'online' }}
+							<a href='{{ item.url }}'>online</a>
+						{{ else }}
+							{{ item.location }}
+						{{ /if }}
+					</dd>
+					{{- if item.city && item.city != item.location -}}
+						, <dd class=city>{{ item.city }}</dd>
+					{{- /if -}}
+					{{- if item.country -}}
+						, <dd class=country>{{ item.country }}</dd>
+					{{ /if }}
+				</div>
+				<div class=tags>
+					<dt>Tags:</dt>
+					{{ for t of item.tags}}
+						<dd>{{ t }}</dd>
+					{{ /for }}
+				</div>
+				{{ if item.data -}}
+					<div class=data>
+						<dt>Resources:</dt>
+						{{ for datum of item.data }}
+							<dd><a href='{{ datum.url }}' title='{{ datum.what }}'>{{ datum.what }}</a></dd>
+						{{ /for }}
+					</div>
+				{{ /if }}
+			</dl>
+			{{#{{ if item.image }}
+				<figure>
+					<img src='{{ item.image }}' alt='A picture from {{ item.title }}'>
+				</figure>
+			{{ /if }}#}}
+		</div>
+	{{ /for }}
+</div>
+</main>
+
+<script src=/searchFilters.js async></script>

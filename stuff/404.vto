@@ -1,0 +1,30 @@
+---
+title: ⚠️ Error 404 🤨
+permalink: /error/404.html
+layout: full.liquid
+---
+<a class='wide flex' href=/ title='Go back'>
+	<h1 class=wavyBackgroundRed>{{ title }}</h1>
+</a>
+<div class='middle box'>
+	<p class=center>Sorry, <strong>page not found 🤯</strong>. Click on the title to go back<noscript> home</noscript>.</p>
+	<h2>💡 Possible solutions:</h2>
+	<ul>
+		<li>Make sure that the address was <strong>correctly typed</strong></li>
+		<li>Make sure that all of the characters of the address are <strong>downcase</strong></li>
+		<li>
+			<a href='mailto:{{ site.author.email |> obfuscateEmail }}?subject=%5Btommi.space%5D%20%5B404%5D&text=The%20page%20I%20cannot%20find%20is%20%5BPAGEURL%5D' id='error-report' title='Send me an error report'>Email me <strong>an error report</strong></a>
+		</li>
+	</ul>
+</div>
+<script>
+	window.onload = function(){
+		const pageNotFound = window.location.href.replace(/https:\/\/tommi\.space/g, '');
+		const errorReportUri = 'mailto:{{ site.author.email }}?subject=%5Btommi.space%5D%5B404%5D%20' + pageNotFound;
+		document.getElementById('error-report').setAttribute('href', errorReportUri);
+	};
+	document.querySelector('a.wide.flex').addEventListener('click', () => {
+		event.preventDefault();
+		history.back();
+	});
+</script>

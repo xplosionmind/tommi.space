@@ -1,0 +1,23 @@
+---
+layout: wrapper.vto
+---
+<main class='h-entry simple'>
+	<hgroup class='flex'>
+		<h1 class='p-name wavyBackground{{- if page.inputPath.includes('zibaldone') -}}Purple{{- else -}}Red{{- /if -}}'><a class='u-uid u-url' href='{{ site.url + page.url }}'>{{ title }}</a></h1>
+		{{ if subtitle }}
+			<h2>{{ subtitle }}</h2>
+		{{ /if }}
+	</hgroup>
+
+	<aside>
+		<p class='center no-background'><time class='dt-published' datetime='{{ date |> toUTCString() }}'>{{ if lang == 'it' }}{{ include 'date-it.vto' }}{{ else }}{{ date |> date: '%-d %B %Y' }}{{ /if }}{{# +++vtoTOFIX #}}</time></dd></p>
+		<dl id='tags' class='flex gap-2xs'><dt>Tags:</dt>{{ include 'page-tags.vto' }}</dl>
+	</aside>
+
+	<article class='e-content{{ if serif }} serif{{ /if }}' data-pagefind-body>
+		{{ if include }}
+			{{ include }}
+		{{ /if }}
+		{{ content }}
+	</article>
+</main>

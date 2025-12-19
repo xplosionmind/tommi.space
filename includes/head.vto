@@ -1,0 +1,98 @@
+<head>
+	<!-- Basic -->
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+	<meta name='color-scheme' content='dark light'>
+
+	<!-- Block AI robots -->
+	<meta name='robots' content='noml, noai, noimageai'>
+
+	<!-- Assets -->
+	{{ if !cssNaked }}
+		<link rel='stylesheet' href='/style.css' type='text/css'>
+		{{ if stylesheet }}<link rel='stylesheet' type='text/css' href='{{ stylesheet }}'>{{ /if }}
+		<link rel='stylesheet' href='/print.css' type='text/css' media='print'>
+	{{ /if }}
+
+	<!-- Favicon -->
+	<link rel='icon' sizes='16x16 32x32 48x48' href='/favicon.ico'>
+
+	<!-- Metadata -->
+	<title>{{ title || site.title }}</title>
+	<meta property='og:title' content='{{ title || site.title }}'>
+	{{ if !description && lang == 'it' }}
+		{{ set description = site.description-it }}
+	{{ else if !description }}
+		{{ set description = site.description }}
+	{{ /if }}
+	<meta name='description' content='{{ description |> markdownify |> strip_html |> replace("'", "") }}' data-pagefind-meta='description[content]'>
+	<meta property='og:description' content='{{ description |> markdownify |> strip_html |> replace("'", "") }}'>
+	<meta property='og:author' content='{{ site.author.name }}'>
+	<meta name='fediverse:creator' content='@tommi@pan.rent'>
+	<meta name='author' content='{{ site.author.name }}'>
+	<meta property='og:site_name' content='{{ site.title }}'>
+	<meta name='generator' content='Eleventy'>
+	<meta property='og:url' content='{{ site.url + page.url }}'>
+	<link rel='canonical' href='{{ site.url + page.url }}'>
+	{{ if date }}<meta property='og:article:published_time' content='{{ date |> toISOString() }}'>{{ /if }}
+	{{ if updated }}<meta property='article:modified_time' content='{{ updated |> toISOString() }}'>{{ /if }}
+	{{ if image && image.startsWith('/assets') }}
+		<meta property='og:image' content='{{ site.url + image.replace('/assets', '') }}'>
+	{{ else if image }}
+		<meta property='og:image' content='{{ image }}'>
+	{{ else }}
+		<meta property='og:image' content='{{ site.url + site.image }}'>
+	{{ /if }}
+	<meta name='twitter:card' content='summary_large_image'>
+	<meta property='og:type' content='{{ type || 'website' }}'>
+	<meta property='og:locale' content='{{ lang }}'>
+	{{ if alternate }}
+		<meta property='og:locale:alternate' content='{{ alternate.data.lang }}'>
+		<link rel='alternate' href='{{ alternate.url }}'>
+	{{ /if }}
+
+	<!-- All of Tommi’s Accounts -->
+	{{ for account of accounts }}
+		<link rel='me{{ account.attributes }}' href='{{ account.url }}' title='Tommi on {{ account.platform }}'>
+	{{ /for }}
+	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search={{ site.author.email }}'>
+
+	<!-- RSS Feeds -->
+	{{ if lang == 'it' }}
+		<link rel='alternate' type='application/rss+xml' title='Feed principale' href='/it/index.xml'>
+		<link rel='alternate' type='application/rss+xml' title='Feed dei contenuti in italiano' href='/it.xml'>
+		<link rel='alternate' type='application/json' title='Tutto in italiano - JSON' href='/it.json'>
+	{{ else }}
+		<link rel='alternate' type='application/rss+xml' title='Main feed' href='/index.xml'>
+	{{ /if }}
+	<link rel='alternate' type='application/json' title='Stream - JSON' href='/all.json'>
+	<link rel='alternate' type='application/atom+xml' title='{{ lang == 'it' ? 'Zibaldone' : 'Blog feed' }}' href='/zibaldone.xml'>
+	<link rel='alternate' type='application/json' title='{{ lang == 'it' ? 'Zibaldone' : 'Blog feed' }}' href='/zibaldone.json'>
+	<link rel='alternate' type='application/atom+xml' title='{{ lang == 'it' ? 'Poesie' : 'Poetry' }}' href='/poetry.xml'>
+	<link rel='alternate' type='application/json' title='{{ lang == 'it' ? 'Poesie' : 'Poetry' }}' href='/poetry.json'>
+	<link rel='alternate' type='application/atom+xml' title='{{ lang == 'it' ? 'feed Marmellata' : 'Jam feed' }}' href='/jam.xml'>
+	<link rel='alternate' type='application/json' title='{{ lang == 'it' ? 'feed Marmellata' : 'Jam feed' }}' href='/jam.json'>
+	<link rel='alternate' type='application/rss+xml' title='{{ lang == 'it' ? 'Sconnesso' : 'Sconnesso podcast' }}' href='/sconnesso.xml'>
+	<link rel='alternate' type='application/rss+xml' title='Internet Awesomeness feed' href='/internet-awesomeness.xml'>
+	<link rel='alternate' type='application/json' title='Internet Awesomeness feed' href='/internet-awesomeness.json'>
+	<link rel='alternate' type='application/rss+xml' title='Recent and upcoming activities' href='/activities.xml'>
+	<link rel='alternate' type='application/json' title='Recent and upcoming activities – JSON' href='/activities.json'>
+
+
+	<!-- Page-specific styling -->
+	{{ if primary }}
+		<style>
+			body {
+				--primary: {{ primary }} !important;
+			}
+		</style>
+		<meta name='theme-color' content='{{ primary }}'>
+	{{ else }}
+		<meta name='theme-color' content='#FCC920' media='(prefers-color-scheme: light)'>
+		<meta name='theme-color' content='#000000' media='(prefers-color-scheme: dark)'>
+	{{ /if }}
+
+	{{ if head }}
+		{{ head }}
+	{{ /if }}
+</head>

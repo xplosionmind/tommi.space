@@ -1,0 +1,37 @@
+---js
+{
+	date: '2020-06-10',
+	tags: ['quote'],
+	description: 'Questa pagina collezione citazioni memorabili dalla mia vita, che siano per il loro significato, o per il valore contestuale attorno ad esse. Alcune sono da celebrità o espertз, altre pronunciate da amicз e non hanno particolare significato per il pubblico.',
+	redirect_from: ['/cit/'],
+	lang: 'it',
+	image: '/assets/quotes.gif',
+	main: true,
+	ref: 'quotes',
+	updated: function (data) {
+		return this.quotes.reduce((latest, item) => {
+			const itemDate = new Date(item.date)
+			return itemDate > latest ? itemDate : latest
+		}, new Date(0)).toISOString()
+	}
+}
+---
+<p>{{ description |> markdownify }}</p>
+
+<hr>
+
+{{>
+	const awesomeness = internetAwesomeness.toSorted((a, b) => b.date - a.date)
+}}
+
+{{ for q of quotes }}
+	{{#<p class=date datetime='{{ q.date | date_to_xmlschema }}'>{{ q.date | date: '%d %B %Y' }}</p>#}}
+	<blockquote lang={{ q.lang }} {{ if q.id }}id='{{ q.id }}'{{ /if }}>
+		<p>{{ q.quote |> markdownify }}</p>
+	</blockquote>
+	{{ if q.author != '' || q.work != '' }}
+		<p class=cite>
+			{{ q.author }}{{- if q.work != '' && q.author != '' -}}, {{ /if -}}<cite>{{ if q.url != '' }}<a href='{{ q.url }}' lang={{ q.lang }} hreflang={{ q.lang }} target='_blank' title='{{ q.work }}'>{{ q.work }}</a>{{ else }}{{ q.work }}{{ /if }}</cite>{{ if q.note != '' }} — {{ q.note |> markdownify }}{{ /if }}
+		</p>
+	{{ /if }}
+{{ /for }}

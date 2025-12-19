@@ -54,7 +54,7 @@ As opposed to [version 2](#version-2), that mainly signified a change in perspec
 To share the modifications applied I should be pointing to the source code’s changelog, but I am so terrible at committing to git regularly that in the end all that has changed for version 3 is grouped in *one* commit 😬. Therefore, I am listing the most notable reworkings manually, following my memory of what I have inconsistently edited in the past eight months—as I have been working on this on and off since May 2024.
 
 - The most remarkable transformation is the migration to the mighty [Eleventy version 3](https://www.11ty.dev/blog/eleventy-v3/ '“Eleventy v3.0.0 is now available!” in Eleventy’s blog'), which forced me to better understand the way Eleventy and JavaScript work, as I transitioned the whole project to <abbr title='ECMAScript Modules'>ESM</abbr>.
-	- I updated the [eleventy-img plugin](https://www.11ty.dev/docs/plugins/image/ 'Image Plugin – 11ty Docs'), finally replacing Liquid’s {% raw %}`{% img %}`{% endraw %} shortcodes with regular `<img>` HTML tags.
+	- I updated the [eleventy-img plugin](https://www.11ty.dev/docs/plugins/image/ 'Image Plugin – 11ty Docs'), finally replacing Liquid’s {{ echo }}`{% img %}`{{ /echo }} shortcodes with regular `<img>` HTML tags.
 	- Since [eleventy-sass](https://github.com/kentaroi/eleventy-sass 'kentaroi/eleventy-sass on GitHub') still [does not support ESM](https://github.com/kentaroi/eleventy-sass/issues/33 'Issue #33 for kentaroi/eleventy-sass on GitHub'), I decided to remove dependence from a plugin to compile Sass, and it is done in a parallel, independent process instead.
 	- Taking advantage of the [InputPath to URL plugin](https://www.11ty.dev/docs/plugins/inputpath-to-url/ 'InputPath to URL – 11ty Docs'), I removed the [markdown-it-wikilinks](https://www.npmjs.com/package/markdown-it-wikilinks 'markdown-it-wikilinks by jsepia – NPM') extension, so that now internal links can be regular and interoperable Markdown links.
 - I completely refactored the CSS, adopting the [CUBE methodology](https://cube.fyi/ 'Composition Utility Block Exception') (I still have to refine this, though), and basing the whole layout on [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid 'grid CSS Reference on MDN').
@@ -180,7 +180,7 @@ Sidenotes are awesome, and after taking a look at [Koos Loijesteijn post](https:
 
 I decided not to, for now, for three main reasons:
 1. They are impossible to be implemented in Markdown, they need **a lot** of HTML and I don’t have the skills for making a Jekyll plugin to transform footnotes in sidenotes (but it may be a great idea to create one)
-2. I could easily create an {% raw %}`{% render sidenotes.html %}`{% endraw %} where I could pass as arguments both the note content and the word linked to it, but it wouldn’t satisfy me for two reasons:
+2. I could easily create an {{ raw }}`{% render sidenotes.html %}`{{ /echo }} where I could pass as arguments both the note content and the word linked to it, but it wouldn’t satisfy me for two reasons:
 	1. In the case of printing, it would be a great mess.
 	2. On other readers or Markdown parsers outside of Jekyll I’d have a massive chunk of unrendered ugly text
 3. Considered the reasons above, <u>it’s not worth it</u>. I use footnotes very few times (even though I massively over-use parentheses (as I am doing right now)) and with the lovely arrow[^1] automatically created, it’s painless to use them.
@@ -216,17 +216,17 @@ Even though I love [Typography](Typography.md), I am never fully convinced about
 I will be noting below my doubts and, if solved, my conclusions.
 
 <ul>
-	{%- for p in collections.all -%}
-		{%- if p.data.todo -%}
+	{{- for p of collections.all -}}
+		{{- if p.data.todo -}}
 			<li><a href='{{ p.url }}' title='{{ p.data.title }}'>{{ p.data.title }}</a>:
 				<ul>
-					{%- for task in p.data.todo -%}
-						<li>{{ task | markdownify }}</li>
-					{%- endfor -%}
+					{{- for task in p.data.todo -}}
+						<li>{{ task |> markdownify }}</li>
+					{{- /for -}}
 				</ul>
 			</li>
-		{%- endif -%}
-	{%- endfor -%}
+		{{- /if -}}
+	{{- /for -}}
 </ul>
 
 [^1]: Lovely arrow test →

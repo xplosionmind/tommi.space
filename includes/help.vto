@@ -1,0 +1,16 @@
+<div id='help' class='razzmatazz box'>
+	<h3>🤔 {{ lang == 'it' ? 'Aiutami!' : 'Help me!' }} 🤷🏻‍♂️</h3>
+	{{ if lang == 'it' }}
+		<p>Questa pagina tratta di qualcosa per cui avrei bisogno di una mano.<br>
+			Se volessi aiutarmi, te ne sarei grato!</p>
+		<div class='flex row'>
+			<a class='blue button' href='/aiuto/' title='Aiuto!'>maggiori informazioni</a>
+		</div>
+	{{ else }}
+		<p>This page is about something I would definitly appreciate some help for.<br>
+		If you’re up for assisting me, I would be tremendously grateful.</p>
+		<div class='flex'>
+			<a class='blue button' href='/help/' title='Help!'>more info</a>
+		</div>
+	{{ /if }}
+</div>

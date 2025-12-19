@@ -20,13 +20,13 @@ Hence, the purpose of this page is to collect all of the things I need help for.
 In the case you find something you are interested in among the things below, do not hesitate to <a href='{{ site.email }}?subject=I can help you with {{ title }}' target='_blank' title='Write me an email'>contact me</a> or <a href='#comment' title='leave a comment'>to drop a comment</a>.
 
 <ul>
-	{%- for n in collections.jam -%}
-		{%- if n.data.tags contains 'help' -%}
+	{{- for n in collections.jam -}}
+		{{- if n.data.tags.includes('help') -}}
 			<li>
-				<a href='{{ n.url }}' title='{{ n.data.title }}' {% if n.data.lang != 'en'%}hreflang='{{ n.data.lang }}'{% endif %}>
+				<a href='{{ n.url }}' title='{{ n.data.title }}' {{ if n.data.lang != 'en' }}hreflang='{{ n.data.lang }}'{{ /if }}>
 					{{ n.data.title }}
 				</a>
 			</li>
-		{%- endif -%}
-	{%- endfor -%}
+		{{- /if -}}
+	{{- /for -}}
 </ul>

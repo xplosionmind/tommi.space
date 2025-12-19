@@ -67,15 +67,3 @@ Non tutti i materiali sono essenziali per la riuscita del laboratorio. Nella ver
 	- Esempio di migrazione su un’altra istanza
 	- Esempio di defederazione
 6. In conclusione, riprendere quanto scritto sul cartellone all’inizio del laboratorio e verificare partecipativamente come le cose belle e le cose brutte dette sui social network mainstream funzionino invece nel Fediverso.
-
-## Edizioni passate
-
-Occasioni in cui ho svolto il laboratorio:
-
-<ul>
-	{%- for lab in activities -%}
-		{%- if lab.tags contains 'lab/ournet' -%}
-			<li>{{ lab.location }}, <time datetime='{{ lab.start | date_to_xmlschema }}'>{%- render 'date-it.liquid', date: lab.start -%}</time>.{% if lab.description %} {{ lab.description | markdownify }}{% endif %}</li>
-		{%- endif -%}
-	{%- endfor -%}
-</ul>

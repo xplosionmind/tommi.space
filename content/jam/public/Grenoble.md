@@ -27,7 +27,7 @@ Par consequence, forcément je suis obligé à supprimer mes nombreux instincts 
 
 <a href='/places/' title='Around the World - tommi.space' hreflang='en'>Mes endroits</a> autour de la ville :
 
-{% render 'city-places.liquid', places: places, city: 'Grenoble' %}
+{{#{% render 'city-places.liquid', places: places, city: 'Grenoble' %}#}}
 
 ## Aller voire
 

@@ -29,12 +29,12 @@ In the rare occasions when I watch movies and series critically, or when I have 
 A raw, impulsive, unexplained list of my all-time favorite movies and series:
 
 <ul class='two'>
-	{% assign favs = watchlog | where: 'favorite', 'true' %}
-	{%- for fav in favs -%}
+	{{ set favs = watchlog }} {{#|> where: 'favorite', 'true'#}}
+	{{- for fav in favs -}}
 		<li>
-			<cite><a href='{%- if fav.tommi == blank -%}https://en.wikipedia.org/wiki/{{ fav.title | replace: ' ', '_' | url_encode }}{%- else -%}{{ fav.tommi }}{%- endif -%}' title='“{{ fav.title }}”'>{{ fav.title }}</a></cite>
+			<cite><a href='{{- if fav.tommi == '' -}}https://en.wikipedia.org/wiki/{{ encodeURIComponent(fav.title.replace(' ', '_')) }}{{- else -}}{{ fav.tommi }}{{- /if -}}' title='“{{ fav.title }}”'>{{ fav.title }}</a></cite>
 		</li>
-	{%- endfor -%}
+	{{- /for -}}
 </ul>
 
 ## Watchlists

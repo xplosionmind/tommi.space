@@ -66,25 +66,23 @@ As Tomminess is based on who Tommi is, some stuff gets old as Tommi, incredibly,
 
 Occasionally, friends of mine I have not been in touch with for quite some time pop up with a message telling me that I remind them so much of some public figure. Below a list:
 
-{% for p in tommiUguale -%}
-	{% if p.name != blank -%}### {{ p.name }}{% endif -%}
+{{ for p in tommiUguale -}}
+	{{ if p.name != '' -}}### {{ p.name }}{{ /if -}}
 	<a href='{{ p.url }}'>
-			{% if p.audio != blank -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
-			{% if p.image != blank -%}<figure><img src='{{ p.image }}' alt='{{ p.name }}'></figure>{% endif -%}
-			{% if p.description != blank -%}<p>{{ p.description | markdownify }}</p>{% endif -%}
+			{{ if p.audio != '' -%}<audio controls src='{{ p.audio }}'></audio>{{ /if -}}
+			{{ if p.image != blank -%}<figure><img src='{{ p.image }}' alt='{{ p.name }}'></figure>{{ endif -}}
+			{{ if p.description != '' -}}<p>{{ p.description |> markdownify }}</p>{{ endif -}}
 	</a>
-{% endfor -%}
+{{ /for -}}
 
 ## Tomminess manifestations
 
 Things, thoughts, writings, videos, songs that represent a part of <cite>Tomminess</cite>:
 
 <ul>
-	{% for p in collections.all -%}
-		{% for tag in p.data.tags -%}
-			{% if tag == 'tomminess' -%}
-				<li lang='{{ p.data.lang }}'><cite><a href='{{ p.url }}' hreflang='{{ p.data.lang }}' title='{{ p.data.title }}'>{{ p.data.title }}</a></cite>{%- if p.data.description -%}, {{ p.data.description | markdownify }}{%- endif -%}</li>
-			{% endif -%}
-		{% endfor -%}
-	{% endfor -%}
+	{{ for p in collections.all -}}
+		{{ if p.data.tags.includes('tomminess') -}}
+			<li lang='{{ p.data.lang }}'><cite><a href='{{ p.url }}' hreflang='{{ p.data.lang }}' title='{{ p.data.title }}'>{{ p.data.title }}</a></cite>{{- if p.data.description -}}, {{ p.data.description |> markdownify }}{{- /if -}}</li>
+		{{ /if -}}
+	{{ /for -}}
 </ul>
