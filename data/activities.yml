@@ -1,0 +1,2210 @@
+- title: Cables of Resistance
+  start: '2026-04-10'
+  end: '2026-04-12'
+  location: Berlin
+  city: Berlin
+  country: Germany
+  url: https://cableresist.de/
+  tags:
+    - geek
+- title: Fa’ la cosa giusta!
+  start: '2026-03-13'
+  end: '2026-03-15'
+  location: RHO Milano Fiere
+  city: Milano
+  country: Italy
+  url: https://falacosagiusta.org
+  tags:
+    - fair
+- title: 2.Dh5
+  start: '2026-02-28'
+  end: '2026-03-01'
+  location: ACU, BAK, Moira
+  city: Utrecht
+  country: Netherlands
+  url: https://www.2dh5.nl/en/
+  tags:
+    - festival
+- title: FOSDEM 2026
+  start: '2026-01-31T15:00:00+01:00'
+  end: '2026-02-01T22:00:00+01:00'
+  location: Université Libre de Bruxelles
+  city: Bruxelles
+  country: Belgium
+  url: https://fosdem.org
+  tags:
+    - geek
+- title: Extra Terrestrial Publishing
+  start: '2026-01-31T10:00:00+01:00'
+  end: '2026-01-31T13:00:00+01:00'
+  location: Dokhuis
+  city: Rotterdam
+  country: Netherlands
+  url: https://hub.xpub.nl/cerealbox/xtraterrestrial/
+  tags:
+    - XPUB
+    - fair
+- title: 39C3
+  start: '2025-12-26T22:00:00+01:00'
+  end: '2025-12-31T11:00:00+01:00'
+  location: CCH
+  city: Hamburg
+  country: Germany
+  url: https://events.ccc.de/congress/2025/infos/startpage.html
+  tags:
+    - geek
+- title: Guided Tour of the Canòdrom
+  start: '2025-12-15T10:00:00+01:00'
+  end: '2025-12-15T12:00:00+01:00'
+  location: Canòdrom
+  city: Barcelona
+  country: Spain
+  url:
+    https://comunitat.canodrom.barcelona/assemblies/comunitat/f/1651/meetings/3018
+  tags:
+    - geek
+- title: 'Nitsa: Patrick Mason + BLONDEX + REXER'
+  start: '2025-12-14T03:00:00+01:00'
+  end: '2025-12-14T06:00:00+01:00'
+  location: Sala Apolo
+  city: Barcelona
+  country: Spain
+  url: https://www.sala-apolo.com/es/evento/nitsa-patrick-mason-20251213-6919
+  tags:
+    - music/club
+- title: GenEtica meets Jóvenes por Fiare
+  start: '2025-12-12T19:00:00+01:00'
+  end: '2025-12-13T22:30:00+01:00'
+  location: Barcelona
+  city: Barcelona
+  country: Spain
+  tags:
+    - BancaEtica
+- title: Archive as a Space of Conflict
+  start: '2025-12-05T17:00:00+01:00'
+  end: '2025-12-05T18:30:00+01:00'
+  location: WORM
+  city: Rotterdam
+  country: Netherlands
+  url: https://worm.org/production/archive-as-a-space-of-conflict/
+  tags:
+    - geek
+    - copyright
+- title: Intro to Local-First
+  start: '2025-12-04T17:00:00+01:00'
+  end: '2025-12-04T19:00:00+01:00'
+  location: XPUB Studio
+  city: Rotterdam
+  country: Netherlands
+  url:
+    https://pzwiki.wdka.nl/mediadesign/Calendars:XPUB/XPUB_Calendar/04-12-2025_-Event_2
+  tags:
+    - geek
+    - workshop
+    - XPUB
+  role: organizer
+- title: Brewing Permacomputing Collectives
+  start: '2025-11-28T17:00:00+01:00'
+  end: '2025-11-28T19:00:00+01:00'
+  location: Stroom
+  city: Den Haag
+  country: Netherlands
+  url:
+    https://www.stroom.nl/en/stroom/agenda-en/brewing-permacomputing-collectives
+  tags:
+    - geek
+    - permacomputing
+    - conference
+- title: NIAS Workshop – Code as Critique
+  start: '2025-11-27T09:00:00+01:00'
+  end: '2025-11-27T20:00:00+01:00'
+  location: NIAS
+  city: Amsterdam
+  country: Netherlands
+  url: https://nias.knaw.nl/events/code-as-critique/
+  tags:
+    - geek
+    - workshop
+- title: Anarchist Bookfair Amsterdam
+  start: '2025-11-22T11:00:00+01:00'
+  end: '2025-11-22T19:00:00+01:00'
+  location: Dokhuis
+  city: Amsterdam
+  country: Netherlands
+  url: https://anarchistbookfairamsterdam.org/
+  tags:
+    - fair
+  aliases:
+    - ABFA
+- title: A_Mazing Machine[s] – Wordscapes to Liberate Language
+  start: '2025-11-19T15:30:00+01:00'
+  end: '2025-11-19T19:00:00+01:00'
+  location: Ubik
+  city: Rotterdam
+  country: Netherlands
+  url: https://issue.xpub.nl/28/
+  tags:
+    - XPUB
+    - performance
+  role: host
+- title: Big Tech, Killer Robots and the Genocide in Gaza
+  start: '2025-11-11T15:30:00+01:00'
+  end: '2025-11-11T17:30:00+01:00'
+  location: WdKA
+  city: Rotterdam
+  country: Netherlands
+  url:
+    https://www.linkedin.com/posts/samer-abdelnour_rotterdam-activity-7393609154478845952-1Otg
+  tags:
+    - lecture
+    - Palestine
+- title: SFSCON 2025
+  start: '2025-11-07T08:30:00+01:00'
+  end: '2025-11-09T21:00:00+01:00'
+  location: NOI Techpark
+  city: Bolzano
+  country: Italy
+  url: https://www.sfscon.it/tracks/fediverse-track-2025/
+  tags:
+    - geek
+    - ournet
+  role: organizer
+  video: https://vimeo.com/1137385486
+- title: Premio Tenco 2025
+  start: '2025-10-23T10:00:00+02:00'
+  end: '2025-10-26T10:00:00+01:00'
+  location: Teatro Ariston
+  city: Sanremo
+  country: Italy
+  url: https://www.clubtenco.it/2025-il-programma/
+  tags:
+    - music
+    - Tenco
+  role: member
+- title: XPUB Cakeoff
+  start: '2025-10-18T16:00:00+02:00'
+  end: '2025-10-18T18:00:00+02:00'
+  location: Koffie & Ambacht
+  city: Rotterdam
+  country: Netherlands
+  tags:
+    - XPUB
+    - friends
+  role: member
+- title: 'B(r)oilerplates for Fictionality: Doing stuff with technology (gossip,
+    folklore, craft, aesthetics, scenes)'
+  start: '2025-10-11T14:00:00+02:00'
+  end: '2025-10-11T17:00:00+02:00'
+  location: Varia
+  city: Rotterdam
+  country: Netherlands
+  url: https://varia.zone/en/broilerplates-for-fictionality-part-iv.html
+  tags:
+    - geek
+    - workshop
+- title: DWeb Meetup September 2025
+  start: '2025-09-30T10:00:00-07:00'
+  end: '2025-09-30T11:00:00-07:00'
+  location: online
+  tags:
+    - DWeb
+    - geek
+  role: staff
+- title: GRAW 2025 + Software Freedom Day 2025
+  start: '2025-09-20T18:00:00+02:00'
+  end: '2025-09-20T19:30:00+02:00'
+  location: Foundation B.a.d
+  city: Rotterdam
+  country: Netherlands
+  url: https://foundationbad.nl/mix-up/
+  tags:
+    - geek
+  role: host
+- title: Gathering for Collective Mapping
+  start: '2025-09-04T19:00:00+02:00'
+  end: '2025-09-04T23:00:00+02:00'
+  location: BAR OMI, Schietbaanstraat 21
+  city: Rotterdam
+  country: Netherlands
+  url:
+    https://omirotterdam.nl/en/evenementen/workshop-en/gathering-for-collective-mapping-2/
+  tags:
+    - art
+    - friends
+- title: Maurosky Live
+  start: '2025-08-23T16:00:00+02:00'
+  end: '2025-08-23T23:59:59+02:00'
+  location: Piazza Chierotti
+  city: Arma di Taggia
+  country: Italy
+  lang: it
+  tags:
+    - Scambi
+    - music
+    - concert
+  role: host
+- title: Scambi Festival 2025
+  start: '2025-08-20T09:00:00+02:00'
+  end: '2025-08-24T18:00:00+02:00'
+  url: https://scambi.org/2025/
+  location: La Pigna
+  city: Sanremo
+  country: Italy
+  lang: it
+  tags:
+    - Scambi
+    - music
+    - concert
+  role: member
+- title: What Hackers Yearn (WHY2025)
+  start: '2025-08-08'
+  end: '2025-08-12'
+  url: https://why2025.org
+  location: Geestmerambacht
+  city: Amsterdam
+  country: Netherlands
+  tags:
+    - camp
+    - geek
+    - RTT
+    - DWeb
+  role: host
+- title: Bari Città Aperta
+  start: '2025-07-08T18:00:00+02:00'
+  end: '2025-07-18T12:00:00+02:00'
+  url: https://baricittaperta.xyz
+  location: Spazio13
+  city: Bari
+  country: Italy
+  lang: it
+  tags:
+    - camp
+    - geek
+    - RTT
+  role: host
+- title: 'Archive Like a Hacker-Librarian: Internet Archive with Command Line'
+  start: '2025-07-03T18:00:00+02:00'
+  end: '2025-07-03T19:00:00+02:00'
+  url: https://archive.org/details/youtube-8Pr05zlXdlo
+  location: online
+  tags:
+    - DWeb
+    - InternetArchive
+    - video
+  role: guest
+- title: Parola d’Autore
+  start: '2025-06-20T19:00:00+02:00'
+  end: '2025-06-21T23:59:59+02:00'
+  url: https://mobilizon.it/events/8c47c9a5-2fef-44c9-85cf-a1b0441dd28b
+  location: Sede Club Tenco
+  city: Sanremo
+  country: Italy
+  lang: it
+  tags:
+    - music
+    - concert
+    - Tenco
+  role: host
+- title: FestiValle Argentina, edizione zero
+  start: '2025-06-14T14:00:00+02:00'
+  end: '2025-06-14T23:59:00+02:00'
+  url: https://festivalleargentina.com/
+  location: Molini di Triora
+  city: Valle Argentina
+  country: Italy
+  lang: it
+  tags:
+    - music
+    - concert
+    - camp
+    - nature
+- title: FediForum
+  start: '2025-06-05T15:00:00+00:00'
+  end: '2025-06-07T20:00:00+00:00'
+  url: https://fediforum.org
+  location: online
+  lang: it
+  tags:
+    - Fediverse
+    - geek
+  role: member
+- title: 'Extratonal Infrastructure #19 - The Cozy Drone'
+  start: '2025-05-24T19:30:00+02:00'
+  end: '2025-05-24T22:00:00+02:00'
+  location: Varia
+  city: Rotterdam
+  country: Netherlands
+  url:
+    https://web.archive.org/web/20250512212756/https://calendar.klank.school/event/extratonal-infrastructure-19-the-cozy-drone
+  tags:
+    - music
+- title: Assemblea Banca Etica 2025
+  start: '2025-05-17T10:00:00+02:00'
+  end: '2025-05-17T15:30:00+02:00'
+  url: https://www.bancaetica.it/meeting/assemblea-dei-soci-2025/
+  location: Teatro delle Celebrazioni
+  city: Bologna
+  country: Italy
+  lang: it
+  tags:
+    - BancaEtica
+    - assembly
+  role: member
+- title: FairMenti
+  start: '2025-05-09T18:30:00+02:00'
+  end: '2025-05-11T15:30:00+02:00'
+  location: Bari
+  city: Bari
+  country: Italy
+  lang: it
+  tags:
+    - event
+    - lab/ournet
+  role: host
+- title: FediForum Roundtable
+  start: '2025-04-01T17:00:00+02:00'
+  end: '2025-04-01T18:30:00+02:00'
+  url: https://fediforum.org
+  location: online
+  tags:
+    - unconference
+    - geek
+    - RTT
+- title: Queen of Saba
+  start: '2025-03-29T21:30:00+01:00'
+  end: '2025-03-29T23:59:59+01:00'
+  url:
+    https://dice.fm/event/v367q6-queen-of-saba-29th-mar-locomotiv-club-bologna-tickets
+  location: Locomotiv
+  city: Bologna
+  country: Italy
+  lang: it
+  tags:
+    - concert
+    - music
+- title: La Nostra Rete × SCIFT
+  start: '2025-03-29T15:30:00+01:00'
+  end: '2025-03-29T17:00:00+01:00'
+  url: https://municipiozero.it/scift/
+  location: Làbas
+  city: Bologna
+  country: Italy
+  lang: it
+  tags:
+    - lab/ournet
+    - geek
+    - RTT
+  role: host
+- title: Bambole di Pezza
+  start: '2025-03-27T20:00:00+01:00'
+  end: '2025-03-27T23:59:59+01:00'
+  url:
+    https://dice.fm/partner/dice/event/9288n6-bambole-di-pezza-27th-mar-largo-venue-roma-tickets
+  location: Largo Venue
+  city: Roma
+  country: Italy
+  lang: it
+  tags:
+    - concert
+    - music
+- title: La Nostra Rete
+  start: '2025-03-25T17:00:00+01:00'
+  end: '2025-03-25T19:00:00+01:00'
+  location: Villa Bernabei
+  city: Velletri
+  country: Italy
+  lang: it
+  tags:
+    - lab/ournet
+  role: host
+- title: Incontro Nazionale GenEtica
+  start: '2025-03-21T14:00:00+01:00'
+  end: '2025-03-23T15:00:00+01:00'
+  url: https://bancaetica.it/genetica/
+  location: Casa Don Diana
+  city: Casal di Principe
+  country: Italy
+  lang: it
+  tags:
+    - GenEtica
+    - BancaEtica
+- title: La Nostra Rete × Demand
+  start: '2025-03-18T18:30:00+01:00'
+  end: '2025-03-18T20:30:00+01:00'
+  url: +++
+  location: Zero81
+  city: Napoli
+  country: Italy
+  lang: it
+  tags:
+    - lab/ournet
+    - geek
+    - RTT
+  role: host
+- title: Uomini e Topi
+  start: '2025-03-14T20:00:00+01:00'
+  end: '2025-03-14T22:00:00+01:00'
+  url: https://teatrosanbabilamilano.it/event/uomini-e-topi/
+  location: Teatro San Babila
+  city: Milano
+  country: Italy
+  lang: it
+  tags:
+    - theatre
+- title: Fa’ la cosa giusta!
+  start: '2025-03-14T08:00:00+01:00'
+  end: '2025-03-16T18:00:00+01:00'
+  url: https://falacosagiusta.org
+  location: RHO Milano Fiere
+  city: Milano
+  country: Italy
+  lang: it
+  tags:
+    - lab/ournet
+    - fair
+  role: host
+- title: La Nostra Rete Tour
+  start: '2025-03-13T08:00:00+01:00'
+  end: '2025-04-03T18:00:00+02:00'
+  url: https://ournet.rocks/it/it-tour/
+  country: Italy
+  lang: it
+  tags:
+    - lab/ournet
+    - highlight
+  role: host
+- title: OFFDEM 0x05
+  start: '2025-02-02T08:00:00+01:00'
+  end: '2025-02-02T23:59:59+01:00'
+  url: https://offdem.net
+  location: Zone Neutre Roza Nera
+  city: Bruxelles
+  country: Belgium
+  tags:
+    - geek
+    - lab/ournet
+  role: host
+- title: FOSDEM 2025
+  start: '2025-02-01T08:00:00+01:00'
+  end: '2025-02-01T23:59:59+01:00'
+  url: https://fosdem.org
+  location: Université Libre de Bruxelles
+  city: Bruxelles
+  country: Belgium
+  tags:
+    - geek
+- title: 38C3
+  start: '2024-12-27T12:00:00+01:00'
+  end: '2024-12-30T23:59:59+01:00'
+  url: https://events.ccc.de/congress/2025/infos/startpage.html
+  location: CCH
+  city: Hamburg
+  country: Germany
+  tags:
+    - geek
+- title: Inter Alia Roots Winter School 2024
+  start: '2024-11-30T09:00:00+02:00'
+  end: '2024-12-02T22:00:00+02:00'
+  url:
+    https://interaliaproject.com/participation/roots-winter-school-2024-strategies-for-socio-ecological-transformations-in-times-of-uncertainty/
+  location: Athens
+  country: Greece
+  tags:
+    - europe
+    - lab/ournet
+  role: host
+- title: SFSCon 2024
+  start: '2024-11-08T09:00:00+01:00'
+  end: '2024-11-09T12:00:00+01:00'
+  url: https://sfscon.it
+  location: NOI Techpark
+  city: Bolzano
+  country: Italy
+  tags:
+    - geek
+    - lab/ournet
+  role: host
+- title: Kin City 2024
+  start: '2024-10-17T09:00:00+01:00'
+  end: '2024-10-19T20:00:00+01:00'
+  url: https://berlinergazette.de/projects/kin-city/
+  location: ZK/U
+  city: Berlin
+  country: Germany
+  tags:
+    - environment
+- title: Alta Felicità 2024
+  start: '2024-07-26T09:00:00+02:00'
+  end: '2024-07-28T24:00:00+02:00'
+  url: https://www.altafelicita.org/
+  location: Val Susa
+  country: Italy
+  tags:
+    - music
+    - camping
+    - festival
+- title: Mozilla Festival 2024
+  start: '2024-06-11T09:00:00+02:00'
+  end: '2024-06-13T20:00:00+02:00'
+  url: https://mozillafestival.org
+  location: Tolhuistuin
+  city: Amsterdam
+  country: Netherlands
+  tags:
+    - geek
+- title: Reclaim The Tech 2024
+  start: '2024-05-17T10:00:00+02:00'
+  end: '2024-05-19T20:00:00+02:00'
+  url: https://reclaimthetech.it
+  tags:
+    - geek
+    - lab/ournet
+  location: TPO
+  city: Bologna
+  country: Italy
+  role: host
+- title: LibreItalia Conference
+  start: '2024-05-04T09:00:00+02:00'
+  end: '2024-05-04T17:00:00+02:00'
+  url: https://conference.libreitalia.org/2024/
+  location: Monte San Vito (AN)
+  country: Italy
+  tags:
+    - geek
+    - lab/ournet
+  role: host
+  description: '[LibreItalia](https://libreitalia.org)’s yearly conference'
+  description-it: La conferenza annuale di
+    [LibreItalia](https://libreitalia.org)
+- title: Fa’ la cosa giusta!
+  start: 2024-03-23T10:00+01:00
+  end: '2024-03-23T19:30:00+01:00'
+  url: https://falacosagiusta.org
+  tags:
+    - festival
+  people:
+    - Pippo Civati
+    - Don Luigi Ciotti
+    - Andrea Valiati
+    - Marina Bozza
+    - Martina Miccichè
+  description-it: La più grande fiera nazionale del consumo critico e degli
+    stili di vita sostenibili
+  location: Allianz MiCo
+  city: Milano
+  country: Italy
+- title: Rete (In)Sostenibile, Circonomia
+  start: '2024-03-07'
+  end: '2024-03-10'
+  url: https://circonomiafano.it
+  tags:
+    - festival
+    - lab/ournet
+  description-it: Sono stato invitato a tenere il mio Lab sul Fediverso,
+    rivisitato in chiave di sostenibilità, nella sezione <cite>Aria
+    Fresca</cite> del Festival <cite>Circonomia</cite>, la cui edizione del
+    2024 si terrà contestualmente a Pesaro Capitale Italiana della Cultura
+    2024.
+  description: I was invited to <cite lang='it'>Circonomia</cite> to host my
+    Fediverse workshop.
+  location: Fano
+  lang: it
+  role: host
+- title: FOSDEM 2024
+  start: '2024-02-01'
+  end: '2024-02-04'
+  url: https://fosdem.org/2024
+  tags:
+    - FSFE
+    - work
+    - geek
+  description-it: La più importante conferenza sul Software Libero in Europa
+  description: The most important Free Software conference in Europe
+  location: Université Libre de Bruxelles
+  city: Bruxelles
+  country: Belgium
+- title: Viaggio a Varsavia
+  start: '2024-01-19'
+  end: '2024-01-21'
+  tags:
+    - friends
+  description-it: Giretto a Varsavia per il compleanno della mia amica Lucia
+  description: Quick trip to Warsaw to visit my friend Lucia
+  location: Warszawa
+  lang: it
+- title: SFSCon 2023
+  start: '2023-11-10T09:00:00+01:00'
+  end: '2023-11-11T12:00:00+01:00'
+  url: https://sfscon.it
+  location: NOI Techpark
+  city: Bolzano
+  country: Italy
+  tags:
+    - geek
+    - FSFE
+- title: I social network del futuro
+  start: '2023-10-20T08:45:00+02:00'
+  end: '2023-10-20T12:30:00+02:00'
+  url: https://ournet.rocks/cassini/
+  tags:
+    - lab/ournet
+  description: Ho proposto il mio [Laboratorio sul
+    Fediverso](https://tommi.space/lab-fediverso 'Lab sul Fediverso,
+    tommi.space') durante l’assemblea d’istituto del mio ex liceo, il [Liceo
+    G.D. Cassini di Sanremo](https://www.liceogdcassini.it).
+  location: Liceo G.D. Cassini
+  city: Sanremo
+  country: Italy
+  latitude: 43.82265
+  longitude: 7.78617
+  lang: it
+  role: creator
+- title: 'Conceiving the social networks of the future (spoiler: they already
+    exist)'
+  start: '2023-09-23T18:00:00+01:00'
+  end: '2023-09-23T20:00:00+01:00'
+  url:
+    https://web.archive.org/web/20231004142032/https://2023.antiuniversity.org/events/conceiving-the-social-networks-of-the-future-spoiler-they-already-exist
+  tags:
+    - lab/ournet
+  description: I brought my [Fediverse workshop](https://tommi.space/fedilab
+    'Fediverse Workshop information page on tommi.space') to [ANTIUNIVERSITY
+    LONDON
+    2023](https://web.archive.org/web/20231004222426/https://2023.antiuniversity.org/).
+  location: MayDay Rooms
+  city: London
+  country: United Kingdom
+  latitude: 51.5141229
+  longitude: -0.1056421
+  role: creator
+- title: Direzione Fediverso!
+  start: '2023-08-27T18:00:00+02:00'
+  end: '2023-08-27T13:00:00+02:00'
+  url: https://scambi.org/2023/lab/direzione-fediverso/
+  tags:
+    - scambi
+    - lab/ournet
+  description: Insieme a Pitte, ho ideato e moderato il laboratorio sul
+    Fediverso tenuto a [Scambi Festival](https://scambi.org 'Scambi, Il
+    Festival dei Laboratori Paneuretici') 2023.
+  location: La Pigna
+  city: Sanremo
+  country: Italy
+  latitude: 43.818911
+  longitude: 7.774683
+  role: creator
+- title: Laboratorio sul Fediverso al quarantennale del Mira 1
+  start: '2023-06-11T09:30:00+02:00'
+  end: '2023-06-11T13:30:00+02:00'
+  url: https://tommi.space/lab-fediverso/
+  tags:
+    - scout
+    - lab/ournet
+  description: Sono stato invitato a tenere una bottega (termine scout per
+    indicare un laboratorio) in occasione del quarantennale del Mira 1,
+    gruppo scout in cui sono stato capo dal 2020 al 2022.
+  location: Oriago di Mira
+  latitude: 45.44819
+  longitude: 12.16566
+  role: creator
+- title: Late Night nello ScambiVerso
+  start: '2022-12-27T20:00:00+01:00'
+  end: '2022-12-28T01:00:00+01:00'
+  url: https://scambi.org/editions#latenight-scambiverso
+  tags:
+    - scambi
+    - music
+  people:
+    - Asganaway
+    - Claynuts
+    - Late Night Sessions
+  description: We got in touch with those crazy people of <cite>[Late Night
+    Sessions](https://instagram.com/latenightsessions2022 'Late Night
+    Sessions')</cite>, and together we organized an unforgettable night. The
+    [Asganaway](https://instagram.com/__asganaway_ 'Asganaway su Instagram')
+    and The [Claynuts](https://instagram.com/clay.nuts 'Claynuts su
+    Instagram') played so hard that all of our hearts trembled.
+  location: Oratorio di Santa Brigida
+  city: Sanremo
+  country: Italy
+  latitude: 43.81901
+  longitude: 7.77419
+  role: creator
+  data:
+    - what: Media
+      url: https://archive.org/details/latenight-scambiverso
+- title: Visite du musée de Grenoble
+  start: '2022-12-13T14:00:00+01:00'
+  end: '2022-12-18T17:56:00+01:00'
+  url: https://museedegrenoble.fr/2684-de-la-nature.htm
+  tags:
+    - museum
+    - art
+    - love
+  people:
+    - Sophie
+  location: Musée de Grenoble
+  city: Grenoble
+  country: France
+  latitude: 45.19495
+  longitude: 5.73226
+- title: Trip to Brussels
+  start: '2022-12-11T16:13:00+01:00'
+  end: '2022-12-18T10:56:00+01:00'
+  tags:
+    - trip
+    - networking
+  people:
+    - CSV Polis
+    - Davide Pesce
+    - Gloria Chiaramonti
+    - Michela Tarantino
+    - Martina Monti
+  location: Bruxelles
+  city: Bruxelles
+  country: Belgium
+  description: A trip organized by [CSV Polis](https://csvpolis.it 'CSV
+    Polis'), taking to Brussels a dozen of representatives of the most
+    promising associations of Western Liguria, mainly to enhance and
+    stabilize networking with EU institutions.
+- title: Scouting
+  start: '2008-10-01'
+  end: '2022-09-01'
+  tags:
+    - scout
+  image: /assets/scouting.jpg
+  logo: /agesci.svg
+  color: '#3B177D'
+  background: '#95B74D'
+  button-text:
+    it: Il movimento
+    en: The movement
+  url: https://agesci.it
+  description: I am a scout since when I was 8 years old. I love scouting and
+    I am proud to be a scout chief.
+  description-it: Sono scout da quando ho 8 anni. Amo lo scoutismo e con
+    orgoglio indosso l’uniforme <abbr title='Associazione Guide e Scout
+    Cattolici Italiani'>AGESCI</abbr>. In questo momento sono aiuto capo
+    reparto nel gruppo [Mira 1](https://agescimira1.mystrikingly.com/ 'Sito
+    web del gruppo Mira 1').
+  role: member
+- title: Scambi Festival 2022
+  start: '2022-08-25T09:00:00+02:00'
+  end: '2022-08-28T23:59:00+02:00'
+  aliases:
+    - Scambi 2022
+  url: https://scambi.org/editions#2022
+  tags:
+    - event
+    - scambi
+  location: La Pigna
+  city: Sanremo
+  country: Italy
+  latitude: 43.81878
+  longitude: 7.77434
+  role: creator
+  data:
+    - what: Documentary
+      url: https://peertube.uno/w/nVkrGcAxERp2WHhWWRvTng
+    - what: Media
+      url: https://archive.org/details/scambi-2022
+- title: La festa del secolo
+  start: '2022-05-21T18:00:00+02:00'
+  end: '2022-05-21T22:50:00+02:00'
+  aliases:
+    - Centenario AGESCI Mestre
+    - Cento anni di scoutismo a Mestre
+  url: https://www.agescimestre.it/
+  tags:
+    - scout
+    - event
+    - concert
+  people:
+    - L’Ostile Scout
+  location: Campi del Sole
+  city: Mestre
+  country: Italy
+  latitude: 45.505206
+  longitude: 12.234811
+  data:
+    - what: Video completo
+      url: https://youtube-nocookie.com/embed/i8rjmiUhfZo
+- title: Anti Social Social Park 2022
+  start: '2022-12-11T16:13:00+01:00'
+  end: '2022-05-21T17:56:00+02:00'
+  aliases:
+    - ASSP 2022
+  url: https://instagram.com/antisocialsocialpark
+  tags:
+    - festival
+    - music
+    - workshop
+    - networking
+    - ASSP
+    - concert
+  people:
+    - Francesco Zollo
+    - Tredici Pietro
+    - Fulminacci
+  location: Acropoli Etrusca
+  city: Volterra
+  country: Italy
+  latitude: 43.40057
+  longitude: 10.8619
+- title: VeUMEU
+  start: '2022-05-13T09:45:00+01:00'
+  end: '2022-05-15T09:45:00+01:00'
+  aliases:
+    - Venice Universities’ Model European Union
+  url:
+    https://www.univiu.org/viu-life/veumeu-2022-venice-universities-model-european-union
+  tags:
+    - event
+    - uni
+  location: VIU
+  city: Venezia
+  country: Italy
+  data:
+    - what: Position Papers
+      url: https://drive.google.com/drive/folders/1wZ8-Y0P46YzDszfPAFNXkUfn5X1qMpTc
+    - what: Notes
+      url: https://tommi.space/veumeu-2022
+- title: San Giorgio
+  start: '2022-04-02T14:00:00+01:00'
+  end: '2022-04-03T17:00:00+01:00'
+  tags:
+    - scout
+  location: Bosco di Mestre
+  city: Mestre
+  country: Italy
+  latitude: 45.524053
+  longitude: 12.283767
+  role: staff
+- title: Democracy in the age of the internet
+  start: '2022-03-14T16:30:00+01:00'
+  end: '2022-03-14T17:45:00+01:00'
+  url: https://www.unive.it/data/33113/1/55393
+  tags:
+    - uni
+    - event
+    - philosophy
+  location: Aula Morelli
+  city: Venezia
+  country: Italy
+  people:
+    - Renato Janine Ribeiro
+    - Fabrizio Turoldo
+- title: Scambi Presenta
+  start: '2022-02-26T15:00:00+01:00'
+  end: '2022-02-26T23:03:34+01:00'
+  video: https://www.instagram.com/p/CaceajQJ0sF/
+  url: https://scambi.org/2022-presenta
+  tags:
+    - scambi
+    - event
+    - host
+  role: creator
+  location: online
+  description: Il trampolino di lancio per l’edizione 2022 di Scambi Festival
+  people:
+    - Jori
+    - Piter
+    - Vladi
+    - Barrio BuiDLers
+    - Silvana Ormea
+  data:
+    - what: Il mio discorso introduttivo
+      url: https://instagram.com/tv/CaceajQJ0sF/
+- title: 'I giovani e la pandemia: un metodo <q>paneuretico</q> per uscirne tutti più… positivi'
+  start: '2022-02-22T21:00:00+01:00'
+  end: '2022-02-22T23:03:34+01:00'
+  image: /assets/2022-02-22-incontro-giovani-pandemia.jpg
+  video: https://youtube-nocookie.com/embed/qSWyxBOdF5A?t=24
+  tags:
+    - ac
+    - host
+  location: online
+  description: Ho moderato l’evento, organizzato da <cite>[La Coperta di
+    Yusuf](https://www.youtube.com/channel/UC9SIkDaDDXZeppk7wVx2jXQ 'La
+    Coperta di Yusuf su YouTube')</cite>
+  people:
+    - Fulvio Fellegara
+    - Fulvio Rombo
+    - Maria Paola Rottino
+- title: What is Europe to you?
+  end: '2022-02-16'
+  url:
+    https://www.comune.venezia.it/it/content/1501-26022022-mostra-fotografica-what-europe-you
+  location: Palazzo Abruzzi-Capello
+  city: Venezia
+  country: Italy
+  tags:
+    - photo
+    - exhibition
+  latitude: 45.442681
+  longitude: 12.335983
+- title: Come distruggere la propria carriera prima che sia iniziata
+  start: '2021-11-04'
+  end: '2021-11-04'
+  url: https://www.unive.it/data/agenda/1/54199
+  location: Aula Magna Ca’ Foscari
+  tags:
+    - event
+    - conference
+- title: Premio Tenco 2021
+  start: '2021-10-21'
+  end: '2021-10-23'
+  url: https://clubtenco.it/tenco-2021/
+  location: Teatro Ariston
+  city: Sanremo
+  country: Italy
+  tags:
+    - tenco
+- title: Intervista a Vittorio De Scalzi per <cite>Il cantautore</cite>
+  end: '2021-10-21'
+  location: Sanremo
+  tags:
+    - writing
+    - music
+  role: author
+- title: Manifestazione in solidarietà a Mimmo Lucano
+  start: '2021-10-12'
+  end: '2021-10-12'
+  location: Ca’ Foscari
+  city: Venezia
+  country: Italy
+  tags:
+    - protest
+- title: Caccia con CdA
+  end: '2021-10-10'
+  location: Venezia
+  tags:
+    - scout
+    - lc
+  description: Incontro con il patriarca di Venezia [Francesco
+    Moraglia](https://it.wikipedia.org/wiki/Francesco_Moraglia 'Francesco
+    Moraglia su Wikipedia')
+  role: staff
+- title: Assemblea di Zona AGESCI Mestre
+  start: '2021-10-02'
+  end: '2021-10-03'
+  city: Mestre
+  country: Italy
+  tags:
+    - scout
+    - formazione
+  description: incontro con Don Domenico Cambareri
+- title: Rigoletto
+  end: '2021-09-28'
+  url: https://teatrolafenice.it/event/rigoletto
+  location: Teatro La Fenice
+  tags:
+    - opera
+  latitude: 45.433673
+  longitude: 12.333784
+- title: 'VIP: Violation of the Pauli Principle'
+  end: '2021-09-24'
+  url:
+    https://capesaro.visitmuve.it/it/eventi/eventi-in-corso/vip-violation-of-the-pauli-exclusion-principle/2020/11/21305/vip-margherita-morgantin/
+  location: Ca’ Pesaro
+  city: Venezia
+  country: Italy
+  tags:
+    - exhibition
+  description: mostra sull’esperimento in ricerca della violazione del
+    principio di Pauli, presso i laboratori del Gran Sasso
+  latitude: 45.441013
+  longitude: 12.331612
+- title: Campo di Formazione Tirocinanti
+  start: '2021-09-17'
+  end: '2021-09-19'
+  aliases:
+    - CFT
+    - Tirocinanti Saltellanti
+  location: Duomo
+  city: Mestre
+  country: Italy
+  tags:
+    - scout
+  description: il primo di campo di formazione per capi scout, a seguito del
+    quale ho scritto [questo articolo]('https://tommi.space/cft
+    '“Tirocinanti Saltellanti” su tommi.space')
+  latitude: 45.493003
+  longitude: 12.241339
+- title: Pubblicazione lista beni confiscati provincia di Imperia
+  start: '2021-09-03'
+  end: '2021-09-03'
+  location: SPES, Ventimiglia
+  country: Italy
+  tags:
+    - libera
+  description: Evento conclusivo del campo E!State Liberi di Scambi Festival
+- title: VeUMEU
+  start: '2021-05-08'
+  end: '2021-05-09'
+  aliases:
+    - Venice Universities’ Model of the European Union
+    - VeUMEU 2021
+  url: https://www.univiu.org/viu-life/veumeu-2021
+  location: VIU
+  city: Venezia
+  country: Italy
+  tags:
+    - uni
+    - certification
+  description: Ho partecipato come parlamentare del Parlamento Europeo, in
+    rappresentanza del Partito Social Democratico del Portogallo.
+  latitude: 45.41985
+  longitude: 12.35639
+- title: Pubblicazione quitsocialmedia.club
+  end: '2021-03-31'
+  url: https://quitsocialmedia.club
+  location: online
+- title: Gestione pagina Instagram Sanremonews per il Festival di Sanremo 2021
+  start: '2021-03-01'
+  end: '2021-03-06'
+  aliases:
+    - Festival di Sanremo
+    - Sanremo 2021
+  location: Sanremo
+  tags:
+    - sanremo
+  description: Ho partecipato come parlamentare del Parlamento Europeo, in
+    rappresentanza del Partito Social Democratico del Portogallo.
+  data:
+    - what: Video di lancio
+      url: https://www.instagram.com/p/CL6YWjmhNyd/
+    - what: Video vari
+      url:
+      - https://www.instagram.com/p/CL9S9Jti04f/
+      - https://www.instagram.com/p/CL9j9ADi_Ew/
+      - https://www.instagram.com/p/CL_x0VRis4Y/
+      - https://www.instagram.com/p/CMCKJhoi7rE/
+      - https://www.instagram.com/p/CMCeSf_CEAW/
+      - https://www.instagram.com/p/CMEvqn5ib5X/
+- title: Partenza
+  end: '2021-01-04'
+  location: Madonna del Buon Consiglio
+  city: Riva Ligure
+  country: Italy
+  tags:
+    - scout
+- title: LIBERA
+  start: '2018'
+  end: '2021'
+  tags:
+    - libera
+  image: https://live.staticflickr.com/65535/49854137792_8e7ff31b63_b.jpg
+  logo: /libera.webp
+  color: '#0D1833'
+  background: '#B5D5E2'
+  button-text:
+    it: Sito web ufficiale
+    en: Official website
+  url: https://libera.it
+  description: <cite lang='it'>LIBERA</cite> is an association which **fights
+    mafia** in a non-violent way, by promoting events and educating people
+    to legality. Together with some friends and schoolmates, I founded the
+    Sanremo local chapter
+  description-it: <cite>LIBERA, associazioni, nomi e numeri contro le
+    mafie</cite> è un associazione che **combatte la criminalità
+    organizzata** promuovendo campagne di informazione ed educazione e
+    organizzando eventi in memoria delle vittime innocenti uccise dalla
+    mafia (come in questa foto). Nel febbraio 2019, con alcuni miei compagni
+    di scuola ho fondato il **Presidio** del [Liceo G.D.
+    Cassini](https://www.liceogdcassini.edu.it 'Liceo G.D. Cassini di
+    Sanremo - sito istituzionale') di Sanremo, intitolato a [Rosario
+    Livatino](https://it.wikipedia.org/wiki/Rosario_Livatino 'Rosario
+    Livatino su Wikipedia')
+  personal: false
+- title: Giffoni Winter Edition
+  start: '2020-12-26'
+  end: '2020-12-30'
+  url:
+    https://www.giffonifilmfestival.it/news-giffoni-experience/item/8647-giffoni50-winter-edition-ecco-il-programma.html
+  location: online
+  tags:
+    - giffoni
+- title: 'MDN: una risorsa per tutti'
+  end: '2020-10-25T19:00:00+01:00'
+  aliases:
+    - Linux Day 2020
+  people:
+    - Mozilla
+    - ILS
+  url:
+    https://video.linux.it/videos/watch/091b3ba4-5ed0-4f31-b6f4-4cd06060c9bf
+  tags:
+    - talk
+    - linuxday
+    - mozilla
+    - geek
+  description: Il mio talk su [MDN Web Docs](https://mdn.dev 'MDN Web Docs')
+    il [Linux Day 2020](https://linuxday.it/2020 'Linux Day 2020')
+  data:
+    - what: Video
+      url: https://video.linux.it/videos/watch/091b3ba4-5ed0-4f31-b6f4-4cd06060c9bf
+- title: TALK, Il Post
+  end: '2020-09-27'
+  url: http://web.archive.org/web/20210818225530/https://www.ilpost.it/talk-2/
+  location: Faenza
+  country: Italy
+  tags:
+    - festival
+- title: 'Tlon - Filosofia di Gruppo #1'
+  end: '2020-09-19'
+  people:
+    - Andrea Colamedici
+    - Clarice Subiaco
+  aliases:
+    - Venice Universities’ Model of the European Union
+    - VeUMEU 2021
+  url: https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3
+  location: online
+  tags:
+    - qsm
+  description: ho partecipato discutendo di <cite lang='en'><a
+    href='https://tommi.space/ten-arguments' hreflang='en' title='Ten
+    Arguments For Deleting Your Social media Accounts Right Now'>Ten
+    Arguments For Deleting Your Social media Accounts Right Now</a></cite>.
+    Sono intervenuto al minuto <time>44:45</time>.
+  data:
+    - what: Podcast
+      url: https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3
+- title: Giffoni Film Festival
+  start: '2020-08-18'
+  end: '2020-08-29'
+  url: https://www.giffonifilmfestival.it/diario-giffoni-50
+  location: Giffoni
+  country: Italy
+  tags:
+    - giffoni
+  data:
+    - what: Foto di Giffoni
+      url: https://www.flickr.com/photos/giffonifilmfestival/collections/72157715587418446/
+- title: Workshop di Giornalismo de Il Post
+  start: '2020-07-05'
+  end: '2020-07-13'
+  aliases:
+    - Il Post a Peccioli
+  people:
+    - Il Post
+    - Arianna Cavallo
+    - Luca Sofri
+    - Elena Zacchetti
+    - Emanuele Menietti
+    - Matteo Caccia
+    - Francesca Mannocchi
+    - Posteri
+  url: https://ilpost.it/2020/07/12/sgomberi-bogota-coronavirus
+  tags:
+    - workshop
+    - posteri
+  location: Peccioli
+  country: Italy
+  data:
+    - what: L’articolo che ho scritto
+      url: https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/
+- title: Philosophy of Engineering
+  start: '2020-03-16'
+  end: '2020-07-07'
+  tags:
+    - filinge
+  image: /assets/bitcoin-mine.jpg
+  logo: /philosophy-of-engineering.svg
+  color: '#000'
+  background: '#20CE88'
+  button-text:
+    it: Film mentali
+    en: My writings
+  url: /filinge/
+  location: online
+  description: One of the first year exams for the <a
+    href='https://didattica.polito.it/pls/portal30/sviluppo.offerta_formativa_2019.vis?p_coorte=2020&p_sdu=37&p_cds=10'
+    hreflang='it' title='Offerta Formativa corso di laurea in Computer
+    Engineering - PoliTo'>Computer Engineering</a> at
+    [PoliTo](https://www.polito.it 'Politecnico di Torino') can be chosen by
+    the student. I chose <cite><a href='http://filinge.blogspot.com'
+    hreflang='it'>Philosophy and Engineering</a></cite> and below you can
+    visit the blog I created as the scope of the course.
+  description-it: Uno degli esami del primo anno per la laurea in <a
+    href='https://didattica.polito.it/pls/portal30/sviluppo.offerta_formativa_2019.vis?p_coorte=2020&p_sdu=37&p_cds=10'
+    lang='en' hreflang='it'>Computer Engineering</a> può essere scelto dagli
+    studenti. Io ho scelto [Filosofia
+    dell’Ingegneria](http://filinge.blogspot.com 'Filosofia dell’Ingegneria
+    - blog'). Per il corso, ho dovuto scrivere un blog sul tema “valore”, si
+    può leggere cliccando qui sotto.
+  personal: false
+- title: Twenty Shoes Against Racism
+  end: '2020-06-20'
+  aliases:
+    - Sardine Black Lives Matter
+  people:
+    - Sardine
+  location: Pian di Nave
+  city: Sanremo
+  country: Italy
+  tags:
+    - sardine
+  latitude: 43.81404
+  longitude: 7.7777
+  role: staff
+  description: organizzato con <a
+    href='https://www.facebook.com/6000sardineponentine/' target='_blank'
+    title='Pagina Facebook di 6000 Sardine Ponentine'>6000Sardine
+    Ponentine</a>
+  data:
+    - what: Comunicato stampa
+      url: https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html
+- title: Resto a Casa Cineforum
+  start: '2020-03-01'
+  end: '2020-05-30'
+  people:
+    - Nicholas Britell
+    - Seamus McGarvey
+    - Ciro D’Emilio
+    - Daniele Ciprì
+    - Luca Ward
+    - Borghi
+  url: https://www.instagram.com/iorestoacasa_cineforum/
+  location: online
+  role: staff
+  tags:
+    - giffoni
+- title: Campagna di Dungeons & Dragons
+  start: 2015-10
+  end: 2020-04
+  aliases:
+    - Rise of the Runelords
+    - Campagna Pathfinder
+  tags:
+    - rpg
+  data:
+    - what: Appunti della campagna ne La Marmellata
+      url: /rise-of-the-runelords
+- title: Diretta di LIBERA con il PD di Sanremo
+  end: '2020-03-23'
+  url: https://it-it.facebook.com/551177158313780/videos/1280858522118804/
+  location: online
+  tags:
+    - libera
+  description: in questa diretta ho parlato del podcast [Libera in
+    pillole](https://spreaker.com/show/libera-in-pillole 'LIBERA IN
+    PILLOLE')
+  role: interviewed
+- title: A little Christmas Show
+  end: '2019-12-27'
+  url: https://facebook.com/events/318752479011472/
+  location: Sede Club Tenco
+  city: Sanremo
+  country: Italy
+  tags:
+    - Libera
+    - scout
+  latitude: 43.81423
+  longitude: 7.77303
+  role: staff
+- title: Teen Parade
+  start: '2019-11-13'
+  end: '2019-11-14'
+  url: https://radioimmaginaria.it/teenparade
+  location: Genova
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto da Radioimmaginaria
+      url: https://flic.kr/s/aHsmJjqJpQ
+- title: Premio Tenco 2019
+  start: '2019-10-17'
+  end: '2019-10-19'
+  url: https://clubtenco.it/tenco-2019
+  location: Teatro Ariston
+  city: Sanremo
+  country: Italy
+  tags:
+    - tenco
+- title: Deejay Ten
+  end: '2019-10-13'
+  location: Milano
+  country: Italy
+  description: sempre grazie a [Matteo
+    Cifani](https://instagram.com/matteo_cifani '@matteo_cifani su
+    Instagram'), sono andato in giro per il centro di Milano a fare scatti
+    per la [Deejay Ten](https://deejayten.deejay.it/milano 'Deejay Ten'), la
+    maratona di [Radio Deejay](https://deejay.it)
+- title: Rockin1000 - No borders on board
+  end: '2019-10-12'
+  url: https://rockin1000.com/it/events/32
+  location: Linate Airport
+  city: Milano
+  country: Italy
+  tags:
+    - music
+  description: Mi sono infiltrato nel dietro le quinte grazie al mio amico
+    [Matteo Cifani](https://instagram.com/matteo_cifani '@matteo_cifani su
+    Instagram').
+- title: Festival della Comunicazione
+  start: '2019-09-12'
+  end: '2019-09-15'
+  url: http://www.festivalcomunicazione.it/
+  location: Camogli
+  tags:
+    - festival
+- title: Everyone
+  start: '2019-01-05'
+  end: '2019-08-31'
+  image: /assets/everyone.webp
+  logo: /everyone.svg
+  color: '#FFF'
+  background: '#425462'
+  button-text:
+    it: Sveglia
+    en: Wake up
+  url: /everyone/
+  description: A short movie I made. My first one and my worst one yet.
+  description-it: Un cortometraggio da me scritto e diretto. Il mio primo e,
+    per ora, il peggiore.
+  personal: true
+- title: Xplosion Pictures
+  start: '2017-12-25'
+  end: '2019-08-31'
+  tags:
+    - xplosionpictures
+  image: /assets/florence-sunset-crowd.jpg
+  logo: /xplosion-pictures.svg
+  color: '#FFF'
+  background: '#971316'
+  button-text:
+    it: Portfolio
+    en: My portfolio
+  description: Videos and photos I shoot around the world or just when people
+    ask me to.
+  description-it: Quando mi dicono <q>Tommi vieni a fare le foto per questa
+    cosa?</q> oppure quando metto mie foto o video in giro quello che scrivo
+    è <cite>Xplosion Pictures</cite>, per sentirmi professionale.
+  personal: true
+- title: Everyone Premiere
+  end: '2019-08-30'
+  location: Piazza Matteotti
+  city: Riva Ligure
+  country: Italy
+  tags:
+    - cinema
+  data:
+    - what: Intervista su SanremoNews
+      url: https://www.sanremonews.it/2019/08/28/leggi-notizia/argomenti/eventi-1/articolo/riva-ligure-everyone-love-awakens-tommi-boom-presenta-a-sanremonews-la-sua-opera-prima.html
+- title: Imperia Unplugged Festival
+  start: '2019-08-06'
+  end: '2019-08-07'
+  url:
+    https://www.imperiamusicale.it/imperia-unplugged-festival-2019-5-edizione/
+  location: Calata Cuneo
+  city: Imperia
+  country: Italy
+  tags:
+    - music
+- title: Route in Val Codera
+  start: '2019-07-28'
+  end: '2019-08-03'
+  location: Val Codera
+  country: Italy
+  tags:
+    - scout
+  description: Route durante cui divenni Stambecco Cinetico
+- title: Giffoni Film Festival
+  start: '2019-07-19'
+  end: '2019-07-27'
+  url: https://www.giffonifilmfestival.it/diario-gff-2019.html
+  location: Giffoni Valle Piana
+  country: Italy
+  tags:
+    - giffoni
+  description: in Masterclass Cult
+  data:
+    - what: Foto di Giffoni
+      url: https://flickr.com/photos/giffonifilmfestival/collections/72157709275531493/
+- title: Il mio CUBO suona il Rock
+  end: '2019-07-09'
+  url: https://facebook.com/events/318752479011472
+  location: Il Cubo
+  role: creator
+  tags:
+    - live
+  data:
+    - what: Video teaser su Facebook
+      url: https://www.facebook.com/QuelDuoLi/videos/2333791650275489/
+    - what: Video intervista
+      url: https://vimeo.com/347306203
+    - what: Articolo Sanremonews
+      url: https://www.sanremonews.it/2019/07/08/leggi-notizia/argomenti/eventi-1/articolo/sanremo-domani-il-mio-cubo-suona-il-rock-con-il-live-di-quel-duo-li-e-cantiere-164-video.html
+    - what: Articolo Riviera Time
+      url: https://www.rivieratime.news/sanremo-tutto-pronto-per-il-mio-cubo-suona-il-rock-musica-live-con-quel-duo-li-e-cantiere-164/
+- title: La Nuova Corrente
+  start: '2016-09-01'
+  end: '2019-06-30'
+  tags:
+    - nuovacorrente
+  image: /assets/la-nuova-corrente.jpg
+  logo: /la-nuova-corrente.svg
+  color: '#2C2C2C'
+  background: '#F4BE35'
+  button-text:
+    it: Scossa
+    en: More
+  url: https://lanuovacorrente.com
+  description: <cite lang='it'>La Nuova Corrente</cite> is a school **journalism project** of <em lang='it'><a hreflang='it' href='https://www.liceogdcassini.it' title='Liceo G.D. Cassini'>Liceo G.D. Cassini</a></em> in Sanremo. We [shot videos](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg '“La Nuova Corrente„ YouTube Channel'), conducted interviews and did a ton of other cool stuff.
+  description-it: <cite>La Nuova Corrente</cite> è una testata giornalistica creata da alcuni professori e studenti del [Liceo Cassini di
+    Sanremo](https://www.liceogdcassini.edu.it 'Liceo G.D. Cassini di Sanremo - sito istituzionale'), di cui sono stato per un anno direttore. Per <cite>La Nuova Corrente</cite> ho scritto [alcuni articoli](/tag/inchiostro-digitale/) e scritto e condotto svariati [video e interviste](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg/videos 'Il canale YouTube de “La Nuova Corrente„') insieme ai miei compagni.
+  personal: false
+- title: Caccia di Primavera
+  end: '2019-05-26'
+  aliases:
+    - Caccia di Zona
+  location: Parrocchia di Cristo Re
+  city: Imperia
+  country: Italy
+  tags:
+    - scout
+    - lc
+- title: Viva Vecchioni
+  end: '2019-05-10'
+  location: Teatro del Casinò
+  city: Sanremo
+  country: Italy
+  tags:
+    - tenco
+- title: CERN and Geneva
+  start: '2019-04-29'
+  end: '2019-04-30'
+  location: CERN
+  city: Geneva
+  country: Switzerland
+  tags:
+    - school
+- title: Concerto dell’orchestra n°1 delle Scuole Europee di Bruxelles con l’orchestra Note Libere
+  end: '2019-04-17'
+  location: Teatro del Casinò
+  city: Sanremo
+  country: Italy
+  tags:
+    - music
+    - host
+  description: Ho presentato il concerto mentre i miei amici giravano per le riprese del mio cortometraggio [Everyone](/it/everyone 'Everyone'); nelle scene a teatro ci sono le riprese proprio di quel giorno
+- title: Gita a Barcellona
+  start: '2019-04-08'
+  end: '2019-04-13'
+  location: Barcelona
+  city: Barcelona
+  country: Spain
+  tags:
+    - school
+- title: Giornata della memoria e dell’impegno
+  end: '2019-03-21'
+  location: Pian di Nave
+  city: Sanremo
+  country: Spain
+  tags:
+    - libera
+- title: Uscita di Clan
+  end: '2019-03-16'
+  location: Colla Micheri
+  country: Italy
+  tags:
+    - scout
+- title: Inaugurazione Presidio Rosario Livatino
+  end: '2019-02-09'
+  location: Liceo G.D. Cassini
+  city: Sanremo
+  country: Italy
+  tags:
+    - libera
+    - school
+  people:
+    - Rocco Mangiardi
+- title: Stage al Dipartimento di Matematica dell’Università di Genova
+  start: '2019-01-28'
+  end: '2019-01-31'
+  url: https://web.archive.org/web/20190605092418/https://www2.dima.unige.it/it/per_le_scuole/stage_al_dima
+  location: DiMa UniGe
+  city: Genova
+  country: Italy
+  tags:
+    - school
+- title: Liberamente musica
+  end: '2019-01-16'
+  location: Sede Club Tenco
+  city: Sanremo
+  country: Italy
+  latitude: 43.81423
+  longitude: 7.77303
+  tags:
+    - libera
+    - tenco
+- title: Aiuto catechista
+  start: '2015'
+  end: '2019'
+  location: Parrocchia di Santo Stefano al Mare
+- title: Premio Tenco 2018
+  start: '2018-10-18'
+  end: '2018-10-20'
+  url: https://clubtenco.it/tenco-2018/
+  location: Teatro Ariston
+  city: Sanremo
+  country: Italy
+  tags:
+    - tenco
+- title: Direttore dell’Ufficio Stampa del Liceo G.D. Cassini di Sanremo
+  start: '2017-10-04'
+  end: '2018-10-04'
+  tags:
+    - nuovacorrente
+- title: Radioimmaginaria
+  start: '2013-11-01'
+  end: '2018-09-11'
+  tags:
+    - Radioimmaginaria
+  image: https://live.staticflickr.com/376/32479764946_d845b18e1a_b.jpg
+  logo: /radioimmaginaria.svg
+  color: '#FFF'
+  background: '#ED3134'
+  button-text:
+    it: Immagina
+    en: Imagine
+  url: https://radioimmaginaria.it
+  description: Wherever you are, you just need an internet connection to
+    listen to this crazy webradio (not only a radio) made just by teenagers
+    all over the world.
+  description-it: Ovunque tu sia, basta una connessione ad internet per essere
+    catapultato nel mondo di questo pazzesco network di adolescenti fuori di
+    testa che trasmettono dalle camerette di tutta Europa. Grazie a
+    Radioimmaginaria ho fatto una valanga di figate pazzesche in tutta
+    Europa che mi hanno cambiato la vita e ho fondato le redazioni di
+    Sanremo e Riva Ligure.
+  personal: false
+- title: Teen Parade
+  start: '2018-09-05'
+  end: '2018-09-07'
+  url: https://vimeo.com/306153145
+  location: Bologna Fiere
+  city: Bologna
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto
+      url: https://flic.kr/s/aHsmrUxy9Q
+    - what: video
+      url: https://vimeo.com/search?q=%22Teen+Parade+2018%22
+- title: CATCH-EyoU
+  end: '2018-09-07'
+  url: http://www.catcheyou.eu/
+  location: Rue Montoyer 21
+  city: Bruxelles
+  country: Belgium
+  tags:
+    - Radioimmaginaria
+  description: Il mio ultimo evento da tipo immaginario
+  data:
+    - what: Foto
+      url: https://flickr.com/photos/radioimmaginaria/albums/72157698540493742
+    - what: CATCH-EyoU, puntata completa
+      url: https://spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea
+    - what: Best of CATCH-EyoU
+      url: https://spreaker.com/user/ariaimmaginaria/catcheyou-from-brussels
+- title: RadioCampo
+  start: '2018-08-21'
+  end: '2018-08-25'
+  url: https://radioimmaginaria.it/content/279-radiocampo-riva-ligure
+  location: Riva Ligure
+  city: Riva Ligure
+  country: Italy
+  tags:
+    - Radioimmaginaria
+- title: Imperia Unplugged Festival
+  end: '2018-08-08'
+  url: https://www.imperiamusicale.it/imperia-unplugged-festival-2018/
+  location: Calata Cuneo
+  city: Imperia
+  country: Italy
+  tags:
+    - music
+- title: Giffoni Film Festival
+  start: '2018-07-20'
+  end: '2018-07-28'
+  url: https://www.giffonifilmfestival.it/diario-gff-2018.html
+  location: Giffoni Valle Piana
+  city: Giffoni Valle Piana
+  country: Italy
+  tags:
+    - giffoni
+  description: come giurato Generator +18
+  data:
+    - what: Foto di Giffoni
+      url: https://www.flickr.com/photos/giffonifilmfestival/collections/72157672241562127/
+- title: Rappresentante d’Istituto
+  start: '2017-11-07'
+  end: '2018-06-30'
+  location: Liceo G.D. Cassini
+  city: Sanremo
+  country: Italy
+  tags:
+    - school
+- title: vacanza studio a Londra
+  start: '2018-06-10'
+  end: '2018-06-30'
+  location: London
+  city: London
+  country: United Kingdom
+  tags:
+    - trip
+- title: Mouse Trap Grand Prix
+  end: '2018-05-25'
+  url: https://mousetraprace.com
+  image: /assets/mouse-trap.webp
+  logo: /monaco-mouse-trap-grand-prix.svg
+  color: '#000'
+  background: '#FFF'
+  location: 8, quai Antoine 1er
+  city: Montecarlo
+  country: Monaco
+  tags:
+    - prize
+  description: I unexpectedly won the 2018 edition of the Monaco Mouse Trap Grand Prix, building and running the fastest car powered just by the force of a mouse trap
+  description-it: Incredibilmente e inaspettatamente, **ho vinto** l’edizione del 2018 del <cite>Monaco Mouse Trap Grand Prix</cite>, costruendo la più veloce macchinina a percorrere 5 metri avanti e indietro con la sola propulsione di una trappola per topi.
+  data:
+    - what: Intervista Ufficio Stampa Liceo G.D. Cassini Sanremo
+      url: https://youtube-nocookie.com/embed/EgQQ6rDfxr0
+    - what: articolo su Riviera24
+      url: https://www.riviera24.it/2018/05/tommaso-marmo-del-liceo-cassini-di-sanremo-vince-il-primo-premio-al-monaco-mouse-trap-grand-prix-286175
+  button-text:
+    it: Sito uffuciale
+    en: Official website
+- title: Premio “Fare il Giornale nelle Scuole„
+  start: '2018-04-04'
+  end: '2018-04-05'
+  url: https://www.odg.it/il-giornale-nelle-scuole
+  location: Cesena
+  city: Cesena
+  country: Italy
+  tags:
+    - prize
+    - nuovacorrente
+- title: Gita in Germania
+  start: '2018-03-01'
+  end: '2018-03-01'
+  location: Germany
+  country: Germany
+  tags:
+    - school
+- title: Festival di Sanremo
+  start: '2018-02-06'
+  end: '2018-02-10'
+  url: /rimm-db#festival-di-sanremo-2018
+  location: Sanremo
+  city: Sanremo
+  country: Italy
+  description: lavorando sia con Radioimmaginaria, che con La Nuova Corrente
+  tags:
+    - Radioimmaginaria
+    - nuovacorrente
+  data:
+    - what: Puntate
+      url: /rimm-db#festival-di-sanremo-2018
+    - what: Foto
+      url: https://flic.kr/s/aHsmeW5a5n
+    - what: Video
+      url: https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg/videos?sort=p
+- title: Allenamenti Coppa Gauss
+  start: '2014-01-01'
+  end: '2018-01-01'
+  url: https://dima.unige.it/per_le_scuole/gare_di_matematica
+  location: Liceo G.D. Cassini Sanremo
+  tags:
+    - school
+  description: ho partecipato agli allenamenti per la gara di matematica a
+    squadre organizzata dal [Dipartimento di Matematica dell’Università di
+    Genova](https://dima.unige.it 'DiMa — UniGe')
+- title: Briciole di Rock
+  end: '2017-12-23'
+  url: https://imperiamusicale.it/eventi/
+  location: Imperia
+  city: Imperia
+  country: Italy
+  tags:
+    - music
+- title: Premio Tenco 2017
+  start: '2017-10-19'
+  end: '2017-10-21'
+  url: https://clubtenco.it/tenco-2017/
+  location: Teatro Ariston di Sanremo
+  tags:
+    - tenco
+- title: Teen Parade
+  start: '2017-09-06'
+  end: '2017-09-07'
+  url: https://vimeo.com/radioimmaginaria/tparade2017
+  location: Bologna Fiere
+  city: Bologna
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Video
+      url: https://vimeo.com/search?q=Teen+Parade+2017
+    - what: Foto
+      url: https://flic.kr/s/aHsm5bZ7rq
+    - what: Episodi
+      url: /rimm-db#teen-parade-2017
+- title: RadioCampo
+  start: '2017-08-20'
+  end: '2017-08-25'
+  url: https://www.facebook.com/events/1356117211103947/
+  location: Riva Ligure
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Puntate
+      url: /rimm-db#radiocampo-2017
+    - what: Articolo Riviera24
+      url: https://www.riviera24.it/2017/08/a-riva-ligure-ce-radioimmaginaria-per-il-radiocampo-263655
+    - what: come guadagnare
+      url: https://vimeo.com/radioimmaginaria/comeguadagnare
+- title: Imperia Unplugged Festival
+  end: '2017-08-08'
+  url:
+    https://www.imperiamusicale.it/imperia-unplugged-festival-2017-3-edizione/
+  location: Calata Cuneo
+  city: Imperia
+  country: Italy
+  tags:
+    - music
+  description: reclutato come volontario da [Imperia
+    Musicale](https://imperiamusicale.it 'Imperia Musicale')
+  role: staff
+- title: Helper at ACLE City Camp
+  start: '2017-07-01'
+  end: '2017-07-07'
+  location: Scuole medie di Arma di Taggia
+  latitude: 43.8347058
+  longitude: 7.8534986
+  role: staff
+  tags:
+    - ACLE
+    - kids
+- title: Con-fusion in an old station
+  end: '2017-05-27'
+  location: Sede Club Tenco, Sanremo
+  country: Italy
+  latitude: 43.81423
+  longitude: 7.77303
+  role: staff
+  description: progetto di alternanza scuola-lavoro con la mia classe, 3ªF
+  tags:
+    - school
+    - tenco
+  data:
+    - what: <cite>Un Matto</cite> videoclip
+      url: https://vimeo.com/xplosionmind/unmatto
+    - what: articolo Riviera24
+      url: http://www.riviera24.it/evento/confusion-in-an-old-station-in-mostra-le-opere-degli-studenti-del-liceo-cassini-di-sanremo/
+    - what: articolo Sanremonews
+      url: http://www.sanremonews.it/2017/05/26/leggi-notizia/argomenti/eventi-1/articolo/sanremo-nella-sede-del-club-tenco-la-mostra-confusion-in-an-old-station-degli-studenti-del-li.html
+- title: Radiocity
+  start: '2017-04-21'
+  end: '2017-04-23'
+  location: Piazza Gae Aulenti
+  city: Milano
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto
+      url: https://flic.kr/s/aHskYWpS5q
+- title: Premio “Fare il Giornale nelle Scuole„
+  start: '2017-04-11'
+  end: '2017-04-12'
+  url: https://www.odg.it/il-giornale-nelle-scuole
+  tags:
+    - prize
+    - nuovacorrente
+  people:
+    - Paolo Borrometi
+    - Francesca Angeli
+  location: Cesena
+  data:
+    - what: Video
+      url: https://youtube-nocookie.com/embed/bCrHQz4rCQs
+- title: Intervista ai Cantiere 164
+  end: '2017-03-30'
+  people:
+    - Niccolò Pagnacco
+    - Cantiere 164
+  url:
+    https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo
+  location: Sanremo
+  city: Sanremo
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  description: L’inizio di amicizia e grande stima reciproca
+  data:
+    - what: Episodio
+      url: https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo
+- title: Gita in Sicilia
+  start: '2017-03-12'
+  end: '2017-03-17'
+  location: Palermo,Agrigento
+  tags:
+    - school
+- title: Festival di Sanremo
+  start: '2017-02-08'
+  end: '2017-02-13'
+  url: /rimm-db#festival-di-sanremo-2017
+  location: Sanremo
+  city: Sanremo
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto da Radioimmaginaria
+      url: https://flic.kr/s/aHskRvXnWV
+    - what: Puntate
+      url: /rimm-db#festival-di-sanremo-2017
+- title: School Attack
+  end: '2016-11-30'
+  location: Scuole medie
+  city: Riva Ligure
+  country: Italy
+  latitude: 43.83717
+  longitude: 7.87851
+  tags:
+    - Radioimmaginaria
+    - kids
+- title: Campetto responsabilità
+  start: '2016-10-28'
+  end: '2016-10-29'
+  location: Laigueglia
+  country: Italy
+  tags:
+    - scout
+- title: Teen Parade
+  start: '2016-09-09'
+  end: '2016-09-10'
+  url: https://vimeo.com/284246871
+  location: Castelguelfo di Bologna
+  city: Castelguelfo di Bologna
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Episodi
+      url: /rimm-db#teen-parade-2016
+    - what: Foto da Radioimmaginaria
+      url: https://flic.kr/s/aHskK2sy8z
+    - what: Video
+      url: https://vimeo.com/284246871
+- title: RadioCampo
+  start: '2016-08-24'
+  end: '2016-08-27'
+  url: /rimm-db#Radiocampo-2016
+  location: Riva Ligure
+  city: Riva Ligure
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  description: Il primo RadioCampo nel mio paese d’origine, con
+    l’inaugurazione l’antenna di Radioimmaginaria Riva Ligure
+  data:
+    - what: articolo Riviera 24
+      url: https://www.riviera24.it/2016/08/radioimmaginaria-a-riva-ligure-per-il-radiocampo-233170
+    - what: Puntate
+      url: /rimm-db#Radiocampo-2016
+- title: Giffoni Film Festival
+  start: '2016-07-15'
+  end: '2016-07-24'
+  aliases:
+    - Giffoni 2016
+    - Giffoni Experience
+  url: https://www.giffonifilmfestival.it/diario-gff-2016.html
+  location: Giffoni
+  tags:
+    - Radioimmaginaria
+    - giffoni
+  data:
+    - what: Foto di Radioimmaginaria
+      url: https://flic.kr/s/aHskK5eqx3
+- title: Helper at ACLE City Camp
+  start: '2016-07-01'
+  end: '2016-07-07'
+  location: Scuole medie
+  city: Arma di Taggia
+  country: Italy
+  latitude: 43.8347058
+  longitude: 7.8534986
+  tags:
+    - ACLE
+    - kids
+- title: Gita a San Fruttuoso
+  end: '2016-06-06'
+  location: San Fruttuoso
+  country: Italy
+  tags:
+    - school
+- title: YAMAHA OrchestranDo Music Festival
+  start: '2016-05-29'
+  end: '2016-05-31'
+  location: Pergine in Valsugana
+  country: Italy
+  tags:
+    - orchestrando
+    - music
+- title: Missione a Londra
+  start: '2016-05-13'
+  end: '2016-05-15'
+  aliases:
+    - Radioimmaginaria a Londra
+    - Mission to London
+    - Radioimmaginaria in London
+  url: https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london
+  location: London
+  tags:
+    - Radioimmaginaria
+  description-it: sono andato con le mitiche Flora e Amalia in quel di Londra
+    a salvare l’antenna di Radioimmaginaria Londra
+- title: San Giorgio
+  start: '2016-04-24'
+  end: '2016-04-25'
+  location: Cipressa
+  country: Italy
+  tags:
+    - scout
+- title: Radiocity e International Radio Festival
+  start: '2016-04-08'
+  end: '2016-04-10'
+  aliases:
+    - Radiocity Milano
+    - IRF
+  location: Milano
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto di Radioimmaginaria
+      url: https://www.flickr.com/photos/radioimmaginaria/albums/72157668517426676
+- title: Gita in Toscana
+  start: '2016-03-16'
+  end: '2016-03-18'
+  location: Siena, Volterra, Larderello
+  city: Volterra
+  country: Italy
+  tags:
+    - school
+- title: Scambio culturale a Bath
+  start: '2016-02-26'
+  end: '2016-03-01'
+  location: Bath
+  city: Bath
+  country: United Kingdom
+  tags:
+    - school
+  description: (dal 16 al 23 ottobre 2015 i ragazzi di Bath sono venuti a
+    Sanremo)
+- title: Festival di Sanremo
+  start: '2016-02-07'
+  end: '2016-02-14'
+  url: /rimm-db#festival-di-sanremo-2016
+  location: Sanremo
+  city: Sanremo
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto di Radioimmaginaria
+      url: https://flic.kr/s/aHskvEz8fk
+    - what: Puntate
+      url: /rimm-db#festival-di-sanremo-2016
+- title: Istituto Superiore Mario Boella
+  end: '2016-01-29'
+  aliases:
+    - Radioimmaginaria all’ISMB
+    - ISMB
+  url:
+    https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065427373515801/
+  tags:
+    - Radioimmaginaria
+- title: Passaggi
+  start: '2015-11-08'
+  end: '2015-11-09'
+  location: Carpasio + Cipressa
+  country: Italy
+  tags:
+    - scout
+- title: Teen Parade
+  start: '2015-09-18'
+  end: '2015-09-19'
+  url: https://vimeo.com/radioimmaginaria/tparade2015
+  location: Castelguelfo di Bologna
+  city: Castelguelfo di Bologna
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Video
+      url: https://vimeo.com/radioimmaginaria/tparade2015
+    - what: Foto di Radioimmaginaria
+      url: https://flic.kr/s/aHskAsvk5s
+- title: EXPO Milano 2015
+  start: '2015-08-23'
+  end: '2015-08-31'
+  url: /rimm-db#expo-milano-2015
+  location: Milano
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto di Radioimmaginaria
+      url: https://flic.kr/s/aHskmDM2RX
+    - url: /rimm-db#expo-milano-2015
+      what: Puntate
+- title: Ultra BEACH PARTY immaginario
+  end: '2015-08-05'
+  aliases:
+    - Radioimmaginaria Beach Party
+  url: https://www.facebook.com/events/917289898363949/
+  location: Windsurf and Wellness
+  city: Riva Ligure
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  people:
+    - WeFly
+    - Windsurf & Wellness
+  description: Il primo evento in assoluto che io abbia mai organizzato
+  role: staff
+- title: Campo estivo
+  start: '2015-07-16'
+  end: '2015-07-23'
+  location: Mendatica
+  country: Italy
+  tags:
+    - scout
+- title: AGESCI dal Papa
+  end: '2015-06-13'
+  url: https://emiro.agesci.it/tag/agescidalpapa/
+  location: Piazza San Pietro
+  city: Roma
+  country: Italy
+  tags:
+    - scout
+  description: sono stato estratto come rappresentante della Regione Liguria per incontrare di persona il Papa
+- title: Autofinanziamento a tema Pirati
+  end: '2015-06-06'
+  location: Base Scout Gli Ulivi
+  city: Santo Stefano al Mare
+  country: Italy
+  latitude: 43.84462
+  longitude: 7.90617
+  tags:
+    - scout
+- title: Gita a EXPO
+  end: '2015-05-26'
+  location: EXPO Milano
+  city: Milano
+  country: Italy
+  tags:
+    - school
+- title: YAMAHA OrchestranDo Music Festival
+  end: '2015-05-17'
+  location: Jesolo
+  country: Italy
+  tags:
+    - orchestrando
+    - music
+- title: San Giorgio
+  start: '2015-05-09'
+  end: '2015-05-10'
+  location: Taggia
+  tags:
+    - scout
+- title: Gita a Venezia
+  start: '2015-03-09'
+  end: '2015-03-13'
+  location: Venezia
+  city: Venezia
+  country: Italy
+  tags:
+    - school
+- title: Festival di Sanremo
+  start: '2015-02-12'
+  end: '2015-02-15'
+  url: /rimm-db#festival-di-sanremo-2015
+  location: Sanremo
+  tags:
+    - Radioimmaginaria
+  data:
+    - what: Foto di Radioimmaginaria
+      url: https://flic.kr/s/aHskvtuM9o
+    - what: Puntate
+      url: /rimm-db#festival-di-sanremo-2015
+- title: OrchestranDo
+  start: '2012'
+  end: '2015'
+  tags:
+    - orchestrando
+  logo: /orchestrando.svg
+  color: '#EFEFEF'
+  background: '#000'
+  button-text:
+    it: Un articolo su di noi
+    en: An article about us
+  url: https://www.sanremonews.it/2016/06/01/leggi-notizia/argomenti/eventi-1/articolo/gli-allievi-del-progetto-orchestrando-yamaha-di-sanremo-e-arma-di-taggia-al-festival-nazionale.html
+  description: I used to play trumpet and I was part of a small orchestra of young woodwinds players a few years ago. We took part to several music festivals around Italy.
+  description-it: Ho suonato la tromba in una piccola giovane orchestra di fiati, con cui ho partecipato a diversi festival di musica in Italia.
+  role: member
+- title: RadioCampo
+  start: '2014-08-25'
+  end: '2014-08-31'
+  url: /rimm-db#radiocampo-2014
+  location: Riccione
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  description: Occasione in cui conobbi Edipo, i Soundsick ed i Riciclato
+    Circo Musicale
+- title: Festival di Sanremo
+  start: '2014-02-21'
+  end: '2014-02-24'
+  url: /rimm-db#festival-di-sanremo-2014
+  location: Sanremo
+  city: Sanremo
+  country: Italy
+  tags:
+    - Radioimmaginaria
+  description: il mio primo evento con [Radioimmaginaria](https://radioimmaginaria.it)
+  data:
+    - what: Puntate
+      url: /rimm-db#festival-di-sanremo-2014
+- title: Green Day
+  end: '2013-07-10'
+  url: https://www.festivaldenimes.com/wp-content/uploads/2016/04/fdn2013-698x1024.jpg
+  location: Arènes de Nîmes
+  city: Nîmes
+  country: France
+  tags:
+    - live
+    - music
+  description: Il mio primo concerto
+- title: Club Tenco
+  start: '2017-10-01'
+  end: '0000'
+  image: /assets/club-tenco.webp
+  logo: /club-tenco.svg
+  color: '#FFF'
+  background: '#000'
+  button-text:
+    it: Official website
+    en: La storia del Club Tenco
+  url: https://clubtenco.it
+  description: <cite>Club Tenco</cite> is the institution awarding the the most important prize for songwriters in Italy, and it is among the most renowned in the world. I have the honour to work there, speciifically during the Tenco Festival, taking place every October.
+  description-it: Il <cite>Club Tenco</cite> è la più importante istituzione per la musica d’autore in Italia, celebre in tutto il mondo. Ho l’onore e la fortuna di lavorare con favoloso un gruppo di amici il Club Tenco, in particolare nel corso della rassegna di ottobre, all’Ariston di Sanremo.
+  role: member
