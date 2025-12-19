@@ -45,7 +45,7 @@
 		"csv-parse": "^6.1.0",
 		"eleventy-plugin-embed-everything": "^1.21.1",
 		"eleventy-plugin-robotstxt": "^1.0.2",
-		"html-minifier-next": "^4.12.1",
+		"html-minifier-next": "^4.12.2",
 		"js-yaml": "^4.1.1",
 		"markdown-it-anchor": "^9.2.0",
 		"markdown-it-footnote": "^4.0.0",
