@@ -1,4 +1,5 @@
 import { InputPathToUrlTransformPlugin, EleventyRenderPlugin } from 'npm:@11ty/eleventy';
+import syntaxHighlight from 'npm:@11ty/eleventy-plugin-syntaxhighlight';
 import htmlMinifier from 'npm:html-minifier-next';
 import process from 'node:process';
 import child_process from 'node:child_process';
@@ -127,6 +128,7 @@ export default function (eleventyConfig) {
 		},
 		outputDir: './www/img/'
 	});
+	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPlugin(pluginToc, {
 		ul: true
 	});
