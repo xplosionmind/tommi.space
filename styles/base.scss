@@ -195,13 +195,21 @@ a {
 	}
 	p &,
 	li & {
-		font-weight: 600;
-		text-decoration: underline .125em;
-		&[rel*='external'] {
+		font-weight: 500;
+		text-decoration: underline .1em;
+		&:not([href^='/']):not([href^='https://tommi.space/']) {
 			&::after {
 				display: inline-block;
-				margin-left: .125em;
+				margin-left: .1em;
 				content: '🡭';
+			}
+		}
+		&[href^='/'],
+		&[href^='https://tommi.space/'] {
+			text-decoration: underline wavy var(--secondary) .1em;
+			text-decoration-skip-ink: none;
+			&:hover {
+				text-decoration-color: var(--primary);
 			}
 		}
 		&:hover {
