@@ -14,7 +14,7 @@ redirect_from:
 main: true
 toc: true
 ---
-Who Tommi is cannot exhaustively be defined merely by [his <cite>About page</cite>](https://tommi.space/about 'About Tommi'), [his resume](/cv/ 'Tommi’s CV'), [what he is doing](https://tommi.space/now 'Now - tommi.space'), nor <a href='https://tommi.space/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what he did</a>.
+Who Tommi is cannot exhaustively be defined merely by [their <cite>About page</cite>](https://tommi.space/about 'About Tommi'), [their resume](/cv/ 'Tommi’s CV'), [what they’re doing](https://tommi.space/now 'Now - tommi.space'), nor <a href='https://tommi.space/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what they did</a>.
 
 In so many occasions my friends come to me and say something like: <q lang='it'>questa cosa è un sacco *da Tommi*</q>, <q lang='it'>ti ho immediatamente pensato perché mi ha ricordato te</q>, or simply tell me something about me that makes me think <q>oh, this is *so* me</q>. I am collecting all of those attributes here.
 
@@ -30,22 +30,16 @@ Tommi is [Tomminess](Tomminess.md). In other words, <cite>Tomminess</cite> is To
 	- **oversharing** information about oneself
 	- restlessly relentlessly **talking** about something
 - <em lang='it'>rompere le palle</em>
-- being **egocentric**
+- being **egocentric**, but not egoist, nor self-absorbed
 - being **angry at Capitalism**:
 	- [Fighting Big Tech](Internet%20Freedom.md)
-	- hating people and ventures who are mainly profit-driven rather than humanity-driven
+	- hating people and ventures that are driven by greed and hatred
 - trying to lure people in the **[Fediverse](Fediverse.md)** by showing them how revolutionary it is
-- hating to feel and to appear mainstream, thus restlessly looking for an alternative and **original way**, either…
-	- …to **be noticed**
 	- …to be **[Radical Chic](Radical%20Chic.md)**
-- getting overblown by **anxiety** when…
-	- …some interpersonal relationship is trembling
-	- …people seem to be uninterested in what he has to say
-- alternating extreme **misanthropy** with insane **social overwhelmingness**
-- being **touchy**
+- being **touchy** (never without consent)
 - **hating chitchatting**
 - having a tremendously difficult time distinguishing jokes and serious statements made with sarcasm, in other words: **not understanding irony**
-- believing in **love**, yet being unable to find it
+- believing in **love** and **relational anarchy**
 - following and advocating for **the art of <cite>[Introductionism](Introductionism.md)</cite>**
 - in pursuing <cite><a href='https://tommi.space/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
@@ -56,7 +50,17 @@ Tommi is [Tomminess](Tomminess.md). In other words, <cite>Tomminess</cite> is To
 - getting super pumped and enthusiastic when people/friends he met in different occasions or in different context meet between each other thanks to his mediation.
 - both using and being <q>🤯</q> very (or too) often
 - being [always last-minute](Last-minuTommi.md)
-- please, if you know Tommi, write him what you think is missing, and, if accurate, it will be added.
+- please, if you know Tommi, get in touch if you think is missing, and, if accurate, it will be added.
+
+## Past meanings
+
+As Tomminess is based on who Tommi is, some stuff gets old as Tommi, incredibly, matures. There are some past meanings of Tomminess that are not so true anymore.
+
+- getting overblown by **anxiety** when…
+	- …some interpersonal relationship is trembling
+	- …people seem to be uninterested in what he has to say
+- alternating extreme **misanthropy** with insane **social overwhelmingness**
+- hating to feel and to appear mainstream, thus restlessly looking for an alternative and **original way** to **be noticed**
 
 ## Tommi =
 

@@ -1,5 +1,6 @@
 ---
 date: 2025-06-05T08:33:49+02:00
+updated: 2025-10-27T12:32:00+01:00
 aliases:
   - Rent in Rotterdam
   - Rent in the Netherlands
@@ -9,9 +10,11 @@ tags:
 description: Annotations, suggestions, tips, and offloading about the arduous endeavour of finding a place to live in the Netherlands.
 permalink: /rotterdam/rent/
 ---
-Since mid-May 2025 I have been looking for a room to rent in Rotterdam, as I will be moving there to study for [XPUB](https://xpub.nl).
+I have been looking for a room to rent in Rotterdam from mid-May 2025 until the end of September 2025. It was exhausting. Here are my notes and reflections during my search.
 
-In the meanwhile, the world is burning and the assholes holding the power and the super rich are making it hard for us to dwell in peace without spending all our money on absurd rent prices. On top of that, the Netherlands is witnessing a full-on housing crisis, making the search for a home even harder and more frustrating.
+---
+
+The world is burning and the assholes holding the power and the super rich are making it hard for us to dwell in peace without spending all our money on absurd rent prices. On top of that, the Netherlands is witnessing a full-on housing crisis, making the search for a home even harder and more frustrating.
 
 I am curating this page both as a reference for myself to keep track of all the tips and links I get, but also to start drafting a communal and crowdsourced set of resources and advice for home-seekers in Rotterdam. Feel free to suggest any change by heading to the source code of the page (see the footer). If this gets enough interest, we could consider moving it to a more impersonal and collective space where it’s also easier to contribute and edit the content.
 
@@ -37,7 +40,7 @@ Given how critical the situation is, my initial idea of joining or even founding
 
 Still…
 
-The Fediverse is awesome: after [posting about this](https://pan.rent/@tommi/114290220808150401) I got many super informative replies, but above all I got connected with several beautiful human beings, including [Lea](https://bael.design), who will be my coursemate and, hopefully, my flatmate.
+The Fediverse is awesome: after [posting about this](https://pan.rent/@tommi/114290220808150401) I got many super informative replies, but above all I got connected with several beautiful human beings, including [Lea](https://bael.design), who is now my XPUB coursemate.
 
 [Here’s the page dedicated to cooperative housing](Rotterdam%20housing%20coop.md) in particular.
 
@@ -45,9 +48,9 @@ The Fediverse is awesome: after [posting about this](https://pan.rent/@tommi/114
 
 Even if they are not directly related to housing, being in local groupchats, especially ones of students and internationals, it hugely valuable, as you can spread the word that you are looking for a place, and you can learn more about neighborhoods, acceptable prices, common scams, etc.
 
-## Websites I am paying for
+## Websites I payed for
 
-It’s inevitable to have to pay for some service where rental agencies and private entities pubish insertions. These are the services I ended up paying for, in the end. The most useful thing is to have instant notification about newly added insertions.
+It’s inevitable to have to pay for some service where rental agencies and private entities pubish insertions. These are the services I ended up paying for. The most useful thing is to have instant notification about newly added insertions.
 
 - [Stadswonen Rotterdam](https://stadswonenrotterdam.nl) is a sort of social housing company, owning properties all over the city. One-time payment of 25€.
 - [Kamernet](https://kamernet.nl/en) is probably the most common solution. I am paying 70€ for three months of subscription.
@@ -67,40 +70,30 @@ Some flats may be published and appear as ready for rent, even though they are n
 - [Huure](https://huure.nl/?locale=en)
 - [Funda](https://www.funda.nl/)
 - [Pararius](https://www.pararius.com) (I think it’s owned by the same company that owns Huurwoningen, no idea why they have two websites)
+- [StudentenWoningWeb](https://studentenwoning.mijndak.nl)
 
-## Interesting options
+## Anticrack/Antisquat
 
-I have a friend living in a building that is going to be destroyed/renovated, and flats in it are rented to super cheap prices. Nevertheless, there are some caveats, most notably, every month you may get an eviction notice 28 days before, and you have very very few rights as a tenant.
+I have a friend living in a building that is going to be destroyed/renovated, and flats in it are rented to super cheap prices. Nevertheless, there are some caveats, most notably, every month you may get an eviction notice 28 days before, and you have very very few rights as a tenant. It’s called **antisquat**/**anticrack**.
 
 My friend’s experience is nice, but another friend from BPW strongly advised it against this solution.
 
 - [VPS: Specialist in leegstandbeheer, beveiliging & onderhoud](https://vpsleegstandbeheer.nl/)
+
+## Resources
+
+Here are some resources for critical and aware information on housing rights:
+
+- [Housing rights](https://pzwiki.wdka.nl/mediadesign/Housing_rights 'Housing rights'), on the XPUB wiki. Notes and slides from a presentation by Lila from BPW.
 
 ## Tips from friends
 
 Here’s a scheme kindly made by my friend Noemi, an Italian expat student who has been living in Utrecht for the past five years:
 
 <figure lang=it>
-	<img src=/assets/affitto-olanda-schema-noemi.webp alt='Un foglietto di carta stropicciato su cui Noemi ha fatto un veloce schema con scritto: “Cercare camera in Olanda: 1. Gruppi Fb → ‘Kamer in …’ (gratis) 2. Kamernet, a pagamento, +/- 10€ al mese 3. ‘Agenzia’ → Huurwoningen, Pararius… (pagamento agenzia) 4. Studentato 4.1. SSH: tempo in lista d’attesa lunghissimo 4.2. The Fizz, Canvas, cari MA con allowance (?)”'>
+	<img src=https://tommi.space/affitto-olanda-schema-noemi.webp alt='Un foglietto di carta stropicciato su cui Noemi ha fatto un veloce schema con scritto: “Cercare camera in Olanda: 1. Gruppi Fb → ‘Kamer in …’ (gratis) 2. Kamernet, a pagamento, +/- 10€ al mese 3. ‘Agenzia’ → Huurwoningen, Pararius… (pagamento agenzia) 4. Studentato 4.1. SSH: tempo in lista d’attesa lunghissimo 4.2. The Fizz, Canvas, cari MA con allowance (?)”'>
 </figure>
 
 ## What I am avoiding
 
 - **Facebook**. I deleted my profile long ago, I considered making it again just to join specific groups and search for rooms/flats insertions, but I first had a look from my mom and I realized it’s pure chaos and it’s full of scams.
-
-## Personal introduction
-
-My personal introduction template to reply to ads, to be adapted every time.
-
-> Hi …!
->
-> My name is Tommi, I am a 24 years-old lively person from Italy. I am interested in political technology ==\[PERSONALIZED PART\]== I am looking for a place where to live in Rotterdam because I will be starting a master degree at WdKA in September.
->
-> This room seems to be exactly what I am looking for!
->
-> I am a friendly and respectful person, I am very clean, and I enjoy chatting, even though I value boundaries. I am happy to have a call or to meet, if you’d like to.
->
-> Thank you very much, hope to see you soon!
->
-> Best,  
-> Tommi

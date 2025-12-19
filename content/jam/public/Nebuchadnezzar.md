@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2025-01-20T12:20:55+01:00
+updated: 2025-10-20T10:51:00+02:00
 aliases:
   - Xplosion Server
   - Neb
@@ -29,10 +29,14 @@ As tommi.space is hosted on Nebuchadnezzar, all arguments made in [the page abou
 ## Customizations
 
 - [Changing the default shell to zsh](https://forum.yunohost.org/t/tuto-comment-installer-oh-my-zsh-how-to-install-oh-my-zsh '[Tuto] Comment installer Oh My Zsh / How to install Oh My Zsh | YunoHost Forum'). **Note:** YunoHost requires a different procedure than a regular Debian server.
+- Two non-overlapping options to change the **SSH login message**:
+	- Edit the content of **`/etc/motd`**
+	- Create a plain text file and then link it in `/etc/ssh/sshd_config`, adding/uncommenting the line `Banner /link/to/the/textfile`
 
 ## Tweaks and fixes
 
 - [Fix Contabo repository problems](https://forum.yunohost.org/t/solved-error-500-put-yunohost-api-update-all-repository-problems-in-contabo/29453/2 'Solved - Error 500. "PUT" /yunohost/api/update/all - Repository problems in Contabo? - #2 by leuros88 - Support - YunoHost Forum'). **Note:** the repository sources’ URLs change in Debian 12 (Bookworm), see the [`sources.list` example in Debian Wiki](https://wiki.debian.org/SourcesList#Example_sources.list)
+- [Close ports 53 and 5353](https://forum.yunohost.org/t/why-are-ports-53-and-5353-opened/ 'Why are ports 53 and 5353 opened? – YunoHost Forum') (if not running YunoHost on a local device). [More info](https://sslinsights.com/what-is-port-5353/ 'What is Port 5353? Uses, Security Risks, and How to Manage It')
 
 ## Nginx
 

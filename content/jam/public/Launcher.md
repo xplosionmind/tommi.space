@@ -2,8 +2,8 @@
 date: 2020-05-30T02:00:00+02:00
 updated: 2021-12-15T22:39:42+01:00
 tags: geek
-toc: false
 description: Every geek worth to be called so has a custom launcher. This is the story of how I changed my preferred one for my first time, after several years.
+toc: false
 ---
 <p class='date'>30<sup>th</sup> May 2020</p>
 

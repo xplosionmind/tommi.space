@@ -1,22 +1,22 @@
 ---
 date: 2020-11-07T01:00:00+01:00
 updated: 2022-07-17T19:04:08+02:00
-tags: geek
-description: Thoughts and decisions about quitting Spotify
 aliases: Quitting Spotify
+tags:
+  - geek
+  - wip
+description: Thoughts and decisions about quitting Spotify
 redirect_from:
   - /spotify/
-  - /deezer/
-  - /apple-music/
 todo:
   - refactor/update
 ---
 <div class='yellow box'>
-	<strong>Update</strong>: I figured I heve to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang='it'>e basta</i>, without having to waste time on a better way to do it.<br>
+	<strong>Update</strong>: I figured I have to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang=it>e basta</i>, without having to waste time on a better way to do it.<br>
 	For now, I am sticking with Spotify. If you know other simple, neat, inexpensive, and effective solutions, please get in touch!
 </div>
 
-Quitting Spotify is hard. It is **very** hard, not only because it is convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn't enough: it’s necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
+Quitting Spotify is hard. It is **very** hard, not only because it is convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn’t enough: it’s necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
 
 <div class='blue box'>
 	Quitting Spotify is one of the steps of the path to [Internet Freedom](Internet%20Freedom.md), and it follows the “[Quit and switch](Quit%20and%20switch.md)” philosophy.
@@ -45,7 +45,7 @@ Reasons to quit Spotify:
 ## Plan
 
 1. Evaluating other ethical streaming services
-1. Copying Spotify playlist on other [FOSS alternatives](https://alternativeto.net/software/spotify/?license=opensource 'Open Source alternatives to Spotify')
+2. Copying Spotify playlist on other [FOSS alternatives](https://alternativeto.net/software/spotify/?license=opensource 'Open Source alternatives to Spotify')
 	- [OpenWhyd](https://openwhyd.org 'OpenWhyd official website')
 	- [Radio4000](https://radio4000.com/ 'R4000 official website')
 	- [Audius Music](https://audius.co/ 'Audius Music official website') (not a valid standalone option, it has its own limited music selection)
@@ -64,9 +64,9 @@ Reasons to quit Spotify:
 	- [Microphones in the trees](https://calmintrees.blogspot.com/ 'calmintrees')
 	- [netlabelslist](https://www.clongclongmoo.org/labels/)
 	- [Said the Gramophone](https://www.saidthegramophone.com/ 'Said the Gramophone')
-1. Exporting liked songs?
-2. Importing liked songs in the new service?
-3. [Spotify account deletion consequences](https://community.spotify.com/t5/Spotify-Answers/How-do-I-close-my-Spotify-Account/ta-p/4663172 'How Do I close my Spotify Account - Spotify Support')
+3. Exporting liked songs?
+4. Importing liked songs in the new service?
+5. [Spotify account deletion consequences](https://community.spotify.com/t5/Spotify-Answers/How-do-I-close-my-Spotify-Account/ta-p/4663172 'How Do I close my Spotify Account - Spotify Support')
 
 ### Resources
 
@@ -84,7 +84,7 @@ One thing I am going to actually miss is the weekly email with new releases from
 
 ### On desktop
 
-Use a combination of the alternatives above, since none is as complete as Spotify.
+Use a combination of the alternatives above, since none is as complete as Spotify.  
 The purpose is to <u>differentiate</u> as much as possible all of the streaming services to value fair competition. The most promising software is [FreeTube](https://freetubeapp.io 'FreeTube').
 
 Ideally, the best way would be to download and store locally all of the music I listen to, as I did up to 3 years ago, but I have to admit it’s not convenient at all, from every point of view.
@@ -96,3 +96,15 @@ Ideally, the best way would be to download and store locally all of the music I 
 	- How to like songs
 	- How to import Spotify liked songs
 	- How to improve bitrate (it’s limited to 128kbps)
+
+## Articles
+
+- <cite>[How to Dig for Music Without Spotify](https://pitchfork.com/thepitch/how-to-dig-for-music-without-spotify/)</cite>
+
+---
+
+late-2025 update:
+
+- [How to quit Spotify - by Brian Merchant](https://www.bloodinthemachine.com/p/a-complete-guide-to-quitting-spotify)
+- [Ditching Spotify Has Been A Bleak Experience To Say The Least](https://aftermath.site/cancel-spotify-wrapped-ai-ceo-apple-music/)
+- Eck spending money in weapons

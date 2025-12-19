@@ -6,9 +6,9 @@ aliases:
   - Parties
 tags:
   - zen
-location: Casa Campo
 permalink: /partying/
-redirect_from: [/party/]
+redirect_from:
+  - /party/
 ---
 I have always underestimated and misconceived partying.
 

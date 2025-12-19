@@ -1,13 +1,13 @@
 ---
 date: 2020-12-15T15:56:57+01:00
 updated: 2023-01-28T23:17:36+01:00
+aliases:
+  - Life dashboard
 tags:
   - help
   - geek/dev
   - idea
 description: An ideal software which collects data on what you do, analyzing and showing you a summary of time you spend
-aliases:
-  - Life dashboard
 redirect_from:
   - /life-dashboard/
   - /dashboard/

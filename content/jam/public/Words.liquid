@@ -23,6 +23,8 @@
 			{%- else -%}
 				{%- if p.lang == 'it' -%}
 					<a href='https://www.treccani.it/vocabolario/{{ p.word | url_encode }}' title='“{{ p.word }}” nel vocabolario Treccani'>{{ p.word }}</a>
+				{%- elsif p.lang == 'es' -%}
+					<a href='https://dle.rae.es/{{ p.word | url_encode }}' title='“{{ p.word }}” en el Diccionario de la lengua española' hreflang='es'>{{ p.word }}</a>
 				{%- elsif p.lang == 'en' -%}
 					<a href='https://www.merriam-webster.com/dictionary/{{ p.word | url_encode }}' title='“{{ p.word }}” on Merriam-Webster dictionary' hreflang='en'>{{ p.word }}</a>
 				{%- else -%}
