@@ -7,7 +7,7 @@ lang: it
 description: La Privacy Policy di tommi.space
 permalink: /it/privacy/
 redirect_from: [/privacy-it/]
-layout: page.liquid
+layout: page.vto
 class: writing
 sitemap:
   changefreq: yearly

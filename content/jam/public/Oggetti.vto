@@ -37,6 +37,6 @@ todo:
 					<p>{{ thing.data.description |> markdownify |> strip_html |> slice(0, 300) }}</p>
 				{{ /if }}
 			</a>
-		{{ /if }}
+		{{ /for }}
 	</div>
 </main>

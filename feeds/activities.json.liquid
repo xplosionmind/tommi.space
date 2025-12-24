@@ -3,7 +3,7 @@ title: Tommi’s recent activities
 altUrl: https://tommi.space/activities/
 description: Updates on the most recent things Tommi did/is doing.
 permalink: /activities.json
-layout: feed.json.liquid
+layout: feed.json.vto
 ---
 	"items": [{% for entry in activities limit: 10 %}
 	{
@@ -15,4 +15,3 @@ layout: feed.json.liquid
 		"title": "{{ entry.title }}"
 	}{% unless forloop.last %},{% endunless %}
 	{% endfor %}]
-

@@ -46,7 +46,7 @@
 				<p><strong>{{ place.city }}</strong></p>
 			{{ /if }}
 			{{ if place.description }}
-				<p>{{ place.description |> markdownify | slice(0, 250) }}</p>
+				<p>{{ place.description |> markdownify |> slice(0, 250) }}</p>
 			{{ /if }}
 			<div class='flex row'>
 				{{ if place.plot != '' }}

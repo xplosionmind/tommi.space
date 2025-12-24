@@ -21,11 +21,12 @@ sitemap:
 	</article>
 
 	<div class='entries-list subgrid'>
+		{{ set filingeCollection = collections.filinge |> toReversed }}{{# what’s toReversed? #}}
 		{{ for entry of collections.filinge }}
 			<a class='one-third box' href='{{ entry.url }}'>
 				<h2>{{ entry.data.title }}</h2>
 				<p class=date>{{ if entry.data.location }}{{ entry.data.location }}, {{ /if }}{{#<time class=dt-published datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.date %}</time>#}}</p>
-				{{ include 'entry-tags.vto', { size: 'tiny' } }}
+				{{#+++ Why for loop valid if this enabled?{{ include 'entry-tags.vto' { size: 'tiny' } }}#}}
 			</a>
 		{{ /for }}
 	</div>

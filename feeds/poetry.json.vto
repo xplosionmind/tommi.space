@@ -1,0 +1,29 @@
+---
+title: Pasticci Poetici
+description: Il flusso sconnesso e indecifrabile delle forsesensate poesie di Tommi
+altUrl: https://tommi.space/pasticci
+permalink: /poetry.json
+lang: it
+layout: feed.json.vto
+---
+{{>
+	const poetry = collections.poetry.slice(0, 10);
+}}
+"items": [{{ for index, entry of poetry }}
+	{
+		"id": "{{ site.url + entry.url }}",
+		"url": "{{ site.url + entry.url }}",
+		"title": "{{ entry.data.title }}",
+		"content_html": "{{ entry.content |> replace('\\', '\\\\') |> replace('"', '\'') |> replace('\n', ' ') |> replace('	', ' ') |> trim() }}",
+		"content_text": "{{ entry.content |> strip_html |> replace('\\', '\\\\') |> replace('"', '\'') |> replace('\n', ' ') |> replace('	', ' ') |> trim() }}",
+		{{ if entry.data.description }}"summary": "{{ entry.data.description |> replace: '"', '\'' |> replace: '\n', ' ' }}",{{- /if -}}
+		{{ if entry.data.image }}"image": "{{ entry.data.image }}",{{ /if }}
+		{{ if entry.date }}"date_published": "{{ entry.date }}",{{# | date_to_xmlschema#}}{{- /if -}}
+		{{ if entry.data.updated }}"date_modified": "{{ entry.data.updated }}",{{# | date_to_xmlschema#}}{{- /if -}}
+		{{#+++vto: forloop last without knowing the number of tags?{{ if entry.data.tags }}"tags": [{{ for tagindex, tag of entry.data.tags -}}
+			"{{ tag }}"{{ if tagindex < 10 }},{{ /if }}
+		{{ /for }}
+		],{{ /if }}#}}
+		"language": "{{ entry.data.lang }}"
+	}{{ if index < 10 }},{{ /if }}
+	{{ /for }}]

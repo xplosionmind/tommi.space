@@ -29,7 +29,7 @@
 	{{ for web of awesomeness }}
 		<li>
 			{{- if web.down == '' -}}
-				<a href='{{ web.url }}' title='{{ if web.title != '' }}{{ web.title }}'>{{ web.title }}{{ else }}{{ web.url |> replace('https:\/\/', '') }}'>{{ web.url | replace('https:\/\/', '') }}{{ /if }}</a>
+				<a href='{{ web.url }}' title='{{ if web.title != '' }}{{ web.title }}'>{{ web.title }}{{ else }}{{ web.url |> replace('https:\/\/', '') }}'>{{ web.url |> replace('https:\/\/', '') }}{{ /if }}</a>
 			{{- else -}}
 				{{ if web.title != '' }}{{ web.title }}{{ else }}{{ web.url |> replace('https:\/\/', '') }}{{ /if }}
 			{{- /if -}}

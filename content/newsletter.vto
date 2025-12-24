@@ -7,15 +7,15 @@ sitemap:
   changefreq: monthly
   priority: 0.6
 ---
-<main class='list'>
-	<hgroup class='flex'>
-		<h1 class='wavyBackgroundRed'>Parole Sconnesse</h1>
+<main class=list>
+	<hgroup class=flex>
+		<h1 class=wavyBackgroundRed>Parole Sconnesse</h1>
 	</hgroup>
-<div lang='en' class='middle yellow box'>
+<div lang=en class='middle yellow box'>
 	<p><strong>For English speakers</strong>: as of right now, the newsletter is sent in Italian only. Please stay tuned <a href='/feeds' title='tommi.space feeds'>via RSS</a> since I may be starting a newsletter in English, too!</p>
 </div>
 
-<article class='e-content'>
+<article class=e-content>
 	<p><strong><cite>Parole Sconnesse</cite></strong> è la mia pseudo-newsletter in cui, ogni tot, condivido idee, racconto vicessitudini relativamente interessanti e pubblico aggiornamenti sulle varie questioni a cui mi sto dedicando.</p>
 	<p>Se fossi così impavido da volerti iscrivere, basta compilare il modulo qui di seguito. Rock’n’roll!</p>
 	<div class=flex>
@@ -25,14 +25,14 @@ sitemap:
 </article>
 
 <div id=archivio class='entries-list subgrid'>
-	{% for entry in collections.newsletter reversed %}
+	{{ for entry of collections.newsletter }}
 		<a class='one-third box' href='{{ entry.url }}'>
 			<h2>{{ entry.data.title }}</h2>
 			<figure>
-				{% if entry.data.image %}<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}'>{% endif %}
+				{{ if entry.data.image }}<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}'>{{ /if }}
 			</figure>
-			<p class='center'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>
+			<p class=center>{{#{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time></p>#}}
 		</a>
-	{% endfor %}
+	{{ /for }}
 </div>
 </main>

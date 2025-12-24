@@ -9,7 +9,7 @@ image: https://miro.medium.com/1*O4jG21GILfzDuZ4eWvH7_Q.png
 ---
 The undervaluation of common knowledge is something quite worrying for me. The ubiquitous overwhelming amount of information we are fed with continuously obfuscates the cruciality of having open access to educational resources that go beyond the typical YouTube tutorial (that is openly accessible—still, it is not common knowledge since it is hosted on a proprietary platforms which could shut down from one day to another).
 
-I truly understood this while watching <cite>[The Internet’s Own Boy: The Story of Aaron Swartz](https://en.wikipedia.org/wiki/The_Internet's_Own_Boy '“The Internet’s Own Boy„ on Wikipedia')</cite>, thanks to which [Aaron Swartz](Aaron%20Swartz.md) became [one of my idols](People.liquid#aaron-swartz 'Aaron Swartz in the list of my favorite people').
+I truly understood this while watching <cite>[The Internet’s Own Boy: The Story of Aaron Swartz](https://en.wikipedia.org/wiki/The_Internet's_Own_Boy '“The Internet’s Own Boy„ on Wikipedia')</cite>, thanks to which [Aaron Swartz](Aaron%20Swartz.md) became [one of my idols](People.vto#aaron-swartz 'Aaron Swartz in the list of my favorite people').
 
 [François-Noël Babeuf](https://en.wikipedia.org/wiki/François-Noël_Babeuf 'François-Noël Babeuf on Wikipedia'), proto-socialist and one of the most fierce adversaries of the Directory during the French Revolution, advocates for the eradication of any sort of human egoistic greediness, and he wonderfully explains why knowledge is something that belongs to the whole:
 

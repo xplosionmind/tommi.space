@@ -1,5 +1,5 @@
 {
-	"layout": "sidebar.liquid",
+	"layout": "sidebar.vto",
 	"isNote": true,
 	"sitemap": {
 		"changefreq": "yearly"

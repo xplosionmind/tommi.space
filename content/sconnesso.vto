@@ -10,31 +10,31 @@ sitemap:
   changefreq: monthly
   priority: 0.7
 ---
-<main class='list'>
-	<hgroup class='flex'>
-		<h1 class='wavyBackgroundPurple'>Sconnesso</h1>
+<main class=list>
+	<hgroup class=flex>
+		<h1 class=wavyBackgroundPurple>Sconnesso</h1>
 	</hgroup>
 
-	<article class='e-content'>
+	<article class=e-content>
 		<p>{{ description }}</p>
 	</article>
 
 	<div class='entries-list subgrid'>
-		{% for episode in collections.sconnesso %}
+		{{ for episode of collections.sconnesso }}
 			<a class='one-third background box' href='{{ episode.url }}'>
-				{% if episode.data.image %}
+				{{ if episode.data.image }}
 					<figure>
 						<img src='{{ episode.data.image }}' alt='{{ episode.data.title }}'>
 					</figure>
-				{% endif %}
+				{{ /if }}
 				<h2>{{ episode.data.title }}</h2>
-				<p class='date'>{% if episode.data.location %}{{ episode.data.location }}, {% endif %}<time class='dt-published' datetime='{{ episode.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: episode.date %}</time></p>
-				{% render 'entry-tags.liquid', tags: episode.data.tags, site: site, size: 'tiny' %}
+				<p class='date'>{{ if episode.data.location }}{{ episode.data.location }}, {{ /if }}{{#<time class=dt-published datetime='{{ episode.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: episode.date %}</time>#}}</p>
+				{{#+++ Why for loop valid if this enabled?{{ include 'entry-tags.vto' { tags: episode.data.tags, size: 'tiny' } }}#}}
 			</a>
-		{% endfor %}
+		{{ /for }}
 	</div>
 
 	<aside>
-		{% render 'listen-on.liquid', lang: lang %}
+		{{ include 'listen-on.vto' }}
 	</aside>
 </main>

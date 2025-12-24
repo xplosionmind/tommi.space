@@ -1,0 +1,25 @@
+---
+title: Flusso principale di tommi.space
+description: Flusso degli ultimi contenuti pubblicati su tommi.space
+altUrl: https://tommi.space/tuffo/
+permalink: /it/index.xml
+lang: it
+layout: feed.xml.vto
+---
+{{>
+	const merged = collections.jam.concat(collections.zibaldone, collections.poetry)
+	const all = all.toSorted((a, b) => b.date - a.date);
+}}
+{{ for entry of all }}
+	<item>
+		<title>{{ entry.data.title }}</title>
+		<link>{{ site.url + entry.url }}</link>
+		<description><![CDATA[{{ entry.content |> replace('"/', '"https://tommi.space/') |> replace('\'/', '\'https://tommi.space/') }}]]></description>
+		<author>{{ site.author.email }} ({{ site.author.name }})</author>
+		{{ for tag of tags }}
+			<category>{{ tag }}</category>
+		{{ /for }}
+		<guid>{{ site.url + entry.url }}</guid>
+		<pubDate>{{ entry.date }}{{# | date_to_rfc822 #}}</pubDate>
+	</item>
+{{ /for }}

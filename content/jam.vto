@@ -19,7 +19,7 @@ image: /assets/jam.webp
 		<h1 class=wavyBackgroundRazzmatazz>The Jam</h1>
 	</hgroup>
 <article class=e-content>
-	<p>I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <cite><a href='zibaldone.en.liquid' lang=it hreflang=en>Zibaldone</a></cite>.</p>
+	<p>I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <cite><a href=zibaldone.en.vto lang=it hreflang=en>Zibaldone</a></cite>.</p>
 	<p>I take all of these things and I throw them here.</p>
 	<h2>What is <cite>The Jam</cite>?</h2>
 	<p>In the wild, things like this are generally called <q><a href=https://dev.to/jbranchaud/the-digital-garden-l10 title='The Digital Garden on DEV.to'>Digital Gardens</a></q>, or <q><cite><a lang=de hreflang=en href='jam/public/Zettelkasten.md' title='Zettelkasten - tommi.space'>Zettelkasten</a></cite> system</q>. In my case, it is a definitely less ambitious experiment: it is mixed, heterogeneous, juicy, and sweet. I call it <cite>The Jam</cite>.</p>
@@ -49,7 +49,7 @@ image: /assets/jam.webp
 				{% if entry.data.description %}
 					<p>{{ entry.data.description |> markdownify |> strip_html |> slice(0, 300) }}</p>
 				{{ /if }}
-				{{ include 'entry-tags.vto', { size: 'tiny' } }}
+				{{#+++ Why for loop valid if this enabled?{{ include 'entry-tags.vto' { tags: entry.data.tags, size: 'tiny' } }}#}}
 			</a>
 		{{ /for }}
 	</div>

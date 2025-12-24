@@ -56,7 +56,7 @@ So here is a whole webpage all about me. I hate this. I hate to be incapable of 
 
 ## Bonus: Stability
 
-Stability… I always overlooked its value and its importance in the deepest sense: [in the past three years of my life](stuff/activities.liquid?startDate=2022-01-14&endDate=2025-01-14), I moved on an average *every six months*. I have been doing many wonderful things, meeting incredible people, including by two best friends. Nonetheless, my plans in the long term have been *wildly* shifting, or they were non-existent, as all my focus and energies were absorbed by the short or medium term planning.
+Stability… I always overlooked its value and its importance in the deepest sense: [in the past three years of my life](stuff/activities.vto?startDate=2022-01-14&endDate=2025-01-14), I moved on an average *every six months*. I have been doing many wonderful things, meeting incredible people, including by two best friends. Nonetheless, my plans in the long term have been *wildly* shifting, or they were non-existent, as all my focus and energies were absorbed by the short or medium term planning.
 
 It is time to make the frightening but adult move to take action and responsibility for the years, not months, to come.
 
@@ -71,7 +71,7 @@ I need a revolution, indeed.
 
 In other news, I lived in Tallinn from September to December 2024. Remarkably, Tallinn is the only city I have lived in that does not have any page of this website dedicated to it. The place is lovely, but it is definitely not *my* place, not during this phase of my life. My time there has been mostly reflexive and mysanthropic, particularly because it was haunted by the questions outlined above.
 
-Anyhow, I definitely cannot complain, because notwithstanding the challenging times, I met interesting and nice people, and I travelled a lot, hosting <cite>[Knitting Our Internet](https://ournet.rocks/ 'Knitting Our Internet’s website')</cite> at [many great events](stuff/activities.liquid?startDate=2024-09-01&endDate=2024-12-31), where I bonded with other incredible, insightful, and lovely people.
+Anyhow, I definitely cannot complain, because notwithstanding the challenging times, I met interesting and nice people, and I travelled a lot, hosting <cite>[Knitting Our Internet](https://ournet.rocks/ 'Knitting Our Internet’s website')</cite> at [many great events](stuff/activities.vto?startDate=2024-09-01&endDate=2024-12-31), where I bonded with other incredible, insightful, and lovely people.
 
 It is very weird to feel both very glad and super unsatisfied about a phase of my life, at the same time. It is what it is, I guess, and it is time to move on.
 

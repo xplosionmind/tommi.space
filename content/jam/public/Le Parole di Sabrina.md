@@ -9,7 +9,7 @@ tags:
 image: /assets/sabrina-radical-chic.webp
 updated: 2022-11-14T20:59:00+01:00
 ---
-Dato che la mia favolosa amica [Sabrina](https://instagram.com/pipitonesabrina 'Sabrina su Instagram') continua a ignorare il mio insistente invito a creare un proprio sito web, per compassionevole amore ospiterò qui il suo corrispettivo di [Parole](Parole.liquid), ovvero tutti quei termini che lei adora oppure disprezza con tutta sé stessa.
+Dato che la mia favolosa amica [Sabrina](https://instagram.com/pipitonesabrina 'Sabrina su Instagram') continua a ignorare il mio insistente invito a creare un proprio sito web, per compassionevole amore ospiterò qui il suo corrispettivo di [Parole](Parole.vto), ovvero tutti quei termini che lei adora oppure disprezza con tutta sé stessa.
 
 ## Odio
 

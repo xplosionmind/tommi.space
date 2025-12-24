@@ -6,7 +6,7 @@
 	description: 'Personaggi reali o di fantasia che hanno lasciato un segno in me',
 	permalink: '/persone/',
 	redirect_from: ['/personaggi/','/idoli/'],
-	layout: 'wrapper.liquid',
+	layout: 'wrapper.vto',
 	ref: 'people',
 	lang: 'it',
 	updated: function (data) {
@@ -50,7 +50,7 @@
 		<h2 class=wavyBackgroundRazzmatazz>People I also wrote about</h2>
 	</div>
 	{{ for idol of collections.jam }}
-		{{ for tag of idol.data.tags %}
+		{{ for tag of idol.data.tags }}
 			{{ set idoltag = tag.replace('/', ' ') }}
 			{{ if idoltag.includes('people') }}
 				<a class='little box' href='{{ idol.url |> url }}'>

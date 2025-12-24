@@ -5,7 +5,7 @@
 		return this.site.author.based
 	},
 	description: 'Un riassunto incompleto e superficiale di ciò che sto facendo',
-	layout: 'sidebar.liquid',
+	layout: 'sidebar.vto',
 	ref: 'now',
 	lang: 'it',
 	permalink: '/ora/',
@@ -18,22 +18,25 @@
 ---
 <p>{{ description }}:</p>
 
-{% assign things = collections.now | where: 'data.lang', lang %}
-{% for now in things %}
-		{% if forloop.first %}
+{{>
+	const things = collections.now.filter(entry => entry.data.lang == page.lang)
+}}
+
+{{ for index, now of things }}
+		{{ if index == 0 }}
 			<div id={{ now.fileSlug }}>
-				{{ now.content | markdownify }}
+				{{ now.content |> markdownify }}
 			</div>
-		{% elsif forloop.index == 2 %}
-			<h2 id=previously>🔙 Precedentemente</h2>
+		{{ else if index == 1 }}
+			<h2 id=previously>🔙 Precedentemente doing</h2>
 			<div id={{ now.fileSlug }} class=box>
-				<h3>{{ now.data.date | date_to_long_string }}</h3>
-				{{ now.content | replace: 'h2', 'h4' }}
+				<h3>{{ now.data.date }}{{# |> date_to_long_string #}}</h3>
+				{{ now.content |> replace('h2', 'h4') }}
 			</div>
-		{% else %}
+		{{ else }}
 			<div id={{ now.fileSlug }} class=box>
-				<h3>{{ now.data.date | date_to_long_string }}</h3>
-				{{ now.content | replace: 'h2', 'h4' }}
+				<h3>{{ now.data.date }}{{# |> date_to_long_string #}}</h3>
+				{{ now.content |> replace('h2', 'h4') }}
 			</div>
-		{% endif %}
-{% endfor %}
+		{{ /if }}
+{{ /for }}

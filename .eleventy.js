@@ -194,6 +194,8 @@ export default function (eleventyConfig) {
 	})
 
 	return {
+		markdownTemplateEngine: 'vto',
+		htmlTemplateEngine: 'vto',
 		dir: {
 			includes: 'includes',
 			layouts: 'layouts',

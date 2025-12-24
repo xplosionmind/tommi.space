@@ -14,7 +14,7 @@ type: CollectionPage
 		<h1 class='wavyBackgroundRazzmatazz'>La Marmellata</h1>
 	</hgroup>
 <article class='e-content'>
-	<p>Ci sono curiose scoperte e piccoli pensieri che voglio salvare prima che finiscano nel dimenticatoio, o nell’attesa che vengano riformulati in maniera migliore e raccontati nello <cite><a href='zibaldone.liquid'>Zibaldone</a></cite>.</p>
+	<p>Ci sono curiose scoperte e piccoli pensieri che voglio salvare prima che finiscano nel dimenticatoio, o nell’attesa che vengano riformulati in maniera migliore e raccontati nello <cite><a href=zibaldone.vto>Zibaldone</a></cite>.</p>
 	<p>Prendo tutte queste cose e ne faccio <cite>La Marmellata</cite>.</a>
 	<h2>Cos’è <cite>La Marmellata</cite>?</h2>
 	<p>La chiamano anche <q><a href='https://dev.to/jbranchaud/the-digital-garden-l10' hreflang='en' title='The Digital Garden su DEV.to'>giardino digitale</a></q>, o anche <q>sistema <cite><a lang='de' href='/zettelkasten' hreflang='en' title='Zettelkasten — tommi.space'>Zettelkasten</a></cite></q>. Per me si tratta di un esperimento molto meno altisonante e ambizioso, ma frullato e gustoso: è <cite>La Marmellata</cite>.</p>
@@ -44,7 +44,7 @@ type: CollectionPage
 				{% if entry.data.description %}
 					<p>{{ entry.data.description |> markdownify |> strip_html |> slice(0, 300) }}</p>
 				{{ /if }}
-				{{ include 'entry-tags.vto', { size: 'tiny' } }}
+				{{ include 'entry-tags.vto' { tags: entry.data.tags, size: 'tiny' } }}
 			</a>
 		{{ /for }}
 	</div>

@@ -16,7 +16,7 @@ todo:
   - convert to a CSV or JSON file
   - refactor
 ---
-{{ description | markdownify }}
+{{ description |> markdownify }}
 
 - 2014.01.12 [Scoutismo](https://spreaker.com/user/ariaimmaginaria/scout) (min 11:20)
 - 2014.02.12 Prima intervista in assoluto, [Mario Guglielmi](https://spreaker.com/user/ariaimmaginaria/mario-guglielmi)

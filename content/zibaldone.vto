@@ -48,7 +48,7 @@
 					{{ if entry.data.image }}<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}'>{{ /if }}
 				</figure>
 				<p class=center>{{ if entry.data.location }}{{ entry.data.location }}, {{ /if }}{{#<time class=dt-published datetime='{{ entry.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.date %}</time>#}}</p>
-				{{ include 'entry-tags.vto', { size: 'tiny' } }}
+				{{ include 'entry-tags.vto' { size: 'tiny' } }}
 			</a>
 		{{ /for }}
 	</div>

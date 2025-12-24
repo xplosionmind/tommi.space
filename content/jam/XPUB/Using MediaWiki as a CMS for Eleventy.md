@@ -170,7 +170,7 @@ To do everything in Eleventy we are writing custom JavaScript functions that use
 	  data: collections.SI28
 	  size: 1
 	alias: wikipage
-	layout: main.liquid
+	layout: main.vto
 	permalink: '{{ wikipage.url }}'
 	eleventyComputed:
 	  title: '{{ wikipage.title }}'

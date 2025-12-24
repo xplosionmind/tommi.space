@@ -60,7 +60,7 @@
 				{{ /if }}
 				<a
 					class='tiny green button'
-					href='{{- if place.osm != ''' -}}{{ place.osm }}{{- else -}}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{{- endif -}}'
+					href='{{- if place.osm != '' -}}{{ place.osm }}{{- else -}}https://osm.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18{{- /if -}}'
 					title='Vedi {{ place.name }} su OpenStreetMap'>Vedi sulla mappa</a>
 			</div>
 		</div>

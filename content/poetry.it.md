@@ -8,7 +8,7 @@ ref: poetry
 class: poetry center
 header: false
 toolbar: false
-layout: poem.liquid
+layout: poem.vto
 description: Pasticci poetici vari e confusi e scombussolati e scombussolanti.
 sitemap:
   changefreq: monthly
@@ -19,9 +19,9 @@ Non è come mangiare un gelato, la scrittura: se la addenti, non ti assale quell
 Di seguito alcuni miei morsi di scrittura, vi prego di fare attenzione a non lasciarci un canino.
 
 <ul>
-	{%- for poem in collections.poetry -%}
+	{{- for poem of collections.poetry -}}
 		<li>
 			<a href='{{ poem.url }}' title='{{ poem.data.title }}'>{{ poem.data.title }}</a>
 		</li>
-	{%- endfor -%}
+	{{- /for -}}
 </ul>

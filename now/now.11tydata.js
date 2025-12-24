@@ -1,5 +1,5 @@
 export default {
 	lang: 'en',
-	layout: 'page.liquid',
+	layout: 'page.vto',
 	permalink: false
 }

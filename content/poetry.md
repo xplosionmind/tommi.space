@@ -3,7 +3,7 @@ title: Fake poetry
 redirect_from: [/fake-poetry/,/fakepoetry/]
 lang: en
 ref: poetry
-layout: poem.liquid
+layout: poem.vto
 header: false
 toolbar: false
 class: poetry center
@@ -15,7 +15,7 @@ sitemap:
 {{ description }}
 
 <ul>
-	{%- for poem in collections.poetry -%}
+	{{- for poem of collections.poetry -}}
 		<li><a href='{{ poem.url }}' title='{{ poem.data.title }}'>{{ poem.data.title }}</a></li>
-	{%- endfor -%}
+	{{- /for -}}
 </ul>

@@ -60,10 +60,10 @@ footer: true
 	<div class='entries-list grid'>
 	{{ for item of activities }}
 		<div
-			id='{{ item.title |> slugify }}-{{ item.end | date: '%Y' }}'
+			id='{{ item.title |> slugify }}-{{ item.end |> getFullYear() }}'
 			class='little center box'
 			lang='{{ item.lang || 'en' }}'
-			data-date='{{ item.start | default: item.end }}'
+			data-date='{{ item.start || item.end }}'
 			{{ if item.ongoing }}data-ongoing{{ /if }}
 			{{ if item.long }}data-long{{ /if }}
 			>
@@ -73,7 +73,7 @@ footer: true
 				<h3>{{ item.title }}</h3>
 			{{ /if }}
 			{{ if item.description }}
-				<p>{{ item.description | markdownify }}</p>
+				<p>{{ item.description |> markdownify }}</p>
 			{{ /if }}
 			<dl>
 				{{#{{ if item.start }}

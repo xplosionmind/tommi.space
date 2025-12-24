@@ -1,6 +1,6 @@
 export default {
 	lang: 'en',
-	layout: 'wrapper.liquid',
+	layout: 'wrapper.vto',
 	header: true,
 	toolbar: true,
 	footer: true,

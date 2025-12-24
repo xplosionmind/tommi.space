@@ -29,8 +29,7 @@ In the rare occasions when I watch movies and series critically, or when I have 
 A raw, impulsive, unexplained list of my all-time favorite movies and series:
 
 <ul class='two'>
-	{{ set favs = watchlog }} {{#|> where: 'favorite', 'true'#}}
-	{{- for fav in favs -}}
+	{{- for fav of watchlog.filter((fav) => favorite == 'true') -}}
 		<li>
 			<cite><a href='{{- if fav.tommi == '' -}}https://en.wikipedia.org/wiki/{{ encodeURIComponent(fav.title.replace(' ', '_')) }}{{- else -}}{{ fav.tommi }}{{- /if -}}' title='“{{ fav.title }}”'>{{ fav.title }}</a></cite>
 		</li>

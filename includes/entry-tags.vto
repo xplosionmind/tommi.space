@@ -1,6 +1,6 @@
 <div class='flex gap-2xs'>
-	{{ for tag in tags }}
-		{{ set classtag -}}{{ tag |> replace('/', ' ') }}
-		<span rel='tag' class='{{ classtag }} {{ size }} button p-category'>{{ tag }}</span>
+	{{ for t of tags }}
+		{{ set classtag = t.replace('/', ' ') }}
+		<span rel=tag class='{{ classtag }} {{ size }} button p-category'>{{ t }}</span>
 	{{ /for -}}
 </div>

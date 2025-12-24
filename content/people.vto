@@ -6,7 +6,7 @@
 	description: 'A collection of real and fictional characters who left a mark in me.',
 	redirect_from: ['/characters/','/idols/'],
 	ref: 'people',
-	layout: 'wrapper.liquid',
+	layout: 'wrapper.vto',
 	updated: function (data) {
 		return this.people.reduce((latest, item) => {
 			const itemDate = new Date(item.added)
@@ -48,7 +48,7 @@
 		<h2 class=wavyBackgroundRazzmatazz>People I also wrote about</h2>
 	</div>
 	{{ for idol of collections.jam }}
-		{{ for tag of idol.data.tags %}
+		{{ for tag of idol.data.tags }}
 			{{ set idoltag = tag.replace('/', ' ') }}
 			{{ if idoltag.includes('people') }}
 				<a class='little box' href='{{ idol.url |> url }}'>
