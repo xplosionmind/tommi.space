@@ -48,3 +48,7 @@ Finally, I am doing what I always dreamed of doing, and I am super enthusiastic 
 - The whole XPUB program, its classes, and some of its resources are open and **publicly available** on the insanely cool XPUB Wiki. Therefore, most of what I will be exploring, my notes, and the collective work we will be doing will be there. I intend to play with [MediaWiki](https://mediawiki.org) APIs to find a way to **bridge** or, even better, synchronize in both ways, the XPUB wiki and this website, so that my personal notes on The Jam get on the wiki and relevant wiki pages are at least referenced here.
 - Create a CalDAV feed from [the XPUB Calendar on the wiki](https://pzwiki.wdka.nl/mediadesign/Calendars:XPUB)
 - Set up and self-host [an Obsidian Relay server](https://github.com/No-Instructions/relay-server-template) and remove any authentication
+
+## Ideas
+
+- <time datetime=2025-09-04T22:35:00+02:00>4<sup>th</sup> September 2025</time>: <q>locked-in</q> sign as the <q>on-air</q> one to add in the studio
