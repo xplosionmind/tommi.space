@@ -9,7 +9,7 @@
     "npm:csv-parse@^6.1.0": "6.1.0",
     "npm:eleventy-plugin-embed-everything@^1.21.1": "1.21.1",
     "npm:eleventy-plugin-robotstxt@^1.0.2": "1.0.2_@11ty+eleventy@3.1.2__chokidar@3.6.0__posthtml@0.16.6",
-    "npm:html-minifier-next@^4.15.2": "4.15.2",
+    "npm:html-minifier-next@^4.16.3": "4.16.3",
     "npm:js-yaml@^4.1.1": "4.1.1",
     "npm:markdown-it-anchor@^9.2.0": "9.2.0_@types+markdown-it@14.1.2_markdown-it@14.1.0",
     "npm:markdown-it-footnote@4": "4.0.0",
@@ -1037,8 +1037,8 @@
         "tslib"
       ]
     },
-    "html-minifier-next@4.15.2": {
-      "integrity": "sha512-YcRhMjUQcKDHxk1obKpBhxGfDp5+uOFGGiFYFdu/MrXMhkcJhdor5mDvQsPfFczQWvUir2VANbfpQdxUfUtP5w==",
+    "html-minifier-next@4.16.3": {
+      "integrity": "sha512-pdol4+GcphzuO58xsxWZDLxrVh2CoinH7fRXEZUTSjsGUiwydGKYY86M3h8MBnj6LIVeydnwmPnbrykqajkuzQ==",
       "dependencies": [
         "@types/relateurl",
         "change-case",
@@ -1751,7 +1751,7 @@
         "npm:csv-parse@^6.1.0",
         "npm:eleventy-plugin-embed-everything@^1.21.1",
         "npm:eleventy-plugin-robotstxt@^1.0.2",
-        "npm:html-minifier-next@^4.15.2",
+        "npm:html-minifier-next@^4.16.3",
         "npm:js-yaml@^4.1.1",
         "npm:markdown-it-anchor@^9.2.0",
         "npm:markdown-it-footnote@4",
