@@ -117,9 +117,9 @@ export default function (eleventyConfig) {
 		},
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin),
-		eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
-			extensions: 'md,html,liquid'
-		});
+	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
+		extensions: 'md,html,liquid'
+	});
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		extensions: 'html',
 		defaultAttributes: {
