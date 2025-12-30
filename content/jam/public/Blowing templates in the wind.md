@@ -16,6 +16,7 @@ I felt the aches and the limits of templating languages since [my very first web
 As soon as I found out about [Vento](https://vento.js.org), I realized that it was the breath of fresh air I was looking for. I decided to switch: both my gut feeling and all the information I could find convinced me it was the right choice.
 
 As I transition to using Vento as the main (and only) templating language, I am annotating and documenting what I learn here.
+
 ## Introductory resources
 
 I will not go through what other knowledgeable people explained already. Here are the very insightful resources I used to wrap my head around how Vento works, and how to switch to it from Liquid.
@@ -24,6 +25,11 @@ https://youtu.be/_854y7c0D-0
 
 - [Vento: My Favourite Template Language for Eleventy \| Helen Chong, Web Developer](https://helenchong.dev/blog/posts/2025-05-21-vento-in-eleventy/)
 - [From Nunjucks to Vento in Eleventy: a migration guide (kinda) \| chriskirknielsen](https://chriskirknielsen.com/blog/from-nunjucks-to-vento-in-eleventy-migration-guide/)
+
+## Other people’s implementations
+
+- [From GitHub repositories](https://github.com/search?q=eleventy-plugin-vento&type=code)
+
 ## Replacing Liquid filters
 
 Unfortunately, all the language-specific information I could find is about switching from to Vento from [Nunjucks](https://mozilla.github.io/nunjucks/). Nevertheless, I have always used [Liquid](https://liquidjs.com), and I got used to its logic and syntax. I had to recreate some Liquid filters in the 
@@ -38,7 +44,11 @@ eleventyConfig.addFilter('strip_html', (str) => {
 });
 ```
 
-### `date_to_xmlschema`
+### Date handling
+
+[LiquidJS date filters source code](https://github.com/harttle/liquidjs/blob/master/src/filters/date.ts)
+
+#### `date_to_xmlschema`
 
 To recreate [LiquidJS’ `date_to_xmlschema`](https://liquidjs.com/filters/date_to_xmlschema.html), I took advantage of [the `Date.prototype.toISOString()` JavaScript method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString 'Date.prototype.toISOString() on MDN'). Therefore, I didn’t even need to create a custom filter.
 
