@@ -4,7 +4,5 @@ permalink: /human.json
 {
 	"version": "0.1.1",
 	"url": "{{ site.url }}",
-	"vouches": [
-		{{ human | json }}
-	]
+	"vouches": {{ human | json }}
 }
