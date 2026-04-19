@@ -5,6 +5,7 @@
     "npm:@11ty/eleventy-img@^6.0.4": "6.0.4",
     "npm:@11ty/eleventy-plugin-syntaxhighlight@^5.0.2": "5.0.2",
     "npm:@11ty/eleventy@^3.1.5": "3.1.5",
+    "npm:@saiballo/eleventy-plugin-validate-html@^1.0.4": "1.0.4",
     "npm:@uncenter/eleventy-plugin-toc@^2.1.1": "2.1.1",
     "npm:csv-parse@^6.2.1": "6.2.1",
     "npm:eleventy-plugin-embed-everything@^1.21.2": "1.21.2",

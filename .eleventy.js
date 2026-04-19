@@ -17,6 +17,7 @@ import pluginEmbed from 'npm:eleventy-plugin-embed-everything';
 import pluginToc from 'npm:@uncenter/eleventy-plugin-toc';
 import { eleventyImageTransformPlugin } from 'npm:@11ty/eleventy-img';
 import EleventyPluginRobotsTxt from 'npm:eleventy-plugin-robotstxt';
+import validateHtml from 'npm:@saiballo/eleventy-plugin-validate-html'
 
 export default function (eleventyConfig) {
 
@@ -149,6 +150,15 @@ export default function (eleventyConfig) {
 
 	// Production-only //
 	if (process.env.ELEVENTY_ENV != 'development') {
+		// Validate HTML //
+		eleventyConfig.addPlugin(validateHtml, {
+			'ignore': [
+				'Unknown element <lite-youtube>',
+				'Unknown element <pagefind-searchbox>',
+				'Duplicate ID',
+				'Raw ">" must be encoded as "&gt;"'
+			]
+		});
 		// Minify output //
 		eleventyConfig.addTransform(htmlMinifier, async function (content) {
 			if ((this.page.outputPath || '').endsWith('.html')) {
