@@ -1,13 +1,15 @@
 ---
 date: 2025-01-16T18:09:00+01:00
-aliases:
-  - Migrating to Debian
-tags:
-  - geek
 location: Xplosion Attic
-description: Notes about moving from Fedora 41 to Debian Trixie (Testing, version 13) on my Framework Laptop 13.
+aliases: [Migrating to Debian]
+tags: [geek]
 permalink: /fedora-debian/
+description: Notes about moving from Fedora 41 to Debian Trixie (Testing, version 13) on my Framework Laptop 13.
 ---
+<div class='red box'>
+	<p>I gave up. At the time of writing, there are still too many little things to fix, little glitches, and it seems like Debian on Framework needs more maintenance than I originally thought.</p>
+</div>
+
 ## Knowledge base
 
 What I am reading before doing anything:

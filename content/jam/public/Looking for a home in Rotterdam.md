@@ -48,9 +48,9 @@ The Fediverse is awesome: after [posting about this](https://pan.rent/@tommi/114
 
 Even if they are not directly related to housing, being in local groupchats, especially ones of students and internationals, it hugely valuable, as you can spread the word that you are looking for a place, and you can learn more about neighborhoods, acceptable prices, common scams, etc.
 
-## Websites I payed for
+## Websites I paid for
 
-It’s inevitable to have to pay for some service where rental agencies and private entities pubish insertions. These are the services I ended up paying for. The most useful thing is to have instant notification about newly added insertions.
+It’s inevitable to have to pay for some service where rental agencies and private entities publish insertions. These are the services I ended up paying for. The most useful thing is to have instant notification about newly added insertions.
 
 - [Stadswonen Rotterdam](https://stadswonenrotterdam.nl) is a sort of social housing company, owning properties all over the city. One-time payment of 25€.
 - [Kamernet](https://kamernet.nl/en) is probably the most common solution. I am paying 70€ for three months of subscription.
@@ -85,6 +85,15 @@ My friend’s experience is nice, but another friend from BPW strongly advised i
 Here are some resources for critical and aware information on housing rights:
 
 - [Housing rights](https://pzwiki.wdka.nl/mediadesign/Housing_rights 'Housing rights'), on the XPUB wiki. Notes and slides from a presentation by Lila from BPW.
+
+## Unwritten rules
+
+Some general info and unwritten rules related to renting and tenant rights.
+
+- it’s better to sign a contract and sign it than to not sign it. If signed, a contract can be contested/fought in court later.
+		- <em lang=nl>Hoofdhuurder</em>: main tenant; <em lang=nl>medehuurder</em>: co-tenant
+- <em lang=nl>eigenaar</em>: owner; <em lang=nl>beheer</em>: agency; <em lang=nl>hoofdhuurder</em>: paying through the main tenant
+- <em lang=nl>Huurcommissie Huurprijscheck</em>, to check how much the landlord is allowed to charge
 
 ## Tips from friends
 

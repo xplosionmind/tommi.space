@@ -6,9 +6,5 @@ tags:
   - wip
 aliases: Meditation
 redirect_from: /meditation/
-toc: false
 description: The art of training the mind to focus and commit to the present by gifting it with few minutes a day of complete nothingness
 ---
-## Thoughts
-
-**Post-mindfulness**: it is very important not only to do mindfulness the right way, but also to do the right things after performing it in order to take full advantage of it.

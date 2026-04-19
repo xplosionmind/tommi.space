@@ -1,12 +1,11 @@
 ---
 date: 2025-11-12T22:14:00+01:00
-updated: 2025-12-06T17:29:16+01:00
+updated: 2025-12-31T17:29:16+01:00
 title: Winterrail 2025/26
 aliases:
   - Interrail December 2025
 tags:
   - travel
-  - wip
 description: Preparing and experiencing a month-long trip in Paris, Barcelona, Marseille, Sanremo (home for Christmas), Hamburg (Congress), Berlin, then Rotterdam, between December 2025 and January 2026.
 permalink: /2025/winterrail/
 image: /assets/winterrail-2526.png
@@ -17,12 +16,18 @@ Between the end of 2025 and the first few days of 2026, I am going to:
 - Barcelona, on the weekend of the 13-14, to participate in the meeting between [GenEtica](https://www.bancaetica.it/git/genetica/?tab=chi-siamo 'GenEtica sul sito di Banca Etica') and [JóvenesxFiare](https://www.fiarebancaetica.coop/jovenesxfiare/).
 - Riva Ligure (Sanremo), my hometown, for Christmas
 - Hamburg, for [39C3](https://events.ccc.de/congress/2025/infos/startpage.html), from the 26th until the 31st of December
-- Berlin for New Year’s eve
-- Rotterdam around January 7th, when classes start again.
+- ~~Berlin for New Year’s eve~~. I got sick and it was time to go back home.
+- Rotterdam ~~before January 5<sup>th</sup>, when classes start again~~ on December 31<sup>st</sup>.
 
 I bought a discounted 5-days Interrail ticket last summer, and I believe this is the perfect opportunity to take advantage of it. I also just bought a wonderful [folding bike](Buying%20a%20folding%20bike.md)
 
-<iframe style='width: 100%; min-height: 50vh; border: 0; box-shadow: var(--shadow); border-radius: 1.5rem;' allowfullscreen allow='geolocation' src='https://umap.openstreetmap.fr/en/map/winterrail-20252026_1328918?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&captionBar=false&captionMenus=true'></iframe>
+<div class=embed>
+	<iframe
+		title='Map of the stops of the Winterrail 2025-2026'
+		src='https://umap.openstreetmap.fr/en/map/winterrail-20252026_1328918?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&captionBar=false&captionMenus=true'
+		allow=geolocation
+		allowfullscreen
+	></iframe>
 
 ## Travel log
 

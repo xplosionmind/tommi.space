@@ -1,5 +1,7 @@
 ---
 updated: 2025-11-01T12:38:56+02:00
+tags:
+  - questions
 ---
 There is an awful lot of questions crowding my head.
 

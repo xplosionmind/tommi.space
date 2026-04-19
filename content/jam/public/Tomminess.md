@@ -14,14 +14,14 @@ redirect_from:
 main: true
 toc: true
 ---
-Who Tommi is cannot exhaustively be defined merely by [their <cite>About page</cite>](https://tommi.space/about 'About Tommi'), [their resume](/cv/ 'Tommi’s CV'), [what they’re doing](https://tommi.space/now 'Now - tommi.space'), nor <a href='https://tommi.space/tutto' title='“Tutto”, all the stuff Tommi does' hreflang='it'>what they did</a>.
+Who Tommi is cannot exhaustively be defined merely by [their <cite>About page</cite>](https://tommi.space/about 'About Tommi'), [their resume](/cv/ 'Tommi’s CV'), [what they’re doing](https://tommi.space/now 'Now - tommi.space'), nor <a href=https://tommi.space/tutto title='“Tutto”, all the stuff Tommi does' hreflang=it>what they did</a>.
 
-In so many occasions my friends come to me and say something like: <q lang='it'>questa cosa è un sacco *da Tommi*</q>, <q lang='it'>ti ho immediatamente pensato perché mi ha ricordato te</q>, or simply tell me something about me that makes me think <q>oh, this is *so* me</q>. I am collecting all of those attributes here.
+In so many occasions my friends come to me and say something like: <q lang=it>questa cosa è un sacco *da Tommi*</q>, <q lang=it>ti ho immediatamente pensato perché mi ha ricordato te</q>, or simply tell me something about me that makes me think <q>oh, this is *so* me</q>. I am collecting all of those attributes here.
 
 Tommi is [Tomminess](Tomminess.md). In other words, <cite>Tomminess</cite> is Tommi’s way of living. It is a mix of vices, virtues, personality traits, and values.
 
-<div class='box'>
-	The present page is something similar to a manifesto of Tommi’s being, inspired by the section named <cite>My values</cite> in <a href='https://noeldemartin.com' title='Noel De Martin’s personal website'>Noel De Martin’s personal website</a>.
+<div class=box>
+	The present page is something similar to a manifesto of Tommi’s being, inspired by the section named <cite>My values</cite> in <a href=https://noeldemartin.com title='Noel De Martin’s personal website'>Noel De Martin’s personal website</a>.
 </div>
 
 ## <cite>Tomminess</cite> means:
@@ -29,7 +29,7 @@ Tommi is [Tomminess](Tomminess.md). In other words, <cite>Tomminess</cite> is To
 - being **[TMI](TMI.md)**:
 	- **oversharing** information about oneself
 	- restlessly relentlessly **talking** about something
-- <em lang='it'>rompere le palle</em>
+- <em lang=it>rompere le palle</em>
 - being **egocentric**, but not egoist, nor self-absorbed
 - being **angry at Capitalism**:
 	- [Fighting Big Tech](Internet%20Freedom.md)
@@ -41,7 +41,7 @@ Tommi is [Tomminess](Tomminess.md). In other words, <cite>Tomminess</cite> is To
 - having a tremendously difficult time distinguishing jokes and serious statements made with sarcasm, in other words: **not understanding irony**
 - believing in **love** and **relational anarchy**
 - following and advocating for **the art of <cite>[Introductionism](Introductionism.md)</cite>**
-- in pursuing <cite><a href='https://tommi.space/procrastinazione' title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
+- in pursuing <cite><a href=https://tommi.space/procrastinazione/ title='L’Arte del Procrastinare'>Structured Procrastination</a></cite>, spending a ridiculous amount of time to achieve relatively unimportant tasks (such as creating this very page)
 - being **stupid**, but only when there is no need to be so, and…
 - …being incapable of laughing at jokes when it is time to be serious
 - being completely incapable of controlling [the effects of caffeine](Caffeinated.md)
@@ -67,12 +67,10 @@ As Tomminess is based on who Tommi is, some stuff gets old as Tommi, incredibly,
 Occasionally, friends of mine I have not been in touch with for quite some time pop up with a message telling me that I remind them so much of some public figure. Below a list:
 
 {% for p in tommiUguale -%}
-	{% if p.name != blank -%}### {{ p.name }}{% endif -%}
-	<a href='{{ p.url }}'>
-			{% if p.audio != blank -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
-			{% if p.image != blank -%}<figure><img src='{{ p.image }}' alt='{{ p.name }}'></figure>{% endif -%}
-			{% if p.description != blank -%}<p>{{ p.description | markdownify }}</p>{% endif -%}
-	</a>
+	{%- if p.name != blank -%}### {{ p.name }}{% endif %}
+	{% if p.audio != blank -%}<audio controls src='{{ p.audio }}'></audio>{% endif -%}
+	{% if p.image != blank -%}<figure><img src='{{ p.image }}' alt='{{ p.name }}'></figure>{% endif -%}
+	{% if p.description != blank -%}<p>{{ p.description | markdownify }}</p>{% endif -%}
 {% endfor -%}
 
 ## Tomminess manifestations

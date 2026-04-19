@@ -11,7 +11,7 @@ redirect_from:
   - /ten-arguments-lanier/
   - /lanier-ten-arguments/
   - /Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts/]
-toc: false
+description: Notes from Jaron Lanier’s <cite>Ten Arguments For Deleting Your Social Media Accounts</cite>.
 ---
 Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Arguments for Deleting Your Social Media Accounts*](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey in creating [quitsocialmedia.club](https://quitsocialmedia.club). It explains in a better and more detailed way what I have been thinking about for months now.
 
@@ -136,5 +136,3 @@ Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Argum
 > The BUMMER business is interwoven with a new religion that grants empathy to computer programs—calling them AI programs—as a way to avoid noticing that it is degrading the dignity, stature, and rights of real humans. - `p. 138`
 
 > You can’t use the internet well until you’ve confronted it on your own terms, at least for a while. This is for your integrity, not just for saving the world. - `p. 143`
-
-> 

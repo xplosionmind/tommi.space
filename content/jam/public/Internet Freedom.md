@@ -1,14 +1,10 @@
 ---
 date: 2020-07-10
 updated: 2022-06-13T06:55:41+02:00
-tags: [geek, draft]
-redirect_from:
-  - /internet-freedom-notes/
-description: Insights and steps towards a greater digital awareness and freedom
-main: true
+tags: [outdated, geek]
+redirect_from: [/internet-freedom-notes/]
+description: Insights and steps towards a greater digital awareness and freedom.
 ---
-## Premise
-
 This awesome and revolutionary tool which goes by *the Internet* is <u>so powerful that in certain ways it is becoming <strong>a threat</strong> to the freedom of its users</u>, who, in exchange for services, <u>indifferently hand over their data</u>, therefore giving up personal independence and liberty.
 
 Essentially, I interpret internet freedom as the joint concern for two overlapping macro-themes:
@@ -22,9 +18,9 @@ Essentially, I interpret internet freedom as the joint concern for two overlappi
 
 ## Avoid Neo-Luddism
 
-> They [proletarians] direct their attacks not against the bourgeois conditions of production, but agains the instruments of production themselves
+> They proletarians direct their attacks not against the bourgeois conditions of production, but against the instruments of production themselves
 
-<p class='cite'>Marx, <cite>Communist Manifesto</cite></p>
+<p class=cite>Marx, <cite>Communist Manifesto</cite></p>
 
 Avoid [Neo-Luddism](https://en.wikipedia.org/wiki/Neo-Luddism 'Neo-Luddism on Wikipedia'): the problem is not technology itself, nor any digital device. Rather, it is a matter of how such devices are produced and how they work.
 
