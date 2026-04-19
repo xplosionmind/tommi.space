@@ -5,5 +5,6 @@
 		"start-naked": "CSS_NAKED=true deno run start",
 		"build-naked": "CSS_NAKED=true deno run build",
 		"debug": "DEBUG='Eleventy*' deno run build"
-	}
+	},
+	"allowScripts": ["npm:@parcel/watcher@2.5.4", "npm:@parcel/watcher@2.5.6", "npm:sharp@0.33.5"]
 }
