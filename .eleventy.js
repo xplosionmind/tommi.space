@@ -1,4 +1,4 @@
-import { InputPathToUrlTransformPlugin, EleventyRenderPlugin } from 'npm:@11ty/eleventy';
+import { InputPathToUrlTransformPlugin, EleventyRenderPlugin, IdAttributePlugin } from 'npm:@11ty/eleventy';
 import syntaxHighlight from 'npm:@11ty/eleventy-plugin-syntaxhighlight';
 import htmlMinifier from 'npm:html-minifier-next';
 import process from 'node:process';
@@ -19,6 +19,7 @@ import { eleventyImageTransformPlugin } from 'npm:@11ty/eleventy-img';
 import EleventyPluginRobotsTxt from 'npm:eleventy-plugin-robotstxt';
 import validateHtml from 'npm:@saiballo/eleventy-plugin-validate-html'
 
+import pluginMarkdownEmbed from './pluginMarkdownEmbed.js';
 export default function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy({ 'assets': '/' });
@@ -42,7 +43,8 @@ export default function (eleventyConfig) {
 		.use(markdownItMark)
 		.use(markdownItTaskLists)
 		.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.headerLink()
+			permalink: markdownItAnchor.permalink.headerLink(),
+			slugify: (s) => encodeURIComponent(String(s))
 		});
 	eleventyConfig.setLibrary('md', md);
 
@@ -118,6 +120,10 @@ export default function (eleventyConfig) {
 		},
 	});
 	eleventyConfig.addPlugin(EleventyRenderPlugin),
+	eleventyConfig.addPlugin(IdAttributePlugin, {
+		slugify: (str) => encodeURIComponent(str),
+		checkDuplicates: false
+	})
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
 		extensions: 'md,html,liquid'
 	});
@@ -133,6 +139,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginToc, {
 		ul: true
 	});
+	eleventyConfig.addPlugin(pluginMarkdownEmbed, { md });
 
 	// Filters //
 	eleventyConfig.addFilter('reverse', (collection) => {
