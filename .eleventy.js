@@ -202,8 +202,8 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.on('eleventy.after', () => {
 		// Search indexing
-		child_process.execSync(`npx -y pagefind`, { encoding: 'utf-8' });
-	})
+		child_process.execSync(`dx pagefind`, { encoding: 'utf-8' });
+	});
 
 	return {
 		dir: {
