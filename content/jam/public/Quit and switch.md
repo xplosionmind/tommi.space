@@ -15,9 +15,7 @@ permalink: /switch/
 redirect_from:
   - /quit-and-switch/
   - /quit-switch/
-main: true
 toc: false
-todo: update and refactor
 ---
 <div class='blue box'>
 	Most of the times, the best thing to do is to [just delete it](Delete%20an%20account.md)
@@ -32,7 +30,7 @@ todo: update and refactor
 - ✅ [Quit Netflix](Quit%20Netflix.md)
 - 🚧/❌ [Darktable](https://darktable.org)
 - ✅+🚧 [Quit IMDb](Quit%20IMDb.md)
-- 🚧 [Switch to Linux](Switch%20to%20Linux.md)
+- 🚧 [Switching to Linux](Switching%20to%20Linux.md)
 - 🚧 [Switch to Signal](Signal.md)
 - 🚧 <time datetime='2021-11-16T11:43:34+01:00'>2021.11.16</time> - WIP Quit [GitHub](https://github.com/xplosionmind 'GitHub') and [self-host a Gitea instance](giTMI.md)
 

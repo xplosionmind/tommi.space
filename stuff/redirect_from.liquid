@@ -22,13 +22,17 @@
 }
 ---
 <!DOCTYPE html>
-<html lang='en' style='background: #000; color: #FFF'>
-	<meta charset='utf-8' />
-	<title>Redirect to {{ redirect.to }}</title>
-	<link rel='canonical' href='{{ redirect.to | url }}' />
-	<script>location = '{{ redirect.to | url }}';</script>
-	<meta http-equiv='refresh' content='0; url={{ redirect.to | url }}' />
-	<meta name='robots' content='noindex' />
-	<h1>Redirecting to {{ redirect.to }}</h1>
-	<p><a href='{{ redirect.to | url }}'>Click here if you are not redirected.</a></p>
+<html lang=en style='background: #000; color: #FFF'>
+	<head>
+		<meta charset=utf-8>
+		<title>Redirect to {{ redirect.to }}</title>
+		<link rel=canonical href='{{ redirect.to | url }}' />
+		<script>location = '{{ redirect.to | url }}';</script>
+		<meta http-equiv=refresh content='0; url={{ redirect.to | url }}' />
+		<meta name=robots content=noindex>
+	</head>
+	<body>
+		<h1>Redirecting to {{ redirect.to }}</h1>
+		<p><a href='{{ redirect.to | url }}'>Click here if you are not redirected.</a></p>
+	</body>
 </html>

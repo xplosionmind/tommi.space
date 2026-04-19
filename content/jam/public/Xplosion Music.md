@@ -20,11 +20,23 @@ todo:
   - Use Listenbrainz/Musicbrainz as main
 main: true
 ---
-<div class='embed'>
-	<iframe src='https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
+<div class=embed>
+	<iframe
+		title='Xplosion Music'
+		src=https://open.spotify.com/embed/playlist/5BlTNSfjxRYrJ2nJ9dl9WX
+		width=600
+		height=600
+		allow=encrypted-media
+	></iframe>
 </div>
-<div class='embed'>
-	<iframe src='https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0' width='600' height='600' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
+<div class=embed>
+	<iframe
+		title='Xplosion Music Extended'
+		src=https://open.spotify.com/embed/playlist/2LLtQtDGNCIEe9tBMuVNg0
+		width=600
+		height=600
+		allow=encrypted-media
+	></iframe>
 </div>
 
 ## Others

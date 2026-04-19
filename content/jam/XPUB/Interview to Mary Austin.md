@@ -11,7 +11,7 @@ For the occasion of [the second radio show](https://www.mixcloud.com/radiowormro
 Here is the audio of the entire interview to Mary:
 
 <div style='display: flex;justify-content: center;'>
-	<iframe src=https://archive.org/embed/interview-mary-austin-xpub-si28 width=500 height=30 frameborder=0></iframe>
+	<iframe src=https://archive.org/embed/interview-mary-austin-xpub-si28 width=500 height=30 title='Interview to Mary Austin on Custom Punctuation'></iframe>
 </div>
 
 The following is an automatic unedited transcription that I will re-read and polish soon (ish).

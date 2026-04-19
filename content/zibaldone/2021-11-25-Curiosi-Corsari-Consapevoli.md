@@ -48,7 +48,7 @@ Devo ringraziare di cuore la dolce Margherita, a cui tornando dal bagno ho detto
 È difficile raccontare in modo astratto romanzato pressoché vaneggiante il *feeling* dell’essere a Zattere a studiare senza aggiungere qualche paragrafo sul [PISE], il più vituperato corso di laurea a Ca’ Foscari, nonché [la mia facoltà](/ora#studiando 'Quello che sto studiando ora'); a tempo debito (magari post-lauream, se ci arriveremo), con la giusta ispirazione, pubblicherò anche la mia filosofia sull’approccio a questo corso particolare ma favoloso—se preso per il verso giusto.
 
 <figure>
-	<a href='https://tmi.pics/p/tommi/351702549995808759' target='_blank' title='Guarda su TMI Pics'><img src='https://tmi.pics/storage/m/_v2/342068457308819456/2a69c66ec-4b94d5/UnsmKc4snKlI/nZpQcBfpcBGGnS0349Xkz364QQpxC7AbC2M1ouT0.jpg' alt='Foto in silhouette di un tipo che si gira una sigaretta all’uscita di Zattere mentre piove con il sole'></a>
+	<a href=https://web.archive.org/web/https://tmi.pics/p/tommi/351702549995808759 target='_blank' title='Guarda su TMI Pics'><img src=/assets/zattere-nuvole.jpg alt='Foto in silhouette di un tipo che si gira una sigaretta all’uscita di Zattere mentre piove con il sole'></a>
 	<figcaption>7 ottobre 2021. Un tipo si gira una sigaretta all’uscita di Zattere, mentre piove con il sole</figcaption>
 </figure>
 

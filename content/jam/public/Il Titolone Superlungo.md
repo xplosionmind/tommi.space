@@ -40,7 +40,7 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 
 ---
 
-- Dove si trovano i sogni prima di essre sognati?
+- Dove si trovano i sogni prima di essere sognati?
 - La canottiera serve veramente?
 - Quanto deve durare un abbraccio?
 - Se la Luna fosse una persona (famosa), chi sarebbe?

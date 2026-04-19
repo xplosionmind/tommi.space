@@ -2,12 +2,12 @@
 layout: wrapper
 ---
 <main class='h-entry sidebar'>
-	<hgroup class='flex'>
+	<div id=title class=flex>
 		<a class='u-uid u-url' href='{{ page.url | prepend: site.url }}'><h1 class='p-name wavyBackgroundPurple'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
-	</hgroup>
+	</div>
 
 	<aside>
 		{% if image %}

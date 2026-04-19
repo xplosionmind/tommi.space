@@ -20,7 +20,7 @@ There is not one *single* reason why I am doing this, but rather a set of more o
 
 - +++
 
-## From Proton Mail to Mailbox.org
+## From Proton Mail to `Mailbox.org`
 
 - +++
 

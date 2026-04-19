@@ -45,13 +45,17 @@ Esiste una legge matematica che, se trasgredita, porta irreparabili maledizioni 
 
 Il Cubo è un luogo magico e devo vergognarmi se mai qualcuno verrà a trovarmi a Sanremo senza essere ivi portato.
 
-<div class='embed'>
-	<iframe class='light' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://osm.org/export/embed.html?bbox=7.81429946422577%2C43.821239081625386%2C7.81655251979828%2C43.82272918510757&amp;layer=mapnik&amp;marker=43.82198330001541%2C7.815425799999957'></iframe>
+<div class=embed>
+	<iframe
+		title='Mappa che mostra la posizione del cubo'
+		src='https://osm.org/export/embed.html?bbox=7.81429946422577%2C43.821239081625386%2C7.81655251979828%2C43.82272918510757&amp;layer=mapnik&amp;marker=43.82198330001541%2C7.815425799999957'
+		class=light
+	></iframe>
 </div>
 
 ## Cronache dal Cubo
 
-<p class='date' datetime='2023-05-07T18:37:41+02:00'>7 maggio 2023</p>
+<p class=date datetime=2023-05-07T18:37:41+02:00>7 maggio 2023</p>
 
 Giulia mi dice:
 

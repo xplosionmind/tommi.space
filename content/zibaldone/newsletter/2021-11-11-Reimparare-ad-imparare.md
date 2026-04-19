@@ -3,7 +3,7 @@ title: Reimparare ad imparare
 date: 2022-01-03T09:01:00+01:00
 location: home
 tags: newsletter
-image: https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg
+image: /assets/2021-dopotenco.jpg
 description: Pensieri post-sessione di metà semestre e riflessioni dopo la Rassegna del Premio Tenco 2022
 permalink: /reimparare/
 redirect_from: /reimparare-ad-imparare/
@@ -26,9 +26,9 @@ Il *Tenco* si aggiunge a quelle cose che vanno vissute e che non posso troppo ra
 
 Mi limiterò dunque a condividere una immagine da [*TMI Pics*](https://tmi.pics 'TMI Pics'):
 
-<a href='https://tmi.pics/p/tommi/364002011270435929' title='Vedi su TMI Pics'>
+<a href=https://web.archive.org/https://tmi.pics/p/tommi/364002011270435929 title='Vedi su TMI Pics'>
 	<figure>
-		<img src='https://tmi.pics/storage/m/_v2/342068457308819456/4f8b684e5-e9314a/2GjhlTT1t2k1/sDzlizfWP5KrvOaFrtZtL9dSDalGc3Hhq2ntKQuh.jpg' alt='Foto di me che presento a tarda notte una esibizione del dopo-Tenco' class='u-photo'>
+		<img src=/assets/2021-dopotenco.jpg alt='Foto di me che presento a tarda notte una esibizione del dopo-Tenco' class='u-photo'>
 	</figure>
 </a>
 

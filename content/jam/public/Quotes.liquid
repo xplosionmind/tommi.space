@@ -21,7 +21,7 @@
 {% assign quotes = quotes | sort: 'date' | reverse %}
 {% for q in quotes %}
 	<p class='date' datetime='{{ q.date | date_to_xmlschema }}'>{{ q.date | date: '%d %B %Y' }}</p>
-	<blockquote lang='{{ q.lang }}'{% if q.id %}id='{{ q.id }}'{% endif %}>
+	<blockquote lang='{{ q.lang }}'{% if q.id != blank %}id='{{ q.id }}'{% endif %}>
 		<p>{{ q.quote | markdownify }}</p>
 	</blockquote>
 	{% if q.author != blank or q.work != blank %}

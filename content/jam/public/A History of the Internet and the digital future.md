@@ -101,7 +101,7 @@ By the 90s, more than half of the Internet was run by the private sector. Preven
 
 ---
 
-## Del.icio.us
+## `Del.icio.us`
 
 > In 2003 Joshua Schracter founded <q>Del.icio.us</q>, a directory of bits and pieces of Web content that users had tagged with reference phrases to denote that it was of interest for one reason or another.
 

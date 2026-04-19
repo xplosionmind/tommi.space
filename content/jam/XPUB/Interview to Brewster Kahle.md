@@ -4,11 +4,10 @@ location: Internet Archive Europe, Amsterdam
 tags:
 - draft
 - uni/xpub
-updated: '2025-12-12T10:49:23Z'
+updated: '2026-03-30T06:41:15Z'
 wiki_title: Interview to Brewster Kahle
 ---
-
-For the occasion of [the second radio show](https://www.mixcloud.com/radiowormrotterdam/xpub-presents-protocols-feedback-writingmachines-29092025/) of [Special Issue 28](https://issue.xpub.nl/28/), I interviewed [Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle), founder of the [Internet Archive](https://archive.org). I also interviewed his wife, Mary Austin, about her marvellous work on punctuation, and her interview is <a href="Interview_to_Mary_Austin" class="wikilink" title="here">here</a>.
+For the occasion of [the second radio show](https://www.mixcloud.com/radiowormrotterdam/xpub-presents-protocols-feedback-writingmachines-29092025/) of [Special Issue 28](https://issue.xpub.nl/28/), I interviewed [Brewster Kahle](https://en.wikipedia.org/wiki/Brewster_Kahle), founder of the [Internet Archive](https://archive.org). I also interviewed his wife, Mary Austin, about her marvellous work on punctuation, and her interview is [here](Interview%20to%20Mary%20Austin.md).
 
 [Here is the audio of the entire interview to Brewster](https://archive.org/details/interview-brewster-kahle-xpub-si28).
 
@@ -62,7 +61,7 @@ Tommi: <q>Thank you very much!</q>
 
 ## The Internet Archive Feelings Writing Machine
 
-In the last part of the interview, Tommi and Brewster played <a href="Writing_Machine_Directory/The_Internet_Archive_Feelings_Writing_Machine" class="wikilink" title="The Internet Archive Feelings Writing Machine">The Internet Archive Feelings Writing Machine</a>.
+In the last part of the interview, Tommi and Brewster played <a href="The_Internet_Archive_Feelings_Writing_Machine" class="wikilink" title="The Internet Archive Feelings Writing Machine">The Internet Archive Feelings Writing Machine</a>.
 
 <table>
 <thead>
@@ -76,21 +75,17 @@ In the last part of the interview, Tommi and Brewster played <a href="Writing_Ma
 <tbody>
 <tr>
 <td><p>Brewster</p></td>
-<td><p><q>New publishing paradigms and the ‘free-for-education’ licence</q></p></td>
-<td><p><cite><a href="https://archive.org/details/usingfreeopensoftwareinfreeopencourseware">Using Free and Open Source Software to Create Free and Open Courseware</a></cite></p></td>
+<td><p>New publishing paradigms and the ‘free-for-education’ licence</p></td>
+<td><p><cite>Using Free and Open Source Software to Create Free and Open Courseware</cite></p></td>
 <td><blockquote>
 <p>In 2004 many new tools for Internet publishing, information management and Internet communications were made freely available on the Internet, while some of the most popular free and open source software released newer versions that easily compete both in function and popularity with equivalent commercial software.</p>
 </blockquote></td>
 </tr>
 <tr>
 <td><p>Tommi</p></td>
-<td><p><q>anxiety hope thrill</q></p></td>
-<td><p><cite><a href="https://archive.org/details/itsinhiskiss0000shal/page/18/mode/2up?q=anxiety+hope+thrill">It's in his kiss</a></cite></p></td>
-<td><blockquote>
-<p>But she’d done it, she’d made the move to reclaim her life, and at the realization a new feeling settled into her chest, pushing out some of the anxiety.</p>
-<p>…</p>
-<p>The view was an inky black sky, a slice of equally inky black ocean, and the alley that ran perpendicular from the street between the other warehouses.</p>
-</blockquote></td>
+<td><p>anxiety hope thrill</p></td>
+<td><p><cite>It’s in his kiss</cite></p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -98,24 +93,27 @@ In the last part of the interview, Tommi and Brewster played <a href="Writing_Ma
 Merged outputs, following the structure `article` + `adjective` + `noun` + `verb`
 
 <div class=output>
-> The  
-> new  
-> realization  
-> publishing  
-> a  
-> free  
-> feeling  
+
+> The\
+> new\
+> realization\
+> publishing\
+> a\
+> free\
+> feeling\
 > publishing
 
-> the  
-> new  
-> education  
-> pushing out  
-> the  
-> inky black  
-> Internet  
-> pushing out  
-> the  
-> equally  
-> open source software  
+> the\
+> new\
+> education\
+> pushing out\
+> the\
+> inky black\
+> Internet\
+> pushing out\
+> the\
+> equally\
+> open source software\
 > wasn’t \[a new problem\]
+
+</div>

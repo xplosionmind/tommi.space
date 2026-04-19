@@ -38,9 +38,9 @@ Nel frattempo, se avete idea di cosa sia, da poche settimane aperto la mia istan
 
 Il mio primo, naturalmente egocentrico, post:
 
-<a href='https://tmi.pics/p/tommi/347321344124174340' title='A shot from below of Tommi, wearing a scout uniform, shouting with his arms open.'>
+<a href=https://web.archive.org/https://tmi.pics/p/tommi/347321344124174340 title='A shot from below of Tommi, wearing a scout uniform, shouting with his arms open.'>
 	<figure>
-		<img src='https://tmi.pics/storage/m/_v2/342068457308819456/1672d1d81-1ab3fb/EradyVAqz1bF/1Dzyl2ZNhYsHfPazJ1IKPx57bPPZyxTn2DeuhwBR.jpg' alt='A shot from below of Tommi, wearing a scout uniform, shouting with his arms open.' class='u-photo'>
+		<img src=/assets/tommi-scout-floating.jpg alt='A shot from below of Tommi, wearing a scout uniform, shouting with his arms open.' class='u-photo'>
 	</figure>
 </a>
 

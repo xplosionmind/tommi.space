@@ -5,7 +5,6 @@ location: home
 tags:
   - amimals
   - nature
-toc: false
 ---
 I have never been particularly fond of animals in general. I am somehow unaffected by the usual cuteness and cuddly look that drive many people crazy.
 

@@ -24,7 +24,7 @@ Furthermore, while technical knowledge and skills to build local-first scripts i
 
 ## Update: a collective perspective
 
-<p class='date'>c-base, <time datetime='2023-11-06T19:42:00+01:00'>6 November 2023</time></p>
+<p class=date>c-base, <time datetime='2023-11-06T19:42:00+01:00'>6 November 2023</time></p>
 
 I subverted this way of thinking by [rethinking my approach to technology](/v2/ 'Rethinking my space'). What us is it if not as a collective endeavor, helping others while helping ourselves?
 

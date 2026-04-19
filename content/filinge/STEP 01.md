@@ -15,13 +15,13 @@ step: 1
 Cercando nel Vocabolario Treccani il vocabolo “valore”, si possono leggere molteplici significati e diverse connotazioni differenti contenute in ciascuno di essi. Per prime compaiono definizioni riguardanti la morale e l’uomo:
 
 > Possesso di alte **doti** intellettuali e **morali**, o alto grado di capacità professionale,
-> […] Coraggio, ardimento dimostrati nell’affrontare i nemici in combattimento,
-> […] Forza, capacità fisica e psichica.
+> \[…\] Coraggio, ardimento dimostrati nell’affrontare i nemici in combattimento,
+> \[…\] Forza, capacità fisica e psichica.
 
 Successivamente, come più intuitivamente l’individuo comune nella società moderna pensa immediatamente, i significati nella sfera economica:
 
 > Nell’economia politica classica, con riferimento a un bene, si distingue tra il v. d’uso, cioè la capacità del bene di soddisfare un bisogno, e il v. di scambio, la proprietà del bene di acquistare altri beni, cioè il suo <q>**prezzo** relativo</q>.
-> […] Importanza che una cosa, materiale o astratta, ha, sia oggettivamente in sé stessa, sia **soggettivamente** nel giudizio dei singoli
+> \[…\] Importanza che una cosa, materiale o astratta, ha, sia oggettivamente in sé stessa, sia **soggettivamente** nel giudizio dei singoli
 
 Più avanti, si possono trovare alcune parole più interesanti per le riflessioni su questo tema per il corso di <cite>Filosofia e Ingegneria</cite>:
 
@@ -30,7 +30,7 @@ Più avanti, si possono trovare alcune parole più interesanti per le riflession
 Infine, solamente raggiungendo le righe finali della lunga pagina web dedicata a questa voce si possono incontrare definizioni nel mondo della tecnica e della tecnologia:
 
 > nelle scienze matematiche e fisiche, la **determinazione quantitativa** assunta da una variabile o da una funzione, ovvero la **misura** di una grandezza;
-> […] esprime in genere **equivalenza** tra due fatti, rispetto a singole qualità, o rispetto agli effetti, all’importanza, alla funzione.
+> \[…\] esprime in genere **equivalenza** tra due fatti, rispetto a singole qualità, o rispetto agli effetti, all’importanza, alla funzione.
 
 ## Considerazioni
 
@@ -44,9 +44,9 @@ Forse, un giorno, un computer saprà rispondere.
 
 Sarà curioso sviluppare, durante questi mesi di corso, alcuni pensieri al riguardo e tentare di trovare alcune risposte. Intanto, per avere alcuni spunti iniziali ed individuare un punto di partenza, qui di seguito è riportata l’etimologia di valore, tratta da [etimo.it](https://etimo.it/?term=valore).
 
-## [Etimologia](https://etimo.it/?term=valore '“valore” sul Dizionario Etimologico')
+## Etimologia
 
-> **valore**: _prov._ valors; _fr._ <em lang='fr'>valeur</fr>; _sp._ e _port._ valor: == _b. lat._ VALÒREM da VALÈRE, _esser forte, gagliardo, avere merito e pregio_ (v. _Valere_), e suffisso -OREM indicante disposizione o stato.
+> **valore**: _prov._ valors; _fr._ <em lang=fr>valeur</em>; _sp._ e _port._ valor: == _b. lat._ VALÒREM da VALÈRE, _esser forte, gagliardo, avere merito e pregio_ (v. _Valere_), e suffisso -OREM indicante disposizione o stato.
 >
 > Virtù dell’animo, che fa l’uomo eccellente in ogni cosa, che egli imprende; più generalmente Gagliardia, Prodezza.
 >
@@ -54,16 +54,18 @@ Sarà curioso sviluppare, durante questi mesi di corso, alcuni pensieri al rigua
 >
 > Deriv. _Valorare_, ant. per _Avvaloràre_; _Valoróso_.
 
+— [da etimo.it](https://etimo.it/?term=valore '“valore” sul Dizionario Etimologico')
+
 ## STEP #01 bis: traduzioni
 
 [Consegna](https://filinge.blogspot.com/2020/03/step-01-bis.html):
 
 > A completamento dello STEP #1 si chiede di indicare la traduzione del termine “sotto inchiesta” in alcune lingue straniere conducendo anche per esse una prima indagine storico-etimologica, eventualmente scoprendo quando e dove il termine appare per la prima volta nella letteratura. Per fare ciò possono essere molto utili i dizionari storico-linguistici. Per l’italiano si ricorda che in internet esiste l’edizione on-line del <q>gigantesco</q> [*Grande Dizionario della Lingua Italiana*](https://www.gdli.it/) fondato da Salvatore Battaglia. 
 
-la radice ***val-*** del termine valore è comune a tutte le lingue neolatine ed europee, poiché questo termine deriva dal verbo latino **<em lang='la'>valere</em>** o **<em lang='la'>valeo</em>**.
+la radice ***val-*** del termine valore è comune a tutte le lingue neolatine ed europee, poiché questo termine deriva dal verbo latino **<em lang=la>valere</em>** o **<em lang=la>valeo</em>**.
 
-- **Inglese**: <em lang='en'>value</em> (v. tr. e sost.)
-- **Francese**: <em lang='fr'>valeur</em> (sost.), 
+- **Inglese**: <em lang=en>value</em> (v. tr. e sost.)
+- **Francese**: <em lang=fr>valeur</em> (sost.), 
 
 Ecco le traduzioni per <em lang='la'>valeo</em> proposte dal Dizionario Olivetti:
 > 1. essere forte, gagliardo, vigoroso, avere forza
@@ -76,5 +78,4 @@ Ecco le traduzioni per <em lang='la'>valeo</em> proposte dal Dizionario Olivetti
 > 8. (di parole) significare, aver significato
 > 9. diritto essere valido, avere validità
 
-Come si può notare, il verbo latino <em lang='la'>valeo</em> ha i medesimi significati del sostantivo (_valore_) e del verbo (_valere_) italiani, anche se l’accezione a livello fisico e morale nel mondo antico sembrano avere più importanza e ricorrenza d'uso rispetto al significato economico.
-
+Come si può notare, il verbo latino <em lang=la>valeo</em> ha i medesimi significati del sostantivo (_valore_) e del verbo (_valere_) italiani, anche se l’accezione a livello fisico e morale nel mondo antico sembrano avere più importanza e ricorrenza d'uso rispetto al significato economico.

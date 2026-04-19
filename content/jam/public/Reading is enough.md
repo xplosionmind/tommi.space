@@ -6,7 +6,6 @@ tags:
   - wit
 permalink: /just-read/
 redirect_from: /reading-is-enough/
-toc: false
 ---
 All over the web the saying goes that <q>reading without taking notes is like not reading at all</q>. But, to me, it’s not quite so.
 
@@ -20,4 +19,4 @@ I’m not saying that notes shouldn’t be taken while reading; writing and refo
 
 > most note-taking fanatics seem to actually be quite ineffective thinkers.
 
-<p class='cite'>Andy Matuschak, <cite><a href='https://notes.andymatuschak.org/z6GNVv6RyFDewy11ZgXzce8agWxSLwJ6Ub5Rw' target='_blank'>The most effective readers and thinkers I know don’t take notes when reading</a></cite></p>
+<p class=cite>Andy Matuschak, <cite><a href=https://notes.andymatuschak.org/z6GNVv6RyFDewy11ZgXzce8agWxSLwJ6Ub5Rw>The most effective readers and thinkers I know don’t take notes when reading</a></cite></p>

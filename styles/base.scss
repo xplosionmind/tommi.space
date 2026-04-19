@@ -142,7 +142,6 @@ main {
 	display: grid;
 	align-items: center;
 	grid-template-columns: subgrid;
-	grid-template-rows: masonry;
 	gap: max(2vw, 3vh);
 }
 
@@ -197,11 +196,11 @@ a {
 	li & {
 		font-weight: 500;
 		text-decoration: underline .1em;
-		&:not([href^='/']):not([href^='https://tommi.space/']) {
+		&:not([href^='/']):not([href^='https://tommi.space/']):not([href^='#']) {
 			&::after {
 				display: inline-block;
 				margin-left: .1em;
-				content: '🡭';
+				content: '↗';
 			}
 		}
 		&[href^='/'],
@@ -414,7 +413,6 @@ aside {
 	main {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
-		grid-template-rows: masonry;
 		align-items: start;
 		&.simple {
 			grid-template-areas:
@@ -467,7 +465,7 @@ aside {
 	.middle {
 		grid-column: 2/-2;
 	}
-	hgroup {
+	#title {
 		grid-area: title;
 	}
 	aside {

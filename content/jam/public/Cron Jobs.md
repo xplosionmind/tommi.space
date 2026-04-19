@@ -1,10 +1,8 @@
 ---
 date: 2021-04-04T17:19:08+02:00
 updated: 2022-11-28T10:43:11+01:00
-tags:
-  - geek/sysad
+tags: [geek/sysad]
 description: What Cron Jobs are, how to set them up, what are the ones I use
-toc: true
 ---
 Cron Jobs essentially consist in running some command from the terminal at a predefined time, or every given interval.  
 They are great and useful since they can be used to automate any type of task.

@@ -21,13 +21,12 @@
 				<meta property='og:locale' content='{{ lang }}'/>
 			</head>
 			<body>
-				<hgroup class='flex'>
+				<div id='title' class='flex'>
 					<h1 class='wavyBackgroundRed'><xsl:value-of select='/rss/channel/title'/></h1>
-				</hgroup>
+				</div>
 				{{ content }}
-				{% render 'footer.liquid', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url %}
+				{% render 'footer.liquid', lang: lang, eleventyVersion: eleventy.version, source: site.source, path: page.inputPath, url: page.url, xmlfooter: xmlfooter %}
 			</body>
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
-

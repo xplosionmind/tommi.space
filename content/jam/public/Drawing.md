@@ -4,7 +4,6 @@ updated: 2022-11-14T21:04:30+01:00
 tags:
   - drawing
   - design
-toc: false
 todo:
   - picture of the painting in Bordighera alta
 ---

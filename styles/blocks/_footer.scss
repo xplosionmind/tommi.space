@@ -51,31 +51,34 @@ footer {
 #labels {
 	justify-content: start;
 	a {
-		border: outset 3px var(--background);
+		border: outset 2px var(--bg);
 		&:hover {
-			border: inset 3px var(--background);
+			border: inset 2px var(--bg);
 		}
 	}
 }
 
 #madeby {
-	--background: #FFF;
-	background: var(--background);
+	--bg: #FFF;
+	background: var(--bg);
 }
 
 #html-energy {
-	--background: #222;
-	background: var(--background);
+	--bg: #222;
+	background: var(--bg);
 	color: #FFF;
 	padding: 0 var(--space-2xs);
 	font: var(--size--1) var(--font-serif);
 	gap: 0;
 	img {
-		height: var(--size-1);
+		height: 31px;
 		width: auto;
 	}
 }
 
-#eleventy {
-
+#madeby,
+#eleventy,
+#small-web-badge {
+	width: 88px;
+	height: 31px;
 }

@@ -21,4 +21,12 @@ Nella speranza di una meno sporadica frequentazione (non esclusivamente relativa
 
 Se non fosse stato finora sufficientemente chiaro, considero *[Al Canton](Al%20Canton.md)* l’omologo veneziano de *[Il Cubo](Il%20Cubo.md)* di Sanremo.
 
-<div class='embed'><iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://osm.org/export/embed.html?bbox=12.315689557453881%2C45.4335643076138%2C12.317942613026391%2C45.43501358465862&amp;marker=45.434288950788584%2C12.316816085240134'></iframe><br/><small><a href='https://osm.org/?mlat=45.43429&amp;mlon=12.31682#map=19/45.43429/12.31682'>Visualizza mappa ingrandita</a></small></div>
+<div class=embed>
+	<iframe
+		title= 'Mappa che mostra la posizione di Al Canton'
+		src='https://osm.org/export/embed.html?bbox=12.315689557453881%2C45.4335643076138%2C12.317942613026391%2C45.43501358465862&amp;marker=45.434288950788584%2C12.316816085240134'>
+	</iframe>
+	<small>
+		<a href='https://osm.org/?mlat=45.43429&amp;mlon=12.31682#map=19/45.43429/12.31682'>Visualizza mappa ingrandita</a>
+	</small>
+</div>

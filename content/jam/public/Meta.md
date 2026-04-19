@@ -31,7 +31,7 @@ Here are some general current information about tommi.space. However, in the foo
 | <abbr title='Static Site Generator'>SSG</abbr> | [Eleventy](https://11ty.dev) v{{ eleventy.version }} |
 | Hosted on             | [Nebuchadnezzar](Nebuchadnezzar.md)                                          |
 | Source code           | [Codeberg]({{ site.source }})                                                |
-| Analytics             | None! (see <cite>[No analytics!](#no-analytics)</cite> below)                 |
+| Analytics             | None! (see <cite>[No analytics!](#No%20analytics!)</cite> below)                 |
 | Last built on         | <time datetime='{{ 'now' | date_to_xmlschema }}'>{{ 'now' | date: '%-d %B %Y at %H:%M:%S (%Z)' }}</time> |
 
 While this table is kept up to date, the following sections are records of the development activity and the related choices.

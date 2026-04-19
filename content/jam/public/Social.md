@@ -1,7 +1,9 @@
 ---
 date: 2020-04-15
 updated: 2020-05-10
-tags: geek idea
+tags:
+  - geek
+  - idea
 description: A unique, universal and simple <strong>method to share stuff</strong>
 toc: false
 ---

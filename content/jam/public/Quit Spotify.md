@@ -33,8 +33,6 @@ Reasons to quit Spotify:
 - I prefer not to be tracked and I would prefer for my listening preferences not to be used for advertising purposes.
 - [Several notes and articles](https://web.archive.org/web/20210916181652/https://www.are.na/sean/spotify-muzak 'spotify.muzak — Are.na')
 
-<br>
-
 <figure>
 	<img src='/assets/Spotify-close-account.jpg' alt='repercussions of closing Spotify account'>
 	<figcaption>

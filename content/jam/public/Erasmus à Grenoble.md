@@ -22,13 +22,13 @@ Je vai essayer à écrire un journal de ma vie et de mes découvertes ici et je 
 	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://pan.rent' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://pan.rent/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
 </div>
 
-<h2 lang='it' id='inno'>Inno all’Erasmus</h2>
+<h2 lang=it id=inno>Inno all’Erasmus</h2>
 
-<p class='date' lang='it'><time datetime='2022-09-30T22:36:50+02:00'>Venerdì 30 settembre 2022</time></p>
+<p class=date lang=it><time datetime=2022-09-30T22:36:50+02:00>Venerdì 30 settembre 2022</time></p>
 
-<div class='embed'><iframe title='Inno all’Erasmus' src='https://p.lu/videos/embed/f7ac82f2-db06-4607-be41-b100cbae6b55' allowfullscreen='' sandbox='allow-same-origin allow-scripts allow-popups' frameborder='0'></iframe></div>
+<div class=embed><iframe title='Inno all’Erasmus' src=https://p.lu/videos/embed/f7ac82f2-db06-4607-be41-b100cbae6b55 allowfullscreen sandbox='allow-same-origin allow-scripts allow-popups'></iframe></div>
 
-<blockquote lang='it'>
+<blockquote lang=it>
 	<p>Un brindisi per esaltare questa celebrazione<br>
 		e sottolineare l’emozione</p>
 	<p>tripudio di gioia inimitabile<br>
@@ -39,10 +39,10 @@ Je vai essayer à écrire un journal de ma vie et de mes découvertes ici et je 
 		e cosa vogliono saperne i babbani</p>
 	<p>di vivere in mezzo alle montagne<br>
 		dei francesi sopportare le magagne</p>
-	<p>di rubare <a href='https://tommi.space/grenoble-carrelli.jpg' target='_blank' title='Un’immagine di noi mentre rubiamo dei carrelli in un supermercato a Grenoble'>carrelli nei supermercati</a><br>
+	<p>di rubare <a href=https://tommi.space/grenoble-carrelli.jpg target=_blank title='Un’immagine di noi mentre rubiamo dei carrelli in un supermercato a Grenoble'>carrelli nei supermercati</a><br>
 		dei vini in confezioni in plastica, sottovalutati</p>
-	<p>Del <cite lang='fr'><a href='https://tommi.space/notabeer#poisson-rouge' hreflang='fr' title='Il Poisson Rouge'>Poisson Rouge</a></cite> mille volte meglio del <cite lang='fr'>Moulin Rouge</cite><br>
-		del neologismo concepito per fare rima: <q lang='fr'>ufffifidicdkeouge</q></p>
+	<p>Del <cite lang=fr><a href=https://tommi.space/notabeer/#Poisson%20Rouge hreflang=fr title='Le Poisson Rouge'>Poisson Rouge</a></cite> mille volte meglio del <cite lang=fr>Moulin Rouge</cite><br>
+		del neologismo concepito per fare rima: <q lang=fr>ufffifidicdkeouge</q></p>
 	<p>e quando un giorno ricorderemo questo trionfo<br>
 		dall’emozione sverremo con un tonfo</p>
 	<p>i legami più speciali nascono in questi momenti<br>

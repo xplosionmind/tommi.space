@@ -3,9 +3,8 @@ date: 2020-05-08
 title: Abbecedario
 permalink: /filinge/abbecedario/
 step: 17
+head: '<style>ol {list-style: upper-alpha}</style>'
 ---
-<style>ol {list-style: upper-alpha}</style>
-
 [Consegna](https://filinge.blogspot.com/2020/05/step-17-un-abbecedario.html):
 
 > Creare **un ABC** relativo al concetto sotto indagine (una sola parola per ogni lettera dell’alfabeto, spaziando con fare interdisciplinare)
@@ -40,4 +39,3 @@ step: 17
 1. xenofobia, ritenere che il valore di una persona sia influenzato dalla sua razza
 1. Thomas [Young](https://treccani.it/enciclopedia/thomas-young), eclettico intellettuale che, con il suo celeberrimo esperimento tuttora studiato dagli studenti delle scuole superiori italiane, seppe dimostrare il valore ondulatorio della luce
 1. [Zacinto](https://treccani.it/enciclopedia/zante 'Zante nell’Enciclopedia Treccani'), isola natale di [Ugo Foscolo](https://treccani.it/enciclopedia/ugo-foscolo), a cui dedicò [un componimento](https://it.wikipedia.org/wiki/A_Zacinto) in cui viene esaltato il valore affettivo di una terra in cui <q>ne più mai</q> sarebbe potuto tornare.
-

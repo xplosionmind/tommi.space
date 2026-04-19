@@ -3,8 +3,8 @@
 }
 
 body {
-	--background: #ECECEC;
-	--text: #FFF;
+	--bg: #ECECEC99;
+	--color: #FFF;
 	font-family: Helvetica, 'Helvetica Neue', Inter, sans-serif;
 	line-break: loose;
 	cursor: auto;
@@ -12,7 +12,7 @@ body {
 }
 
 .box {
-	--text: #415462;
+	background: #000B;
 	box-shadow: 5px 5px 20px #41526299, -5px -5px 20px #FFFFFF22;
 }
 

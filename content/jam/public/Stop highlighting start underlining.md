@@ -2,7 +2,10 @@
 date: 2020-12-11T01:00:00+01:00
 updated: 2022-03-14T14:50:24+01:00
 title: Stop highlighting, start underlining
-tags: zen wit reading
+tags:
+  - zen
+  - wit
+  - reading
 toc: false
 permalink: /underline/
 redirect_from:

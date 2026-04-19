@@ -1,7 +1,9 @@
 ---
 date: 2020-12-09T01:00:00+01:00
 updated: 2022-05-01T19:24:51+02:00
-tags: knowledge, topic
+tags:
+  - knowledge
+  - topic
 description: dealing with the hard task of managing personal knowledge, as well as effectively arranging and picturing it in the right structure
 toc: false
 ---

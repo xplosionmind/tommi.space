@@ -5,7 +5,6 @@ tags:
   - coop
   - housing
 description: Random information and notes collected about housing cooperatives in the Netherlands and in Rotterdam in particular.
-toc: false
 ---
 While [looking for a home in Rotterdam](Looking%20for%20a%20home%20in%20Rotterdam.md), I am devoting particular attention to cooperative and politically conscious endeavours.
 
