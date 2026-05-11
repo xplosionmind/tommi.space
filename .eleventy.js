@@ -16,10 +16,11 @@ import { parse as csvParse } from 'csv-parse/sync';
 import pluginEmbed from 'npm:eleventy-plugin-embed-everything';
 import pluginToc from 'npm:@uncenter/eleventy-plugin-toc';
 import { eleventyImageTransformPlugin } from 'npm:@11ty/eleventy-img';
-import EleventyPluginRobotsTxt from 'npm:eleventy-plugin-robotstxt';
+import pluginRobotsTxt from 'npm:eleventy-plugin-robotstxt';
 import validateHtml from 'npm:@saiballo/eleventy-plugin-validate-html'
 
 import pluginMarkdownEmbed from './pluginMarkdownEmbed.js';
+
 export default function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy({ 'assets': '/' });
@@ -119,11 +120,11 @@ export default function (eleventyConfig) {
 			}
 		},
 	});
-	eleventyConfig.addPlugin(EleventyRenderPlugin),
+	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 		slugify: (str) => encodeURIComponent(str),
 		checkDuplicates: false
-	})
+	});
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
 		extensions: 'md,html,liquid'
 	});
@@ -193,7 +194,7 @@ export default function (eleventyConfig) {
 			return content;
 		});
 		// Fetch and parse robots.txt //
-		eleventyConfig.addPlugin(EleventyPluginRobotsTxt, {
+		eleventyConfig.addPlugin(pluginRobotsTxt, {
 			shouldBlockAIRobots: true
 		});
 	}
