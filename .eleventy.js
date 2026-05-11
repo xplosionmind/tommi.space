@@ -129,6 +129,8 @@ export default function (eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		extensions: 'html',
+		formats: ['webp', 'auto'],
+		widths: [320, 720, 1080, 'auto'],
 		defaultAttributes: {
 			loading: 'lazy',
 			decoding: 'async'
