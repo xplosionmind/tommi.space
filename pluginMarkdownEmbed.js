@@ -79,6 +79,7 @@ export default function (eleventyConfig, options = {}) {
 								}
 							} else {
 								console.warn(`[pluginMarkdownEmbed]   Heading "${hash}" not found in "${filePath}"`);
+								return match;
 							}
 						}
 
