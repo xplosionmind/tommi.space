@@ -6,11 +6,11 @@
     "npm:@11ty/eleventy-plugin-syntaxhighlight@^5.0.2": "5.0.2",
     "npm:@11ty/eleventy@^3.1.5": "3.1.5",
     "npm:@saiballo/eleventy-plugin-validate-html@^1.0.4": "1.0.4",
-    "npm:@uncenter/eleventy-plugin-toc@^2.1.1": "2.1.1",
+    "npm:@uncenter/eleventy-plugin-toc@^2.1.2": "2.1.2",
     "npm:csv-parse@^6.2.1": "6.2.1",
     "npm:eleventy-plugin-embed-everything@^1.21.2": "1.21.2",
     "npm:eleventy-plugin-robotstxt@^1.0.2": "1.0.2_@11ty+eleventy@3.1.5",
-    "npm:html-minifier-next@^6.1.2": "6.1.2",
+    "npm:html-minifier-next@^6.2.6": "6.2.6",
     "npm:js-yaml@^4.1.1": "4.1.1",
     "npm:markdown-it-anchor@^9.2.0": "9.2.0_@types+markdown-it@14.1.2_markdown-it@14.1.1",
     "npm:markdown-it-attrs@^4.3.1": "4.3.1_markdown-it@14.1.1",
@@ -530,8 +530,8 @@
     "@types/mdurl@2.0.0": {
       "integrity": "sha512-RGdgjQUZba5p6QEFAVx2OGb8rQDL/cPRG7GiedRzMcJ1tYnUANBncjbSB1NRGwbvjcPeikRABz2nshyPk1bhWg=="
     },
-    "@uncenter/eleventy-plugin-toc@2.1.1": {
-      "integrity": "sha512-ZijTnhc7gkjmg7pwYYGBbfXrN8z0/KdyDDOnCZXEZu70NVXMJYO1ogLdcymRrn5pnrTfRi2sFBhzOab1TLtA0g==",
+    "@uncenter/eleventy-plugin-toc@2.1.2": {
+      "integrity": "sha512-5wXmwJad4C4qy3RU9ulzPXG7M/84Zc4aWuJfJSS5OONcWCz1H4nOPgv044jzKM864dcKKxHxtjwn8LGjcQp0Xg==",
       "dependencies": [
         "linkedom"
       ]
@@ -1214,8 +1214,8 @@
     "html-escaper@3.0.3": {
       "integrity": "sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ=="
     },
-    "html-minifier-next@6.1.2": {
-      "integrity": "sha512-iDkgNERz1zgYJgkBz7Z4DboolPiKLioslKxKMh33gJ+QStkoDPp7kCb/3/oLfu5j9sYOUxxxvigCOdsG1chw6g==",
+    "html-minifier-next@6.2.6": {
+      "integrity": "sha512-M7wfbuXj8YePrWucceM01F2IjBcxmE6Z1Lfj2yKkZpCzk/lIpsYCAQF7cM9gDNxhBUJyM7FKlOzQ/VEM7JEtsw==",
       "dependencies": [
         "commander@14.0.3",
         "entities@8.0.0",
@@ -1944,8 +1944,8 @@
       ],
       "bin": true
     },
-    "terser@5.46.1": {
-      "integrity": "sha512-vzCjQO/rgUuK9sf8VJZvjqiqiHFaZLnOiimmUuOKODxWL8mm/xua7viT7aqX7dgPY60otQjUotzFMmCB4VdmqQ==",
+    "terser@5.47.1": {
+      "integrity": "sha512-tPbLXTI6ohPASb/1YViL428oEHu6/qv1OxqYnfaonVCFHqx4+wCd95pHrQWsL5X4pl90CTyW9piSAsS2L0VoMw==",
       "dependencies": [
         "@jridgewell/source-map",
         "acorn",
@@ -2026,11 +2026,11 @@
         "npm:@11ty/eleventy-plugin-syntaxhighlight@^5.0.2",
         "npm:@11ty/eleventy@^3.1.5",
         "npm:@saiballo/eleventy-plugin-validate-html@^1.0.4",
-        "npm:@uncenter/eleventy-plugin-toc@^2.1.1",
+        "npm:@uncenter/eleventy-plugin-toc@^2.1.2",
         "npm:csv-parse@^6.2.1",
         "npm:eleventy-plugin-embed-everything@^1.21.2",
         "npm:eleventy-plugin-robotstxt@^1.0.2",
-        "npm:html-minifier-next@^6.1.2",
+        "npm:html-minifier-next@^6.2.6",
         "npm:js-yaml@^4.1.1",
         "npm:markdown-it-anchor@^9.2.0",
         "npm:markdown-it-attrs@^4.3.1",
