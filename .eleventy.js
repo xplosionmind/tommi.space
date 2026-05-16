@@ -2,13 +2,12 @@ import { InputPathToUrlTransformPlugin, EleventyRenderPlugin, IdAttributePlugin 
 import syntaxHighlight from 'npm:@11ty/eleventy-plugin-syntaxhighlight';
 import htmlMinifier from 'npm:html-minifier-next';
 import process from 'node:process';
-import child_process from 'node:child_process';
+import { execSync } from 'node:child_process';
 
 import markdownIt from 'npm:markdown-it';
 import markdownItAnchor from 'npm:markdown-it-anchor';
 import markdownItFootnote from 'npm:markdown-it-footnote';
 import markdownItMark from 'npm:markdown-it-mark';
-import markdownItTaskLists from 'npm:markdown-it-task-lists';
 
 import yaml from 'npm:js-yaml';
 import { parse as csvParse } from 'csv-parse/sync';
@@ -42,7 +41,6 @@ export default function (eleventyConfig) {
 		typographer: true
 	}).use(markdownItFootnote)
 		.use(markdownItMark)
-		.use(markdownItTaskLists)
 		.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.headerLink(),
 			slugify: (s) => encodeURIComponent(String(s))
@@ -134,7 +132,8 @@ export default function (eleventyConfig) {
 		widths: [320, 720, 1080, 'auto'],
 		defaultAttributes: {
 			loading: 'lazy',
-			decoding: 'async'
+			decoding: 'async',
+			sizes: 'auto'
 		},
 		outputDir: './www/img/'
 	});
@@ -205,7 +204,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.on('eleventy.after', () => {
 		// Search indexing
-		child_process.execSync(`dx pagefind`, { encoding: 'utf-8' });
+		execSync(`dx npm:pagefind`, { encoding: 'utf-8' });
 	});
 
 	return {
