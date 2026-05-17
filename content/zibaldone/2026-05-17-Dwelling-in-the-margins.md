@@ -99,7 +99,7 @@ Forse, sorprendentemente, stavamo imparando ad abitare i margini, senza colonizz
 
 ## Fosche epifanie, equilibri precari
 
-Dove di trova, e quanto arbitrario è, l’equilibrio fra la ricerca della propria realizzazione e contribuire a lasciare il mondo un po’ meglio di come l’abbiamo trovato? (*Non me ne vogliate per [la citazione scout](https://it.wikiquote.org/wiki/Robert_Baden-Powell 'Robert Baden-Powell su Wikiquote'), è più forte di me*)
+Dove si trova, e quanto arbitrario è, l’equilibrio fra la ricerca della propria realizzazione e contribuire a lasciare il mondo un po’ meglio di come l’abbiamo trovato? (*Non me ne vogliate per [la citazione scout](https://it.wikiquote.org/wiki/Robert_Baden-Powell 'Robert Baden-Powell su Wikiquote'), è più forte di me*)
 
 Come possiamo tessere, rafforzare, coltivare una rete sconfinata e sconfinante di realtà affini o allineate, pur radicandoci abitando radicalmente la periferia?
 
