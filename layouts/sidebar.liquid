@@ -21,6 +21,10 @@ type: CollectionPage
 			{% render 'old.liquid', lang: lang %}
 		{% endif %}
 
+		{% if tags contains 'place' and include == null %}
+			{% render 'place.liquid', lang: lang %}
+		{% endif %}
+
 		{% if tags contains 'draft' or tags contains 'wip' %}
 			{% render 'draft.liquid', lang: lang %}
 		{% endif %}
