@@ -326,6 +326,12 @@ details {
 	}
 }
 
+.eleventy-plugin-embed-mastodon {
+	.mastodon-embed {
+		margin: 0 auto !important;
+	}
+}
+
 /*#free-palestine {
 	font-weight: 800;
 	text-transform: uppercase;
