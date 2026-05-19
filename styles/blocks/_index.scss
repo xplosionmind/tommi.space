@@ -332,6 +332,12 @@ details {
 	}
 }
 
+#map {
+	height: 15rem;
+	border-radius: $radius-m;
+	margin-bottom: var(--space-m);
+}
+
 /*#free-palestine {
 	font-weight: 800;
 	text-transform: uppercase;

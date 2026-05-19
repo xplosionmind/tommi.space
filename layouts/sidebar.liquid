@@ -22,7 +22,7 @@ type: CollectionPage
 		{% endif %}
 
 		{% if tags contains 'place' and include == null %}
-			{% render 'place.liquid', lang: lang %}
+			{% render 'place.liquid', lang: lang, places: places, title: title %}
 		{% endif %}
 
 		{% if tags contains 'draft' or tags contains 'wip' %}
