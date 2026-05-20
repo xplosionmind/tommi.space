@@ -1,22 +1,22 @@
-import { InputPathToUrlTransformPlugin, EleventyRenderPlugin, IdAttributePlugin } from 'npm:@11ty/eleventy';
-import syntaxHighlight from 'npm:@11ty/eleventy-plugin-syntaxhighlight';
-import htmlMinifier from 'npm:html-minifier-next';
+import { InputPathToUrlTransformPlugin, EleventyRenderPlugin, IdAttributePlugin } from '@11ty/eleventy';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import htmlMinifier from 'html-minifier-next';
 import process from 'node:process';
 import { execSync } from 'node:child_process';
 
-import markdownIt from 'npm:markdown-it';
-import markdownItAnchor from 'npm:markdown-it-anchor';
-import markdownItFootnote from 'npm:markdown-it-footnote';
-import markdownItMark from 'npm:markdown-it-mark';
+import markdownIt from 'markdown-it';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItFootnote from 'markdown-it-footnote';
+import markdownItMark from 'markdown-it-mark';
 
-import yaml from 'npm:js-yaml';
+import yaml from 'js-yaml';
 import { parse as csvParse } from 'csv-parse/sync';
 
-import pluginEmbed from 'npm:eleventy-plugin-embed-everything';
-import pluginToc from 'npm:@uncenter/eleventy-plugin-toc';
-import { eleventyImageTransformPlugin } from 'npm:@11ty/eleventy-img';
-import pluginRobotsTxt from 'npm:eleventy-plugin-robotstxt';
-import validateHtml from 'npm:@saiballo/eleventy-plugin-validate-html'
+import pluginEmbed from 'eleventy-plugin-embed-everything';
+import pluginToc from '@uncenter/eleventy-plugin-toc';
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import pluginRobotsTxt from 'eleventy-plugin-robotstxt';
+import validateHtml from '@saiballo/eleventy-plugin-validate-html'
 
 import pluginMarkdownEmbed from './pluginMarkdownEmbed.js';
 
@@ -204,7 +204,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.on('eleventy.after', () => {
 		// Search indexing
-		execSync(`dx npm:pagefind`, { encoding: 'utf-8' });
+		execSync(`dx pagefind`, { encoding: 'utf-8' });
 	});
 
 	return {
