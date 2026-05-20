@@ -1,30 +1,180 @@
-- title: Cables of Resistance
-  start: '2026-04-10'
-  end: '2026-04-12'
-  location: Berlin
+- title: Scambi Festival
+  start: 2026-08-26T10:00:00+02:00
+  end: 2026-08-30T23:59:59+02:00
+  location: La Pigna
+  city: Sanremo
+  country: Italy
+  lang: it
+  url: https://scambi.org/
+  tags:
+    - scambi
+    - festival
+  role: staff
+- title: DWeb Camp
+  start: 2026-07-01T09:00:00+02:00
+  end: 2026-07-13T23:59:59+02:00
+  location: Alte Hölle
   city: Berlin
   country: Germany
-  url: https://cableresist.de/
+  url: https://dwebcamp.org
   tags:
     - geek
-- title: Fa’ la cosa giusta!
-  start: '2026-03-13'
-  end: '2026-03-15'
-  location: RHO Milano Fiere
-  city: Milano
-  country: Italy
-  url: https://falacosagiusta.org
-  tags:
-    - fair
-- title: 2.Dh5
-  start: '2026-02-28'
-  end: '2026-03-01'
-  location: ACU, BAK, Moira
-  city: Utrecht
+    - DWeb
+  role: staff
+- title: INC Exit Fest
+  start: 2026-06-24T09:00:00+02:00
+  end: 2026-06-26T18:00:00+02:00
+  location: OT301
+  city: Amsterdam
   country: Netherlands
-  url: https://www.2dh5.nl/en/
+  url: https://networkcultures.org/geert/events/incs-exit-fest/
   tags:
-    - festival
+    - geek
+- title: Hyperlink
+  start: 2026-06-06T12:00:00+02:00
+  end: 2026-06-06T18:00:00+02:00
+  location: Waag Futurelab
+  city: Amsterdam
+  country: Netherlands
+  url: https://waag.org/en/event/hyperlink26/
+  tags:
+    - lab/ournet
+  role: host
+- title: Public Spaces
+  start: 2026-06-04T10:00:00+02:00
+  end: 2026-06-06T20:00:00+02:00
+  location: Pakhuis de Zwijger
+  city: Amsterdam
+  country: Netherlands
+  url: https://english.publicspaces.net/
+  tags:
+    - geek
+- title: Launch of Prikbord.page
+  start: 2026-05-29T14:30:00+02:00
+  end: 2026-05-29T17:00:00+02:00
+  location: Roodkapje West
+  city: Rotterdam
+  country: Netherlands
+  url: https://roodkapje.org/event/2026-05-launch-of-prikbord-page/
+  tags:
+    - geek
+- title: Resurrecting Networks
+  start: 2026-05-22T14:00:00+02:00
+  end: 2026-05-22T15:30:00+02:00
+  location: Internet Archive Europe
+  city: Amsterdam
+  country: Netherlands
+  url: https://luma.com/8znlim45
+  tags:
+    - geek
+    - lab
+- title: 'Workshop: Take control of your Maps! Create, host and share your own maps with OpenStreetMap and MapLibre'
+  start: 2026-05-19T18:30:00+02:00
+  end: 2026-05-19T20:30+02:00
+  location: Internet Archive Europe
+  city: Amsterdam
+  country: Netherlands
+  url: https://luma.com/0zn79dby
+  tags:
+    - geek
+    - lab
+  role: host
+- title: Sapere, Fare, Diventare
+  start: 2026-05-03T14:30:00+02:00
+  end: 2026-05-09T18:30:00+02:00
+  location: Loro Piceno
+  city: Val di Fiastra
+  contry: Italy
+  lang: it
+  url: https://lascuolaopensource.xyz/it/attivita/xyz-sapere-fare-diventare
+  tags:
+    - xyz
+    - camp
+- title: FediForum
+  start: 2026-04-28T17:00:00+02:00
+  end: 2026-04-30T22:00:00+02:00
+  location: online
+  url: https://fediforum.org/2026-04/
+  tags:
+    - geek
+- title: 25 aprile con Spiraglio Imperiese
+  start: 2026-04-25T11:00:00+02:00
+  end: 2026-04-25T15:00:00+02:00
+  location: Piazza Nino Bixio
+  city: Imperia
+  country: Italy
+  url: https://www.instagram.com/spiraglioimperiese/p/DXbAF5ECA3o/
+  tags:
+    - politics
+- title: Low-profile and low-energy autonomous networking with Reticulum
+  start: 2026-03-28T14:00:00+01:00
+  end: 2026-03-28T19:00:00+01:00
+  location: Internet Archive Europe
+  city: Amsterdam
+  country: Netherlands
+  url: https://radar.squat.net/en/event/amsterdam/lag/2026-03-28/low-profile-and-low-energy-autonomous-networking-reticulum
+  tags:
+    - geek
+    - DWeb
+  role: staff
+- title: Nodes On A Web Unconference
+  start: 2026-03-19T09:00:00+01:00
+  end: 2026-03-20T15:00:00+01:00
+  location: Marineterrein
+  city: Amsterdam
+  country: Netherlands
+  url: https://www.fedivariety.org/unconference
+  tags:
+    - Fediverse
+  role: host
+- title: WdKA Live from Montreal!
+  start: 2026-03-17T16:00:00+01:00
+  end: 2026-03-17T17:00:00+01:00
+  location: online
+  url: https://www.concordia.ca/cuevents/offices/provost/fourth-space/2026/03/17/artist-talk.html
+  tags:
+    - XPUB
+- title: Our Digital Home
+  start: 2026-03-14T14:00:00+01:00
+  end: 2026-03-14T17:00:00+01:00
+  location: Huis Fatima
+  city: Rotterdam
+  country: Netherlands
+  url: https://hub.xpub.nl/sergio/SI29/ourdigitalhome/
+  tags:
+    - XPUB
+    - lab/ourdigitalhome
+  role: organizer
+- title: DWeb Meetup
+  start: '2026-02-28T19:00:00+01:00'
+  end: '2026-02-28T22:00:00+01:00'
+  location: c-base
+  city: Berlin
+  country: Germany
+  url: https://c-base.org/calendar/#view=agendaDay&date=2026-02-28
+  tags:
+    - geek
+    - DWeb
+- title: I Love Free Software Day 2026
+  start: '2026-02-14T14:00:00+01:00'
+  end: '2026-02-14T17:00:00+01:00'
+  location: 'Internet Archive Europe'
+  city: Amsterdam
+  country: Netherlands
+  url: https://luma.com/degnydko
+  tags:
+    - geek
+  role: organizer
+- title: Knitting Our Internet 4 I Love Free Software Day
+  start: '2026-02-13T18:00:00+01:00'
+  end: '2026-02-13T10:30:00+01:00'
+  location: Snackbar Frieda
+  city: Rotterdam
+  country: Netherlands
+  tags:
+    - geek
+    - lab/ournet
+  role: organizer
 - title: FOSDEM 2026
   start: '2026-01-31T15:00:00+01:00'
   end: '2026-02-01T22:00:00+01:00'
@@ -34,25 +184,50 @@
   url: https://fosdem.org
   tags:
     - geek
-- title: Extra Terrestrial Publishing
-  start: '2026-01-31T10:00:00+01:00'
-  end: '2026-01-31T13:00:00+01:00'
-  location: Dokhuis
+- title: Casbah
+  start: '2026-01-30T23:00:00+01:00'
+  end: '2026-01-31T03:30:00+01:00'
+  location: Bruxelles
+  city: Bruxelles
+  country: Belgium
+  tags:
+    - music
+- title: Ezra Furman
+  start: '2026-01-28T20:00:00+01:00'
+  end: '2026-01-28T22:30:00+01:00'
+  location: Trix
+  city: Antwerpen
+  country: Belgium
+  url: https://www.trixonline.be/nl/programma/ezra-furman/3945/
+  tags:
+    - music
+- title: 'Tiny Tuin #8'
+  start: '2026-01-26T18:00:00+01:00'
+  end: '2026-01-26T22:30:00+01:00'
+  location: 'Some Other Space'
   city: Rotterdam
   country: Netherlands
-  url: https://hub.xpub.nl/cerealbox/xtraterrestrial/
   tags:
-    - XPUB
-    - fair
+    - music
 - title: 39C3
   start: '2025-12-26T22:00:00+01:00'
-  end: '2025-12-31T11:00:00+01:00'
+  end: '2025-12-30T15:00:00+01:00'
   location: CCH
   city: Hamburg
   country: Germany
   url: https://events.ccc.de/congress/2025/infos/startpage.html
   tags:
     - geek
+- title: 'Federating knowledge: exploring ways to bridge wikis and notes'
+  start: '2025-12-30T13:40:00+01:00'
+  end: '2025-12-30T14:40:00+01:00'
+  location: Free Knowledge Habitat, 39C3
+  city: Hamburg
+  country: Germany
+  url: https://pretalx.wikimedia.de/39c3-2025/talk/GKNLVZ/
+  tags:
+    - geek
+  role: host
 - title: Guided Tour of the Canòdrom
   start: '2025-12-15T10:00:00+01:00'
   end: '2025-12-15T12:00:00+01:00'

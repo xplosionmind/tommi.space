@@ -6,6 +6,7 @@ tags:
 description: Disorderly notes from XPUB Special Issue 30
 aliases:
   - SI30
+  - Special Issue 30
 redirect_from:
   - /SI30/
 ---
@@ -31,3 +32,11 @@ Exploring the relationship and interconnection of **rhizomes**, **borders**, **h
 
 <p class=date><time datetime=2026-04-15T15:38:00+02:00>Wed 15 April 2026</time></p>
 Unbordering could also be interpreted as bursting the bubbles we live in. E.g. the artsy people hanging out with artists, academics talking to academia and thinking with that mentality, finance bros not ever realising or deconstructing the concept of privilege and wealth?
+
+---
+
+<p class=date><time datetime='2026-05-11T12:57:23+02:00'>Monday 11 May 2026</time></p>
+
+How does mapping relate to hidden bias of those who map? If it’s collective mapping (OSM), it makes it more complex to de-construct and expose the power imbalances that characterise mapping.
+
+Borders are not binary (either open or closed), but they rather act as filters for immigration flows, also because there are always ways across it.

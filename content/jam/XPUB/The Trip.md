@@ -8,9 +8,9 @@ tags:
   - story
   - zen
 ---
-When I was a kid, my godmother [[Marina]], who was also my catechist, taught me that the deepest, truest way to read the Bible was to do it by reading [the Jerusalem Bible](https://en.wikipedia.org/wiki/Jerusalem_Bible 'Jerusalem Bible on Wikipedia'), which contains margin references to other passages of the whole bible that somehow relate to the present one. She suggested me to read until there is a passage that speaks to me, then get to the closest reference, read it, and so on. <q>If you do it well, you truly feel like God is talking to you</q>. Be it because of confirmation bias, or because I had a more vehement and unhinged way of processing emotions back then, I felt it. I realised that there was a message, tailored for me (and, unwillingly, *by* me), that was emerging out of a universal word, written millennia ago. It was magic, or, most simply, the most concrete validation of my Catholic faith.
+When I was a kid, my godmother [Marina](https://pzwiki.wdka.nl/mediadesign/User:Tommi/Marina_the_scale '“Marina the scale” on the XPUB wiki'), who also was my catechist, taught me that the deepest, truest way to read the Bible was to do it by reading [the Jerusalem Bible](https://en.wikipedia.org/wiki/Jerusalem_Bible 'Jerusalem Bible on Wikipedia'), which contains margin references to other passages of the whole bible that somehow relate to the present one. She suggested me to read until there is a passage that speaks to me, then get to the closest reference, read it, and so on. <q>If you do it well, you truly feel like God is talking to you</q>. Be it because of confirmation bias, or because I had a more vehement and unhinged way of processing emotions back then, I felt it. I realised that there was a message, tailored for me (and, unwillingly, *by* me), that was emerging out of a universal word, written millennia ago. It was magic, or, most simply, the most concrete validation of my Catholic faith.
 
-The years went by, and my belief shifted wildly, as my faith and my Catholic practice. Nevertheless, one thing clearly stuck with me, and planted the seed of one of the strongest values guiding me. The connections, a.k.a. the *[the crossovers](Crossovers.md)*.
+The years went by, and my belief shifted wildly, as did my faith and my Catholic practice too. Nevertheless, one thing clearly stuck with me, and planted the seed of one of the strongest values guiding me. The connections, a.k.a. the *[the crossovers](Crossovers.md)*.
 
 ---
 
@@ -32,6 +32,8 @@ The years went by, and my belief shifted wildly, as my faith and my Catholic pra
 ## Timetable
 
 ## Rapid prototypes
+
+![Web Surfing Recorder](Web%20Surfing%20Recorder.md)
 
 ## Previous practice
 
