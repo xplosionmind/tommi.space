@@ -21,7 +21,9 @@ In so many occasions my friends come to me and say something like: <q lang=it>qu
 Tommi is [Tomminess](Tomminess.md). In other words, <cite>Tomminess</cite> is Tommi’s way of living. It is a mix of vices, virtues, personality traits, and values.
 
 <div class=box>
+	
 	The present page is something similar to a manifesto of Tommi’s being, inspired by the section named <cite>My values</cite> in <a href=https://noeldemartin.com title='Noel De Martin’s personal website'>Noel De Martin’s personal website</a>.
+
 </div>
 
 ## <cite>Tomminess</cite> means:

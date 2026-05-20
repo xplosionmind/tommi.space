@@ -1,9 +1,7 @@
 ---
 date: 2020-05-22T02:00:00+02:00
 updated: 2023-04-03T10:17:02+02:00
-tags:
-  - design
-  - geek/web
+tags: [geek/web, design]
 description: A collection of colors I love and where I use them
 toc: true
 ---
@@ -34,7 +32,9 @@ toc: true
 [pise-notes.club](https://web.archive.org/web/20210521084059/https://pise-notes.club/ 'PISE Notes (Archived version)')’s theme colors. Source [SCSS file](https://github.com/xplosionmind/PISE-notes/blob/e53b09b7eb391ac17f1c3a97a005a19412c3d397/style.scss#L13 'PISE Notes SCSS color variables').
 
 <div class='yellow box'>
+
 The website is currently offline since our faculty supervisor asked me to close it.
+
 </div>
 
 <ul class='three'>

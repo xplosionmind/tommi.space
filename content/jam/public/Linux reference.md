@@ -169,7 +169,7 @@ chsh -s /usr/bin/zsh
 
 ### oh-my-zsh
 
-#TODO)) link with [tdm](tdm.md).
+#TODO link with [tdm](tdm.md).
 
 [oh-my-zsh](https://ohmyz.sh/ 'ohmyz.sh') makes extending and customising zsh fun and easy.
 
@@ -178,6 +178,10 @@ To install it:
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+## IPv6
+
+#TODO I am currently learning how to configure and use [IPv6](IPv6.md) as the main way to manage the network stack, instead of IPv4.
 
 ## Troubleshooting
 

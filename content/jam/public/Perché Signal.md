@@ -4,11 +4,12 @@ updated: 2022-03-14T14:52:55+01:00
 tags:
   - geek/apps
   - explanation
-description: Perché Signal è così importante e perché preferirlo a WhatsApp è una scelta etica e non puramente da nerd.
 lang: it
-redirect_from:
-  - /signal-it/
+description: Perché Signal è così importante e perché preferirlo a WhatsApp è una scelta etica e non puramente da nerd.
 ref: signal
+permalink: /it/signal/
+redirect_from:
+  - /perche-signal/
 ---
 ## Perché WhatsApp no?
 
@@ -18,8 +19,10 @@ Tuttavia, per chi è meno informato su quanto Facebook sfrutti gli utenti per il
 - [L’importanza dei metadati](https://www.lealternative.net/2020/06/18/limportanza-dei-metadati/ 'L’importanza dei metadati')
 - [WhatsApp è il male](https://daniele.tech/2019/04/whatsapp-e-il-male-o-5-motivi-per-cui-non-dovresti-usarlo/ 'WHATSAPP É IL MALE O 5 MOTIVI PER CUI NON DOVRESTI USARLO'), un articolo di [Daniele Scasciafratte](https://daniele.tech/ 'Daniele’s personal website')
 
-<div class='red box'>
-	Questa pagina contiene unicamente spiegazioni ed articoli in italiano, ma per avere una visione più completa vi invito a leggere anche i link che sono presenti <a href="/signal" title="Perché Signal">in quella in inglese</a>.
+<div class=box>
+
+Questa pagina contiene unicamente spiegazioni ed articoli in italiano, ma per avere una visione più completa vi invito a leggere anche i link che sono presenti [in quella in inglese](Signal.md).
+
 </div>
 
 ## Perché

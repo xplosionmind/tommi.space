@@ -1,14 +1,10 @@
 ---
 date: 2025-06-05T08:33:49+02:00
 updated: 2025-10-27T12:32:00+01:00
-aliases:
-  - Rent in Rotterdam
-  - Rent in the Netherlands
-tags:
-  - place/Rotterdam
-  - wip
-description: Annotations, suggestions, tips, and offloading about the arduous endeavour of finding a place to live in the Netherlands.
+aliases: [Rent in the Netherlands, Rent in Rotterdam]
+tags: [wip, place/Rotterdam]
 permalink: /rotterdam/rent/
+description: Annotations, suggestions, tips, and offloading about the arduous endeavour of finding a place to live in the Netherlands.
 ---
 I have been looking for a room to rent in Rotterdam from mid-May 2025 until the end of September 2025. It was exhausting. Here are my notes and reflections during my search.
 
@@ -19,7 +15,9 @@ The world is burning and the assholes holding the power and the super rich are m
 I am curating this page both as a reference for myself to keep track of all the tips and links I get, but also to start drafting a communal and crowdsourced set of resources and advice for home-seekers in Rotterdam. Feel free to suggest any change by heading to the source code of the page (see the footer). If this gets enough interest, we could consider moving it to a more impersonal and collective space where it’s also easier to contribute and edit the content.
 
 <div class='yellow box'>
-	<strong>Note:</strong> I am extremely lazy and particularly overwhelmed lately, so I won’t be spending much time verifying notes I am writing on here. Please check the resources yourself and feel free to hit me up if you notice something is off.
+	
+**Note**: I am extremely lazy and particularly overwhelmed lately, so I won’t be spending much time verifying notes I am writing on here. Please check the resources yourself and feel free to hit me up if you notice something is off.
+
 </div>
 
 ## Unions and networks

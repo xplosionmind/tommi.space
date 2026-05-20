@@ -1,19 +1,17 @@
 ---
 date: 2021-02-04T13:58:44+01:00
 updated: 2022-03-14T15:01:06+01:00
-aliases: Self editor
-tags:
-  - wit
-  - zen
-description: I am a self editor, I am the editor of myself.
-image: https://www.newbluefx.com/wp-content/uploads/2015/04/top-10-edited-sequences.jpg
+aliases: [Self editor]
+tags: [zen, wit]
 permalink: /self-editor/
-redirect_from:
-  - /being-a-self-editor/
-  - /life-editing/
+redirect_from: [/life-editing/, /being-a-self-editor/]
+image: https://www.newbluefx.com/wp-content/uploads/2015/04/top-10-edited-sequences.jpg
+description: I am a self editor, I am the editor of myself.
 ---
 <div class='blue box'>
-	<p>Literally speaking, I actually am the editor of myself, since I publish by my own the content I create. In this page, nevertheless, I will be referring to the word “<a href='https://www.merriam-webster.com/dictionary/editor' title='“editor” in the Merriam-Webster dictionary'>editor</a>” for its cinema meaning.</p>
+
+Literally speaking, I actually am the editor of myself, since I publish by my own the content I create. In this page, nevertheless, I will be referring to the word “[editor](https://www.merriam-webster.com/dictionary/editor '“editor” in the Merriam-Webster dictionary')” for its cinema meaning.
+
 </div>
 
 I have a ton of thoughts, ideas, knowledge which passes through my mind at every instant, and by editing it I mean <u>selecting what to remember, what to write down, what to focus on</u>.

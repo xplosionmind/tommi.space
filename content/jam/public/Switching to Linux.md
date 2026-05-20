@@ -62,8 +62,11 @@ Some notes concerning stuff I do on MacOS that I need to find an alternative for
 ### On Linux
 
 <div class='red box'>
-	<p>This list is a minimal log of the steps I followed during this specific migration.</p>
-	<p><a href='Linux reference.md' class=internal-link>Here is the Linux installation reference</a> I am still using and keeping up to date.</p>
+
+This list is a minimal log of the steps I followed during this specific migration.
+
+[Here is the Linux installation reference](Linux%20reference.md) I am still using and keeping up to date.
+
 </div>
 
 1. [Configure BIOS/UEFI to prioritize external devices](https://debian.org/releases/stable/amd64/ch03s06.en.html)

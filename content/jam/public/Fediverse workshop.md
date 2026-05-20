@@ -1,16 +1,12 @@
 ---
 date: 2023-06-07T07:38:05+02:00
 updated: 2023-10-03T13:13:34+02:00
-aliases:
-  - FediLab
-tags:
-  - lab
-  - outdated
-  - geek/fediverse
 location: Sanremo
-description: An introductory workshop on decentralized social media and the Fediverse
-image: /assets/fedilab-scambi.webp
+aliases: [FediLab]
+tags: [outdated, lab, geek/fediverse]
 permalink: /fedilab/
+image: /assets/fedilab-scambi.webp
+description: An introductory workshop on decentralized social media and the Fediverse
 ref: fediverse-lab
 include: |
   <div class='blue box' style='background: mediumspringgreen; color: black'>
@@ -46,8 +42,11 @@ Not all the materials are essential. In its bare-bone version, the rope and the 
 - Objects or small cardboard pieces representing different Fediverse nodes or clients
 
 <div class='red box'>
-	<h2>⚠️ Spoiler alert ⚠️</h2>
-	<p>If you intend to participate to the lab, I suggest you not to read further in order to avoid spoiling your experience.</p>
+
+## ⚠️ Spoiler alert ⚠️
+
+If you intend to participate to the lab, I suggest you not to read further in order to avoid spoiling your experience.
+
 </div>
 
 <figure>

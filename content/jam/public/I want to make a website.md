@@ -14,6 +14,5 @@ Here is a #wip reference of fundamental information required to make a general e
 	- How much? (*Just one page, blog posts, any page…*)
 	- How many people would need editing rights?
 - Do you need an authentication or login system for the public? (*Would they need to submit information, subscribe to a newsletter…*)
-- 
 - If you ask me to do something that requires a technology I can also learn about while building the website, that may lower my hourly rate.
 - Consider that website development does not end after the website is *made*. There are *maintenance* and *hosting* costs. Understanding all the points above can give a quite clear idea of how much they would be. Hosting *may* be free and generally it can be limited to 3-7€ per month. Maintenance mostly depends on the website editing frequency.

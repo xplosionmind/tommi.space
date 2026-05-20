@@ -1,13 +1,10 @@
 ---
 date: 2023-03-01T11:35:23+01:00
 updated: 2023-05-26T17:49:12+02:00
-tags:
-  - history
-  - uni/PISE/thesis
-  - reading/book
 location: Casa Campo
-description: Notes, citations, and thoughts about a greatly insightful work I am using for my bachelor’s thesis.
+tags: [uni/PISE/thesis, reading/book, history]
 permalink: /internet-history/
+description: Notes, citations, and thoughts about a greatly insightful work I am using for my bachelor’s thesis.
 ---
 Notes, citations, and thoughts about a greatly insightful work I am using to give an historical context to [my bachelor’s thesis](Computer%20Sciences%20Are%20Social%20Sciences.md).
 
@@ -81,8 +78,10 @@ They are, he claims, selected by the community according to merit:
 https://youtube-nocookie.com/embed/fs-YpQj88ew
 
 <div class='red box'>
-	<ul><li>What distinguished the Capitalist efforts at making Web technologies and communitarian ones such as Linux?</li>
-	<li>consider the aspect of the technology and software vs the hardware it is run on</li></ul>
+
+- What distinguished the Capitalist efforts at making Web technologies and communitarian ones such as Linux?
+- consider the aspect of the technology and software vs the hardware it is run on
+
 </div>
 
 page 118: Google’s initial focus was on **back links**. PageRank, **Freedom to seek** at page 119. <q>googol</q>: Google’s success and effectiveness is based on massive amount of data, centralized, processed, inspected, **ranked**:

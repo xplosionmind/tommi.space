@@ -1,17 +1,14 @@
 ---
 date: 2023-06-07T07:38:05+02:00
 updated: 2023-10-03T13:12:38+02:00
-tags:
-  - lab
-  - outdated
-  - geek/fediverse
 location: Sanremo
-description: Un laboratorio di introduzione ai social network decentralizzati
+aliases: [La Nostra Rete]
+tags: [outdated, lab, geek/fediverse]
+permalink: /lab-fediverso/
 image: /assets/fedilab-scambi.webp
 lang: it
-permalink: /lab-fediverso/
+description: Un laboratorio di introduzione ai social network decentralizzati
 ref: fediverse-lab
-aliases: La Nostra Rete
 include: |
   <div class='blue box' style='background: mediumspringgreen; color: black;'>
     <h2>Il lab ora ha un suo sito!</h2>
@@ -37,8 +34,11 @@ Il laboratorio dura circa un’ora. Se ampliato e fatto in modo completo, può d
 Idealmente, tutte le persone partecipanti si siedono in cerchio. Il laboratorio funziona al meglio con almeno 4 e al massimo 15 partecipanti.
 
 <div class='red box'>
-	<h2 lang='en'>⚠️ Spoiler alert ⚠️</h2>
-	<p>Se prevedi di partecipare al laboratorio, ti suggerisco di non proseguire oltre questo punto, per non rovinare l’esperienza</p>
+
+## ⚠️ Spoiler alert ⚠️
+
+Se prevedi di partecipare al laboratorio, ti suggerisco di non proseguire oltre questo punto, per non rovinare l’esperienza.
+
 </div>
 
 <figure>

@@ -1,14 +1,10 @@
 ---
 date: 2020-05-07T02:00:00+02:00
 updated: 2022-07-17T19:03:44+02:00
-tags:
-  - topic
-  - knowledge
-aliases:
-  - Learning Resources
-  - Resources
+aliases: [Resources, Learning Resources]
+tags: [topic, knowledge]
+redirect_from: [/resources/, /learning-resources/]
 description: An eternally incomplete yet continuously growing collection of the sources of my knowledge
-redirect_from: [/learning-resources/,/resources/]
 main: true
 ---
 Almost every single portion of this website is a more or less organized collection of what I know and how I connect my knowledge. Nevertheless, it is useful to keep track in this page of some insightful resources that I would lose otherwise.
@@ -28,7 +24,9 @@ On this website there is very little concerning what I study for university and 
 Where and how to learn about Computer Sciences topics and anything technology related.
 
 <div class='blue box'>
-	Most of the things one could be looking for are very likely to be found in the <strong>AWESOME</strong> <a href='https://project-awesome.org'  target='_blank' title='Project Awesome'>Project Awesome</a>. I am not writing anything about the main sources cited in there.
+
+Most of the things one could be looking for are very likely to be found in the **AWESOME** [Project Awesome](https://project-awesome.org). I am not writing anything about the main sources cited in there.
+
 </div>
 
 - Learn how clipping and masking works in Inkscape

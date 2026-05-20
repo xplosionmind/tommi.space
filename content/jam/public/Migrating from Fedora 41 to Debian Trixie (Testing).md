@@ -7,7 +7,9 @@ permalink: /fedora-debian/
 description: Notes about moving from Fedora 41 to Debian Trixie (Testing, version 13) on my Framework Laptop 13.
 ---
 <div class='red box'>
-	<p>I gave up. At the time of writing, there are still too many little things to fix, little glitches, and it seems like Debian on Framework needs more maintenance than I originally thought.</p>
+
+I gave up. At the time of writing, there are still too many little things to fix, little glitches, and it seems like Debian on Framework needs more maintenance than I originally thought.
+
 </div>
 
 ## Knowledge base

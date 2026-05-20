@@ -1,11 +1,11 @@
 ---
 date: 2022-08-27T09:50:40+02:00
 updated: 2022-12-06T08:08:33+01:00
-tags: geek
+location: BDL
+tags: [geek]
 redirect_from: /pan.rent/
 image: https://x.scambi.org/illustrations/pan.webp
 description: Notes and thoughts on Pan administration
-location: BDL
 ---
 <cite>[Pan](https://pan.rent)</cite> is the [Fediverse](Fediverse.md) node I am the admin of. I conceived it, but it is formally owned and managed by <cite>[APS Oltre](https://manuale.scambi.org/associazione 'APS Oltre — scambi.org')</cite>.
 
@@ -55,7 +55,9 @@ While looking for affordable domains with `pan.*`, I stumbled upon `pan.rent`, a
 ## Values
 
 <div class='yellow box'>
-	The following points are just some ideas, definitely not the final values of <cite>Pan</cite>
+
+The following points are just some ideas, definitely not the final values of <cite>Pan</cite>
+
 </div>
 
 - People on this server are less than 30 years old. We do not discriminate older people, but we would like to form a community with fresh and dynamic young souls.

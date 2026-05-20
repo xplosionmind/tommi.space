@@ -1,19 +1,13 @@
 ---
 date: 2021-11-16T09:35:47+01:00
 updated: 2023-10-31T15:50:41+01:00
-tags:
-  - stale
-  - geek/sysad
-  - dropped
-description: Notes about moving out of GitHub and setting up a self-hosted Forgejo instance.
+tags: [stale, geek/sysad, dropped]
+redirect_from: [/quit-github/, /gitea/, /forgejo/]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2022-11-27_Forgejo_by-David-Revoy.jpg/1280px-2022-11-27_Forgejo_by-David-Revoy.jpg
-redirect_from:
-  - /gitea/
-  - /quit-github/
-  - /forgejo/
-created: 2021-12-15T01:18:14+01:00
-include: "<div class='red box'><p><mark><strong>giTMI has been discontinued</strong></mark>. The reason is explained in <a href='https://tommi.space/v2/' target='_blank' title='Rethinking tommi.space'>this post</a>.</p></div>"
+description: Notes about moving out of GitHub and setting up a self-hosted Forgejo instance.
 toc: true
+include: "<div class='red box'><p><mark><strong>giTMI has been discontinued</strong></mark>. The reason is explained in <a href='https://tommi.space/v2/' target='_blank' title='Rethinking tommi.space'>this post</a>.</p></div>"
+created: 2021-12-15T01:18:14+01:00
 ---
 The morning of <time datetime='2021-11-16T09:34:47+01:00'>Tuesday, November 16<sup>th</sup> at 9:35</time>, after reading a few toots suggesting that the [federation of Gitea](https://forgefriends.org 'ForgeFriends website') instances is not relegated to a Utopian future, [I impulsively decided to self-host my own git forge](https://mastodon.uno/@tommi/107286030559967130 'Tommi’s toot about self-hosting his own git forge').
 

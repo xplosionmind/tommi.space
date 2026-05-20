@@ -1,17 +1,15 @@
 ---
 date: 2020-12-10
 updated: 2022-03-14T14:50:00+01:00
-tags: geek
-description: Removing the default operating system on my Android device and installing LineageOS.
+tags: [outdated, geek]
 permalink: /lineageos/
-redirect_from:
-  - /switch-to-lineageos/
-  - /degoogle-android/
-  - /degoogled-android/
-  - /lineage/
+redirect_from: [/switch-to-lineageos/, /lineage/, /degoogled-android/, /degoogle-android/]
+description: Removing the default operating system on my Android device and installing LineageOS.
 ---
 <div class='yellow box'>
-	LineageOS is unstable. I had to bargain monopoly for (still relative) “privacy” + reliability and I now own and use an iPhone 12 mini. If one day they will make a smaller <a href='https://fairphone.com' title='Fairphone'>Fairphone</a>, I will immediately go for it and use it with the awesome <a href='https://e.foundation' title='/e/'>/e/</a>
+
+LineageOS is unstable. I had to bargain monopoly for (still relative) “privacy” + reliability and I now own and use an iPhone 12 mini. If one day they will make a smaller [Fairphone](https://fairphone.com), I will immediately go for it and use it with the awesome [/e/](https://e.foundation).
+
 </div>
 
 In order to remove the Google’s tracking services and obtrusive bits of proprietary code, I decided to install [LineageOS](https://lineageos.org 'LineageOS official website') on my [OnePlus 6T](https://www.oneplus.com/6t 'OnePlus 6T'). Specifically, I installed [LineageOS for MicroG](https://lineage.microg.org 'LineageOS for MicroG'), which is a fork of LineageOS optimized to be used with [MicroG services](https://microg.org 'MicroG Project').

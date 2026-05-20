@@ -1,13 +1,17 @@
 ---
 date: 2020-11-10
 updated: 2022-01-25T09:00:45+01:00
-tags: zen
+tags: [zen, outdated, draft/revise]
 description: Boundaries to improve living quality
 ---
 I believe the foundations of a peaceful, productive and full life are composed of a combination of [habits](Loops.md) and [boundaries](Boundaries.md).
 Below are the ones I set to myself.
 
-<div class='blue box'>The following decisions go hand in hand with [[The Slot Philosophy]], which is my main approach to [[Self improvement]]</div>
+<div class='blue box'>
+
+The following decisions go hand in hand with [The Slot Philosophy](The%20Slot%20Philosophy.md), which is my main approach to [Self improvement](Self%20improvement.md).
+
+</div>
 
 - from 2013, stop playing any videogame and stop installing any game app on my mobile
 - from June 2016, [turning off all push notifications](https://www.wired.com/story/turn-off-your-push-notifications/ '“Turn off your Push Notifications” on Wired'), except alarms and reminders

@@ -5,8 +5,11 @@ permalink: /nextcloud/
 description: This is a reference for installing Nextcloud with from scratch with PHP, MariaDB, and Apache on an Ubuntu server, without using any containers. Please note that **this guide is outdated**, and it is still published for archival purposes.
 ---
 {{ description }}
+
 <div class='blue box'>
-	<p>Please refer to my <a href='Self-hosting%20logs.md' class=internal-link>self-hosting logs</a> for more context, and links to the updated practices I am following now.</p>
+
+Please refer to my [Self-hosting logs](self-hosting%20logs.md) for more context, and links to the updated practices I am following now.
+
 </div>
 
 ## Resources
@@ -218,7 +221,9 @@ systemctl restart apache2
 - go to `cloud.example.com`
 
 <div class='yelow box'>
-	<u><strong>Do not</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
+	
+<u>**Do not** insert any data</u> in the dialogue page above until connection is encrypted with `https://`. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
+
 </div>
 
 ## Final adjustments

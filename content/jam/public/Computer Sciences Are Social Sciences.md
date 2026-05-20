@@ -1,22 +1,18 @@
 ---
 date: 2022-05-19T19:14:54+02:00
 updated: 2024-05-16T13:14:42+02:00
-aliases:
-  - Bachelor’s Thesis
-  - PISE Thesis
-tags:
-  - uni/PISE/thesis
-description: Tommaso Marmo’s bachelor thesis for my Philosophy, International Studies, and Economics bachelor graduation.
-image: /assets/csss.webp
+aliases: [PISE Thesis, Bachelor’s Thesis]
+tags: [uni/PISE/thesis]
 permalink: /csss/
-redirect_from:
-  - /thesis/
+redirect_from: [/thesis/]
+image: /assets/csss.webp
+description: Tommaso Marmo’s bachelor thesis for my Philosophy, International Studies, and Economics bachelor graduation.
 ---
 **<cite>Computer Sciences Are Social Sciences</cite>** is the thesis I wrote for my [PISE](https://unive.it/pise 'Philosophy, International Studies, and Economics – Ca’ Foscari University') bachelor degree. I wrote it between February and June 2023. After my graduation, I also held some presentations and talks about the topic.
 
 [This repository](https://codeberg.org/tommi/csss 'csss repository on Codeberg') contains all the source files and resources related to the thesis.
 
-<div class='flex row'>
+<div class=flex>
 	<a class='red button' href='https://codeberg.org/tommi/csss/raw/branch/main/Computer%20Sciences%20are%20Social%20Sciences%20%E2%80%94%20Tommaso%20Marmo%E2%80%99s%20bachelor%20thesis.pdf' title='Computer Sciences Are Social Sciences – Tommaso Marmo’s Bachelor’s thesis'>Download the thesis</a>
 	<a class='yellow button' href='https://codeberg.org/tommi/csss' title='csss repository on Codeberg'>Source and resources</a>
 	<a class='blue button' href='/ournet/' title='“Knitting Our Internet”, tommi.space'>Workshop</a>

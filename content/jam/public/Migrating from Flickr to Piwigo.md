@@ -1,19 +1,12 @@
 ---
 date: 2020-12-05T01:00:00+01:00
 updated: 2022-03-14T14:59:21+01:00
-aliases:
-  - Quitting Flickr
-  - Quit Flickr
-  - Flickr to Piwigo
-tags:
-  - geek
-description: Thoughts and decisions about quitting Flickr and switching to Piwigo
-image: /assets/quit-flickr.jpg
-redirect_from:
-  - /flickr/
-  - /piwigo-switch/
-  - /flickr-to-piwigo/
+aliases: [Quitting Flickr, Quit Flickr, Flickr to Piwigo]
+tags: [geek]
 permalink: /flickr-piwigo/
+redirect_from: [/piwigo-switch/, /flickr/, /flickr-to-piwigo/]
+image: /assets/quit-flickr.jpg
+description: Thoughts and decisions about quitting Flickr and switching to Piwigo
 ---
 The process of quitting [Flickr](https://flickr.com 'Flickr') and switching to [Piwigo](Piwigo.md) took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
 
@@ -36,10 +29,6 @@ Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [Piwigo](Piw
 	3. For several days I attempted to continue the import, but there are the last ~1000 pictures which are mysteriously stuck and I couldn’t find any way to import them through the plugin. I opened [an issue](https://github.com/mistic100/Flickr2Piwigo/issues/58 '“Import stuck”, issue in Flickr2Piwigo repository on GitHub') about this.
 
 ## Setting up Piwigo
-
-<div class='red box'>
-	There are some very important features which are missing in Piwigo. I track them <a href='#bugs' title='Piwigo bugs and feature requests'>here</a>
-</div>
 
 I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo in Piwigo Extensions Marketplace'), a plugin to [import pictures from Flickr](Migrating%20from%20Flickr%20to%20Piwigo.md).
 

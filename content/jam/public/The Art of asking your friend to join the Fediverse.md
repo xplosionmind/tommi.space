@@ -7,6 +7,7 @@ tags:
   - lab
   - idea
   - wip
+  - XPUB
 location: Mastodon booth, FOSDEM
 permalink: /fediflowchart/
 ---

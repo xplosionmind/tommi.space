@@ -13,7 +13,9 @@ Essentially, I interpret internet freedom as the joint concern for two overlappi
 - **decentralization** and **de-monopolization** regarding both hardware and software development
 
 <div class='blue box'>
-	I wish I had both the time and the knowledge to write some in-depth articles about the topics mentioned above, but I am still studying and trying to better tackle the problems of the internet and their roots, in order to form a well-grounded opinion. For this reason, content of this page is pretty random and schematic.
+
+I wish I had both the time and the knowledge to write some in-depth articles about the topics mentioned above, but I am still studying and trying to better tackle the problems of the internet and their roots, in order to form a well-grounded opinion. For this reason, content of this page is pretty random and schematic.
+
 </div>
 
 ## Avoid Neo-Luddism

@@ -1,25 +1,22 @@
 ---
 date: 2022-04-26T10:02:11+02:00
 updated: 2023-01-15T15:50:11+01:00
-aliases:
-  - Erasmus
-  - Erasmus 2022-2023
-tags:
-  - uni/Grenoble
 location: Grenoble
-description: Un journal de ma vie, mes études et mes découvertes à Grenoble pendant le premier semestre de l’année 2022/2023
-lang: fr
+aliases: [Erasmus 2022-2023, Erasmus]
+tags: [uni/Grenoble]
 permalink: /erasmus-grenoble/
-redirect_from:
-  - /erasmus/
-  - /erasmus-a-grenoble/
+redirect_from: [/erasmus/, /erasmus-a-grenoble/]
+lang: fr
+description: Un journal de ma vie, mes études et mes découvertes à Grenoble pendant le premier semestre de l’année 2022/2023
 ---
 Cette page a été créée pour prendre des notes rapides sur mon premier Erasmus, que j’ai fait pendant le premier semestre de l’année 2022-2023, à [Grenoble](Grenoble.md).
 
 Je vai essayer à écrire un journal de ma vie et de mes découvertes ici et je vais le faire en Français, probablement avec beaucoup des erreurs. Tous ce que regardes spécifiquement la cité est dans la page [Grenoble](Grenoble.md).
 
-<div class='blue box' lang='en'>
-	I launched the <mark>#PanErasmus</mark> hashtag on <cite><a href='https://pan.rent' title='Pan Social'>Pan</a></cite> and I am going to <a href='https://pan.rent/tags/PanErasmus' title='“#PanErasmus” hashtag on Pan'>use it to narrate my Erasmus</a>, in English.
+<div class='blue box' lang=en>
+
+I launched the ==#PanErasmus== hashtag on <cite>[Pan](https://pan.rent)</cite> and I am going to [use it to narrate my Erasmus](https://pan.rent/tags/PanErasmus '“#PanErasmus” hashtag on Pan'), in English.
+
 </div>
 
 <h2 lang=it id=inno>Inno all’Erasmus</h2>

@@ -1,16 +1,10 @@
 ---
 date: 2023-02-24T11:46:34+01:00
 updated: 2024-08-20T14:41:20+02:00
-aliases:
-  - tommi.pics
-  - Homelab
-  - DIY Home Server
-tags:
-  - geek/sysad
+aliases: [tommi.pics, Homelab, DIY Home Server]
+tags: [geek/sysad]
+redirect_from: [/photoprism/, /dyi-home-server/]
 description: Notes and insights about running a DYI server in my grandparents’ home.
-redirect_from:
-  - /dyi-home-server/
-  - /photoprism/
 toc: true
 ---
 I embrace and adopt the principles of self-hosting, and I mainly do it on [Nebuchadnezzar](Nebuchadnezzar.md), a Virtual Private Server hosted by [Contabo](https://contabo.com 'Contabo'), in Duesseldorf, Germany. I am very proud of this, and this is already a very big step towards digital independence. Still, all of what lives in <cite title='Nebuchadnezzar'>Neb</cite> actually is in [someone else’s computer](https://fsfe.org/contribute/spreadtheword.html#nocloud '“There is no cloud…” on FSFE’s website'), even though I fully control it.
@@ -18,8 +12,11 @@ I embrace and adopt the principles of self-hosting, and I mainly do it on [Nebuc
 The coolest, most secure, and most sustainable solution is to self-host on a device at home. Therefore, I am experimenting with a [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) to configure it as my main photo [Storage](Storage.md) solution, powered by [PhotoPrism](https://photoprism.app). It is currently hosted at [my grandma](https://instagram.com/nonnagorix '@nonnagorix on Instagram')’s, because [I am not permanently residing anywhere](/now/ 'Tommi’s Now page') and my parents’ home network is probably more bloated than hers.
 
 <div class='blue box'>
-	<h2>Dedicated to Aby Warburg</h2>
-	<p>The home server (and therefore this page) takes its name from <a href='/aby-warburg' hreflang='it' title='Appunti su Aby Warburg – Filinge, tommi.space'>Aby Warburg</a>, not only because he is <a href='/people/' title='People – tommi.space'>one of my greatest idols</a>, but because his <cite><a href='https://warburg.library.cornell.edu/' title='Mnemosyne Atlas | Cornell University Library'>Mnemosyne Atlas</a></cite> is in a way what a photo management software like PhotoPrism does.</p>
+
+## Dedicated to Aby Warburg
+
+The home server (and therefore this page) takes its name from [Aby Warburg](Aby%20Warburg.md), not only because he is [one of my greatest idols](/people/), but because his <cite>[Mnemosyne Atlas](https://warburg.library.cornell.edu/ 'Mnemosyne Atlas | Cornell University Library')</cite> is in a way what a photo management software like PhotoPrism does.
+
 </div>
 
 ## Local network configuration

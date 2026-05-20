@@ -1,11 +1,7 @@
 ---
 date: 2022-10-15T11:31:43+02:00
 updated: 2022-12-21T11:39:55+01:00
-tags:
-  - geek
-  - fediverse
-  - draft
-  - todo
+tags: [todo, geek, fediverse, draft]
 description: Various Fediverse information, tips, and accounts worth following.
 ---
 The Fediverse is a decentralized ensemble of social networking apps (more below).
@@ -13,8 +9,11 @@ The Fediverse is a decentralized ensemble of social networking apps (more below)
 I am extremely happy many of my friends are finally joining the Fediverse, therefore I am collecting here several info, so that they can easily retrieve it and feel at home in this new awesome platform.
 
 <div class='yellow box'>
-	<h3>Contribute to this page!</h3>
-	<p>If you are already a proud and experienced fedinaut, feel free to open a pull request or to get in touch to suggest anything you feel is missing!</p>
+
+## Contribute to this page!
+
+If you are already a proud and experienced fedinaut, feel free to open a pull request or to get in touch to suggest anything you feel is missing!
+
 </div>
 
 ## Getting started

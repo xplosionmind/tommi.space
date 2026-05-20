@@ -1,17 +1,10 @@
 ---
 date: 2020-05-12
 updated: 2022-11-01T20:10:49+01:00
-tags: design
+tags: [outdated, design]
 description: Little insights about the design world
-main: true
-todo:
-  - 'Integrate websites with [Webrings](/webrings/) and [Blogroll](/blogroll/) and [Internet Awesomeness](/internet-awesomeness/)'
-  - refactor
+todo: [refactor, 'Integrate websites with [Webrings](/webrings/) and [Blogroll](/blogroll/) and [Internet Awesomeness](/internet-awesomeness/)']
 ---
-<div class='yellow box'>
-	This page is definitely outdated.
-</div>
-
 ## 101
 
 - [Good Design Manifesto](https://dwarves.foundation/manifesto/ 'Good Design Understanding by Dwarves Foundation'), by the [Dwarves Foundation](https://dwarves.foundation 'The Dwarves Foundation website')

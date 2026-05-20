@@ -1,10 +1,8 @@
 ---
 date: 2023-02-10T12:14:03+01:00
 updated: 2023-11-05T22:22:54+01:00
-tags:
-  - geek
-  - wip
 location: home
+tags: [wip, geek]
 permalink: /linux-setup/
 ---
 Lately, I have found myself setting up a lot of Linux devices from scratch. I thought it would be nice to have a timeline to go through during their initial configuration.
@@ -30,9 +28,8 @@ Albeit my personal impulse would be to burn each step of this list as quickly as
 8. Install and configure [git](https://git-scm.org)
 9. Install and configure [Flatpak](https://flatpak.org)
 10. Install the first few essential apps:
-	- [KeepassXC](https://flathub.org/apps/org.keepassxc.KeePassXC 'KeepassXC on Flathub'): <pre><code>flatpak install flathub org.keepassxc.KeePassXC</code></pre>
-	- `sudo dnf install nextcloud-client keepassxc`
-	 - [Nextcloud Desktop](https://flathub.org/apps/com.nextcloud.desktopclient.nextcloud 'Nextcloud Desktop on Flathub'): <pre><code>flatpak install flathub com.nextcloud.desktopclient.nextcloud</code></pre>
+	- [KeepassXC](https://flathub.org/apps/org.keepassxc.KeePassXC 'KeepassXC on Flathub'): `flatpak install flathub org.keepassxc.KeePassXC`
+	 - [Nextcloud Desktop](https://flathub.org/apps/com.nextcloud.desktopclient.nextcloud 'Nextcloud Desktop on Flathub'): `sudo dnf install nextcloud-client` or `flatpak install flathub com.nextcloud.desktopclient.nextcloud`
 11. Install [GNOME extensions](https://extensions.gnome.org)
 12. `sudo dnf install gnome-tweaks`
 	1. to autostart applications

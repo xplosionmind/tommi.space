@@ -1,11 +1,7 @@
 ---
 date: 2025-12-18T15:54:14+01:00
-tags:
-  - meta
-  - dev/web/11ty
-  - wip
-aliases:
-  - Switch from Liquid to Vento in Eleventy
+aliases: [Switch from Liquid to Vento in Eleventy]
+tags: [wip, meta, dev/web/11ty]
 permalink: /vento/
 description: Migrating from Liquid to Vento templating language in Eleventy.
 toc: true
@@ -47,5 +43,7 @@ To recreate [LiquidJS’ `date_to_xmlschema`](https://liquidjs.com/filters/date_
 ```
 
 <div class='yellow box'>
-	<strong>Note</strong>: this filter automatically converts the time to UTC+0 timezone. I have to figure out how to preserve the original timezone.
+
+**Note**: this filter automatically converts the time to UTC+0 timezone. I have to figure out how to preserve the original timezone.
+
 </div>

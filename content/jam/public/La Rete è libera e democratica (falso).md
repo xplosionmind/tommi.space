@@ -1,15 +1,13 @@
 ---
-author: Ippolita
 date: 2023-03-02T14:54:42+01:00
 updated: 2023-03-04T15:36:46+01:00
-lang: it
 location: CFZ
+tags: [uni/PISE/thesis, reading/book]
 permalink: /rete-democratica/
-tags:
-  - reading/book
-  - uni/PISE/thesis
-description: Un libro che sottolinea l’intrinseco fattore anarchico all’interno della rete e le sue problematiche, da un punto di vista sia ontologico che epistemologico.
 image: https://covers.openlibrary.org/b/id/13348461-L.jpg
+lang: it
+description: Un libro che sottolinea l’intrinseco fattore anarchico all’interno della rete e le sue problematiche, da un punto di vista sia ontologico che epistemologico.
+author: Ippolita
 ---
 
 > Ma le esternalità negative dell’adozione di tecnologie di massa sono molto più profonde dei meri effetti sociali immediatamente esperibili nella vita quotidiana, e sono incalcolabili per il semplice fatto che nessuno conosce il futuro.
@@ -75,7 +73,11 @@ La natura profondamente economica e finanziaria dei social network centralizzati
 pagina 26: omofilia ed <em lang='en'>echo chambers</em>
 
 <div class='yellow box'>
-	C’è un problema del Fediverse collegato a questo: se le istanze si auto-moderano e si de-federano da ciò che non accettano o non tollerano, non si rischia di degenerare in un sistema di bolle che, seppur non create da un algoritmo, aumentano comunque l’incomunicabilità con il diverso?<br>D’altra parte, sarebbe eticamente corretto programmare ed inserire <em lang='en'>by design</em> un confronto con il differente? Possiamo applicare un concetto di <em>invisible hand</em> nel sociale?
+
+C’è un problema del Fediverse collegato a questo: se le istanze si auto-moderano e si de-federano da ciò che non accettano o non tollerano, non si rischia di degenerare in un sistema di bolle che, seppur non create da un algoritmo, aumentano comunque l’incomunicabilità con il diverso?
+
+D’altra parte, sarebbe eticamente corretto programmare ed inserire <em lang=en>by design</em> un confronto con il differente? Possiamo applicare un concetto di <em lang=en>invisible hand</em> nel sociale?
+
 </div>
 
 pagina 27: l’individuo non conosce la propria profilazione e la propria posizione all’interno del framework collettivo

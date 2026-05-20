@@ -1,14 +1,14 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-tags:
-  - outdated
-  - geek/sysad
+tags: [outdated, geek/sysad]
 description: This is a reference for installing Jitsi Meet from scratch on an Ubuntu server with no containers. Please note that **this guide is outdated**, and it is still published for archival purposes.
 ---
 {{ description }}
 
 <div class='blue box'>
-	Please refer to my <a href='Self-hosting%20logs.md' class=internal-link>self-hosting logs</a> for more context, and links to the updated practices I am following now.
+
+Please refer to my [Self-hosting logs](self-hosting%20logs.md) for more context, and links to the updated practices I am following now.
+
 </div>
 
 [installation guide](https://www.vultr.com/docs/install-jitsi-meet-on-ubuntu-20-04-lts 'Jitsi Meet installation guide - Vultr')
@@ -64,7 +64,9 @@ sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 ```
 
 <div class='yellow box'>
-	If something around here doesn’t work, no worries: just repeat the command, it should get fixed by itself
+
+If something around here doesn’t work, no worries: just repeat the command, it should get fixed by itself.
+
 </div>
 
 last tweaks should be done in here

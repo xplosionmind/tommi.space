@@ -15,5 +15,5 @@ https://youtu.be/aor29pGhlFE
 https://youtu.be/oItwDXraK1M
 
 <div class=embed>
-	<iframe src= https://media.ccc.de/v/why2025-246-the-state-of-ipv6/oembed title='The state of IPv6' allowfullscreen></iframe>
+	<iframe src=https://media.ccc.de/v/why2025-246-the-state-of-ipv6/oembed title='The state of IPv6' allowfullscreen></iframe>
 </div>

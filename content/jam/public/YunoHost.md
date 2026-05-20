@@ -39,7 +39,7 @@ To use [**`occ`**](https://docs.nextcloud.com/server/stable/admin_manual/configu
 
 ```bash
 sudo yunohost app shell nextcloud
-php8.3 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]
+php8.4 --define apc.enable_cli=1 /var/www/nextcloud/occ [command]
 ```
 
 ## Monitoring

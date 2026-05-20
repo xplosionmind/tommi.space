@@ -1,18 +1,16 @@
 ---
+title: Stop highlighting, start underlining
 date: 2020-12-11T01:00:00+01:00
 updated: 2022-03-14T14:50:24+01:00
-title: Stop highlighting, start underlining
 tags:
   - zen
   - wit
   - reading
-toc: false
 permalink: /underline/
 redirect_from:
   - /underlining/
-  - /stop-highlighting/
-  - /start-underlining/
   - /stop-highlighting-start-underlining/
+  - /u/
 ---
 Highlighting is strong, excessive, distracting, aggressive.  
 Underlining is soft, neat, light, instead.
@@ -39,5 +37,7 @@ An appendix for techies: as you may have noticed, underlined text in this websit
 ```
 
 <div class='yellow box'>
-	<strong>Note</strong>: keep in mind that by using the <code>*</code> selector in CSS, we automatically change also the <del>strikethrough color</del>
+
+**Note**: keep in mind that by using the `*` selector in CSS, we automatically change also the ~~strikethrough color~~
+
 </div>

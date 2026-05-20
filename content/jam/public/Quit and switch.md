@@ -1,24 +1,18 @@
 ---
 date: 2020-12-05T01:00:00+01:00
 updated: 2022-10-11T00:30:23+02:00
-aliases:
-  - Just quit
-  - Choose the alternative
-  - Go alternative
-  - Make the switch
-tags:
-  - geek
-  - zen
-description: Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it is for the best, it is worth it. Below some of the things I am quitting.
-image: /assets/just-quit.jpg
+aliases: [Make the switch, Just quit, Go alternative, Choose the alternative]
+tags: [zen, geek]
 permalink: /switch/
-redirect_from:
-  - /quit-and-switch/
-  - /quit-switch/
+redirect_from: [/quit-switch/, /quit-and-switch/]
+image: /assets/just-quit.jpg
+description: Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it is for the best, it is worth it. Below some of the things I am quitting.
 toc: false
 ---
 <div class='blue box'>
-	Most of the times, the best thing to do is to [just delete it](Delete%20an%20account.md)
+
+Most of the times, the best thing to do is to [just delete it](Delete%20an%20account.md).
+
 </div>
 
 - ✅ [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club)

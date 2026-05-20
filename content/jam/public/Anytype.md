@@ -1,16 +1,14 @@
 ---
 date: 2021-10-14T17:20:13+02:00
 updated: 2022-04-01T18:56:13+02:00
-tags:
-  - geek/apps
-  - wip
-description: A powerful knowledge management software, in early development
+tags: [wip, geek/apps]
 image: https://avatars.githubusercontent.com/u/50837219
+description: A powerful knowledge management software, in early development
+toc: true
 include: |-
   "<div class='blue box'>"
     <p>These are my notes, thoughts and doubts concerning the project, yet I have many more which I already <a href='https://community.anytype.io/u/tommi/activity' title='My “Activity” page on Anytype Community'>posted on Anytype community</a>. I formulated most of them during the Alpha Testers onboarding call in October 2021, but I almost never updated them since I am not using Anytype on a daily basis.</p>"
   </div>
-toc: true
 ---
 ## Open questions
 

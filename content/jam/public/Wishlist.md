@@ -1,41 +1,35 @@
 ---
 date: 2020-07-17
 updated: 2023-07-16T11:59:29+02:00
-aliases:
-  - Desideri
-  - Regali
-tags:
-  - track
+aliases: [Regali, Desideri]
+tags: [track]
+redirect_from: [/regali/, /desideri/]
 description: Stuff I need and things I just would love to have
-redirect_from:
-  - /desideri/
-  - /regali/
-toc: false
-main: true
 ---
 <div class='yellow box'>
-	Items are sorted in order of urgency and need.
+
+Items are sorted in order of urgency and need.
+
 </div>
 
-1. Kefiah
-2. Occhiali veloci
-3. Microfono ad archetto
-4. Sound card (Focusrite Scarlett 2i2)
-5. Studio microphone
-6. Backlight to scan negatives
-7. Thermometer for high temperatures designed for photographic development
-8. [Compact point-and-shoot camera](https://wired.com/gallery/best-compact-cameras 'Best compact camerad on WIRED')
-9. Watertight bag
-10. Ski mask
-11. Snowboard boots
-12. Radio Amateur Rig
-13. Full Frame mirrorless camera
-14. Green Screen
-15. Polaroid camera
-16. Snowboard
-17. Wetsuit
-18. Surf board
-19. ¾ guitar
+1. Occhiali veloci
+2. Microfono ad archetto
+3. Sound card (Focusrite Scarlett 2i2)
+4. Studio microphone
+5. Backlight to scan negatives
+6. Thermometer for high temperatures designed for photographic development
+7. [Compact point-and-shoot camera](https://wired.com/gallery/best-compact-cameras 'Best compact camerad on WIRED')
+8. Watertight bag
+9. Ski mask
+10. Snowboard boots
+11. Radio Amateur Rig
+12. Full Frame mirrorless camera
+13. Green Screen
+14. Polaroid camera
+15. Snowboard
+16. Wetsuit
+17. Surf board
+18. ¾ guitar
 
 ## Always welcomed gifts
 

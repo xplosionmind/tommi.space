@@ -40,7 +40,7 @@ It is troubling to recognise how much of the Western narrative has imbued a norm
 
 https://youtu.be/jG7dSXcfVqE
 
-As I grew older, possibly more mature, my view shifted to a wholesome, critical, and aware interpretation: the margin is the place, both abstract and material, where the most uncomfortable truths are shoved. The margins of the poor, the queer, the radicals, the neurodivergent, the BIPoC, the immigrants, the disabled, and all possible intersections of those. Even though this perspective implies a more mindful understanding of the world, it still pervaded me with a blind urgence to act, powered by rage and fuelled by white-saviourism. I wanted to change things, I wanted to make the world a better place. Even if shared with a community, the weight of this mission bore on my shoulders, and got me suffocating.
+As I grew older, possibly more mature, my view shifted to a wholesome, critical, and aware interpretation: the margin is the place, both abstract and material, where the most uncomfortable truths are shoved. The margins of the poor, the queer, the radicals, the neurodivergent, the BIPoC, the immigrants, the disabled, and all possible intersections of those. Even though this perspective implies a more mindful understanding of the world, it still pervaded me with a blind urgency to act, powered by rage and fuelled by white-saviourism. I wanted to change things, I wanted to make the world a better place. Even if shared with a community, the weight of this mission bore on my shoulders, and got me suffocating.
 
 <figure>
 	<img src=/assets/designers-osservano-cacca.jpg alt='A group of people looking at the icon of a pile of poo in Q-Sci, the typeface designed during XYZ, projected on a wall.'>

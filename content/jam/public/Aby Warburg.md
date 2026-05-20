@@ -1,16 +1,13 @@
 ---
 date: 2020-06-26
 updated: 2022-11-14T20:57:13+01:00
-tags:
-  - people
-  - philosophy
-  - filinge
-description: Una personalità incredibile dal genio inimitabile
+tags: [philosophy, people, filinge]
 image: https://www.warburg-haus.de/wp-content/uploads/aby-warburg-bio/010_1895_katchina-479x600.jpg
 lang: it
+description: Una personalità incredibile dal genio inimitabile
 include: |-
-  "<div class='yellow box'>"
-    "<p>Presi questi appunti seguendo il corso di [Filosofia dell’Ingegneria](/filinge/ 'Il blog che ho creato per il corso'). Dalle riflessioni che Warburg ha suscitato in me, è nato <a href='/mnemosyne/' title='Mnemosyne – tommi.space'>questo articolo</a>.</p>"
+  <div class='yellow box'>
+    <p>Presi questi appunti seguendo il corso di <a href=/filinge/ title='Il blog che ho creato per il corso'>Filosofia dell’Ingegneria</a>. Dalle riflessioni che Warburg ha suscitato in me, è nato <a href=/mnemosyne/ title='Mnemosyne – tommi.space'>questo articolo</a>.</p>
   </div>
 ---
 Acquistava i libri in duplice copia: una veniva tenuta in biblioteca, dell’altra venivano scomposte le pagine e messe in relazione a quelle di altri volumi.

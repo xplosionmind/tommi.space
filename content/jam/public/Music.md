@@ -1,15 +1,16 @@
 ---
 date: 2021-01-12T01:00:00+01:00
 updated: 2024-01-19T13:20:02+01:00
-tags:
-  - music
-main: true
-description: Insights about music when made, played, or listened
-image: /assets/cubo-guitar.webp
 location: In my headphones
+tags: [music]
+image: /assets/cubo-guitar.webp
+description: Insights about music when made, played, or listened
+main: true
 ---
 <div class='blue box'>
-	The soundtrack of my existence is in <cite>[Xplosion Music](Xplosion%20Music.md)</cite>.
+
+The soundtrack of my existence is in <cite>[Xplosion Music](Xplosion%20Music.md)</cite>.
+
 </div>
 
 ## Thoughts

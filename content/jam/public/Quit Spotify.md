@@ -1,15 +1,11 @@
 ---
 date: 2020-11-07T01:00:00+01:00
 updated: 2022-07-17T19:04:08+02:00
-aliases: Quitting Spotify
-tags:
-  - geek
-  - wip
+aliases: [Quitting Spotify]
+tags: [wip, geek]
+redirect_from: [/spotify/]
 description: Thoughts and decisions about quitting Spotify
-redirect_from:
-  - /spotify/
-todo:
-  - refactor/update
+todo: [refactor/update]
 ---
 <div class='yellow box'>
 	<strong>Update</strong>: I figured I have to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang=it>e basta</i>, without having to waste time on a better way to do it.<br>
@@ -19,7 +15,9 @@ todo:
 Quitting Spotify is hard. It is **very** hard, not only because it is convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn’t enough: it’s necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
 
 <div class='blue box'>
-	Quitting Spotify is one of the steps of the path to [Internet Freedom](Internet%20Freedom.md), and it follows the “[Quit and switch](Quit%20and%20switch.md)” philosophy.
+
+Quitting Spotify is one of the steps of the path to [Internet Freedom](Internet%20Freedom.md), and it follows the “[Quit and switch](Quit%20and%20switch.md)” philosophy.
+
 </div>
 
 ## Why
