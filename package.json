@@ -2,12 +2,6 @@
 	"name": "tommi.space",
 	"version": "2.0.0",
 	"description": "Tommi’s personal website",
-	"scripts": {
-		"eleventy:watch": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
-		"eleventy:build": "ELEVENTY_ENV=production eleventy",
-		"sass:watch": "sass --watch --style=compressed styles:www",
-		"sass:build": "sass --style=compressed styles/:www"
-	},
 	"type": "module",
 	"repository": {
 		"type": "git",
@@ -35,26 +29,5 @@
 	"bugs": {
 		"url": "https://github.com/xplosionmind/tommi.space/issues"
 	},
-	"homepage": "https://tommi.space",
-	"dependencies": {
-		"@11ty/eleventy": "^3.1.5",
-		"@11ty/eleventy-dev-server": "^3.0.0-alpha.6",
-		"@11ty/eleventy-img": "^6.0.4",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-		"@saiballo/eleventy-plugin-validate-html": "^1.0.4",
-		"@uncenter/eleventy-plugin-toc": "^2.1.2",
-		"csv-parse": "^6.2.1",
-		"eleventy-plugin-embed-everything": "^1.21.2",
-		"eleventy-plugin-robotstxt": "^1.0.2",
-		"html-minifier-next": "^6.2.6",
-		"js-yaml": "^4.1.1",
-		"markdown-it-anchor": "^9.2.0",
-		"markdown-it-attrs": "^4.3.1",
-		"markdown-it-footnote": "^4.0.0",
-		"markdown-it-mark": "^4.0.0",
-		"markdown-it-task-lists": "^2.1.1",
-		"pagefind": "^1.5.2",
-		"sass": "^1.99.0",
-		"utopia-core-scss": "^1.3.1"
-	}
+	"homepage": "https://tommi.space/"
 }
