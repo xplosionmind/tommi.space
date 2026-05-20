@@ -51,6 +51,7 @@ lite-youtube {
 	box-shadow: var(--btn-shadow);
 	text-align: center;
 	hyphens: none;
+	border: none;
 	&:hover,
 	&:focus {
 		box-shadow: none;
@@ -337,6 +338,26 @@ details {
 	border-radius: $radius-m;
 	margin-bottom: var(--space-m);
 }
+
+#guestbook {
+	&-form {
+		margin-bottom: var(--space-m);
+		input, textarea {
+			display: block;
+			margin: .5em;
+		}
+	}
+	&-messages {
+		blockquote {
+			margin: 0;
+			p {
+				margin: 1em 0 0 0;
+				line-height: 1.2;
+			}
+		}
+	}
+}
+
 
 /*#free-palestine {
 	font-weight: 800;

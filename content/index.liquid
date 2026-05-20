@@ -99,31 +99,48 @@ head: '<noscript><style>#scrollToMain{display: none;}</style></noscript>'
 
 	{% render 'webrings.liquid', lang: lang %}
 
-	{% comment %}Blocked by #BUG #130
-	<article id='changelog' class='wide center'>
-		<div class='flex'>
-			<h2 class='wavyBackgroundGreen'>Recently updated</h2>
-		</div>
-		<div class='grid'>
-			{% for entry in collections.lastUpdated limit: 8 %}
-					<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-						<h3>{{ entry.data.title }}</h3>
-						<p>
-							{% if entry.data.location %}{{ entry.data.location }}, {% endif %}
-							{% if entry.data.updated %}
-								<time datetime='{{ entry.data.updated | date_to_xmlschema }}'>{{ entry.data.updated | date_to_string }}</time>
-							{% else %}
-								<time datetime='{{ entry.date | date_to_xmlschema }}'>{{ entry.date | date_to_string }}</time>
-							{% endif %}
-						</p>
-					</a>
-			{% endfor %}
-		</div>
-		<div class='flex'>
-			<a class='green margin button' href='{{ site.changelog }}' title='tommi.space commits on giTMI'>code changelog</a>
-		</div>
-	</article>
-	{% endcomment %}
+	<div class='wide box'>
+		<h2 class=center>Guestbook</h2>
+		<form id=guestbook-form action=https://guestbook.tommi.space/guestbook/1/submit method=post>
+			<input
+				type=text
+				id=name
+				name=name
+				placeholder='Your name'
+				required>
+			<input
+				type=url
+				id=website
+				name=website
+				placeholder='Link to your website / social media profile'>
+			<textarea
+				id=text
+				name=text
+				placeholder='Leave your message here. (Markdown supported)'
+				rows=4
+				required></textarea>
+			<input class='red button' type=submit value='Sign guestbook'>
+		</form>
+		<article id=guestbook-messages>
+			<h3 class=center>Past messages</h3>
+			<div class=grid>
+				{% for message in guestbook.messages %}
+					<div class=box>
+						<dl>
+							<dt>From:</dt>
+							<dd>{% if message.Website %}<a href={{ message.Website }} title='{{ message.Name }}’s website'>{{ message.Name }}</a>{% else %}{{ message.Name }}{% endif %}</dd>
+							<dt>On:</dt>
+							<dd><time datetime={{ message.CreatedAt }}>{{ message.CreatedAt | date_to_long_string }}</dd>
+						</dl>
+						<blockquote>
+							<p>{{ message.Text | markdownify }}</p>
+						<blockquote>
+					</div>
+				{% endfor %}
+			</div>
+		</article>
+	</div>
+
 </main>
 
 <script>
