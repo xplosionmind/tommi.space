@@ -7,5 +7,7 @@ export default function () {
 			duration: '1s',
 			type: 'json',
 		});
+	} catch (e) {
+		console.error('Guestbook error:', e);
 	}
 };
