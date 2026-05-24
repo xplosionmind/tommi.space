@@ -27,7 +27,10 @@ Initially, I considered using [Proxmox](Proxmox.md), but it would have been over
 
 ### Dynamic DNS
 
-#TODO)) Avoid using [DuckDNS](https://duckdns.org), which relies on AWS.
+#TODO)) Avoid using [DuckDNS](https://duckdns.org), which relies on AWS. I see two possible options:
+
+- [ddns-updater](https://github.com/qdm12/ddns-updater/blob/master/docker-compose.yml)
+- [deSEC](https://desec.io/?domainType=dynDNS)
 
 #### Alternatives
 
