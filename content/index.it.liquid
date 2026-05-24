@@ -110,22 +110,53 @@ sitemap:
 
 	{% render 'webrings.liquid', lang: lang %}
 
-	{% comment %}Blocked by #BUG #130
-	<article id='changelog' class='wide center'>
-		<div class='flex'>
-			<h2 class='wavyBackgroundGreen'>Ultime modifiche</h2>
-		</div>
-		<div class='grid'>
-			{% for entry in collections.lastUpdated limit: 8 %}
-				<a class='little box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
-					<h3>{{ entry.data.title }}</h3>
-					<p>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}{% if entry.data.updated %}<time datetime='{{ entry.data.updated | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.updated %}{% else %}<time class='dt-published' datetime='{{ entry.data.date | date_to_xmlschema }}'>{% render 'date-it.liquid', date: entry.data.date %}{% endif %}</time></p>
-				</a>
-			{% endfor %}
-		</div>
-		<div class='flex'>
-			<a class='green margin button' href='{{ site.changelog }}' title='Modifiche al codice di tommi.space'>Modifiche al codice</a>
-		</div>
-	</article>
-	{% endcomment %}
+	<div class='wide box'>
+		<h2 class=center lang=en>Guestbook</h2>
+		<form id=guestbook-form action=https://guestbook.tommi.space/guestbook/1/submit method=post>
+			<input
+				type=text
+				id=name
+				name=name
+				placeholder='Il tuo nome'
+				required>
+			<input
+				type=url
+				id=website
+				name=website
+				placeholder='Link al tuo sito web / social media'>
+			<textarea
+				id=text
+				name=text
+				placeholder='Lascia qui il tuo messaggio. (Markdown supportato)'
+				rows=4
+				required></textarea>
+			<label for=challengeQuestionAnswer>Prova che sei umanə: scrivi “Italia” in inglese:</label>
+			<input
+				type=text
+				id=challengeQuestionAnswer
+				name=challengeQuestionAnswer
+				placeholder=I...y
+				required>
+			<input class='red button' type=submit value='Firma il guestbook'>
+		</form>
+		<article id=guestbook-messages>
+			<h3 class=center>Messaggi passati</h3>
+			<div class=grid>
+				{% for message in guestbook.messages %}
+					<div class=box>
+						<dl>
+							<dt>Da:</dt>
+							<dd>{% if message.Website %}<a href={{ message.Website }} title='{{ message.Name }}’s website'>{{ message.Name }}</a>{% else %}{{ message.Name }}{% endif %}</dd>
+							<dt>Il:</dt>
+							<dd><time datetime={{ message.CreatedAt }}>{% render 'date-it.liquid', date: message.CreatedAt %}</dd>
+						</dl>
+						<blockquote>
+							<p>{{ message.Text | markdownify }}</p>
+						<blockquote>
+					</div>
+				{% endfor %}
+			</div>
+		</article>
+	</div>
+
 </main>
