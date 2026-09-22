@@ -9,9 +9,11 @@
 		{% endfor %}
 	{% endif %}
 
-	{% render 'head.liquid', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: image, type: type, head: head, cssNaked: cssNaked %}
+	{% render 'head.liquid', latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout, isNote: isNote, isPost: isPost, tommi: tommi, image: imag, og_image: og_image, stylesheet: stylesheet, type: type, head: head, cssNaked: cssNaked %}
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
+
+		<a class=ai-ribbon target=_blank href=https://keepitfree.ai/{%- if lang == 'it' -%}it/>Teniamo Internet Libero!{%- else -%}>Keep the Internet free!{%- endif -%}</a>
 
 		{% if cssNaked %}
 			{% render 'css-naked.liquid', lang: lang %}
