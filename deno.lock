@@ -15,6 +15,7 @@
     "npm:js-yaml@^4.1.1": "4.1.1",
     "npm:markdown-it-anchor@^9.2.0": "9.2.0_markdown-it@14.2.0",
     "npm:markdown-it-attrs@^4.5.0": "4.5.0_markdown-it@14.2.0",
+    "npm:js-yaml@^5.4.2": "5.4.2",
     "npm:markdown-it-footnote@4": "4.0.0",
     "npm:markdown-it-mark@4": "4.0.0",
     "npm:markdown-it-task-lists@^2.1.1": "2.1.1",
@@ -1128,7 +1129,7 @@
     "front-matter@4.0.2": {
       "integrity": "sha512-I8ZuJ/qG92NWX8i5x1Y8qyj3vizhXS31OxjKDu3LKP+7/qBgfIKValiZIEwoVoJKUHlhWtYrktkxV1XsX+pPlg==",
       "dependencies": [
-        "js-yaml@3.14.2"
+        "js-yaml@3.15.2"
       ]
     },
     "fsevents@2.3.3": {
@@ -1186,7 +1187,7 @@
     "gray-matter@4.0.3": {
       "integrity": "sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==",
       "dependencies": [
-        "js-yaml@3.14.2",
+        "js-yaml@3.15.2",
         "kind-of",
         "section-matter",
         "strip-bom-string"
@@ -1337,16 +1338,23 @@
         "@pkgjs/parseargs"
       ]
     },
-    "js-yaml@3.14.2": {
-      "integrity": "sha512-PMSmkqxr106Xa156c2M265Z+FTrPl+oxd/rgOQy2tijQeK5TxQ43psO1ZCwhVOSdnn+RzkzlRz/eY4BgJBYVpg==",
+    "js-yaml@3.15.2": {
+      "integrity": "sha512-6EuL879VkRA+1Cz578mKMiKvjPNEuk6+r1JaFzoSWejZmtf7xWbIyw1e3KkxlkzTIt9Taw6JBhEppG7utc1P+w==",
       "dependencies": [
         "argparse@1.0.10",
         "esprima"
       ],
       "bin": true
     },
-    "js-yaml@4.1.1": {
-      "integrity": "sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==",
+    "js-yaml@4.3.2": {
+      "integrity": "sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==",
+      "dependencies": [
+        "argparse@2.0.1"
+      ],
+      "bin": true
+    },
+    "js-yaml@5.4.2": {
+      "integrity": "sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==",
       "dependencies": [
         "argparse@2.0.1"
       ],
@@ -2024,9 +2032,9 @@
       "npm:eleventy-plugin-embed-everything@^1.21.2",
       "npm:eleventy-plugin-robotstxt@^1.0.2",
       "npm:html-minifier-next@^6.2.7",
-      "npm:js-yaml@^4.1.1",
       "npm:markdown-it-anchor@^9.2.0",
       "npm:markdown-it-attrs@^4.5.0",
+      "npm:js-yaml@^5.4.2",
       "npm:markdown-it-footnote@4",
       "npm:markdown-it-mark@4",
       "npm:markdown-it-task-lists@^2.1.1",
