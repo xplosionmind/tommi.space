@@ -49,7 +49,7 @@ head: '<noscript><style>#scrollToMain{display: none;}</style></noscript>'
 				<a class='purple button u-url' href='/now' title='What I am doing now'>Now</a>
 				<a class='blue button u-email' href='mailto:{{ site.author.email | obfuscateEmail }}' rel='me' title='Write me an email'>Email me</a>
 			</div>
-			<p><small>Please, use <a class='u-key' href='https://mail-api.proton.me/pks/lookup?op=get&search={{ site.author.email }}' rel='pgpkey authn'>my PGP key</a></small>!</p>
+			<p><small>Please, use <a class='u-key' href='/{{ site.author.email }}.asc' rel='pgpkey authn'>my PGP key</a></small>!</p>
 		</div>
 	</article>
 

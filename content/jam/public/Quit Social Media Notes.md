@@ -251,7 +251,7 @@ Vi prego di leggerlo e di condividerlo con il mondo, ma soprattutto di farmi sap
 
 Lo potete esplorare su https://quitsocialmedia.club.
 
-Se non avete voglia di leggere, ho dedicato una puntata del mio podcast, _Sconnesso_, alla lettura della pagina principale, in cui sono riassunte tutte le motivazioni per cui dovremmo abbandonare i Social. La trovate su https://quitsocialmedia.sconnesso.link
+Se non avete voglia di leggere, ho dedicato una puntata del mio podcast, _Sconnesso_, alla lettura della pagina principale, in cui sono riassunte tutte le motivazioni per cui dovremmo abbandonare i Social. La trovate su https://tommi.space/sconnesso/qsm/
 
 Vi sarò eternamente riconoscente per qualunque vostro contributo.
 Un abbraccio
@@ -260,7 +260,7 @@ Un abbraccio
 ```
 Dopo circa 150 interminabili ore di lavoro, ho completato https://quitsocialmedia.club. Sarei felicissimo se mi deste un feedback.
 
-Se non avete voglia di leggere, ho dedicato una puntata del mio podcast, _Sconnesso_, all’argomento. La trovate su https://quitsocialmedia.sconnesso.link
+Se non avete voglia di leggere, ho dedicato una puntata del mio podcast, _Sconnesso_, all’argomento. La trovate su https://tommi.space/sconnesso/qsm/
 
 Contemporaneamente, abbandonerò tutte le piatteforme Social annoverate lì sopra.
 ```

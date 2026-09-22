@@ -68,7 +68,7 @@
 	{% for account in accounts limit: 12 %}
 		<link rel='me{{ account.attributes }}' href='{{ account.url }}' title='Tommi on {{ account.platform }}'>
 	{% endfor %}
-	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search={{ site.author.email }}'>
+	<link rel='me pgpkey' href='/{{ site.author.email }}.asc'>
 
 	<!-- RSS Feeds -->
 	{% if lang == 'it' %}
