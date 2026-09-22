@@ -1,7 +1,7 @@
 ---
 date: 2026-03-21T18:30:00+01:00
-updated: 2026-04-12T18:12:03+02:00
-tags: [wip, geek/sysad]
+updated: 2026-06-23T23:25:00+02:00
+tags: [geek/sysad]
 description: Notes on installing and managing Caddy.
 ---
 I found [Caddy](https://caddyserver.com) installation and usage to be as simple as advertised. The official documentation covered most if not all of my use cases.
@@ -10,10 +10,49 @@ I am taking some further notes below.
 
 ## Run Caddy in a container
 
-1. Get [the official compose.yml boilerplate](https://caddyserver.com/docs/running#docker-compose)
-2. `podman network create caddy`
+I converted [the official compose.yml boilerplate](https://caddyserver.com/docs/running#docker-compose) to a [quadlet](Podman.md#Quadlets) and I adapted it to my needs, as follows.
 
-#TODO)) Use Quadlet instructions
+```systemd
+[Container]
+ContainerName=caddy
+Image=docker.io/caddy:latest
+AutoUpdate=registry
+PublishPort=80:80
+PublishPort=443:443
+PublishPort=443:443/udp
+Volume=/home/tommi/containers/caddy/config:/etc/caddy
+Volume=/home/tommi/containers/caddy/site:/srv
+Volume=caddy_data:/data
+Volume=caddy_config:/config
+
+Environment=tz="Europe/Amsterdam"
+
+Network=giardino
+
+[Service]
+Restart=always
+
+[Install]
+WantedBy=default.target
+```
+
+If all containers belong to the same network (see below), it is possible to invoke them by their name. For example:
+
+```
+tool.tommi.space {
+	container-name:8765
+}
+```
+
+where the port has to be changed according to the container’s exposed port.
+
+## Rootless networking
+
+Add the following line to `/etc/sysctl.conf`:
+
+```systemd
+net.ipv4.ip_unprivileged_port_start=80
+```
 
 ## Blocking/Poisoning AI bots
 
@@ -35,5 +74,9 @@ Nevertheless, it was not because of performance that I chose to uninstall Iocain
 
 Other options I found but didn’t have the time to test, yet:
 
-- [Caddy Defender Plugin](https://defender.jasoncameron.dev/) – <q>a middleware for Caddy that allows you to block or manipulate requests based on the client's IP address. It is particularly useful for preventing unwanted traffic or polluting AI training data by returning garbage responses.</q>
-- [miasma](https://github.com/austin-weeks/miasma 'austin-weeks/miasma repository on GitHub') – Trap AI web scrapers in an endless poison pit. 
+- [Caddy Defender Plugin](https://defender.jasoncameron.dev/) – <q>a middleware for Caddy that allows you to block or manipulate requests based on the client's IP address. It is particularly useful for preventing unwanted traffic or polluting AI training data by returning garbage responses.</q> **I cannot use it because it does not work in ARM architectures**.
+- [miasma](https://github.com/austin-weeks/miasma 'austin-weeks/miasma repository on GitHub') – Trap AI web scrapers in an endless poison pit.
+
+### Outside of the Web Server
+
+#TODO I still have to explore it, but I may consider blocking malicious IPs not through the web server, but [with nftables](Linux%20firewall.md#Blocklist%20automation).

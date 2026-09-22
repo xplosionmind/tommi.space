@@ -1,21 +1,20 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2025-10-20T10:51:00+02:00
-aliases:
-  - Xplosion Server
-  - Server
-  - Neb
-tags:
-  - geek/sysad
-  - wip
+updated: 2026-07-27T08:32:23+02:00
+aliases: [Xplosion Server, Server, Neb]
+tags: [wip, geek/sysad]
 permalink: /neb/
-redirect_from:
-  - /server/
+redirect_from: [/server/]
 description: Information and insights concerning the configuration and maintenance of Tommi’s server.
+toc: true
 ---
-<cite>Nebuchadnezzar</cite> (<q>Neb</q> for friends) is my main server, where I host most of my software and services, plus a few community apps, all thanks to the sublime [YunoHost](https://yunohost.org 'YunoHost'). It’s a <abbr title='Virtual Private Server'>VPS</abbr> located in Dusseldorf (DE) I rent from [Contabo](https://contabo.com).
+<cite>Nebuchadnezzar</cite> (<q>Neb</q> for friends) is my main server, where I host most of my software and services.
 
-Years ago, I started self-hosting to pursue the mission of a quite utopistic and clueless mission of personal digital liberation. I now see that, as [Boris Mann](https://cosocial.ca/@bmann) puts it, <q>self-hosting is selfish</q>, and I am shifting my perspective towards a more collective, communal, choral, and, above all, **politically aware** mission.
+<div class='red box'>
+
+I am now in the process of [moving away from YunoHost](I%20am%20moving%20away%20from%20YunoHost.md), thus [migrating to system administration with Podman containers](Migrating%20from%20YunoHost%20to%20Podman%20containers.md). Nebuchadnezzar might go down for a bit in the coming weeks.
+
+</div>
 
 This page mostly focuses on technical aspects and quick sparse notes, as I am devoting most of my energy towards more in-person, participatory, and somewhat intimate practices and endeavours, mainly [XPUB Projects](Research%20project%20ideas.md) and <cite>[Knitting Our Internet](https://ournet.rocks)</cite>.
 

@@ -1,15 +1,19 @@
 ---
 date: 2026-04-15T14:39:00+02:00
-aliases:
-  - Projects that May Or May not be Made
-tags:
-  - XPUB
-  - wip
+updated: 2026-09-17T10:55:55+02:00
+aliases: [Projects that May Or May not be Made]
+tags: [XPUB, wip]
+description: <cite>Projects that May Or May not be Made</cite> are ideas to be explored to stimulate creative experiments at [XPUB](https://xpub.nl).
+wiki_title: User:Tommi/Projects that May Or May not be Made
 toc: true
 ---
-<cite>Projects that May Or May not be Made</cite> are ideas to be explored to stimulate creative experiments at [XPUB](https://xpub.nl).
+{{ description }}
 
 Here are mine:
+
+## <cite lang=it>Legarsi ai caruggi</cite>
+
+![Legarsi ai caruggi](Legarsi%20ai%20caruggi.md)
 
 ## Fediverse Join Party
 
@@ -17,15 +21,15 @@ Here are mine:
 
 ## The Art of Asking your Friend to join the Fediverse
 
-#TODO Continue [The Art of asking your friend to join the Fediverse](The%20Art%20of%20asking%20your%20friend%20to%20join%20the%20Fediverse.md)
-
-## Crossovers
- 
- #TODO Complete [Crossovers](Crossovers.md)
+![The Art of asking your friend to join the Fediverse](The%20Art%20of%20asking%20your%20friend%20to%20join%20the%20Fediverse.md)
 
 ## The Trip
  
- #TODO Complete [The Trip](The%20Trip.md)
+ ![The Trip](The%20Trip.md)
+
+## The Tool Library
+
+![The Tool Library](The%20Tool%20Library.md)
 
 ## <em lang=it>L’Almanacco del Giorno</em>
 
@@ -33,18 +37,8 @@ Here are mine:
 
 ## Playing with metaphors
 
-#TODO
-
-- Decentralization metaphors — Fediverse Proselitism and Open Internet advocacy
-
-## Reticulating
-
-#TODO
-
-## The Tool Library
-
-![The Tool Library](The%20Tool%20Library.md)
+#TODO Decentralization metaphors — Fediverse Proselitism and Open Internet advocacy
 
 ## Original research project ideas from when I joined XPUB
 
-![Research project ideas](../private/Research%20project%20ideas.md)
+![Research project ideas](Research%20project%20ideas.md)

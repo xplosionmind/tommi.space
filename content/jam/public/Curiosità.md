@@ -1,9 +1,12 @@
 ---
 date: 2021-08-12T11:19:18.015547+02:00
 updated: 2023-01-24T22:29:24+01:00
-aliases: ['Curiosity']
+aliases:
+  - Curiosity
 tags: topic
-redirect_from: ['/curiosity/']
+redirect_from:
+  - /curiosity/
+lang: it
 ---
 La curiosità non è una qualità naturale, soprattutto non deve essere considerata come un dato di fatto.
 

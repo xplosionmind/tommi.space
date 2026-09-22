@@ -26,6 +26,10 @@ Most, virtually all, the legal procedures in the Netherlands hinge on being regi
 	<p>Ho seguito <a href='https://amblaja.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/anagrafe-degli-italiani-residenti-allestero-aire/3-come-iscriversi-allaire/'>le informazioni sul sito dell’ambasciata italiana a L’Aja</a></p>
 </div>
 
+## Looking for a home
+
+![Looking for a home in Rotterdam](Looking%20for%20a%20home%20in%20Rotterdam.md)
+
 ## University
 
 Academic registration, application, and enrollment is handled via [Studielink](https://studielink.nl).
@@ -69,9 +73,17 @@ Read my [tales from XPUB](Tales%20from%20XPUB.md).
 
 ![Healthcare in the Netherlands](../XPUB/Healthcare%20in%20the%20Netherlands.md)
 
-## Biobulkbende
+## Food
+
+### BioBulkBende Food Cooperative
 
 ![Biobulkbende Food Coop](Biobulkbende%20Food%20Coop.md)
+
+### Veggies Without Borgers
+
+The evening of Wednesday 16<sup>th</sup> September 2026 [Noa](https://pzwiki.wdka.nl/mediadesign/User:NoaLo%C3%ABla 'User:NoaLoëla on the XPUB Wiki') brought me and a group of other XPUB1 students to a [free dinner](https://radar.squat.net/en/event/rotterdam/rotterdam-alternative-events/2026-09-16/veggies-without-borders-free-dinners) organised by the collective <cite>[Veggies Without Borders](https://www.groentenzondergrenzen.nl/)</cite>. It was super cosy and welcoming, and the food was super tasty!
+
+Free dinners are every Wednesday at 19:00, I will definitely try to go from time to time, hopefully also volunteering for some tasks.
 
 ## Yoga classes
 

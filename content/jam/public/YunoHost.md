@@ -2,6 +2,9 @@
 date: 2022-01-01
 tags: [wip, geek/sysad]
 ---
+## I am moving away from YunoHost
+
+![I am moving away from YunoHost](I%20am%20moving%20away%20from%20YunoHost.md)
 ## Changing the default shell to zsh
 
 See [this guide on the YunoHost forum](https://forum.yunohost.org/t/tuto-comment-installer-oh-my-zsh-how-to-install-oh-my-zsh '[Tuto] Comment installer Oh My Zsh / How to install Oh My Zsh | YunoHost Forum'). **Note:** YunoHost requires a different procedure than a regular Debian server.

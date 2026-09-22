@@ -20,15 +20,6 @@ Clarifying general terms and conditions is very important, to send alongside the
 
 LIABILITY insurance. They are cheap and useful.
 
-
-## Type of work
-
-- Technical consultancy
-- Community management and communication
-- Art work?
-- Grants like Stimuleringfonds
-
-
 ## Invoicing
 
 After everything is done, the one thing I could not find in the tons of information I got from KvK was **how tf to create an invoice?**
@@ -42,3 +33,10 @@ Apparently you make it yourself…
 ## Accountant
 
 I am still unsure if I should pay for an accountant. [Marco](https://marcopagan.com/ 'Marco Pagan') suggested the iconic <cite>[Tim The Taxman](https://www.timthetaxman.nl/)</cite>, 400€/y VAT excl.
+
+## Contracts
+
+Resources for fair work contracts:
+
+- [Labour Rights in the Netherlands - Vrije Bond](https://www.vrijebond.org/vrije-bond-arbeid/labour-rights-in-the-netherlands/)
+- [Free legal advice – Het Juridisch Loket](https://www.juridischloket.nl/en/)

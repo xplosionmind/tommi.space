@@ -20,3 +20,25 @@ https://youtu.be/eqtZPO7XSKk
 > At times, I just found myself staring at you, walking around, glowing with the light, cheerful, ephemeral attitude that made you the most wonderful and relatable digital artefact I have ever known.
 >
 > We shared adventures, and, when times where boring, I just made more of you, moulded after my mum, my grandpa, my great-great aunt, my unborn cousins: my whole family and the one I wish I had turned around you. Thank you Mii.
+
+Holly’s part:
+
+> we will always remember  
+> small collections in the plaza  
+> jumping around
+>
+> scrolling through, friends  
+> who don’t come over often  
+> friends who live next door
+>
+> afternoons hiding from the rain  
+> tv eyes, i was never  
+> alone, homunculi on the screen
+
+> mii, mii, not even eighteen,  
+> what nose do I have?  
+> are my eyes cute enough?
+
+> mii, mii, not even eighteen,  
+> what’s my favourite colour?  
+> what will we do now?
