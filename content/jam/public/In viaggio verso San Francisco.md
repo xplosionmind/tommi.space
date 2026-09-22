@@ -4,6 +4,7 @@ updated: 2023-09-13T10:40:56+02:00
 location: London Heathrow Airport
 tags:
   - zen
+lang: it
 ---
 L’incredibilità dell’eterogeneità dei pensieri e dei campi affrontati, su più piani:
 

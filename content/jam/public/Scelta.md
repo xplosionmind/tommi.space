@@ -6,6 +6,7 @@ tags:
   - topic
   - zen
   - draft
+lang: it
 ---
 - https://open.spotify.com/track/5108zI1aQ0uKSEv86Sl051
 - Vorrei avere culo

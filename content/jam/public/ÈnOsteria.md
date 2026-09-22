@@ -1,9 +1,10 @@
 ---
 date: 2026-05-10T03:45:12+02:00
-tags: [place]
+tags:
+  - place
 lang: it
 description: La più magica, speciale, indimenticabile, brillante osteria della Val di Fiastra.
-alias: Da Anna
+aliases: Da Anna
 location: ÈnOsteria
 ---
 {{ description }}

@@ -1,11 +1,12 @@
 ---
 date: 2023-02-24T11:46:34+01:00
 updated: 2024-08-20T14:41:20+02:00
-aliases: [tommi.pics, Homelab, DIY Home Server]
+aliases: [tommi.pics]
 tags: [geek/sysad]
-redirect_from: [/photoprism/, /dyi-home-server/]
+redirect_from: [/photoprism/]
 description: Notes and insights about running a DYI server in my grandparents’ home.
 toc: true
+include: <div class='yellow box'><p>There is a more recent endeavour for my media library self-hosting, codenamed <cite><a href=/bocia/>Bocia</a></cite></p></div>
 ---
 I embrace and adopt the principles of self-hosting, and I mainly do it on [Nebuchadnezzar](Nebuchadnezzar.md), a Virtual Private Server hosted by [Contabo](https://contabo.com 'Contabo'), in Duesseldorf, Germany. I am very proud of this, and this is already a very big step towards digital independence. Still, all of what lives in <cite title='Nebuchadnezzar'>Neb</cite> actually is in [someone else’s computer](https://fsfe.org/contribute/spreadtheword.html#nocloud '“There is no cloud…” on FSFE’s website'), even though I fully control it.
 

@@ -3,6 +3,7 @@ date: 2021-01-20
 updated: 2022-11-14T20:54:29+01:00
 tags:
   - reading/book
+lang: it
 ---
 > in realtà l’innovazione tecnologica non riduce la quantità di lavoro ma innalza standard qualitativi della produzione come spiega con efficacia il giornalista Oliver Burkeman
 

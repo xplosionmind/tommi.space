@@ -5,9 +5,9 @@ aliases:
   - Tales of Precariousness in Capitalism – Screenings at B.a.d
 tags:
   - idea
-  - wip
   - cinema
   - place/Rotterdam
+  - dropped
 location: B.a.d Foundation
 description: Information and ideas for screenings of movies about precariousness and homelessness, for my guest residency at Foundation B.a.d.
 permalink: /bad-rent/

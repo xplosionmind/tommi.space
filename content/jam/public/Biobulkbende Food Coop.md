@@ -1,8 +1,7 @@
 ---
 date: 2025-10-06T18:00:00+01:00
 tags: [place/Rotterdam, coop]
-permalink: /bbb/
-redirect_from: [/biobulkbende/]
+permalink: [/biobulkbende/]
 ---
 I joined the [Biobulkbende](https://biobulkbende.org/en) food cooperative in October 2025. It is great to buy organic food in a sustainable way, prioritising what is produced locally, and fostering direct connections with producers, even though food is mainly bought via [Odin](https://www.odin.nl/).
 

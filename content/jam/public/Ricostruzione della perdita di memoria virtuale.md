@@ -2,9 +2,9 @@
 date: 2021-02-16T21:42:02+01:00
 updated: 2021-02-16T21:42:02+01:00
 tags: log
-description:
-  <em>Frammenti ritrovati nella scatola nera del mio cervello, per ricostruire il sorprendente reset automatico compiuto dal mio telefono senza miei interventi il 15 febbraio 2021</em>.
+description: <em>Frammenti ritrovati nella scatola nera del mio cervello, per ricostruire il sorprendente reset automatico compiuto dal mio telefono senza miei interventi il 15 febbraio 2021</em>.
 aliases: Ricostruzione di una tragedia
+lang: it
 ---
 Campo Santa Margherita, Bar Orange. L’indossare dei guanti di lana enormi, insieme ad un particolarmente affascinante tramonto, mi portatono a ostentare la mia perizia nello scattare una foto premendo con il naso il tasto dell’otturatore sullo schermo del mio telefono.
 
