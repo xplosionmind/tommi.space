@@ -25,7 +25,7 @@
 					{% if activity.start and endDay != startDay %}
 						<time datetime='{{ activity.start | date_to_xmlschema }}'>
 							{% if lang == 'it' %}
-								{% render 'date-it.liquid', date: activity.start %}
+								{% render 'date-it.liquid', date: activity.start, abbr: true %}
 							{% else %}
 								{{ activity.start | date: '%-d %b' }}
 							{% endif %}
@@ -33,7 +33,7 @@
 					{% endif %}
 					<time datetime='{{ activity.end | date_to_xmlschema }}'>
 						{% if lang == 'it' %}
-							{% render 'date-it.liquid', date: activity.end %}
+							{% render 'date-it.liquid', date: activity.end, abbr: true %}
 						{% else %}
 							{{ activity.end | date: '%-d %b' }}
 						{% endif %}

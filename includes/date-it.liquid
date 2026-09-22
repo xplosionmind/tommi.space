@@ -1,17 +1,24 @@
 {{ date | date: '%-d ' }}
-{% assign mese = date | date: '%m' %}
-{%- case mese -%}
-	{% when '01' %}gennaio
-	{% when '02' %}febbraio
-	{% when '03' %}marzo
-	{% when '04' %}aprile
-	{% when '05' %}maggio
-	{% when '06' %}giugno
-	{% when '07' %}luglio
-	{% when '08' %}agosto
-	{% when '09' %}settembre
-	{% when '10' %}ottobre
-	{% when '11' %}novembre
-	{% when '12' %}dicembre
-{%- endcase -%}
+{% assign mese_original = date | date: '%m' %}
+{%- capture mese -%}
+	{%- case mese_original -%}
+		{% when '01' %}gennaio
+		{% when '02' %}febbraio
+		{% when '03' %}marzo
+		{% when '04' %}aprile
+		{% when '05' %}maggio
+		{% when '06' %}giugno
+		{% when '07' %}luglio
+		{% when '08' %}agosto
+		{% when '09' %}settembre
+		{% when '10' %}ottobre
+		{% when '11' %}novembre
+		{% when '12' %}dicembre
+	{%- endcase -%}
+{%- endcapture -%}
+{%- if abbr -%}
+	{{ mese | truncate: 3, '' }}
+{%- else -%}
+	{{ mese }}
+{%- endif -%}
 {{ date | date: ' %Y' -}}
