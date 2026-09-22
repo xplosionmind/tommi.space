@@ -37,10 +37,22 @@ sitemap:
 		</div>
 	</article>
 
-	<article id='meet' class='half blue box'>
+	<article id='meet' class='half blue box flow'>
 		<h2>Incontriamoci!</h2>
 		<p>Sono sempre molto felice di conoscere persone nuove, soprattutto se trasformando un contatto virtuale in un incontro. In questo periodo sono di base a <strong>{{ site.author.based }}</strong>, non esitare a <a href='{{ site.author.meet }}' title='Pianifica un appuntamento con Tommi' hreflang='en'>progammare un incontro</a> se fossi nei paraggi, o anche online!</p>
 		{% render 'upcoming.liquid', lang: lang, activities: activities %}
+		<div class=flex>
+			<a class='purple button' href=/activities/>Tutti gli eventi</a>
+		</div>
+	</article>
+
+	<article id='qsm' class='half | red box'>
+		<h2>Non sono sui social</h2>
+		<p>Da marzo 2021 <strong>ho eliminato tutti i miei profili</strong> dai social media <a href=https://linkedin.com/in/tommasomarmo title='Tommaso Marmo su Linkedin'>eccetto Linkedin</a> (per ora, purtroppo è troppo essenziale per lavoro).</p>
+		<p>Ho creato un sito che raccoglie le diverse ma complementari ragioni che mi hanno portato a questa scelta.</p>
+		<div class='flex row'>
+			<a class='button' href='https://quitsocialmedia.club/it/' title='quitsocialmedia.club home'>Parti da qui</a>
+		</div>
 	</article>
 
 	<article id=ournet class='half box'>
@@ -55,35 +67,7 @@ sitemap:
 		</figure>
 	</article>
 
-	<article id='sconnesso' class='one-third box'>
-		<a href='{{ sconnesso.link }}'>
-			<h2>Il podcast <cite>Sconnesso</cite></h2>
-			<figure>
-				<img src='/assets/sconnesso.webp' alt='Logo Sconnesso'>
-			</figure>
-		</a>
-		<p>{{ sconnesso.description | markdownify }}</p>
-		<div class='flex row'>
-			<a class='button' href='{{ sconnesso.link }}'>Ascolta</a>
-		</div>
-	</article>
-
-	{% for post in collections.zibaldone limit:1 %}
-		<article class='one-third'>
-			<div class='flex'>
-				<h2 style='color: #FFF; margin: 0' class='center wavyBackgroundPurple'>Ultimo articolo</h2>
-			</div>
-			<a href='{{ post.url }}' hreflang='{{ post.data.lang }}' style='display: block' class='box {% if post.data.tags contains 'newsletter' %}newsletter{% else %}purple{% endif %}' title='{{ post.data.title }}'>
-				<h3>{{ post.data.title }}</h3>
-				{% if post.data.description %}
-					<p>{{ post.data.description | markdownify | strip_html }}</p>
-				{% endif %}
-				<figure>
-					<img src='{{ post.data.image }}' alt='Immagine di copertina di “{{ post.data.title }}”'>
-				</figure>
-			</a>
-		</article>
-	{% endfor %}
+	{% render 'latest-post.liquid', lang: lang, zibaldone: collections.zibaldone %}
 
 	<article class='one-third razzmatazz border box'>
 		<a href='/marmellata/' title='La Marmellata'>
@@ -99,20 +83,15 @@ sitemap:
 		</div>
 	</article>
 
-	<article id='qsm' class='one-third | red box'>
-		<h2>Non sono sui social</h2>
-			<p>Da marzo 2021 <strong>ho eliminato tutti i miei profili</strong> dai social media <a href=https://linkedin.com/in/tommasomarmo title='Tommaso Marmo su Linkedin'>eccetto Linkedin</a> (per ora, purtroppo è troppo essenziale per lavoro).</p>
-			<p>Ho creato un sito che raccoglie le diverse ma complementari ragioni che mi hanno portato a questa scelta.</p>
-	<div class='flex row'>
-		<a class='button' href='https://quitsocialmedia.club/it/' title='quitsocialmedia.club home'>Parti da qui</a>
-	</div>
-</article>
-
 	{% render 'webrings.liquid', lang: lang %}
 
-	<div class='wide box'>
-		<h2 class=center lang=en>Guestbook</h2>
-		<form id=guestbook-form action=https://guestbook.tommi.space/guestbook/1/submit method=post>
+	<div class='wide box subgrid'>
+		<h2 class='wide center' lang=en>Guestbook</h2>
+		<form
+			id=guestbook-form
+			action=https://guestbook.tommi.space/guestbook/1/submit
+			method=post
+			class='vertical flex'>
 			<input
 				type=text
 				id=name
@@ -139,7 +118,7 @@ sitemap:
 				required>
 			<input class='red button' type=submit value='Firma il guestbook'>
 		</form>
-		<article id=guestbook-messages>
+		<article id=guestbook-messages class=wide>
 			<h3 class=center>Messaggi passati</h3>
 			<div class=grid>
 				{% for message in guestbook.messages %}

@@ -53,10 +53,13 @@ head: '<noscript><style>#scrollToMain{display: none;}</style></noscript>'
 		</div>
 	</article>
 
-	<article id='meet' class='half blue box'>
+	<article id='meet' class='half blue box flow'>
 		<h2>Let’s meet!</h2>
 		<p>I am always eager to meet new people, in particular when a virtual contact becomes an appointment in person. Currently I am based in <strong>{{ site.author.based }}</strong>, don’t hesitate to <a href='{{ site.author.meet }}' title='Schedule a meeting with Tommi'>schedule a meeting</a> if you are around, or even virtually!</p>
 		{% render 'upcoming.liquid', lang: lang, activities: activities %}
+		<div class=flex>
+			<a class='purple button' href=/activities/>All events</a>
+		</div>
 	</article>
 
 	<article id='qsm' class='half | red box'>
@@ -99,9 +102,13 @@ head: '<noscript><style>#scrollToMain{display: none;}</style></noscript>'
 
 	{% render 'webrings.liquid', lang: lang %}
 
-	<div class='wide box'>
-		<h2 class=center>Guestbook</h2>
-		<form id=guestbook-form action=https://guestbook.tommi.space/guestbook/1/submit method=post>
+	<div class='wide box subgrid'>
+		<h2 class='wide center'>Guestbook</h2>
+		<form
+			id=guestbook-form
+			action=https://guestbook.tommi.space/guestbook/1/submit
+			method=post
+			class='vertical flex'>
 			<input
 				type=text
 				id=name
@@ -128,7 +135,7 @@ head: '<noscript><style>#scrollToMain{display: none;}</style></noscript>'
 				required>
 			<input class='red button' type=submit value='Sign guestbook'>
 		</form>
-		<article id=guestbook-messages>
+		<article id=guestbook-messages class=wide>
 			<h3 class=center>Past messages</h3>
 			<div class=grid>
 				{% for message in guestbook.messages %}
