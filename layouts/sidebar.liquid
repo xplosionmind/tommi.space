@@ -119,6 +119,14 @@ type: CollectionPage
 						<dt>License:</dt>
 						<dd><a rel='license' href='{{ license.url }}'>{{ license.name }}</a></dd>
 				{% endif %}
+				{% if backlinks.size > 0 %}
+					<div id=backlinks>
+						<dt>What links here:</dt>
+						{% for bl in backlinks %}
+							<dd><a href='{{ bl.url }}'>{{ bl.title }}</a></dd>
+						{% endfor %}
+					</div>
+				{% endif %}
 			</dl>
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 		</details>

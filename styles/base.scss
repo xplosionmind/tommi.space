@@ -179,6 +179,15 @@ dl {
 		align-items: flex-start;
 		flex-wrap: wrap;
 	}
+	#backlinks {
+		display: block;
+		dd {
+			margin-left: var(--space-s);
+			&::before {
+				content: '→ ';
+			}
+		}
+	}
 }
 
 a {
@@ -291,7 +300,7 @@ input, textarea {
 p,
 ul,
 ol {
-	max-width: 68ch;
+	max-width: 50rem;
 	line-height: 1.7;
 }
 
