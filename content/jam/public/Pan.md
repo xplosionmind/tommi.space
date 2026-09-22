@@ -4,7 +4,6 @@ updated: 2022-12-06T08:08:33+01:00
 location: BDL
 tags: [geek]
 redirect_from: /pan.rent/
-image: https://x.scambi.org/illustrations/pan.webp
 description: Notes and thoughts on Pan administration
 ---
 <cite>[Pan](https://pan.rent)</cite> is the [Fediverse](Fediverse.md) node I am the admin of. I conceived it, but it is formally owned and managed by <cite>[APS Oltre](https://manuale.scambi.org/associazione 'APS Oltre — scambi.org')</cite>.

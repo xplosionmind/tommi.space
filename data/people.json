@@ -22,7 +22,7 @@
 	{
 		"who": "Robyn Brooks",
 		"lang": "en",
-		"image": "https://www.pogdesign.co.uk/cat/imgs/episodes/High-Fidelity/High-Fidelity-S01E09-219dde4f9f79104a68a3e832ef5dd4c4-full.jpg",
+		"image": "https://media.vanityfair.com/photos/5f2c2dcd0de2043b91dbed73/master/w_2240,c_limit/hf_103_pc_00395r-1.jpg",
 		"url": "https://en.wikipedia.org/wiki/High_Fidelity_(TV_series)",
 		"added": "2025-01-08T02:00:00+01:00",
 		"real": false,
@@ -93,7 +93,8 @@
 		"added": "2022-05-01",
 		"real": true,
 		"sex": "f",
-		"met": "2024-05-24T11:00:00+02:00"
+		"met": "2024-05-24T11:00:00+02:00",
+		"exclude": "2026-08-21T13:12:10+02:00"
 	},
 	{
 		"who": "Libereso Guglielmi",

@@ -11,8 +11,8 @@ step: 16
 ---
 
 <figure>
- <img src='https://www.americamagazine.org/sites/default/files/main_image/PopeBalcony.jpg' alt='Papa Francesco, la sera della sua elezione'>
-	<figcaption>Papa Francesco, la sera della sua elezione, il 13 febbraio 2013 - © americamagazine.org</figcaption>
+ <img src=https://upload.wikimedia.org/wikipedia/commons/0/03/Pope_Francis_Photo_2.jpg alt='Papa Francesco saluta la folla'>
+	<figcaption>Papa Francesco saluta la folla dalla papamobile. <a href=https://commons.wikimedia.org/wiki/File:Pope_Francis_Photo_2.jpg>CC-BY-SA-4.0 Alfredo Borba, Wikimedia Commons</a></figcaption>
 </figure>
 
 Non può esistere migliore incarnazione del valore se non [Papa Francesco](https://it.wikipedia.org/wiki/Papa_Francesco 'Papa Francesco Su Wikipedia'). Nella mia opinione (senza conoscere nessuno dei Papi precedenti al 2000) è il più grande, carismatico e adatto alla propria epoca fra tutti i Papi.

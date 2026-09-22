@@ -43,7 +43,7 @@ Sono dieci, percorrono una linea particolare (RV1), da Covent Garden alla Tower 
 La spiegazione chimica del fatto che i bus scarichino acqua è piuttosto semplice. Mentre i combustibili fossili contengono Carbonio (lo stesso identico carbonio che si utilizza per datare quanto un fossile è vecchio) che nella combustione si ossigena divenendo CO<sub>2</sub>, quando è l’idrogeno a bruciare unendosi all’Ossigeno, questi formano H<sub>2</sub>O.
 
 <figure>
-	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/HyFLEETCUTE-HydrogenBus-London3.JPG/1200px-HyFLEETCUTE-HydrogenBus-London3.JPG' alt='un autobus a idrogeno fermo a un bus stop'>
+	<img src=https://upload.wikimedia.org/wikipedia/commons/0/0c/HyFLEETCUTE-HydrogenBus-London3.JPG alt='un autobus a idrogeno fermo a un bus stop'>
 	<figcaption>un autobus a idrogeno fermo a un <i lang='en'>bus stop</i></figcaption>
 </figure>
 

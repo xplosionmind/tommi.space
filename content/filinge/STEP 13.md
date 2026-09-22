@@ -48,7 +48,7 @@ Nel corso del tempo, la macchina ha sempre più spesso indicato il mezzo di tras
 </figure>
 
 <figure>
-	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fiat_Uno_%28front%29%2C_Jimbaran.jpg/1200px-Fiat_Uno_%28front%29%2C_Jimbaran.jpg' alt='Fiat Uno'>
+	<img src=https://upload.wikimedia.org/wikipedia/commons/7/72/Fiat_Uno_%28front%29%2C_Jimbaran.jpg alt='Fiat Uno'>
 	<figcaption>Fiat Uno (1983)</figcaption>
 </figure>
 
