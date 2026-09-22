@@ -107,7 +107,7 @@ export default function (eleventyConfig, options = {}) {
 						}
 
 						const linkText = altText || hash || filePath;
-						return `<a href="${fullFilePath}" class=transclusion-link>${linkText}</a>\n<article class=transclusion>\n${fileContent}\n</article>`;
+						return `<article class=transclusion><div class=transclusion-link>This section was <span class=transclusion-info title='“Transcluding” means extracting (part of) the content of another page into this one.'>transcluded</span> from <a href="${fullFilePath}">${linkText}</a></div>\n${fileContent}\n</article>`;
 					} catch (err) {
 						console.error(`[pluginMarkdownEmbed]   Error reading file: ${err.message}`);
 						return match;

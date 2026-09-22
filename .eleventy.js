@@ -18,7 +18,8 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import pluginRobotsTxt from 'eleventy-plugin-robotstxt';
 import validateHtml from '@saiballo/eleventy-plugin-validate-html'
 
-import pluginMarkdownEmbed from './pluginMarkdownEmbed.js';
+import pluginMarkdownEmbed from './plugins/pluginMarkdownEmbed.js';
+import pluginBacklinks from './plugins/pluginBacklinks.js';
 
 export default function (eleventyConfig) {
 
@@ -142,6 +143,7 @@ export default function (eleventyConfig) {
 		ul: true
 	});
 	eleventyConfig.addPlugin(pluginMarkdownEmbed, { md });
+	eleventyConfig.addPlugin(pluginBacklinks);
 
 	// Filters //
 	eleventyConfig.addFilter('reverse', (collection) => {

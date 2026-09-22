@@ -314,6 +314,25 @@ details {
 	}
 }
 
+.transclusion {
+	position: relative;
+	border: 2px dotted var(--color);
+	border-radius: $radius-m;
+	margin-top: var(--space-m);
+	padding: var(--space-m);
+	.transclusion-link {
+		position: absolute;
+		top: calc(var(--size-0) / -2);
+		right: var(--space-m);
+		font-size: var(--size--1);
+		background: var(--bg);
+	}
+	.transclusion-info {
+		cursor: help;
+		text-decoration-style: wavy;
+	}
+}
+
 .header-anchor {
 	text-align: left;
 	color: inherit;
